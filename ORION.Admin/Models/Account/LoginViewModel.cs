@@ -15,6 +15,10 @@ namespace ORION.Admin.Models.Account
 
         [Display(Name = "remember me")]
         public bool RememberMe { get; set; }
+
+        [Required(ErrorMessage = "Email Address is required")]
+        [EmailAddress]
+        public string EmailAddress { get; set; } 
         
 
         public string ReturnUrl { get; set; }

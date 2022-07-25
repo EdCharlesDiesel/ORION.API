@@ -31,7 +31,7 @@ namespace ORION.Admin.Controllers
         {
             if (ModelState.IsValid)
             {
-                MasterUser appUser = new MasterUser { UserName = user.UserName, Email = user.Email };
+                MasterUser appUser = new MasterUser { UserName = user.UserName, Email = user.EmailAddress };
 
                 IdentityResult result = await _userManager.CreateAsync(appUser, user.Password);
 
@@ -99,7 +99,7 @@ namespace ORION.Admin.Controllers
         }
 
         [HttpPost, ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(UserEdit userEdit)
+        public async Task<IActionResult> Edit(MasterUserEditViewModel userEdit)
         {
             if (ModelState.IsValid)
             {

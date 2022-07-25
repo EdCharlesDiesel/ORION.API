@@ -12,7 +12,9 @@ namespace ORION.Domain.Aggregates
         
         bool IsBusinessOwner { get; set; }
            
-        byte[] Picture { get;}        
+        byte[] Picture { get;}      
+
+        string EmailAddress { get; set; }   
     }
 
     

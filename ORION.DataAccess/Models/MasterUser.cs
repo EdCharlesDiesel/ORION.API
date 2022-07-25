@@ -22,7 +22,8 @@ namespace ORION.DataAccess.Models
             Province = o.Province;
             Occupation = o.Occupation;
             Picture = o.Picture;
-            IsBusinessOwner = o.IsBusinessOwner;            
+            IsBusinessOwner = o.IsBusinessOwner;   
+            EmailAddress = o.EmailAddress;          
         }
 
         public bool IsTransient()
