@@ -1,0 +1,6 @@
+C:\Khotso\Projects\ORION\ORION.Admin.UnitTests\bin\Debug\net6.0\CoverletSourceRootsMapping
+C:\Khotso\Projects\ORION\ORION.Admin.UnitTests\obj\Debug\net6.0\ORION.AdminUnitTests.csproj.AssemblyReference.cache
+C:\Khotso\Projects\ORION\ORION.Admin.UnitTests\obj\Debug\net6.0\ORION.AdminUnitTests.GeneratedMSBuildEditorConfig.editorconfig
+C:\Khotso\Projects\ORION\ORION.Admin.UnitTests\obj\Debug\net6.0\ORION.AdminUnitTests.AssemblyInfoInputs.cache
+C:\Khotso\Projects\ORION\ORION.Admin.UnitTests\obj\Debug\net6.0\ORION.AdminUnitTests.AssemblyInfo.cs
+C:\Khotso\Projects\ORION\ORION.Admin.UnitTests\obj\Debug\net6.0\ORION.AdminUnitTests.csproj.CoreCompileInputs.cache

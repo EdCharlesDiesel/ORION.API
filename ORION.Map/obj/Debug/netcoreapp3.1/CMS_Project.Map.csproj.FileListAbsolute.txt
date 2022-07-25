@@ -1,0 +1,13 @@
+C:\Users\Refilwe\Downloads\CMS_Project\CMS_Project.Map\bin\Debug\netcoreapp3.1\CMS_Project.Map.deps.json
+C:\Users\Refilwe\Downloads\CMS_Project\CMS_Project.Map\bin\Debug\netcoreapp3.1\CMS_Project.Map.dll
+C:\Users\Refilwe\Downloads\CMS_Project\CMS_Project.Map\bin\Debug\netcoreapp3.1\CMS_Project.Map.pdb
+C:\Users\Refilwe\Downloads\CMS_Project\CMS_Project.Map\bin\Debug\netcoreapp3.1\CMS_Project.Entity.dll
+C:\Users\Refilwe\Downloads\CMS_Project\CMS_Project.Map\bin\Debug\netcoreapp3.1\CMS_Project.Entity.pdb
+C:\Users\Refilwe\Downloads\CMS_Project\CMS_Project.Map\obj\Debug\netcoreapp3.1\CMS_Project.Map.csproj.AssemblyReference.cache
+C:\Users\Refilwe\Downloads\CMS_Project\CMS_Project.Map\obj\Debug\netcoreapp3.1\CMS_Project.Map.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Refilwe\Downloads\CMS_Project\CMS_Project.Map\obj\Debug\netcoreapp3.1\CMS_Project.Map.AssemblyInfoInputs.cache
+C:\Users\Refilwe\Downloads\CMS_Project\CMS_Project.Map\obj\Debug\netcoreapp3.1\CMS_Project.Map.AssemblyInfo.cs
+C:\Users\Refilwe\Downloads\CMS_Project\CMS_Project.Map\obj\Debug\netcoreapp3.1\CMS_Project.Map.csproj.CoreCompileInputs.cache
+C:\Users\Refilwe\Downloads\CMS_Project\CMS_Project.Map\obj\Debug\netcoreapp3.1\CMS_Project.Map.csproj.CopyComplete
+C:\Users\Refilwe\Downloads\CMS_Project\CMS_Project.Map\obj\Debug\netcoreapp3.1\CMS_Project.Map.dll
+C:\Users\Refilwe\Downloads\CMS_Project\CMS_Project.Map\obj\Debug\netcoreapp3.1\CMS_Project.Map.pdb

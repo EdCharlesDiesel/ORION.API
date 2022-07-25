@@ -1,0 +1,13 @@
+{
+    "appService.defaultWebAppToDeploy": "/subscriptions/a71209ce-0c49-4567-bb3c-dab3452a71f9/microsoft.web/sites/subscriptions/a71209ce-0c49-4567-bb3c-dab3452a71f9/resourceGroups/SABBG/providers/Microsoft.Web/sites/SABBG",
+    "appService.deploySubpath": ".",
+    "omnisharp.sdkVersion": "6.0.301",
+    "omnisharp.sdkPath": "6.0.301",
+    "omnisharp.useModernNet": false,
+    "omnisharp.sdkIncludePrereleases": false,
+    "cSpell.words": [
+        "ıdentity",
+        "Khotso",
+        "/*Tests"
+    ]
+}

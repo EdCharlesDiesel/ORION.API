@@ -1,0 +1,12 @@
+C:\Khotso\Projects\SABBG.Web\SABBG.Tests.Common\bin\Debug\net5.0\SABBG.Tests.Common.deps.json
+C:\Khotso\Projects\SABBG.Web\SABBG.Tests.Common\bin\Debug\net5.0\SABBG.Tests.Common.dll
+C:\Khotso\Projects\SABBG.Web\SABBG.Tests.Common\bin\Debug\net5.0\ref\SABBG.Tests.Common.dll
+C:\Khotso\Projects\SABBG.Web\SABBG.Tests.Common\bin\Debug\net5.0\SABBG.Tests.Common.pdb
+C:\Khotso\Projects\SABBG.Web\SABBG.Tests.Common\obj\Debug\net5.0\SABBG.Tests.Common.csproj.AssemblyReference.cache
+C:\Khotso\Projects\SABBG.Web\SABBG.Tests.Common\obj\Debug\net5.0\SABBG.Tests.Common.GeneratedMSBuildEditorConfig.editorconfig
+C:\Khotso\Projects\SABBG.Web\SABBG.Tests.Common\obj\Debug\net5.0\SABBG.Tests.Common.AssemblyInfoInputs.cache
+C:\Khotso\Projects\SABBG.Web\SABBG.Tests.Common\obj\Debug\net5.0\SABBG.Tests.Common.AssemblyInfo.cs
+C:\Khotso\Projects\SABBG.Web\SABBG.Tests.Common\obj\Debug\net5.0\SABBG.Tests.Common.csproj.CoreCompileInputs.cache
+C:\Khotso\Projects\SABBG.Web\SABBG.Tests.Common\obj\Debug\net5.0\SABBG.Tests.Common.dll
+C:\Khotso\Projects\SABBG.Web\SABBG.Tests.Common\obj\Debug\net5.0\ref\SABBG.Tests.Common.dll
+C:\Khotso\Projects\SABBG.Web\SABBG.Tests.Common\obj\Debug\net5.0\SABBG.Tests.Common.pdb

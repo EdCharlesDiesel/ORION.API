@@ -1,0 +1,180 @@
+﻿@model ORION.Admin.Models.SecurityAdminAction
+
+@{
+
+}
+
+<h2>Security Admin</h2>
+
+<h3>Add Permission</h3>
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="AddPermission">
+            <div class="form-group">
+                <label asp-for="UserId" class="control-label"></label>
+                <select asp-for="UserId"
+                        asp-items="Model.Users"
+                        class="form-control"></select>
+
+            </div>
+
+            <div class="form-group">
+                <label asp-for="BusinessOwnerId" class="control-label"></label>
+                <select asp-for="BusinessOwnerId"
+                        asp-items="Model.BusinessOwners"
+                        class="form-control"></select>
+                <span asp-validation-for="BusinessOwnerId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Permission" class="control-label"></label>
+                <select asp-for="Permission"
+                        asp-items="Model.Permissions"
+                        class="form-control"></select>
+                <span asp-validation-for="Permission" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Add Permission" class="btn btn-default" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<h3>Remove Permission</h3>
+<div class="row">
+    <div class="col-md-4">
+        <table class="table" id="search-results">
+            <thead>
+                <tr>
+                    <th>Id</th>
+                    <th>User</th>
+                    <th>Permission</th>
+                    <th>BusinessOwner</th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model.Claims)
+                {
+                    <tr>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Id)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Username)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Permission)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.BusinessOwnerName)
+                        </td>
+                        <td>
+                            @Html.ActionLink("Remove", "RemovePermission", "SecurityAdmin", new { id = item.Id }, null)
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>
+
+
+
+<h3>Add To Group</h3>
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="AddToGroup">
+            <div class="form-group">
+                <label asp-for="UserId" class="control-label"></label>
+                <select asp-for="UserId"
+                        asp-items="Model.Users"
+                        class="form-control"></select>
+
+            </div>
+            <div class="form-group">
+                <label asp-for="RoleId" class="control-label"></label>
+                <select asp-for="RoleId"
+                        asp-items="Model.Roles"
+                        class="form-control"></select>
+                <span asp-validation-for="RoleId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Add to Group" class="btn btn-default" />
+            </div>
+        </form>
+    </div>
+</div>
+
+
+
+<h3>Remove From Group</h3>
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="RemoveFromGroup">
+            <div class="form-group">
+                <label asp-for="UserId" class="control-label"></label>
+                <select asp-for="UserId"
+                        asp-items="Model.Users"
+                        class="form-control"></select>
+
+            </div>
+            <div class="form-group">
+                <label asp-for="RoleId" class="control-label"></label>
+                <select asp-for="RoleId"
+                        asp-items="Model.Roles"
+                        class="form-control"></select>
+                <span asp-validation-for="RoleId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Remove from Group" class="btn btn-default" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<h3>Add Subscription</h3>
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="AddSubscription">
+            <div class="form-group">
+                <label asp-for="UserId" class="control-label"></label>
+                <select asp-for="UserId"
+                        asp-items="Model.Users"
+                        class="form-control"></select>
+
+            </div>
+            <div class="form-group">
+                <label asp-for="SubscriptionType" class="control-label"></label>
+                <select asp-for="SubscriptionType"
+                        asp-items="Model.SubscriptionTypes"
+                        class="form-control"></select>
+                <span asp-validation-for="SubscriptionType" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Add Subscription" class="btn btn-default" />
+            </div>
+        </form>
+    </div>
+</div>
+
+
+
+<h3>Remove Subscription</h3>
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="RemoveSubscription">
+            <div class="form-group">
+                <label asp-for="UserId" class="control-label"></label>
+                <select asp-for="UserId"
+                        asp-items="Model.Users"
+                        class="form-control"></select>
+
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Remove Subscription" class="btn btn-default" />
+            </div>
+        </form>
+    </div>
+</div>
+
+

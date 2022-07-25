@@ -1,0 +1,15 @@
+C:\Khotso\Projects\SABBG.WEB\_04_SABBG.Map\obj\Debug\net5.0\SABBG.Map.csproj.AssemblyReference.cache
+C:\Khotso\Projects\SABBG.WEB\_04_SABBG.Map\obj\Debug\net5.0\SABBG.Map.GeneratedMSBuildEditorConfig.editorconfig
+C:\Khotso\Projects\SABBG.WEB\_04_SABBG.Map\obj\Debug\net5.0\SABBG.Map.AssemblyInfoInputs.cache
+C:\Khotso\Projects\SABBG.WEB\_04_SABBG.Map\obj\Debug\net5.0\SABBG.Map.AssemblyInfo.cs
+C:\Khotso\Projects\SABBG.WEB\_04_SABBG.Map\obj\Debug\net5.0\SABBG.Map.csproj.CoreCompileInputs.cache
+C:\Khotso\Projects\SABBG.WEB\_04_SABBG.Map\bin\Debug\net5.0\SABBG.Map.deps.json
+C:\Khotso\Projects\SABBG.WEB\_04_SABBG.Map\bin\Debug\net5.0\SABBG.Map.dll
+C:\Khotso\Projects\SABBG.WEB\_04_SABBG.Map\bin\Debug\net5.0\ref\SABBG.Map.dll
+C:\Khotso\Projects\SABBG.WEB\_04_SABBG.Map\bin\Debug\net5.0\SABBG.Map.pdb
+C:\Khotso\Projects\SABBG.WEB\_04_SABBG.Map\bin\Debug\net5.0\SABBG.BusinessDomain.dll
+C:\Khotso\Projects\SABBG.WEB\_04_SABBG.Map\bin\Debug\net5.0\SABBG.BusinessDomain.pdb
+C:\Khotso\Projects\SABBG.WEB\_04_SABBG.Map\obj\Debug\net5.0\SABBG.Map.csproj.CopyComplete
+C:\Khotso\Projects\SABBG.WEB\_04_SABBG.Map\obj\Debug\net5.0\SABBG.Map.dll
+C:\Khotso\Projects\SABBG.WEB\_04_SABBG.Map\obj\Debug\net5.0\ref\SABBG.Map.dll
+C:\Khotso\Projects\SABBG.WEB\_04_SABBG.Map\obj\Debug\net5.0\SABBG.Map.pdb

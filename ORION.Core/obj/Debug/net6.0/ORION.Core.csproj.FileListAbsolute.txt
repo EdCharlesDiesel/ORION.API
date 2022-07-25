@@ -1,0 +1,12 @@
+C:\Khotso\Projects\ORION\ORION.Core\bin\Debug\net6.0\ORION.Core.deps.json
+C:\Khotso\Projects\ORION\ORION.Core\bin\Debug\net6.0\ORION.Core.dll
+C:\Khotso\Projects\ORION\ORION.Core\bin\Debug\net6.0\ORION.Core.pdb
+C:\Khotso\Projects\ORION\ORION.Core\obj\Debug\net6.0\ORION.Core.csproj.AssemblyReference.cache
+C:\Khotso\Projects\ORION\ORION.Core\obj\Debug\net6.0\ORION.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Khotso\Projects\ORION\ORION.Core\obj\Debug\net6.0\ORION.Core.AssemblyInfoInputs.cache
+C:\Khotso\Projects\ORION\ORION.Core\obj\Debug\net6.0\ORION.Core.AssemblyInfo.cs
+C:\Khotso\Projects\ORION\ORION.Core\obj\Debug\net6.0\ORION.Core.csproj.CoreCompileInputs.cache
+C:\Khotso\Projects\ORION\ORION.Core\obj\Debug\net6.0\ORION.Core.dll
+C:\Khotso\Projects\ORION\ORION.Core\obj\Debug\net6.0\refint\ORION.Core.dll
+C:\Khotso\Projects\ORION\ORION.Core\obj\Debug\net6.0\ORION.Core.pdb
+C:\Khotso\Projects\ORION\ORION.Core\obj\Debug\net6.0\ref\ORION.Core.dll

@@ -1,0 +1,56 @@
+﻿@model ORION.Admin.Models.Products.ProductsListViewModel
+@using ORION.Admin.Controllers
+@{
+
+    ViewData["Title"] = "Manage Products";
+}
+
+<div class="container">
+    <div class="col-lg-12 grid-margin stretch-card">
+        <div class="card" style="margin-top:40px">
+            <div class=" card-body">
+                <h4 class="card-title">@ViewData["Title"]</h4>
+                <table class="table table-hover">
+                    <thead>
+                        <tr>
+                            <th>Image</th>
+                            <th>Product Name</th>
+                            <th>Price</th>
+                            <th>Duration/Days</th>
+                            <th>Edit</th>
+                            <th>Delete</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var product in Model.Items)
+                        {
+                            <tr>
+                                <td>@product.Image</td>
+                                <td>@product.ProductName</td>
+                                <td class="text-danger"> @product.UnitPrice<i class="mdi mdi-arrow-down"></i>
+                                </td>
+                                <td>
+                                    <label class="badge badge-danger">@product.DurationInDays</label>
+                                </td>
+                                <td>
+                                    <a asp-controller="Product" asp-action="@nameof(ProductController.Edit)" asp-route-id="@product.Id">
+                                        <li class="fa fa-edit"></li>
+                                    </a>
+                                </td>
+                                <td>
+                                    <a asp-controller="Product" asp-action="@nameof(ProductController.Delete)" asp-route-id="@product.Id">
+                                        <li class="fa fa-trash-o"></li>
+                                    </a>
+                                </td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+            <div class="row" style="margin:10px">
+                <a style="margin-left:15px"  class="btn btn-success mr-2" asp-controller="Product" asp-action="@nameof(ProductController.Create)"> New Product</a>
+            </div>
+        </div>
+    </div>
+</div>
+

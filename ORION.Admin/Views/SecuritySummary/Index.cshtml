@@ -1,0 +1,51 @@
+﻿@model IEnumerable<System.Security.Claims.Claim>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h2>Claims Summary</h2>
+
+<table class="table">
+    <tr>
+        <th>
+            Issuer
+        </th>
+        <th>
+            Type
+        </th>
+        <th>
+            Value
+        </th>
+        <th>
+            Value Type
+        </th>
+        <th>
+            Subject
+        </th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Issuer)
+            </td>
+
+
+            <td>
+                @Html.DisplayFor(modelItem => item.Type)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Value)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ValueType)
+            </td>
+            <td>
+                    @Html.DisplayFor(modelItem => item.Subject)
+            </td>
+        </tr>
+    }
+
+</table>

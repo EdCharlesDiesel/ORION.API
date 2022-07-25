@@ -1,0 +1,390 @@
+﻿ @{
+    ViewData["Title"] = "Home Page";
+}
+  <section id="hero">
+    <div id="heroCarousel" data-bs-interval="5000" class="carousel slide carousel-fade" data-bs-ride="carousel">
+
+      <div class="carousel-inner" role="listbox">
+
+        <!-- Slide 1 -->
+        <div class="carousel-item active" style="background-image: url(./img/slide/slide-1.jpg);">
+          <div class="carousel-container">
+            <div class="carousel-content animate__animated animate__fadeInUp">
+              <h2>Welcome to <span>COG</span></h2>
+              <p>South African Black Business Group is an intergration of various groups of companies with one common goal! To Help all small, medium and startup business to group and have access to a number of business oppotunities and services within South Africa and abroad</p>
+            
+              <div class="text-center"><a asp-controller="About" asp-action="Index">Read More</a></div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Slide 2 -->
+        <div class="carousel-item" style="background-image: url(./img/slide/slide-2.jpg);">
+          <div class="carousel-container">
+            <div class="carousel-content animate__animated animate__fadeInUp">
+              <h2>Nation Sector</h2>
+              <p>We are avalable in all nine provices within South Africa and Gauteng, North-West, Western Cape, Eastern Cape, Kwazulu-Natal, Free-State, Limpopo, Northern Provice and Mpumalanga all of them we have office and a presence within the country .</p>
+              <div class="text-center"><a asp-controller="About" asp-action="Index">Read More</a></div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Slide 3 -->
+        <div class="carousel-item" style="background-image: url(./img/slide/slide-3.jpg);">
+          <div class="carousel-container">
+            <div class="carousel-content animate__animated animate__fadeInUp">
+              <h2>Provincial Executive</h2>
+              <p>The Provicial executive team is always available of help you with anything from consulting to Tax, Business coaching and finances. Our Invertment Arm also provides various investment oppotunities for all our clients both locally and abroad.... </p>
+              <div class="text-center"><a asp-controller="About" asp-action="Index">Read More</a></div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <a class="carousel-control-prev" href="#heroCarousel" role="button" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon bx bx-left-arrow" aria-hidden="true"></span>
+      </a>
+
+      <a class="carousel-control-next" href="#heroCarousel" role="button" data-bs-slide="next">
+        <span class="carousel-control-next-icon bx bx-right-arrow" aria-hidden="true"></span>
+      </a>
+
+      <ol class="carousel-indicators" id="hero-carousel-indicators"></ol>
+
+    </div>
+  </section><!-- End Hero -->
+
+  <main id="main">
+
+    <!-- ======= Cta Section ======= -->
+    <section id="cta" class="cta">
+      <div class="container">
+       <div class="row">
+
+          <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
+            <div class="member" data-aos="fade-up" data-aos-delay="300">
+              <div class="member-img">
+                <img src="./img/NoSlogan.jpg" class="img-fluid" alt="" width="100px" height="100px">                
+              </div>
+              <div class="member-info">
+                <h6>Segaetsho Cultural Village</h6>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
+            <div class="member" data-aos="fade-up" data-aos-delay="300">
+              <div class="member-img">
+                <img src="./img/NoSlogan.jpg" class="img-fluid" alt="" width="100px" height="100px">                
+              </div>
+              <div class="member-info">
+                <h6>Khestha Invertments and Projects</h6>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
+            <div class="member" data-aos="fade-up" data-aos-delay="300">
+              <div class="member-img">
+                <img src="./img/NoSlogan.jpg" class="img-fluid" alt="" width="100px" height="100px">                
+              </div>
+              <div class="member-info">
+                <h6>Hydro - Aqua Africa</h6>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
+            <div class="member" data-aos="fade-up" data-aos-delay="300">
+              <div class="member-img">
+                <img src="./img/NoSlogan.jpg" class="img-fluid" alt="" width="100px" height="100px">                
+              </div>
+              <div class="member-info">
+                <h6>LLT Billas</h6>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
+            <div class="member" data-aos="fade-up" data-aos-delay="300">
+              <div class="member-img">
+                <img src="./img/NoSlogan.jpg" class="img-fluid" alt="" width="100px" height="100px">                
+              </div>
+              <div class="member-info">
+                <h6>StarPeace Technologies</h6>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
+            <div class="member" data-aos="fade-up" data-aos-delay="300">
+              <div class="member-img">
+                <img src="./img/NoSlogan.jpg" class="img-fluid" alt="" width="100px" height="100px">                
+              </div>
+              <div class="member-info">
+                <h6>Loyiso Guided Solutions</h6>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Cta Section -->
+
+    <!-- ======= Services Section ======= -->
+    <section id="services" class="services">
+      <div class="container">
+
+        <div class="row">
+          <div class="col-lg-4 col-md-6">
+            <div class="icon-box" data-aos="fade-up">
+              <div class="icon"><i class="bi bi-briefcase"></i></div>
+              <h4 class="title"><a href="">Mining</a></h4>
+              <p class="description">We have business in the mining sector within various provinces</p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="icon-box" data-aos="fade-up" data-aos-delay="100">
+              <div class="icon"><i class="bi bi-card-checklist"></i></div>
+              <h4 class="title"><a href="">Agriculture</a></h4>
+              <p class="description">We have business in the Agriculture sector within various provinces</p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="icon-box" data-aos="fade-up" data-aos-delay="200">
+              <div class="icon"><i class="bi bi-bar-chart"></i></div>
+              <h4 class="title"><a href="">Construction</a></h4>
+              <p class="description">We have business in the Construction sector within various provinces</p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="icon-box" data-aos="fade-up" data-aos-delay="200">
+              <div class="icon"><i class="bi bi-car"></i></div>
+              <h4 class="title"><a href="">Transport</a></h4>
+              <p class="description">We have business in the Transport sector within various provinces</p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="icon-box" data-aos="fade-up" data-aos-delay="300">
+              <div class="icon"><i class="bi bi-brightness-high"></i></div>
+              <h4 class="title"><a href="">Services, Exports and Import</a></h4>
+              <p class="description">We have business in the Exports and Import sector within various provinces</p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="icon-box" data-aos="fade-up" data-aos-delay="400">
+              <div class="icon"><i class="bi bi-calendar4-week"></i></div>
+              <h4 class="title"><a href="">Engineering and Development</a></h4>
+              <p class="description">We have business in the Engineering and Development sector within various provinces</p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="icon-box" data-aos="fade-up" data-aos-delay="200">
+              <div class="icon"><i class="bi bi-binoculars"></i></div>
+              <h4 class="title"><a href="">Training and Development</a></h4>
+              <p class="description">We have business in the Training and Development sector within various provinces</p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="icon-box" data-aos="fade-up" data-aos-delay="300">
+              <div class="icon"><i class="bi bi-brightness-high"></i></div>
+              <h4 class="title"><a href="">Energy</a></h4>
+              <p class="description">We have business in the Energy sector within various provinces</p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="icon-box" data-aos="fade-up" data-aos-delay="400">
+              <div class="icon"><i class="bi bi-calendar4-week"></i></div>
+              <h4 class="title"><a href="">Health</a></h4>
+              <p class="description">We have business in the Health sector within various provinces</p>
+            </div>
+          </div>
+           <div class="col-lg-4 col-md-6">
+            <div class="icon-box" data-aos="fade-up" data-aos-delay="400">
+              <div class="icon"><i class="bi bi-calendar4-week"></i></div>
+              <h4 class="title"><a href="">Travel and Tourism</a></h4>
+              <p class="description">We have business in the Health sector within various provinces</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End Services Section -->
+
+    <!-- ======= Portfolio Section ======= -->
+    <section id="portfolio" class="portfolio">
+      <div class="container">
+
+        <div class="row" data-aos="fade-up">
+          <div class="col-lg-12 d-flex justify-content-center">
+            <ul id="portfolio-flters">
+              <li data-filter="*" class="filter-active">All</li>
+              <li data-filter=".filter-mining">Mining</li>
+              <li data-filter=".filter-agriculture">Agriculture</li>
+              <li data-filter=".filter-construction">Construction</li>
+              <li data-filter=".filter-transport">Transport</li>
+              <li data-filter=".filter-export-import">Services, Exports & Import</li>
+              <li data-filter=".filter-engineering-development">Engineering & Development</li>
+              <li data-filter=".filter-training-development">Training & Development</li>
+              <li data-filter=".filter-travel-tourism`">Travel & Tourism</li>
+              <li data-filter=".filter-energy">Energy</li>
+              <li data-filter=".filter-health">Health</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="row portfolio-container" data-aos="fade-up">
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <img src="./img/NoSlogan.jpg" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>Thuto Legwale</h4>
+              <p>Travel and Tourism</p>
+              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <img src="./img/NoSlogan.jpg" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>Thuto Legwale</h4>
+              <p>Travel and Tourism</p>
+              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <img src="./img/NoSlogan.jpg" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>Thuto Legwale</h4>
+              <p>Travel and Tourism</p>
+              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <img src="./img/NoSlogan.jpg" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>Thuto Legwale</h4>
+              <p>Travel and Tourism</p>
+              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <img src="./img/NoSlogan.jpg" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>Thuto Legwale</h4>
+              <p>Travel and Tourism</p>
+              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <img src="./img/NoSlogan.jpg" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>Thuto Legwale</h4>
+              <p>Travel and Tourism</p>
+              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <img src="./img/NoSlogan.jpg" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>Thuto Legwale</h4>
+              <p>Travel and Tourism</p>
+              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <img src="./img/NoSlogan.jpg" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>Thuto Legwale</h4>
+              <p>Travel and Tourism</p>
+              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <img src="./img/NoSlogan.jpg" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>Thuto Legwale</h4>
+              <p>Travel and Tourism</p>
+              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Portfolio Section -->
+
+    <!-- ======= Our Clients Section ======= -->
+    <section id="clients" class="clients">
+      <div class="container">
+
+        <div class="section-title" data-aos="fade-up">
+          <h2>Our <strong>Companies</strong></h2>
+          <p>The following are some of the companies that represent COG. Various industries and services are available you can chose or wecan advice which company 
+            gets the tender to give you the best rate and service and most importantly value for your money.
+          </p>
+        </div>
+
+        <div class="row no-gutters clients-wrap clearfix" data-aos="fade-up">
+
+          <div class="col-lg-3 col-md-4 col-xs-6">
+            <div class="client-logo">
+              <img src="./img/clients/client-1.png" class="img-fluid" alt="">
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4 col-xs-6">
+            <div class="client-logo">
+              <img src="./img/clients/client-2.png" class="img-fluid" alt="">
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4 col-xs-6">
+            <div class="client-logo">
+              <img src="./img/clients/client-3.png" class="img-fluid" alt="">
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4 col-xs-6">
+            <div class="client-logo">
+              <img src="./img/clients/client-4.png" class="img-fluid" alt="">
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4 col-xs-6">
+            <div class="client-logo">
+              <img src="./img/clients/client-5.png" class="img-fluid" alt="">
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4 col-xs-6">
+            <div class="client-logo">
+              <img src="./img/clients/client-6.png" class="img-fluid" alt="">
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4 col-xs-6">
+            <div class="client-logo">
+              <img src="./img/clients/client-7.png" class="img-fluid" alt="">
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4 col-xs-6">
+            <div class="client-logo">
+              <img src="./img/clients/client-8.png" class="img-fluid" alt="">
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Our Clients Section -->
+
+  </main><!-- End #main -->

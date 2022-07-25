@@ -1,0 +1,212 @@
+﻿@{
+  ViewData["Title"] = "Business Owner Page";
+}
+
+<div class="content-wrapper">
+
+  <div class="col-md-12 grid-margin">
+    <h1>My Business</h1>
+    <div class="card">
+      <div class="card-body">
+        <div class="d-flex justify-content-between">
+          <h3 class="card-title mb-0">Business Number 1: BS0024SGB</h3>
+          <h4 class="card-title mb-0">Invoice</h4>
+          <a href="#"><small>Show All</small></a>
+        </div>
+        <div class="table-responsive">
+          <table class="table table-striped table-hover">
+            <thead>
+              <tr>
+                <th>Invoice ID</th>
+                <th>Customer</th>
+                <th>Status</th>
+                <th>Due Date</th>
+                <th>Amount</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>INV-87239</td>
+                <td>Tebogo Makganye</td>
+                <td>Paid</td>
+                <td>20 Jan 2022</td>
+                <td>R755</td>
+              </tr>
+              <tr>
+                <td>INV-87239</td>
+                <td>Tumelo Mvelo</td>
+                <td>Unpaid</td>
+                <td>23 Feb 2022</td>
+                <td>R800</td>
+              </tr>
+              <tr>
+                <td>INV-87239</td>
+                <td>Patric Mokoena</td>
+                <td>Unpaid</td>
+                <td>25 Mar 2022</td>
+                <td>R463</td>
+              </tr>
+              <tr>
+                <td>INV-87239</td>
+                <td>Pinky Moswelo</td>
+                <td>Paid</td>
+                <td>27 Mar 2022</td>
+                <td>R235</td>
+              </tr>
+              <tr>
+                <td>INV-87239</td>
+                <td>Lala Teise</td>
+                <td>Unpaid</td>
+                <td>1 Apr 2022</td>
+                <td>R657</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+      <div class="card-body" style="Margin-top:10px">
+        <div class="d-flex justify-content-between">
+          <h3 class="card-title mb-0">Business Number 2: BS0025SGB</h3>
+          <h4 class="card-title mb-0">Invoice</h4>
+          <a href="#"><small>Show All</small></a>
+        </div>
+        <div class="table-responsive">
+          <table class="table table-striped table-hover">
+            <thead>
+              <tr>
+                <th>Invoice ID</th>
+                <th>Customer</th>
+                <th>Status</th>
+                <th>Due Date</th>
+                <th>Amount</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>INV-87239</td>
+                <td>Mathite Makganye</td>
+                <td>Paid</td>
+                <td>20 Jan 2022</td>
+                <td>R1205</td>
+              </tr>
+              <tr>
+                <td>INV-87239</td>
+                <td>Mpumelelo Msale</td>
+                <td>Unpaid</td>
+                <td>23 Feb 2022</td>
+                <td>R900</td>
+              </tr>
+              <tr>
+                <td>INV-87239</td>
+                <td>Patric Mokwena</td>
+                <td>Unpaid</td>
+                <td>25 Mar 2022</td>
+                <td>R963</td>
+              </tr>
+              <tr>
+                <td>INV-87239</td>
+                <td>Thoko Maile</td>
+                <td>Paid</td>
+                <td>27 Mar 2022</td>
+                <td>R235</td>
+              </tr>
+              <tr>
+                <td>INV-87239</td>
+                <td>Lala Teise</td>
+                <td>Unpaid</td>
+                <td>1 Apr 2022</td>
+                <td>R657</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-body">
+        <h4 class="card-title mb-4">All Sales Around the Country</h4>
+        <div id="dashboard-vmap" class="vector-map"></div>
+        <div class="wrapper">
+          <div class="d-flex w-100 pt-2 mt-4">
+            <p class="mb-0 font-weight-semibold">Kwazulu-Natal</p>
+            <div class="wrapper ml-auto d-flex align-items-center">
+              <p class="font-weight-semibold mb-0">26,437</p>
+              <p class="ml-1 mb-0">26%</p>
+            </div>
+          </div>
+          <div class="d-flex w-100 pt-2">
+            <p class="mb-0 font-weight-semibold">Gauteng</p>
+            <div class="wrapper ml-auto d-flex align-items-center">
+              <p class="font-weight-semibold mb-0">94,252</p>
+              <p class="ml-1 mb-0">88%</p>
+            </div>
+          </div>
+
+          <div class="d-flex w-100 pt-2">
+            <p class="mb-0 font-weight-semibold">Mpumalanga</p>
+            <div class="wrapper ml-auto d-flex align-items-center">
+              <p class="font-weight-semibold mb-0">44,987</p>
+              <p class="ml-1 mb-0">30%</p>
+            </div>
+          </div>
+          <div class="d-flex w-100 pt-2">
+            <p class="mb-0 font-weight-semibold">North West</p>
+            <div class="wrapper ml-auto d-flex align-items-center">
+              <p class="font-weight-semibold mb-0">111,987</p>
+              <p class="ml-1 mb-0">120%</p>
+            </div>
+          </div>
+
+          <div class="d-flex w-100 pt-2">
+            <p class="mb-0 font-weight-semibold">Northern Cape</p>
+            <div class="wrapper ml-auto d-flex align-items-center">
+              <p class="font-weight-semibold mb-0">33,987</p>
+              <p class="ml-1 mb-0">32%</p>
+            </div>
+          </div>
+
+          <div class="d-flex w-100 pt-2">
+            <p class="mb-0 font-weight-semibold">Western Cape</p>
+            <div class="wrapper ml-auto d-flex align-items-center">
+              <p class="font-weight-semibold mb-0">5,987</p>
+              <p class="ml-1 mb-0">10%</p>
+            </div>
+          </div>
+
+          <div class="d-flex w-100 pt-2">
+            <p class="mb-0 font-weight-semibold">Eastern Cape</p>
+            <div class="wrapper ml-auto d-flex align-items-center">
+              <p class="font-weight-semibold mb-0">22,987</p>
+              <p class="ml-1 mb-0">5%</p>
+            </div>
+          </div>
+
+          <div class="d-flex w-100 pt-2">
+            <p class="mb-0 font-weight-semibold">Northern Province</p>
+            <div class="wrapper ml-auto d-flex align-items-center">
+              <p class="font-weight-semibold mb-0">400,987</p>
+              <p class="ml-1 mb-0">66%</p>
+            </div>
+          </div>
+
+          <div class="d-flex w-100 pt-2">
+            <p class="mb-0 font-weight-semibold">Limpopo </p>
+            <div class="wrapper ml-auto d-flex align-items-center">
+              <p class="font-weight-semibold mb-0">6,987</p>
+              <p class="ml-1 mb-0">33%</p>
+            </div>
+          </div>
+
+          <div class="d-flex w-100 pt-2">
+            <p class="mb-0 font-weight-semibold">Botswana</p>
+            <div class="wrapper ml-auto d-flex align-items-center">
+              <p class="font-weight-semibold mb-0">1,987</p>
+              <p class="ml-1 mb-0">3%</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

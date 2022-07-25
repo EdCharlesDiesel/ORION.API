@@ -1,0 +1,23 @@
+﻿@model ORION.DataAccess.Models.Term
+
+@{
+    Layout = null;
+}
+<tr>
+    <td>
+        @Html.EditorFor(model => model.IsDeleted, "form-control")
+    </td>
+    <td>
+        @Html.EditorFor(model => model.NumberOfTerms, "form-control")
+    </td>
+    <td >
+        @Html.HiddenFor(model => model.Id)
+        @Html.EditorFor(model => model.Role, "form-control")
+    </td>
+    <td >
+        @Html.EditorFor(model => model.StartOfTerm, "form-control")
+    </td>
+    <td >
+        @Html.EditorFor(model => model.EndOfTerm, "form-control")
+    </td>
+</tr>

@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "8fE4pkhB8CjpGVbi75I6NktJxp6KnC9puXw6pW6pkfcm0LdQ2Un3Y0HBdFVe0wjqPCuO1P3NyS2+ypeYNK/tIg==",
+  "success": true,
+  "projectFilePath": "c:\\Khotso\\Projects\\ORION\\ORION.Domain\\ORION.Domain.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Refilwe\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\5.0.0\\microsoft.extensions.dependencyinjection.5.0.0.nupkg.sha512",
+    "C:\\Users\\Refilwe\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\5.0.0\\microsoft.extensions.dependencyinjection.abstractions.5.0.0.nupkg.sha512",
+    "C:\\Users\\Refilwe\\.nuget\\packages\\system.componentmodel.annotations\\5.0.0\\system.componentmodel.annotations.5.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
