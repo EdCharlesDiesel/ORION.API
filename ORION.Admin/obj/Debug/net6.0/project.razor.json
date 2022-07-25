@@ -16368,6 +16368,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Khotso\\Projects\\ORION\\ORION.Admin\\Views\\Account\\LogIn.cshtml",
+      "TargetPath": "Views\\Account\\LogIn.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Khotso\\Projects\\ORION\\ORION.Admin\\Views\\EXCO\\Index.cshtml",
       "TargetPath": "Views\\EXCO\\Index.cshtml",
       "FileKind": "mvc"
@@ -16380,6 +16385,11 @@
     {
       "FilePath": "c:\\Khotso\\Projects\\ORION\\ORION.Admin\\Views\\_ViewStart.cshtml",
       "TargetPath": "Views\\_ViewStart.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Khotso\\Projects\\ORION\\ORION.Admin\\Views\\Account\\Register.cshtml",
+      "TargetPath": "Views\\Account\\Register.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -16455,6 +16465,11 @@
     {
       "FilePath": "c:\\Khotso\\Projects\\ORION\\ORION.Admin\\Views\\BusinessOwner\\Index.cshtml",
       "TargetPath": "Views\\BusinessOwner\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Khotso\\Projects\\ORION\\ORION.Admin\\Views\\Account\\Edit.cshtml",
+      "TargetPath": "Views\\Account\\Edit.cshtml",
       "FileKind": "mvc"
     }
   ],
