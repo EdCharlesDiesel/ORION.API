@@ -9,5 +9,6 @@
         "ıdentity",
         "Khotso",
         "/*Tests"
-    ]
+    ],
+    "omnisharp.projectLoadTimeout": 480
 }

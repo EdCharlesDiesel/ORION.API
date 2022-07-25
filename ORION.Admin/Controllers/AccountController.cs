@@ -4,14 +4,10 @@ using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using ORION.Admin.Models.Account;
 using ORION.DataAccess.Models;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 
 namespace ORION.Admin.Controllers
 {
-   // [Authorize]
+    // [Authorize]
     public class AccountController : Controller
     {
         private readonly UserManager<MasterUser> _userManager;
@@ -58,18 +54,17 @@ namespace ORION.Admin.Controllers
         [AllowAnonymous]
         public IActionResult LogIn(string returnUrl)
         {
-            Login login = new Login { ReturnUrl = returnUrl };
+            LoginViewModel login = new LoginViewModel { ReturnUrl = returnUrl };
 
             return View(login);
         }
 
         [HttpPost, AllowAnonymous, ValidateAntiForgeryToken]
-        public async Task<IActionResult> LogIn(Login login)
+        public async Task<IActionResult> LogIn(LoginViewModel login)
         {
             if (ModelState.IsValid)
             {
                 var appUser = await _userManager.FindByNameAsync(login.UserName);
-              //  IdentityResult appUser = await _userManager.FindByNameAsync(login.UserName);
 
                 if (appUser != null)
                 {
@@ -77,7 +72,8 @@ namespace ORION.Admin.Controllers
 
                     if (signInResult.Succeeded)
                     {
-                        return Redirect("login.ReturnUrl" ?? "/");
+                        //return Redirect("login.ReturnUrl" ?? "/");
+                        return Redirect("login.ReturnUrl" ?? "/Home");
                     }
 
                     ModelState.AddModelError("", "The login failed because of wrong credential information..!");
@@ -97,7 +93,7 @@ namespace ORION.Admin.Controllers
         {
             MasterUser appUser = await _userManager.FindByNameAsync(User.Identity.Name);
 
-            UserEdit userEdit = new UserEdit(appUser);
+            MasterUserEditViewModel userEdit = new MasterUserEditViewModel(appUser);
 
             return View(userEdit);
         }

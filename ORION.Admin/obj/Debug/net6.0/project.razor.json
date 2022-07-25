@@ -1,5 +1,5 @@
 {
-  "FilePath": "c:\\Khotso\\Projects\\SABBG.WEB\\ORION.Admin\\ORION.Admin.csproj",
+  "FilePath": "c:\\Khotso\\Projects\\ORION\\ORION.Admin\\ORION.Admin.csproj",
   "Configuration": {
     "ConfigurationName": "MVC-3.0",
     "LanguageVersion": "6.0",
@@ -16298,163 +16298,163 @@
   "RootNamespace": "ORION.Admin",
   "Documents": [
     {
-      "FilePath": "c:\\Khotso\\Projects\\SABBG.WEB\\ORION.Admin\\Views\\Tasks\\Index.cshtml",
-      "TargetPath": "Views\\Tasks\\Index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Khotso\\Projects\\SABBG.WEB\\ORION.Admin\\Views\\Shared\\DisplayTemplates\\Term.cshtml",
-      "TargetPath": "Views\\Shared\\DisplayTemplates\\Term.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Khotso\\Projects\\SABBG.WEB\\ORION.Admin\\Views\\Feature\\Delete.cshtml",
-      "TargetPath": "Views\\Feature\\Delete.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Khotso\\Projects\\SABBG.WEB\\ORION.Admin\\Views\\Shared\\_LoginPartial.cshtml",
-      "TargetPath": "Views\\Shared\\_LoginPartial.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Khotso\\Projects\\SABBG.WEB\\ORION.Admin\\Views\\Home\\Privacy.cshtml",
-      "TargetPath": "Views\\Home\\Privacy.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Khotso\\Projects\\SABBG.WEB\\ORION.Admin\\Views\\BusinessOwner\\Index.cshtml",
-      "TargetPath": "Views\\BusinessOwner\\Index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Khotso\\Projects\\SABBG.WEB\\ORION.Admin\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
-      "TargetPath": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Khotso\\Projects\\SABBG.WEB\\ORION.Admin\\Views\\SecuritySummary\\Index.cshtml",
-      "TargetPath": "Views\\SecuritySummary\\Index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Khotso\\Projects\\SABBG.WEB\\ORION.Admin\\Views\\Product\\Index.cshtml",
-      "TargetPath": "Views\\Product\\Index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Khotso\\Projects\\SABBG.WEB\\ORION.Admin\\Views\\Search\\IndexStateSearch.cshtml",
+      "FilePath": "c:\\Khotso\\Projects\\ORION\\ORION.Admin\\Views\\Search\\IndexStateSearch.cshtml",
       "TargetPath": "Views\\Search\\IndexStateSearch.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Khotso\\Projects\\SABBG.WEB\\ORION.Admin\\Views\\SecurityAdmin\\Index.cshtml",
-      "TargetPath": "Views\\SecurityAdmin\\Index.cshtml",
+      "FilePath": "c:\\Khotso\\Projects\\ORION\\ORION.Admin\\Views\\Shared\\_LoginPartial.cshtml",
+      "TargetPath": "Views\\Shared\\_LoginPartial.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Khotso\\Projects\\SABBG.WEB\\ORION.Admin\\Views\\Shared\\EditorTemplates\\Term.cshtml",
-      "TargetPath": "Views\\Shared\\EditorTemplates\\Term.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Khotso\\Projects\\SABBG.WEB\\ORION.Admin\\Views\\Home\\Contact.cshtml",
-      "TargetPath": "Views\\Home\\Contact.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Khotso\\Projects\\SABBG.WEB\\ORION.Admin\\Views\\BusinessOwner\\Edit.cshtml",
-      "TargetPath": "Views\\BusinessOwner\\Edit.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Khotso\\Projects\\SABBG.WEB\\ORION.Admin\\Views\\Activity\\Index.cshtml",
-      "TargetPath": "Views\\Activity\\Index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Khotso\\Projects\\SABBG.WEB\\ORION.Admin\\Views\\Feature\\Index.cshtml",
+      "FilePath": "c:\\Khotso\\Projects\\ORION\\ORION.Admin\\Views\\Feature\\Index.cshtml",
       "TargetPath": "Views\\Feature\\Index.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Khotso\\Projects\\SABBG.WEB\\ORION.Admin\\Views\\BusinessOwner\\Details.cshtml",
-      "TargetPath": "Views\\BusinessOwner\\Details.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Khotso\\Projects\\SABBG.WEB\\ORION.Admin\\Views\\Search\\Index.cshtml",
-      "TargetPath": "Views\\Search\\Index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Khotso\\Projects\\SABBG.WEB\\ORION.Admin\\Views\\Home\\Index.cshtml",
-      "TargetPath": "Views\\Home\\Index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Khotso\\Projects\\SABBG.WEB\\ORION.Admin\\Areas\\Identity\\Pages\\_ViewStart.cshtml",
+      "FilePath": "c:\\Khotso\\Projects\\ORION\\ORION.Admin\\Areas\\Identity\\Pages\\_ViewStart.cshtml",
       "TargetPath": "Areas\\Identity\\Pages\\_ViewStart.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Khotso\\Projects\\SABBG.WEB\\ORION.Admin\\Views\\Feature\\Create.cshtml",
-      "TargetPath": "Views\\Feature\\Create.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Khotso\\Projects\\SABBG.WEB\\ORION.Admin\\Views\\Home\\About.cshtml",
-      "TargetPath": "Views\\Home\\About.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Khotso\\Projects\\SABBG.WEB\\ORION.Admin\\Views\\EXCO\\Index.cshtml",
-      "TargetPath": "Views\\EXCO\\Index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Khotso\\Projects\\SABBG.WEB\\ORION.Admin\\Views\\Shared\\Error.cshtml",
+      "FilePath": "c:\\Khotso\\Projects\\ORION\\ORION.Admin\\Views\\Shared\\Error.cshtml",
       "TargetPath": "Views\\Shared\\Error.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Khotso\\Projects\\SABBG.WEB\\ORION.Admin\\Views\\_ViewStart.cshtml",
-      "TargetPath": "Views\\_ViewStart.cshtml",
+      "FilePath": "c:\\Khotso\\Projects\\ORION\\ORION.Admin\\Views\\Shared\\DisplayTemplates\\Term.cshtml",
+      "TargetPath": "Views\\Shared\\DisplayTemplates\\Term.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Khotso\\Projects\\SABBG.WEB\\ORION.Admin\\Views\\Shared\\_CookieConsentPartial.cshtml",
-      "TargetPath": "Views\\Shared\\_CookieConsentPartial.cshtml",
+      "FilePath": "c:\\Khotso\\Projects\\ORION\\ORION.Admin\\Views\\Product\\Index.cshtml",
+      "TargetPath": "Views\\Product\\Index.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Khotso\\Projects\\SABBG.WEB\\ORION.Admin\\Views\\BusinessOwner\\BusinessOverView.cshtml",
+      "FilePath": "c:\\Khotso\\Projects\\ORION\\ORION.Admin\\Views\\Search\\Index.cshtml",
+      "TargetPath": "Views\\Search\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Khotso\\Projects\\ORION\\ORION.Admin\\Views\\Activity\\Index.cshtml",
+      "TargetPath": "Views\\Activity\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Khotso\\Projects\\ORION\\ORION.Admin\\Views\\BusinessOwner\\BusinessOverView.cshtml",
       "TargetPath": "Views\\BusinessOwner\\BusinessOverView.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Khotso\\Projects\\SABBG.WEB\\ORION.Admin\\Views\\_ViewImports.cshtml",
-      "TargetPath": "Views\\_ViewImports.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Khotso\\Projects\\SABBG.WEB\\ORION.Admin\\Views\\Feature\\Details.cshtml",
+      "FilePath": "c:\\Khotso\\Projects\\ORION\\ORION.Admin\\Views\\Feature\\Details.cshtml",
       "TargetPath": "Views\\Feature\\Details.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Khotso\\Projects\\SABBG.WEB\\ORION.Admin\\Views\\Feature\\Edit.cshtml",
+      "FilePath": "c:\\Khotso\\Projects\\ORION\\ORION.Admin\\Views\\Feature\\Delete.cshtml",
+      "TargetPath": "Views\\Feature\\Delete.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Khotso\\Projects\\ORION\\ORION.Admin\\Views\\SecuritySummary\\Index.cshtml",
+      "TargetPath": "Views\\SecuritySummary\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Khotso\\Projects\\ORION\\ORION.Admin\\Views\\Feature\\Edit.cshtml",
       "TargetPath": "Views\\Feature\\Edit.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Khotso\\Projects\\SABBG.WEB\\ORION.Admin\\Views\\Product\\Edit.cshtml",
+      "FilePath": "c:\\Khotso\\Projects\\ORION\\ORION.Admin\\Views\\EXCO\\Index.cshtml",
+      "TargetPath": "Views\\EXCO\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Khotso\\Projects\\ORION\\ORION.Admin\\Views\\Home\\Contact.cshtml",
+      "TargetPath": "Views\\Home\\Contact.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Khotso\\Projects\\ORION\\ORION.Admin\\Views\\_ViewStart.cshtml",
+      "TargetPath": "Views\\_ViewStart.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Khotso\\Projects\\ORION\\ORION.Admin\\Views\\Shared\\_CookieConsentPartial.cshtml",
+      "TargetPath": "Views\\Shared\\_CookieConsentPartial.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Khotso\\Projects\\ORION\\ORION.Admin\\Views\\Feature\\Create.cshtml",
+      "TargetPath": "Views\\Feature\\Create.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Khotso\\Projects\\ORION\\ORION.Admin\\Views\\Home\\Index.cshtml",
+      "TargetPath": "Views\\Home\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Khotso\\Projects\\ORION\\ORION.Admin\\Views\\_ViewImports.cshtml",
+      "TargetPath": "Views\\_ViewImports.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Khotso\\Projects\\ORION\\ORION.Admin\\Views\\BusinessOwner\\Details.cshtml",
+      "TargetPath": "Views\\BusinessOwner\\Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Khotso\\Projects\\ORION\\ORION.Admin\\Views\\BusinessOwner\\Edit.cshtml",
+      "TargetPath": "Views\\BusinessOwner\\Edit.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Khotso\\Projects\\ORION\\ORION.Admin\\Views\\SecurityAdmin\\Index.cshtml",
+      "TargetPath": "Views\\SecurityAdmin\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Khotso\\Projects\\ORION\\ORION.Admin\\Views\\Shared\\_Layout.cshtml",
+      "TargetPath": "Views\\Shared\\_Layout.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Khotso\\Projects\\ORION\\ORION.Admin\\Views\\Shared\\EditorTemplates\\Term.cshtml",
+      "TargetPath": "Views\\Shared\\EditorTemplates\\Term.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Khotso\\Projects\\ORION\\ORION.Admin\\Views\\Home\\Privacy.cshtml",
+      "TargetPath": "Views\\Home\\Privacy.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Khotso\\Projects\\ORION\\ORION.Admin\\Views\\Home\\About.cshtml",
+      "TargetPath": "Views\\Home\\About.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Khotso\\Projects\\ORION\\ORION.Admin\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+      "TargetPath": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Khotso\\Projects\\ORION\\ORION.Admin\\Views\\Product\\Edit.cshtml",
       "TargetPath": "Views\\Product\\Edit.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Khotso\\Projects\\SABBG.WEB\\ORION.Admin\\Views\\Shared\\_Layout.cshtml",
-      "TargetPath": "Views\\Shared\\_Layout.cshtml",
+      "FilePath": "c:\\Khotso\\Projects\\ORION\\ORION.Admin\\Views\\Tasks\\Index.cshtml",
+      "TargetPath": "Views\\Tasks\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Khotso\\Projects\\ORION\\ORION.Admin\\Views\\BusinessOwner\\Index.cshtml",
+      "TargetPath": "Views\\BusinessOwner\\Index.cshtml",
       "FileKind": "mvc"
     }
   ],

@@ -30,13 +30,13 @@
         <div class="text-center navbar-brand-wrapper d-flex align-items-top justify-content-center">
           <a class="navbar-brand brand-logo" href="index.html">
             <!--<img src="~/images/logo.svg" alt="logo" />-->
-			</a>
+		    	</a>
           <a class="navbar-brand brand-logo-mini" href="index.html">
             <img src="~/images/logo-mini.svg" alt="logo" /> </a>
         </div>
         <div class="navbar-menu-wrapper d-flex align-items-center">
           <ul class="navbar-nav">
-            <li class="nav-item font-weight-semibold d-none d-lg-block">Help : +27 81 230 2067</li>
+            <li class="nav-item font-weight-semibold d-none d-lg-block">Help : +27 62 026 6583</li>
             <li class="nav-item dropdown language-dropdown">
               <a class="nav-link dropdown-toggle px-2 d-flex align-items-center" id="LanguageDropdown" href="#" data-toggle="dropdown" aria-expanded="false">
                 <div class="d-inline-flex mr-0 mr-md-3">
@@ -47,11 +47,11 @@
                 <span class="profile-text font-weight-medium d-none d-md-block">English</span>
               </a>
               <div class="dropdown-menu dropdown-menu-left navbar-dropdown py-2" aria-labelledby="LanguageDropdown">
-                <a class="dropdown-item">
+                @* <a class="dropdown-item">
                   <div class="flag-icon-holder">
                     <i class="flag-icon flag-icon-us"></i>
                   </div>English
-                </a>
+                </a> *@
                 <a class="dropdown-item">
                   <div class="flag-icon-holder">
                     <i class="flag-icon flag-icon-za"></i>
@@ -196,8 +196,8 @@
                   <div class="dot-indicator bg-success"></div>
                 </div>
                 <div class="text-wrapper">
-                  <p class="profile-name">Khotso mokhethi</p>
-                  @* <p class="designation">COO</p> *@
+                  <p class="profile-name">Khotso Mokhethi</p>
+                  <p class="designation">Chief Architech</p>
                 </div>
               </a>
             </li>
@@ -210,31 +210,41 @@
                 <span class="menu-title">Dashboard</span>
               </a>
             </li>
+            
             @* <li class="nav-item">
-              <a class="nav-link" data-toggle="collapse" href="#ui-basic" aria-expanded="false" aria-controls="ui-basic">
-                <i class="menu-icon typcn typcn-coffee"></i>
-                <span class="menu-title">Basic UI Elements</span>
-                <i class="menu-arrow"></i>
-              </a>
-              <div class="collapse" id="ui-basic">
-                <ul class="nav flex-column sub-menu">
-                  <li class="nav-item">
-                    <a class="nav-link" href="pages/ui-features/buttons.html">Buttons</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="pages/ui-features/dropdowns.html">Dropdowns</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="pages/ui-features/typography.html">Typography</a>
-                  </li>
-                </ul>
-              </div>
-            </li> *@
-            <li class="nav-item">
               <a class="nav-link" asp-controller="SecurityAdmin" asp-action="index">
                <i class="menu-icon typcn typcn-th-large-outline"></i>
                 <span class="menu-title">Settings</span>
               </a>
+            </li> *@
+             <li class="nav-item">
+              <a class="nav-link" data-toggle="collapse" href="#ui-settings" aria-expanded="false" aria-controls="ui-settings">
+                <i class="menu-icon typcn typcn-coffee"></i>
+                <span class="menu-title">Settings</span>
+                <i class="menu-arrow"></i>
+              </a>
+              <div class="collapse" id="ui-settings">
+                <ul class="nav flex-column sub-menu">
+                  <li class="nav-item">
+                    <a class="nav-link" asp-controller="SecurityAdmin" asp-action="index">Security Admin</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" asp-controller="SecuritySummary" asp-action="index">Security Summary</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" asp-controller="ManageUsers" asp-action="index">Manage Users</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" asp-controller="API" asp-action="index">API</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" asp-controller="DataImport" asp-action="index">Data Import</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" asp-controller="DataExport" asp-action="index">Data Export</a>
+                  </li>                  
+                </ul>
+              </div>
             </li>
              <li class="nav-item">
               <a class="nav-link" asp-controller="Reports" asp-action="index">
@@ -290,7 +300,7 @@
          <!-- partial:partials/_footer.html -->
           <footer class="footer">
             <div class="container-fluid clearfix">
-              <span class="text-muted d-block text-center text-sm-left d-sm-inline-block">Copyright © StarPeace.online 2022</span>
+              <span class="text-muted d-block text-center text-sm-left d-sm-inline-block">Copyright © StarPeace.Online 2022</span>
            
             </div>
           </footer>

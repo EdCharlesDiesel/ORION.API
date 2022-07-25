@@ -70,6 +70,10 @@ namespace ORION.DataAccess.Models
             DomainEvents?.Remove(evt);
         }
 
+        [Required(ErrorMessage = "Email Address is required")]
+        [EmailAddress]
+        public string EmailAddress { get; set; }               
+
         [Required(ErrorMessage = "Province is required")]
         public string Province { get; set; }
 

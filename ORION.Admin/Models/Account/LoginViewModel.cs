@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations;
-using System.Linq;
-using System.Threading.Tasks;
+﻿using System.ComponentModel.DataAnnotations;
 
 namespace ORION.Admin.Models.Account
 {
@@ -19,5 +15,8 @@ namespace ORION.Admin.Models.Account
 
         [Display(Name = "remember me")]
         public bool RememberMe { get; set; }
+        
+
+        public string ReturnUrl { get; set; }
     }
 }
