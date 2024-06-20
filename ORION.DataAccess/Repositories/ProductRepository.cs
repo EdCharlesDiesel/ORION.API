@@ -7,6 +7,7 @@ using Microsoft.EntityFrameworkCore;
 using ORION.DataAccess.Models;
 using ORION.Domain.Events;
 using ORION.DataAccess.Contexts;
+using System;
 
 namespace ORION.DataAccess.Repositories
 {
@@ -21,26 +22,29 @@ namespace ORION.DataAccess.Repositories
 
         public async Task<IProduct> Get(int id)
         {
-            return await context.Products.Where(m => m.Id == id)
-                .FirstOrDefaultAsync();
+            //return await context.Products.Where(m => m.Id == id)
+            //    .FirstOrDefaultAsync();
+            throw new NotImplementedException();
         }
 
         public async Task<IProduct> Delete(int id)
         {
-            var model = await Get(id);
-            if (model == null) return null;
-            context.Products.Remove(model as Product);
-            model.AddDomainEvent(
-                new ProductDeleteEvent(
-                    model.Id, (model as Product).EntityVersion));
-            return model;
+            //var model = await Get(id);
+            //if (model == null) return null;
+            //context.Products.Remove(model as Product);
+            //model.AddDomainEvent(
+            //    new ProductDeleteEvent(
+            //        model.Id, (model as Product).EntityVersion));
+            //return model;
+            throw new NotImplementedException();
         }
         
         public IProduct New()
         {
-            var model = new Product() {EntityVersion=1 };
-            context.Products.Add(model);
-            return model;
+            throw new NotImplementedException();
+            //var model = new Product() {EntityVersion=1 };
+            //context.Products.Add(model);
+            //return model;
         }
 
         // public async Task<bool> UploadFile(MultipartReader reader,MultipartSection? section)

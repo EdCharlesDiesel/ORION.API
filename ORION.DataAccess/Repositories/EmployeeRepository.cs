@@ -8,6 +8,7 @@ using ORION.DataAccess.Models;
 using ORION.Domain.Events;
 using ORION.DataAccess.Contexts;
 using ORION.Admin.Handlers;
+using System;
 
 namespace ORION.DataAccess.Repositories
 {
@@ -22,8 +23,9 @@ namespace ORION.DataAccess.Repositories
 
         public async Task<IEmployee> Get(int id)
         {
-            return await context.Employees.Where(m => m.Id == id)
-                .FirstOrDefaultAsync();
+            throw new NotImplementedException();
+            //return await context.Employees.Where(m => m.Id == id)
+            //    .FirstOrDefaultAsync();
         }
 
         public async Task<IEmployee> Delete(int id)
@@ -31,17 +33,18 @@ namespace ORION.DataAccess.Repositories
             var model = await Get(id);
             if (model == null) return null;
             context.Employees.Remove(model as Employee);
-            model.AddDomainEvent(
-                new EmployeeDeleteEvent(
-                    model.Id, (model as Employee).EntityVersion));
+            //model.AddDomainEvent(
+            //    new EmployeeDeleteEvent(
+            //        model.Id, (model as Employee).EntityVersion));
             return model;
         }
 
         public IEmployee New()
         {
-            var model = new Employee() { EntityVersion = 1 };
-            context.Employees.Add(model);
-            return model;
+            throw new NotImplementedException();            
+            //var model = new Employee() { EntityVersion = 1 };
+            //context.Employees.Add(model);
+            //return model;
         }
     }
 }

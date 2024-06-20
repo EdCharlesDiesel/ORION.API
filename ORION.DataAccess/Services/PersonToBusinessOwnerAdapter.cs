@@ -34,36 +34,36 @@ namespace ORION.DataAccess.Services
 
         public void Adapt(Person fromValue, BusinessOwner toValue)
         {
-            if (fromValue == null)
-                throw new ArgumentNullException("fromValue", "fromValue is null.");
-            if (toValue == null)
-                throw new ArgumentNullException("toValue", "toValue is null.");
+            //if (fromValue == null)
+            //    throw new ArgumentNullException("fromValue", "fromValue is null.");
+            //if (toValue == null)
+            //    throw new ArgumentNullException("toValue", "toValue is null.");
 
-            //FIXME fromValueId
-            toValue.Id = fromValue.Id;
-            toValue.FirstName = fromValue.FirstName;
-            toValue.LastName = fromValue.LastName;
+            ////FIXME fromValueId
+            //toValue.Id = fromValue.Id;
+            //toValue.FirstName = fromValue.FirstName;
+            //toValue.LastName = fromValue.LastName;
 
-            toValue.ImageFilename = fromValue.Businesses.GetBusinessValueAsString(
-                BusinessOwnerConstants.ImageFilename);
+            //toValue.ImageFilename = fromValue.Businesses.GetBusinessValueAsString(
+            //    BusinessOwnerConstants.ImageFilename);
 
-            toValue.BirthCity = fromValue.Businesses.GetBusinessValueAsString(
-                BusinessOwnerConstants.BirthCity);
+            //toValue.BirthCity = fromValue.Businesses.GetBusinessValueAsString(
+            //    BusinessOwnerConstants.BirthCity);
 
-            toValue.BirthDate = fromValue.Businesses.GetBusinessValueAsDateTime(
-                BusinessOwnerConstants.BirthDate);
+            //toValue.BirthDate = fromValue.Businesses.GetBusinessValueAsDateTime(
+            //    BusinessOwnerConstants.BirthDate);
 
-            toValue.BusinessProvince = fromValue.Businesses.GetBusinessValueAsString(
-                BusinessOwnerConstants.BirthProvince);
+            //toValue.BusinessProvince = fromValue.Businesses.GetBusinessValueAsString(
+            //    BusinessOwnerConstants.BirthProvince);
 
-            toValue.BusinessCity = fromValue.Businesses.GetBusinessValueAsString(
-                BusinessOwnerConstants.BusinessCity);
+            //toValue.BusinessCity = fromValue.Businesses.GetBusinessValueAsString(
+            //    BusinessOwnerConstants.BusinessCity);
 
-            toValue.BusinessDate = fromValue.Businesses.GetBusinessValueAsDateTime(
-                BusinessOwnerConstants.BusinessDate);
+            //toValue.BusinessDate = fromValue.Businesses.GetBusinessValueAsDateTime(
+            //    BusinessOwnerConstants.BusinessDate);
 
-            toValue.BusinessProvince = fromValue.Businesses.GetBusinessValueAsString(
-                BusinessOwnerConstants.BusinessProvince);
+            //toValue.BusinessProvince = fromValue.Businesses.GetBusinessValueAsString(
+            //    BusinessOwnerConstants.BusinessProvince);
 
             // FIXME later need to fix
             // var businessList = fromValue.Businesses.GetBusiness(BusinessOwnerConstants.BusinessOwner);
@@ -130,56 +130,56 @@ namespace ORION.DataAccess.Services
 
         public void Adapt(BusinessOwner fromValue, Person toValue)
         {
-            if (fromValue == null)
-                throw new ArgumentNullException("fromValue", "fromValue is null.");
-            if (toValue == null)
-                throw new ArgumentNullException("toValue", "toValue is null.");
+            //if (fromValue == null)
+            //    throw new ArgumentNullException("fromValue", "fromValue is null.");
+            //if (toValue == null)
+            //    throw new ArgumentNullException("toValue", "toValue is null.");
         
-            toValue.Id = fromValue.Id;
-            toValue.FirstName = fromValue.FirstName;
-            toValue.LastName = fromValue.LastName;
+            //toValue.Id = fromValue.Id;
+            //toValue.FirstName = fromValue.FirstName;
+            //toValue.LastName = fromValue.LastName;
 
-            if (fromValue.Id == 0)
-            {
-                toValue.Businesses.Clear();
-            }
+            //if (fromValue.Id == 0)
+            //{
+            //    toValue.Businesses.Clear();
+            //}
 
-            AdaptBusiness(fromValue, toValue);
+            //AdaptBusiness(fromValue, toValue);
 
-            AdaptTerms(fromValue, toValue);
+            //AdaptTerms(fromValue, toValue);
         }
 
         private static void AdaptTerms(BusinessOwner fromValue, Person toValue)
         {
-            foreach (var fromTerm in fromValue.Terms)
-            {
-                if (fromTerm.IsDeleted == false)
-                {
-                    toValue.AddBusiness(fromTerm.Id,
-                        fromTerm.Role,
-                        fromTerm.NumberOfTerms.ToString(),
-                        fromTerm.StartOfTerm,
-                        fromTerm.EndOfTerm
-                        );
-                }
-                else if (fromTerm.IsDeleted == true && fromTerm.Id > 0)
-                {
-                    toValue.RemoveBusiness(fromTerm.Id);
-                }
-            }
+            //foreach (var fromTerm in fromValue.Terms)
+            //{
+            //    if (fromTerm.IsDeleted == false)
+            //    {
+            //        toValue.AddBusiness(fromTerm.Id,
+            //            fromTerm.Role,
+            //            fromTerm.NumberOfTerms.ToString(),
+            //            fromTerm.StartOfTerm,
+            //            fromTerm.EndOfTerm
+            //            );
+            //    }
+            //    else if (fromTerm.IsDeleted == true && fromTerm.Id > 0)
+            //    {
+            //        toValue.RemoveBusiness(fromTerm.Id);
+            //    }
+            //}
         }
         public void AdaptValueToPersonBusiness(string fromValue,
         Person toPerson, 
             string toPersonBusinessType)
         {
-            toPerson.AddBusiness(toPersonBusinessType, fromValue);
+            //toPerson.AddBusiness(toPersonBusinessType, fromValue);
         }
 
         public void AdaptValueToPersonBusiness(DateTime fromValue,
             Person toPerson,
             string toPersonBusinessType)
         {
-            toPerson.AddBusiness(toPersonBusinessType, fromValue);
+            //toPerson.AddBusiness(toPersonBusinessType, fromValue);
         }
     }
 }

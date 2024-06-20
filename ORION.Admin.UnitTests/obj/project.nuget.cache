@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "LQMLKZWQD9o=",
+  "dgSpecHash": "vXdePgsxECU=",
   "success": true,
   "projectFilePath": "C:\\x\\ORION.API\\ORION.Admin.UnitTests\\ORION.Admin.UnitTests.csproj",
   "expectedPackageFiles": [
@@ -9,9 +9,10 @@
     "C:\\Users\\user\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\castle.core\\4.4.0\\castle.core.4.4.0.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\coverlet.collector\\3.1.0\\coverlet.collector.3.1.0.nupkg.sha512",
-    "C:\\Users\\user\\.nuget\\packages\\microsoft.aspnetcore.authentication.openidconnect\\5.0.7\\microsoft.aspnetcore.authentication.openidconnect.5.0.7.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\8.0.6\\microsoft.aspnetcore.cryptography.internal.8.0.6.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\microsoft.aspnetcore.cryptography.keyderivation\\8.0.6\\microsoft.aspnetcore.cryptography.keyderivation.8.0.6.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\microsoft.aspnetcore.http.abstractions\\2.2.0\\microsoft.aspnetcore.http.abstractions.2.2.0.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\microsoft.aspnetcore.http.features\\2.2.0\\microsoft.aspnetcore.http.features.2.2.0.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\microsoft.aspnetcore.identity.entityframeworkcore\\8.0.6\\microsoft.aspnetcore.identity.entityframeworkcore.8.0.6.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\microsoft.aspnetcore.mvc.testing\\5.0.0\\microsoft.aspnetcore.mvc.testing.5.0.0.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\microsoft.aspnetcore.testhost\\5.0.0\\microsoft.aspnetcore.testhost.5.0.0.nupkg.sha512",
