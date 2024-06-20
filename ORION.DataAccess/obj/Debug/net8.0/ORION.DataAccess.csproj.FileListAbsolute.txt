@@ -1,0 +1,6 @@
+C:\x\ORION.API\ORION.DataAccess\obj\Debug\net8.0\ORION.DataAccess.csproj.AssemblyReference.cache
+C:\x\ORION.API\ORION.DataAccess\obj\Debug\net8.0\ORION.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+C:\x\ORION.API\ORION.DataAccess\obj\Debug\net8.0\ORION.DataAccess.AssemblyInfoInputs.cache
+C:\x\ORION.API\ORION.DataAccess\obj\Debug\net8.0\ORION.DataAccess.AssemblyInfo.cs
+C:\x\ORION.API\ORION.DataAccess\obj\Debug\net8.0\ORION.DataAccess.csproj.CoreCompileInputs.cache
+C:\x\ORION.API\ORION.DataAccess\obj\Debug\net8.0\ORION.DataAccess.sourcelink.json

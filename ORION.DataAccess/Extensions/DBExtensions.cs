@@ -57,24 +57,24 @@ namespace ORION.DataAccess.Extensions
                     
                     Products = new List<Product>()
                         {
-                            new Product
-                            {
-                                ProductName = "MacBook Pro M1",
-                                StartValidityDate = new DateTime(2019, 6, 1),
-                                EndValidityDate = new DateTime(2019, 10, 1),
-                                DurationInDays = 7,
-                                UnitPrice = 1000,
-                                EntityVersion = 1
-                            },
-                            new Product
-                            {
-                                ProductName = "MacBook Pro M2",
-                                StartValidityDate = new DateTime(2019, 12, 1),
-                                EndValidityDate = new DateTime(2020, 2, 1),
-                                DurationInDays=7,
-                                UnitPrice=500,
-                                EntityVersion=1
-                            }
+                            //new Product
+                            //{
+                            //    ProductName = "MacBook Pro M1",
+                            //    StartValidityDate = new DateTime(2019, 6, 1),
+                            //    EndValidityDate = new DateTime(2019, 10, 1),
+                            //    DurationInDays = 7,
+                            //    UnitPrice = 1000,
+                            //    EntityVersion = 1
+                            //},
+                            //new Product
+                            //{
+                            //    ProductName = "MacBook Pro M2",
+                            //    StartValidityDate = new DateTime(2019, 12, 1),
+                            //    EndValidityDate = new DateTime(2020, 2, 1),
+                            //    DurationInDays=7,
+                            //    UnitPrice=500,
+                            //    EntityVersion=1
+                            //}
                         }
                 };
                 context.Categories.Add(firstCategory);

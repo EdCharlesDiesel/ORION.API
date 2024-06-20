@@ -52,9 +52,9 @@ namespace ORION.DataAccess.Contexts
 
         public DbSet<LogEntryEvent> LogEntryEvents { get; set; }
 
-        // public DbSet<MasterUser> AllUsers { get; set; }
+        public DbSet<MasterUser> AllUsers { get; set; }
 
-        // public DbSet<MasterUserEvent> AllUserEvents { get; set; }
+        public DbSet<MasterUserEvent> AllUserEvents { get; set; }
 
         public DbSet<Order> Orders { get; set; }
 
@@ -64,9 +64,9 @@ namespace ORION.DataAccess.Contexts
 
         public DbSet<OrderDetailEvent> OrderDetailEvents { get; set; }
 
-       public DbSet<Person> Persons { get; set; }
+        public DbSet<Person> Persons { get; set; }
 
-      //  public DbSet<PersonBusiness> PersonBusinesses { get; set; }
+        public DbSet<PersonBusiness> PersonBusinesses { get; set; }
 
         public DbSet<Product> Products { get; set; }        
 
@@ -199,44 +199,44 @@ namespace ORION.DataAccess.Contexts
             }
         }
 
-        // protected override void OnModelCreating(ModelBuilder modelBuilder)
-        // {
-        //     // modelBuilder.Entity<Person>(entity =>
-        //     // {
-        //     //     entity.ToTable("Persons");
-        //     // });
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            // modelBuilder.Entity<Person>(entity =>
+            // {
+            //     entity.ToTable("Persons");
+            // });
 
-        //   //  modelBuilder.Entity<PersonBusiness>().ToTable("PersonBusiness");
+            //  modelBuilder.Entity<PersonBusiness>().ToTable("PersonBusiness");
 
-        //   //  modelBuilder.Entity<Feature>().ToTable("Feature");
+            //  modelBuilder.Entity<Feature>().ToTable("Feature");
 
-        //    // modelBuilder.Entity<LogEntry>().ToTable("LogEntry");
-        //    modelBuilder.Entity<IdentityUserLogin<int>>(entity =>
-           
-        //    {
-        //        entity.HasNoKey();
-        //    }
-        //    );
-            
+            // modelBuilder.Entity<LogEntry>().ToTable("LogEntry");
+            modelBuilder.Entity<IdentityUserLogin<int>>(entity =>
 
-        //     modelBuilder.Entity<Relationship>(entity =>
-        //     {
-        //         entity.ToTable("Relationships");
-
-        //         entity.Property(e => e.RelationshipType)
-        //             .IsRequired()
-        //             .HasMaxLength(100);
-
-        //         entity.HasOne(d => d.FromPerson)
-        //             .WithMany(p => p.Relationships)
-        //             .HasForeignKey(d => d.FromPersonId)
-        //             .OnDelete(DeleteBehavior.Restrict);
+            {
+                entity.HasNoKey();
+            }
+            );
 
 
-        //         // THE PROBLEM IS HERE
-        //         // SOMEHOW NEED TO MAP THE "TO" RELATIONSHIP
-        //         entity.HasOne(d => d.ToPerson);
-        //     });
-        // }
+            modelBuilder.Entity<Relationship>(entity =>
+            {
+                entity.ToTable("Relationships");
+
+                entity.Property(e => e.RelationshipType)
+                    .IsRequired()
+                    .HasMaxLength(100);
+
+                entity.HasOne(d => d.FromPerson)
+                    .WithMany(p => p.Relationships)
+                    .HasForeignKey(d => d.FromPersonId)
+                    .OnDelete(DeleteBehavior.Restrict);
+
+
+                // THE PROBLEM IS HERE
+                // SOMEHOW NEED TO MAP THE "TO" RELATIONSHIP
+                entity.HasOne(d => d.ToPerson);
+            });
+        }
     }
 }

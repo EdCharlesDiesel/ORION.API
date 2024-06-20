@@ -1,7 +1,44 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\x\\ORION.API\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{10FEAB8B-DFAB-4F4D-97AC-10DCFCC4F89B}|ORION.Map\\ORION.Map.csproj|c:\\x\\orion.api\\orion.map\\orion.map.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{10FEAB8B-DFAB-4F4D-97AC-10DCFCC4F89B}|ORION.Map\\ORION.Map.csproj|solutionrelative:orion.map\\orion.map.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8007E64B-CDA7-4C78-B903-436CF6F62995}|ORION.DataAccess\\ORION.DataAccess.csproj|c:\\x\\orion.api\\orion.dataaccess\\services\\httpcontextusernameprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8007E64B-CDA7-4C78-B903-436CF6F62995}|ORION.DataAccess\\ORION.DataAccess.csproj|solutionrelative:orion.dataaccess\\services\\httpcontextusernameprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8007E64B-CDA7-4C78-B903-436CF6F62995}|ORION.DataAccess\\ORION.DataAccess.csproj|c:\\x\\orion.api\\orion.dataaccess\\models\\termevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8007E64B-CDA7-4C78-B903-436CF6F62995}|ORION.DataAccess\\ORION.DataAccess.csproj|solutionrelative:orion.dataaccess\\models\\termevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8007E64B-CDA7-4C78-B903-436CF6F62995}|ORION.DataAccess\\ORION.DataAccess.csproj|c:\\x\\orion.api\\orion.dataaccess\\models\\masteruser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8007E64B-CDA7-4C78-B903-436CF6F62995}|ORION.DataAccess\\ORION.DataAccess.csproj|solutionrelative:orion.dataaccess\\models\\masteruser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8007E64B-CDA7-4C78-B903-436CF6F62995}|ORION.DataAccess\\ORION.DataAccess.csproj|c:\\x\\orion.api\\orion.dataaccess\\extensions\\dbextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8007E64B-CDA7-4C78-B903-436CF6F62995}|ORION.DataAccess\\ORION.DataAccess.csproj|solutionrelative:orion.dataaccess\\extensions\\dbextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8007E64B-CDA7-4C78-B903-436CF6F62995}|ORION.DataAccess\\ORION.DataAccess.csproj|c:\\x\\orion.api\\orion.dataaccess\\models\\term.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8007E64B-CDA7-4C78-B903-436CF6F62995}|ORION.DataAccess\\ORION.DataAccess.csproj|solutionrelative:orion.dataaccess\\models\\term.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8007E64B-CDA7-4C78-B903-436CF6F62995}|ORION.DataAccess\\ORION.DataAccess.csproj|c:\\x\\orion.api\\orion.dataaccess\\models\\productproductphoto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8007E64B-CDA7-4C78-B903-436CF6F62995}|ORION.DataAccess\\ORION.DataAccess.csproj|solutionrelative:orion.dataaccess\\models\\productproductphoto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8007E64B-CDA7-4C78-B903-436CF6F62995}|ORION.DataAccess\\ORION.DataAccess.csproj|c:\\x\\orion.api\\orion.dataaccess\\contexts\\oriondbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8007E64B-CDA7-4C78-B903-436CF6F62995}|ORION.DataAccess\\ORION.DataAccess.csproj|solutionrelative:orion.dataaccess\\contexts\\oriondbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8007E64B-CDA7-4C78-B903-436CF6F62995}|ORION.DataAccess\\ORION.DataAccess.csproj|c:\\x\\orion.api\\orion.dataaccess\\models\\productphoto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8007E64B-CDA7-4C78-B903-436CF6F62995}|ORION.DataAccess\\ORION.DataAccess.csproj|solutionrelative:orion.dataaccess\\models\\productphoto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,7 +46,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -22,6 +59,123 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ORION.Map",
+              "DocumentMoniker": "C:\\x\\ORION.API\\ORION.Map\\ORION.Map.csproj",
+              "RelativeDocumentMoniker": "ORION.Map\\ORION.Map.csproj",
+              "ToolTip": "C:\\x\\ORION.API\\ORION.Map\\ORION.Map.csproj",
+              "RelativeToolTip": "ORION.Map\\ORION.Map.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-06-20T13:45:20.917Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "HttpContextUsernameProvider.cs",
+              "DocumentMoniker": "C:\\x\\ORION.API\\ORION.DataAccess\\Services\\HttpContextUsernameProvider.cs",
+              "RelativeDocumentMoniker": "ORION.DataAccess\\Services\\HttpContextUsernameProvider.cs",
+              "ToolTip": "C:\\x\\ORION.API\\ORION.DataAccess\\Services\\HttpContextUsernameProvider.cs",
+              "RelativeToolTip": "ORION.DataAccess\\Services\\HttpContextUsernameProvider.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-20T13:44:31.997Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "TermEvent.cs",
+              "DocumentMoniker": "C:\\x\\ORION.API\\ORION.DataAccess\\Models\\TermEvent.cs",
+              "RelativeDocumentMoniker": "ORION.DataAccess\\Models\\TermEvent.cs",
+              "ToolTip": "C:\\x\\ORION.API\\ORION.DataAccess\\Models\\TermEvent.cs",
+              "RelativeToolTip": "ORION.DataAccess\\Models\\TermEvent.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-20T13:44:05.285Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MasterUser.cs",
+              "DocumentMoniker": "C:\\x\\ORION.API\\ORION.DataAccess\\Models\\MasterUser.cs",
+              "RelativeDocumentMoniker": "ORION.DataAccess\\Models\\MasterUser.cs",
+              "ToolTip": "C:\\x\\ORION.API\\ORION.DataAccess\\Models\\MasterUser.cs",
+              "RelativeToolTip": "ORION.DataAccess\\Models\\MasterUser.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-20T13:44:00.173Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DBExtensions.cs",
+              "DocumentMoniker": "C:\\x\\ORION.API\\ORION.DataAccess\\Extensions\\DBExtensions.cs",
+              "RelativeDocumentMoniker": "ORION.DataAccess\\Extensions\\DBExtensions.cs",
+              "ToolTip": "C:\\x\\ORION.API\\ORION.DataAccess\\Extensions\\DBExtensions.cs",
+              "RelativeToolTip": "ORION.DataAccess\\Extensions\\DBExtensions.cs",
+              "ViewState": "AQIAACoAAAAAAAAAAAAowEwAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-20T13:43:35.691Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Term.cs",
+              "DocumentMoniker": "C:\\x\\ORION.API\\ORION.DataAccess\\Models\\Term.cs",
+              "RelativeDocumentMoniker": "ORION.DataAccess\\Models\\Term.cs",
+              "ToolTip": "C:\\x\\ORION.API\\ORION.DataAccess\\Models\\Term.cs",
+              "RelativeToolTip": "ORION.DataAccess\\Models\\Term.cs",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAAAAIAAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-20T13:43:27.601Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ProductProductPhoto.cs",
+              "DocumentMoniker": "C:\\x\\ORION.API\\ORION.DataAccess\\Models\\ProductProductPhoto.cs",
+              "RelativeDocumentMoniker": "ORION.DataAccess\\Models\\ProductProductPhoto.cs",
+              "ToolTip": "C:\\x\\ORION.API\\ORION.DataAccess\\Models\\ProductProductPhoto.cs",
+              "RelativeToolTip": "ORION.DataAccess\\Models\\ProductProductPhoto.cs",
+              "ViewState": "AQIAACAAAAAAAAAAAAArwDAAAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-20T13:43:21.759Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "OrionDbContext.cs",
+              "DocumentMoniker": "C:\\x\\ORION.API\\ORION.DataAccess\\Contexts\\OrionDbContext.cs",
+              "RelativeDocumentMoniker": "ORION.DataAccess\\Contexts\\OrionDbContext.cs",
+              "ToolTip": "C:\\x\\ORION.API\\ORION.DataAccess\\Contexts\\OrionDbContext.cs",
+              "RelativeToolTip": "ORION.DataAccess\\Contexts\\OrionDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-20T13:42:38.961Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ProductPhoto.cs",
+              "DocumentMoniker": "C:\\x\\ORION.API\\ORION.DataAccess\\Models\\ProductPhoto.cs",
+              "RelativeDocumentMoniker": "ORION.DataAccess\\Models\\ProductPhoto.cs",
+              "ToolTip": "C:\\x\\ORION.API\\ORION.DataAccess\\Models\\ProductPhoto.cs",
+              "RelativeToolTip": "ORION.DataAccess\\Models\\ProductPhoto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-20T13:41:55.523Z",
+              "EditorCaption": ""
             }
           ]
         }
