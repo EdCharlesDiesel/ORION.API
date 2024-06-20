@@ -1,0 +1,945 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\x\\ORION.API\\COG.WEB\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\x\\ORION.API\\COG.WEB\\wwwroot\\css\\site.min.css",
+      "PackagePath": "staticwebassets\\css\\site.min.css"
+    },
+    {
+      "Id": "C:\\x\\ORION.API\\COG.WEB\\wwwroot\\css\\style.css",
+      "PackagePath": "staticwebassets\\css\\style.css"
+    },
+    {
+      "Id": "C:\\x\\ORION.API\\COG.WEB\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\x\\ORION.API\\COG.WEB\\wwwroot\\images\\abraham-lincoln.jpg",
+      "PackagePath": "staticwebassets\\images\\abraham-lincoln.jpg"
+    },
+    {
+      "Id": "C:\\x\\ORION.API\\COG.WEB\\wwwroot\\images\\andrew-jackson.jpg",
+      "PackagePath": "staticwebassets\\images\\andrew-jackson.jpg"
+    },
+    {
+      "Id": "C:\\x\\ORION.API\\COG.WEB\\wwwroot\\images\\andrew-johnson.jpg",
+      "PackagePath": "staticwebassets\\images\\andrew-johnson.jpg"
+    },
+    {
+      "Id": "C:\\x\\ORION.API\\COG.WEB\\wwwroot\\images\\banner1.svg",
+      "PackagePath": "staticwebassets\\images\\banner1.svg"
+    },
+    {
+      "Id": "C:\\x\\ORION.API\\COG.WEB\\wwwroot\\images\\banner2.svg",
+      "PackagePath": "staticwebassets\\images\\banner2.svg"
+    },
+    {
+      "Id": "C:\\x\\ORION.API\\COG.WEB\\wwwroot\\images\\banner3.svg",
+      "PackagePath": "staticwebassets\\images\\banner3.svg"
+    },
+    {
+      "Id": "C:\\x\\ORION.API\\COG.WEB\\wwwroot\\images\\barack-obama.jpg",
+      "PackagePath": "staticwebassets\\images\\barack-obama.jpg"
+    },
+    {
+      "Id": "C:\\x\\ORION.API\\COG.WEB\\wwwroot\\images\\benjamin-harrison.jpg",
+      "PackagePath": "staticwebassets\\images\\benjamin-harrison.jpg"
+    },
+    {
+      "Id": "C:\\x\\ORION.API\\COG.WEB\\wwwroot\\images\\bill-clinton.jpg",
+      "PackagePath": "staticwebassets\\images\\bill-clinton.jpg"
+    },
+    {
+      "Id": "C:\\x\\ORION.API\\COG.WEB\\wwwroot\\images\\calvin-coolidge.jpg",
+      "PackagePath": "staticwebassets\\images\\calvin-coolidge.jpg"
+    },
+    {
+      "Id": "C:\\x\\ORION.API\\COG.WEB\\wwwroot\\images\\chester-a-arthur.jpg",
+      "PackagePath": "staticwebassets\\images\\chester-a-arthur.jpg"
+    },
+    {
+      "Id": "C:\\x\\ORION.API\\COG.WEB\\wwwroot\\images\\donald-trump.jpg",
+      "PackagePath": "staticwebassets\\images\\donald-trump.jpg"
+    },
+    {
+      "Id": "C:\\x\\ORION.API\\COG.WEB\\wwwroot\\images\\dwight-d-eisenhower.jpg",
+      "PackagePath": "staticwebassets\\images\\dwight-d-eisenhower.jpg"
+    },
+    {
+      "Id": "C:\\x\\ORION.API\\COG.WEB\\wwwroot\\images\\franklin-d-roosevelt.jpg",
+      "PackagePath": "staticwebassets\\images\\franklin-d-roosevelt.jpg"
+    },
+    {
+      "Id": "C:\\x\\ORION.API\\COG.WEB\\wwwroot\\images\\franklin-pierce.jpg",
+      "PackagePath": "staticwebassets\\images\\franklin-pierce.jpg"
+    },
+    {
+      "Id": "C:\\x\\ORION.API\\COG.WEB\\wwwroot\\images\\george-bush.jpg",
+      "PackagePath": "staticwebassets\\images\\george-bush.jpg"
+    },
+    {
+      "Id": "C:\\x\\ORION.API\\COG.WEB\\wwwroot\\images\\george-w-bush.jpg",
+      "PackagePath": "staticwebassets\\images\\george-w-bush.jpg"
+    },
+    {
+      "Id": "C:\\x\\ORION.API\\COG.WEB\\wwwroot\\images\\george-washington.jpg",
+      "PackagePath": "staticwebassets\\images\\george-washington.jpg"
+    },
+    {
+      "Id": "C:\\x\\ORION.API\\COG.WEB\\wwwroot\\images\\gerald-r-ford.jpg",
+      "PackagePath": "staticwebassets\\images\\gerald-r-ford.jpg"
+    },
+    {
+      "Id": "C:\\x\\ORION.API\\COG.WEB\\wwwroot\\images\\grover-cleveland.jpg",
+      "PackagePath": "staticwebassets\\images\\grover-cleveland.jpg"
+    },
+    {
+      "Id": "C:\\x\\ORION.API\\COG.WEB\\wwwroot\\images\\harry-s-truman.jpg",
+      "PackagePath": "staticwebassets\\images\\harry-s-truman.jpg"
+    },
+    {
+      "Id": "C:\\x\\ORION.API\\COG.WEB\\wwwroot\\images\\herbert-hoover.jpg",
+      "PackagePath": "staticwebassets\\images\\herbert-hoover.jpg"
+    },
+    {
+      "Id": "C:\\x\\ORION.API\\COG.WEB\\wwwroot\\images\\james-a-garfield.jpg",
+      "PackagePath": "staticwebassets\\images\\james-a-garfield.jpg"
+    },
+    {
+      "Id": "C:\\x\\ORION.API\\COG.WEB\\wwwroot\\images\\james-buchanan.jpg",
+      "PackagePath": "staticwebassets\\images\\james-buchanan.jpg"
+    },
+    {
+      "Id": "C:\\x\\ORION.API\\COG.WEB\\wwwroot\\images\\james-k-polk.jpg",
+      "PackagePath": "staticwebassets\\images\\james-k-polk.jpg"
+    },
+    {
+      "Id": "C:\\x\\ORION.API\\COG.WEB\\wwwroot\\images\\james-madison.jpg",
+      "PackagePath": "staticwebassets\\images\\james-madison.jpg"
+    },
+    {
+      "Id": "C:\\x\\ORION.API\\COG.WEB\\wwwroot\\images\\james-monroe.jpg",
+      "PackagePath": "staticwebassets\\images\\james-monroe.jpg"
+    },
+    {
+      "Id": "C:\\x\\ORION.API\\COG.WEB\\wwwroot\\images\\jimmy-carter.jpg",
+      "PackagePath": "staticwebassets\\images\\jimmy-carter.jpg"
+    },
+    {
+      "Id": "C:\\x\\ORION.API\\COG.WEB\\wwwroot\\images\\john-adams.jpg",
+      "PackagePath": "staticwebassets\\images\\john-adams.jpg"
+    },
+    {
+      "Id": "C:\\x\\ORION.API\\COG.WEB\\wwwroot\\images\\john-f-kennedy.jpg",
+      "PackagePath": "staticwebassets\\images\\john-f-kennedy.jpg"
+    },
+    {
+      "Id": "C:\\x\\ORION.API\\COG.WEB\\wwwroot\\images\\john-quincy-adams.jpg",
+      "PackagePath": "staticwebassets\\images\\john-quincy-adams.jpg"
+    },
+    {
+      "Id": "C:\\x\\ORION.API\\COG.WEB\\wwwroot\\images\\john-tyler.jpg",
+      "PackagePath": "staticwebassets\\images\\john-tyler.jpg"
+    },
+    {
+      "Id": "C:\\x\\ORION.API\\COG.WEB\\wwwroot\\images\\lyndon-b-johnson.jpg",
+      "PackagePath": "staticwebassets\\images\\lyndon-b-johnson.jpg"
+    },
+    {
+      "Id": "C:\\x\\ORION.API\\COG.WEB\\wwwroot\\images\\martin-van-buren.jpg",
+      "PackagePath": "staticwebassets\\images\\martin-van-buren.jpg"
+    },
+    {
+      "Id": "C:\\x\\ORION.API\\COG.WEB\\wwwroot\\images\\millard-fillmore.jpg",
+      "PackagePath": "staticwebassets\\images\\millard-fillmore.jpg"
+    },
+    {
+      "Id": "C:\\x\\ORION.API\\COG.WEB\\wwwroot\\images\\richard-m-nixon.jpg",
+      "PackagePath": "staticwebassets\\images\\richard-m-nixon.jpg"
+    },
+    {
+      "Id": "C:\\x\\ORION.API\\COG.WEB\\wwwroot\\images\\ronald-reagan.jpg",
+      "PackagePath": "staticwebassets\\images\\ronald-reagan.jpg"
+    },
+    {
+      "Id": "C:\\x\\ORION.API\\COG.WEB\\wwwroot\\images\\rutherford-birchard-hayes.jpg",
+      "PackagePath": "staticwebassets\\images\\rutherford-birchard-hayes.jpg"
+    },
+    {
+      "Id": "C:\\x\\ORION.API\\COG.WEB\\wwwroot\\images\\theodore-roosevelt.jpg",
+      "PackagePath": "staticwebassets\\images\\theodore-roosevelt.jpg"
+    },
+    {
+      "Id": "C:\\x\\ORION.API\\COG.WEB\\wwwroot\\images\\thomas-jefferson.jpg",
+      "PackagePath": "staticwebassets\\images\\thomas-jefferson.jpg"
+    },
+    {
+      "Id": "C:\\x\\ORION.API\\COG.WEB\\wwwroot\\images\\ulysses-s-grant.jpg",
+      "PackagePath": "staticwebassets\\images\\ulysses-s-grant.jpg"
+    },
+    {
+      "Id": "C:\\x\\ORION.API\\COG.WEB\\wwwroot\\images\\warren-g-harding.jpg",
+      "PackagePath": "staticwebassets\\images\\warren-g-harding.jpg"
+    },
+    {
+      "Id": "C:\\x\\ORION.API\\COG.WEB\\wwwroot\\images\\william-h-taft.jpg",
+      "PackagePath": "staticwebassets\\images\\william-h-taft.jpg"
+    },
+    {
+      "Id": "C:\\x\\ORION.API\\COG.WEB\\wwwroot\\images\\william-henry-harrison.jpg",
+      "PackagePath": "staticwebassets\\images\\william-henry-harrison.jpg"
+    },
+    {
+      "Id": "C:\\x\\ORION.API\\COG.WEB\\wwwroot\\images\\william-mckinley.jpg",
+      "PackagePath": "staticwebassets\\images\\william-mckinley.jpg"
+    },
+    {
+      "Id": "C:\\x\\ORION.API\\COG.WEB\\wwwroot\\images\\woodrow-wilson.jpg",
+      "PackagePath": "staticwebassets\\images\\woodrow-wilson.jpg"
+    },
+    {
+      "Id": "C:\\x\\ORION.API\\COG.WEB\\wwwroot\\images\\zachary-taylor.jpg",
+      "PackagePath": "staticwebassets\\images\\zachary-taylor.jpg"
+    },
+    {
+      "Id": "C:\\x\\ORION.API\\COG.WEB\\wwwroot\\img\\CroppedSlogan.jpg",
+      "PackagePath": "staticwebassets\\img\\CroppedSlogan.jpg"
+    },
+    {
+      "Id": "C:\\x\\ORION.API\\COG.WEB\\wwwroot\\img\\NoSlogan.jpg",
+      "PackagePath": "staticwebassets\\img\\NoSlogan.jpg"
+    },
+    {
+      "Id": "C:\\x\\ORION.API\\COG.WEB\\wwwroot\\img\\OriginalLogo.jpg",
+      "PackagePath": "staticwebassets\\img\\OriginalLogo.jpg"
+    },
+    {
+      "Id": "C:\\x\\ORION.API\\COG.WEB\\wwwroot\\img\\about.jpg",
+      "PackagePath": "staticwebassets\\img\\about.jpg"
+    },
+    {
+      "Id": "C:\\x\\ORION.API\\COG.WEB\\wwwroot\\img\\apple-touch-icon.png",
+      "PackagePath": "staticwebassets\\img\\apple-touch-icon.png"
+    },
+    {
+      "Id": "C:\\x\\ORION.API\\COG.WEB\\wwwroot\\img\\blog\\blog-1.jpg",
+      "PackagePath": "staticwebassets\\img\\blog\\blog-1.jpg"
+    },
+    {
+      "Id": "C:\\x\\ORION.API\\COG.WEB\\wwwroot\\img\\blog\\blog-2.jpg",
+      "PackagePath": "staticwebassets\\img\\blog\\blog-2.jpg"
+    },
+    {
+      "Id": "C:\\x\\ORION.API\\COG.WEB\\wwwroot\\img\\blog\\blog-3.jpg",
+      "PackagePath": "staticwebassets\\img\\blog\\blog-3.jpg"
+    },
+    {
+      "Id": "C:\\x\\ORION.API\\COG.WEB\\wwwroot\\img\\blog\\blog-4.jpg",
+      "PackagePath": "staticwebassets\\img\\blog\\blog-4.jpg"
+    },
+    {
+      "Id": "C:\\x\\ORION.API\\COG.WEB\\wwwroot\\img\\blog\\blog-author.jpg",
+      "PackagePath": "staticwebassets\\img\\blog\\blog-author.jpg"
+    },
+    {
+      "Id": "C:\\x\\ORION.API\\COG.WEB\\wwwroot\\img\\blog\\blog-inside-post.jpg",
+      "PackagePath": "staticwebassets\\img\\blog\\blog-inside-post.jpg"
+    },
+    {
+      "Id": "C:\\x\\ORION.API\\COG.WEB\\wwwroot\\img\\blog\\blog-recent-1.jpg",
+      "PackagePath": "staticwebassets\\img\\blog\\blog-recent-1.jpg"
+    },
+    {
+      "Id": "C:\\x\\ORION.API\\COG.WEB\\wwwroot\\img\\blog\\blog-recent-2.jpg",
+      "PackagePath": "staticwebassets\\img\\blog\\blog-recent-2.jpg"
+    },
+    {
+      "Id": "C:\\x\\ORION.API\\COG.WEB\\wwwroot\\img\\blog\\blog-recent-3.jpg",
+      "PackagePath": "staticwebassets\\img\\blog\\blog-recent-3.jpg"
+    },
+    {
+      "Id": "C:\\x\\ORION.API\\COG.WEB\\wwwroot\\img\\blog\\blog-recent-4.jpg",
+      "PackagePath": "staticwebassets\\img\\blog\\blog-recent-4.jpg"
+    },
+    {
+      "Id": "C:\\x\\ORION.API\\COG.WEB\\wwwroot\\img\\blog\\blog-recent-5.jpg",
+      "PackagePath": "staticwebassets\\img\\blog\\blog-recent-5.jpg"
+    },
+    {
+      "Id": "C:\\x\\ORION.API\\COG.WEB\\wwwroot\\img\\blog\\comments-1.jpg",
+      "PackagePath": "staticwebassets\\img\\blog\\comments-1.jpg"
+    },
+    {
+      "Id": "C:\\x\\ORION.API\\COG.WEB\\wwwroot\\img\\blog\\comments-2.jpg",
+      "PackagePath": "staticwebassets\\img\\blog\\comments-2.jpg"
+    },
+    {
+      "Id": "C:\\x\\ORION.API\\COG.WEB\\wwwroot\\img\\blog\\comments-3.jpg",
+      "PackagePath": "staticwebassets\\img\\blog\\comments-3.jpg"
+    },
+    {
+      "Id": "C:\\x\\ORION.API\\COG.WEB\\wwwroot\\img\\blog\\comments-4.jpg",
+      "PackagePath": "staticwebassets\\img\\blog\\comments-4.jpg"
+    },
+    {
+      "Id": "C:\\x\\ORION.API\\COG.WEB\\wwwroot\\img\\blog\\comments-5.jpg",
+      "PackagePath": "staticwebassets\\img\\blog\\comments-5.jpg"
+    },
+    {
+      "Id": "C:\\x\\ORION.API\\COG.WEB\\wwwroot\\img\\blog\\comments-6.jpg",
+      "PackagePath": "staticwebassets\\img\\blog\\comments-6.jpg"
+    },
+    {
+      "Id": "C:\\x\\ORION.API\\COG.WEB\\wwwroot\\img\\clients\\client-1.png",
+      "PackagePath": "staticwebassets\\img\\clients\\client-1.png"
+    },
+    {
+      "Id": "C:\\x\\ORION.API\\COG.WEB\\wwwroot\\img\\clients\\client-2.png",
+      "PackagePath": "staticwebassets\\img\\clients\\client-2.png"
+    },
+    {
+      "Id": "C:\\x\\ORION.API\\COG.WEB\\wwwroot\\img\\clients\\client-3.png",
+      "PackagePath": "staticwebassets\\img\\clients\\client-3.png"
+    },
+    {
+      "Id": "C:\\x\\ORION.API\\COG.WEB\\wwwroot\\img\\clients\\client-4.png",
+      "PackagePath": "staticwebassets\\img\\clients\\client-4.png"
+    },
+    {
+      "Id": "C:\\x\\ORION.API\\COG.WEB\\wwwroot\\img\\clients\\client-5.png",
+      "PackagePath": "staticwebassets\\img\\clients\\client-5.png"
+    },
+    {
+      "Id": "C:\\x\\ORION.API\\COG.WEB\\wwwroot\\img\\clients\\client-6.png",
+      "PackagePath": "staticwebassets\\img\\clients\\client-6.png"
+    },
+    {
+      "Id": "C:\\x\\ORION.API\\COG.WEB\\wwwroot\\img\\clients\\client-7.png",
+      "PackagePath": "staticwebassets\\img\\clients\\client-7.png"
+    },
+    {
+      "Id": "C:\\x\\ORION.API\\COG.WEB\\wwwroot\\img\\clients\\client-8.png",
+      "PackagePath": "staticwebassets\\img\\clients\\client-8.png"
+    },
+    {
+      "Id": "C:\\x\\ORION.API\\COG.WEB\\wwwroot\\img\\favicon.png",
+      "PackagePath": "staticwebassets\\img\\favicon.png"
+    },
+    {
+      "Id": "C:\\x\\ORION.API\\COG.WEB\\wwwroot\\img\\features-1.png",
+      "PackagePath": "staticwebassets\\img\\features-1.png"
+    },
+    {
+      "Id": "C:\\x\\ORION.API\\COG.WEB\\wwwroot\\img\\features-2.png",
+      "PackagePath": "staticwebassets\\img\\features-2.png"
+    },
+    {
+      "Id": "C:\\x\\ORION.API\\COG.WEB\\wwwroot\\img\\features-3.png",
+      "PackagePath": "staticwebassets\\img\\features-3.png"
+    },
+    {
+      "Id": "C:\\x\\ORION.API\\COG.WEB\\wwwroot\\img\\features-4.png",
+      "PackagePath": "staticwebassets\\img\\features-4.png"
+    },
+    {
+      "Id": "C:\\x\\ORION.API\\COG.WEB\\wwwroot\\img\\portfolio\\portfolio-1.jpg",
+      "PackagePath": "staticwebassets\\img\\portfolio\\portfolio-1.jpg"
+    },
+    {
+      "Id": "C:\\x\\ORION.API\\COG.WEB\\wwwroot\\img\\portfolio\\portfolio-2.jpg",
+      "PackagePath": "staticwebassets\\img\\portfolio\\portfolio-2.jpg"
+    },
+    {
+      "Id": "C:\\x\\ORION.API\\COG.WEB\\wwwroot\\img\\portfolio\\portfolio-3.jpg",
+      "PackagePath": "staticwebassets\\img\\portfolio\\portfolio-3.jpg"
+    },
+    {
+      "Id": "C:\\x\\ORION.API\\COG.WEB\\wwwroot\\img\\portfolio\\portfolio-4.jpg",
+      "PackagePath": "staticwebassets\\img\\portfolio\\portfolio-4.jpg"
+    },
+    {
+      "Id": "C:\\x\\ORION.API\\COG.WEB\\wwwroot\\img\\portfolio\\portfolio-5.jpg",
+      "PackagePath": "staticwebassets\\img\\portfolio\\portfolio-5.jpg"
+    },
+    {
+      "Id": "C:\\x\\ORION.API\\COG.WEB\\wwwroot\\img\\portfolio\\portfolio-6.jpg",
+      "PackagePath": "staticwebassets\\img\\portfolio\\portfolio-6.jpg"
+    },
+    {
+      "Id": "C:\\x\\ORION.API\\COG.WEB\\wwwroot\\img\\portfolio\\portfolio-7.jpg",
+      "PackagePath": "staticwebassets\\img\\portfolio\\portfolio-7.jpg"
+    },
+    {
+      "Id": "C:\\x\\ORION.API\\COG.WEB\\wwwroot\\img\\portfolio\\portfolio-8.jpg",
+      "PackagePath": "staticwebassets\\img\\portfolio\\portfolio-8.jpg"
+    },
+    {
+      "Id": "C:\\x\\ORION.API\\COG.WEB\\wwwroot\\img\\portfolio\\portfolio-9.jpg",
+      "PackagePath": "staticwebassets\\img\\portfolio\\portfolio-9.jpg"
+    },
+    {
+      "Id": "C:\\x\\ORION.API\\COG.WEB\\wwwroot\\img\\slide\\slide-1.jpg",
+      "PackagePath": "staticwebassets\\img\\slide\\slide-1.jpg"
+    },
+    {
+      "Id": "C:\\x\\ORION.API\\COG.WEB\\wwwroot\\img\\slide\\slide-2.jpg",
+      "PackagePath": "staticwebassets\\img\\slide\\slide-2.jpg"
+    },
+    {
+      "Id": "C:\\x\\ORION.API\\COG.WEB\\wwwroot\\img\\slide\\slide-3.jpg",
+      "PackagePath": "staticwebassets\\img\\slide\\slide-3.jpg"
+    },
+    {
+      "Id": "C:\\x\\ORION.API\\COG.WEB\\wwwroot\\img\\team\\team-1.jpg",
+      "PackagePath": "staticwebassets\\img\\team\\team-1.jpg"
+    },
+    {
+      "Id": "C:\\x\\ORION.API\\COG.WEB\\wwwroot\\img\\team\\team-2.jpg",
+      "PackagePath": "staticwebassets\\img\\team\\team-2.jpg"
+    },
+    {
+      "Id": "C:\\x\\ORION.API\\COG.WEB\\wwwroot\\img\\team\\team-3.jpg",
+      "PackagePath": "staticwebassets\\img\\team\\team-3.jpg"
+    },
+    {
+      "Id": "C:\\x\\ORION.API\\COG.WEB\\wwwroot\\img\\team\\team-4.jpg",
+      "PackagePath": "staticwebassets\\img\\team\\team-4.jpg"
+    },
+    {
+      "Id": "C:\\x\\ORION.API\\COG.WEB\\wwwroot\\img\\testimonials\\testimonials-1.jpg",
+      "PackagePath": "staticwebassets\\img\\testimonials\\testimonials-1.jpg"
+    },
+    {
+      "Id": "C:\\x\\ORION.API\\COG.WEB\\wwwroot\\img\\testimonials\\testimonials-2.jpg",
+      "PackagePath": "staticwebassets\\img\\testimonials\\testimonials-2.jpg"
+    },
+    {
+      "Id": "C:\\x\\ORION.API\\COG.WEB\\wwwroot\\img\\testimonials\\testimonials-3.jpg",
+      "PackagePath": "staticwebassets\\img\\testimonials\\testimonials-3.jpg"
+    },
+    {
+      "Id": "C:\\x\\ORION.API\\COG.WEB\\wwwroot\\img\\testimonials\\testimonials-4.jpg",
+      "PackagePath": "staticwebassets\\img\\testimonials\\testimonials-4.jpg"
+    },
+    {
+      "Id": "C:\\x\\ORION.API\\COG.WEB\\wwwroot\\img\\testimonials\\testimonials-5.jpg",
+      "PackagePath": "staticwebassets\\img\\testimonials\\testimonials-5.jpg"
+    },
+    {
+      "Id": "C:\\x\\ORION.API\\COG.WEB\\wwwroot\\img\\testimonials\\testimonials-6.jpg",
+      "PackagePath": "staticwebassets\\img\\testimonials\\testimonials-6.jpg"
+    },
+    {
+      "Id": "C:\\x\\ORION.API\\COG.WEB\\wwwroot\\js\\main.js",
+      "PackagePath": "staticwebassets\\js\\main.js"
+    },
+    {
+      "Id": "C:\\x\\ORION.API\\COG.WEB\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\x\\ORION.API\\COG.WEB\\wwwroot\\js\\site.min.js",
+      "PackagePath": "staticwebassets\\js\\site.min.js"
+    },
+    {
+      "Id": "C:\\x\\ORION.API\\COG.WEB\\wwwroot\\lib\\bootstrap\\.bower.json",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\.bower.json"
+    },
+    {
+      "Id": "C:\\x\\ORION.API\\COG.WEB\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\x\\ORION.API\\COG.WEB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\x\\ORION.API\\COG.WEB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\x\\ORION.API\\COG.WEB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\x\\ORION.API\\COG.WEB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\x\\ORION.API\\COG.WEB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\x\\ORION.API\\COG.WEB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\x\\ORION.API\\COG.WEB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\x\\ORION.API\\COG.WEB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\x\\ORION.API\\COG.WEB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-theme.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-theme.css"
+    },
+    {
+      "Id": "C:\\x\\ORION.API\\COG.WEB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-theme.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-theme.css.map"
+    },
+    {
+      "Id": "C:\\x\\ORION.API\\COG.WEB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-theme.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-theme.min.css"
+    },
+    {
+      "Id": "C:\\x\\ORION.API\\COG.WEB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-theme.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-theme.min.css.map"
+    },
+    {
+      "Id": "C:\\x\\ORION.API\\COG.WEB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\x\\ORION.API\\COG.WEB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\x\\ORION.API\\COG.WEB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\x\\ORION.API\\COG.WEB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\x\\ORION.API\\COG.WEB\\wwwroot\\lib\\bootstrap\\dist\\fonts\\glyphicons-halflings-regular.eot",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\fonts\\glyphicons-halflings-regular.eot"
+    },
+    {
+      "Id": "C:\\x\\ORION.API\\COG.WEB\\wwwroot\\lib\\bootstrap\\dist\\fonts\\glyphicons-halflings-regular.svg",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\fonts\\glyphicons-halflings-regular.svg"
+    },
+    {
+      "Id": "C:\\x\\ORION.API\\COG.WEB\\wwwroot\\lib\\bootstrap\\dist\\fonts\\glyphicons-halflings-regular.ttf",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\fonts\\glyphicons-halflings-regular.ttf"
+    },
+    {
+      "Id": "C:\\x\\ORION.API\\COG.WEB\\wwwroot\\lib\\bootstrap\\dist\\fonts\\glyphicons-halflings-regular.woff",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\fonts\\glyphicons-halflings-regular.woff"
+    },
+    {
+      "Id": "C:\\x\\ORION.API\\COG.WEB\\wwwroot\\lib\\bootstrap\\dist\\fonts\\glyphicons-halflings-regular.woff2",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\fonts\\glyphicons-halflings-regular.woff2"
+    },
+    {
+      "Id": "C:\\x\\ORION.API\\COG.WEB\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\x\\ORION.API\\COG.WEB\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\x\\ORION.API\\COG.WEB\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\x\\ORION.API\\COG.WEB\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\x\\ORION.API\\COG.WEB\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\x\\ORION.API\\COG.WEB\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\x\\ORION.API\\COG.WEB\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\x\\ORION.API\\COG.WEB\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\x\\ORION.API\\COG.WEB\\wwwroot\\lib\\bootstrap\\dist\\js\\npm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\npm.js"
+    },
+    {
+      "Id": "C:\\x\\ORION.API\\COG.WEB\\wwwroot\\lib\\jquery-validation-unobtrusive\\.bower.json",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\.bower.json"
+    },
+    {
+      "Id": "C:\\x\\ORION.API\\COG.WEB\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\x\\ORION.API\\COG.WEB\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\x\\ORION.API\\COG.WEB\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\x\\ORION.API\\COG.WEB\\wwwroot\\lib\\jquery-validation\\.bower.json",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\.bower.json"
+    },
+    {
+      "Id": "C:\\x\\ORION.API\\COG.WEB\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\x\\ORION.API\\COG.WEB\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\x\\ORION.API\\COG.WEB\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\x\\ORION.API\\COG.WEB\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\x\\ORION.API\\COG.WEB\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\x\\ORION.API\\COG.WEB\\wwwroot\\lib\\jquery\\.bower.json",
+      "PackagePath": "staticwebassets\\lib\\jquery\\.bower.json"
+    },
+    {
+      "Id": "C:\\x\\ORION.API\\COG.WEB\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\x\\ORION.API\\COG.WEB\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\x\\ORION.API\\COG.WEB\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\x\\ORION.API\\COG.WEB\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "C:\\x\\ORION.API\\COG.WEB\\wwwroot\\vendor\\animate.css\\animate.compat.css",
+      "PackagePath": "staticwebassets\\vendor\\animate.css\\animate.compat.css"
+    },
+    {
+      "Id": "C:\\x\\ORION.API\\COG.WEB\\wwwroot\\vendor\\animate.css\\animate.css",
+      "PackagePath": "staticwebassets\\vendor\\animate.css\\animate.css"
+    },
+    {
+      "Id": "C:\\x\\ORION.API\\COG.WEB\\wwwroot\\vendor\\animate.css\\animate.min.css",
+      "PackagePath": "staticwebassets\\vendor\\animate.css\\animate.min.css"
+    },
+    {
+      "Id": "C:\\x\\ORION.API\\COG.WEB\\wwwroot\\vendor\\aos\\aos.css",
+      "PackagePath": "staticwebassets\\vendor\\aos\\aos.css"
+    },
+    {
+      "Id": "C:\\x\\ORION.API\\COG.WEB\\wwwroot\\vendor\\aos\\aos.js",
+      "PackagePath": "staticwebassets\\vendor\\aos\\aos.js"
+    },
+    {
+      "Id": "C:\\x\\ORION.API\\COG.WEB\\wwwroot\\vendor\\bootstrap-icons\\bootstrap-icons.css",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap-icons\\bootstrap-icons.css"
+    },
+    {
+      "Id": "C:\\x\\ORION.API\\COG.WEB\\wwwroot\\vendor\\bootstrap-icons\\bootstrap-icons.json",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap-icons\\bootstrap-icons.json"
+    },
+    {
+      "Id": "C:\\x\\ORION.API\\COG.WEB\\wwwroot\\vendor\\bootstrap-icons\\fonts\\bootstrap-icons.woff",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap-icons\\fonts\\bootstrap-icons.woff"
+    },
+    {
+      "Id": "C:\\x\\ORION.API\\COG.WEB\\wwwroot\\vendor\\bootstrap-icons\\fonts\\bootstrap-icons.woff2",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap-icons\\fonts\\bootstrap-icons.woff2"
+    },
+    {
+      "Id": "C:\\x\\ORION.API\\COG.WEB\\wwwroot\\vendor\\bootstrap-icons\\index.html",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap-icons\\index.html"
+    },
+    {
+      "Id": "C:\\x\\ORION.API\\COG.WEB\\wwwroot\\vendor\\bootstrap\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\x\\ORION.API\\COG.WEB\\wwwroot\\vendor\\bootstrap\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\x\\ORION.API\\COG.WEB\\wwwroot\\vendor\\bootstrap\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\x\\ORION.API\\COG.WEB\\wwwroot\\vendor\\bootstrap\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\x\\ORION.API\\COG.WEB\\wwwroot\\vendor\\bootstrap\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\x\\ORION.API\\COG.WEB\\wwwroot\\vendor\\bootstrap\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\x\\ORION.API\\COG.WEB\\wwwroot\\vendor\\bootstrap\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\x\\ORION.API\\COG.WEB\\wwwroot\\vendor\\bootstrap\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\x\\ORION.API\\COG.WEB\\wwwroot\\vendor\\bootstrap\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\x\\ORION.API\\COG.WEB\\wwwroot\\vendor\\bootstrap\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\x\\ORION.API\\COG.WEB\\wwwroot\\vendor\\bootstrap\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\x\\ORION.API\\COG.WEB\\wwwroot\\vendor\\bootstrap\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\x\\ORION.API\\COG.WEB\\wwwroot\\vendor\\bootstrap\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\x\\ORION.API\\COG.WEB\\wwwroot\\vendor\\bootstrap\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\x\\ORION.API\\COG.WEB\\wwwroot\\vendor\\bootstrap\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\x\\ORION.API\\COG.WEB\\wwwroot\\vendor\\bootstrap\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\x\\ORION.API\\COG.WEB\\wwwroot\\vendor\\bootstrap\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\x\\ORION.API\\COG.WEB\\wwwroot\\vendor\\bootstrap\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\x\\ORION.API\\COG.WEB\\wwwroot\\vendor\\bootstrap\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\x\\ORION.API\\COG.WEB\\wwwroot\\vendor\\bootstrap\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\x\\ORION.API\\COG.WEB\\wwwroot\\vendor\\bootstrap\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\x\\ORION.API\\COG.WEB\\wwwroot\\vendor\\bootstrap\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\x\\ORION.API\\COG.WEB\\wwwroot\\vendor\\bootstrap\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\x\\ORION.API\\COG.WEB\\wwwroot\\vendor\\bootstrap\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\x\\ORION.API\\COG.WEB\\wwwroot\\vendor\\bootstrap\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\x\\ORION.API\\COG.WEB\\wwwroot\\vendor\\bootstrap\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\x\\ORION.API\\COG.WEB\\wwwroot\\vendor\\bootstrap\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\x\\ORION.API\\COG.WEB\\wwwroot\\vendor\\bootstrap\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\x\\ORION.API\\COG.WEB\\wwwroot\\vendor\\bootstrap\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\x\\ORION.API\\COG.WEB\\wwwroot\\vendor\\bootstrap\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\x\\ORION.API\\COG.WEB\\wwwroot\\vendor\\bootstrap\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\x\\ORION.API\\COG.WEB\\wwwroot\\vendor\\bootstrap\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\x\\ORION.API\\COG.WEB\\wwwroot\\vendor\\bootstrap\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\x\\ORION.API\\COG.WEB\\wwwroot\\vendor\\bootstrap\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\x\\ORION.API\\COG.WEB\\wwwroot\\vendor\\bootstrap\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\x\\ORION.API\\COG.WEB\\wwwroot\\vendor\\bootstrap\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\x\\ORION.API\\COG.WEB\\wwwroot\\vendor\\bootstrap\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\x\\ORION.API\\COG.WEB\\wwwroot\\vendor\\bootstrap\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\x\\ORION.API\\COG.WEB\\wwwroot\\vendor\\bootstrap\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\x\\ORION.API\\COG.WEB\\wwwroot\\vendor\\bootstrap\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\x\\ORION.API\\COG.WEB\\wwwroot\\vendor\\bootstrap\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\x\\ORION.API\\COG.WEB\\wwwroot\\vendor\\bootstrap\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\x\\ORION.API\\COG.WEB\\wwwroot\\vendor\\bootstrap\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\x\\ORION.API\\COG.WEB\\wwwroot\\vendor\\bootstrap\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\x\\ORION.API\\COG.WEB\\wwwroot\\vendor\\boxicons\\css\\animations.css",
+      "PackagePath": "staticwebassets\\vendor\\boxicons\\css\\animations.css"
+    },
+    {
+      "Id": "C:\\x\\ORION.API\\COG.WEB\\wwwroot\\vendor\\boxicons\\css\\boxicons.css",
+      "PackagePath": "staticwebassets\\vendor\\boxicons\\css\\boxicons.css"
+    },
+    {
+      "Id": "C:\\x\\ORION.API\\COG.WEB\\wwwroot\\vendor\\boxicons\\css\\boxicons.min.css",
+      "PackagePath": "staticwebassets\\vendor\\boxicons\\css\\boxicons.min.css"
+    },
+    {
+      "Id": "C:\\x\\ORION.API\\COG.WEB\\wwwroot\\vendor\\boxicons\\css\\transformations.css",
+      "PackagePath": "staticwebassets\\vendor\\boxicons\\css\\transformations.css"
+    },
+    {
+      "Id": "C:\\x\\ORION.API\\COG.WEB\\wwwroot\\vendor\\boxicons\\fonts\\boxicons.eot",
+      "PackagePath": "staticwebassets\\vendor\\boxicons\\fonts\\boxicons.eot"
+    },
+    {
+      "Id": "C:\\x\\ORION.API\\COG.WEB\\wwwroot\\vendor\\boxicons\\fonts\\boxicons.svg",
+      "PackagePath": "staticwebassets\\vendor\\boxicons\\fonts\\boxicons.svg"
+    },
+    {
+      "Id": "C:\\x\\ORION.API\\COG.WEB\\wwwroot\\vendor\\boxicons\\fonts\\boxicons.ttf",
+      "PackagePath": "staticwebassets\\vendor\\boxicons\\fonts\\boxicons.ttf"
+    },
+    {
+      "Id": "C:\\x\\ORION.API\\COG.WEB\\wwwroot\\vendor\\boxicons\\fonts\\boxicons.woff",
+      "PackagePath": "staticwebassets\\vendor\\boxicons\\fonts\\boxicons.woff"
+    },
+    {
+      "Id": "C:\\x\\ORION.API\\COG.WEB\\wwwroot\\vendor\\boxicons\\fonts\\boxicons.woff2",
+      "PackagePath": "staticwebassets\\vendor\\boxicons\\fonts\\boxicons.woff2"
+    },
+    {
+      "Id": "C:\\x\\ORION.API\\COG.WEB\\wwwroot\\vendor\\glightbox\\css\\glightbox.css",
+      "PackagePath": "staticwebassets\\vendor\\glightbox\\css\\glightbox.css"
+    },
+    {
+      "Id": "C:\\x\\ORION.API\\COG.WEB\\wwwroot\\vendor\\glightbox\\css\\glightbox.min.css",
+      "PackagePath": "staticwebassets\\vendor\\glightbox\\css\\glightbox.min.css"
+    },
+    {
+      "Id": "C:\\x\\ORION.API\\COG.WEB\\wwwroot\\vendor\\glightbox\\js\\glightbox.js",
+      "PackagePath": "staticwebassets\\vendor\\glightbox\\js\\glightbox.js"
+    },
+    {
+      "Id": "C:\\x\\ORION.API\\COG.WEB\\wwwroot\\vendor\\glightbox\\js\\glightbox.min.js",
+      "PackagePath": "staticwebassets\\vendor\\glightbox\\js\\glightbox.min.js"
+    },
+    {
+      "Id": "C:\\x\\ORION.API\\COG.WEB\\wwwroot\\vendor\\isotope-layout\\isotope.pkgd.js",
+      "PackagePath": "staticwebassets\\vendor\\isotope-layout\\isotope.pkgd.js"
+    },
+    {
+      "Id": "C:\\x\\ORION.API\\COG.WEB\\wwwroot\\vendor\\isotope-layout\\isotope.pkgd.min.js",
+      "PackagePath": "staticwebassets\\vendor\\isotope-layout\\isotope.pkgd.min.js"
+    },
+    {
+      "Id": "C:\\x\\ORION.API\\COG.WEB\\wwwroot\\vendor\\php-email-form\\validate.js",
+      "PackagePath": "staticwebassets\\vendor\\php-email-form\\validate.js"
+    },
+    {
+      "Id": "C:\\x\\ORION.API\\COG.WEB\\wwwroot\\vendor\\swiper\\swiper-bundle.min.css",
+      "PackagePath": "staticwebassets\\vendor\\swiper\\swiper-bundle.min.css"
+    },
+    {
+      "Id": "C:\\x\\ORION.API\\COG.WEB\\wwwroot\\vendor\\swiper\\swiper-bundle.min.js",
+      "PackagePath": "staticwebassets\\vendor\\swiper\\swiper-bundle.min.js"
+    },
+    {
+      "Id": "C:\\x\\ORION.API\\COG.WEB\\wwwroot\\vendor\\waypoints\\noframework.waypoints.js",
+      "PackagePath": "staticwebassets\\vendor\\waypoints\\noframework.waypoints.js"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.COG.WEB.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.COG.WEB.props",
+      "PackagePath": "build\\COG.WEB.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.COG.WEB.props",
+      "PackagePath": "buildMultiTargeting\\COG.WEB.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.COG.WEB.props",
+      "PackagePath": "buildTransitive\\COG.WEB.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

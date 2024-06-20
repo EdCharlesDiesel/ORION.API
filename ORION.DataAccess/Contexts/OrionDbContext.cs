@@ -98,20 +98,9 @@ namespace ORION.DataAccess.Contexts
         
         public DbSet<Territory> Territories { get; set; }
         
-        public DbSet<TerritoryEvent> TerritoryEvents { get; set; }
-
-        
+        public DbSet<TerritoryEvent> TerritoryEvents { get; set; }        
 
         public DbSet<PersonBusiness> PersonBusinesss { get; set; }
-
-        
-
-        
-
-
-        
-        
-    
 
         public OrionDbContext(DbContextOptions options)
             : base(options)
