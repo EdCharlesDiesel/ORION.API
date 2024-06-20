@@ -11,13 +11,13 @@
 using System;
 using System.Reflection;
 
-[assembly: Microsoft.AspNetCore.Mvc.Testing.WebApplicationFactoryContentRootAttribute("ORION.Admin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null", "c:\\Khotso\\Projects\\ORION\\ORION.Admin", "ORION.Admin.csproj", "0")]
-[assembly: Microsoft.AspNetCore.Mvc.Testing.WebApplicationFactoryContentRootAttribute("ORION.DataAccess, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null", "c:\\Khotso\\Projects\\ORION\\ORION.DataAccess", "ORION.DataAccess.csproj", "0")]
-[assembly: Microsoft.AspNetCore.Mvc.Testing.WebApplicationFactoryContentRootAttribute("ORION.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null", "c:\\Khotso\\Projects\\ORION\\ORION.Domain", "ORION.Domain.csproj", "0")]
+[assembly: Microsoft.AspNetCore.Mvc.Testing.WebApplicationFactoryContentRootAttribute("ORION.Admin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null", "C:\\x\\ORION.API\\ORION.Admin", "ORION.Admin.csproj", "0")]
+[assembly: Microsoft.AspNetCore.Mvc.Testing.WebApplicationFactoryContentRootAttribute("ORION.DataAccess", "C:\\x\\ORION.API\\ORION.DataAccess", "ORION.DataAccess.csproj", "0")]
+[assembly: Microsoft.AspNetCore.Mvc.Testing.WebApplicationFactoryContentRootAttribute("ORION.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null", "C:\\x\\ORION.API\\ORION.Domain", "ORION.Domain.csproj", "0")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("ORION.Admin.UnitTests")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+214f07377297a7db4036894394dac07eb224294f")]
 [assembly: System.Reflection.AssemblyProductAttribute("ORION.Admin.UnitTests")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ORION.Admin.UnitTests")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

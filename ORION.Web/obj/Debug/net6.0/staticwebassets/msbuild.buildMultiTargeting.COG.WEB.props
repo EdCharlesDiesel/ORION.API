@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\COG.WEB.props" />
+</Project>
