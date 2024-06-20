@@ -1,6 +1,10 @@
 {
   "version": 2,
+<<<<<<< HEAD
   "dgSpecHash": "5k1WaYQl1bA=",
+=======
+  "dgSpecHash": "6BP761Oc3WU=",
+>>>>>>> 1314f3dc6e19449e812c96a31484aa8dd726617d
   "success": true,
   "projectFilePath": "C:\\x\\ORION.API\\ORION.IntegrationTests\\ORION.IntegrationTests.csproj",
   "expectedPackageFiles": [
@@ -8,9 +12,12 @@
     "C:\\Users\\user\\.nuget\\packages\\castle.core\\4.4.0\\castle.core.4.4.0.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\coverlet.collector\\1.3.0\\coverlet.collector.1.3.0.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\microsoft.aspnetcore.authentication.openidconnect\\5.0.7\\microsoft.aspnetcore.authentication.openidconnect.5.0.7.nupkg.sha512",
+<<<<<<< HEAD
     "C:\\Users\\user\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\5.0.0\\microsoft.aspnetcore.cryptography.internal.5.0.0.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\microsoft.aspnetcore.cryptography.keyderivation\\5.0.0\\microsoft.aspnetcore.cryptography.keyderivation.5.0.0.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\microsoft.aspnetcore.identity.entityframeworkcore\\5.0.0\\microsoft.aspnetcore.identity.entityframeworkcore.5.0.0.nupkg.sha512",
+=======
+>>>>>>> 1314f3dc6e19449e812c96a31484aa8dd726617d
     "C:\\Users\\user\\.nuget\\packages\\microsoft.aspnetcore.jsonpatch\\6.0.6\\microsoft.aspnetcore.jsonpatch.6.0.6.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\microsoft.aspnetcore.mvc.newtonsoftjson\\6.0.6\\microsoft.aspnetcore.mvc.newtonsoftjson.6.0.6.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\microsoft.aspnetcore.mvc.testing\\5.0.0\\microsoft.aspnetcore.mvc.testing.5.0.0.nupkg.sha512",
@@ -42,8 +49,11 @@
     "C:\\Users\\user\\.nuget\\packages\\microsoft.extensions.filesystemglobbing\\5.0.0\\microsoft.extensions.filesystemglobbing.5.0.0.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\microsoft.extensions.hosting\\5.0.0\\microsoft.extensions.hosting.5.0.0.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\microsoft.extensions.hosting.abstractions\\5.0.0\\microsoft.extensions.hosting.abstractions.5.0.0.nupkg.sha512",
+<<<<<<< HEAD
     "C:\\Users\\user\\.nuget\\packages\\microsoft.extensions.identity.core\\5.0.0\\microsoft.extensions.identity.core.5.0.0.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\microsoft.extensions.identity.stores\\5.0.0\\microsoft.extensions.identity.stores.5.0.0.nupkg.sha512",
+=======
+>>>>>>> 1314f3dc6e19449e812c96a31484aa8dd726617d
     "C:\\Users\\user\\.nuget\\packages\\microsoft.extensions.logging\\5.0.0\\microsoft.extensions.logging.5.0.0.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\5.0.0\\microsoft.extensions.logging.abstractions.5.0.0.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\microsoft.extensions.logging.configuration\\5.0.0\\microsoft.extensions.logging.configuration.5.0.0.nupkg.sha512",

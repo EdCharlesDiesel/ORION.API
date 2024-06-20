@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ORION.DBTest")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a08830025c692e9c40fc841e6b4ceade0713b437")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4720e09f926b2f77b12650c11f8318a82b711313")]
 [assembly: System.Reflection.AssemblyProductAttribute("ORION.DBTest")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ORION.DBTest")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

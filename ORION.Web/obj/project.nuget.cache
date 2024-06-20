@@ -1,8 +1,14 @@
 {
   "version": 2,
+<<<<<<< HEAD
   "dgSpecHash": "Axs/TRAp0w4=",
   "success": true,
   "projectFilePath": "C:\\x\\ORION.API\\ORION.Web\\ORION.Web.csproj",
+=======
+  "dgSpecHash": "X8z1tPdFgu0=",
+  "success": true,
+  "projectFilePath": "C:\\x\\ORION.API\\COG.WEB\\ORION.Web.csproj",
+>>>>>>> 1314f3dc6e19449e812c96a31484aa8dd726617d
   "expectedPackageFiles": [
     "C:\\Users\\user\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\microsoft.aspnetcore.authentication.openidconnect\\5.0.7\\microsoft.aspnetcore.authentication.openidconnect.5.0.7.nupkg.sha512",

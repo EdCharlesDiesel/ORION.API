@@ -19,7 +19,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ORION.Admin.UnitTests", "OR
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ORION.Admin", "ORION.Admin\ORION.Admin.csproj", "{F9ABABF4-6C67-4F19-9713-E05F782E731E}"
 EndProject
+<<<<<<< HEAD
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ORION.Web", "ORION.Web\ORION.Web.csproj", "{AEFE206F-ED20-479E-8F55-EAE12C33B462}"
+=======
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ORION.Web", "COG.WEB\ORION.Web.csproj", "{FA249D55-15AA-4238-955A-58A4438D0F51}"
+>>>>>>> 1314f3dc6e19449e812c96a31484aa8dd726617d
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -145,5 +149,8 @@ Global
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {8530BF6A-7284-4ADE-BC0F-9F312881E80B}
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
 	EndGlobalSection
 EndGlobal
