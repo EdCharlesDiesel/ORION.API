@@ -183,6 +183,7 @@
   ],
   "logs": [
     {
+<<<<<<< HEAD
       "code": "NU1605",
       "level": "Error",
       "message": "Warning As Error: Detected package downgrade: Microsoft.EntityFrameworkCore from 8.0.6 to 5.0.16. Reference the package directly from the project to select a different version. \r\n ORION.IntegrationTests -> ORION.Admin -> ORION.DataAccess -> Microsoft.EntityFrameworkCore (>= 8.0.6) \r\n ORION.IntegrationTests -> ORION.Admin -> Microsoft.EntityFrameworkCore (>= 5.0.16)",
@@ -208,6 +209,12 @@
       "targetGraphs": [
         "net8.0"
       ]
+=======
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problem reading the cache file C:\\x\\ORION.API\\ORION.IntegrationTests\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+>>>>>>> development
     }
   ]
 }
