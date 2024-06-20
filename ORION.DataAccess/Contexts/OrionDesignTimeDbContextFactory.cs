@@ -42,25 +42,26 @@ namespace ORION.DataAccess.Contexts
 
         private OrionDbContext Create(string basePath, string environmentName)
         {
-            var builder = new ConfigurationBuilder()
-                .SetBasePath(basePath)
-                .AddJsonFile("appsettings.json")
-                .AddJsonFile($"appsettings.{environmentName}.json", true)
-                .AddEnvironmentVariables();
+            throw new NotImplementedException();
+            //var builder = new ConfigurationBuilder()
+            //    .SetBasePath(basePath)
+            //    .AddJsonFile("appsettings.json")
+            //    .AddJsonFile($"appsettings.{environmentName}.json", true)
+            //    .AddEnvironmentVariables();
 
-            var config = builder.Build();
+            //var config = builder.Build();
 
-            var connstr = config.GetConnectionString("default");
+            //var connstr = config.GetConnectionString("default");
 
-            if (String.IsNullOrWhiteSpace(connstr) == true)
-            {
-                throw new InvalidOperationException(
-                    "Could not find a connection string named 'default'.");
-            }
-            else
-            {
-                return Create(connstr);
-            }
+            //if (String.IsNullOrWhiteSpace(connstr) == true)
+            //{
+            //    throw new InvalidOperationException(
+            //        "Could not find a connection string named 'default'.");
+            //}
+            //else
+            //{
+            //    return Create(connstr);
+            //}
         }
 
         private OrionDbContext Create(string connectionString)

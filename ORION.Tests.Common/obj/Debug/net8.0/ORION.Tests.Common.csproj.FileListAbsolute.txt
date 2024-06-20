@@ -1,0 +1,12 @@
+C:\x\ORION.API\ORION.Tests.Common\bin\Debug\net8.0\ORION.Tests.Common.deps.json
+C:\x\ORION.API\ORION.Tests.Common\bin\Debug\net8.0\ORION.Tests.Common.dll
+C:\x\ORION.API\ORION.Tests.Common\bin\Debug\net8.0\ORION.Tests.Common.pdb
+C:\x\ORION.API\ORION.Tests.Common\obj\Debug\net8.0\ORION.Tests.Common.GeneratedMSBuildEditorConfig.editorconfig
+C:\x\ORION.API\ORION.Tests.Common\obj\Debug\net8.0\ORION.Tests.Common.AssemblyInfoInputs.cache
+C:\x\ORION.API\ORION.Tests.Common\obj\Debug\net8.0\ORION.Tests.Common.AssemblyInfo.cs
+C:\x\ORION.API\ORION.Tests.Common\obj\Debug\net8.0\ORION.Tests.Common.csproj.CoreCompileInputs.cache
+C:\x\ORION.API\ORION.Tests.Common\obj\Debug\net8.0\ORION.Tests.Common.sourcelink.json
+C:\x\ORION.API\ORION.Tests.Common\obj\Debug\net8.0\ORION.Tests.Common.dll
+C:\x\ORION.API\ORION.Tests.Common\obj\Debug\net8.0\refint\ORION.Tests.Common.dll
+C:\x\ORION.API\ORION.Tests.Common\obj\Debug\net8.0\ORION.Tests.Common.pdb
+C:\x\ORION.API\ORION.Tests.Common\obj\Debug\net8.0\ref\ORION.Tests.Common.dll

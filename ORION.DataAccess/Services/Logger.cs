@@ -5,7 +5,7 @@ using System.Linq;
 using System.Net;
 using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.Logging;
-using Microsoft.Net.Http.Headers;
+//using Microsoft.Net.Http.Headers;
 using ORION.DataAccess.Contexts;
 using ORION.DataAccess.Interfaces;
 using ORION.DataAccess.Models;
@@ -96,13 +96,13 @@ namespace ORION.DataAccess.Services
 
             if (context != null)
             {
-                if (context.Request != null)
-                {
-                    referrer = SafeToString(context.Request.Headers, HeaderNames.Referer);
-                    requestUrl = SafeToString(context.Request.Path.Value);
-                    userAgent = SafeToString(context.Request.Headers, HeaderNames.UserAgent);
-                    ipAddress = SafeToString(context.Connection.RemoteIpAddress);
-                }
+                //if (context.Request != null)
+                //{
+                //    referrer = SafeToString(context.Request.Headers, HeaderNames.Referer);
+                //    requestUrl = SafeToString(context.Request.Path.Value);
+                //    userAgent = SafeToString(context.Request.Headers, HeaderNames.UserAgent);
+                //    ipAddress = SafeToString(context.Connection.RemoteIpAddress);
+                //}
 
                 if (context.User != null && context.User.Identity != null)
                 {

@@ -6,12 +6,12 @@ using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 using Microsoft.EntityFrameworkCore;
 
-namespace Human.Resources.API.Models;
+namespace ORION.DataAccess.Models;
 
 /// <summary>
 /// Cross-reference table mapping products and product photos.
 /// </summary>
-[PrimaryKey("ProductId", "ProductPhotoId")]
+//[PrimaryKey("ProductId", "ProductPhotoId")]
 [Table("ProductProductPhoto", Schema = "Production")]
 public partial class ProductProductPhoto
 {

@@ -6,12 +6,12 @@ using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 using Microsoft.EntityFrameworkCore;
 
-namespace Human.Resources.API.Models;
+namespace ORION.DataAccess.Models;
 
 /// <summary>
 /// Sales representative transfers to other sales territories.
 /// </summary>
-[PrimaryKey("BusinessEntityId", "StartDate", "TerritoryId")]
+//[PrimaryKey("BusinessEntityId", "StartDate", "TerritoryId")]
 [Table("SalesTerritoryHistory", Schema = "Sales")]
 [Index("Rowguid", Name = "AK_SalesTerritoryHistory_rowguid", IsUnique = true)]
 public partial class SalesTerritoryHistory

@@ -30,57 +30,25 @@ namespace ORION.DBTest
                     {
                         new Product
                         {
-                            ProductName = "C# 9 and .NET 5 - Modern Cross-Platform Development",
-                            Description = "The new MacBook Pro with the best power efficient processor M1",
-                            StartValidityDate = new DateTime(2019, 6, 1),
-                            EndValidityDate = new DateTime(2019, 10, 1),
-                            DurationInDays = 5,
-                            UnitPrice = 1000,
-                            EntityVersion = 1
+                            //ProductName = "C# 9 and .NET 5 - Modern Cross-Platform Development",
+                            //Description = "The new MacBook Pro with the best power efficient processor M1",
+                            //StartValidityDate = new DateTime(2019, 6, 1),
+                            //EndValidityDate = new DateTime(2019, 10, 1),
+                            //DurationInDays = 5,
+                            //UnitPrice = 1000,
+                            //EntityVersion = 1
                         },
                         new Product
                         {
-                            ProductName = "Head First Design Patterns",
-                            Description = "The new MacBook Pro with the best power efficient processor M2",
-                            StartValidityDate = new DateTime(2019, 12, 1),
-                            EndValidityDate = new DateTime(2020, 2, 1),
-                            DurationInDays=71,
-                            UnitPrice=1750,
-                            EntityVersion=1
+                            //ProductName = "Head First Design Patterns",
+                            //Description = "The new MacBook Pro with the best power efficient processor M2",
+                            //StartValidityDate = new DateTime(2019, 12, 1),
+                            //EndValidityDate = new DateTime(2020, 2, 1),
+                            //DurationInDays=71,
+                            //UnitPrice=1750,
+                            //EntityVersion=1
                         }
-                        ,
-                        new Product
-                        {
-                            ProductName = "Software Architecture with C# 9 and .NET 5",
-                            Description = "The new MacBook Pro with the best power efficient processor M2",
-                            StartValidityDate = new DateTime(2019, 12, 1),
-                            EndValidityDate = new DateTime(2020, 2, 1),
-                            DurationInDays=13,
-                            UnitPrice=1200,
-                            EntityVersion=1
-                        }
-                        ,
-                        new Product
-                        {
-                            ProductName = "Fundamentals of Computer Programming with CSharp",
-                            Description = "The new MacBook Pro with the best power efficient processor M2",
-                            StartValidityDate = new DateTime(2019, 12, 1),
-                            EndValidityDate = new DateTime(2020, 2, 1),
-                            DurationInDays=7,
-                            UnitPrice=500,
-                            EntityVersion=1
-                        }
-                        ,
-                        new Product
-                        {
-                            ProductName = "Beginning SOLID Principles and Design Patterns for ASP.NET Developers",
-                            Description = "The new MacBook Pro with the best power efficient processor M2",
-                            StartValidityDate = new DateTime(2019, 12, 1),
-                            EndValidityDate = new DateTime(2020, 2, 1),
-                            DurationInDays=9,
-                            UnitPrice=900,
-                            EntityVersion=1
-                        }
+                        
                     }
             };
             context.Categories.Add(firstCategory);
@@ -107,8 +75,8 @@ namespace ORION.DBTest
 
             toModify.Description =
                             "Desktop and Laptops";
-            foreach (var product in toModify.Products)
-                product.UnitPrice = product.UnitPrice * 1.1m;
+            //foreach (var product in toModify.Products)
+            //    product.UnitPrice = product.UnitPrice * 1.1m;
             context.SaveChanges();
 
             var verifyChanges = context.Categories
@@ -124,23 +92,23 @@ namespace ORION.DBTest
 
             var period = new DateTime(2019, 8, 10);
             
-            var list = context.Products
-                .Where(m => period >= m.StartValidityDate
-                && period <= m.EndValidityDate)
-                .Select(m => new ProductListDTO
-                {
-                    StartValidityDate = m.StartValidityDate,
-                    EndValidityDate = m.EndValidityDate,
-                    ProductName = m.ProductName,
-                    DurationInDays = m.DurationInDays,
-                    Id = m.Id,
-                    UnitPrice = m.UnitPrice,
-                    CategoryId = m.CategoryId
-                })
-                .ToList();
+            //var list = context.Products
+            //    .Where(m => period >= m.StartValidityDate
+            //    && period <= m.EndValidityDate)
+            //    .Select(m => new ProductListDTO
+            //    {
+            //        StartValidityDate = m.StartValidityDate,
+            //        EndValidityDate = m.EndValidityDate,
+            //        ProductName = m.ProductName,
+            //        DurationInDays = m.DurationInDays,
+            //        Id = m.Id,
+            //        UnitPrice = m.UnitPrice,
+            //        CategoryId = m.CategoryId
+            //    })
+            //    .ToList();
 
-            foreach (var result in list)
-                Console.WriteLine(result.ToString());
+            //foreach (var result in list)
+                //Console.WriteLine(result.ToString());
             Console.WriteLine("Please press any key when done");
             Console.ReadKey();
         }

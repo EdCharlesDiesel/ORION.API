@@ -1,6 +1,10 @@
 {
   "version": 2,
+<<<<<<< HEAD
+  "dgSpecHash": "OJf0HW5H76c=",
+=======
   "dgSpecHash": "Axs/TRAp0w4=",
+>>>>>>> development
   "success": true,
   "projectFilePath": "C:\\x\\ORION.API\\ORION.Web\\ORION.Web.csproj",
   "expectedPackageFiles": [

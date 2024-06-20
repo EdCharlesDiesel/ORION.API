@@ -1,0 +1,7 @@
+C:\x\ORION.API\ORION.Admin.UnitTests\bin\Debug\net8.0\CoverletSourceRootsMapping
+C:\x\ORION.API\ORION.Admin.UnitTests\obj\Debug\net8.0\ORION.Admin.UnitTests.csproj.AssemblyReference.cache
+C:\x\ORION.API\ORION.Admin.UnitTests\obj\Debug\net8.0\ORION.Admin.UnitTests.GeneratedMSBuildEditorConfig.editorconfig
+C:\x\ORION.API\ORION.Admin.UnitTests\obj\Debug\net8.0\ORION.Admin.UnitTests.AssemblyInfoInputs.cache
+C:\x\ORION.API\ORION.Admin.UnitTests\obj\Debug\net8.0\ORION.Admin.UnitTests.AssemblyInfo.cs
+C:\x\ORION.API\ORION.Admin.UnitTests\obj\Debug\net8.0\ORION.Admin.UnitTests.csproj.CoreCompileInputs.cache
+C:\x\ORION.API\ORION.Admin.UnitTests\obj\Debug\net8.0\ORION.Admin.UnitTests.sourcelink.json

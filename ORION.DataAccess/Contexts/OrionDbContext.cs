@@ -52,9 +52,9 @@ namespace ORION.DataAccess.Contexts
 
         public DbSet<LogEntryEvent> LogEntryEvents { get; set; }
 
-        // public DbSet<MasterUser> AllUsers { get; set; }
+        public DbSet<MasterUser> AllUsers { get; set; }
 
-        // public DbSet<MasterUserEvent> AllUserEvents { get; set; }
+        public DbSet<MasterUserEvent> AllUserEvents { get; set; }
 
         public DbSet<Order> Orders { get; set; }
 
@@ -64,41 +64,41 @@ namespace ORION.DataAccess.Contexts
 
         public DbSet<OrderDetailEvent> OrderDetailEvents { get; set; }
 
-       public DbSet<Person> Persons { get; set; }
+        public DbSet<Person> Persons { get; set; }
 
-      //  public DbSet<PersonBusiness> PersonBusinesses { get; set; }
+        public DbSet<PersonBusiness> PersonBusinesses { get; set; }
 
-        public DbSet<Product> Products { get; set; }        
+        public DbSet<Product> Products { get; set; }
 
-        public DbSet<ProductEvent> ProductEvents { get; set; }  
-        
+        public DbSet<ProductEvent> ProductEvents { get; set; }
+
         public DbSet<Region> Regions { get; set; }
-        
+
         public DbSet<RegionEvent> RegionEvents { get; set; }
 
         public DbSet<Relationship> Relationships { get; set; }
 
         public DbSet<RelationshipEvent> RelationshipEvents { get; set; }
-        
+
         public DbSet<Shipper> Shippers { get; set; }
-        
+
         public DbSet<ShipperEvent> ShippersEvents { get; set; }
 
         public DbSet<Subscription> Subscriptions { get; set; }
 
         public DbSet<SubscriptionEvent> SubscriptionEvents { get; set; }
-        
+
         public DbSet<Supplier> Supplers { get; set; }
 
         public DbSet<SupplierEvent> SupplerEvents { get; set; }
-        
+
         public DbSet<Term> Terms { get; set; }
 
         public DbSet<TermEvent> TermEvents { get; set; }
-        
+
         public DbSet<Territory> Territories { get; set; }
-        
-        public DbSet<TerritoryEvent> TerritoryEvents { get; set; }        
+
+        public DbSet<TerritoryEvent> TerritoryEvents { get; set; }
 
         public DbSet<PersonBusiness> PersonBusinesss { get; set; }
 
@@ -110,19 +110,19 @@ namespace ORION.DataAccess.Contexts
         // FIXME FluentAPI
         protected override void OnModelCreating(ModelBuilder builder)
         {
-            base.OnModelCreating(builder);
-            builder.Entity<Category>()
-                .HasMany(m => m.Products)
-                .WithOne(m => m.Category)
-                .HasForeignKey(m => m.CategoryId)
-                .OnDelete(DeleteBehavior.Cascade);
+            //base.OnModelCreating(builder);
+            //builder.Entity<Category>()
+            //   .HasMany(m => m.Products)
+            //      .WithOne(m => m.Category)
+            //    .HasForeignKey(m => m.CategoryId)
+            // .OnDelete(DeleteBehavior.Cascade);
 
-            builder.Entity<Product>()
-               .HasOne(m => m.Category)
-               .WithMany(m => m.Products)
-               .HasForeignKey(m => m.CategoryId)
-               .OnDelete(DeleteBehavior.Cascade);    
-       
+            //builder.Entity<Product>()
+            //   .HasOne(m => m.Category)
+            //   .WithMany(m => m.Products)
+            //   .HasForeignKey(m => m.CategoryId)
+            //   .OnDelete(DeleteBehavior.Cascade);    
+
         }
 
         public async Task<bool> SaveEntitiesAsync()
@@ -163,7 +163,7 @@ namespace ORION.DataAccess.Contexts
         public override int SaveChanges()
         {
             CleanupOrphanedPersonBusinesss();
-        //    CleanupOrphanedRelationships();
+            //    CleanupOrphanedRelationships();
 
             return base.SaveChanges();
         }
@@ -199,44 +199,44 @@ namespace ORION.DataAccess.Contexts
             }
         }
 
-        // protected override void OnModelCreating(ModelBuilder modelBuilder)
+        //protected override void OnModelCreating(ModelBuilder modelBuilder)
+        //{
+        // modelBuilder.Entity<Person>(entity =>
         // {
-        //     // modelBuilder.Entity<Person>(entity =>
-        //     // {
-        //     //     entity.ToTable("Persons");
-        //     // });
+        //     entity.ToTable("Persons");
+        // });
 
-        //   //  modelBuilder.Entity<PersonBusiness>().ToTable("PersonBusiness");
+        //  modelBuilder.Entity<PersonBusiness>().ToTable("PersonBusiness");
 
-        //   //  modelBuilder.Entity<Feature>().ToTable("Feature");
+        //  modelBuilder.Entity<Feature>().ToTable("Feature");
 
-        //    // modelBuilder.Entity<LogEntry>().ToTable("LogEntry");
-        //    modelBuilder.Entity<IdentityUserLogin<int>>(entity =>
-           
-        //    {
-        //        entity.HasNoKey();
-        //    }
-        //    );
-            
+        // modelBuilder.Entity<LogEntry>().ToTable("LogEntry");
+        //modelBuilder.Entity<IdentityUserLogin<int>>(entity =>
 
-        //     modelBuilder.Entity<Relationship>(entity =>
-        //     {
-        //         entity.ToTable("Relationships");
-
-        //         entity.Property(e => e.RelationshipType)
-        //             .IsRequired()
-        //             .HasMaxLength(100);
-
-        //         entity.HasOne(d => d.FromPerson)
-        //             .WithMany(p => p.Relationships)
-        //             .HasForeignKey(d => d.FromPersonId)
-        //             .OnDelete(DeleteBehavior.Restrict);
+        //{
+        //    entity.HasNoKey();
+        //}
+        //);
 
 
-        //         // THE PROBLEM IS HERE
-        //         // SOMEHOW NEED TO MAP THE "TO" RELATIONSHIP
-        //         entity.HasOne(d => d.ToPerson);
-        //     });
-        // }
+        //modelBuilder.Entity<Relationship>(entity =>
+        //{
+        //    entity.ToTable("Relationships");
+
+        //    entity.Property(e => e.RelationshipType)
+        //        .IsRequired()
+        //        .HasMaxLength(100);
+
+        //    entity.HasOne(d => d.FromPerson)
+        //        .WithMany(p => p.Relationships)
+        //        .HasForeignKey(d => d.FromPersonId)
+        //        .OnDelete(DeleteBehavior.Restrict);
+
+
+        //    // THE PROBLEM IS HERE
+        //    // SOMEHOW NEED TO MAP THE "TO" RELATIONSHIP
+        //    entity.HasOne(d => d.ToPerson);
+        //});
+        //}
     }
 }

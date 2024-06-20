@@ -181,7 +181,7 @@ namespace ORION.Admin
 
            //services.AddTransient<IOrionDbContext, OrionDbContext>();
 
-            services.AddTransient<IRepository<Person>, SqlEntityFrameworkPersonRepository>();
+            //services.AddTransient<IRepository<Person>, SqlEntityFrameworkPersonRepository>();
 
             services.AddTransient<IValidatorStrategy<BusinessOwner>, DefaultValidatorStrategy<BusinessOwner>>();
             
