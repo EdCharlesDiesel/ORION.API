@@ -1,36 +1,39 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Khotso\\Projects\\ORION\\ORION.Admin.UnitTests\\ORION.Admin.UnitTests.csproj": {}
+    "C:\\x\\ORION.API\\ORION.Admin.UnitTests\\ORION.Admin.UnitTests.csproj": {}
   },
   "projects": {
-    "c:\\Khotso\\Projects\\ORION\\ORION.Admin.UnitTests\\ORION.Admin.UnitTests.csproj": {
+    "C:\\x\\ORION.API\\ORION.Admin.UnitTests\\ORION.Admin.UnitTests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Khotso\\Projects\\ORION\\ORION.Admin.UnitTests\\ORION.Admin.UnitTests.csproj",
+        "projectUniqueName": "C:\\x\\ORION.API\\ORION.Admin.UnitTests\\ORION.Admin.UnitTests.csproj",
         "projectName": "ORION.Admin.UnitTests",
-        "projectPath": "c:\\Khotso\\Projects\\ORION\\ORION.Admin.UnitTests\\ORION.Admin.UnitTests.csproj",
-        "packagesPath": "C:\\Users\\Refilwe\\.nuget\\packages\\",
-        "outputPath": "c:\\Khotso\\Projects\\ORION\\ORION.Admin.UnitTests\\obj\\",
+        "projectPath": "C:\\x\\ORION.API\\ORION.Admin.UnitTests\\ORION.Admin.UnitTests.csproj",
+        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+        "outputPath": "C:\\x\\ORION.API\\ORION.Admin.UnitTests\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Refilwe\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "c:\\Khotso\\Projects\\ORION\\ORION.Admin\\ORION.Admin.csproj": {
-                "projectPath": "c:\\Khotso\\Projects\\ORION\\ORION.Admin\\ORION.Admin.csproj"
+              "C:\\x\\ORION.API\\ORION.Admin\\ORION.Admin.csproj": {
+                "projectPath": "C:\\x\\ORION.API\\ORION.Admin\\ORION.Admin.csproj"
               },
-              "c:\\Khotso\\Projects\\ORION\\ORION.DataAccess\\ORION.DataAccess.csproj": {
-                "projectPath": "c:\\Khotso\\Projects\\ORION\\ORION.DataAccess\\ORION.DataAccess.csproj"
+              "C:\\x\\ORION.API\\ORION.DataAccess\\ORION.DataAccess.csproj": {
+                "projectPath": "C:\\x\\ORION.API\\ORION.DataAccess\\ORION.DataAccess.csproj"
               }
             }
           }
@@ -39,6 +42,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -84,46 +92,64 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.31, 6.0.31]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.31, 6.0.31]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[6.0.31, 6.0.31]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "c:\\Khotso\\Projects\\ORION\\ORION.Admin\\ORION.Admin.csproj": {
+    "C:\\x\\ORION.API\\ORION.Admin\\ORION.Admin.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Khotso\\Projects\\ORION\\ORION.Admin\\ORION.Admin.csproj",
+        "projectUniqueName": "C:\\x\\ORION.API\\ORION.Admin\\ORION.Admin.csproj",
         "projectName": "ORION.Admin",
-        "projectPath": "c:\\Khotso\\Projects\\ORION\\ORION.Admin\\ORION.Admin.csproj",
-        "packagesPath": "C:\\Users\\Refilwe\\.nuget\\packages\\",
-        "outputPath": "c:\\Khotso\\Projects\\ORION\\ORION.Admin\\obj\\",
+        "projectPath": "C:\\x\\ORION.API\\ORION.Admin\\ORION.Admin.csproj",
+        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+        "outputPath": "C:\\x\\ORION.API\\ORION.Admin\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Refilwe\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "c:\\Khotso\\Projects\\ORION\\ORION.DataAccess\\ORION.DataAccess.csproj": {
-                "projectPath": "c:\\Khotso\\Projects\\ORION\\ORION.DataAccess\\ORION.DataAccess.csproj"
+              "C:\\x\\ORION.API\\ORION.DataAccess\\ORION.DataAccess.csproj": {
+                "projectPath": "C:\\x\\ORION.API\\ORION.DataAccess\\ORION.DataAccess.csproj"
               },
-              "c:\\Khotso\\Projects\\ORION\\ORION.Domain\\ORION.Domain.csproj": {
-                "projectPath": "c:\\Khotso\\Projects\\ORION\\ORION.Domain\\ORION.Domain.csproj"
+              "C:\\x\\ORION.API\\ORION.Domain\\ORION.Domain.csproj": {
+                "projectPath": "C:\\x\\ORION.API\\ORION.Domain\\ORION.Domain.csproj"
               }
             }
           }
@@ -132,6 +158,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -173,10 +204,29 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.31, 6.0.31]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[6.0.31, 6.0.31]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.31, 6.0.31]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[6.0.31, 6.0.31]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -185,34 +235,37 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "c:\\Khotso\\Projects\\ORION\\ORION.DataAccess\\ORION.DataAccess.csproj": {
+    "C:\\x\\ORION.API\\ORION.DataAccess\\ORION.DataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Khotso\\Projects\\ORION\\ORION.DataAccess\\ORION.DataAccess.csproj",
+        "projectUniqueName": "C:\\x\\ORION.API\\ORION.DataAccess\\ORION.DataAccess.csproj",
         "projectName": "ORION.DataAccess",
-        "projectPath": "c:\\Khotso\\Projects\\ORION\\ORION.DataAccess\\ORION.DataAccess.csproj",
-        "packagesPath": "C:\\Users\\Refilwe\\.nuget\\packages\\",
-        "outputPath": "c:\\Khotso\\Projects\\ORION\\ORION.DataAccess\\obj\\",
+        "projectPath": "C:\\x\\ORION.API\\ORION.DataAccess\\ORION.DataAccess.csproj",
+        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+        "outputPath": "C:\\x\\ORION.API\\ORION.DataAccess\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Refilwe\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "c:\\Khotso\\Projects\\ORION\\ORION.Domain\\ORION.Domain.csproj": {
-                "projectPath": "c:\\Khotso\\Projects\\ORION\\ORION.Domain\\ORION.Domain.csproj"
+              "C:\\x\\ORION.API\\ORION.Domain\\ORION.Domain.csproj": {
+                "projectPath": "C:\\x\\ORION.API\\ORION.Domain\\ORION.Domain.csproj"
               }
             }
           }
@@ -221,6 +274,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -258,35 +316,53 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.31, 6.0.31]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.31, 6.0.31]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[6.0.31, 6.0.31]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "c:\\Khotso\\Projects\\ORION\\ORION.Domain\\ORION.Domain.csproj": {
+    "C:\\x\\ORION.API\\ORION.Domain\\ORION.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Khotso\\Projects\\ORION\\ORION.Domain\\ORION.Domain.csproj",
+        "projectUniqueName": "C:\\x\\ORION.API\\ORION.Domain\\ORION.Domain.csproj",
         "projectName": "ORION.Domain",
-        "projectPath": "c:\\Khotso\\Projects\\ORION\\ORION.Domain\\ORION.Domain.csproj",
-        "packagesPath": "C:\\Users\\Refilwe\\.nuget\\packages\\",
-        "outputPath": "c:\\Khotso\\Projects\\ORION\\ORION.Domain\\obj\\",
+        "projectPath": "C:\\x\\ORION.API\\ORION.Domain\\ORION.Domain.csproj",
+        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+        "outputPath": "C:\\x\\ORION.API\\ORION.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Refilwe\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -299,6 +375,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -320,16 +401,31 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.31, 6.0.31]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.31, 6.0.31]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[6.0.31, 6.0.31]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302\\RuntimeIdentifierGraph.json"
         }
       }
     }

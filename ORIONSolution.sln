@@ -1,30 +1,27 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.30114.105
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35013.160
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ORION.DataAccess", "ORION.DataAccess\ORION.DataAccess.csproj", "{8007E64B-CDA7-4C78-B903-436CF6F62995}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ORION.DataAccess", "ORION.DataAccess\ORION.DataAccess.csproj", "{8007E64B-CDA7-4C78-B903-436CF6F62995}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ORION.Domain", "ORION.Domain\ORION.Domain.csproj", "{009793DA-F4B9-4217-91EC-3FB1AB971697}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ORION.Domain", "ORION.Domain\ORION.Domain.csproj", "{009793DA-F4B9-4217-91EC-3FB1AB971697}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ORION.DBTest", "ORION.DBTest\ORION.DBTest.csproj", "{70391B5B-78CB-46FF-A7ED-E5B10EC198D4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ORION.DBTest", "ORION.DBTest\ORION.DBTest.csproj", "{70391B5B-78CB-46FF-A7ED-E5B10EC198D4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ORION.IntegrationTests", "ORION.IntegrationTests\ORION.IntegrationTests.csproj", "{22BAEDBC-36B8-449A-99E8-2501FC932AB9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ORION.IntegrationTests", "ORION.IntegrationTests\ORION.IntegrationTests.csproj", "{22BAEDBC-36B8-449A-99E8-2501FC932AB9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ORION.Map", "ORION.Map\ORION.Map.csproj", "{10FEAB8B-DFAB-4F4D-97AC-10DCFCC4F89B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ORION.Map", "ORION.Map\ORION.Map.csproj", "{10FEAB8B-DFAB-4F4D-97AC-10DCFCC4F89B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ORION.Tests.Common", "ORION.Tests.Common\ORION.Tests.Common.csproj", "{2D3CDC45-4238-40C7-A7EE-B27CC6EA3708}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ORION.Tests.Common", "ORION.Tests.Common\ORION.Tests.Common.csproj", "{2D3CDC45-4238-40C7-A7EE-B27CC6EA3708}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ORION.Admin.UnitTests", "ORION.Admin.UnitTests\ORION.Admin.UnitTests.csproj", "{3828DC42-71C7-4417-BFA0-3F233527F753}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ORION.Admin.UnitTests", "ORION.Admin.UnitTests\ORION.Admin.UnitTests.csproj", "{3828DC42-71C7-4417-BFA0-3F233527F753}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ORION.Admin", "ORION.Admin\ORION.Admin.csproj", "{F9ABABF4-6C67-4F19-9713-E05F782E731E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ORION.Admin", "ORION.Admin\ORION.Admin.csproj", "{F9ABABF4-6C67-4F19-9713-E05F782E731E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "COG.WEB", "COG.WEB\COG.WEB.csproj", "{FA249D55-15AA-4238-955A-58A4438D0F51}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ORION.Web", "ORION.Web\ORION.Web.csproj", "{AEFE206F-ED20-479E-8F55-EAE12C33B462}"
 EndProject
 Global
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
-	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Debug|x64 = Debug|x64
@@ -130,17 +127,23 @@ Global
 		{F9ABABF4-6C67-4F19-9713-E05F782E731E}.Release|x64.Build.0 = Release|Any CPU
 		{F9ABABF4-6C67-4F19-9713-E05F782E731E}.Release|x86.ActiveCfg = Release|Any CPU
 		{F9ABABF4-6C67-4F19-9713-E05F782E731E}.Release|x86.Build.0 = Release|Any CPU
-		{FA249D55-15AA-4238-955A-58A4438D0F51}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{FA249D55-15AA-4238-955A-58A4438D0F51}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{FA249D55-15AA-4238-955A-58A4438D0F51}.Debug|x64.ActiveCfg = Debug|Any CPU
-		{FA249D55-15AA-4238-955A-58A4438D0F51}.Debug|x64.Build.0 = Debug|Any CPU
-		{FA249D55-15AA-4238-955A-58A4438D0F51}.Debug|x86.ActiveCfg = Debug|Any CPU
-		{FA249D55-15AA-4238-955A-58A4438D0F51}.Debug|x86.Build.0 = Debug|Any CPU
-		{FA249D55-15AA-4238-955A-58A4438D0F51}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{FA249D55-15AA-4238-955A-58A4438D0F51}.Release|Any CPU.Build.0 = Release|Any CPU
-		{FA249D55-15AA-4238-955A-58A4438D0F51}.Release|x64.ActiveCfg = Release|Any CPU
-		{FA249D55-15AA-4238-955A-58A4438D0F51}.Release|x64.Build.0 = Release|Any CPU
-		{FA249D55-15AA-4238-955A-58A4438D0F51}.Release|x86.ActiveCfg = Release|Any CPU
-		{FA249D55-15AA-4238-955A-58A4438D0F51}.Release|x86.Build.0 = Release|Any CPU
+		{AEFE206F-ED20-479E-8F55-EAE12C33B462}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AEFE206F-ED20-479E-8F55-EAE12C33B462}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AEFE206F-ED20-479E-8F55-EAE12C33B462}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{AEFE206F-ED20-479E-8F55-EAE12C33B462}.Debug|x64.Build.0 = Debug|Any CPU
+		{AEFE206F-ED20-479E-8F55-EAE12C33B462}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{AEFE206F-ED20-479E-8F55-EAE12C33B462}.Debug|x86.Build.0 = Debug|Any CPU
+		{AEFE206F-ED20-479E-8F55-EAE12C33B462}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AEFE206F-ED20-479E-8F55-EAE12C33B462}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AEFE206F-ED20-479E-8F55-EAE12C33B462}.Release|x64.ActiveCfg = Release|Any CPU
+		{AEFE206F-ED20-479E-8F55-EAE12C33B462}.Release|x64.Build.0 = Release|Any CPU
+		{AEFE206F-ED20-479E-8F55-EAE12C33B462}.Release|x86.ActiveCfg = Release|Any CPU
+		{AEFE206F-ED20-479E-8F55-EAE12C33B462}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8530BF6A-7284-4ADE-BC0F-9F312881E80B}
 	EndGlobalSection
 EndGlobal
