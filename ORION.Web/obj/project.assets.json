@@ -5634,11 +5634,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\x\\ORION.API\\COG.WEB\\ORION.Web.csproj",
+      "projectUniqueName": "C:\\x\\ORION.API\\ORION.Web\\ORION.Web.csproj",
       "projectName": "ORION.Web",
-      "projectPath": "C:\\x\\ORION.API\\COG.WEB\\ORION.Web.csproj",
+      "projectPath": "C:\\x\\ORION.API\\ORION.Web\\ORION.Web.csproj",
       "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-      "outputPath": "C:\\x\\ORION.API\\COG.WEB\\obj\\",
+      "outputPath": "C:\\x\\ORION.API\\ORION.Web\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",

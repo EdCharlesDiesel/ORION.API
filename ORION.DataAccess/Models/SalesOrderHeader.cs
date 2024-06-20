@@ -123,7 +123,7 @@ public partial class SalesOrderHeader
     /// Approval code provided by the credit card company.
     /// </summary>
     [StringLength(15)]
-    [Unicode(false)]
+    //[Unicode(false)]
     public string CreditCardApprovalCode { get; set; }
 
     /// <summary>

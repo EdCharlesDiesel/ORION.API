@@ -6,7 +6,7 @@ using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 using Microsoft.EntityFrameworkCore;
 
-namespace Human.Resources.API.Models;
+namespace ORION.DataAccess.Models;
 
 /// <summary>
 /// Record of each purchase order, sales order, or work order transaction year to date.
