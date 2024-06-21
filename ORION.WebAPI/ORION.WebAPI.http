@@ -1,4 +1,4 @@
-@ORION.WebAPI_HostAddress = http://localhost:5023
+@ORION.WebAPI_HostAddress = http://localhost:5122
 
 GET {{ORION.WebAPI_HostAddress}}/weatherforecast/
 Accept: application/json
