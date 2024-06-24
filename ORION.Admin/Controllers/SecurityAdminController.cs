@@ -89,41 +89,43 @@ namespace ORION.Admin.Controllers
         }
         private List<ClaimViewModel> GetAllClaims()
         {
-            var users = (from temp in _Context.Users
-                         select temp);
 
-            Dictionary<string, string> usersDictionary = new Dictionary<string, string>();
+            throw new NotImplementedException();
+            //var users = (from temp in _Context.Users
+            //             select temp);
 
-            foreach(var usr in users)
-            {
-                usersDictionary.Add(usr.Id.ToString(), usr.UserName);
-            }
+            //Dictionary<string, string> usersDictionary = new Dictionary<string, string>();
 
-            Dictionary<string, string> businessOwnersDictionary = new Dictionary<string, string>();
+            //foreach(var usr in users)
+            //{
+            //    usersDictionary.Add(usr.Id.ToString(), usr.UserName);
+            //}
 
-            foreach (var businessOwner in _BusinessOwnerService.GetBusinessOwners())
-            {
-                businessOwnersDictionary.Add(businessOwner.Id.ToString(),
-                    String.Format("{0} {1}", businessOwner.FirstName, businessOwner.LastName)
-                    );
-            }
+            //Dictionary<string, string> businessOwnersDictionary = new Dictionary<string, string>();
 
-            var claims = (
-                from temp in _Context.UserClaims
-                select temp
-                );
+            //foreach (var businessOwner in _BusinessOwnerService.GetBusinessOwners())
+            //{
+            //    businessOwnersDictionary.Add(businessOwner.Id.ToString(),
+            //        String.Format("{0} {1}", businessOwner.FirstName, businessOwner.LastName)
+            //        );
+            //}
 
-            List<ClaimViewModel> returnValues = new List<ClaimViewModel>();
+            //var claims = (
+            //    from temp in _Context.UserClaims
+            //    select temp
+            //    );
 
-            foreach (var claim in claims)
-            {
-                var temp = new ClaimViewModel(claim.Id.ToString(), usersDictionary[claim.UserId.ToString()],
-                    claim.ClaimType, businessOwnersDictionary[claim.ClaimValue]);
+            //List<ClaimViewModel> returnValues = new List<ClaimViewModel>();
 
-                returnValues.Add(temp);
-            }
+            //foreach (var claim in claims)
+            //{
+            //    var temp = new ClaimViewModel(claim.Id.ToString(), usersDictionary[claim.UserId.ToString()],
+            //        claim.ClaimType, businessOwnersDictionary[claim.ClaimValue]);
 
-            return returnValues;
+            //    returnValues.Add(temp);
+            //}
+
+            //return returnValues;
         }
 
         [HttpPost]
@@ -289,17 +291,19 @@ namespace ORION.Admin.Controllers
 
         public ActionResult RemovePermission(int id)
         {
-            var removeThis = (from temp in _Context.UserClaims
-                              where temp.Id == id
-                              select temp).FirstOrDefault();
+            //var removeThis = (from temp in _Context.UserClaims
+            //                  where temp.Id == id
+            //                  select temp).FirstOrDefault();
 
-            if (removeThis != null)
-            {
-                _Context.UserClaims.Remove(removeThis);
-                _Context.SaveChanges();
-            }
+            //if (removeThis != null)
+            //{
+            //    _Context.UserClaims.Remove(removeThis);
+            //    _Context.SaveChanges();
+            //}
 
-            return RedirectToAction("Index");
+            //return RedirectToAction("Index");
+
+            throw new NotImplementedException();
         }
 
         [HttpPost]

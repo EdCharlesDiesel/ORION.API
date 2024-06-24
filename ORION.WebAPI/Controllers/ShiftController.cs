@@ -6,9 +6,9 @@ using ORION.WebAPI.Services;
 
 namespace ORION.WebAPI.Controllers
 {
-    [Route("api/v{version:apiVersion}/shifts/{shiftId}/employeedepartmenthistory")]
-    //[Authorize(Policy = "MustBeFromAntwerp")]
-    [ApiVersion(2)]
+    [Route("api/shifts/{shiftId}/employeedepartmenthistory")]
+    ////[Authorize(Policy = "MustBeFromAntwerp")]
+    //[ApiVersion(2)]
     [ApiController]
     public class ShiftController : ControllerBase
     {

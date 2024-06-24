@@ -12,12 +12,101 @@ using System.Threading.Tasks;
 namespace ORION.DataAccess.Contexts
 {
 
-    public class OrionDbContext : DbContext
+    public class OrionDbContext : DbContext, IUnitOfWork
     {
         public DbSet<EmployeeDepartmentHistory> EmployeeDepartmentHistory { get; set; }
         public DbSet<Employee> Employees { get; set; }
         public DbSet<Department> Departments { get; set; }
         public DbSet<Shift> Shifts { get; set; }
+
+        public DbSet<BusinessOwner> BusinessOwners { get; set; }
+
+        public DbSet<BusinessOwnerEvent> BusinessOwnerEvents { get; set; }
+
+        public DbSet<Category> Categories { get; set; }
+
+        public DbSet<CategoryEvent> CategoryEvent { get; set; }
+
+        public DbSet<Customer> Customers { get; set; }
+
+        public DbSet<CustomerEvent> CustomerEvents { get; set; }
+
+        public DbSet<CustomerCustomerDemo> CustomerCustomerDemos { get; set; }
+
+        public DbSet<CustomerCustomerDemoEvent> CustomerCustomerDemoEvents { get; set; }
+
+        public DbSet<CustomerDemographic> CustomerDemographics { get; set; }
+
+        public DbSet<CustomerDemographicEvent> CustomerDemographicEvents { get; set; }
+
+    
+
+        public DbSet<EmployeeEvent> EmployeeEvents { get; set; }
+
+        public DbSet<EmployeeTerritory> EmployeeTerritories { get; set; }
+
+        public DbSet<EmployeeTerritoryEvent> EmployeeTerritoryEvents { get; set; }
+
+        public DbSet<Supplier> Suppliers { get; set; }
+
+        public DbSet<Feature> Features { get; set; }
+
+        //TODO Create this
+        //public DbSet<FeatureEvent> FeatureEvents { get; set; }
+
+        public DbSet<LogEntry> LogEntries { get; set; }
+
+        public DbSet<LogEntryEvent> LogEntryEvents { get; set; }
+
+        public DbSet<MasterUser> AllUsers { get; set; }
+
+        public DbSet<MasterUserEvent> AllUserEvents { get; set; }
+
+        public DbSet<Order> Orders { get; set; }
+
+        public DbSet<OrderEvent> OrderEvents { get; set; }
+
+        public DbSet<OrderDetail> OrderDetails { get; set; }
+
+        public DbSet<OrderDetailEvent> OrderDetailEvents { get; set; }
+
+        public DbSet<Person> Persons { get; set; }
+
+        public DbSet<PersonBusiness> PersonBusinesses { get; set; }
+
+        public DbSet<Product> Products { get; set; }
+
+        public DbSet<ProductEvent> ProductEvents { get; set; }
+
+        public DbSet<Region> Regions { get; set; }
+
+        public DbSet<RegionEvent> RegionEvents { get; set; }
+
+        public DbSet<Relationship> Relationships { get; set; }
+
+        public DbSet<RelationshipEvent> RelationshipEvents { get; set; }
+
+        public DbSet<Shipper> Shippers { get; set; }
+
+        public DbSet<ShipperEvent> ShippersEvents { get; set; }
+
+        public DbSet<Subscription> Subscriptions { get; set; }
+
+        public DbSet<SubscriptionEvent> SubscriptionEvents { get; set; }
+
+        public DbSet<Supplier> Supplers { get; set; }
+
+        public DbSet<SupplierEvent> SupplerEvents { get; set; }
+
+        public DbSet<Term> Terms { get; set; }
+
+        public DbSet<TermEvent> TermEvents { get; set; }
+
+        public DbSet<Territory> Territories { get; set; }
+
+        public DbSet<TerritoryEvent> TerritoryEvents { get; set; }
+
+        public DbSet<PersonBusiness> PersonBusinesss { get; set; }
 
         public OrionDbContext(DbContextOptions<OrionDbContext> options)
             : base(options)
@@ -112,6 +201,26 @@ namespace ORION.DataAccess.Contexts
 
 
             base.OnModelCreating(modelBuilder);
+        }
+
+        public Task<bool> SaveEntitiesAsync()
+        {
+            throw new NotImplementedException();
+        }
+
+        public Task StartAsync()
+        {
+            throw new NotImplementedException();
+        }
+
+        public Task CommitAsync()
+        {
+            throw new NotImplementedException();
+        }
+
+        public Task RollbackAsync()
+        {
+            throw new NotImplementedException();
         }
 
         //protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)

@@ -26,15 +26,15 @@ namespace ORION.DataAccess.Extensions
 
         public static async Task Seed(this OrionDbContext context, IServiceScope serviceScope)
         {
-            await context.Database.MigrateAsync();
+            //await context.Database.MigrateAsync();
 
-            if (!await context.Roles.AnyAsync())
-            {
-                var roleManager = serviceScope.ServiceProvider.GetService<RoleManager<IdentityRole<int>>>();
-                var role = new IdentityRole<int> { Name = "Admins" };
-                await roleManager.CreateAsync(role);
+            //if (!await context.Roles.AnyAsync())
+            //{
+            //    var roleManager = serviceScope.ServiceProvider.GetService<RoleManager<IdentityRole<int>>>();
+            //    var role = new IdentityRole<int> { Name = "Admins" };
+            //    await roleManager.CreateAsync(role);
 
-            }
+            //}
             // if (!await context.Users.AnyAsync())
             // {
 

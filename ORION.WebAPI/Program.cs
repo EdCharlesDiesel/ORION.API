@@ -8,6 +8,7 @@ using Serilog;
 using System.Reflection;
 using System.Configuration;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Configuration;
 
 
 Log.Logger = new LoggerConfiguration()
@@ -20,6 +21,10 @@ var builder = WebApplication.CreateBuilder(args);
 //builder.Logging.AddConsole();
 
 var environment = Environment.GetEnvironmentVariable("ASPNETCORE_ENVIRONMENT");
+
+
+
+
 //if (environment == Environments.Development)
 //{
 //    builder.Host.UseSerilog(
@@ -49,11 +54,11 @@ var environment = Environment.GetEnvironmentVariable("ASPNETCORE_ENVIRONMENT");
 
 // Add services to the container.
 
-//builder.Services.AddControllers(options =>
-//{
-//    options.ReturnHttpNotAcceptable = true;
-//}).AddNewtonsoftJson()
-//.AddXmlDataContractSerializerFormatters();
+builder.Services.AddControllers(options =>
+{
+    options.ReturnHttpNotAcceptable = true;
+})
+.AddXmlDataContractSerializerFormatters();
 
 builder.Services.AddProblemDetails();
 //builder.Services.AddProblemDetails(options =>
@@ -75,9 +80,9 @@ builder.Services.AddTransient<IMailService, LocalMailService>();
 builder.Services.AddTransient<IMailService, CloudMailService>();
 #endif
 //builder.Services.AddSingleton<CitiesDataStore>();
+IConfiguration configuration = new ConfigurationBuilder().AddJsonFile("appsettings.json").Build();
+builder.Services.AddDbContext<OrionContext>(options => options.UseSqlServer(configuration.GetConnectionString("OrionConnectionStrings")));
 
-//builder.Services.AddDbContext<OrionContext>(
- //   dbContextOptions => dbContextOptions.UseSqlServer(Configuration.GetConnectionString("OrionConnectionStrings")));
 
        
     
@@ -103,14 +108,14 @@ builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
 //    }
 //    );
 
-builder.Services.AddAuthorization(options =>
-{
-    options.AddPolicy("MustBeFromAntwerp", policy =>
-    {
-        policy.RequireAuthenticatedUser();
-        policy.RequireClaim("city", "Antwerp");
-    });
-});
+//builder.Services.AddAuthorization(options =>
+//{
+//    options.AddPolicy("MustBeFromAntwerp", policy =>
+//    {
+//        policy.RequireAuthenticatedUser();
+//        policy.RequireClaim("city", "Antwerp");
+//    });
+//});
 
 //builder.Services.AddApiVersioning(setupAction =>
 //{
@@ -127,49 +132,49 @@ builder.Services.AddAuthorization(options =>
 // https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 
-var apiVersionDescriptionProvider = builder.Services.BuildServiceProvider()
-  .GetRequiredService<IApiVersionDescriptionProvider>();
+//var apiVersionDescriptionProvider = builder.Services.BuildServiceProvider()
+//  .GetRequiredService<IApiVersionDescriptionProvider>();
 
 builder.Services.AddSwaggerGen(setupAction =>
 {
-    foreach (var description in
-        apiVersionDescriptionProvider.ApiVersionDescriptions)
-    {
-        setupAction.SwaggerDoc(
-            $"{description.GroupName}",
-            new()
-            {
-                Title = "City Info API",
-                Version = description.ApiVersion.ToString(),
-                Description = "Through this API you can access cities and their points of interest."
-            });
-    }
+    //foreach (var description in
+    //    apiVersionDescriptionProvider.ApiVersionDescriptions)
+    //{
+    setupAction.SwaggerDoc(
+        $"zxczxc",
+        new()
+        {
+            Title = "City Info API",
+            Description = "Through this API you can access cities and their points of interest."
+        });
+
+    });
 
     var xmlCommentsFile = $"{Assembly.GetExecutingAssembly().GetName().Name}.xml";
     var xmlCommentsFullPath = Path.Combine(AppContext.BaseDirectory, xmlCommentsFile);
 
-    setupAction.IncludeXmlComments(xmlCommentsFullPath);
+    //setupAction.IncludeXmlComments(xmlCommentsFullPath);
 
-    setupAction.AddSecurityDefinition("CityInfoApiBearerAuth", new()
-    {
-        Type = SecuritySchemeType.Http,
-        Scheme = "Bearer",
-        Description = "Input a valid token to access this API"
-    });
+    //setupAction.AddSecurityDefinition("CityInfoApiBearerAuth", new()
+    //{
+    //    Type = SecuritySchemeType.Http,
+    //    Scheme = "Bearer",
+    //    Description = "Input a valid token to access this API"
+    //});
 
-    setupAction.AddSecurityRequirement(new()
-    {
-        {
-            new ()
-            {
-                Reference = new OpenApiReference {
-                    Type = ReferenceType.SecurityScheme,
-                    Id = "CityInfoApiBearerAuth" }
-            },
-            new List<string>()
-        }
-    });
-});
+    //setupAction.AddSecurityRequirement(new()
+    //{
+    //    {
+    //        new ()
+    //        {
+    //            Reference = new OpenApiReference {
+    //                Type = ReferenceType.SecurityScheme,
+    //                Id = "CityInfoApiBearerAuth" }
+    //        },
+    //        new List<string>()
+    //    }
+    //});
+//});
 
 builder.Services.Configure<ForwardedHeadersOptions>(options =>
 {

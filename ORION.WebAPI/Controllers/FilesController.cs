@@ -7,8 +7,8 @@ using Microsoft.EntityFrameworkCore.ChangeTracking.Internal;
 
 namespace ORION.WebAPI.Controllers
 {
-    [Route("api/v{version:apiVersion}/files")] 
-    [Authorize]
+    [Route("api/files")] 
+    //[Authorize]
     [ApiController]
     public class FilesController : ControllerBase
     {

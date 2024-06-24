@@ -1,20 +1,21 @@
 ﻿using Asp.Versioning;
 using AutoMapper;
-using CityInfo.API.Models;
-using CityInfo.API.Services;
+
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using ORION.Domain.IRepositories;
 using ORION.WebAPI.Entities;
+using ORION.WebAPI.Models;
 using System.Text.Json;
 
 namespace ORION.WebAPI.Controllers
 {
-    [ApiController]
+   
     //[Authorize]
-    [Route("api/v{version:apiVersion}/employeedepartmenthistory")]
-    [ApiVersion(1)]
-    [ApiVersion(2)]
+    [Route("api/employeedepartmenthistory")]
+    [ApiController]
+    //[ApiVersion(1)]
+    //[ApiVersion(2)]
     public class EmployeeDepartmentHistoryController : ControllerBase
     {
         private readonly IEmployeeDepartmentHistoryRepository _iemployeeDepartmentHistoryRepository;
@@ -45,40 +46,42 @@ namespace ORION.WebAPI.Controllers
         public async Task<ActionResult<IEnumerable<EmployeeDepartmentHistoryDto>>> GetEmployeeDepartmentHistory(
                     string? name, string? searchQuery, int pageNumber = 1, int pageSize = 10)
         {
-            if (pageSize > maxEmployeeDepartmentHistoryPageSize)
-            {
-                pageSize = maxEmployeeDepartmentHistoryPageSize;
-            }
+            //if (pageSize > maxEmployeeDepartmentHistoryPageSize)
+            //{
+            //    pageSize = maxEmployeeDepartmentHistoryPageSize;
+            //}
 
-            var (cityEntities, paginationMetadata) = await _iemployeeDepartmentHistoryRepository
-                .GetEmployeeDepartmentHistoryAsync(name, searchQuery, pageNumber, pageSize);
+            //var (shiftEntities, paginationMetadata) = await _iemployeeDepartmentHistoryRepository
+            //    .GetEmployeeDepartmentHistoryAsync(name, searchQuery, pageNumber, pageSize);
 
-            Response.Headers.Add("X-Pagination",
-                JsonSerializer.Serialize(paginationMetadata));
+            //Response.Headers.Add("X-Pagination",
+            //    JsonSerializer.Serialize(paginationMetadata));
 
-            return Ok(_mapper.Map<IEnumerable<ShiftWithoutEmployeeDepartmentHistoryDto>>(cityEntities));
+            //return Ok(_mapper.Map<IEnumerable<ShiftWithoutEmployeeDepartmentHistoryDto>>(cityEntities));
+
+            throw new NotFiniteNumberException();
         }
 
     
-        [HttpGet("{employeeDepartmentHistoryId}")]
-        [ProducesResponseType(StatusCodes.Status404NotFound)]
-        [ProducesResponseType(StatusCodes.Status400BadRequest)]
-        [ProducesResponseType(StatusCodes.Status200OK)]
-        public async Task<IActionResult> GetCity(
-            int employeeDepartmentHistoryId, bool includeEmployee = false)
-        {
-            var employeeDepartmentHistory = await _employeeDepartmentHistoryRepository.GetCityAsync(employeeDepartmentHistoryId, includeEmployee);
-            if (employeeDepartmentHistory == null)
-            {
-                return NotFound();
-            }
+        //[HttpGet("{employeeDepartmentHistoryId}")]
+        //[ProducesResponseType(StatusCodes.Status404NotFound)]
+        //[ProducesResponseType(StatusCodes.Status400BadRequest)]
+        //[ProducesResponseType(StatusCodes.Status200OK)]
+        //public async Task<IActionResult> GetCity(
+        //    int employeeDepartmentHistoryId, bool includeEmployee = false)
+        //{
+        //    var employeeDepartmentHistory = await _employeeDepartmentHistoryRepository.GetCityAsync(employeeDepartmentHistoryId, includeEmployee);
+        //    if (employeeDepartmentHistory == null)
+        //    {
+        //        return NotFound();
+        //    }
 
-            if (includeEmployee)
-            {
-                return Ok(_mapper.Map<EmployeeDepartmentHistoryDto>(employeeDepartmentHistory));
-            }
+        //    if (includeEmployee)
+        //    {
+        //        return Ok(_mapper.Map<EmployeeDepartmentHistoryDto>(employeeDepartmentHistory));
+        //    }
 
-            return Ok(_mapper.Map<ShiftWithoutEmployeeDepartmentHistoryDto>(employeeDepartmentHistory));
-        }
+        //    return Ok(_mapper.Map<ShiftWithoutEmployeeDepartmentHistoryDto>(employeeDepartmentHistory));
+        //}
     }
 }
