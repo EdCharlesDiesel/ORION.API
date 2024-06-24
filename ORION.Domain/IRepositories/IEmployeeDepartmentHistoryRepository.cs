@@ -4,9 +4,9 @@ using System.Threading.Tasks;
 
 namespace ORION.Domain.IRepositories
 {
-    public interface ICategoryRepository:IRepository<ICategory>
+    public interface IEmployeeDepartmentHistoryRepository : IRepository<IEmployeeDepartmentHistoryRepository>
     {
-        Task<ICategory> Get(int id);
-        ICategory New();
+      //  Task<IEmployeeDepartmentHistory> Get(int id);
+        IEmployeeDepartmentHistoryRepository New();
     }
 }

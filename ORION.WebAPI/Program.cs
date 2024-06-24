@@ -1,26 +1,17 @@
-using Asp.Versioning;
 using Asp.Versioning.ApiExplorer;
-using Azure.Extensions.AspNetCore.Configuration.Secrets;
-using Azure.Identity;
-using Azure.Security.KeyVault.Secrets;
-using CityInfo.API;
-using CityInfo.API.DbContexts;
-using CityInfo.API.Services;
-using Microsoft.ApplicationInsights.Extensibility;
 using Microsoft.AspNetCore.HttpOverrides;
 using Microsoft.AspNetCore.StaticFiles;
-using Microsoft.EntityFrameworkCore;
-using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
+using ORION.WebAPI.DbContexts;
+using ORION.WebAPI.Services;
 using Serilog;
 using System.Reflection;
-using System.Security.Cryptography.Xml;
-using System.Text;
+using System.Configuration;
+using Microsoft.EntityFrameworkCore;
 
 
 Log.Logger = new LoggerConfiguration()
-    .MinimumLevel.Debug()
-    .WriteTo.Console()
+    .MinimumLevel.Debug()    
     .CreateLogger();
 
 var builder = WebApplication.CreateBuilder(args);
@@ -29,40 +20,40 @@ var builder = WebApplication.CreateBuilder(args);
 //builder.Logging.AddConsole();
 
 var environment = Environment.GetEnvironmentVariable("ASPNETCORE_ENVIRONMENT");
-if (environment == Environments.Development)
-{
-    builder.Host.UseSerilog(
-        (context, loggerConfiguration) => loggerConfiguration
-            .MinimumLevel.Debug()
-            .WriteTo.Console());
-}
-else
-{
-    var secretClient = new SecretClient(
-            new Uri("https://pluralsightdemokeyvault.vault.azure.net/"),
-            new DefaultAzureCredential());
-    builder.Configuration.AddAzureKeyVault(secretClient,
-        new KeyVaultSecretManager());
+//if (environment == Environments.Development)
+//{
+//    builder.Host.UseSerilog(
+//        (context, loggerConfiguration) => loggerConfiguration
+//            .MinimumLevel.Debug()
+//            .WriteTo.Console());
+//}
+//else
+//{
+//    var secretClient = new SecretClient(
+//            new Uri("https://pluralsightdemokeyvault.vault.azure.net/"),
+//            new DefaultAzureCredential());
+//    builder.Configuration.AddAzureKeyVault(secretClient,
+//        new KeyVaultSecretManager());
 
-    builder.Host.UseSerilog(
-        (context, loggerConfiguration) => loggerConfiguration
-            .MinimumLevel.Debug()
-            .WriteTo.Console()
-            .WriteTo.File("logs/cityinfo.txt", rollingInterval: RollingInterval.Day)
-            .WriteTo.ApplicationInsights(new TelemetryConfiguration
-            {
-                InstrumentationKey = builder.Configuration["ApplicationInsightsInstrumentationKey"]
-            }, TelemetryConverter.Traces));
-}
+//    builder.Host.UseSerilog(
+//        (context, loggerConfiguration) => loggerConfiguration
+//            .MinimumLevel.Debug()
+//            .WriteTo.Console()
+//            .WriteTo.File("logs/cityinfo.txt", rollingInterval: RollingInterval.Day)
+//            .WriteTo.ApplicationInsights(new TelemetryConfiguration
+//            {
+//                InstrumentationKey = builder.Configuration["ApplicationInsightsInstrumentationKey"]
+//            }, TelemetryConverter.Traces));
+//}
 
 
 // Add services to the container.
 
-builder.Services.AddControllers(options =>
-{
-    options.ReturnHttpNotAcceptable = true;
-}).AddNewtonsoftJson()
-.AddXmlDataContractSerializerFormatters();
+//builder.Services.AddControllers(options =>
+//{
+//    options.ReturnHttpNotAcceptable = true;
+//}).AddNewtonsoftJson()
+//.AddXmlDataContractSerializerFormatters();
 
 builder.Services.AddProblemDetails();
 //builder.Services.AddProblemDetails(options =>
@@ -83,31 +74,34 @@ builder.Services.AddTransient<IMailService, LocalMailService>();
 #else 
 builder.Services.AddTransient<IMailService, CloudMailService>();
 #endif
-builder.Services.AddSingleton<CitiesDataStore>();
+//builder.Services.AddSingleton<CitiesDataStore>();
 
-builder.Services.AddDbContext<CityInfoContext>(
-    dbContextOptions => dbContextOptions.UseSqlite(
-        builder.Configuration["ConnectionStrings:CityInfoDBConnectionString"]));
+//builder.Services.AddDbContext<OrionContext>(
+ //   dbContextOptions => dbContextOptions.UseSqlServer(Configuration.GetConnectionString("OrionConnectionStrings")));
 
-builder.Services.AddScoped<ICityInfoRepository, CityInfoRepository>();
+       
+    
+    
+
+builder.Services.AddScoped<IShiftRepository, ShiftRepository>();
 
 builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
 
-builder.Services.AddAuthentication("Bearer")
-    .AddJwtBearer(options =>
-    {
-        options.TokenValidationParameters = new()
-        {
-            ValidateIssuer = true,
-            ValidateAudience = true,
-            ValidateIssuerSigningKey = true,
-            ValidIssuer = builder.Configuration["Authentication:Issuer"],
-            ValidAudience = builder.Configuration["Authentication:Audience"],
-            IssuerSigningKey = new SymmetricSecurityKey(
-               Convert.FromBase64String(builder.Configuration["Authentication:SecretForKey"]))
-        };
-    }
-    );
+//builder.Services.AddAuthentication("Bearer")
+//    .AddJwtBearer(options =>
+//    {
+//        options.TokenValidationParameters = new()
+//        {
+//            ValidateIssuer = true,
+//            ValidateAudience = true,
+//            ValidateIssuerSigningKey = true,
+//            ValidIssuer = builder.Configuration["Authentication:Issuer"],
+//            ValidAudience = builder.Configuration["Authentication:Audience"],
+//            IssuerSigningKey = new SymmetricSecurityKey(
+//               Convert.FromBase64String(builder.Configuration["Authentication:SecretForKey"]))
+//        };
+//    }
+//    );
 
 builder.Services.AddAuthorization(options =>
 {
@@ -118,16 +112,16 @@ builder.Services.AddAuthorization(options =>
     });
 });
 
-builder.Services.AddApiVersioning(setupAction =>
-{
-    setupAction.ReportApiVersions = true;
-    setupAction.AssumeDefaultVersionWhenUnspecified = true;
-    setupAction.DefaultApiVersion = new ApiVersion(1, 0);
-}).AddMvc()
-.AddApiExplorer(setupAction =>
-{
-    setupAction.SubstituteApiVersionInUrl = true;
-});
+//builder.Services.AddApiVersioning(setupAction =>
+//{
+//    setupAction.ReportApiVersions = true;
+//    setupAction.AssumeDefaultVersionWhenUnspecified = true;
+//    setupAction.DefaultApiVersion = new ApiVersion(1, 0);
+//}).AddMvc()
+//.AddApiExplorer(setupAction =>
+//{
+//    setupAction.SubstituteApiVersionInUrl = true;
+//});
 
 // Learn more about configuring Swagger/OpenAPI at
 // https://aka.ms/aspnetcore/swashbuckle
@@ -197,25 +191,25 @@ app.UseForwardedHeaders();
 //if (app.Environment.IsDevelopment())
 //{
 app.UseSwagger();
-app.UseSwaggerUI(setupAction =>
-{
-    var descriptions = app.DescribeApiVersions();
-    foreach (var description in descriptions)
-    {
-        setupAction.SwaggerEndpoint(
-            $"/swagger/{description.GroupName}/swagger.json",
-            description.GroupName.ToUpperInvariant());
-    }
-});
+//app.UseSwaggerUI(setupAction =>
+//{
+//    var descriptions = app.Dis();
+//    foreach (var description in descriptions)
+//    {
+//        setupAction.SwaggerEndpoint(
+//            $"/swagger/{description.GroupName}/swagger.json",
+//            description.GroupName.ToUpperInvariant());
+//    }
+//});
 //}
 
 app.UseHttpsRedirection();
 
 app.UseRouting();
 
-app.UseAuthentication();
+//app.UseAuthentication();
 
-app.UseAuthorization();
+//app.UseAuthorization();
 
 app.UseEndpoints(endpoints =>
 {

@@ -45,6 +45,27 @@ namespace ORION.DataAccess.Contexts
                     SickLeaveHours = 0,
                     Rowguid = new Guid(),
                     ModifiedDate = new DateTime()
+                });
+
+                 modelBuilder.Entity<Employee>()
+                 .HasData(
+                new Employee
+                {
+                    BusinessEntityId = 5,
+                    BirthDate = new(1988, 8, 5),
+                    CurrentFlag = true,
+                    Gender = "M",
+                    JobTitle = "Software Engineer",
+                    OrganizationLevel = 3,
+                    LoginId = "KCMokhethi",
+                    MaritalStatus = "Single",
+                    NationalIdnumber = "8808056172081",
+                    HireDate = new(2024, 01, 02),
+                    SalariedFlag = true,
+                    VacationHours = 0,
+                    SickLeaveHours = 0,
+                    Rowguid = new Guid(),
+                    ModifiedDate = new DateTime()
                 }
 
                //modelBuilder.Entity<PointOfInterest>()

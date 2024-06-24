@@ -1,4 +1,4 @@
-﻿namespace CityInfo.API.Services
+﻿namespace ORION.WebAPI.Services
 {
     public interface IMailService
     {

@@ -1,24 +1,20 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\x\\ORION.API\\",
-<<<<<<< HEAD
-  "Documents": [],
-=======
-<<<<<<< HEAD
-  "Documents": [],
-=======
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8007E64B-CDA7-4C78-B903-436CF6F62995}|ORION.DataAccess\\ORION.DataAccess.csproj|c:\\x\\orion.api\\orion.dataaccess\\models\\purchaseorderheader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8007E64B-CDA7-4C78-B903-436CF6F62995}|ORION.DataAccess\\ORION.DataAccess.csproj|solutionrelative:orion.dataaccess\\models\\purchaseorderheader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{009793DA-F4B9-4217-91EC-3FB1AB971697}|ORION.Domain\\ORION.Domain.csproj|c:\\x\\orion.api\\orion.domain\\irepositories\\iemployeedepartmenthistoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{009793DA-F4B9-4217-91EC-3FB1AB971697}|ORION.Domain\\ORION.Domain.csproj|solutionrelative:orion.domain\\irepositories\\iemployeedepartmenthistoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8007E64B-CDA7-4C78-B903-436CF6F62995}|ORION.DataAccess\\ORION.DataAccess.csproj|c:\\x\\orion.api\\orion.dataaccess\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8007E64B-CDA7-4C78-B903-436CF6F62995}|ORION.DataAccess\\ORION.DataAccess.csproj|solutionrelative:orion.dataaccess\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A893C3D4-1860-4ECC-9688-2CFDFA4A9E20}|ORION.WebAPI\\ORION.WebAPI.csproj|c:\\x\\orion.api\\orion.webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A893C3D4-1860-4ECC-9688-2CFDFA4A9E20}|ORION.WebAPI\\ORION.WebAPI.csproj|solutionrelative:orion.webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A893C3D4-1860-4ECC-9688-2CFDFA4A9E20}|ORION.WebAPI\\ORION.WebAPI.csproj|c:\\x\\orion.api\\orion.webapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A893C3D4-1860-4ECC-9688-2CFDFA4A9E20}|ORION.WebAPI\\ORION.WebAPI.csproj|solutionrelative:orion.webapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
->>>>>>> 1314f3dc6e19449e812c96a31484aa8dd726617d
->>>>>>> development
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -26,15 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-<<<<<<< HEAD
-          "SelectedChildIndex": -1,
-=======
-<<<<<<< HEAD
-          "SelectedChildIndex": -1,
-=======
-          "SelectedChildIndex": 3,
->>>>>>> 1314f3dc6e19449e812c96a31484aa8dd726617d
->>>>>>> development
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -47,40 +35,53 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
-<<<<<<< HEAD
-=======
             },
             {
-<<<<<<< HEAD
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
               "$type": "Bookmark",
               "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
-=======
+            },
+            {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "PurchaseOrderHeader.cs",
-              "DocumentMoniker": "C:\\x\\ORION.API\\ORION.DataAccess\\Models\\PurchaseOrderHeader.cs",
-              "RelativeDocumentMoniker": "ORION.DataAccess\\Models\\PurchaseOrderHeader.cs",
-              "ToolTip": "C:\\x\\ORION.API\\ORION.DataAccess\\Models\\PurchaseOrderHeader.cs",
-              "RelativeToolTip": "ORION.DataAccess\\Models\\PurchaseOrderHeader.cs",
-              "ViewState": "AQIAAFMAAAAAAAAAAAAhwGQAAAAfAAAA",
+              "Title": "IEmployeeDepartmentHistoryRepository.cs",
+              "DocumentMoniker": "C:\\x\\ORION.API\\ORION.Domain\\IRepositories\\IEmployeeDepartmentHistoryRepository.cs",
+              "RelativeDocumentMoniker": "ORION.Domain\\IRepositories\\IEmployeeDepartmentHistoryRepository.cs",
+              "ToolTip": "C:\\x\\ORION.API\\ORION.Domain\\IRepositories\\IEmployeeDepartmentHistoryRepository.cs",
+              "RelativeToolTip": "ORION.Domain\\IRepositories\\IEmployeeDepartmentHistoryRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAgAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-20T11:18:58.786Z",
+              "WhenOpened": "2024-06-24T15:55:55.31Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\x\\ORION.API\\ORION.WebAPI\\appsettings.json",
+              "RelativeDocumentMoniker": "ORION.WebAPI\\appsettings.json",
+              "ToolTip": "C:\\x\\ORION.API\\ORION.WebAPI\\appsettings.json",
+              "RelativeToolTip": "ORION.WebAPI\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-06-24T15:53:31.827Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Employee.cs",
-              "DocumentMoniker": "C:\\x\\ORION.API\\ORION.DataAccess\\Models\\Employee.cs",
-              "RelativeDocumentMoniker": "ORION.DataAccess\\Models\\Employee.cs",
-              "ToolTip": "C:\\x\\ORION.API\\ORION.DataAccess\\Models\\Employee.cs",
-              "RelativeToolTip": "ORION.DataAccess\\Models\\Employee.cs",
-              "ViewState": "AQIAAGIAAAAAAAAAAAAewHwAAAAyAAAA",
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\x\\ORION.API\\ORION.WebAPI\\Program.cs",
+              "RelativeDocumentMoniker": "ORION.WebAPI\\Program.cs",
+              "ToolTip": "C:\\x\\ORION.API\\ORION.WebAPI\\Program.cs",
+              "RelativeToolTip": "ORION.WebAPI\\Program.cs",
+              "ViewState": "AQIAADMAAAAAAAAAAAAAAE8AAAADAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-20T11:16:36.794Z",
+              "WhenOpened": "2024-06-24T15:49:18.128Z",
               "EditorCaption": ""
->>>>>>> 1314f3dc6e19449e812c96a31484aa8dd726617d
->>>>>>> development
             }
           ]
         }

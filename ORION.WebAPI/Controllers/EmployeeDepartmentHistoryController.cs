@@ -4,6 +4,8 @@ using CityInfo.API.Models;
 using CityInfo.API.Services;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+using ORION.Domain.IRepositories;
+using ORION.WebAPI.Entities;
 using System.Text.Json;
 
 namespace ORION.WebAPI.Controllers
@@ -28,50 +30,55 @@ namespace ORION.WebAPI.Controllers
                 throw new ArgumentNullException(nameof(mapper));
         }
 
-        [HttpGet]
-        public async Task<ActionResult<IEnumerable<CityWithoutPointsOfInterestDto>>> GetCities(
+        /// <summary>
+        /// Get a list of employement history.
+        /// </summary>
+        /// <param name="name"></param>
+        /// <param name="searchQuery"></param>
+        /// <param name="pageNumber"></param>
+        /// <param name="pageSize"></param>
+        /// <returns></returns>
+        
+        [HttpGet]        
+        [ProducesResponseType(StatusCodes.Status400BadRequest)]
+        [ProducesResponseType(StatusCodes.Status200OK)]
+        public async Task<ActionResult<IEnumerable<EmployeeDepartmentHistoryDto>>> GetEmployeeDepartmentHistory(
                     string? name, string? searchQuery, int pageNumber = 1, int pageSize = 10)
         {
-            if (pageSize > maxCitiesPageSize)
+            if (pageSize > maxEmployeeDepartmentHistoryPageSize)
             {
-                pageSize = maxCitiesPageSize;
+                pageSize = maxEmployeeDepartmentHistoryPageSize;
             }
 
-            var (cityEntities, paginationMetadata) = await _cityInfoRepository
-                .GetCitiesAsync(name, searchQuery, pageNumber, pageSize);
+            var (cityEntities, paginationMetadata) = await _iemployeeDepartmentHistoryRepository
+                .GetEmployeeDepartmentHistoryAsync(name, searchQuery, pageNumber, pageSize);
 
             Response.Headers.Add("X-Pagination",
                 JsonSerializer.Serialize(paginationMetadata));
 
-            return Ok(_mapper.Map<IEnumerable<CityWithoutPointsOfInterestDto>>(cityEntities));
+            return Ok(_mapper.Map<IEnumerable<ShiftWithoutEmployeeDepartmentHistoryDto>>(cityEntities));
         }
 
-        /// <summary>
-        /// Get a city by id
-        /// </summary>
-        /// <param name="cityId">The id of the city to get</param>
-        /// <param name="includePointsOfInterest">Whether or not to include the points of interest</param>
-        /// <response code="200">Returns the requested city</response>
-        /// <returns>A city with or without points of interest</returns>
-        [HttpGet("{cityId}")]
+    
+        [HttpGet("{employeeDepartmentHistoryId}")]
         [ProducesResponseType(StatusCodes.Status404NotFound)]
         [ProducesResponseType(StatusCodes.Status400BadRequest)]
         [ProducesResponseType(StatusCodes.Status200OK)]
         public async Task<IActionResult> GetCity(
-            int cityId, bool includePointsOfInterest = false)
+            int employeeDepartmentHistoryId, bool includeEmployee = false)
         {
-            var city = await _cityInfoRepository.GetCityAsync(cityId, includePointsOfInterest);
-            if (city == null)
+            var employeeDepartmentHistory = await _employeeDepartmentHistoryRepository.GetCityAsync(employeeDepartmentHistoryId, includeEmployee);
+            if (employeeDepartmentHistory == null)
             {
                 return NotFound();
             }
 
-            if (includePointsOfInterest)
+            if (includeEmployee)
             {
-                return Ok(_mapper.Map<CityDto>(city));
+                return Ok(_mapper.Map<EmployeeDepartmentHistoryDto>(employeeDepartmentHistory));
             }
 
-            return Ok(_mapper.Map<CityWithoutPointsOfInterestDto>(city));
+            return Ok(_mapper.Map<ShiftWithoutEmployeeDepartmentHistoryDto>(employeeDepartmentHistory));
         }
     }
 }
