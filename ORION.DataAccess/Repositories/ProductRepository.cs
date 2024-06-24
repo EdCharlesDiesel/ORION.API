@@ -13,39 +13,39 @@ namespace ORION.DataAccess.Repositories
 {
     public class ProductRepository : IProductRepository
     {
-        private OrionDbContext context;
-        public ProductRepository(OrionDbContext context)
-        {
-            this.context = context;
-        }
-        public IUnitOfWork UnitOfWork => context;
+        //private OrionDbContext context;
+        //public ProductRepository(OrionDbContext context)
+        //{
+        //    this.context = context;
+        //}
+        //public IUnitOfWork UnitOfWork => context;
 
-        public async Task<IProduct> Get(int id)
-        {
-            //return await context.Products.Where(m => m.Id == id)
-            //    .FirstOrDefaultAsync();
-            throw new NotImplementedException();
-        }
+        //public async Task<IProduct> Get(int id)
+        //{
+        //    //return await context.Products.Where(m => m.Id == id)
+        //    //    .FirstOrDefaultAsync();
+        //    throw new NotImplementedException();
+        //}
 
-        public async Task<IProduct> Delete(int id)
-        {
-            //var model = await Get(id);
-            //if (model == null) return null;
-            //context.Products.Remove(model as Product);
-            //model.AddDomainEvent(
-            //    new ProductDeleteEvent(
-            //        model.Id, (model as Product).EntityVersion));
-            //return model;
-            throw new NotImplementedException();
-        }
-        
-        public IProduct New()
-        {
-            throw new NotImplementedException();
-            //var model = new Product() {EntityVersion=1 };
-            //context.Products.Add(model);
-            //return model;
-        }
+        //public async Task<IProduct> Delete(int id)
+        //{
+        //    //var model = await Get(id);
+        //    //if (model == null) return null;
+        //    //context.Products.Remove(model as Product);
+        //    //model.AddDomainEvent(
+        //    //    new ProductDeleteEvent(
+        //    //        model.Id, (model as Product).EntityVersion));
+        //    //return model;
+        //    throw new NotImplementedException();
+        //}
+
+        //public IProduct New()
+        //{
+        //    throw new NotImplementedException();
+        //    //var model = new Product() {EntityVersion=1 };
+        //    //context.Products.Add(model);
+        //    //return model;
+        //}
 
         // public async Task<bool> UploadFile(MultipartReader reader,MultipartSection? section)
         // {
@@ -78,5 +78,21 @@ namespace ORION.DataAccess.Repositories
         //     }
         //     return true;
         // }
+        public IUnitOfWork UnitOfWork => throw new NotImplementedException();
+
+        public Task<IProduct> Delete(int id)
+        {
+            throw new NotImplementedException();
+        }
+
+        public Task<IProduct> Get(int id)
+        {
+            throw new NotImplementedException();
+        }
+
+        public IProduct New()
+        {
+            throw new NotImplementedException();
+        }
     }
 }

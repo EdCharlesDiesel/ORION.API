@@ -1,3 +1,9 @@
+C:\x\ORION.API\ORION.DBTest\obj\Debug\net8.0\ORION.DBTest.csproj.AssemblyReference.cache
+C:\x\ORION.API\ORION.DBTest\obj\Debug\net8.0\ORION.DBTest.GeneratedMSBuildEditorConfig.editorconfig
+C:\x\ORION.API\ORION.DBTest\obj\Debug\net8.0\ORION.DBTest.AssemblyInfoInputs.cache
+C:\x\ORION.API\ORION.DBTest\obj\Debug\net8.0\ORION.DBTest.AssemblyInfo.cs
+C:\x\ORION.API\ORION.DBTest\obj\Debug\net8.0\ORION.DBTest.csproj.CoreCompileInputs.cache
+C:\x\ORION.API\ORION.DBTest\obj\Debug\net8.0\ORION.DBTest.sourcelink.json
 C:\x\ORION.API\ORION.DBTest\bin\Debug\net8.0\ORION.DBTest.exe
 C:\x\ORION.API\ORION.DBTest\bin\Debug\net8.0\ORION.DBTest.deps.json
 C:\x\ORION.API\ORION.DBTest\bin\Debug\net8.0\ORION.DBTest.runtimeconfig.json
@@ -62,12 +68,6 @@ C:\x\ORION.API\ORION.DBTest\bin\Debug\net8.0\ORION.DataAccess.dll
 C:\x\ORION.API\ORION.DBTest\bin\Debug\net8.0\ORION.Domain.dll
 C:\x\ORION.API\ORION.DBTest\bin\Debug\net8.0\ORION.Domain.pdb
 C:\x\ORION.API\ORION.DBTest\bin\Debug\net8.0\ORION.DataAccess.pdb
-C:\x\ORION.API\ORION.DBTest\obj\Debug\net8.0\ORION.DBTest.csproj.AssemblyReference.cache
-C:\x\ORION.API\ORION.DBTest\obj\Debug\net8.0\ORION.DBTest.GeneratedMSBuildEditorConfig.editorconfig
-C:\x\ORION.API\ORION.DBTest\obj\Debug\net8.0\ORION.DBTest.AssemblyInfoInputs.cache
-C:\x\ORION.API\ORION.DBTest\obj\Debug\net8.0\ORION.DBTest.AssemblyInfo.cs
-C:\x\ORION.API\ORION.DBTest\obj\Debug\net8.0\ORION.DBTest.csproj.CoreCompileInputs.cache
-C:\x\ORION.API\ORION.DBTest\obj\Debug\net8.0\ORION.DBTest.sourcelink.json
 C:\x\ORION.API\ORION.DBTest\obj\Debug\net8.0\ORION.DB.A4AAF521.Up2Date
 C:\x\ORION.API\ORION.DBTest\obj\Debug\net8.0\ORION.DBTest.dll
 C:\x\ORION.API\ORION.DBTest\obj\Debug\net8.0\refint\ORION.DBTest.dll
