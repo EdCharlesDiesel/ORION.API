@@ -136,3 +136,4 @@ C:\x\ORION.API\ORION.WebAPI\obj\Debug\net8.0\refint\ORION.WebAPI.dll
 C:\x\ORION.API\ORION.WebAPI\obj\Debug\net8.0\ORION.WebAPI.pdb
 C:\x\ORION.API\ORION.WebAPI\obj\Debug\net8.0\ORION.WebAPI.genruntimeconfig.cache
 C:\x\ORION.API\ORION.WebAPI\obj\Debug\net8.0\ref\ORION.WebAPI.dll
+C:\x\ORION.API\ORION.WebAPI\bin\Debug\net8.0\System.ClientModel.dll

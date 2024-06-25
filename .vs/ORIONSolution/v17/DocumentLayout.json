@@ -3,20 +3,36 @@
   "WorkspaceRootPath": "C:\\x\\ORION.API\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{BBD752EF-2E0C-46D0-8543-B8EF86E2618C}|ORION.WebAPI\\ORION.WebAPI.csproj|c:\\x\\orion.api\\orion.webapi\\orion.webapi.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
-      "RelativeMoniker": "D:0:0:{BBD752EF-2E0C-46D0-8543-B8EF86E2618C}|ORION.WebAPI\\ORION.WebAPI.csproj|solutionrelative:orion.webapi\\orion.webapi.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{BBD752EF-2E0C-46D0-8543-B8EF86E2618C}|ORION.WebAPI\\ORION.WebAPI.csproj|c:\\x\\orion.api\\orion.webapi\\controllers\\shiftcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BBD752EF-2E0C-46D0-8543-B8EF86E2618C}|ORION.WebAPI\\ORION.WebAPI.csproj|solutionrelative:orion.webapi\\controllers\\shiftcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BBD752EF-2E0C-46D0-8543-B8EF86E2618C}|ORION.WebAPI\\ORION.WebAPI.csproj|c:\\x\\orion.api\\orion.webapi\\controllers\\filescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BBD752EF-2E0C-46D0-8543-B8EF86E2618C}|ORION.WebAPI\\ORION.WebAPI.csproj|solutionrelative:orion.webapi\\controllers\\filescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BBD752EF-2E0C-46D0-8543-B8EF86E2618C}|ORION.WebAPI\\ORION.WebAPI.csproj|c:\\x\\orion.api\\orion.webapi\\entities\\employeedepartmenthistory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BBD752EF-2E0C-46D0-8543-B8EF86E2618C}|ORION.WebAPI\\ORION.WebAPI.csproj|solutionrelative:orion.webapi\\entities\\employeedepartmenthistory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BBD752EF-2E0C-46D0-8543-B8EF86E2618C}|ORION.WebAPI\\ORION.WebAPI.csproj|c:\\x\\orion.api\\orion.webapi\\controllers\\employeedepartmenthistorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BBD752EF-2E0C-46D0-8543-B8EF86E2618C}|ORION.WebAPI\\ORION.WebAPI.csproj|solutionrelative:orion.webapi\\controllers\\employeedepartmenthistorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BBD752EF-2E0C-46D0-8543-B8EF86E2618C}|ORION.WebAPI\\ORION.WebAPI.csproj|c:\\x\\orion.api\\orion.webapi\\profiles\\shiftprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BBD752EF-2E0C-46D0-8543-B8EF86E2618C}|ORION.WebAPI\\ORION.WebAPI.csproj|solutionrelative:orion.webapi\\profiles\\shiftprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BBD752EF-2E0C-46D0-8543-B8EF86E2618C}|ORION.WebAPI\\ORION.WebAPI.csproj|c:\\x\\orion.api\\orion.webapi\\models\\shiftdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BBD752EF-2E0C-46D0-8543-B8EF86E2618C}|ORION.WebAPI\\ORION.WebAPI.csproj|solutionrelative:orion.webapi\\models\\shiftdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BBD752EF-2E0C-46D0-8543-B8EF86E2618C}|ORION.WebAPI\\ORION.WebAPI.csproj|c:\\x\\orion.api\\orion.webapi\\entities\\shift.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BBD752EF-2E0C-46D0-8543-B8EF86E2618C}|ORION.WebAPI\\ORION.WebAPI.csproj|solutionrelative:orion.webapi\\entities\\shift.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BBD752EF-2E0C-46D0-8543-B8EF86E2618C}|ORION.WebAPI\\ORION.WebAPI.csproj|c:\\x\\orion.api\\orion.webapi\\services\\shiftrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BBD752EF-2E0C-46D0-8543-B8EF86E2618C}|ORION.WebAPI\\ORION.WebAPI.csproj|solutionrelative:orion.webapi\\services\\shiftrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BBD752EF-2E0C-46D0-8543-B8EF86E2618C}|ORION.WebAPI\\ORION.WebAPI.csproj|c:\\x\\orion.api\\orion.webapi\\services\\ishiftrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BBD752EF-2E0C-46D0-8543-B8EF86E2618C}|ORION.WebAPI\\ORION.WebAPI.csproj|solutionrelative:orion.webapi\\services\\ishiftrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BBD752EF-2E0C-46D0-8543-B8EF86E2618C}|ORION.WebAPI\\ORION.WebAPI.csproj|c:\\x\\orion.api\\orion.webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BBD752EF-2E0C-46D0-8543-B8EF86E2618C}|ORION.WebAPI\\ORION.WebAPI.csproj|solutionrelative:orion.webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,7 +42,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Bookmark",
@@ -42,54 +58,106 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ORION.WebAPI.http",
-              "DocumentMoniker": "C:\\x\\ORION.API\\ORION.WebAPI\\ORION.WebAPI.http",
-              "RelativeDocumentMoniker": "ORION.WebAPI\\ORION.WebAPI.http",
-              "ToolTip": "C:\\x\\ORION.API\\ORION.WebAPI\\ORION.WebAPI.http",
-              "RelativeToolTip": "ORION.WebAPI\\ORION.WebAPI.http",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
-              "WhenOpened": "2024-06-25T07:59:10.483Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "ShiftController.cs",
-              "DocumentMoniker": "C:\\x\\ORION.API\\ORION.WebAPI\\Controllers\\ShiftController.cs",
-              "RelativeDocumentMoniker": "ORION.WebAPI\\Controllers\\ShiftController.cs",
-              "ToolTip": "C:\\x\\ORION.API\\ORION.WebAPI\\Controllers\\ShiftController.cs",
-              "RelativeToolTip": "ORION.WebAPI\\Controllers\\ShiftController.cs",
-              "ViewState": "AQIAADAAAAAAAAAAAAAowAAAAAAAAAAA",
+              "Title": "EmployeeDepartmentHistory.cs",
+              "DocumentMoniker": "C:\\x\\ORION.API\\ORION.WebAPI\\Entities\\EmployeeDepartmentHistory.cs",
+              "RelativeDocumentMoniker": "ORION.WebAPI\\Entities\\EmployeeDepartmentHistory.cs",
+              "ToolTip": "C:\\x\\ORION.API\\ORION.WebAPI\\Entities\\EmployeeDepartmentHistory.cs",
+              "RelativeToolTip": "ORION.WebAPI\\Entities\\EmployeeDepartmentHistory.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-25T07:58:26.716Z",
+              "WhenOpened": "2024-06-25T08:50:13.859Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "FilesController.cs",
-              "DocumentMoniker": "C:\\x\\ORION.API\\ORION.WebAPI\\Controllers\\FilesController.cs",
-              "RelativeDocumentMoniker": "ORION.WebAPI\\Controllers\\FilesController.cs",
-              "ToolTip": "C:\\x\\ORION.API\\ORION.WebAPI\\Controllers\\FilesController.cs",
-              "RelativeToolTip": "ORION.WebAPI\\Controllers\\FilesController.cs",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAswBoAAAALAAAA",
+              "DocumentIndex": 4,
+              "Title": "Shift.cs",
+              "DocumentMoniker": "C:\\x\\ORION.API\\ORION.WebAPI\\Entities\\Shift.cs",
+              "RelativeDocumentMoniker": "ORION.WebAPI\\Entities\\Shift.cs",
+              "ToolTip": "C:\\x\\ORION.API\\ORION.WebAPI\\Entities\\Shift.cs",
+              "RelativeToolTip": "ORION.WebAPI\\Entities\\Shift.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAZAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-25T07:57:38.427Z",
+              "WhenOpened": "2024-06-25T08:44:53.532Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "EmployeeDepartmentHistoryController.cs",
-              "DocumentMoniker": "C:\\x\\ORION.API\\ORION.WebAPI\\Controllers\\EmployeeDepartmentHistoryController.cs",
-              "RelativeDocumentMoniker": "ORION.WebAPI\\Controllers\\EmployeeDepartmentHistoryController.cs",
-              "ToolTip": "C:\\x\\ORION.API\\ORION.WebAPI\\Controllers\\EmployeeDepartmentHistoryController.cs",
-              "RelativeToolTip": "ORION.WebAPI\\Controllers\\EmployeeDepartmentHistoryController.cs",
-              "ViewState": "AQIAAAQAAAAAAAAAAADwvxIAAAA1AAAA",
+              "Title": "ShiftDto.cs",
+              "DocumentMoniker": "C:\\x\\ORION.API\\ORION.WebAPI\\Models\\ShiftDto.cs",
+              "RelativeDocumentMoniker": "ORION.WebAPI\\Models\\ShiftDto.cs",
+              "ToolTip": "C:\\x\\ORION.API\\ORION.WebAPI\\Models\\ShiftDto.cs",
+              "RelativeToolTip": "ORION.WebAPI\\Models\\ShiftDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAIAAAARAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-25T07:57:31.509Z",
+              "WhenOpened": "2024-06-25T08:44:40.347Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IShiftRepository.cs",
+              "DocumentMoniker": "C:\\x\\ORION.API\\ORION.WebAPI\\Services\\IShiftRepository.cs",
+              "RelativeDocumentMoniker": "ORION.WebAPI\\Services\\IShiftRepository.cs",
+              "ToolTip": "C:\\x\\ORION.API\\ORION.WebAPI\\Services\\IShiftRepository.cs",
+              "RelativeToolTip": "ORION.WebAPI\\Services\\IShiftRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-25T08:34:05.322Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ShiftRepository.cs",
+              "DocumentMoniker": "C:\\x\\ORION.API\\ORION.WebAPI\\Services\\ShiftRepository.cs",
+              "RelativeDocumentMoniker": "ORION.WebAPI\\Services\\ShiftRepository.cs",
+              "ToolTip": "C:\\x\\ORION.API\\ORION.WebAPI\\Services\\ShiftRepository.cs",
+              "RelativeToolTip": "ORION.WebAPI\\Services\\ShiftRepository.cs",
+              "ViewState": "AQIAAHQAAAAAAAAAAAAcwJQAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-25T08:34:26.405Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ShiftController.cs",
+              "DocumentMoniker": "C:\\x\\ORION.API\\ORION.WebAPI\\Controllers\\ShiftController.cs",
+              "RelativeDocumentMoniker": "ORION.WebAPI\\Controllers\\ShiftController.cs",
+              "ToolTip": "C:\\x\\ORION.API\\ORION.WebAPI\\Controllers\\ShiftController.cs*",
+              "RelativeToolTip": "ORION.WebAPI\\Controllers\\ShiftController.cs*",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAACUAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-25T08:28:55.923Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\x\\ORION.API\\ORION.WebAPI\\Program.cs",
+              "RelativeDocumentMoniker": "ORION.WebAPI\\Program.cs",
+              "ToolTip": "C:\\x\\ORION.API\\ORION.WebAPI\\Program.cs",
+              "RelativeToolTip": "ORION.WebAPI\\Program.cs",
+              "ViewState": "AQIAABsAAAAAAAAAAAAkwCUAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-25T08:26:49.964Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ShiftProfile.cs",
+              "DocumentMoniker": "C:\\x\\ORION.API\\ORION.WebAPI\\Profiles\\ShiftProfile.cs",
+              "RelativeDocumentMoniker": "ORION.WebAPI\\Profiles\\ShiftProfile.cs",
+              "ToolTip": "C:\\x\\ORION.API\\ORION.WebAPI\\Profiles\\ShiftProfile.cs",
+              "RelativeToolTip": "ORION.WebAPI\\Profiles\\ShiftProfile.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-25T08:25:49.627Z",
               "EditorCaption": ""
             }
           ]

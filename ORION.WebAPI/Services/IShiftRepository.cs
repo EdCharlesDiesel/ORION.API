@@ -13,5 +13,6 @@ namespace ORION.WebAPI.Services
       //  Task AddEmployeeDepartmentHistoryForShiftAsync(int ShiftId, EmployeeDepartmentHistory EmployeeDepartmentHistory);
         void DeleteEmployeeDepartmentHistory(EmployeeDepartmentHistory EmployeeDepartmentHistory);
         Task<bool> SaveChangesAsync();
+        Task <Shift> GetShiftByIdAsync(int shiftId);
     }
 }

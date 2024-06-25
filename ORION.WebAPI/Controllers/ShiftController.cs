@@ -32,14 +32,12 @@ namespace ORION.WebAPI.Controllers
                 throw new ArgumentNullException(nameof(mapper));
         }
 
-        /// <summary>
-        /// Get shift 
-        /// </summary>
-        /// <param name="shiftId"></param>
-        /// <returns></returns>
         [HttpGet]
-        public async Task<ActionResult<IEnumerable<EmployeeDepartmentHistoryDto>>> GetShift(
-            int shiftId)
+        [ProducesResponseType(typeof(FileStreamResult), StatusCodes.Status200OK)]
+        [ProducesResponseType(StatusCodes.Status404NotFound)]        
+        [Produces("Application/json")]
+        public async Task<ActionResult<ShiftDto>> GetShift(
+        int shiftId)
         {
             if (!await _shiftRepository.ShiftExistsAsync(shiftId))
             {
@@ -48,10 +46,38 @@ namespace ORION.WebAPI.Controllers
                 return NotFound();
             }
 
-            var employeeDepartmentHistoryForShift = await _shiftRepository.GetEmployeeDepartmentHistoryForShiftAsync(shiftId);
+            var shift = await _shiftRepository.GetShiftByIdAsync(shiftId);
+            return Ok(_mapper.Map<ShiftDto>(shift));
 
-            return Ok(_mapper.Map<IEnumerable<EmployeeDepartmentHistoryDto>>(employeeDepartmentHistoryForShift));
+            #region Will refactor this code later
+
+            //var employeeDepartmentHistoryForShift = await _shiftRepository.GetEmployeeDepartmentHistoryForShiftAsync(shiftId);
+
+            //return Ok(_mapper.Map<IEnumerable<EmployeeDepartmentHistoryDto>>(employeeDepartmentHistoryForShift)); 
+
+            #endregion
         }
+
+        /// <summary>
+        /// Get shift 
+        /// </summary>
+        /// <param name="shiftId"></param>
+        /// <returns></returns>
+        //[HttpGet]
+        //public async Task<ActionResult<IEnumerable<EmployeeDepartmentHistoryDto>>> GetShift(
+        //    int shiftId)
+        //{
+        //    if (!await _shiftRepository.ShiftExistsAsync(shiftId))
+        //    {
+        //        _logger.LogInformation(
+        //            $"Shift with id {shiftId} wasn't found when accessing employee department history.");
+        //        return NotFound();
+        //    }
+
+        //    var employeeDepartmentHistoryForShift = await _shiftRepository.GetEmployeeDepartmentHistoryForShiftAsync(shiftId);
+
+        //    return Ok(_mapper.Map<IEnumerable<EmployeeDepartmentHistoryDto>>(employeeDepartmentHistoryForShift));
+        //}
 
         //[HttpGet("{pointofinterestid}", Name = "GetPointOfInterest")]
         //public async Task<ActionResult<PointOfInterestDto>> GetPointOfInterest(

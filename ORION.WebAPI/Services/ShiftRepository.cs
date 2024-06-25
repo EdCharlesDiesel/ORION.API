@@ -153,5 +153,10 @@ namespace ORION.WebAPI.Services
         {
             return (await _context.SaveChangesAsync() >= 0);
         }
+
+        public async Task<Shift> GetShiftByIdAsync(int shiftId)
+        {
+            return await _context.Shifts.Where(c => c.ShiftId == shiftId).FirstOrDefaultAsync();
+        }
     }
 }
