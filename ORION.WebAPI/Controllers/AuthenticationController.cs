@@ -66,7 +66,7 @@ namespace ORION.WebAPI.Controllers
 
             // Step 2: create a token
             var securityKey = new SymmetricSecurityKey(
-                Convert.FromBase64String(_configuration["Authentication:SecretForKey"]));
+                Convert.FromBase64String(s: _configuration["Authentication:SecretForKey"]));
             var signingCredentials = new SigningCredentials(
                 securityKey, SecurityAlgorithms.HmacSha256);
              

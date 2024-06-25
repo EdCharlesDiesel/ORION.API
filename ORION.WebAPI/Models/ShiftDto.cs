@@ -2,20 +2,30 @@
 {
     public class ShiftDto
     {
-        public int Id { get; set; }
+        /// <summary>
+        /// Shift Id
+        /// </summary>
+        public byte ShiftId { get; set; }
 
-        public string Name { get; set; } = string.Empty;
+        /// <summary>
+        /// Shift description.
+        /// </summary>
+        
+        public string Name { get; set; }
 
-        public string? Description { get; set; }
-        public int NumberOfEmployeeDepartmentHistory
-        {
-            get
-            {
-                return EmployeeDepartmentHistory.Count;
-            }
-        }
+        /// <summary>
+        /// Shift start time.
+        /// </summary>
+        public TimeOnly StartTime { get; set; }
 
-        public ICollection<EmployeeDepartmentHistoryDto> EmployeeDepartmentHistory { get; set; }
-            = new List<EmployeeDepartmentHistoryDto>();
+        /// <summary>
+        /// Shift end time.
+        /// </summary>
+        public TimeOnly EndTime { get; set; }
+
+        /// <summary>
+        /// Date and time the record was last updated.
+        /// </summary>        
+        public DateTime ModifiedDate { get; set; }
     }
 }

@@ -1,4 +1,4 @@
-﻿using Asp.Versioning;
+﻿
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
@@ -24,7 +24,7 @@ namespace ORION.WebAPI.Controllers
         }
 
         [HttpGet("{fileId}")]
-        [ApiVersion(0.1, Deprecated = true)]
+    //    [ApiVersion(0.1, Deprecated = true)]
         public ActionResult GetFile(string fileId)
         {
             // look up the actual file, depending on the fileId...
@@ -48,7 +48,7 @@ namespace ORION.WebAPI.Controllers
         }
 
         [HttpPost]
-        [ApiVersion(1)]
+     //   [ApiVersion(1)]
         public async Task<ActionResult> CreateFile(IFormFile file)
         {
             // Validate the input. Put a limit on filesize to avoid large uploads attacks. 

@@ -44,8 +44,8 @@ namespace ORION.WebAPI.Entities
         [Column(TypeName = "datetime")]
         public DateTime ModifiedDate { get; set; }
 
-        [InverseProperty("Shift")]
-        public virtual ICollection<EmployeeDepartmentHistory> EmployeeDepartmentHistories { get; set; } = new List<EmployeeDepartmentHistory>();
+        //[InverseProperty("Shift")]
+        //public virtual ICollection<EmployeeDepartmentHistory> EmployeeDepartmentHistories { get; set; } = new List<EmployeeDepartmentHistory>();
 
     }
 }

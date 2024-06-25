@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ORION.WebAPI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a4cf605af01e245b4bced7c6c805c4b294c475b6")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+96c7fbcf1df0bacef117f5643d335ceb8685efb5")]
 [assembly: System.Reflection.AssemblyProductAttribute("ORION.WebAPI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ORION.WebAPI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
