@@ -1,0 +1,4 @@
+@ORION.Api_HostAddress = http://localhost:5026
+
+GET {{ORION.Api_HostAddress}}/weatherforecast/
+Accept: application/json

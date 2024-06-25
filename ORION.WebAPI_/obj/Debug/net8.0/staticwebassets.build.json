@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "BiyDcE3sPAOaUbGLVAxEelNFiQjKgrFw406ZFfIDSJI=",
+  "Source": "ORION.WebAPI",
+  "BasePath": "_content/ORION.WebAPI",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

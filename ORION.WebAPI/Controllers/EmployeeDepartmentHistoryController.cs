@@ -1,16 +1,10 @@
-﻿using Asp.Versioning;
-using AutoMapper;
-
-using Microsoft.AspNetCore.Authorization;
+﻿using AutoMapper;
 using Microsoft.AspNetCore.Mvc;
-using ORION.Domain.IRepositories;
-using ORION.WebAPI.Entities;
 using ORION.WebAPI.Models;
-using System.Text.Json;
 
 namespace ORION.WebAPI.Controllers
 {
-   
+
     //[Authorize]
     [Route("api/employeedepartmenthistory")]
     [ApiController]
@@ -18,18 +12,18 @@ namespace ORION.WebAPI.Controllers
     //[ApiVersion(2)]
     public class EmployeeDepartmentHistoryController : ControllerBase
     {
-        private readonly IEmployeeDepartmentHistoryRepository _iemployeeDepartmentHistoryRepository;
-        private readonly IMapper _mapper;
-        const int maxEmployeeDepartmentHistoryPageSize = 20;
+        //private readonly IEmployeeDepartmentHistoryRepository _iemployeeDepartmentHistoryRepository;
+        //private readonly IMapper _mapper;
+        //const int maxEmployeeDepartmentHistoryPageSize = 20;
 
-        public EmployeeDepartmentHistoryController(IEmployeeDepartmentHistoryRepository iemployeeDepartmentHistoryRepository,
-            IMapper mapper)
-        {
-            _iemployeeDepartmentHistoryRepository = iemployeeDepartmentHistoryRepository ??
-                throw new ArgumentNullException(nameof(iemployeeDepartmentHistoryRepository));
-            _mapper = mapper ??
-                throw new ArgumentNullException(nameof(mapper));
-        }
+        //public EmployeeDepartmentHistoryController(IEmployeeDepartmentHistoryRepository iemployeeDepartmentHistoryRepository,
+        //    IMapper mapper)
+        //{
+        //    _iemployeeDepartmentHistoryRepository = iemployeeDepartmentHistoryRepository ??
+        //        throw new ArgumentNullException(nameof(iemployeeDepartmentHistoryRepository));
+        //    _mapper = mapper ??
+        //        throw new ArgumentNullException(nameof(mapper));
+        //}
 
         /// <summary>
         /// Get a list of employement history.

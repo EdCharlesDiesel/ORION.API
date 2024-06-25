@@ -16,6 +16,8 @@ namespace ORION.WebAPI.Entities
         /// <summary>
         /// Employee identification number. Foreign key to Employee.BusinessEntityID.
         /// </summary>
+
+        //[PrimaryKey("BusinessEntityId")]
         [Key]
         [Column("BusinessEntityID")]
         public int BusinessEntityId { get; set; }
@@ -23,21 +25,21 @@ namespace ORION.WebAPI.Entities
         /// <summary>
         /// Department in which the employee worked including currently. Foreign key to Department.DepartmentID.
         /// </summary>
-        [Key]
+        //[Key]
         [Column("DepartmentID")]
         public short DepartmentId { get; set; }
 
         /// <summary>
         /// Identifies which 8-hour shift the employee works. Foreign key to Shift.Shift.ID.
         /// </summary>
-        [Key]
+      //  [Key]
         [Column("ShiftID")]
         public byte ShiftId { get; set; }
 
         /// <summary>
         /// Date the employee started work in the department.
         /// </summary>
-        [Key]
+       // [Key]
         public DateOnly StartDate { get; set; }
 
         /// <summary>
@@ -59,9 +61,9 @@ namespace ORION.WebAPI.Entities
         //[InverseProperty("EmployeeDepartmentHistories")]
         //public virtual Department Department { get; set; }
 
-        [ForeignKey("ShiftId")]
-        [InverseProperty("EmployeeDepartmentHistories")]
-        public virtual Shift Shift { get; set; }
+        //[ForeignKey("ShiftId")]
+        //[InverseProperty("EmployeeDepartmentHistories")]
+        //public virtual Shift Shift { get; set; }
     }
 }
 

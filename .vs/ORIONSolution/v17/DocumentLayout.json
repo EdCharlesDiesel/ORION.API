@@ -3,44 +3,20 @@
   "WorkspaceRootPath": "C:\\x\\ORION.API\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A893C3D4-1860-4ECC-9688-2CFDFA4A9E20}|ORION.WebAPI\\ORION.WebAPI.csproj|c:\\x\\orion.api\\orion.webapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{A893C3D4-1860-4ECC-9688-2CFDFA4A9E20}|ORION.WebAPI\\ORION.WebAPI.csproj|solutionrelative:orion.webapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{BBD752EF-2E0C-46D0-8543-B8EF86E2618C}|ORION.WebAPI\\ORION.WebAPI.csproj|c:\\x\\orion.api\\orion.webapi\\orion.webapi.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{BBD752EF-2E0C-46D0-8543-B8EF86E2618C}|ORION.WebAPI\\ORION.WebAPI.csproj|solutionrelative:orion.webapi\\orion.webapi.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A893C3D4-1860-4ECC-9688-2CFDFA4A9E20}|ORION.WebAPI\\ORION.WebAPI.csproj|c:\\x\\orion.api\\orion.webapi\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{A893C3D4-1860-4ECC-9688-2CFDFA4A9E20}|ORION.WebAPI\\ORION.WebAPI.csproj|solutionrelative:orion.webapi\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{BBD752EF-2E0C-46D0-8543-B8EF86E2618C}|ORION.WebAPI\\ORION.WebAPI.csproj|c:\\x\\orion.api\\orion.webapi\\controllers\\shiftcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BBD752EF-2E0C-46D0-8543-B8EF86E2618C}|ORION.WebAPI\\ORION.WebAPI.csproj|solutionrelative:orion.webapi\\controllers\\shiftcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A893C3D4-1860-4ECC-9688-2CFDFA4A9E20}|ORION.WebAPI\\ORION.WebAPI.csproj|c:\\x\\orion.api\\orion.webapi\\appsettings.production.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{A893C3D4-1860-4ECC-9688-2CFDFA4A9E20}|ORION.WebAPI\\ORION.WebAPI.csproj|solutionrelative:orion.webapi\\appsettings.production.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{BBD752EF-2E0C-46D0-8543-B8EF86E2618C}|ORION.WebAPI\\ORION.WebAPI.csproj|c:\\x\\orion.api\\orion.webapi\\controllers\\filescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BBD752EF-2E0C-46D0-8543-B8EF86E2618C}|ORION.WebAPI\\ORION.WebAPI.csproj|solutionrelative:orion.webapi\\controllers\\filescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A893C3D4-1860-4ECC-9688-2CFDFA4A9E20}|ORION.WebAPI\\ORION.WebAPI.csproj|c:\\x\\orion.api\\orion.webapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{A893C3D4-1860-4ECC-9688-2CFDFA4A9E20}|ORION.WebAPI\\ORION.WebAPI.csproj|solutionrelative:orion.webapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A893C3D4-1860-4ECC-9688-2CFDFA4A9E20}|ORION.WebAPI\\ORION.WebAPI.csproj|c:\\x\\orion.api\\orion.webapi\\controllers\\shiftcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A893C3D4-1860-4ECC-9688-2CFDFA4A9E20}|ORION.WebAPI\\ORION.WebAPI.csproj|solutionrelative:orion.webapi\\controllers\\shiftcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A893C3D4-1860-4ECC-9688-2CFDFA4A9E20}|ORION.WebAPI\\ORION.WebAPI.csproj|c:\\x\\orion.api\\orion.webapi\\controllers\\filescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A893C3D4-1860-4ECC-9688-2CFDFA4A9E20}|ORION.WebAPI\\ORION.WebAPI.csproj|solutionrelative:orion.webapi\\controllers\\filescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A893C3D4-1860-4ECC-9688-2CFDFA4A9E20}|ORION.WebAPI\\ORION.WebAPI.csproj|c:\\x\\orion.api\\orion.webapi\\controllers\\employeedepartmenthistorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A893C3D4-1860-4ECC-9688-2CFDFA4A9E20}|ORION.WebAPI\\ORION.WebAPI.csproj|solutionrelative:orion.webapi\\controllers\\employeedepartmenthistorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A893C3D4-1860-4ECC-9688-2CFDFA4A9E20}|ORION.WebAPI\\ORION.WebAPI.csproj|c:\\x\\orion.api\\orion.webapi\\controllers\\authenticationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A893C3D4-1860-4ECC-9688-2CFDFA4A9E20}|ORION.WebAPI\\ORION.WebAPI.csproj|solutionrelative:orion.webapi\\controllers\\authenticationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A893C3D4-1860-4ECC-9688-2CFDFA4A9E20}|ORION.WebAPI\\ORION.WebAPI.csproj|c:\\x\\orion.api\\orion.webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A893C3D4-1860-4ECC-9688-2CFDFA4A9E20}|ORION.WebAPI\\ORION.WebAPI.csproj|solutionrelative:orion.webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F9ABABF4-6C67-4F19-9713-E05F782E731E}|ORION.Admin\\ORION.Admin.csproj|c:\\x\\orion.api\\orion.admin\\controllers\\securityadmincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F9ABABF4-6C67-4F19-9713-E05F782E731E}|ORION.Admin\\ORION.Admin.csproj|solutionrelative:orion.admin\\controllers\\securityadmincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BBD752EF-2E0C-46D0-8543-B8EF86E2618C}|ORION.WebAPI\\ORION.WebAPI.csproj|c:\\x\\orion.api\\orion.webapi\\controllers\\employeedepartmenthistorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BBD752EF-2E0C-46D0-8543-B8EF86E2618C}|ORION.WebAPI\\ORION.WebAPI.csproj|solutionrelative:orion.webapi\\controllers\\employeedepartmenthistorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -67,131 +43,53 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "launchSettings.json",
-              "DocumentMoniker": "C:\\x\\ORION.API\\ORION.WebAPI\\Properties\\launchSettings.json",
-              "RelativeDocumentMoniker": "ORION.WebAPI\\Properties\\launchSettings.json",
-              "ToolTip": "C:\\x\\ORION.API\\ORION.WebAPI\\Properties\\launchSettings.json",
-              "RelativeToolTip": "ORION.WebAPI\\Properties\\launchSettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAsAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-06-24T16:41:48.825Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "appSettings.Production.json",
-              "DocumentMoniker": "C:\\x\\ORION.API\\ORION.WebAPI\\appSettings.Production.json",
-              "RelativeDocumentMoniker": "ORION.WebAPI\\appSettings.Production.json",
-              "ToolTip": "C:\\x\\ORION.API\\ORION.WebAPI\\appSettings.Production.json",
-              "RelativeToolTip": "ORION.WebAPI\\appSettings.Production.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAADAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-06-24T16:40:47.438Z",
+              "Title": "ORION.WebAPI.http",
+              "DocumentMoniker": "C:\\x\\ORION.API\\ORION.WebAPI\\ORION.WebAPI.http",
+              "RelativeDocumentMoniker": "ORION.WebAPI\\ORION.WebAPI.http",
+              "ToolTip": "C:\\x\\ORION.API\\ORION.WebAPI\\ORION.WebAPI.http",
+              "RelativeToolTip": "ORION.WebAPI\\ORION.WebAPI.http",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2024-06-25T07:59:10.483Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "appsettings.Development.json",
-              "DocumentMoniker": "C:\\x\\ORION.API\\ORION.WebAPI\\appsettings.Development.json",
-              "RelativeDocumentMoniker": "ORION.WebAPI\\appsettings.Development.json",
-              "ToolTip": "C:\\x\\ORION.API\\ORION.WebAPI\\appsettings.Development.json",
-              "RelativeToolTip": "ORION.WebAPI\\appsettings.Development.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAADAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-06-24T16:40:41.069Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\x\\ORION.API\\ORION.WebAPI\\appsettings.json",
-              "RelativeDocumentMoniker": "ORION.WebAPI\\appsettings.json",
-              "ToolTip": "C:\\x\\ORION.API\\ORION.WebAPI\\appsettings.json",
-              "RelativeToolTip": "ORION.WebAPI\\appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-06-24T16:39:41.414Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\x\\ORION.API\\ORION.WebAPI\\Program.cs",
-              "RelativeDocumentMoniker": "ORION.WebAPI\\Program.cs",
-              "ToolTip": "C:\\x\\ORION.API\\ORION.WebAPI\\Program.cs",
-              "RelativeToolTip": "ORION.WebAPI\\Program.cs",
-              "ViewState": "AQIAAMIAAAAAAAAAAAApwNQAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-24T16:19:26.637Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
               "Title": "ShiftController.cs",
               "DocumentMoniker": "C:\\x\\ORION.API\\ORION.WebAPI\\Controllers\\ShiftController.cs",
               "RelativeDocumentMoniker": "ORION.WebAPI\\Controllers\\ShiftController.cs",
               "ToolTip": "C:\\x\\ORION.API\\ORION.WebAPI\\Controllers\\ShiftController.cs",
               "RelativeToolTip": "ORION.WebAPI\\Controllers\\ShiftController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAPAAAA",
+              "ViewState": "AQIAADAAAAAAAAAAAAAowAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-24T16:18:15.617Z",
+              "WhenOpened": "2024-06-25T07:58:26.716Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 2,
               "Title": "FilesController.cs",
               "DocumentMoniker": "C:\\x\\ORION.API\\ORION.WebAPI\\Controllers\\FilesController.cs",
               "RelativeDocumentMoniker": "ORION.WebAPI\\Controllers\\FilesController.cs",
               "ToolTip": "C:\\x\\ORION.API\\ORION.WebAPI\\Controllers\\FilesController.cs",
               "RelativeToolTip": "ORION.WebAPI\\Controllers\\FilesController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAPAAAA",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAswBoAAAALAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-24T16:18:03.321Z",
+              "WhenOpened": "2024-06-25T07:57:38.427Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 3,
               "Title": "EmployeeDepartmentHistoryController.cs",
               "DocumentMoniker": "C:\\x\\ORION.API\\ORION.WebAPI\\Controllers\\EmployeeDepartmentHistoryController.cs",
               "RelativeDocumentMoniker": "ORION.WebAPI\\Controllers\\EmployeeDepartmentHistoryController.cs",
               "ToolTip": "C:\\x\\ORION.API\\ORION.WebAPI\\Controllers\\EmployeeDepartmentHistoryController.cs",
               "RelativeToolTip": "ORION.WebAPI\\Controllers\\EmployeeDepartmentHistoryController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAATAAAA",
+              "ViewState": "AQIAAAQAAAAAAAAAAADwvxIAAAA1AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-24T16:17:50.873Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "AuthenticationController.cs",
-              "DocumentMoniker": "C:\\x\\ORION.API\\ORION.WebAPI\\Controllers\\AuthenticationController.cs",
-              "RelativeDocumentMoniker": "ORION.WebAPI\\Controllers\\AuthenticationController.cs",
-              "ToolTip": "C:\\x\\ORION.API\\ORION.WebAPI\\Controllers\\AuthenticationController.cs",
-              "RelativeToolTip": "ORION.WebAPI\\Controllers\\AuthenticationController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-24T16:17:44.043Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "SecurityAdminController.cs",
-              "DocumentMoniker": "C:\\x\\ORION.API\\ORION.Admin\\Controllers\\SecurityAdminController.cs",
-              "RelativeDocumentMoniker": "ORION.Admin\\Controllers\\SecurityAdminController.cs",
-              "ToolTip": "C:\\x\\ORION.API\\ORION.Admin\\Controllers\\SecurityAdminController.cs",
-              "RelativeToolTip": "ORION.Admin\\Controllers\\SecurityAdminController.cs",
-              "ViewState": "AQIAABwBAAAAAAAAAADwvzEBAAAMAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-24T16:14:47.526Z",
+              "WhenOpened": "2024-06-25T07:57:31.509Z",
               "EditorCaption": ""
             }
           ]

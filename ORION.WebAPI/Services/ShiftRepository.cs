@@ -74,17 +74,17 @@ namespace ORION.WebAPI.Services
         /// <param name="ShiftId"></param>
         /// <param name="includeEmployeeDepartmentHistory"></param>
         /// <returns>A shift</returns>
-        public async Task<Shift?> GetShiftAsync(int ShiftId, bool includeEmployeeDepartmentHistory)
-        {
-            if (includeEmployeeDepartmentHistory)
-            {
-                return await _context.Shifts.Include(c => c.EmployeeDepartmentHistories)
-                    .Where(c => c.ShiftId == ShiftId).FirstOrDefaultAsync();
-            }
+        //public async Task<Shift?> GetShiftAsync(int ShiftId, bool includeEmployeeDepartmentHistory)
+        //{
+        //    if (includeEmployeeDepartmentHistory)
+        //    {
+        //        return await _context.Shifts.Include(c => c.EmployeeDepartmentHistories)
+        //            .Where(c => c.ShiftId == ShiftId).FirstOrDefaultAsync();
+        //    }
 
-            return await _context.Shifts
-                  .Where(c => c.ShiftId == ShiftId).FirstOrDefaultAsync();
-        }
+        //    return await _context.Shifts
+        //          .Where(c => c.ShiftId == ShiftId).FirstOrDefaultAsync();
+        //}
 
         /// <summary>
         /// Check if shift exists.
@@ -128,14 +128,14 @@ namespace ORION.WebAPI.Services
         /// </summary>
         /// <param name="ShiftId"></param>
         /// <param name="EmployeeDepartmentHistory"></param>        
-        public async Task AddEmployeeDepartmentHistoryForShiftAsync(int shiftId, EmployeeDepartmentHistory employeeDepartmentHistory)
-        {                        
-            var shift = await GetShiftAsync(shiftId, false);
-            if (shift != null)
-            {
-                shift.EmployeeDepartmentHistories.Add(employeeDepartmentHistory);
-            }
-        }
+        //public async Task AddEmployeeDepartmentHistoryForShiftAsync(int shiftId, EmployeeDepartmentHistory employeeDepartmentHistory)
+        //{                        
+        //    var shift = await GetShiftAsync(shiftId, false);
+        //    if (shift != null)
+        //    {
+        //        shift.EmployeeDepartmentHistories.Add(employeeDepartmentHistory);
+        //    }
+        //}
 
         /// <summary>
         /// Delete employee department history.
