@@ -1,0 +1,33 @@
+C:\x\Algorithms\_OldCode\RightSiblingTree\bin\Debug\net6.0\RightSiblingTree.deps.json
+C:\x\Algorithms\_OldCode\RightSiblingTree\bin\Debug\net6.0\RightSiblingTree.dll
+C:\x\Algorithms\_OldCode\RightSiblingTree\bin\Debug\net6.0\RightSiblingTree.pdb
+C:\x\Algorithms\_OldCode\RightSiblingTree\obj\Debug\net6.0\RightSiblingTree.GeneratedMSBuildEditorConfig.editorconfig
+C:\x\Algorithms\_OldCode\RightSiblingTree\obj\Debug\net6.0\RightSiblingTree.AssemblyInfoInputs.cache
+C:\x\Algorithms\_OldCode\RightSiblingTree\obj\Debug\net6.0\RightSiblingTree.AssemblyInfo.cs
+C:\x\Algorithms\_OldCode\RightSiblingTree\obj\Debug\net6.0\RightSiblingTree.csproj.CoreCompileInputs.cache
+C:\x\Algorithms\_OldCode\RightSiblingTree\obj\Debug\net6.0\RightSiblingTree.dll
+C:\x\Algorithms\_OldCode\RightSiblingTree\obj\Debug\net6.0\refint\RightSiblingTree.dll
+C:\x\Algorithms\_OldCode\RightSiblingTree\obj\Debug\net6.0\RightSiblingTree.pdb
+C:\x\Algorithms\_OldCode\RightSiblingTree\obj\Debug\net6.0\ref\RightSiblingTree.dll
+C:\x\Algorithms\04_VeryHard\RightSiblingTree\bin\Debug\net6.0\RightSiblingTree.deps.json
+C:\x\Algorithms\04_VeryHard\RightSiblingTree\bin\Debug\net6.0\RightSiblingTree.dll
+C:\x\Algorithms\04_VeryHard\RightSiblingTree\bin\Debug\net6.0\RightSiblingTree.pdb
+C:\x\Algorithms\04_VeryHard\RightSiblingTree\obj\Debug\net6.0\RightSiblingTree.GeneratedMSBuildEditorConfig.editorconfig
+C:\x\Algorithms\04_VeryHard\RightSiblingTree\obj\Debug\net6.0\RightSiblingTree.AssemblyInfoInputs.cache
+C:\x\Algorithms\04_VeryHard\RightSiblingTree\obj\Debug\net6.0\RightSiblingTree.AssemblyInfo.cs
+C:\x\Algorithms\04_VeryHard\RightSiblingTree\obj\Debug\net6.0\RightSiblingTree.csproj.CoreCompileInputs.cache
+C:\x\Algorithms\04_VeryHard\RightSiblingTree\obj\Debug\net6.0\RightSiblingTree.dll
+C:\x\Algorithms\04_VeryHard\RightSiblingTree\obj\Debug\net6.0\refint\RightSiblingTree.dll
+C:\x\Algorithms\04_VeryHard\RightSiblingTree\obj\Debug\net6.0\RightSiblingTree.pdb
+C:\x\Algorithms\04_VeryHard\RightSiblingTree\obj\Debug\net6.0\ref\RightSiblingTree.dll
+C:\Algorithms\03_Binary Trees\RightSiblingTree\bin\Debug\net6.0\RightSiblingTree.deps.json
+C:\Algorithms\03_Binary Trees\RightSiblingTree\bin\Debug\net6.0\RightSiblingTree.dll
+C:\Algorithms\03_Binary Trees\RightSiblingTree\bin\Debug\net6.0\RightSiblingTree.pdb
+C:\Algorithms\03_Binary Trees\RightSiblingTree\obj\Debug\net6.0\RightSiblingTree.GeneratedMSBuildEditorConfig.editorconfig
+C:\Algorithms\03_Binary Trees\RightSiblingTree\obj\Debug\net6.0\RightSiblingTree.AssemblyInfoInputs.cache
+C:\Algorithms\03_Binary Trees\RightSiblingTree\obj\Debug\net6.0\RightSiblingTree.AssemblyInfo.cs
+C:\Algorithms\03_Binary Trees\RightSiblingTree\obj\Debug\net6.0\RightSiblingTree.csproj.CoreCompileInputs.cache
+C:\Algorithms\03_Binary Trees\RightSiblingTree\obj\Debug\net6.0\RightSiblingTree.dll
+C:\Algorithms\03_Binary Trees\RightSiblingTree\obj\Debug\net6.0\refint\RightSiblingTree.dll
+C:\Algorithms\03_Binary Trees\RightSiblingTree\obj\Debug\net6.0\RightSiblingTree.pdb
+C:\Algorithms\03_Binary Trees\RightSiblingTree\obj\Debug\net6.0\ref\RightSiblingTree.dll

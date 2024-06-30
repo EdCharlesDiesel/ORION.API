@@ -1,0 +1,33 @@
+C:\x\Algorithms\_OldCode\LevenshteinDistance\bin\Debug\net6.0\LevenshteinDistance.deps.json
+C:\x\Algorithms\_OldCode\LevenshteinDistance\bin\Debug\net6.0\LevenshteinDistance.dll
+C:\x\Algorithms\_OldCode\LevenshteinDistance\bin\Debug\net6.0\LevenshteinDistance.pdb
+C:\x\Algorithms\_OldCode\LevenshteinDistance\obj\Debug\net6.0\LevenshteinDistance.GeneratedMSBuildEditorConfig.editorconfig
+C:\x\Algorithms\_OldCode\LevenshteinDistance\obj\Debug\net6.0\LevenshteinDistance.AssemblyInfoInputs.cache
+C:\x\Algorithms\_OldCode\LevenshteinDistance\obj\Debug\net6.0\LevenshteinDistance.AssemblyInfo.cs
+C:\x\Algorithms\_OldCode\LevenshteinDistance\obj\Debug\net6.0\LevenshteinDistance.csproj.CoreCompileInputs.cache
+C:\x\Algorithms\_OldCode\LevenshteinDistance\obj\Debug\net6.0\LevenshteinDistance.dll
+C:\x\Algorithms\_OldCode\LevenshteinDistance\obj\Debug\net6.0\refint\LevenshteinDistance.dll
+C:\x\Algorithms\_OldCode\LevenshteinDistance\obj\Debug\net6.0\LevenshteinDistance.pdb
+C:\x\Algorithms\_OldCode\LevenshteinDistance\obj\Debug\net6.0\ref\LevenshteinDistance.dll
+C:\x\Algorithms\02_Medium\LevenshteinDistance\bin\Debug\net6.0\LevenshteinDistance.deps.json
+C:\x\Algorithms\02_Medium\LevenshteinDistance\bin\Debug\net6.0\LevenshteinDistance.dll
+C:\x\Algorithms\02_Medium\LevenshteinDistance\bin\Debug\net6.0\LevenshteinDistance.pdb
+C:\x\Algorithms\02_Medium\LevenshteinDistance\obj\Debug\net6.0\LevenshteinDistance.GeneratedMSBuildEditorConfig.editorconfig
+C:\x\Algorithms\02_Medium\LevenshteinDistance\obj\Debug\net6.0\LevenshteinDistance.AssemblyInfoInputs.cache
+C:\x\Algorithms\02_Medium\LevenshteinDistance\obj\Debug\net6.0\LevenshteinDistance.AssemblyInfo.cs
+C:\x\Algorithms\02_Medium\LevenshteinDistance\obj\Debug\net6.0\LevenshteinDistance.csproj.CoreCompileInputs.cache
+C:\x\Algorithms\02_Medium\LevenshteinDistance\obj\Debug\net6.0\LevenshteinDistance.dll
+C:\x\Algorithms\02_Medium\LevenshteinDistance\obj\Debug\net6.0\refint\LevenshteinDistance.dll
+C:\x\Algorithms\02_Medium\LevenshteinDistance\obj\Debug\net6.0\LevenshteinDistance.pdb
+C:\x\Algorithms\02_Medium\LevenshteinDistance\obj\Debug\net6.0\ref\LevenshteinDistance.dll
+C:\Algorithms\04_Dynamic Programming\LevenshteinDistance\bin\Debug\net6.0\LevenshteinDistance.deps.json
+C:\Algorithms\04_Dynamic Programming\LevenshteinDistance\bin\Debug\net6.0\LevenshteinDistance.dll
+C:\Algorithms\04_Dynamic Programming\LevenshteinDistance\bin\Debug\net6.0\LevenshteinDistance.pdb
+C:\Algorithms\04_Dynamic Programming\LevenshteinDistance\obj\Debug\net6.0\LevenshteinDistance.GeneratedMSBuildEditorConfig.editorconfig
+C:\Algorithms\04_Dynamic Programming\LevenshteinDistance\obj\Debug\net6.0\LevenshteinDistance.AssemblyInfoInputs.cache
+C:\Algorithms\04_Dynamic Programming\LevenshteinDistance\obj\Debug\net6.0\LevenshteinDistance.AssemblyInfo.cs
+C:\Algorithms\04_Dynamic Programming\LevenshteinDistance\obj\Debug\net6.0\LevenshteinDistance.csproj.CoreCompileInputs.cache
+C:\Algorithms\04_Dynamic Programming\LevenshteinDistance\obj\Debug\net6.0\LevenshteinDistance.dll
+C:\Algorithms\04_Dynamic Programming\LevenshteinDistance\obj\Debug\net6.0\refint\LevenshteinDistance.dll
+C:\Algorithms\04_Dynamic Programming\LevenshteinDistance\obj\Debug\net6.0\LevenshteinDistance.pdb
+C:\Algorithms\04_Dynamic Programming\LevenshteinDistance\obj\Debug\net6.0\ref\LevenshteinDistance.dll

@@ -3,36 +3,20 @@
   "WorkspaceRootPath": "C:\\x\\ORION.API\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{BBD752EF-2E0C-46D0-8543-B8EF86E2618C}|ORION.WebAPI\\ORION.WebAPI.csproj|c:\\x\\orion.api\\orion.webapi\\controllers\\shiftcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BBD752EF-2E0C-46D0-8543-B8EF86E2618C}|ORION.WebAPI\\ORION.WebAPI.csproj|solutionrelative:orion.webapi\\controllers\\shiftcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{08015DD1-EA88-4206-9291-ED52EFFEF78D}|ORION.Core\\ORION.Core.csproj|c:\\x\\orion.api\\orion.core\\14_greedyalgorithmns\\optimalfreelancing\\optimalfreelancingclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{08015DD1-EA88-4206-9291-ED52EFFEF78D}|ORION.Core\\ORION.Core.csproj|solutionrelative:orion.core\\14_greedyalgorithmns\\optimalfreelancing\\optimalfreelancingclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BBD752EF-2E0C-46D0-8543-B8EF86E2618C}|ORION.WebAPI\\ORION.WebAPI.csproj|c:\\x\\orion.api\\orion.webapi\\entities\\employeedepartmenthistory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BBD752EF-2E0C-46D0-8543-B8EF86E2618C}|ORION.WebAPI\\ORION.WebAPI.csproj|solutionrelative:orion.webapi\\entities\\employeedepartmenthistory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{08015DD1-EA88-4206-9291-ED52EFFEF78D}|ORION.Core\\ORION.Core.csproj|c:\\x\\orion.api\\orion.core\\14_greedyalgorithmns\\tandembicycle\\tandembicycleclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{08015DD1-EA88-4206-9291-ED52EFFEF78D}|ORION.Core\\ORION.Core.csproj|solutionrelative:orion.core\\14_greedyalgorithmns\\tandembicycle\\tandembicycleclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BBD752EF-2E0C-46D0-8543-B8EF86E2618C}|ORION.WebAPI\\ORION.WebAPI.csproj|c:\\x\\orion.api\\orion.webapi\\profiles\\shiftprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BBD752EF-2E0C-46D0-8543-B8EF86E2618C}|ORION.WebAPI\\ORION.WebAPI.csproj|solutionrelative:orion.webapi\\profiles\\shiftprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BBD752EF-2E0C-46D0-8543-B8EF86E2618C}|ORION.WebAPI\\ORION.WebAPI.csproj|c:\\x\\orion.api\\orion.webapi\\models\\shiftdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BBD752EF-2E0C-46D0-8543-B8EF86E2618C}|ORION.WebAPI\\ORION.WebAPI.csproj|solutionrelative:orion.webapi\\models\\shiftdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{08015DD1-EA88-4206-9291-ED52EFFEF78D}|ORION.Core\\ORION.Core.csproj|c:\\x\\orion.api\\orion.core\\01_arrays\\apartmenthunting\\obj\\debug\\net6.0\\apartmenthunting.assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{08015DD1-EA88-4206-9291-ED52EFFEF78D}|ORION.Core\\ORION.Core.csproj|solutionrelative:orion.core\\01_arrays\\apartmenthunting\\obj\\debug\\net6.0\\apartmenthunting.assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BBD752EF-2E0C-46D0-8543-B8EF86E2618C}|ORION.WebAPI\\ORION.WebAPI.csproj|c:\\x\\orion.api\\orion.webapi\\entities\\shift.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BBD752EF-2E0C-46D0-8543-B8EF86E2618C}|ORION.WebAPI\\ORION.WebAPI.csproj|solutionrelative:orion.webapi\\entities\\shift.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BBD752EF-2E0C-46D0-8543-B8EF86E2618C}|ORION.WebAPI\\ORION.WebAPI.csproj|c:\\x\\orion.api\\orion.webapi\\services\\shiftrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BBD752EF-2E0C-46D0-8543-B8EF86E2618C}|ORION.WebAPI\\ORION.WebAPI.csproj|solutionrelative:orion.webapi\\services\\shiftrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BBD752EF-2E0C-46D0-8543-B8EF86E2618C}|ORION.WebAPI\\ORION.WebAPI.csproj|c:\\x\\orion.api\\orion.webapi\\services\\ishiftrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BBD752EF-2E0C-46D0-8543-B8EF86E2618C}|ORION.WebAPI\\ORION.WebAPI.csproj|solutionrelative:orion.webapi\\services\\ishiftrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BBD752EF-2E0C-46D0-8543-B8EF86E2618C}|ORION.WebAPI\\ORION.WebAPI.csproj|c:\\x\\orion.api\\orion.webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BBD752EF-2E0C-46D0-8543-B8EF86E2618C}|ORION.WebAPI\\ORION.WebAPI.csproj|solutionrelative:orion.webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -58,106 +42,54 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "EmployeeDepartmentHistory.cs",
-              "DocumentMoniker": "C:\\x\\ORION.API\\ORION.WebAPI\\Entities\\EmployeeDepartmentHistory.cs",
-              "RelativeDocumentMoniker": "ORION.WebAPI\\Entities\\EmployeeDepartmentHistory.cs",
-              "ToolTip": "C:\\x\\ORION.API\\ORION.WebAPI\\Entities\\EmployeeDepartmentHistory.cs",
-              "RelativeToolTip": "ORION.WebAPI\\Entities\\EmployeeDepartmentHistory.cs",
+              "DocumentIndex": 0,
+              "Title": "OptimalFreelancingClass.cs",
+              "DocumentMoniker": "C:\\x\\ORION.API\\ORION.Core\\14_GreedyAlgorithmns\\OptimalFreelancing\\OptimalFreelancingClass.cs",
+              "RelativeDocumentMoniker": "ORION.Core\\14_GreedyAlgorithmns\\OptimalFreelancing\\OptimalFreelancingClass.cs",
+              "ToolTip": "C:\\x\\ORION.API\\ORION.Core\\14_GreedyAlgorithmns\\OptimalFreelancing\\OptimalFreelancingClass.cs",
+              "RelativeToolTip": "ORION.Core\\14_GreedyAlgorithmns\\OptimalFreelancing\\OptimalFreelancingClass.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-25T08:50:13.859Z",
+              "WhenOpened": "2024-06-30T05:54:07.586Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Shift.cs",
-              "DocumentMoniker": "C:\\x\\ORION.API\\ORION.WebAPI\\Entities\\Shift.cs",
-              "RelativeDocumentMoniker": "ORION.WebAPI\\Entities\\Shift.cs",
-              "ToolTip": "C:\\x\\ORION.API\\ORION.WebAPI\\Entities\\Shift.cs",
-              "RelativeToolTip": "ORION.WebAPI\\Entities\\Shift.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAZAAAA",
+              "DocumentIndex": 1,
+              "Title": "TandemBicycleClass.cs",
+              "DocumentMoniker": "C:\\x\\ORION.API\\ORION.Core\\14_GreedyAlgorithmns\\TandemBicycle\\TandemBicycleClass.cs",
+              "RelativeDocumentMoniker": "ORION.Core\\14_GreedyAlgorithmns\\TandemBicycle\\TandemBicycleClass.cs",
+              "ToolTip": "C:\\x\\ORION.API\\ORION.Core\\14_GreedyAlgorithmns\\TandemBicycle\\TandemBicycleClass.cs",
+              "RelativeToolTip": "ORION.Core\\14_GreedyAlgorithmns\\TandemBicycle\\TandemBicycleClass.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-25T08:44:53.532Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ShiftDto.cs",
-              "DocumentMoniker": "C:\\x\\ORION.API\\ORION.WebAPI\\Models\\ShiftDto.cs",
-              "RelativeDocumentMoniker": "ORION.WebAPI\\Models\\ShiftDto.cs",
-              "ToolTip": "C:\\x\\ORION.API\\ORION.WebAPI\\Models\\ShiftDto.cs",
-              "RelativeToolTip": "ORION.WebAPI\\Models\\ShiftDto.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAIAAAARAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-25T08:44:40.347Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "IShiftRepository.cs",
-              "DocumentMoniker": "C:\\x\\ORION.API\\ORION.WebAPI\\Services\\IShiftRepository.cs",
-              "RelativeDocumentMoniker": "ORION.WebAPI\\Services\\IShiftRepository.cs",
-              "ToolTip": "C:\\x\\ORION.API\\ORION.WebAPI\\Services\\IShiftRepository.cs",
-              "RelativeToolTip": "ORION.WebAPI\\Services\\IShiftRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-25T08:34:05.322Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ShiftRepository.cs",
-              "DocumentMoniker": "C:\\x\\ORION.API\\ORION.WebAPI\\Services\\ShiftRepository.cs",
-              "RelativeDocumentMoniker": "ORION.WebAPI\\Services\\ShiftRepository.cs",
-              "ToolTip": "C:\\x\\ORION.API\\ORION.WebAPI\\Services\\ShiftRepository.cs",
-              "RelativeToolTip": "ORION.WebAPI\\Services\\ShiftRepository.cs",
-              "ViewState": "AQIAAHQAAAAAAAAAAAAcwJQAAAAVAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-25T08:34:26.405Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ShiftController.cs",
-              "DocumentMoniker": "C:\\x\\ORION.API\\ORION.WebAPI\\Controllers\\ShiftController.cs",
-              "RelativeDocumentMoniker": "ORION.WebAPI\\Controllers\\ShiftController.cs",
-              "ToolTip": "C:\\x\\ORION.API\\ORION.WebAPI\\Controllers\\ShiftController.cs*",
-              "RelativeToolTip": "ORION.WebAPI\\Controllers\\ShiftController.cs*",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAAACUAAAAjAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-25T08:28:55.923Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\x\\ORION.API\\ORION.WebAPI\\Program.cs",
-              "RelativeDocumentMoniker": "ORION.WebAPI\\Program.cs",
-              "ToolTip": "C:\\x\\ORION.API\\ORION.WebAPI\\Program.cs",
-              "RelativeToolTip": "ORION.WebAPI\\Program.cs",
-              "ViewState": "AQIAABsAAAAAAAAAAAAkwCUAAAAhAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-25T08:26:49.964Z",
+              "WhenOpened": "2024-06-30T05:52:25.664Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "ShiftProfile.cs",
-              "DocumentMoniker": "C:\\x\\ORION.API\\ORION.WebAPI\\Profiles\\ShiftProfile.cs",
-              "RelativeDocumentMoniker": "ORION.WebAPI\\Profiles\\ShiftProfile.cs",
-              "ToolTip": "C:\\x\\ORION.API\\ORION.WebAPI\\Profiles\\ShiftProfile.cs",
-              "RelativeToolTip": "ORION.WebAPI\\Profiles\\ShiftProfile.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAkAAAA",
+              "Title": "ApartmentHunting.AssemblyInfo.cs",
+              "DocumentMoniker": "C:\\x\\ORION.API\\ORION.Core\\01_Arrays\\ApartmentHunting\\obj\\Debug\\net6.0\\ApartmentHunting.AssemblyInfo.cs",
+              "RelativeDocumentMoniker": "ORION.Core\\01_Arrays\\ApartmentHunting\\obj\\Debug\\net6.0\\ApartmentHunting.AssemblyInfo.cs",
+              "ToolTip": "C:\\x\\ORION.API\\ORION.Core\\01_Arrays\\ApartmentHunting\\obj\\Debug\\net6.0\\ApartmentHunting.AssemblyInfo.cs",
+              "RelativeToolTip": "ORION.Core\\01_Arrays\\ApartmentHunting\\obj\\Debug\\net6.0\\ApartmentHunting.AssemblyInfo.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAALAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-25T08:25:49.627Z",
+              "WhenOpened": "2024-06-30T05:50:46.092Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Shift.cs",
+              "DocumentMoniker": "C:\\x\\ORION.API\\ORION.WebAPI\\Entities\\Shift.cs",
+              "RelativeDocumentMoniker": "ORION.WebAPI\\Entities\\Shift.cs",
+              "ToolTip": "C:\\x\\ORION.API\\ORION.WebAPI\\Entities\\Shift.cs",
+              "RelativeToolTip": "ORION.WebAPI\\Entities\\Shift.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACwAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-25T09:11:14.871Z",
               "EditorCaption": ""
             }
           ]

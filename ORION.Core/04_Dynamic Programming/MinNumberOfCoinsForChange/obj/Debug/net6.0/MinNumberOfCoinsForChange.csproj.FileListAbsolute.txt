@@ -1,0 +1,33 @@
+C:\x\Algorithms\_OldCode\MinNumberOfCoinsForChange\bin\Debug\net6.0\MinNumberOfCoinsForChange.deps.json
+C:\x\Algorithms\_OldCode\MinNumberOfCoinsForChange\bin\Debug\net6.0\MinNumberOfCoinsForChange.dll
+C:\x\Algorithms\_OldCode\MinNumberOfCoinsForChange\bin\Debug\net6.0\MinNumberOfCoinsForChange.pdb
+C:\x\Algorithms\_OldCode\MinNumberOfCoinsForChange\obj\Debug\net6.0\MinNumberOfCoinsForChange.GeneratedMSBuildEditorConfig.editorconfig
+C:\x\Algorithms\_OldCode\MinNumberOfCoinsForChange\obj\Debug\net6.0\MinNumberOfCoinsForChange.AssemblyInfoInputs.cache
+C:\x\Algorithms\_OldCode\MinNumberOfCoinsForChange\obj\Debug\net6.0\MinNumberOfCoinsForChange.AssemblyInfo.cs
+C:\x\Algorithms\_OldCode\MinNumberOfCoinsForChange\obj\Debug\net6.0\MinNumberOfCoinsForChange.csproj.CoreCompileInputs.cache
+C:\x\Algorithms\_OldCode\MinNumberOfCoinsForChange\obj\Debug\net6.0\MinNumberOfCoinsForChange.dll
+C:\x\Algorithms\_OldCode\MinNumberOfCoinsForChange\obj\Debug\net6.0\refint\MinNumberOfCoinsForChange.dll
+C:\x\Algorithms\_OldCode\MinNumberOfCoinsForChange\obj\Debug\net6.0\MinNumberOfCoinsForChange.pdb
+C:\x\Algorithms\_OldCode\MinNumberOfCoinsForChange\obj\Debug\net6.0\ref\MinNumberOfCoinsForChange.dll
+C:\x\Algorithms\02_Medium\MinNumberOfCoinsForChange\bin\Debug\net6.0\MinNumberOfCoinsForChange.deps.json
+C:\x\Algorithms\02_Medium\MinNumberOfCoinsForChange\bin\Debug\net6.0\MinNumberOfCoinsForChange.dll
+C:\x\Algorithms\02_Medium\MinNumberOfCoinsForChange\bin\Debug\net6.0\MinNumberOfCoinsForChange.pdb
+C:\x\Algorithms\02_Medium\MinNumberOfCoinsForChange\obj\Debug\net6.0\MinNumberOfCoinsForChange.GeneratedMSBuildEditorConfig.editorconfig
+C:\x\Algorithms\02_Medium\MinNumberOfCoinsForChange\obj\Debug\net6.0\MinNumberOfCoinsForChange.AssemblyInfoInputs.cache
+C:\x\Algorithms\02_Medium\MinNumberOfCoinsForChange\obj\Debug\net6.0\MinNumberOfCoinsForChange.AssemblyInfo.cs
+C:\x\Algorithms\02_Medium\MinNumberOfCoinsForChange\obj\Debug\net6.0\MinNumberOfCoinsForChange.csproj.CoreCompileInputs.cache
+C:\x\Algorithms\02_Medium\MinNumberOfCoinsForChange\obj\Debug\net6.0\MinNumberOfCoinsForChange.dll
+C:\x\Algorithms\02_Medium\MinNumberOfCoinsForChange\obj\Debug\net6.0\refint\MinNumberOfCoinsForChange.dll
+C:\x\Algorithms\02_Medium\MinNumberOfCoinsForChange\obj\Debug\net6.0\MinNumberOfCoinsForChange.pdb
+C:\x\Algorithms\02_Medium\MinNumberOfCoinsForChange\obj\Debug\net6.0\ref\MinNumberOfCoinsForChange.dll
+C:\Algorithms\04_Dynamic Programming\MinNumberOfCoinsForChange\bin\Debug\net6.0\MinNumberOfCoinsForChange.deps.json
+C:\Algorithms\04_Dynamic Programming\MinNumberOfCoinsForChange\bin\Debug\net6.0\MinNumberOfCoinsForChange.dll
+C:\Algorithms\04_Dynamic Programming\MinNumberOfCoinsForChange\bin\Debug\net6.0\MinNumberOfCoinsForChange.pdb
+C:\Algorithms\04_Dynamic Programming\MinNumberOfCoinsForChange\obj\Debug\net6.0\MinNumberOfCoinsForChange.GeneratedMSBuildEditorConfig.editorconfig
+C:\Algorithms\04_Dynamic Programming\MinNumberOfCoinsForChange\obj\Debug\net6.0\MinNumberOfCoinsForChange.AssemblyInfoInputs.cache
+C:\Algorithms\04_Dynamic Programming\MinNumberOfCoinsForChange\obj\Debug\net6.0\MinNumberOfCoinsForChange.AssemblyInfo.cs
+C:\Algorithms\04_Dynamic Programming\MinNumberOfCoinsForChange\obj\Debug\net6.0\MinNumberOfCoinsForChange.csproj.CoreCompileInputs.cache
+C:\Algorithms\04_Dynamic Programming\MinNumberOfCoinsForChange\obj\Debug\net6.0\MinNumberOfCoinsForChange.dll
+C:\Algorithms\04_Dynamic Programming\MinNumberOfCoinsForChange\obj\Debug\net6.0\refint\MinNumberOfCoinsForChange.dll
+C:\Algorithms\04_Dynamic Programming\MinNumberOfCoinsForChange\obj\Debug\net6.0\MinNumberOfCoinsForChange.pdb
+C:\Algorithms\04_Dynamic Programming\MinNumberOfCoinsForChange\obj\Debug\net6.0\ref\MinNumberOfCoinsForChange.dll

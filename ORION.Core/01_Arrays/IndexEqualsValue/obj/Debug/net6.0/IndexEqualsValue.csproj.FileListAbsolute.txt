@@ -1,0 +1,11 @@
+C:\Algorithms\01_Arrays\IndexEqualsValue\bin\Debug\net6.0\IndexEqualsValue.deps.json
+C:\Algorithms\01_Arrays\IndexEqualsValue\bin\Debug\net6.0\IndexEqualsValue.dll
+C:\Algorithms\01_Arrays\IndexEqualsValue\bin\Debug\net6.0\IndexEqualsValue.pdb
+C:\Algorithms\01_Arrays\IndexEqualsValue\obj\Debug\net6.0\IndexEqualsValue.GeneratedMSBuildEditorConfig.editorconfig
+C:\Algorithms\01_Arrays\IndexEqualsValue\obj\Debug\net6.0\IndexEqualsValue.AssemblyInfoInputs.cache
+C:\Algorithms\01_Arrays\IndexEqualsValue\obj\Debug\net6.0\IndexEqualsValue.AssemblyInfo.cs
+C:\Algorithms\01_Arrays\IndexEqualsValue\obj\Debug\net6.0\IndexEqualsValue.csproj.CoreCompileInputs.cache
+C:\Algorithms\01_Arrays\IndexEqualsValue\obj\Debug\net6.0\IndexEqualsValue.dll
+C:\Algorithms\01_Arrays\IndexEqualsValue\obj\Debug\net6.0\refint\IndexEqualsValue.dll
+C:\Algorithms\01_Arrays\IndexEqualsValue\obj\Debug\net6.0\IndexEqualsValue.pdb
+C:\Algorithms\01_Arrays\IndexEqualsValue\obj\Debug\net6.0\ref\IndexEqualsValue.dll

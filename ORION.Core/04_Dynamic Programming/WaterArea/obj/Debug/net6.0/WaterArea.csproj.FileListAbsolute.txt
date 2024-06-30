@@ -1,0 +1,33 @@
+C:\x\Algorithms\_OldCode\WaterArea\bin\Debug\net6.0\WaterArea.deps.json
+C:\x\Algorithms\_OldCode\WaterArea\bin\Debug\net6.0\WaterArea.dll
+C:\x\Algorithms\_OldCode\WaterArea\bin\Debug\net6.0\WaterArea.pdb
+C:\x\Algorithms\_OldCode\WaterArea\obj\Debug\net6.0\WaterArea.GeneratedMSBuildEditorConfig.editorconfig
+C:\x\Algorithms\_OldCode\WaterArea\obj\Debug\net6.0\WaterArea.AssemblyInfoInputs.cache
+C:\x\Algorithms\_OldCode\WaterArea\obj\Debug\net6.0\WaterArea.AssemblyInfo.cs
+C:\x\Algorithms\_OldCode\WaterArea\obj\Debug\net6.0\WaterArea.csproj.CoreCompileInputs.cache
+C:\x\Algorithms\_OldCode\WaterArea\obj\Debug\net6.0\WaterArea.dll
+C:\x\Algorithms\_OldCode\WaterArea\obj\Debug\net6.0\refint\WaterArea.dll
+C:\x\Algorithms\_OldCode\WaterArea\obj\Debug\net6.0\WaterArea.pdb
+C:\x\Algorithms\_OldCode\WaterArea\obj\Debug\net6.0\ref\WaterArea.dll
+C:\x\Algorithms\03_Hard\WaterArea\bin\Debug\net6.0\WaterArea.deps.json
+C:\x\Algorithms\03_Hard\WaterArea\bin\Debug\net6.0\WaterArea.dll
+C:\x\Algorithms\03_Hard\WaterArea\bin\Debug\net6.0\WaterArea.pdb
+C:\x\Algorithms\03_Hard\WaterArea\obj\Debug\net6.0\WaterArea.GeneratedMSBuildEditorConfig.editorconfig
+C:\x\Algorithms\03_Hard\WaterArea\obj\Debug\net6.0\WaterArea.AssemblyInfoInputs.cache
+C:\x\Algorithms\03_Hard\WaterArea\obj\Debug\net6.0\WaterArea.AssemblyInfo.cs
+C:\x\Algorithms\03_Hard\WaterArea\obj\Debug\net6.0\WaterArea.csproj.CoreCompileInputs.cache
+C:\x\Algorithms\03_Hard\WaterArea\obj\Debug\net6.0\WaterArea.dll
+C:\x\Algorithms\03_Hard\WaterArea\obj\Debug\net6.0\refint\WaterArea.dll
+C:\x\Algorithms\03_Hard\WaterArea\obj\Debug\net6.0\WaterArea.pdb
+C:\x\Algorithms\03_Hard\WaterArea\obj\Debug\net6.0\ref\WaterArea.dll
+C:\Algorithms\04_Dynamic Programming\WaterArea\bin\Debug\net6.0\WaterArea.deps.json
+C:\Algorithms\04_Dynamic Programming\WaterArea\bin\Debug\net6.0\WaterArea.dll
+C:\Algorithms\04_Dynamic Programming\WaterArea\bin\Debug\net6.0\WaterArea.pdb
+C:\Algorithms\04_Dynamic Programming\WaterArea\obj\Debug\net6.0\WaterArea.GeneratedMSBuildEditorConfig.editorconfig
+C:\Algorithms\04_Dynamic Programming\WaterArea\obj\Debug\net6.0\WaterArea.AssemblyInfoInputs.cache
+C:\Algorithms\04_Dynamic Programming\WaterArea\obj\Debug\net6.0\WaterArea.AssemblyInfo.cs
+C:\Algorithms\04_Dynamic Programming\WaterArea\obj\Debug\net6.0\WaterArea.csproj.CoreCompileInputs.cache
+C:\Algorithms\04_Dynamic Programming\WaterArea\obj\Debug\net6.0\WaterArea.dll
+C:\Algorithms\04_Dynamic Programming\WaterArea\obj\Debug\net6.0\refint\WaterArea.dll
+C:\Algorithms\04_Dynamic Programming\WaterArea\obj\Debug\net6.0\WaterArea.pdb
+C:\Algorithms\04_Dynamic Programming\WaterArea\obj\Debug\net6.0\ref\WaterArea.dll

@@ -1,0 +1,33 @@
+C:\x\Algorithms\_OldCode\FlattenBinaryTree\bin\Debug\net6.0\FlattenBinaryTree.deps.json
+C:\x\Algorithms\_OldCode\FlattenBinaryTree\bin\Debug\net6.0\FlattenBinaryTree.dll
+C:\x\Algorithms\_OldCode\FlattenBinaryTree\bin\Debug\net6.0\FlattenBinaryTree.pdb
+C:\x\Algorithms\_OldCode\FlattenBinaryTree\obj\Debug\net6.0\FlattenBinaryTree.GeneratedMSBuildEditorConfig.editorconfig
+C:\x\Algorithms\_OldCode\FlattenBinaryTree\obj\Debug\net6.0\FlattenBinaryTree.AssemblyInfoInputs.cache
+C:\x\Algorithms\_OldCode\FlattenBinaryTree\obj\Debug\net6.0\FlattenBinaryTree.AssemblyInfo.cs
+C:\x\Algorithms\_OldCode\FlattenBinaryTree\obj\Debug\net6.0\FlattenBinaryTree.csproj.CoreCompileInputs.cache
+C:\x\Algorithms\_OldCode\FlattenBinaryTree\obj\Debug\net6.0\FlattenBinaryTree.dll
+C:\x\Algorithms\_OldCode\FlattenBinaryTree\obj\Debug\net6.0\refint\FlattenBinaryTree.dll
+C:\x\Algorithms\_OldCode\FlattenBinaryTree\obj\Debug\net6.0\FlattenBinaryTree.pdb
+C:\x\Algorithms\_OldCode\FlattenBinaryTree\obj\Debug\net6.0\ref\FlattenBinaryTree.dll
+C:\x\Algorithms\04_VeryHard\FlattenBinaryTree\bin\Debug\net6.0\FlattenBinaryTree.deps.json
+C:\x\Algorithms\04_VeryHard\FlattenBinaryTree\bin\Debug\net6.0\FlattenBinaryTree.dll
+C:\x\Algorithms\04_VeryHard\FlattenBinaryTree\bin\Debug\net6.0\FlattenBinaryTree.pdb
+C:\x\Algorithms\04_VeryHard\FlattenBinaryTree\obj\Debug\net6.0\FlattenBinaryTree.GeneratedMSBuildEditorConfig.editorconfig
+C:\x\Algorithms\04_VeryHard\FlattenBinaryTree\obj\Debug\net6.0\FlattenBinaryTree.AssemblyInfoInputs.cache
+C:\x\Algorithms\04_VeryHard\FlattenBinaryTree\obj\Debug\net6.0\FlattenBinaryTree.AssemblyInfo.cs
+C:\x\Algorithms\04_VeryHard\FlattenBinaryTree\obj\Debug\net6.0\FlattenBinaryTree.csproj.CoreCompileInputs.cache
+C:\x\Algorithms\04_VeryHard\FlattenBinaryTree\obj\Debug\net6.0\FlattenBinaryTree.dll
+C:\x\Algorithms\04_VeryHard\FlattenBinaryTree\obj\Debug\net6.0\refint\FlattenBinaryTree.dll
+C:\x\Algorithms\04_VeryHard\FlattenBinaryTree\obj\Debug\net6.0\FlattenBinaryTree.pdb
+C:\x\Algorithms\04_VeryHard\FlattenBinaryTree\obj\Debug\net6.0\ref\FlattenBinaryTree.dll
+C:\Algorithms\03_Binary Trees\FlattenBinaryTree\bin\Debug\net6.0\FlattenBinaryTree.deps.json
+C:\Algorithms\03_Binary Trees\FlattenBinaryTree\bin\Debug\net6.0\FlattenBinaryTree.dll
+C:\Algorithms\03_Binary Trees\FlattenBinaryTree\bin\Debug\net6.0\FlattenBinaryTree.pdb
+C:\Algorithms\03_Binary Trees\FlattenBinaryTree\obj\Debug\net6.0\FlattenBinaryTree.GeneratedMSBuildEditorConfig.editorconfig
+C:\Algorithms\03_Binary Trees\FlattenBinaryTree\obj\Debug\net6.0\FlattenBinaryTree.AssemblyInfoInputs.cache
+C:\Algorithms\03_Binary Trees\FlattenBinaryTree\obj\Debug\net6.0\FlattenBinaryTree.AssemblyInfo.cs
+C:\Algorithms\03_Binary Trees\FlattenBinaryTree\obj\Debug\net6.0\FlattenBinaryTree.csproj.CoreCompileInputs.cache
+C:\Algorithms\03_Binary Trees\FlattenBinaryTree\obj\Debug\net6.0\FlattenBinaryTree.dll
+C:\Algorithms\03_Binary Trees\FlattenBinaryTree\obj\Debug\net6.0\refint\FlattenBinaryTree.dll
+C:\Algorithms\03_Binary Trees\FlattenBinaryTree\obj\Debug\net6.0\FlattenBinaryTree.pdb
+C:\Algorithms\03_Binary Trees\FlattenBinaryTree\obj\Debug\net6.0\ref\FlattenBinaryTree.dll

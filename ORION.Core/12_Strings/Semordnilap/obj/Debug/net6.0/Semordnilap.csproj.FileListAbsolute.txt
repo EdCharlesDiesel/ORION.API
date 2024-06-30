@@ -1,0 +1,11 @@
+C:\Algorithms\12_Strings\Semordnilap\bin\Debug\net6.0\Semordnilap.deps.json
+C:\Algorithms\12_Strings\Semordnilap\bin\Debug\net6.0\Semordnilap.dll
+C:\Algorithms\12_Strings\Semordnilap\bin\Debug\net6.0\Semordnilap.pdb
+C:\Algorithms\12_Strings\Semordnilap\obj\Debug\net6.0\Semordnilap.GeneratedMSBuildEditorConfig.editorconfig
+C:\Algorithms\12_Strings\Semordnilap\obj\Debug\net6.0\Semordnilap.AssemblyInfoInputs.cache
+C:\Algorithms\12_Strings\Semordnilap\obj\Debug\net6.0\Semordnilap.AssemblyInfo.cs
+C:\Algorithms\12_Strings\Semordnilap\obj\Debug\net6.0\Semordnilap.csproj.CoreCompileInputs.cache
+C:\Algorithms\12_Strings\Semordnilap\obj\Debug\net6.0\Semordnilap.dll
+C:\Algorithms\12_Strings\Semordnilap\obj\Debug\net6.0\refint\Semordnilap.dll
+C:\Algorithms\12_Strings\Semordnilap\obj\Debug\net6.0\Semordnilap.pdb
+C:\Algorithms\12_Strings\Semordnilap\obj\Debug\net6.0\ref\Semordnilap.dll

@@ -1,0 +1,11 @@
+C:\Algorithms\14_GreedyAlgorithmns\ValidStartingCity\bin\Debug\net6.0\ValidStartingCity.deps.json
+C:\Algorithms\14_GreedyAlgorithmns\ValidStartingCity\bin\Debug\net6.0\ValidStartingCity.dll
+C:\Algorithms\14_GreedyAlgorithmns\ValidStartingCity\bin\Debug\net6.0\ValidStartingCity.pdb
+C:\Algorithms\14_GreedyAlgorithmns\ValidStartingCity\obj\Debug\net6.0\ValidStartingCity.GeneratedMSBuildEditorConfig.editorconfig
+C:\Algorithms\14_GreedyAlgorithmns\ValidStartingCity\obj\Debug\net6.0\ValidStartingCity.AssemblyInfoInputs.cache
+C:\Algorithms\14_GreedyAlgorithmns\ValidStartingCity\obj\Debug\net6.0\ValidStartingCity.AssemblyInfo.cs
+C:\Algorithms\14_GreedyAlgorithmns\ValidStartingCity\obj\Debug\net6.0\ValidStartingCity.csproj.CoreCompileInputs.cache
+C:\Algorithms\14_GreedyAlgorithmns\ValidStartingCity\obj\Debug\net6.0\ValidStartingCity.dll
+C:\Algorithms\14_GreedyAlgorithmns\ValidStartingCity\obj\Debug\net6.0\refint\ValidStartingCity.dll
+C:\Algorithms\14_GreedyAlgorithmns\ValidStartingCity\obj\Debug\net6.0\ValidStartingCity.pdb
+C:\Algorithms\14_GreedyAlgorithmns\ValidStartingCity\obj\Debug\net6.0\ref\ValidStartingCity.dll

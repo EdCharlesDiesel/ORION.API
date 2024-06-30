@@ -1,0 +1,11 @@
+C:\Algorithms\01_Arrays\LongestSubarrayWithSum\bin\Debug\net6.0\LongestSubarrayWithSum.deps.json
+C:\Algorithms\01_Arrays\LongestSubarrayWithSum\bin\Debug\net6.0\LongestSubarrayWithSum.dll
+C:\Algorithms\01_Arrays\LongestSubarrayWithSum\bin\Debug\net6.0\LongestSubarrayWithSum.pdb
+C:\Algorithms\01_Arrays\LongestSubarrayWithSum\obj\Debug\net6.0\LongestSubarrayWithSum.GeneratedMSBuildEditorConfig.editorconfig
+C:\Algorithms\01_Arrays\LongestSubarrayWithSum\obj\Debug\net6.0\LongestSubarrayWithSum.AssemblyInfoInputs.cache
+C:\Algorithms\01_Arrays\LongestSubarrayWithSum\obj\Debug\net6.0\LongestSubarrayWithSum.AssemblyInfo.cs
+C:\Algorithms\01_Arrays\LongestSubarrayWithSum\obj\Debug\net6.0\LongestSubarrayWithSum.csproj.CoreCompileInputs.cache
+C:\Algorithms\01_Arrays\LongestSubarrayWithSum\obj\Debug\net6.0\LongestSubarrayWithSum.dll
+C:\Algorithms\01_Arrays\LongestSubarrayWithSum\obj\Debug\net6.0\refint\LongestSubarrayWithSum.dll
+C:\Algorithms\01_Arrays\LongestSubarrayWithSum\obj\Debug\net6.0\LongestSubarrayWithSum.pdb
+C:\Algorithms\01_Arrays\LongestSubarrayWithSum\obj\Debug\net6.0\ref\LongestSubarrayWithSum.dll

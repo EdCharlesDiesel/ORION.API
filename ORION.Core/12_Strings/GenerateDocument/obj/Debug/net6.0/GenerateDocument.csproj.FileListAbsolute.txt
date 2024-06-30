@@ -1,0 +1,11 @@
+C:\Algorithms\12_Strings\GenerateDocument\bin\Debug\net6.0\GenerateDocument.deps.json
+C:\Algorithms\12_Strings\GenerateDocument\bin\Debug\net6.0\GenerateDocument.dll
+C:\Algorithms\12_Strings\GenerateDocument\bin\Debug\net6.0\GenerateDocument.pdb
+C:\Algorithms\12_Strings\GenerateDocument\obj\Debug\net6.0\GenerateDocument.GeneratedMSBuildEditorConfig.editorconfig
+C:\Algorithms\12_Strings\GenerateDocument\obj\Debug\net6.0\GenerateDocument.AssemblyInfoInputs.cache
+C:\Algorithms\12_Strings\GenerateDocument\obj\Debug\net6.0\GenerateDocument.AssemblyInfo.cs
+C:\Algorithms\12_Strings\GenerateDocument\obj\Debug\net6.0\GenerateDocument.csproj.CoreCompileInputs.cache
+C:\Algorithms\12_Strings\GenerateDocument\obj\Debug\net6.0\GenerateDocument.dll
+C:\Algorithms\12_Strings\GenerateDocument\obj\Debug\net6.0\refint\GenerateDocument.dll
+C:\Algorithms\12_Strings\GenerateDocument\obj\Debug\net6.0\GenerateDocument.pdb
+C:\Algorithms\12_Strings\GenerateDocument\obj\Debug\net6.0\ref\GenerateDocument.dll

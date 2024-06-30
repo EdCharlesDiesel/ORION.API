@@ -1,0 +1,11 @@
+C:\Algorithms\05_Graph\DepthFirstSearch\bin\Debug\net6.0\DepthFirstSearch.deps.json
+C:\Algorithms\05_Graph\DepthFirstSearch\bin\Debug\net6.0\DepthFirstSearch.dll
+C:\Algorithms\05_Graph\DepthFirstSearch\bin\Debug\net6.0\DepthFirstSearch.pdb
+C:\Algorithms\05_Graph\DepthFirstSearch\obj\Debug\net6.0\DepthFirstSearch.GeneratedMSBuildEditorConfig.editorconfig
+C:\Algorithms\05_Graph\DepthFirstSearch\obj\Debug\net6.0\DepthFirstSearch.AssemblyInfoInputs.cache
+C:\Algorithms\05_Graph\DepthFirstSearch\obj\Debug\net6.0\DepthFirstSearch.AssemblyInfo.cs
+C:\Algorithms\05_Graph\DepthFirstSearch\obj\Debug\net6.0\DepthFirstSearch.csproj.CoreCompileInputs.cache
+C:\Algorithms\05_Graph\DepthFirstSearch\obj\Debug\net6.0\DepthFirstSearch.dll
+C:\Algorithms\05_Graph\DepthFirstSearch\obj\Debug\net6.0\refint\DepthFirstSearch.dll
+C:\Algorithms\05_Graph\DepthFirstSearch\obj\Debug\net6.0\DepthFirstSearch.pdb
+C:\Algorithms\05_Graph\DepthFirstSearch\obj\Debug\net6.0\ref\DepthFirstSearch.dll

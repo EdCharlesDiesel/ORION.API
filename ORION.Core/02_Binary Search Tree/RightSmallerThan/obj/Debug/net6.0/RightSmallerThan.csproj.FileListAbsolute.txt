@@ -1,0 +1,33 @@
+C:\x\Algorithms\_OldCode\RightSmallerThan\bin\Debug\net6.0\RightSmallerThan.deps.json
+C:\x\Algorithms\_OldCode\RightSmallerThan\bin\Debug\net6.0\RightSmallerThan.dll
+C:\x\Algorithms\_OldCode\RightSmallerThan\bin\Debug\net6.0\RightSmallerThan.pdb
+C:\x\Algorithms\_OldCode\RightSmallerThan\obj\Debug\net6.0\RightSmallerThan.GeneratedMSBuildEditorConfig.editorconfig
+C:\x\Algorithms\_OldCode\RightSmallerThan\obj\Debug\net6.0\RightSmallerThan.AssemblyInfoInputs.cache
+C:\x\Algorithms\_OldCode\RightSmallerThan\obj\Debug\net6.0\RightSmallerThan.AssemblyInfo.cs
+C:\x\Algorithms\_OldCode\RightSmallerThan\obj\Debug\net6.0\RightSmallerThan.csproj.CoreCompileInputs.cache
+C:\x\Algorithms\_OldCode\RightSmallerThan\obj\Debug\net6.0\RightSmallerThan.dll
+C:\x\Algorithms\_OldCode\RightSmallerThan\obj\Debug\net6.0\refint\RightSmallerThan.dll
+C:\x\Algorithms\_OldCode\RightSmallerThan\obj\Debug\net6.0\RightSmallerThan.pdb
+C:\x\Algorithms\_OldCode\RightSmallerThan\obj\Debug\net6.0\ref\RightSmallerThan.dll
+C:\x\Algorithms\04_VeryHard\RightSmallerThan\bin\Debug\net6.0\RightSmallerThan.deps.json
+C:\x\Algorithms\04_VeryHard\RightSmallerThan\bin\Debug\net6.0\RightSmallerThan.dll
+C:\x\Algorithms\04_VeryHard\RightSmallerThan\bin\Debug\net6.0\RightSmallerThan.pdb
+C:\x\Algorithms\04_VeryHard\RightSmallerThan\obj\Debug\net6.0\RightSmallerThan.GeneratedMSBuildEditorConfig.editorconfig
+C:\x\Algorithms\04_VeryHard\RightSmallerThan\obj\Debug\net6.0\RightSmallerThan.AssemblyInfoInputs.cache
+C:\x\Algorithms\04_VeryHard\RightSmallerThan\obj\Debug\net6.0\RightSmallerThan.AssemblyInfo.cs
+C:\x\Algorithms\04_VeryHard\RightSmallerThan\obj\Debug\net6.0\RightSmallerThan.csproj.CoreCompileInputs.cache
+C:\x\Algorithms\04_VeryHard\RightSmallerThan\obj\Debug\net6.0\RightSmallerThan.dll
+C:\x\Algorithms\04_VeryHard\RightSmallerThan\obj\Debug\net6.0\refint\RightSmallerThan.dll
+C:\x\Algorithms\04_VeryHard\RightSmallerThan\obj\Debug\net6.0\RightSmallerThan.pdb
+C:\x\Algorithms\04_VeryHard\RightSmallerThan\obj\Debug\net6.0\ref\RightSmallerThan.dll
+C:\Algorithms\02_Binary Search Tree\RightSmallerThan\bin\Debug\net6.0\RightSmallerThan.deps.json
+C:\Algorithms\02_Binary Search Tree\RightSmallerThan\bin\Debug\net6.0\RightSmallerThan.dll
+C:\Algorithms\02_Binary Search Tree\RightSmallerThan\bin\Debug\net6.0\RightSmallerThan.pdb
+C:\Algorithms\02_Binary Search Tree\RightSmallerThan\obj\Debug\net6.0\RightSmallerThan.GeneratedMSBuildEditorConfig.editorconfig
+C:\Algorithms\02_Binary Search Tree\RightSmallerThan\obj\Debug\net6.0\RightSmallerThan.AssemblyInfoInputs.cache
+C:\Algorithms\02_Binary Search Tree\RightSmallerThan\obj\Debug\net6.0\RightSmallerThan.AssemblyInfo.cs
+C:\Algorithms\02_Binary Search Tree\RightSmallerThan\obj\Debug\net6.0\RightSmallerThan.csproj.CoreCompileInputs.cache
+C:\Algorithms\02_Binary Search Tree\RightSmallerThan\obj\Debug\net6.0\RightSmallerThan.dll
+C:\Algorithms\02_Binary Search Tree\RightSmallerThan\obj\Debug\net6.0\refint\RightSmallerThan.dll
+C:\Algorithms\02_Binary Search Tree\RightSmallerThan\obj\Debug\net6.0\RightSmallerThan.pdb
+C:\Algorithms\02_Binary Search Tree\RightSmallerThan\obj\Debug\net6.0\ref\RightSmallerThan.dll

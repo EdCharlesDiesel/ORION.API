@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<coverage line-rate="0" branch-rate="1" version="1.9" timestamp="1699443575" lines-covered="0" lines-valid="2" branches-covered="0" branches-valid="0">
+  <sources>
+    <source>C:\</source>
+  </sources>
+  <packages>
+    <package name="CommonCharacters" line-rate="0" branch-rate="1" complexity="1">
+      <classes>
+        <class name="CommonCharacters.CommonCharactersClass" filename="Algorithms\12_Strings\CommonCharacters\CommonCharactersClass.cs" line-rate="0" branch-rate="1" complexity="1">
+          <methods>
+            <method name="CommonCharacters" signature="(System.String[])" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="6" hits="0" branch="False" />
+                <line number="7" hits="0" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="6" hits="0" branch="False" />
+            <line number="7" hits="0" branch="False" />
+          </lines>
+        </class>
+      </classes>
+    </package>
+  </packages>
+</coverage>
