@@ -1,4 +1,6 @@
-﻿namespace SubarraySort
+﻿using System;
+
+namespace ORION.Core.Arrays
 {
     public class SubarraySortClass
     {

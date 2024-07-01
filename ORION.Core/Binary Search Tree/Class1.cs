@@ -1,4 +1,6 @@
-﻿namespace RightSmallerThan
+﻿using System.Collections.Generic;
+
+namespace RightSmallerThan
 {
     public class Class1
     {

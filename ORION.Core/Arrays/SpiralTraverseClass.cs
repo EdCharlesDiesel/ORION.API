@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace SpiralTraverse
+namespace ORION.Core.Arrays
 {
     /// <summary>
     /// Write a function that takes in an n x m two-dimensional array (that can be square-shaped

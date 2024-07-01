@@ -1,4 +1,6 @@
-﻿namespace BoggleBoard
+﻿using System.Collections.Generic;
+
+namespace BoggleBoard
 {
     public class BoggleBoardClass
     {

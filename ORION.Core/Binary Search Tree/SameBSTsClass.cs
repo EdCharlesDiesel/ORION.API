@@ -1,4 +1,6 @@
-﻿namespace SameBSTs
+﻿using System.Collections.Generic;
+
+namespace SameBSTs
 {
     public class SameBSTsClass
     {

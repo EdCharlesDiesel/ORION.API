@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace TransposeMatrix
+namespace ORION.Core.Arrays
 {
     /// <summary>
     /// You're given a 2D array of integers matrix. Write a function that returns the transpose

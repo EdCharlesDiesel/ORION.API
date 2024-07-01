@@ -1,4 +1,6 @@
-﻿namespace SquareOfZeroes
+﻿using System.Collections.Generic;
+
+namespace SquareOfZeroes
 {
     public class SquareOfZeroesClass
     {

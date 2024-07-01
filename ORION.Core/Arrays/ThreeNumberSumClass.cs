@@ -1,6 +1,9 @@
-﻿using ThreeNumberSum;
+﻿
 
-namespace ThreeNumberSum
+using System;
+using System.Collections.Generic;
+
+namespace ORION.Core.Arrays
 {
     /// <summary>
     /// Write a function that takes in a non-empty array of distinct integers and an integer

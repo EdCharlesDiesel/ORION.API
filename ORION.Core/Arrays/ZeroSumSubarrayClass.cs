@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace ZeroSumSubarray
+namespace ORION.Core.Arrays
 {
     /// <summary>
     /// You're given a list of integer nums. Write a function that returns a boolean representing

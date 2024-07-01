@@ -1,4 +1,7 @@
-﻿namespace ORION.Core.Arrays
+﻿using System;
+using System.Collections.Generic;
+
+namespace ORION.Core.Arrays
 {
     public class ApartmentHuntingClass
     {

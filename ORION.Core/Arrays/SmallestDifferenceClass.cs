@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace SmallestDifference
+namespace ORION.Core.Arrays
 {
     /// <summary>
     /// Write a function that takes i two non-empty array of integers, finds the pair of numbers

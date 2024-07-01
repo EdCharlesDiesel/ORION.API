@@ -1,4 +1,6 @@
-﻿namespace ContinuousMedian
+﻿using System.Collections.Generic;
+
+namespace ContinuousMedian
 {
     public class ContinuousMedianClass
     {

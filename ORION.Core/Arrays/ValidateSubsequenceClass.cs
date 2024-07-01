@@ -1,4 +1,6 @@
-﻿namespace ValidateSubsequence
+﻿using System.Collections.Generic;
+
+namespace ORION.Core.Arrays
 {
     /// <summary>
     /// Given two non-empty array of integers, write a function that determines whether the second

@@ -1,4 +1,6 @@
-﻿namespace LongestStringChain
+﻿using System.Collections.Generic;
+
+namespace LongestStringChain
 {
     public static class LongestStringChainClass
     {

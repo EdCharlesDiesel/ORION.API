@@ -1,4 +1,6 @@
-﻿namespace MinHeightBST
+﻿using System.Collections.Generic;
+
+namespace MinHeightBST
 {
     public class MinHeightBSTClass
     {
