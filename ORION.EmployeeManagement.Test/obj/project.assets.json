@@ -6665,9 +6665,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\x\\ORION.API\\ORION.EmployeeManagement.Test\\ORION.EmployeeManagement.Test.csproj",
-      "projectName": "ORION.EmployeeManagement.Test",
-      "projectPath": "C:\\x\\ORION.API\\ORION.EmployeeManagement.Test\\ORION.EmployeeManagement.Test.csproj",
+      "projectUniqueName": "C:\\x\\ORION.API\\ORION.EmployeeManagement.Test\\ORION.HumanResources.Test.csproj",
+      "projectName": "ORION.HumanResources.Test",
+      "projectPath": "C:\\x\\ORION.API\\ORION.EmployeeManagement.Test\\ORION.HumanResources.Test.csproj",
       "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
       "outputPath": "C:\\x\\ORION.API\\ORION.EmployeeManagement.Test\\obj\\",
       "projectStyle": "PackageReference",
