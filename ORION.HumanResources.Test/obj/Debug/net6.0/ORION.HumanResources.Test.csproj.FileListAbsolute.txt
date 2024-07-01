@@ -11,3 +11,4 @@ C:\x\ORION.API\ORION.HumanResources.Test\obj\Debug\net6.0\ORION.HumanResources.T
 C:\x\ORION.API\ORION.HumanResources.Test\obj\Debug\net6.0\ORION.HumanResources.Test.AssemblyInfo.cs
 C:\x\ORION.API\ORION.HumanResources.Test\obj\Debug\net6.0\ORION.HumanResources.Test.csproj.CoreCompileInputs.cache
 C:\x\ORION.API\ORION.HumanResources.Test\obj\Debug\net6.0\ORION.HumanResources.Test.sourcelink.json
+C:\x\ORION.API\ORION.HumanResources.Test\bin\Debug\net6.0\CoverletSourceRootsMapping

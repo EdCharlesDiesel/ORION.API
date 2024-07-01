@@ -1,0 +1,6 @@
+C:\x\ORION.API\ORION.Core.Tests\obj\Debug\net8.0\ORION.Core.Tests.csproj.AssemblyReference.cache
+C:\x\ORION.API\ORION.Core.Tests\obj\Debug\net8.0\ORION.Core.Tests.GeneratedMSBuildEditorConfig.editorconfig
+C:\x\ORION.API\ORION.Core.Tests\obj\Debug\net8.0\ORION.Core.Tests.AssemblyInfoInputs.cache
+C:\x\ORION.API\ORION.Core.Tests\obj\Debug\net8.0\ORION.Core.Tests.AssemblyInfo.cs
+C:\x\ORION.API\ORION.Core.Tests\obj\Debug\net8.0\ORION.Core.Tests.csproj.CoreCompileInputs.cache
+C:\x\ORION.API\ORION.Core.Tests\obj\Debug\net8.0\ORION.Core.Tests.sourcelink.json

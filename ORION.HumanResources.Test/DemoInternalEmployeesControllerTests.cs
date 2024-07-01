@@ -1,7 +1,4 @@
 ﻿using AutoMapper;
-using EmployeeManagement.Business;
-using EmployeeManagement.Controllers;
-using EmployeeManagement.Models;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Moq;

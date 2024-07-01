@@ -22,7 +22,7 @@
   </ItemGroup>
 
   <ItemGroup>    
-    <ProjectReference Include="..\ORION.EmployeeManagement\ORION.HumanResources.csproj" />
+    <ProjectReference Include="..\ORION.HumanResources\ORION.HumanResources.csproj" />
   </ItemGroup>
 
   <ItemGroup>
