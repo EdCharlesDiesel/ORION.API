@@ -1,0 +1,11 @@
+C:\Algorithms\01_Arrays\SweetAndSavory\bin\Debug\net6.0\SweetAndSavory.deps.json
+C:\Algorithms\01_Arrays\SweetAndSavory\bin\Debug\net6.0\SweetAndSavory.dll
+C:\Algorithms\01_Arrays\SweetAndSavory\bin\Debug\net6.0\SweetAndSavory.pdb
+C:\Algorithms\01_Arrays\SweetAndSavory\obj\Debug\net6.0\SweetAndSavory.GeneratedMSBuildEditorConfig.editorconfig
+C:\Algorithms\01_Arrays\SweetAndSavory\obj\Debug\net6.0\SweetAndSavory.AssemblyInfoInputs.cache
+C:\Algorithms\01_Arrays\SweetAndSavory\obj\Debug\net6.0\SweetAndSavory.AssemblyInfo.cs
+C:\Algorithms\01_Arrays\SweetAndSavory\obj\Debug\net6.0\SweetAndSavory.csproj.CoreCompileInputs.cache
+C:\Algorithms\01_Arrays\SweetAndSavory\obj\Debug\net6.0\SweetAndSavory.dll
+C:\Algorithms\01_Arrays\SweetAndSavory\obj\Debug\net6.0\refint\SweetAndSavory.dll
+C:\Algorithms\01_Arrays\SweetAndSavory\obj\Debug\net6.0\SweetAndSavory.pdb
+C:\Algorithms\01_Arrays\SweetAndSavory\obj\Debug\net6.0\ref\SweetAndSavory.dll

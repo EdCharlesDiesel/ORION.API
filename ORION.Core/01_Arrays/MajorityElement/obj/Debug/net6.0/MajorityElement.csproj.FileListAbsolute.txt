@@ -1,0 +1,11 @@
+C:\Algorithms\01_Arrays\MajorityElement\obj\Debug\net6.0\MajorityElement.GeneratedMSBuildEditorConfig.editorconfig
+C:\Algorithms\01_Arrays\MajorityElement\obj\Debug\net6.0\MajorityElement.AssemblyInfoInputs.cache
+C:\Algorithms\01_Arrays\MajorityElement\obj\Debug\net6.0\MajorityElement.AssemblyInfo.cs
+C:\Algorithms\01_Arrays\MajorityElement\obj\Debug\net6.0\MajorityElement.csproj.CoreCompileInputs.cache
+C:\Algorithms\01_Arrays\MajorityElement\bin\Debug\net6.0\MajorityElement.deps.json
+C:\Algorithms\01_Arrays\MajorityElement\bin\Debug\net6.0\MajorityElement.dll
+C:\Algorithms\01_Arrays\MajorityElement\bin\Debug\net6.0\MajorityElement.pdb
+C:\Algorithms\01_Arrays\MajorityElement\obj\Debug\net6.0\MajorityElement.dll
+C:\Algorithms\01_Arrays\MajorityElement\obj\Debug\net6.0\refint\MajorityElement.dll
+C:\Algorithms\01_Arrays\MajorityElement\obj\Debug\net6.0\MajorityElement.pdb
+C:\Algorithms\01_Arrays\MajorityElement\obj\Debug\net6.0\ref\MajorityElement.dll

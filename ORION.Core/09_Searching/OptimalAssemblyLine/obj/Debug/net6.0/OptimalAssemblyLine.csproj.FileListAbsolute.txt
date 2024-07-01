@@ -1,0 +1,11 @@
+C:\Algorithms\09_Searching\OptimalAssemblyLine\bin\Debug\net6.0\OptimalAssemblyLine.deps.json
+C:\Algorithms\09_Searching\OptimalAssemblyLine\bin\Debug\net6.0\OptimalAssemblyLine.dll
+C:\Algorithms\09_Searching\OptimalAssemblyLine\bin\Debug\net6.0\OptimalAssemblyLine.pdb
+C:\Algorithms\09_Searching\OptimalAssemblyLine\obj\Debug\net6.0\OptimalAssemblyLine.GeneratedMSBuildEditorConfig.editorconfig
+C:\Algorithms\09_Searching\OptimalAssemblyLine\obj\Debug\net6.0\OptimalAssemblyLine.AssemblyInfoInputs.cache
+C:\Algorithms\09_Searching\OptimalAssemblyLine\obj\Debug\net6.0\OptimalAssemblyLine.AssemblyInfo.cs
+C:\Algorithms\09_Searching\OptimalAssemblyLine\obj\Debug\net6.0\OptimalAssemblyLine.csproj.CoreCompileInputs.cache
+C:\Algorithms\09_Searching\OptimalAssemblyLine\obj\Debug\net6.0\OptimalAssemblyLine.dll
+C:\Algorithms\09_Searching\OptimalAssemblyLine\obj\Debug\net6.0\refint\OptimalAssemblyLine.dll
+C:\Algorithms\09_Searching\OptimalAssemblyLine\obj\Debug\net6.0\OptimalAssemblyLine.pdb
+C:\Algorithms\09_Searching\OptimalAssemblyLine\obj\Debug\net6.0\ref\OptimalAssemblyLine.dll

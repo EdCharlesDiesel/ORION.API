@@ -1,0 +1,33 @@
+C:\x\Algorithms\_OldCode\LongestCommonSubsequence\bin\Debug\net6.0\LongestCommonSubsequence.deps.json
+C:\x\Algorithms\_OldCode\LongestCommonSubsequence\bin\Debug\net6.0\LongestCommonSubsequence.dll
+C:\x\Algorithms\_OldCode\LongestCommonSubsequence\bin\Debug\net6.0\LongestCommonSubsequence.pdb
+C:\x\Algorithms\_OldCode\LongestCommonSubsequence\obj\Debug\net6.0\LongestCommonSubsequence.GeneratedMSBuildEditorConfig.editorconfig
+C:\x\Algorithms\_OldCode\LongestCommonSubsequence\obj\Debug\net6.0\LongestCommonSubsequence.AssemblyInfoInputs.cache
+C:\x\Algorithms\_OldCode\LongestCommonSubsequence\obj\Debug\net6.0\LongestCommonSubsequence.AssemblyInfo.cs
+C:\x\Algorithms\_OldCode\LongestCommonSubsequence\obj\Debug\net6.0\LongestCommonSubsequence.csproj.CoreCompileInputs.cache
+C:\x\Algorithms\_OldCode\LongestCommonSubsequence\obj\Debug\net6.0\LongestCommonSubsequence.dll
+C:\x\Algorithms\_OldCode\LongestCommonSubsequence\obj\Debug\net6.0\refint\LongestCommonSubsequence.dll
+C:\x\Algorithms\_OldCode\LongestCommonSubsequence\obj\Debug\net6.0\LongestCommonSubsequence.pdb
+C:\x\Algorithms\_OldCode\LongestCommonSubsequence\obj\Debug\net6.0\ref\LongestCommonSubsequence.dll
+C:\x\Algorithms\03_Hard\LongestCommonSubsequence\bin\Debug\net6.0\LongestCommonSubsequence.deps.json
+C:\x\Algorithms\03_Hard\LongestCommonSubsequence\bin\Debug\net6.0\LongestCommonSubsequence.dll
+C:\x\Algorithms\03_Hard\LongestCommonSubsequence\bin\Debug\net6.0\LongestCommonSubsequence.pdb
+C:\x\Algorithms\03_Hard\LongestCommonSubsequence\obj\Debug\net6.0\LongestCommonSubsequence.GeneratedMSBuildEditorConfig.editorconfig
+C:\x\Algorithms\03_Hard\LongestCommonSubsequence\obj\Debug\net6.0\LongestCommonSubsequence.AssemblyInfoInputs.cache
+C:\x\Algorithms\03_Hard\LongestCommonSubsequence\obj\Debug\net6.0\LongestCommonSubsequence.AssemblyInfo.cs
+C:\x\Algorithms\03_Hard\LongestCommonSubsequence\obj\Debug\net6.0\LongestCommonSubsequence.csproj.CoreCompileInputs.cache
+C:\x\Algorithms\03_Hard\LongestCommonSubsequence\obj\Debug\net6.0\LongestCommonSubsequence.dll
+C:\x\Algorithms\03_Hard\LongestCommonSubsequence\obj\Debug\net6.0\refint\LongestCommonSubsequence.dll
+C:\x\Algorithms\03_Hard\LongestCommonSubsequence\obj\Debug\net6.0\LongestCommonSubsequence.pdb
+C:\x\Algorithms\03_Hard\LongestCommonSubsequence\obj\Debug\net6.0\ref\LongestCommonSubsequence.dll
+C:\Algorithms\04_Dynamic Programming\LongestCommonSubsequence\bin\Debug\net6.0\LongestCommonSubsequence.deps.json
+C:\Algorithms\04_Dynamic Programming\LongestCommonSubsequence\bin\Debug\net6.0\LongestCommonSubsequence.dll
+C:\Algorithms\04_Dynamic Programming\LongestCommonSubsequence\bin\Debug\net6.0\LongestCommonSubsequence.pdb
+C:\Algorithms\04_Dynamic Programming\LongestCommonSubsequence\obj\Debug\net6.0\LongestCommonSubsequence.GeneratedMSBuildEditorConfig.editorconfig
+C:\Algorithms\04_Dynamic Programming\LongestCommonSubsequence\obj\Debug\net6.0\LongestCommonSubsequence.AssemblyInfoInputs.cache
+C:\Algorithms\04_Dynamic Programming\LongestCommonSubsequence\obj\Debug\net6.0\LongestCommonSubsequence.AssemblyInfo.cs
+C:\Algorithms\04_Dynamic Programming\LongestCommonSubsequence\obj\Debug\net6.0\LongestCommonSubsequence.csproj.CoreCompileInputs.cache
+C:\Algorithms\04_Dynamic Programming\LongestCommonSubsequence\obj\Debug\net6.0\LongestCommonSubsequence.dll
+C:\Algorithms\04_Dynamic Programming\LongestCommonSubsequence\obj\Debug\net6.0\refint\LongestCommonSubsequence.dll
+C:\Algorithms\04_Dynamic Programming\LongestCommonSubsequence\obj\Debug\net6.0\LongestCommonSubsequence.pdb
+C:\Algorithms\04_Dynamic Programming\LongestCommonSubsequence\obj\Debug\net6.0\ref\LongestCommonSubsequence.dll

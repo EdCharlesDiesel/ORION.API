@@ -1,0 +1,11 @@
+C:\Algorithms\14_GreedyAlgorithmns\ClassPhotos\bin\Debug\net6.0\ClassPhotos.deps.json
+C:\Algorithms\14_GreedyAlgorithmns\ClassPhotos\bin\Debug\net6.0\ClassPhotos.dll
+C:\Algorithms\14_GreedyAlgorithmns\ClassPhotos\bin\Debug\net6.0\ClassPhotos.pdb
+C:\Algorithms\14_GreedyAlgorithmns\ClassPhotos\obj\Debug\net6.0\ClassPhotos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Algorithms\14_GreedyAlgorithmns\ClassPhotos\obj\Debug\net6.0\ClassPhotos.AssemblyInfoInputs.cache
+C:\Algorithms\14_GreedyAlgorithmns\ClassPhotos\obj\Debug\net6.0\ClassPhotos.AssemblyInfo.cs
+C:\Algorithms\14_GreedyAlgorithmns\ClassPhotos\obj\Debug\net6.0\ClassPhotos.csproj.CoreCompileInputs.cache
+C:\Algorithms\14_GreedyAlgorithmns\ClassPhotos\obj\Debug\net6.0\ClassPhotos.dll
+C:\Algorithms\14_GreedyAlgorithmns\ClassPhotos\obj\Debug\net6.0\refint\ClassPhotos.dll
+C:\Algorithms\14_GreedyAlgorithmns\ClassPhotos\obj\Debug\net6.0\ClassPhotos.pdb
+C:\Algorithms\14_GreedyAlgorithmns\ClassPhotos\obj\Debug\net6.0\ref\ClassPhotos.dll

@@ -1,0 +1,11 @@
+C:\Algorithms\01_Arrays\KnightConnection\bin\Debug\net6.0\KnightConnection.deps.json
+C:\Algorithms\01_Arrays\KnightConnection\bin\Debug\net6.0\KnightConnection.dll
+C:\Algorithms\01_Arrays\KnightConnection\bin\Debug\net6.0\KnightConnection.pdb
+C:\Algorithms\01_Arrays\KnightConnection\obj\Debug\net6.0\KnightConnection.GeneratedMSBuildEditorConfig.editorconfig
+C:\Algorithms\01_Arrays\KnightConnection\obj\Debug\net6.0\KnightConnection.AssemblyInfoInputs.cache
+C:\Algorithms\01_Arrays\KnightConnection\obj\Debug\net6.0\KnightConnection.AssemblyInfo.cs
+C:\Algorithms\01_Arrays\KnightConnection\obj\Debug\net6.0\KnightConnection.csproj.CoreCompileInputs.cache
+C:\Algorithms\01_Arrays\KnightConnection\obj\Debug\net6.0\KnightConnection.dll
+C:\Algorithms\01_Arrays\KnightConnection\obj\Debug\net6.0\refint\KnightConnection.dll
+C:\Algorithms\01_Arrays\KnightConnection\obj\Debug\net6.0\KnightConnection.pdb
+C:\Algorithms\01_Arrays\KnightConnection\obj\Debug\net6.0\ref\KnightConnection.dll

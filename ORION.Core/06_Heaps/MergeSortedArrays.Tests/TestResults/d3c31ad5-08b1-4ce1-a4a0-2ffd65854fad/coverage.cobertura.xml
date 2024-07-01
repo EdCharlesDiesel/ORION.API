@@ -1,0 +1,142 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<coverage line-rate="1" branch-rate="1" version="1.9" timestamp="1699443630" lines-covered="33" lines-valid="33" branches-covered="10" branches-valid="10">
+  <sources>
+    <source>C:\</source>
+  </sources>
+  <packages>
+    <package name="MergeSortedArrays" line-rate="1" branch-rate="1" complexity="11">
+      <classes>
+        <class name="MergeSortedArrays.MergeSortedArraysClass" filename="Algorithms\06_Heaps\MergeSortedArrays\MergeSortedArraysClass.cs" line-rate="1" branch-rate="1" complexity="10">
+          <methods>
+            <method name="MergeSortedArrays" signature="(System.Collections.Generic.List`1&lt;System.Collections.Generic.List`1&lt;System.Int32&gt;&gt;)" line-rate="1" branch-rate="1" complexity="6">
+              <lines>
+                <line number="8" hits="1" branch="False" />
+                <line number="9" hits="1" branch="False" />
+                <line number="10" hits="1" branch="False" />
+                <line number="11" hits="15" branch="False" />
+                <line number="12" hits="15" branch="False" />
+                <line number="13" hits="15" branch="False" />
+                <line number="14" hits="150" branch="True" condition-coverage="100% (2/2)">
+                  <conditions>
+                    <condition number="126" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="15" hits="60" branch="False" />
+                <line number="16" hits="60" branch="False" />
+                <line number="17" hits="60" branch="False" />
+                <line number="18" hits="79" branch="True" condition-coverage="100% (2/2)">
+                  <conditions>
+                    <condition number="78" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="19" hits="41" branch="False" />
+                <line number="20" hits="41" branch="False" />
+                <line number="21" hits="16" branch="True" condition-coverage="100% (2/2)">
+                  <conditions>
+                    <condition number="141" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="22" hits="14" branch="False" />
+                <line number="23" hits="14" branch="False" />
+                <line number="24" hits="14" branch="False" />
+                <line number="25" hits="14" branch="False" />
+                <line number="26" hits="1" branch="False" />
+                <line number="27" hits="1" branch="False" />
+              </lines>
+            </method>
+            <method name="getMinValue" signature="(System.Collections.Generic.List`1&lt;MergeSortedArrays.Item&gt;)" line-rate="1" branch-rate="1" complexity="4">
+              <lines>
+                <line number="29" hits="14" branch="False" />
+                <line number="30" hits="14" branch="False" />
+                <line number="31" hits="82" branch="True" condition-coverage="100% (2/2)">
+                  <conditions>
+                    <condition number="56" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="32" hits="27" branch="False" />
+                <line number="33" hits="35" branch="True" condition-coverage="100% (2/2)">
+                  <conditions>
+                    <condition number="36" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="34" hits="27" branch="False" />
+                <line number="35" hits="14" branch="False" />
+                <line number="36" hits="14" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="8" hits="1" branch="False" />
+            <line number="9" hits="1" branch="False" />
+            <line number="10" hits="1" branch="False" />
+            <line number="11" hits="15" branch="False" />
+            <line number="12" hits="15" branch="False" />
+            <line number="13" hits="15" branch="False" />
+            <line number="14" hits="150" branch="True" condition-coverage="100% (2/2)">
+              <conditions>
+                <condition number="126" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="15" hits="60" branch="False" />
+            <line number="16" hits="60" branch="False" />
+            <line number="17" hits="60" branch="False" />
+            <line number="18" hits="79" branch="True" condition-coverage="100% (2/2)">
+              <conditions>
+                <condition number="78" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="19" hits="41" branch="False" />
+            <line number="20" hits="41" branch="False" />
+            <line number="21" hits="16" branch="True" condition-coverage="100% (2/2)">
+              <conditions>
+                <condition number="141" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="22" hits="14" branch="False" />
+            <line number="23" hits="14" branch="False" />
+            <line number="24" hits="14" branch="False" />
+            <line number="25" hits="14" branch="False" />
+            <line number="26" hits="1" branch="False" />
+            <line number="27" hits="1" branch="False" />
+            <line number="29" hits="14" branch="False" />
+            <line number="30" hits="14" branch="False" />
+            <line number="31" hits="82" branch="True" condition-coverage="100% (2/2)">
+              <conditions>
+                <condition number="56" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="32" hits="27" branch="False" />
+            <line number="33" hits="35" branch="True" condition-coverage="100% (2/2)">
+              <conditions>
+                <condition number="36" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="34" hits="27" branch="False" />
+            <line number="35" hits="14" branch="False" />
+            <line number="36" hits="14" branch="False" />
+          </lines>
+        </class>
+        <class name="MergeSortedArrays.Item" filename="Algorithms\06_Heaps\MergeSortedArrays\MergeSortedArraysClass.cs" line-rate="1" branch-rate="1" complexity="1">
+          <methods>
+            <method name=".ctor" signature="(System.Int32,System.Int32)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="43" hits="41" branch="False" />
+                <line number="44" hits="41" branch="False" />
+                <line number="45" hits="41" branch="False" />
+                <line number="46" hits="41" branch="False" />
+                <line number="47" hits="41" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="43" hits="41" branch="False" />
+            <line number="44" hits="41" branch="False" />
+            <line number="45" hits="41" branch="False" />
+            <line number="46" hits="41" branch="False" />
+            <line number="47" hits="41" branch="False" />
+          </lines>
+        </class>
+      </classes>
+    </package>
+  </packages>
+</coverage>

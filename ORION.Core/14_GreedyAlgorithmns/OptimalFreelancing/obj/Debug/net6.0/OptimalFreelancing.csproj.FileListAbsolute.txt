@@ -1,0 +1,11 @@
+C:\Algorithms\14_GreedyAlgorithmns\OptimalFreelancing\bin\Debug\net6.0\OptimalFreelancing.deps.json
+C:\Algorithms\14_GreedyAlgorithmns\OptimalFreelancing\bin\Debug\net6.0\OptimalFreelancing.dll
+C:\Algorithms\14_GreedyAlgorithmns\OptimalFreelancing\bin\Debug\net6.0\OptimalFreelancing.pdb
+C:\Algorithms\14_GreedyAlgorithmns\OptimalFreelancing\obj\Debug\net6.0\OptimalFreelancing.GeneratedMSBuildEditorConfig.editorconfig
+C:\Algorithms\14_GreedyAlgorithmns\OptimalFreelancing\obj\Debug\net6.0\OptimalFreelancing.AssemblyInfoInputs.cache
+C:\Algorithms\14_GreedyAlgorithmns\OptimalFreelancing\obj\Debug\net6.0\OptimalFreelancing.AssemblyInfo.cs
+C:\Algorithms\14_GreedyAlgorithmns\OptimalFreelancing\obj\Debug\net6.0\OptimalFreelancing.csproj.CoreCompileInputs.cache
+C:\Algorithms\14_GreedyAlgorithmns\OptimalFreelancing\obj\Debug\net6.0\OptimalFreelancing.dll
+C:\Algorithms\14_GreedyAlgorithmns\OptimalFreelancing\obj\Debug\net6.0\refint\OptimalFreelancing.dll
+C:\Algorithms\14_GreedyAlgorithmns\OptimalFreelancing\obj\Debug\net6.0\OptimalFreelancing.pdb
+C:\Algorithms\14_GreedyAlgorithmns\OptimalFreelancing\obj\Debug\net6.0\ref\OptimalFreelancing.dll

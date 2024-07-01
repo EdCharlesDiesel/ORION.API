@@ -1,0 +1,11 @@
+C:\Algorithms\01_Arrays\MedianOfTwoSortedArrays\bin\Debug\net6.0\MedianOfTwoSortedArrays.deps.json
+C:\Algorithms\01_Arrays\MedianOfTwoSortedArrays\bin\Debug\net6.0\MedianOfTwoSortedArrays.dll
+C:\Algorithms\01_Arrays\MedianOfTwoSortedArrays\bin\Debug\net6.0\MedianOfTwoSortedArrays.pdb
+C:\Algorithms\01_Arrays\MedianOfTwoSortedArrays\obj\Debug\net6.0\MedianOfTwoSortedArrays.GeneratedMSBuildEditorConfig.editorconfig
+C:\Algorithms\01_Arrays\MedianOfTwoSortedArrays\obj\Debug\net6.0\MedianOfTwoSortedArrays.AssemblyInfoInputs.cache
+C:\Algorithms\01_Arrays\MedianOfTwoSortedArrays\obj\Debug\net6.0\MedianOfTwoSortedArrays.AssemblyInfo.cs
+C:\Algorithms\01_Arrays\MedianOfTwoSortedArrays\obj\Debug\net6.0\MedianOfTwoSortedArrays.csproj.CoreCompileInputs.cache
+C:\Algorithms\01_Arrays\MedianOfTwoSortedArrays\obj\Debug\net6.0\MedianOfTwoSortedArrays.dll
+C:\Algorithms\01_Arrays\MedianOfTwoSortedArrays\obj\Debug\net6.0\refint\MedianOfTwoSortedArrays.dll
+C:\Algorithms\01_Arrays\MedianOfTwoSortedArrays\obj\Debug\net6.0\MedianOfTwoSortedArrays.pdb
+C:\Algorithms\01_Arrays\MedianOfTwoSortedArrays\obj\Debug\net6.0\ref\MedianOfTwoSortedArrays.dll

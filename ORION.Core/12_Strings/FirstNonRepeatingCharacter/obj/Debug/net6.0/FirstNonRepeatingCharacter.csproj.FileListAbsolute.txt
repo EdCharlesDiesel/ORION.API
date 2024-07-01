@@ -1,0 +1,11 @@
+C:\Algorithms\12_Strings\FirstNonRepeatingCharacter\bin\Debug\net6.0\FirstNonRepeatingCharacter.deps.json
+C:\Algorithms\12_Strings\FirstNonRepeatingCharacter\bin\Debug\net6.0\FirstNonRepeatingCharacter.dll
+C:\Algorithms\12_Strings\FirstNonRepeatingCharacter\bin\Debug\net6.0\FirstNonRepeatingCharacter.pdb
+C:\Algorithms\12_Strings\FirstNonRepeatingCharacter\obj\Debug\net6.0\FirstNonRepeatingCharacter.GeneratedMSBuildEditorConfig.editorconfig
+C:\Algorithms\12_Strings\FirstNonRepeatingCharacter\obj\Debug\net6.0\FirstNonRepeatingCharacter.AssemblyInfoInputs.cache
+C:\Algorithms\12_Strings\FirstNonRepeatingCharacter\obj\Debug\net6.0\FirstNonRepeatingCharacter.AssemblyInfo.cs
+C:\Algorithms\12_Strings\FirstNonRepeatingCharacter\obj\Debug\net6.0\FirstNonRepeatingCharacter.csproj.CoreCompileInputs.cache
+C:\Algorithms\12_Strings\FirstNonRepeatingCharacter\obj\Debug\net6.0\FirstNonRepeatingCharacter.dll
+C:\Algorithms\12_Strings\FirstNonRepeatingCharacter\obj\Debug\net6.0\refint\FirstNonRepeatingCharacter.dll
+C:\Algorithms\12_Strings\FirstNonRepeatingCharacter\obj\Debug\net6.0\FirstNonRepeatingCharacter.pdb
+C:\Algorithms\12_Strings\FirstNonRepeatingCharacter\obj\Debug\net6.0\ref\FirstNonRepeatingCharacter.dll

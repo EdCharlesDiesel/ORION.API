@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "H6NQO6dCZFmbg66UNLM7zu4gSdZcJVjCFC+fLY66uL1ohlXsI1R7ffXw4KCd8BM0zOJUREJ9nzXbJAWirQtoLA==",
+  "dgSpecHash": "L+J10Nk5UWk=",
   "success": true,
-  "projectFilePath": "c:\\Khotso\\Projects\\ORION\\ORION.Core\\ORION.Core.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\x\\ORION.API\\ORION.Core\\ORION.Core.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\user\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.31\\microsoft.windowsdesktop.app.ref.6.0.31.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.31\\microsoft.netcore.app.ref.6.0.31.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.31\\microsoft.aspnetcore.app.ref.6.0.31.nupkg.sha512"
+  ],
   "logs": []
 }

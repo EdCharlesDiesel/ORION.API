@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "FindThreeLargestNumbers/1.0.0": {
+        "runtime": {
+          "FindThreeLargestNumbers.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "FindThreeLargestNumbers/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

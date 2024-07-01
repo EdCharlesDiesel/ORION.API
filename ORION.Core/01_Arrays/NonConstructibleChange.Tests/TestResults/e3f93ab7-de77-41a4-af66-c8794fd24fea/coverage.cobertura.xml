@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<coverage line-rate="0.9166" branch-rate="0.75" version="1.9" timestamp="1699443462" lines-covered="11" lines-valid="12" branches-covered="3" branches-valid="4">
+  <sources>
+    <source>C:\</source>
+  </sources>
+  <packages>
+    <package name="NonConstructibleChange" line-rate="0.9166" branch-rate="0.75" complexity="4">
+      <classes>
+        <class name="NonConstructibleChange.NonConstructibleChangeClass" filename="Algorithms\01_Arrays\NonConstructibleChange\NonConstructibleChangeClass.cs" line-rate="0.9166" branch-rate="0.75" complexity="4">
+          <methods>
+            <method name="NonConstructibleChange" signature="(System.Int32[])" line-rate="0.9166" branch-rate="0.75" complexity="4">
+              <lines>
+                <line number="20" hits="1" branch="False" />
+                <line number="21" hits="1" branch="False" />
+                <line number="23" hits="1" branch="False" />
+                <line number="24" hits="16" branch="True" condition-coverage="50% (1/2)">
+                  <conditions>
+                    <condition number="55" type="jump" coverage="50%" />
+                  </conditions>
+                </line>
+                <line number="25" hits="7" branch="False" />
+                <line number="26" hits="7" branch="True" condition-coverage="100% (2/2)">
+                  <conditions>
+                    <condition number="32" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="27" hits="1" branch="False" />
+                <line number="28" hits="1" branch="False" />
+                <line number="30" hits="6" branch="False" />
+                <line number="31" hits="6" branch="False" />
+                <line number="33" hits="0" branch="False" />
+                <line number="34" hits="1" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="20" hits="1" branch="False" />
+            <line number="21" hits="1" branch="False" />
+            <line number="23" hits="1" branch="False" />
+            <line number="24" hits="16" branch="True" condition-coverage="50% (1/2)">
+              <conditions>
+                <condition number="55" type="jump" coverage="50%" />
+              </conditions>
+            </line>
+            <line number="25" hits="7" branch="False" />
+            <line number="26" hits="7" branch="True" condition-coverage="100% (2/2)">
+              <conditions>
+                <condition number="32" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="27" hits="1" branch="False" />
+            <line number="28" hits="1" branch="False" />
+            <line number="30" hits="6" branch="False" />
+            <line number="31" hits="6" branch="False" />
+            <line number="33" hits="0" branch="False" />
+            <line number="34" hits="1" branch="False" />
+          </lines>
+        </class>
+      </classes>
+    </package>
+  </packages>
+</coverage>

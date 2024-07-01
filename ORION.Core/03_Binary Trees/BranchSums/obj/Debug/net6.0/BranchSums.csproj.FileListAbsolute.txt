@@ -1,0 +1,33 @@
+C:\x\Algorithms\_OldCode\BranchSums\bin\Debug\net6.0\BranchSums.deps.json
+C:\x\Algorithms\_OldCode\BranchSums\bin\Debug\net6.0\BranchSums.dll
+C:\x\Algorithms\_OldCode\BranchSums\bin\Debug\net6.0\BranchSums.pdb
+C:\x\Algorithms\_OldCode\BranchSums\obj\Debug\net6.0\BranchSums.GeneratedMSBuildEditorConfig.editorconfig
+C:\x\Algorithms\_OldCode\BranchSums\obj\Debug\net6.0\BranchSums.AssemblyInfoInputs.cache
+C:\x\Algorithms\_OldCode\BranchSums\obj\Debug\net6.0\BranchSums.AssemblyInfo.cs
+C:\x\Algorithms\_OldCode\BranchSums\obj\Debug\net6.0\BranchSums.csproj.CoreCompileInputs.cache
+C:\x\Algorithms\_OldCode\BranchSums\obj\Debug\net6.0\BranchSums.dll
+C:\x\Algorithms\_OldCode\BranchSums\obj\Debug\net6.0\refint\BranchSums.dll
+C:\x\Algorithms\_OldCode\BranchSums\obj\Debug\net6.0\BranchSums.pdb
+C:\x\Algorithms\_OldCode\BranchSums\obj\Debug\net6.0\ref\BranchSums.dll
+C:\x\Algorithms\01_Easy\BranchSums\bin\Debug\net6.0\BranchSums.deps.json
+C:\x\Algorithms\01_Easy\BranchSums\bin\Debug\net6.0\BranchSums.dll
+C:\x\Algorithms\01_Easy\BranchSums\bin\Debug\net6.0\BranchSums.pdb
+C:\x\Algorithms\01_Easy\BranchSums\obj\Debug\net6.0\BranchSums.GeneratedMSBuildEditorConfig.editorconfig
+C:\x\Algorithms\01_Easy\BranchSums\obj\Debug\net6.0\BranchSums.AssemblyInfoInputs.cache
+C:\x\Algorithms\01_Easy\BranchSums\obj\Debug\net6.0\BranchSums.AssemblyInfo.cs
+C:\x\Algorithms\01_Easy\BranchSums\obj\Debug\net6.0\BranchSums.csproj.CoreCompileInputs.cache
+C:\x\Algorithms\01_Easy\BranchSums\obj\Debug\net6.0\BranchSums.dll
+C:\x\Algorithms\01_Easy\BranchSums\obj\Debug\net6.0\refint\BranchSums.dll
+C:\x\Algorithms\01_Easy\BranchSums\obj\Debug\net6.0\BranchSums.pdb
+C:\x\Algorithms\01_Easy\BranchSums\obj\Debug\net6.0\ref\BranchSums.dll
+C:\Algorithms\03_Binary Trees\BranchSums\bin\Debug\net6.0\BranchSums.deps.json
+C:\Algorithms\03_Binary Trees\BranchSums\bin\Debug\net6.0\BranchSums.dll
+C:\Algorithms\03_Binary Trees\BranchSums\bin\Debug\net6.0\BranchSums.pdb
+C:\Algorithms\03_Binary Trees\BranchSums\obj\Debug\net6.0\BranchSums.GeneratedMSBuildEditorConfig.editorconfig
+C:\Algorithms\03_Binary Trees\BranchSums\obj\Debug\net6.0\BranchSums.AssemblyInfoInputs.cache
+C:\Algorithms\03_Binary Trees\BranchSums\obj\Debug\net6.0\BranchSums.AssemblyInfo.cs
+C:\Algorithms\03_Binary Trees\BranchSums\obj\Debug\net6.0\BranchSums.csproj.CoreCompileInputs.cache
+C:\Algorithms\03_Binary Trees\BranchSums\obj\Debug\net6.0\BranchSums.dll
+C:\Algorithms\03_Binary Trees\BranchSums\obj\Debug\net6.0\refint\BranchSums.dll
+C:\Algorithms\03_Binary Trees\BranchSums\obj\Debug\net6.0\BranchSums.pdb
+C:\Algorithms\03_Binary Trees\BranchSums\obj\Debug\net6.0\ref\BranchSums.dll

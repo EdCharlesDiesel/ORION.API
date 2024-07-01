@@ -1,0 +1,33 @@
+C:\x\Algorithms\_OldCode\MaxPathSum\bin\Debug\net6.0\MaxPathSum.deps.json
+C:\x\Algorithms\_OldCode\MaxPathSum\bin\Debug\net6.0\MaxPathSum.dll
+C:\x\Algorithms\_OldCode\MaxPathSum\bin\Debug\net6.0\MaxPathSum.pdb
+C:\x\Algorithms\_OldCode\MaxPathSum\obj\Debug\net6.0\MaxPathSum.GeneratedMSBuildEditorConfig.editorconfig
+C:\x\Algorithms\_OldCode\MaxPathSum\obj\Debug\net6.0\MaxPathSum.AssemblyInfoInputs.cache
+C:\x\Algorithms\_OldCode\MaxPathSum\obj\Debug\net6.0\MaxPathSum.AssemblyInfo.cs
+C:\x\Algorithms\_OldCode\MaxPathSum\obj\Debug\net6.0\MaxPathSum.csproj.CoreCompileInputs.cache
+C:\x\Algorithms\_OldCode\MaxPathSum\obj\Debug\net6.0\MaxPathSum.dll
+C:\x\Algorithms\_OldCode\MaxPathSum\obj\Debug\net6.0\refint\MaxPathSum.dll
+C:\x\Algorithms\_OldCode\MaxPathSum\obj\Debug\net6.0\MaxPathSum.pdb
+C:\x\Algorithms\_OldCode\MaxPathSum\obj\Debug\net6.0\ref\MaxPathSum.dll
+C:\x\Algorithms\03_Hard\MaxPathSum\bin\Debug\net6.0\MaxPathSum.deps.json
+C:\x\Algorithms\03_Hard\MaxPathSum\bin\Debug\net6.0\MaxPathSum.dll
+C:\x\Algorithms\03_Hard\MaxPathSum\bin\Debug\net6.0\MaxPathSum.pdb
+C:\x\Algorithms\03_Hard\MaxPathSum\obj\Debug\net6.0\MaxPathSum.GeneratedMSBuildEditorConfig.editorconfig
+C:\x\Algorithms\03_Hard\MaxPathSum\obj\Debug\net6.0\MaxPathSum.AssemblyInfoInputs.cache
+C:\x\Algorithms\03_Hard\MaxPathSum\obj\Debug\net6.0\MaxPathSum.AssemblyInfo.cs
+C:\x\Algorithms\03_Hard\MaxPathSum\obj\Debug\net6.0\MaxPathSum.csproj.CoreCompileInputs.cache
+C:\x\Algorithms\03_Hard\MaxPathSum\obj\Debug\net6.0\MaxPathSum.dll
+C:\x\Algorithms\03_Hard\MaxPathSum\obj\Debug\net6.0\refint\MaxPathSum.dll
+C:\x\Algorithms\03_Hard\MaxPathSum\obj\Debug\net6.0\MaxPathSum.pdb
+C:\x\Algorithms\03_Hard\MaxPathSum\obj\Debug\net6.0\ref\MaxPathSum.dll
+C:\Algorithms\03_Binary Trees\MaxPathSum\bin\Debug\net6.0\MaxPathSum.deps.json
+C:\Algorithms\03_Binary Trees\MaxPathSum\bin\Debug\net6.0\MaxPathSum.dll
+C:\Algorithms\03_Binary Trees\MaxPathSum\bin\Debug\net6.0\MaxPathSum.pdb
+C:\Algorithms\03_Binary Trees\MaxPathSum\obj\Debug\net6.0\MaxPathSum.GeneratedMSBuildEditorConfig.editorconfig
+C:\Algorithms\03_Binary Trees\MaxPathSum\obj\Debug\net6.0\MaxPathSum.AssemblyInfoInputs.cache
+C:\Algorithms\03_Binary Trees\MaxPathSum\obj\Debug\net6.0\MaxPathSum.AssemblyInfo.cs
+C:\Algorithms\03_Binary Trees\MaxPathSum\obj\Debug\net6.0\MaxPathSum.csproj.CoreCompileInputs.cache
+C:\Algorithms\03_Binary Trees\MaxPathSum\obj\Debug\net6.0\MaxPathSum.dll
+C:\Algorithms\03_Binary Trees\MaxPathSum\obj\Debug\net6.0\refint\MaxPathSum.dll
+C:\Algorithms\03_Binary Trees\MaxPathSum\obj\Debug\net6.0\MaxPathSum.pdb
+C:\Algorithms\03_Binary Trees\MaxPathSum\obj\Debug\net6.0\ref\MaxPathSum.dll

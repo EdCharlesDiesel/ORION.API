@@ -1,0 +1,11 @@
+C:\Algorithms\14_GreedyAlgorithmns\MinimumWaitingTime\bin\Debug\net6.0\MinimumWaitingTime.deps.json
+C:\Algorithms\14_GreedyAlgorithmns\MinimumWaitingTime\bin\Debug\net6.0\MinimumWaitingTime.dll
+C:\Algorithms\14_GreedyAlgorithmns\MinimumWaitingTime\bin\Debug\net6.0\MinimumWaitingTime.pdb
+C:\Algorithms\14_GreedyAlgorithmns\MinimumWaitingTime\obj\Debug\net6.0\MinimumWaitingTime.GeneratedMSBuildEditorConfig.editorconfig
+C:\Algorithms\14_GreedyAlgorithmns\MinimumWaitingTime\obj\Debug\net6.0\MinimumWaitingTime.AssemblyInfoInputs.cache
+C:\Algorithms\14_GreedyAlgorithmns\MinimumWaitingTime\obj\Debug\net6.0\MinimumWaitingTime.AssemblyInfo.cs
+C:\Algorithms\14_GreedyAlgorithmns\MinimumWaitingTime\obj\Debug\net6.0\MinimumWaitingTime.csproj.CoreCompileInputs.cache
+C:\Algorithms\14_GreedyAlgorithmns\MinimumWaitingTime\obj\Debug\net6.0\MinimumWaitingTime.dll
+C:\Algorithms\14_GreedyAlgorithmns\MinimumWaitingTime\obj\Debug\net6.0\refint\MinimumWaitingTime.dll
+C:\Algorithms\14_GreedyAlgorithmns\MinimumWaitingTime\obj\Debug\net6.0\MinimumWaitingTime.pdb
+C:\Algorithms\14_GreedyAlgorithmns\MinimumWaitingTime\obj\Debug\net6.0\ref\MinimumWaitingTime.dll

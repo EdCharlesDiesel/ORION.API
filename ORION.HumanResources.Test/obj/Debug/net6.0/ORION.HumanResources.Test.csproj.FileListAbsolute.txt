@@ -1,0 +1,14 @@
+C:\x\ORION.API\ORION.EmployeeManagement.Test\bin\Debug\net6.0\CoverletSourceRootsMapping
+C:\x\ORION.API\ORION.EmployeeManagement.Test\obj\Debug\net6.0\ORION.HumanResources.Test.csproj.AssemblyReference.cache
+C:\x\ORION.API\ORION.EmployeeManagement.Test\obj\Debug\net6.0\ORION.HumanResources.Test.GeneratedMSBuildEditorConfig.editorconfig
+C:\x\ORION.API\ORION.EmployeeManagement.Test\obj\Debug\net6.0\ORION.HumanResources.Test.AssemblyInfoInputs.cache
+C:\x\ORION.API\ORION.EmployeeManagement.Test\obj\Debug\net6.0\ORION.HumanResources.Test.AssemblyInfo.cs
+C:\x\ORION.API\ORION.EmployeeManagement.Test\obj\Debug\net6.0\ORION.HumanResources.Test.csproj.CoreCompileInputs.cache
+C:\x\ORION.API\ORION.EmployeeManagement.Test\obj\Debug\net6.0\ORION.HumanResources.Test.sourcelink.json
+C:\x\ORION.API\ORION.HumanResources.Test\obj\Debug\net6.0\ORION.HumanResources.Test.csproj.AssemblyReference.cache
+C:\x\ORION.API\ORION.HumanResources.Test\obj\Debug\net6.0\ORION.HumanResources.Test.GeneratedMSBuildEditorConfig.editorconfig
+C:\x\ORION.API\ORION.HumanResources.Test\obj\Debug\net6.0\ORION.HumanResources.Test.AssemblyInfoInputs.cache
+C:\x\ORION.API\ORION.HumanResources.Test\obj\Debug\net6.0\ORION.HumanResources.Test.AssemblyInfo.cs
+C:\x\ORION.API\ORION.HumanResources.Test\obj\Debug\net6.0\ORION.HumanResources.Test.csproj.CoreCompileInputs.cache
+C:\x\ORION.API\ORION.HumanResources.Test\obj\Debug\net6.0\ORION.HumanResources.Test.sourcelink.json
+C:\x\ORION.API\ORION.HumanResources.Test\bin\Debug\net6.0\CoverletSourceRootsMapping
