@@ -28,26 +28,26 @@ namespace ORION.Core.BinaryTrees
         //}
     }
 
-    public class Level
-    {
-        public BinaryTree root;
-        public int depth;
-        public Level(BinaryTree root, int depth)
-        {
-            this.root = root;
-            this.depth = depth;
-        }
-    }
-    public class BinaryTree
-    {
-        //public int value;
-        //public BinaryTree left;
-        //public BinaryTree right;
-        //public BinaryTree(int value)
-        //{
-        //    this.value = value;
-        //    left = null;
-        //    right = null;
-        //}
-    }
+    //public class Level
+    //{
+    //    public BinaryTree root;
+    //    public int depth;
+    //    public Level(BinaryTree root, int depth)
+    //    {
+    //        this.root = root;
+    //        this.depth = depth;
+    //    }
+    //}
+    //public class BinaryTree
+    //{
+    //    //public int value;
+    //    //public BinaryTree left;
+    //    //public BinaryTree right;
+    //    //public BinaryTree(int value)
+    //    //{
+    //    //    this.value = value;
+    //    //    left = null;
+    //    //    right = null;
+    //    //}
+    //}
 }

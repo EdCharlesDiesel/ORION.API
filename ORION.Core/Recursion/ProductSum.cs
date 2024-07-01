@@ -1,5 +1,6 @@
 ﻿using System;
-namespace ProductSum
+using System.Collections.Generic;
+namespace ORION.Core.Recursion
 {
     /// <summary>
     /// Write a function that takes in a "special" array 
@@ -22,7 +23,7 @@ namespace ProductSum
     /// array = [5,2,[7,-1],3,[6,[-13,8],4]].
     /// 
     /// </summary>
-    public static class ProductSum
+    public static class ProductSumClass
     {
         static void Main(string[] args)
         {

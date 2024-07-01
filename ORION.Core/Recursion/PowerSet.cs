@@ -1,4 +1,6 @@
-﻿namespace PowerSet
+﻿using System.Collections.Generic;
+
+namespace ORION.Core.Recursion
 {
     /// <summary>
     /// Write a function that takes in an array of unique integers

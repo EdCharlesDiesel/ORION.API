@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace NumberOfBinaryTreeTopologies
+namespace ORION.Core.Recursion
 {
     internal class NumberOfBinaryTreeTopologiesClass3
     {

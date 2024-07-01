@@ -1,4 +1,6 @@
-﻿namespace MaxSubsetSumNoAdjacent
+﻿using System;
+
+namespace MaxSubsetSumNoAdjacent
 {
     public class MaxSubsetSumNoAdjacentClass
     {

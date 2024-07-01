@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace RevealMinesweeper
+namespace ORION.Core.Recursion
 {
     /// <summary>
     /// Minesweeper is popular video game. From Wikipedia, "The game features a grid

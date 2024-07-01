@@ -1,4 +1,4 @@
-﻿namespace SearchInSortedMatrix
+﻿namespace ORION.Core.Recursion
 {
     public class SearchInSortedMatrixClass
     {

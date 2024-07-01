@@ -1,4 +1,6 @@
-﻿namespace ORION.Core.Arrays
+﻿using System;
+
+namespace ORION.Core.Arrays
 {
     /// <summary>
     /// You're given two sorted arrays of integers arrayOne and

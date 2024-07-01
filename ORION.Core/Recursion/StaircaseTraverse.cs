@@ -1,4 +1,6 @@
-﻿namespace StaircaseTraverse
+﻿using System;
+
+namespace ORION.Core.Recursion
 {
     /// <summary>
     /// You're given two positive integers representing the

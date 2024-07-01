@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace InterweavingStrings
+namespace ORION.Core.Recursion
 {
     /// <summary>
     /// Write a function that takes in three strings and returns a boolean representing whether 

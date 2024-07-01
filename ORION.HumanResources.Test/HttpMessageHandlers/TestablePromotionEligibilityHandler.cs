@@ -1,8 +1,8 @@
-﻿using EmployeeManagement.Business;
+﻿using ORION.HumanResources.Business;
 using System.Text;
 using System.Text.Json;
 
-namespace EmployeeManagement.Test.HttpMessageHandlers
+namespace ORION.HumanResources.Test.HttpMessageHandlers
 {
     public class TestablePromotionEligibilityHandler : HttpMessageHandler
     {

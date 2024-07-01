@@ -1,4 +1,6 @@
-﻿namespace ORION.Core.LinkedList
+﻿using System;
+
+namespace ORION.Core.LinkedList
 {
     internal class MinNumberOfJumpsClass1
     {

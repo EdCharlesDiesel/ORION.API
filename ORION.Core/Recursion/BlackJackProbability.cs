@@ -1,5 +1,6 @@
-﻿using System.Collections.Generic;
-namespace BlackJackProbability
+﻿using System;
+using System.Collections.Generic;
+namespace ORION.Core.Recursion
 {
     public class BlackJackProbability
     {

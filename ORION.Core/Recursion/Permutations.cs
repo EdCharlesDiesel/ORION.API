@@ -1,4 +1,6 @@
-﻿namespace Permutations
+﻿using System.Collections.Generic;
+
+namespace ORION.Core.Recursion
 {
     /// <summary>
     /// Write a function that takes an array of unique integers

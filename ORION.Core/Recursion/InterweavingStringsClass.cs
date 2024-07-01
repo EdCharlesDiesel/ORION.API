@@ -1,4 +1,4 @@
-﻿namespace InterweavingStrings
+﻿namespace ORION.Core.Recursion
 {
     public class InterweavingStringsClass
     {

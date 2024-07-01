@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace NumberOfBinaryTreeTopologies
+namespace ORION.Core.Recursion
 {
     internal class NumberOfBinaryTreeTopologiesClass2
     {

@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace LowestCommonManager
+namespace ORION.Core.Recursion
 {
     /// <summary>
     /// You're given three inputs, all of which are instances of an OrgChart class that have a 

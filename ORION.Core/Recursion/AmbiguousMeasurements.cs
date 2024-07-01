@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace AmbiguousMeasurements
+namespace ORION.Core.Recursion
 {
     /// <summary>
     /// 

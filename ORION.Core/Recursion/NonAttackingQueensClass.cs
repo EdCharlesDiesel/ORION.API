@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace NonAttackingQueens
+namespace ORION.Core.Recursion
 {
     /// <summary>
     /// Write a function that takes in positive  integer n and returns the number

@@ -1,11 +1,12 @@
-﻿using EmployeeManagement.Business.EventArguments;
-using EmployeeManagement.Business.Exceptions;
-using EmployeeManagement.DataAccess.Entities;
-using EmployeeManagement.Test.Fixtures;
+﻿
+using ORION.HumanResources.Business.EventArguments;
+using ORION.HumanResources.Business.Exceptions;
+using ORION.HumanResources.DataAccess.Entities;
+using ORION.HumanResources.Test.Fixtures;
 using Xunit;
 using Xunit.Abstractions;
 
-namespace EmployeeManagement.Test
+namespace ORION.HumanResources.Test
 {
     [Collection("EmployeeServiceCollection")]
     public class EmployeeServiceTests //: IClassFixture<EmployeeServiceFixture>

@@ -1,12 +1,12 @@
 ﻿using AutoMapper;
-using EmployeeManagement.Business;
-using EmployeeManagement.Controllers;
-using EmployeeManagement.DataAccess.Entities;
+using ORION.HumanResources.Business;
+using ORION.HumanResources.Controllers;
+using ORION.HumanResources.DataAccess.Entities;
 using Microsoft.AspNetCore.Mvc;
 using Moq;
 using Xunit;
 
-namespace EmployeeManagement.Test
+namespace ORION.HumanResources.Test
 {
     public class InternalEmployeeControllerTests
     {

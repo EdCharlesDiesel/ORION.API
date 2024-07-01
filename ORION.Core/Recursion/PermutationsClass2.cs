@@ -1,4 +1,6 @@
-﻿namespace Permutations
+﻿using System.Collections.Generic;
+
+namespace ORION.Core.Recursion
 {
     public class PermutationsClass2
     {

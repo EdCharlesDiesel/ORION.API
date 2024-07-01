@@ -1,7 +1,7 @@
-﻿using EmployeeManagement.DataAccess.Entities;
+﻿using ORION.HumanResources.DataAccess.Entities;
 using Xunit;
 
-namespace EmployeeManagement.Test
+namespace ORION.HumanResources.Test
 {
     public class CourseTests
     {
