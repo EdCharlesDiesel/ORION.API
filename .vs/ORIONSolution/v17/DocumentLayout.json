@@ -3,56 +3,12 @@
   "WorkspaceRootPath": "C:\\x\\ORION.API\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{DD3AAD6A-1BEC-45D9-9137-43FA2359BECB}|ORION.EmployeeManagement\\ORION.EmployeeManagement.csproj|c:\\x\\orion.api\\orion.employeemanagement\\actionfilters\\checkshowstatisticsheader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DD3AAD6A-1BEC-45D9-9137-43FA2359BECB}|ORION.EmployeeManagement\\ORION.EmployeeManagement.csproj|solutionrelative:orion.employeemanagement\\actionfilters\\checkshowstatisticsheader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DD3AAD6A-1BEC-45D9-9137-43FA2359BECB}|ORION.EmployeeManagement\\ORION.HumanResources.csproj|c:\\x\\orion.api\\orion.employeemanagement\\orion.humanresources.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{DD3AAD6A-1BEC-45D9-9137-43FA2359BECB}|ORION.EmployeeManagement\\ORION.HumanResources.csproj|solutionrelative:orion.employeemanagement\\orion.humanresources.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DD3AAD6A-1BEC-45D9-9137-43FA2359BECB}|ORION.EmployeeManagement\\ORION.EmployeeManagement.csproj|c:\\x\\orion.api\\orion.employeemanagement\\business\\eventarguments\\employeeisabsenteventargs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DD3AAD6A-1BEC-45D9-9137-43FA2359BECB}|ORION.EmployeeManagement\\ORION.EmployeeManagement.csproj|solutionrelative:orion.employeemanagement\\business\\eventarguments\\employeeisabsenteventargs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DD3AAD6A-1BEC-45D9-9137-43FA2359BECB}|ORION.EmployeeManagement\\ORION.EmployeeManagement.csproj|c:\\x\\orion.api\\orion.employeemanagement\\business\\promotioneligibility.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DD3AAD6A-1BEC-45D9-9137-43FA2359BECB}|ORION.EmployeeManagement\\ORION.EmployeeManagement.csproj|solutionrelative:orion.employeemanagement\\business\\promotioneligibility.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DD3AAD6A-1BEC-45D9-9137-43FA2359BECB}|ORION.EmployeeManagement\\ORION.EmployeeManagement.csproj|c:\\x\\orion.api\\orion.employeemanagement\\business\\ipromotionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DD3AAD6A-1BEC-45D9-9137-43FA2359BECB}|ORION.EmployeeManagement\\ORION.EmployeeManagement.csproj|solutionrelative:orion.employeemanagement\\business\\ipromotionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DD3AAD6A-1BEC-45D9-9137-43FA2359BECB}|ORION.EmployeeManagement\\ORION.EmployeeManagement.csproj|c:\\x\\orion.api\\orion.employeemanagement\\models\\internalemployeedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DD3AAD6A-1BEC-45D9-9137-43FA2359BECB}|ORION.EmployeeManagement\\ORION.EmployeeManagement.csproj|solutionrelative:orion.employeemanagement\\models\\internalemployeedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DD3AAD6A-1BEC-45D9-9137-43FA2359BECB}|ORION.EmployeeManagement\\ORION.EmployeeManagement.csproj|c:\\x\\orion.api\\orion.employeemanagement\\controllers\\statisticscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DD3AAD6A-1BEC-45D9-9137-43FA2359BECB}|ORION.EmployeeManagement\\ORION.EmployeeManagement.csproj|solutionrelative:orion.employeemanagement\\controllers\\statisticscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DD3AAD6A-1BEC-45D9-9137-43FA2359BECB}|ORION.EmployeeManagement\\ORION.EmployeeManagement.csproj|c:\\x\\orion.api\\orion.employeemanagement\\controllers\\internalemployeescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DD3AAD6A-1BEC-45D9-9137-43FA2359BECB}|ORION.EmployeeManagement\\ORION.EmployeeManagement.csproj|solutionrelative:orion.employeemanagement\\controllers\\internalemployeescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DD3AAD6A-1BEC-45D9-9137-43FA2359BECB}|ORION.EmployeeManagement\\ORION.EmployeeManagement.csproj|c:\\x\\orion.api\\orion.employeemanagement\\business\\employeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DD3AAD6A-1BEC-45D9-9137-43FA2359BECB}|ORION.EmployeeManagement\\ORION.EmployeeManagement.csproj|solutionrelative:orion.employeemanagement\\business\\employeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DD3AAD6A-1BEC-45D9-9137-43FA2359BECB}|ORION.EmployeeManagement\\ORION.EmployeeManagement.csproj|c:\\x\\orion.api\\orion.employeemanagement\\business\\exceptions\\employeeinvalidraiseexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DD3AAD6A-1BEC-45D9-9137-43FA2359BECB}|ORION.EmployeeManagement\\ORION.EmployeeManagement.csproj|solutionrelative:orion.employeemanagement\\business\\exceptions\\employeeinvalidraiseexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DD3AAD6A-1BEC-45D9-9137-43FA2359BECB}|ORION.EmployeeManagement\\ORION.EmployeeManagement.csproj|c:\\x\\orion.api\\orion.employeemanagement\\business\\employeefactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DD3AAD6A-1BEC-45D9-9137-43FA2359BECB}|ORION.EmployeeManagement\\ORION.EmployeeManagement.csproj|solutionrelative:orion.employeemanagement\\business\\employeefactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DD3AAD6A-1BEC-45D9-9137-43FA2359BECB}|ORION.EmployeeManagement\\ORION.EmployeeManagement.csproj|c:\\x\\orion.api\\orion.employeemanagement\\controllers\\demointernalemployeescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DD3AAD6A-1BEC-45D9-9137-43FA2359BECB}|ORION.EmployeeManagement\\ORION.EmployeeManagement.csproj|solutionrelative:orion.employeemanagement\\controllers\\demointernalemployeescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{08015DD1-EA88-4206-9291-ED52EFFEF78D}|ORION.Core\\ORION.Core.csproj|c:\\x\\orion.api\\orion.core\\05_graph\\riversizes\\riversizesclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{08015DD1-EA88-4206-9291-ED52EFFEF78D}|ORION.Core\\ORION.Core.csproj|solutionrelative:orion.core\\05_graph\\riversizes\\riversizesclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{08015DD1-EA88-4206-9291-ED52EFFEF78D}|ORION.Core\\ORION.Core.csproj|c:\\x\\orion.api\\orion.core\\02_binary search tree\\btstaversal\\btstaversalclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{08015DD1-EA88-4206-9291-ED52EFFEF78D}|ORION.Core\\ORION.Core.csproj|solutionrelative:orion.core\\02_binary search tree\\btstaversal\\btstaversalclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{53CE9A3F-AEFF-4779-ABB4-E7A8B0925284}|ORION.EmployeeManagement.Test\\ORION.HumanResources.Test.csproj|c:\\x\\orion.api\\orion.employeemanagement.test\\orion.humanresources.test.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{53CE9A3F-AEFF-4779-ABB4-E7A8B0925284}|ORION.EmployeeManagement.Test\\ORION.HumanResources.Test.csproj|solutionrelative:orion.employeemanagement.test\\orion.humanresources.test.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     }
   ],
   "DocumentGroupContainers": [
@@ -62,7 +18,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -77,172 +33,33 @@
               "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "CheckShowStatisticsHeader.cs",
-              "DocumentMoniker": "C:\\x\\ORION.API\\ORION.EmployeeManagement\\ActionFilters\\CheckShowStatisticsHeader.cs",
-              "RelativeDocumentMoniker": "ORION.EmployeeManagement\\ActionFilters\\CheckShowStatisticsHeader.cs",
-              "ToolTip": "C:\\x\\ORION.API\\ORION.EmployeeManagement\\ActionFilters\\CheckShowStatisticsHeader.cs",
-              "RelativeToolTip": "ORION.EmployeeManagement\\ActionFilters\\CheckShowStatisticsHeader.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAKAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-30T15:32:44.933Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "EmployeeIsAbsentEventArgs.cs",
-              "DocumentMoniker": "C:\\x\\ORION.API\\ORION.EmployeeManagement\\Business\\EventArguments\\EmployeeIsAbsentEventArgs.cs",
-              "RelativeDocumentMoniker": "ORION.EmployeeManagement\\Business\\EventArguments\\EmployeeIsAbsentEventArgs.cs",
-              "ToolTip": "C:\\x\\ORION.API\\ORION.EmployeeManagement\\Business\\EventArguments\\EmployeeIsAbsentEventArgs.cs",
-              "RelativeToolTip": "ORION.EmployeeManagement\\Business\\EventArguments\\EmployeeIsAbsentEventArgs.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-30T15:32:39.528Z",
+              "Title": "ORION.HumanResources.Test",
+              "DocumentMoniker": "C:\\x\\ORION.API\\ORION.EmployeeManagement.Test\\ORION.HumanResources.Test.csproj",
+              "RelativeDocumentMoniker": "ORION.EmployeeManagement.Test\\ORION.HumanResources.Test.csproj",
+              "ToolTip": "C:\\x\\ORION.API\\ORION.EmployeeManagement.Test\\ORION.HumanResources.Test.csproj",
+              "RelativeToolTip": "ORION.EmployeeManagement.Test\\ORION.HumanResources.Test.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-07-01T07:12:45.602Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "PromotionEligibility.cs",
-              "DocumentMoniker": "C:\\x\\ORION.API\\ORION.EmployeeManagement\\Business\\PromotionEligibility.cs",
-              "RelativeDocumentMoniker": "ORION.EmployeeManagement\\Business\\PromotionEligibility.cs",
-              "ToolTip": "C:\\x\\ORION.API\\ORION.EmployeeManagement\\Business\\PromotionEligibility.cs",
-              "RelativeToolTip": "ORION.EmployeeManagement\\Business\\PromotionEligibility.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-30T15:32:34.767Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "IPromotionService.cs",
-              "DocumentMoniker": "C:\\x\\ORION.API\\ORION.EmployeeManagement\\Business\\IPromotionService.cs",
-              "RelativeDocumentMoniker": "ORION.EmployeeManagement\\Business\\IPromotionService.cs",
-              "ToolTip": "C:\\x\\ORION.API\\ORION.EmployeeManagement\\Business\\IPromotionService.cs",
-              "RelativeToolTip": "ORION.EmployeeManagement\\Business\\IPromotionService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-30T15:32:31.458Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "InternalEmployeeDto.cs",
-              "DocumentMoniker": "C:\\x\\ORION.API\\ORION.EmployeeManagement\\Models\\InternalEmployeeDto.cs",
-              "RelativeDocumentMoniker": "ORION.EmployeeManagement\\Models\\InternalEmployeeDto.cs",
-              "ToolTip": "C:\\x\\ORION.API\\ORION.EmployeeManagement\\Models\\InternalEmployeeDto.cs",
-              "RelativeToolTip": "ORION.EmployeeManagement\\Models\\InternalEmployeeDto.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-30T15:28:35.637Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "StatisticsController.cs",
-              "DocumentMoniker": "C:\\x\\ORION.API\\ORION.EmployeeManagement\\Controllers\\StatisticsController.cs",
-              "RelativeDocumentMoniker": "ORION.EmployeeManagement\\Controllers\\StatisticsController.cs",
-              "ToolTip": "C:\\x\\ORION.API\\ORION.EmployeeManagement\\Controllers\\StatisticsController.cs",
-              "RelativeToolTip": "ORION.EmployeeManagement\\Controllers\\StatisticsController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-30T15:27:47.211Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "InternalEmployeesController.cs",
-              "DocumentMoniker": "C:\\x\\ORION.API\\ORION.EmployeeManagement\\Controllers\\InternalEmployeesController.cs",
-              "RelativeDocumentMoniker": "ORION.EmployeeManagement\\Controllers\\InternalEmployeesController.cs",
-              "ToolTip": "C:\\x\\ORION.API\\ORION.EmployeeManagement\\Controllers\\InternalEmployeesController.cs",
-              "RelativeToolTip": "ORION.EmployeeManagement\\Controllers\\InternalEmployeesController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-30T15:27:45.303Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "EmployeeInvalidRaiseException.cs",
-              "DocumentMoniker": "C:\\x\\ORION.API\\ORION.EmployeeManagement\\Business\\Exceptions\\EmployeeInvalidRaiseException.cs",
-              "RelativeDocumentMoniker": "ORION.EmployeeManagement\\Business\\Exceptions\\EmployeeInvalidRaiseException.cs",
-              "ToolTip": "C:\\x\\ORION.API\\ORION.EmployeeManagement\\Business\\Exceptions\\EmployeeInvalidRaiseException.cs",
-              "RelativeToolTip": "ORION.EmployeeManagement\\Business\\Exceptions\\EmployeeInvalidRaiseException.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAMAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-30T15:26:52.975Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "EmployeeService.cs",
-              "DocumentMoniker": "C:\\x\\ORION.API\\ORION.EmployeeManagement\\Business\\EmployeeService.cs",
-              "RelativeDocumentMoniker": "ORION.EmployeeManagement\\Business\\EmployeeService.cs",
-              "ToolTip": "C:\\x\\ORION.API\\ORION.EmployeeManagement\\Business\\EmployeeService.cs",
-              "RelativeToolTip": "ORION.EmployeeManagement\\Business\\EmployeeService.cs",
-              "ViewState": "AQIAAHcAAAAAAAAAAAAgwJMAAAAIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-30T15:26:50.244Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "EmployeeFactory.cs",
-              "DocumentMoniker": "C:\\x\\ORION.API\\ORION.EmployeeManagement\\Business\\EmployeeFactory.cs",
-              "RelativeDocumentMoniker": "ORION.EmployeeManagement\\Business\\EmployeeFactory.cs",
-              "ToolTip": "C:\\x\\ORION.API\\ORION.EmployeeManagement\\Business\\EmployeeFactory.cs",
-              "RelativeToolTip": "ORION.EmployeeManagement\\Business\\EmployeeFactory.cs",
-              "ViewState": "AQIAABAAAAAAAAAAAAAowBcAAAASAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-30T15:26:36.877Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "DemoInternalEmployeesController.cs",
-              "DocumentMoniker": "C:\\x\\ORION.API\\ORION.EmployeeManagement\\Controllers\\DemoInternalEmployeesController.cs",
-              "RelativeDocumentMoniker": "ORION.EmployeeManagement\\Controllers\\DemoInternalEmployeesController.cs",
-              "ToolTip": "C:\\x\\ORION.API\\ORION.EmployeeManagement\\Controllers\\DemoInternalEmployeesController.cs",
-              "RelativeToolTip": "ORION.EmployeeManagement\\Controllers\\DemoInternalEmployeesController.cs",
-              "ViewState": "AQIAACAAAAAAAAAAAAAgwD4AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-30T15:26:14.243Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "RiverSizesClass.cs",
-              "DocumentMoniker": "C:\\x\\ORION.API\\ORION.Core\\05_Graph\\RiverSizes\\RiverSizesClass.cs",
-              "RelativeDocumentMoniker": "ORION.Core\\05_Graph\\RiverSizes\\RiverSizesClass.cs",
-              "ToolTip": "C:\\x\\ORION.API\\ORION.Core\\05_Graph\\RiverSizes\\RiverSizesClass.cs",
-              "RelativeToolTip": "ORION.Core\\05_Graph\\RiverSizes\\RiverSizesClass.cs",
-              "ViewState": "AQIAADUAAAAAAAAAAAAgwDkAAAAuAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-30T05:57:52.948Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "BTSTaversalClass.cs",
-              "DocumentMoniker": "C:\\x\\ORION.API\\ORION.Core\\02_Binary Search Tree\\BTSTaversal\\BTSTaversalClass.cs",
-              "RelativeDocumentMoniker": "ORION.Core\\02_Binary Search Tree\\BTSTaversal\\BTSTaversalClass.cs",
-              "ToolTip": "C:\\x\\ORION.API\\ORION.Core\\02_Binary Search Tree\\BTSTaversal\\BTSTaversalClass.cs",
-              "RelativeToolTip": "ORION.Core\\02_Binary Search Tree\\BTSTaversal\\BTSTaversalClass.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-30T05:56:56.572Z",
+              "DocumentIndex": 0,
+              "Title": "ORION.HumanResources",
+              "DocumentMoniker": "C:\\x\\ORION.API\\ORION.EmployeeManagement\\ORION.HumanResources.csproj",
+              "RelativeDocumentMoniker": "ORION.EmployeeManagement\\ORION.HumanResources.csproj",
+              "ToolTip": "C:\\x\\ORION.API\\ORION.EmployeeManagement\\ORION.HumanResources.csproj",
+              "RelativeToolTip": "ORION.EmployeeManagement\\ORION.HumanResources.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-07-01T07:11:33.963Z",
               "EditorCaption": ""
             }
           ]

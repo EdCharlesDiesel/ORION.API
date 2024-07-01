@@ -1,6 +1,6 @@
-﻿using EmployeeManagement.DataAccess.Entities;
+﻿using ORION.HumanResources.DataAccess.Entities;
 
-namespace EmployeeManagement.Business
+namespace ORION.HumanResources.Business
 {
     public interface IPromotionService
     {

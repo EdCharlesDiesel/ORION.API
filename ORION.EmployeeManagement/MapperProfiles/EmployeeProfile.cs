@@ -1,7 +1,7 @@
 ﻿using AutoMapper;
-using EmployeeManagement.DataAccess.Entities;
+using ORION.HumanResources.DataAccess.Entities;
 
-namespace EmployeeManagement.MapperProfiles
+namespace ORION.HumanResources.MapperProfiles
 {
     public class EmployeeProfile : Profile
     {

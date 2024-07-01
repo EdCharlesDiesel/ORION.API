@@ -1,9 +1,9 @@
 ﻿using AutoMapper;
-using EmployeeManagement.Business;
-using EmployeeManagement.Models; 
+using ORION.HumanResources.Business;
+using ORION.HumanResources.Models; 
 using Microsoft.AspNetCore.Mvc;
 
-namespace EmployeeManagement.Controllers
+namespace ORION.HumanResources.Controllers
 {
     [Route("api/internalemployees")]
     [ApiController]

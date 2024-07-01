@@ -1,4 +1,4 @@
-﻿namespace EmployeeManagement.Models
+﻿namespace ORION.HumanResources.Models
 {
     public class StatisticsDto
     {

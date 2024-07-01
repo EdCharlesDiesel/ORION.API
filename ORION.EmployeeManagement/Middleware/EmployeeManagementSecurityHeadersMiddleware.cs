@@ -1,4 +1,4 @@
-﻿namespace EmployeeManagement.Middleware
+﻿namespace ORION.HumanResources.Middleware
 {
     public class EmployeeManagementSecurityHeadersMiddleware
     {

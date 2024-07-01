@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace EmployeeManagement.Models
+namespace ORION.HumanResources.Models
 {
     public class InternalEmployeeForCreationDto
     {

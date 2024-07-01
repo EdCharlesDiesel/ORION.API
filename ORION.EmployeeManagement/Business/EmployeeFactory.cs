@@ -1,6 +1,8 @@
-﻿using EmployeeManagement.DataAccess.Entities;
+﻿
 
-namespace EmployeeManagement.Business
+using ORION.HumanResources.DataAccess.Entities;
+
+namespace ORION.HumanResources.Business
 {
     /// <summary>
     /// Factory for creation employees

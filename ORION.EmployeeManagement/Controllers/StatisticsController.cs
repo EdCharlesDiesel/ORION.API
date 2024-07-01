@@ -1,10 +1,10 @@
 ﻿using AutoMapper;
-using EmployeeManagement.ActionFilters;
-using EmployeeManagement.Models;
+using ORION.HumanResources.ActionFilters;
+using ORION.HumanResources.Models;
 using Microsoft.AspNetCore.Http.Features;
 using Microsoft.AspNetCore.Mvc;
 
-namespace EmployeeManagement.Controllers
+namespace ORION.HumanResources.Controllers
 {
     [Route("api/statistics")]
     [ApiController]

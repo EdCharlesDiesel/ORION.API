@@ -1,9 +1,9 @@
-﻿using EmployeeManagement.DataAccess.Entities;
-using EmployeeManagement.DataAccess.Services;
+﻿using ORION.HumanResources.DataAccess.Entities;
+using ORION.HumanResources.DataAccess.Services;
 using System.Net.Http.Headers;
 using System.Text.Json;
 
-namespace EmployeeManagement.Business
+namespace ORION.HumanResources.Business
 {
     public class PromotionService : IPromotionService
     {

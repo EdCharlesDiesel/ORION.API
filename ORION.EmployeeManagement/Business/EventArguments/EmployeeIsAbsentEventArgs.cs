@@ -1,4 +1,4 @@
-﻿namespace EmployeeManagement.Business.EventArguments
+﻿namespace ORION.HumanResources.Business.EventArguments
 {
     public class EmployeeIsAbsentEventArgs : EventArgs
     {

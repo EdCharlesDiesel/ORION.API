@@ -1,9 +1,9 @@
-﻿using EmployeeManagement.Business;
-using EmployeeManagement.Models;
+﻿using ORION.HumanResources.Business;
+using ORION.HumanResources.Models;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
-namespace EmployeeManagement.Controllers
+namespace ORION.HumanResources.Controllers
 {
     [Route("api/promotions")]
     [ApiController]

@@ -1,4 +1,4 @@
-﻿namespace EmployeeManagement.DataAccess.Entities
+﻿namespace ORION.HumanResources.DataAccess.Entities
 {
     public class ExternalEmployee : Employee
     {

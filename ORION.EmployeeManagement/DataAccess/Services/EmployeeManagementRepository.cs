@@ -1,8 +1,8 @@
-﻿using EmployeeManagement.DataAccess.DbContexts;
-using EmployeeManagement.DataAccess.Entities;
+﻿using ORION.HumanResources.DataAccess.DbContexts;
+using ORION.HumanResources.DataAccess.Entities;
 using Microsoft.EntityFrameworkCore;
 
-namespace EmployeeManagement.DataAccess.Services
+namespace ORION.HumanResources.DataAccess.Services
 {
     public class EmployeeManagementRepository : IEmployeeManagementRepository
     {

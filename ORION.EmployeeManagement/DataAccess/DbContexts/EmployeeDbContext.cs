@@ -1,7 +1,7 @@
-﻿using EmployeeManagement.DataAccess.Entities;
+﻿using ORION.HumanResources.DataAccess.Entities;
 using Microsoft.EntityFrameworkCore;
 
-namespace EmployeeManagement.DataAccess.DbContexts
+namespace ORION.HumanResources.DataAccess.DbContexts
 {
     public class EmployeeDbContext : DbContext
     {

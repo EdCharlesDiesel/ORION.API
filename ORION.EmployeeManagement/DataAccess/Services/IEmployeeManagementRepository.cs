@@ -1,6 +1,6 @@
-﻿using EmployeeManagement.DataAccess.Entities;
+﻿using ORION.HumanResources.DataAccess.Entities;
 
-namespace EmployeeManagement.DataAccess.Services
+namespace ORION.HumanResources.DataAccess.Services
 {
     public interface IEmployeeManagementRepository
     {

@@ -1,9 +1,11 @@
-﻿using EmployeeManagement.Business.EventArguments;
-using EmployeeManagement.Business.Exceptions;
-using EmployeeManagement.DataAccess.Entities;
-using EmployeeManagement.DataAccess.Services; 
+﻿
 
-namespace EmployeeManagement.Business
+using ORION.HumanResources.Business.EventArguments;
+using ORION.HumanResources.Business.Exceptions;
+using ORION.HumanResources.DataAccess.Entities;
+using ORION.HumanResources.DataAccess.Services;
+
+namespace ORION.HumanResources.Business
 {
     public class EmployeeService : IEmployeeService
     {

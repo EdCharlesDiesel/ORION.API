@@ -1,4 +1,4 @@
-﻿namespace EmployeeManagement.Business
+﻿namespace ORION.HumanResources.Business
 {
     public class PromotionEligibility
     {
