@@ -1,4 +1,7 @@
-﻿namespace KnapsackProblem
+﻿using System;
+using System.Collections.Generic;
+
+namespace ORION.Core.DynamicProgramming
 {
     public class KnapsackProblemClass
     {

@@ -3,20 +3,28 @@
   "WorkspaceRootPath": "C:\\x\\ORION.API\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{08015DD1-EA88-4206-9291-ED52EFFEF78D}|ORION.Core\\ORION.Core.csproj|c:\\x\\orion.api\\orion.core\\binary trees\\rightsiblingtreeclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{08015DD1-EA88-4206-9291-ED52EFFEF78D}|ORION.Core\\ORION.Core.csproj|solutionrelative:orion.core\\binary trees\\rightsiblingtreeclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{08015DD1-EA88-4206-9291-ED52EFFEF78D}|ORION.Core\\ORION.Core.csproj|c:\\x\\orion.api\\orion.core\\dynamic programming\\waterareaclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{08015DD1-EA88-4206-9291-ED52EFFEF78D}|ORION.Core\\ORION.Core.csproj|solutionrelative:orion.core\\dynamic programming\\waterareaclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{08015DD1-EA88-4206-9291-ED52EFFEF78D}|ORION.Core\\ORION.Core.csproj|c:\\x\\orion.api\\orion.core\\binary trees\\nodedepthsclass_solution2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{08015DD1-EA88-4206-9291-ED52EFFEF78D}|ORION.Core\\ORION.Core.csproj|solutionrelative:orion.core\\binary trees\\nodedepthsclass_solution2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{08015DD1-EA88-4206-9291-ED52EFFEF78D}|ORION.Core\\ORION.Core.csproj|c:\\x\\orion.api\\orion.core\\dynamic programming\\numbersinpiclass2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{08015DD1-EA88-4206-9291-ED52EFFEF78D}|ORION.Core\\ORION.Core.csproj|solutionrelative:orion.core\\dynamic programming\\numbersinpiclass2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{08015DD1-EA88-4206-9291-ED52EFFEF78D}|ORION.Core\\ORION.Core.csproj|c:\\x\\orion.api\\orion.core\\binary trees\\nodedepthsclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{08015DD1-EA88-4206-9291-ED52EFFEF78D}|ORION.Core\\ORION.Core.csproj|solutionrelative:orion.core\\binary trees\\nodedepthsclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{08015DD1-EA88-4206-9291-ED52EFFEF78D}|ORION.Core\\ORION.Core.csproj|c:\\x\\orion.api\\orion.core\\dynamic programming\\numbersinpiclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{08015DD1-EA88-4206-9291-ED52EFFEF78D}|ORION.Core\\ORION.Core.csproj|solutionrelative:orion.core\\dynamic programming\\numbersinpiclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{08015DD1-EA88-4206-9291-ED52EFFEF78D}|ORION.Core\\ORION.Core.csproj|c:\\x\\orion.api\\orion.core\\binary trees\\maxpathsumclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{08015DD1-EA88-4206-9291-ED52EFFEF78D}|ORION.Core\\ORION.Core.csproj|solutionrelative:orion.core\\binary trees\\maxpathsumclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{08015DD1-EA88-4206-9291-ED52EFFEF78D}|ORION.Core\\ORION.Core.csproj|c:\\x\\orion.api\\orion.core\\dynamic programming\\numberofwaystomakechangeclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{08015DD1-EA88-4206-9291-ED52EFFEF78D}|ORION.Core\\ORION.Core.csproj|solutionrelative:orion.core\\dynamic programming\\numberofwaystomakechangeclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{08015DD1-EA88-4206-9291-ED52EFFEF78D}|ORION.Core\\ORION.Core.csproj|c:\\x\\orion.api\\orion.core\\dynamic programming\\maxsumincreasingsubsequenceclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{08015DD1-EA88-4206-9291-ED52EFFEF78D}|ORION.Core\\ORION.Core.csproj|solutionrelative:orion.core\\dynamic programming\\maxsumincreasingsubsequenceclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{08015DD1-EA88-4206-9291-ED52EFFEF78D}|ORION.Core\\ORION.Core.csproj|c:\\x\\orion.api\\orion.core\\dynamic programming\\minnumberofcoinsforchangeclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{08015DD1-EA88-4206-9291-ED52EFFEF78D}|ORION.Core\\ORION.Core.csproj|solutionrelative:orion.core\\dynamic programming\\minnumberofcoinsforchangeclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -47,53 +55,79 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "RightSiblingTreeClass.cs",
-              "DocumentMoniker": "C:\\x\\ORION.API\\ORION.Core\\Binary Trees\\RightSiblingTreeClass.cs",
-              "RelativeDocumentMoniker": "ORION.Core\\Binary Trees\\RightSiblingTreeClass.cs",
-              "ToolTip": "C:\\x\\ORION.API\\ORION.Core\\Binary Trees\\RightSiblingTreeClass.cs",
-              "RelativeToolTip": "ORION.Core\\Binary Trees\\RightSiblingTreeClass.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAgAAAA",
+              "Title": "WaterAreaClass.cs",
+              "DocumentMoniker": "C:\\x\\ORION.API\\ORION.Core\\Dynamic Programming\\WaterAreaClass.cs",
+              "RelativeDocumentMoniker": "ORION.Core\\Dynamic Programming\\WaterAreaClass.cs",
+              "ToolTip": "C:\\x\\ORION.API\\ORION.Core\\Dynamic Programming\\WaterAreaClass.cs",
+              "RelativeToolTip": "ORION.Core\\Dynamic Programming\\WaterAreaClass.cs",
+              "ViewState": "AQIAACIAAAAAAAAAAAAgwA8AAAAdAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-01T11:38:42.646Z",
+              "WhenOpened": "2024-07-01T11:42:56.648Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "NodeDepthsClass_Solution2.cs",
-              "DocumentMoniker": "C:\\x\\ORION.API\\ORION.Core\\Binary Trees\\NodeDepthsClass_Solution2.cs",
-              "RelativeDocumentMoniker": "ORION.Core\\Binary Trees\\NodeDepthsClass_Solution2.cs",
-              "ToolTip": "C:\\x\\ORION.API\\ORION.Core\\Binary Trees\\NodeDepthsClass_Solution2.cs",
-              "RelativeToolTip": "ORION.Core\\Binary Trees\\NodeDepthsClass_Solution2.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAAAAAA",
+              "Title": "NumbersInPiClass2.cs",
+              "DocumentMoniker": "C:\\x\\ORION.API\\ORION.Core\\Dynamic Programming\\NumbersInPiClass2.cs",
+              "RelativeDocumentMoniker": "ORION.Core\\Dynamic Programming\\NumbersInPiClass2.cs",
+              "ToolTip": "C:\\x\\ORION.API\\ORION.Core\\Dynamic Programming\\NumbersInPiClass2.cs",
+              "RelativeToolTip": "ORION.Core\\Dynamic Programming\\NumbersInPiClass2.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAnAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-01T11:38:08.711Z",
+              "WhenOpened": "2024-07-01T11:42:51.897Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "NodeDepthsClass.cs",
-              "DocumentMoniker": "C:\\x\\ORION.API\\ORION.Core\\Binary Trees\\NodeDepthsClass.cs",
-              "RelativeDocumentMoniker": "ORION.Core\\Binary Trees\\NodeDepthsClass.cs",
-              "ToolTip": "C:\\x\\ORION.API\\ORION.Core\\Binary Trees\\NodeDepthsClass.cs",
-              "RelativeToolTip": "ORION.Core\\Binary Trees\\NodeDepthsClass.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAABUAAAAbAAAA",
+              "Title": "NumbersInPiClass.cs",
+              "DocumentMoniker": "C:\\x\\ORION.API\\ORION.Core\\Dynamic Programming\\NumbersInPiClass.cs",
+              "RelativeDocumentMoniker": "ORION.Core\\Dynamic Programming\\NumbersInPiClass.cs",
+              "ToolTip": "C:\\x\\ORION.API\\ORION.Core\\Dynamic Programming\\NumbersInPiClass.cs",
+              "RelativeToolTip": "ORION.Core\\Dynamic Programming\\NumbersInPiClass.cs",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAowAMAAAAnAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-01T11:38:06.767Z",
+              "WhenOpened": "2024-07-01T11:42:44.858Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "MaxPathSumClass.cs",
-              "DocumentMoniker": "C:\\x\\ORION.API\\ORION.Core\\Binary Trees\\MaxPathSumClass.cs",
-              "RelativeDocumentMoniker": "ORION.Core\\Binary Trees\\MaxPathSumClass.cs",
-              "ToolTip": "C:\\x\\ORION.API\\ORION.Core\\Binary Trees\\MaxPathSumClass.cs",
-              "RelativeToolTip": "ORION.Core\\Binary Trees\\MaxPathSumClass.cs",
-              "ViewState": "AQIAAC0AAAAAAAAAAAAIwBsAAAAnAAAA",
+              "Title": "NumberOfWaysToMakeChangeClass.cs",
+              "DocumentMoniker": "C:\\x\\ORION.API\\ORION.Core\\Dynamic Programming\\NumberOfWaysToMakeChangeClass.cs",
+              "RelativeDocumentMoniker": "ORION.Core\\Dynamic Programming\\NumberOfWaysToMakeChangeClass.cs",
+              "ToolTip": "C:\\x\\ORION.API\\ORION.Core\\Dynamic Programming\\NumberOfWaysToMakeChangeClass.cs",
+              "RelativeToolTip": "ORION.Core\\Dynamic Programming\\NumberOfWaysToMakeChangeClass.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAKAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-01T11:37:59.115Z",
+              "WhenOpened": "2024-07-01T11:42:27.208Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MinNumberOfCoinsForChangeClass.cs",
+              "DocumentMoniker": "C:\\x\\ORION.API\\ORION.Core\\Dynamic Programming\\MinNumberOfCoinsForChangeClass.cs",
+              "RelativeDocumentMoniker": "ORION.Core\\Dynamic Programming\\MinNumberOfCoinsForChangeClass.cs",
+              "ToolTip": "C:\\x\\ORION.API\\ORION.Core\\Dynamic Programming\\MinNumberOfCoinsForChangeClass.cs",
+              "RelativeToolTip": "ORION.Core\\Dynamic Programming\\MinNumberOfCoinsForChangeClass.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAA5wCMAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-01T11:41:53.873Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MaxSumIncreasingSubsequenceClass.cs",
+              "DocumentMoniker": "C:\\x\\ORION.API\\ORION.Core\\Dynamic Programming\\MaxSumIncreasingSubsequenceClass.cs",
+              "RelativeDocumentMoniker": "ORION.Core\\Dynamic Programming\\MaxSumIncreasingSubsequenceClass.cs",
+              "ToolTip": "C:\\x\\ORION.API\\ORION.Core\\Dynamic Programming\\MaxSumIncreasingSubsequenceClass.cs",
+              "RelativeToolTip": "ORION.Core\\Dynamic Programming\\MaxSumIncreasingSubsequenceClass.cs",
+              "ViewState": "AQIAACEAAAAAAAAAAAA5wAsAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-01T11:41:41.473Z",
               "EditorCaption": ""
             }
           ]

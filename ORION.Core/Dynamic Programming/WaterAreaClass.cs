@@ -1,4 +1,6 @@
-﻿namespace WaterArea
+﻿using System;
+
+namespace ORION.Core.DynamicProgramming
 {
     public class WaterAreaClass
     {

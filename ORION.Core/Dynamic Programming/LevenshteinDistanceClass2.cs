@@ -1,12 +1,8 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace LevenshteinDistance
+namespace ORION.Core.DynamicProgramming
 {
-    internal class LevenshteinDistanceClass2
+    public class LevenshteinDistanceClass2
     {
         // O(nm) time | O(min(n, m)) space
         public static int LevenshteinDistance(string str1, string str2)

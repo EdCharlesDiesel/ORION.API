@@ -1,4 +1,6 @@
-﻿namespace LevenshteinDistance
+﻿using System;
+
+namespace ORION.Core.DynamicProgramming
 {
     public class LevenshteinDistanceClass
     {

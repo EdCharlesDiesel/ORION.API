@@ -1,4 +1,7 @@
-﻿namespace DiskStacking
+﻿using System;
+using System.Collections.Generic;
+
+namespace ORION.Core.DynamicProgramming
 {
     public class DiskStackingClass
     {

@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace NumbersInPi
+namespace ORION.Core.DynamicProgramming
 {
     internal class NumbersInPiClass2
     {

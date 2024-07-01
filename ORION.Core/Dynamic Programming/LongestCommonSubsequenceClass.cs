@@ -1,4 +1,6 @@
-﻿namespace LongestCommonSubsequence
+﻿using System.Collections.Generic;
+
+namespace ORION.Core.DynamicProgramming
 {
     public class LongestCommonSubsequenceClass
     {

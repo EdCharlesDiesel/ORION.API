@@ -1,4 +1,4 @@
-﻿namespace NumberOfWaysToMakeChange
+﻿namespace ORION.Core.DynamicProgramming
 {
     public class NumberOfWaysToMakeChangeClass
     {

@@ -1,4 +1,6 @@
-﻿namespace MinNumberOfCoinsForChange
+﻿using System;
+
+namespace ORION.Core.DynamicProgramming
 {
     public class MinNumberOfCoinsForChangeClass
     {
