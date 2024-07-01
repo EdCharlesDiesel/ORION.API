@@ -1,4 +1,7 @@
-﻿namespace OptimalFreelancing
+﻿using System;
+using System.Collections.Generic;
+
+namespace ORION.Core.GreadyAlgorithmns
 {
     public class OptimalFreelancingClass
     {

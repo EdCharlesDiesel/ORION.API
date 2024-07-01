@@ -1,4 +1,6 @@
-﻿namespace MinimumWaitingTime
+﻿using System;
+
+namespace ORION.Core.GreadyAlgorithmns
 {
     /// <summary>
     /// 

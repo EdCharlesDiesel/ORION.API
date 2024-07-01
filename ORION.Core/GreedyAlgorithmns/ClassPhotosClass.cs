@@ -1,4 +1,6 @@
-﻿namespace ClassPhotos
+﻿using System.Collections.Generic;
+
+namespace ORION.Core.GreadyAlgorithmns
 {
     public class ClassPhotosClass
     {

@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace TaskAssignment
+namespace ORION.Core.GreadyAlgorithmns
 {
     /// <summary>
     /// 

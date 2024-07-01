@@ -1,4 +1,6 @@
-﻿namespace TandemBicycle;
+﻿using System;
+
+namespace ORION.Core.GreadyAlgorithmns;
 
 /// <summary>
 /// 

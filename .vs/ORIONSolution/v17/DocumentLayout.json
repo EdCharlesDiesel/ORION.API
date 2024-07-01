@@ -3,36 +3,24 @@
   "WorkspaceRootPath": "C:\\x\\ORION.API\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{08015DD1-EA88-4206-9291-ED52EFFEF78D}|ORION.Core\\ORION.Core.csproj|c:\\x\\orion.api\\orion.core\\graph\\youngestcommonancestorclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{08015DD1-EA88-4206-9291-ED52EFFEF78D}|ORION.Core\\ORION.Core.csproj|solutionrelative:orion.core\\graph\\youngestcommonancestorclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{08015DD1-EA88-4206-9291-ED52EFFEF78D}|ORION.Core\\ORION.Core.csproj|c:\\x\\orion.api\\orion.core\\greedyalgorithmns\\validstartingcityclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{08015DD1-EA88-4206-9291-ED52EFFEF78D}|ORION.Core\\ORION.Core.csproj|solutionrelative:orion.core\\greedyalgorithmns\\validstartingcityclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{08015DD1-EA88-4206-9291-ED52EFFEF78D}|ORION.Core\\ORION.Core.csproj|c:\\x\\orion.api\\orion.core\\graph\\squareofzeroesclass2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{08015DD1-EA88-4206-9291-ED52EFFEF78D}|ORION.Core\\ORION.Core.csproj|solutionrelative:orion.core\\graph\\squareofzeroesclass2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{08015DD1-EA88-4206-9291-ED52EFFEF78D}|ORION.Core\\ORION.Core.csproj|c:\\x\\orion.api\\orion.core\\greedyalgorithmns\\taskassignmentclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{08015DD1-EA88-4206-9291-ED52EFFEF78D}|ORION.Core\\ORION.Core.csproj|solutionrelative:orion.core\\greedyalgorithmns\\taskassignmentclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{08015DD1-EA88-4206-9291-ED52EFFEF78D}|ORION.Core\\ORION.Core.csproj|c:\\x\\orion.api\\orion.core\\graph\\squareofzeroesclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{08015DD1-EA88-4206-9291-ED52EFFEF78D}|ORION.Core\\ORION.Core.csproj|solutionrelative:orion.core\\graph\\squareofzeroesclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{08015DD1-EA88-4206-9291-ED52EFFEF78D}|ORION.Core\\ORION.Core.csproj|c:\\x\\orion.api\\orion.core\\greedyalgorithmns\\tandembicycleclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{08015DD1-EA88-4206-9291-ED52EFFEF78D}|ORION.Core\\ORION.Core.csproj|solutionrelative:orion.core\\greedyalgorithmns\\tandembicycleclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{08015DD1-EA88-4206-9291-ED52EFFEF78D}|ORION.Core\\ORION.Core.csproj|c:\\x\\orion.api\\orion.core\\graph\\singlecyclecheckclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{08015DD1-EA88-4206-9291-ED52EFFEF78D}|ORION.Core\\ORION.Core.csproj|solutionrelative:orion.core\\graph\\singlecyclecheckclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{08015DD1-EA88-4206-9291-ED52EFFEF78D}|ORION.Core\\ORION.Core.csproj|c:\\x\\orion.api\\orion.core\\greedyalgorithmns\\optimalfreelancingclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{08015DD1-EA88-4206-9291-ED52EFFEF78D}|ORION.Core\\ORION.Core.csproj|solutionrelative:orion.core\\greedyalgorithmns\\optimalfreelancingclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{08015DD1-EA88-4206-9291-ED52EFFEF78D}|ORION.Core\\ORION.Core.csproj|c:\\x\\orion.api\\orion.core\\graph\\riversizesclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{08015DD1-EA88-4206-9291-ED52EFFEF78D}|ORION.Core\\ORION.Core.csproj|solutionrelative:orion.core\\graph\\riversizesclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{08015DD1-EA88-4206-9291-ED52EFFEF78D}|ORION.Core\\ORION.Core.csproj|c:\\x\\orion.api\\orion.core\\graph\\rectanglemaniaclass4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{08015DD1-EA88-4206-9291-ED52EFFEF78D}|ORION.Core\\ORION.Core.csproj|solutionrelative:orion.core\\graph\\rectanglemaniaclass4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{08015DD1-EA88-4206-9291-ED52EFFEF78D}|ORION.Core\\ORION.Core.csproj|c:\\x\\orion.api\\orion.core\\graph\\rectanglemaniaclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{08015DD1-EA88-4206-9291-ED52EFFEF78D}|ORION.Core\\ORION.Core.csproj|solutionrelative:orion.core\\graph\\rectanglemaniaclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{08015DD1-EA88-4206-9291-ED52EFFEF78D}|ORION.Core\\ORION.Core.csproj|c:\\x\\orion.api\\orion.core\\graph\\rectanglemaniaclass2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{08015DD1-EA88-4206-9291-ED52EFFEF78D}|ORION.Core\\ORION.Core.csproj|solutionrelative:orion.core\\graph\\rectanglemaniaclass2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{08015DD1-EA88-4206-9291-ED52EFFEF78D}|ORION.Core\\ORION.Core.csproj|c:\\x\\orion.api\\orion.core\\greedyalgorithmns\\minimumwaitingtimeclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{08015DD1-EA88-4206-9291-ED52EFFEF78D}|ORION.Core\\ORION.Core.csproj|solutionrelative:orion.core\\greedyalgorithmns\\minimumwaitingtimeclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -63,105 +51,66 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "YoungestCommonAncestorClass.cs",
-              "DocumentMoniker": "C:\\x\\ORION.API\\ORION.Core\\Graph\\YoungestCommonAncestorClass.cs",
-              "RelativeDocumentMoniker": "ORION.Core\\Graph\\YoungestCommonAncestorClass.cs",
-              "ToolTip": "C:\\x\\ORION.API\\ORION.Core\\Graph\\YoungestCommonAncestorClass.cs",
-              "RelativeToolTip": "ORION.Core\\Graph\\YoungestCommonAncestorClass.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAbAAAA",
+              "Title": "ValidStartingCityClass.cs",
+              "DocumentMoniker": "C:\\x\\ORION.API\\ORION.Core\\GreedyAlgorithmns\\ValidStartingCityClass.cs",
+              "RelativeDocumentMoniker": "ORION.Core\\GreedyAlgorithmns\\ValidStartingCityClass.cs",
+              "ToolTip": "C:\\x\\ORION.API\\ORION.Core\\GreedyAlgorithmns\\ValidStartingCityClass.cs",
+              "RelativeToolTip": "ORION.Core\\GreedyAlgorithmns\\ValidStartingCityClass.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAmAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-01T11:48:19.346Z",
+              "WhenOpened": "2024-07-01T11:50:35.147Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "SquareOfZeroesClass2.cs",
-              "DocumentMoniker": "C:\\x\\ORION.API\\ORION.Core\\Graph\\SquareOfZeroesClass2.cs",
-              "RelativeDocumentMoniker": "ORION.Core\\Graph\\SquareOfZeroesClass2.cs",
-              "ToolTip": "C:\\x\\ORION.API\\ORION.Core\\Graph\\SquareOfZeroesClass2.cs",
-              "RelativeToolTip": "ORION.Core\\Graph\\SquareOfZeroesClass2.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAAAAAA",
+              "Title": "TaskAssignmentClass.cs",
+              "DocumentMoniker": "C:\\x\\ORION.API\\ORION.Core\\GreedyAlgorithmns\\TaskAssignmentClass.cs",
+              "RelativeDocumentMoniker": "ORION.Core\\GreedyAlgorithmns\\TaskAssignmentClass.cs",
+              "ToolTip": "C:\\x\\ORION.API\\ORION.Core\\GreedyAlgorithmns\\TaskAssignmentClass.cs",
+              "RelativeToolTip": "ORION.Core\\GreedyAlgorithmns\\TaskAssignmentClass.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAmAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-01T11:48:09.17Z",
+              "WhenOpened": "2024-07-01T11:50:28.124Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "SquareOfZeroesClass.cs",
-              "DocumentMoniker": "C:\\x\\ORION.API\\ORION.Core\\Graph\\SquareOfZeroesClass.cs",
-              "RelativeDocumentMoniker": "ORION.Core\\Graph\\SquareOfZeroesClass.cs",
-              "ToolTip": "C:\\x\\ORION.API\\ORION.Core\\Graph\\SquareOfZeroesClass.cs",
-              "RelativeToolTip": "ORION.Core\\Graph\\SquareOfZeroesClass.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAbAAAA",
+              "Title": "TandemBicycleClass.cs",
+              "DocumentMoniker": "C:\\x\\ORION.API\\ORION.Core\\GreedyAlgorithmns\\TandemBicycleClass.cs",
+              "RelativeDocumentMoniker": "ORION.Core\\GreedyAlgorithmns\\TandemBicycleClass.cs",
+              "ToolTip": "C:\\x\\ORION.API\\ORION.Core\\GreedyAlgorithmns\\TandemBicycleClass.cs",
+              "RelativeToolTip": "ORION.Core\\GreedyAlgorithmns\\TandemBicycleClass.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAKAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-01T11:48:03.268Z",
+              "WhenOpened": "2024-07-01T11:50:12.464Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "SingleCycleCheckClass.cs",
-              "DocumentMoniker": "C:\\x\\ORION.API\\ORION.Core\\Graph\\SingleCycleCheckClass.cs",
-              "RelativeDocumentMoniker": "ORION.Core\\Graph\\SingleCycleCheckClass.cs",
-              "ToolTip": "C:\\x\\ORION.API\\ORION.Core\\Graph\\SingleCycleCheckClass.cs",
-              "RelativeToolTip": "ORION.Core\\Graph\\SingleCycleCheckClass.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAbAAAA",
+              "Title": "OptimalFreelancingClass.cs",
+              "DocumentMoniker": "C:\\x\\ORION.API\\ORION.Core\\GreedyAlgorithmns\\OptimalFreelancingClass.cs",
+              "RelativeDocumentMoniker": "ORION.Core\\GreedyAlgorithmns\\OptimalFreelancingClass.cs",
+              "ToolTip": "C:\\x\\ORION.API\\ORION.Core\\GreedyAlgorithmns\\OptimalFreelancingClass.cs",
+              "RelativeToolTip": "ORION.Core\\GreedyAlgorithmns\\OptimalFreelancingClass.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAAAOAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-01T11:47:57.577Z",
+              "WhenOpened": "2024-07-01T11:49:55.236Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "RiverSizesClass.cs",
-              "DocumentMoniker": "C:\\x\\ORION.API\\ORION.Core\\Graph\\RiverSizesClass.cs",
-              "RelativeDocumentMoniker": "ORION.Core\\Graph\\RiverSizesClass.cs",
-              "ToolTip": "C:\\x\\ORION.API\\ORION.Core\\Graph\\RiverSizesClass.cs",
-              "RelativeToolTip": "ORION.Core\\Graph\\RiverSizesClass.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAZAAAA",
+              "Title": "MinimumWaitingTimeClass.cs",
+              "DocumentMoniker": "C:\\x\\ORION.API\\ORION.Core\\GreedyAlgorithmns\\MinimumWaitingTimeClass.cs",
+              "RelativeDocumentMoniker": "ORION.Core\\GreedyAlgorithmns\\MinimumWaitingTimeClass.cs",
+              "ToolTip": "C:\\x\\ORION.API\\ORION.Core\\GreedyAlgorithmns\\MinimumWaitingTimeClass.cs",
+              "RelativeToolTip": "ORION.Core\\GreedyAlgorithmns\\MinimumWaitingTimeClass.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAOAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-01T11:47:46.444Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "RectangleManiaClass4.cs",
-              "DocumentMoniker": "C:\\x\\ORION.API\\ORION.Core\\Graph\\RectangleManiaClass4.cs",
-              "RelativeDocumentMoniker": "ORION.Core\\Graph\\RectangleManiaClass4.cs",
-              "ToolTip": "C:\\x\\ORION.API\\ORION.Core\\Graph\\RectangleManiaClass4.cs",
-              "RelativeToolTip": "ORION.Core\\Graph\\RectangleManiaClass4.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAbAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-01T11:47:41.075Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "RectangleManiaClass2.cs",
-              "DocumentMoniker": "C:\\x\\ORION.API\\ORION.Core\\Graph\\RectangleManiaClass2.cs",
-              "RelativeDocumentMoniker": "ORION.Core\\Graph\\RectangleManiaClass2.cs",
-              "ToolTip": "C:\\x\\ORION.API\\ORION.Core\\Graph\\RectangleManiaClass2.cs",
-              "RelativeToolTip": "ORION.Core\\Graph\\RectangleManiaClass2.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAbAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-01T11:47:19.122Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "RectangleManiaClass.cs",
-              "DocumentMoniker": "C:\\x\\ORION.API\\ORION.Core\\Graph\\RectangleManiaClass.cs",
-              "RelativeDocumentMoniker": "ORION.Core\\Graph\\RectangleManiaClass.cs",
-              "ToolTip": "C:\\x\\ORION.API\\ORION.Core\\Graph\\RectangleManiaClass.cs",
-              "RelativeToolTip": "ORION.Core\\Graph\\RectangleManiaClass.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-01T11:47:14.365Z",
+              "WhenOpened": "2024-07-01T11:49:46.031Z",
               "EditorCaption": ""
             }
           ]

@@ -1,4 +1,4 @@
-﻿namespace ValidStartingCity
+﻿namespace ORION.Core.GreadyAlgorithmns
 {
     /// <summary>
     /// 
