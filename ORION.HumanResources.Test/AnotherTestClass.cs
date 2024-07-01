@@ -1,6 +1,6 @@
 ﻿using Xunit;
 
-namespace EmployeeManagement.Test
+namespace ORION.HumanResources.Test
 {
     [Collection("No parallelism")]
     public class AnotherTestClass

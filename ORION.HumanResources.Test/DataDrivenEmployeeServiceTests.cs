@@ -1,9 +1,9 @@
-﻿using EmployeeManagement.DataAccess.Entities;
-using EmployeeManagement.Test.Fixtures;
+﻿using ORION.HumanResources.DataAccess.Entities;
+using ORION.HumanResources.Test.Fixtures;
 using EmployeeManagement.Test.TestData;
 using Xunit;
 
-namespace EmployeeManagement.Test
+namespace ORION.HumanResources.Test
 {
     [Collection("EmployeeServiceCollection")]
     public class DataDrivenEmployeeServiceTests //: IClassFixture<EmployeeServiceFixture>

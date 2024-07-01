@@ -1,9 +1,9 @@
-﻿using EmployeeManagement.DataAccess.Services;
+﻿using ORION.HumanResources.DataAccess.Services;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Xunit;
 
-namespace EmployeeManagement.Test
+namespace ORION.HumanResources.Test
 {
     public class ServiceCollectionTests
     {

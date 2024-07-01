@@ -1,11 +1,11 @@
-﻿using EmployeeManagement.Business;
-using EmployeeManagement.DataAccess.Entities;
-using EmployeeManagement.DataAccess.Services;
-using EmployeeManagement.Services.Test;
+﻿using ORION.HumanResources.Business;
+using ORION.HumanResources.DataAccess.Entities;
+using ORION.HumanResources.DataAccess.Services;
+using ORION.HumanResources.Services.Test;
 using Moq;
 using Xunit;
 
-namespace EmployeeManagement.Test
+namespace ORION.HumanResources.Test
 {
     public class MoqTests
     {

@@ -1,8 +1,8 @@
-﻿using EmployeeManagement.Business;
-using EmployeeManagement.DataAccess.Entities; 
+﻿using ORION.HumanResources.Business;
+using ORION.HumanResources.DataAccess.Entities; 
 using Xunit;
 
-namespace EmployeeManagement.Test
+namespace ORION.HumanResources.Test
 {
     [Collection("No parallelism")]
     public class EmployeeFactoryTests : IDisposable

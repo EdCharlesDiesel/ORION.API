@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "sbsxkHSBkBsGEV67A3J4IKVuRceAKcwdHgN1bzYTvzk=",
+  "Hash": "94HlFWtf3nwIyOHKzt00D7c6ktQ26Whs562JBgkjhjg=",
   "Source": "ORION.Admin",
   "BasePath": "_content/ORION.Admin",
   "Mode": "Default",
@@ -28591,6 +28591,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\vendors\\iconfonts\\flag-icon-css\\package.json"
+    },
+    {
+      "Identity": "C:\\x\\ORION.API\\ORION.Admin\\wwwroot\\vendors\\iconfonts\\flag-icon-css\\package-lock.json",
+      "SourceId": "ORION.Admin",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\x\\ORION.API\\ORION.Admin\\wwwroot\\",
+      "BasePath": "_content/ORION.Admin",
+      "RelativePath": "vendors/iconfonts/flag-icon-css/package-lock.json",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\vendors\\iconfonts\\flag-icon-css\\package-lock.json"
     },
     {
       "Identity": "C:\\x\\ORION.API\\ORION.Admin\\wwwroot\\vendors\\iconfonts\\flag-icon-css\\README.md",

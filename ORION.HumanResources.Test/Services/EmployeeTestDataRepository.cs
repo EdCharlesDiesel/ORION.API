@@ -1,8 +1,8 @@
-﻿using EmployeeManagement.DataAccess.Entities;
-using EmployeeManagement.DataAccess.Services;
+﻿using ORION.HumanResources.DataAccess.Entities;
+using ORION.HumanResources.DataAccess.Services;
 using System.Threading.Tasks;
 
-namespace EmployeeManagement.Services.Test
+namespace ORION.HumanResources.Services.Test
 {
     public class EmployeeManagementTestDataRepository : IEmployeeManagementRepository
     {

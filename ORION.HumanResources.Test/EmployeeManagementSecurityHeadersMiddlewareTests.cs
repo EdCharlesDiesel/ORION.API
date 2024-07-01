@@ -1,8 +1,9 @@
-﻿using EmployeeManagement.Middleware;
+﻿
 using Microsoft.AspNetCore.Http;
+using ORION.HumanResources.Middleware;
 using Xunit;
 
-namespace EmployeeManagement.Test
+namespace ORION.HumanResources.Test
 {
     public class EmployeeManagementSecurityHeadersMiddlewareTests
     {

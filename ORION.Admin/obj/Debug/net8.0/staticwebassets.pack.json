@@ -6013,6 +6013,10 @@
       "PackagePath": "staticwebassets\\vendors\\iconfonts\\flag-icon-css\\less\\variables.less"
     },
     {
+      "Id": "C:\\x\\ORION.API\\ORION.Admin\\wwwroot\\vendors\\iconfonts\\flag-icon-css\\package-lock.json",
+      "PackagePath": "staticwebassets\\vendors\\iconfonts\\flag-icon-css\\package-lock.json"
+    },
+    {
       "Id": "C:\\x\\ORION.API\\ORION.Admin\\wwwroot\\vendors\\iconfonts\\flag-icon-css\\package.json",
       "PackagePath": "staticwebassets\\vendors\\iconfonts\\flag-icon-css\\package.json"
     },

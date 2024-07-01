@@ -1,9 +1,9 @@
-﻿using EmployeeManagement.Business;
-using EmployeeManagement.DataAccess.Services;
-using EmployeeManagement.Services.Test;
-using Microsoft.Extensions.DependencyInjection;
+﻿using Microsoft.Extensions.DependencyInjection;
+using ORION.HumanResources.Business;
+using ORION.HumanResources.DataAccess.Services;
+using ORION.HumanResources.Services.Test;
 
-namespace EmployeeManagement.Test.Fixtures
+namespace ORION.HumanResources.Test.Fixtures
 {
     public class EmployeeServiceWithAspNetCoreDIFixture : IDisposable
     {

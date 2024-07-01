@@ -1,28 +1,7 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\x\\ORION.API\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{EFF3AA19-4F79-4121-9AD1-5DCCAD41F3C0}|ORION.HumanResources.Test\\ORION.HumanResources.Test.csproj|c:\\x\\orion.api\\orion.humanresources.test\\anothertestclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EFF3AA19-4F79-4121-9AD1-5DCCAD41F3C0}|ORION.HumanResources.Test\\ORION.HumanResources.Test.csproj|solutionrelative:orion.humanresources.test\\anothertestclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EFF3AA19-4F79-4121-9AD1-5DCCAD41F3C0}|ORION.HumanResources.Test\\ORION.HumanResources.Test.csproj|c:\\x\\orion.api\\orion.humanresources.test\\orion.humanresources.test.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{EFF3AA19-4F79-4121-9AD1-5DCCAD41F3C0}|ORION.HumanResources.Test\\ORION.HumanResources.Test.csproj|solutionrelative:orion.humanresources.test\\orion.humanresources.test.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EFF3AA19-4F79-4121-9AD1-5DCCAD41F3C0}|ORION.HumanResources.Test\\ORION.HumanResources.Test.csproj|c:\\x\\orion.api\\orion.humanresources.test\\coursetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EFF3AA19-4F79-4121-9AD1-5DCCAD41F3C0}|ORION.HumanResources.Test\\ORION.HumanResources.Test.csproj|solutionrelative:orion.humanresources.test\\coursetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C1C26E29-8CE2-479B-B2B9-65212A1B1CC3}|ORION.Core.Tests\\ORION.Core.Tests.csproj|c:\\x\\orion.api\\orion.core.tests\\orion.core.tests.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{C1C26E29-8CE2-479B-B2B9-65212A1B1CC3}|ORION.Core.Tests\\ORION.Core.Tests.csproj|solutionrelative:orion.core.tests\\orion.core.tests.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F9ABABF4-6C67-4F19-9713-E05F782E731E}|ORION.Admin\\ORION.Admin.csproj|c:\\x\\orion.api\\orion.admin\\securityconstants.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F9ABABF4-6C67-4F19-9713-E05F782E731E}|ORION.Admin\\ORION.Admin.csproj|solutionrelative:orion.admin\\securityconstants.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -30,7 +9,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": -1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -47,71 +26,6 @@
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "AnotherTestClass.cs",
-              "DocumentMoniker": "C:\\x\\ORION.API\\ORION.HumanResources.Test\\AnotherTestClass.cs",
-              "RelativeDocumentMoniker": "ORION.HumanResources.Test\\AnotherTestClass.cs",
-              "ToolTip": "C:\\x\\ORION.API\\ORION.HumanResources.Test\\AnotherTestClass.cs",
-              "RelativeToolTip": "ORION.HumanResources.Test\\AnotherTestClass.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-01T08:29:31.132Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "CourseTests.cs",
-              "DocumentMoniker": "C:\\x\\ORION.API\\ORION.HumanResources.Test\\CourseTests.cs",
-              "RelativeDocumentMoniker": "ORION.HumanResources.Test\\CourseTests.cs",
-              "ToolTip": "C:\\x\\ORION.API\\ORION.HumanResources.Test\\CourseTests.cs",
-              "RelativeToolTip": "ORION.HumanResources.Test\\CourseTests.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAZAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-01T08:28:54.317Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ORION.Core.Tests",
-              "DocumentMoniker": "C:\\x\\ORION.API\\ORION.Core.Tests\\ORION.Core.Tests.csproj",
-              "RelativeDocumentMoniker": "ORION.Core.Tests\\ORION.Core.Tests.csproj",
-              "ToolTip": "C:\\x\\ORION.API\\ORION.Core.Tests\\ORION.Core.Tests.csproj",
-              "RelativeToolTip": "ORION.Core.Tests\\ORION.Core.Tests.csproj",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-07-01T08:28:50.684Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ORION.HumanResources.Test",
-              "DocumentMoniker": "C:\\x\\ORION.API\\ORION.HumanResources.Test\\ORION.HumanResources.Test.csproj",
-              "RelativeDocumentMoniker": "ORION.HumanResources.Test\\ORION.HumanResources.Test.csproj",
-              "ToolTip": "C:\\x\\ORION.API\\ORION.HumanResources.Test\\ORION.HumanResources.Test.csproj",
-              "RelativeToolTip": "ORION.HumanResources.Test\\ORION.HumanResources.Test.csproj",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAA2AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-07-01T08:28:32.754Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "SecurityConstants.cs",
-              "DocumentMoniker": "C:\\x\\ORION.API\\ORION.Admin\\SecurityConstants.cs",
-              "RelativeDocumentMoniker": "ORION.Admin\\SecurityConstants.cs",
-              "ToolTip": "C:\\x\\ORION.API\\ORION.Admin\\SecurityConstants.cs",
-              "RelativeToolTip": "ORION.Admin\\SecurityConstants.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-01T08:21:38.569Z",
-              "EditorCaption": ""
             }
           ]
         }
