@@ -1,5 +1,5 @@
 ﻿
-namespace SearchForRange
+namespace ORION.Core.Searching
 {
     public class SearchForRangeClass
     {

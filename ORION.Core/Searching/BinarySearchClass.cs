@@ -1,7 +1,7 @@
-﻿using BinarySearch;
+﻿
 using System;
 
-namespace BinarySearch
+namespace ORION.Core.Searching
 {
     /// <summary>
     /// 

@@ -1,6 +1,6 @@
 ﻿
 
-namespace ShiftedBinarySearch
+namespace ORION.Core.Searching
 {
     public class ShiftedBinarySearchClass
     {

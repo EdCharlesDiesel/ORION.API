@@ -1,4 +1,6 @@
-﻿namespace FindThreeLargestNumbers
+﻿using System;
+
+namespace ORION.Core.Searching
 {
     public class FindThreeLargestNumbersClass
     {

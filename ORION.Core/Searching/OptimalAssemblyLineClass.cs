@@ -1,4 +1,6 @@
-﻿namespace OptimalAssemblyLine
+﻿using System;
+
+namespace ORION.Core.Searching
 {
     /// <summary>
     /// One of the most efficent ways to run a factory is to use an assemby line,

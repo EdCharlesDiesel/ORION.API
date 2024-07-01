@@ -3,6 +3,38 @@
   "WorkspaceRootPath": "C:\\x\\ORION.API\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{08015DD1-EA88-4206-9291-ED52EFFEF78D}|ORION.Core\\ORION.Core.csproj|c:\\x\\orion.api\\orion.core\\searching\\shiftedbinarysearchclass2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{08015DD1-EA88-4206-9291-ED52EFFEF78D}|ORION.Core\\ORION.Core.csproj|solutionrelative:orion.core\\searching\\shiftedbinarysearchclass2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{08015DD1-EA88-4206-9291-ED52EFFEF78D}|ORION.Core\\ORION.Core.csproj|c:\\x\\orion.api\\orion.core\\searching\\shiftedbinarysearchclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{08015DD1-EA88-4206-9291-ED52EFFEF78D}|ORION.Core\\ORION.Core.csproj|solutionrelative:orion.core\\searching\\shiftedbinarysearchclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{08015DD1-EA88-4206-9291-ED52EFFEF78D}|ORION.Core\\ORION.Core.csproj|c:\\x\\orion.api\\orion.core\\searching\\searchforrangeclass2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{08015DD1-EA88-4206-9291-ED52EFFEF78D}|ORION.Core\\ORION.Core.csproj|solutionrelative:orion.core\\searching\\searchforrangeclass2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{08015DD1-EA88-4206-9291-ED52EFFEF78D}|ORION.Core\\ORION.Core.csproj|c:\\x\\orion.api\\orion.core\\searching\\searchforrangeclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{08015DD1-EA88-4206-9291-ED52EFFEF78D}|ORION.Core\\ORION.Core.csproj|solutionrelative:orion.core\\searching\\searchforrangeclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{08015DD1-EA88-4206-9291-ED52EFFEF78D}|ORION.Core\\ORION.Core.csproj|c:\\x\\orion.api\\orion.core\\searching\\quickselectclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{08015DD1-EA88-4206-9291-ED52EFFEF78D}|ORION.Core\\ORION.Core.csproj|solutionrelative:orion.core\\searching\\quickselectclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{08015DD1-EA88-4206-9291-ED52EFFEF78D}|ORION.Core\\ORION.Core.csproj|c:\\x\\orion.api\\orion.core\\searching\\optimalassemblylineclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{08015DD1-EA88-4206-9291-ED52EFFEF78D}|ORION.Core\\ORION.Core.csproj|solutionrelative:orion.core\\searching\\optimalassemblylineclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{08015DD1-EA88-4206-9291-ED52EFFEF78D}|ORION.Core\\ORION.Core.csproj|c:\\x\\orion.api\\orion.core\\searching\\findthreelargestnumbersclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{08015DD1-EA88-4206-9291-ED52EFFEF78D}|ORION.Core\\ORION.Core.csproj|solutionrelative:orion.core\\searching\\findthreelargestnumbersclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{08015DD1-EA88-4206-9291-ED52EFFEF78D}|ORION.Core\\ORION.Core.csproj|c:\\x\\orion.api\\orion.core\\searching\\binarysearchclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{08015DD1-EA88-4206-9291-ED52EFFEF78D}|ORION.Core\\ORION.Core.csproj|solutionrelative:orion.core\\searching\\binarysearchclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{08015DD1-EA88-4206-9291-ED52EFFEF78D}|ORION.Core\\ORION.Core.csproj|c:\\x\\orion.api\\orion.core\\sorting\\selectionsortclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{08015DD1-EA88-4206-9291-ED52EFFEF78D}|ORION.Core\\ORION.Core.csproj|solutionrelative:orion.core\\sorting\\selectionsortclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -51,6 +83,110 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "ShiftedBinarySearchClass2.cs",
+              "DocumentMoniker": "C:\\x\\ORION.API\\ORION.Core\\Searching\\ShiftedBinarySearchClass2.cs",
+              "RelativeDocumentMoniker": "ORION.Core\\Searching\\ShiftedBinarySearchClass2.cs",
+              "ToolTip": "C:\\x\\ORION.API\\ORION.Core\\Searching\\ShiftedBinarySearchClass2.cs",
+              "RelativeToolTip": "ORION.Core\\Searching\\ShiftedBinarySearchClass2.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-01T12:05:41.462Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ShiftedBinarySearchClass.cs",
+              "DocumentMoniker": "C:\\x\\ORION.API\\ORION.Core\\Searching\\ShiftedBinarySearchClass.cs",
+              "RelativeDocumentMoniker": "ORION.Core\\Searching\\ShiftedBinarySearchClass.cs",
+              "ToolTip": "C:\\x\\ORION.API\\ORION.Core\\Searching\\ShiftedBinarySearchClass.cs",
+              "RelativeToolTip": "ORION.Core\\Searching\\ShiftedBinarySearchClass.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-01T12:05:36.265Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SearchForRangeClass2.cs",
+              "DocumentMoniker": "C:\\x\\ORION.API\\ORION.Core\\Searching\\SearchForRangeClass2.cs",
+              "RelativeDocumentMoniker": "ORION.Core\\Searching\\SearchForRangeClass2.cs",
+              "ToolTip": "C:\\x\\ORION.API\\ORION.Core\\Searching\\SearchForRangeClass2.cs",
+              "RelativeToolTip": "ORION.Core\\Searching\\SearchForRangeClass2.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-01T12:05:30.897Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "SearchForRangeClass.cs",
+              "DocumentMoniker": "C:\\x\\ORION.API\\ORION.Core\\Searching\\SearchForRangeClass.cs",
+              "RelativeDocumentMoniker": "ORION.Core\\Searching\\SearchForRangeClass.cs",
+              "ToolTip": "C:\\x\\ORION.API\\ORION.Core\\Searching\\SearchForRangeClass.cs",
+              "RelativeToolTip": "ORION.Core\\Searching\\SearchForRangeClass.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-01T12:05:26.067Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "QuickselectClass.cs",
+              "DocumentMoniker": "C:\\x\\ORION.API\\ORION.Core\\Searching\\QuickselectClass.cs",
+              "RelativeDocumentMoniker": "ORION.Core\\Searching\\QuickselectClass.cs",
+              "ToolTip": "C:\\x\\ORION.API\\ORION.Core\\Searching\\QuickselectClass.cs",
+              "RelativeToolTip": "ORION.Core\\Searching\\QuickselectClass.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-01T12:05:21.812Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "OptimalAssemblyLineClass.cs",
+              "DocumentMoniker": "C:\\x\\ORION.API\\ORION.Core\\Searching\\OptimalAssemblyLineClass.cs",
+              "RelativeDocumentMoniker": "ORION.Core\\Searching\\OptimalAssemblyLineClass.cs",
+              "ToolTip": "C:\\x\\ORION.API\\ORION.Core\\Searching\\OptimalAssemblyLineClass.cs",
+              "RelativeToolTip": "ORION.Core\\Searching\\OptimalAssemblyLineClass.cs",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAgwB0AAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-01T12:05:12.974Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "FindThreeLargestNumbersClass.cs",
+              "DocumentMoniker": "C:\\x\\ORION.API\\ORION.Core\\Searching\\FindThreeLargestNumbersClass.cs",
+              "RelativeDocumentMoniker": "ORION.Core\\Searching\\FindThreeLargestNumbersClass.cs",
+              "ToolTip": "C:\\x\\ORION.API\\ORION.Core\\Searching\\FindThreeLargestNumbersClass.cs",
+              "RelativeToolTip": "ORION.Core\\Searching\\FindThreeLargestNumbersClass.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-01T12:05:04.089Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "BinarySearchClass.cs",
+              "DocumentMoniker": "C:\\x\\ORION.API\\ORION.Core\\Searching\\BinarySearchClass.cs",
+              "RelativeDocumentMoniker": "ORION.Core\\Searching\\BinarySearchClass.cs",
+              "ToolTip": "C:\\x\\ORION.API\\ORION.Core\\Searching\\BinarySearchClass.cs",
+              "RelativeToolTip": "ORION.Core\\Searching\\BinarySearchClass.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-01T12:04:43.867Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "SelectionSortClass.cs",
               "DocumentMoniker": "C:\\x\\ORION.API\\ORION.Core\\Sorting\\SelectionSortClass.cs",
               "RelativeDocumentMoniker": "ORION.Core\\Sorting\\SelectionSortClass.cs",
@@ -63,7 +199,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 9,
               "Title": "QuickSortClass.cs",
               "DocumentMoniker": "C:\\x\\ORION.API\\ORION.Core\\Sorting\\QuickSortClass.cs",
               "RelativeDocumentMoniker": "ORION.Core\\Sorting\\QuickSortClass.cs",
@@ -76,7 +212,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 10,
               "Title": "MergeSortClass2.cs",
               "DocumentMoniker": "C:\\x\\ORION.API\\ORION.Core\\Sorting\\MergeSortClass2.cs",
               "RelativeDocumentMoniker": "ORION.Core\\Sorting\\MergeSortClass2.cs",
@@ -89,7 +225,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 11,
               "Title": "MinMaxStackConstructionClass.cs",
               "DocumentMoniker": "C:\\x\\ORION.API\\ORION.Core\\Stacks\\MinMaxStackConstructionClass.cs",
               "RelativeDocumentMoniker": "ORION.Core\\Stacks\\MinMaxStackConstructionClass.cs",
@@ -102,7 +238,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 12,
               "Title": "ShortenPathClass.cs",
               "DocumentMoniker": "C:\\x\\ORION.API\\ORION.Core\\Stacks\\ShortenPathClass.cs",
               "RelativeDocumentMoniker": "ORION.Core\\Stacks\\ShortenPathClass.cs",

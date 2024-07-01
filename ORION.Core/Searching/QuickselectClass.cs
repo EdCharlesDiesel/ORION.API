@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Quickselect
+namespace ORION.Core.Searching
 {
     public class QuickselectClass
     {
