@@ -1,6 +1,6 @@
 ﻿using System.Text;
 
-namespace RunLengthEncoding
+namespace ORION.Core.Strings
 {
     public class RunLengthEncodingClass
     {

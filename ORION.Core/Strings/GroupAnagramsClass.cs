@@ -1,4 +1,8 @@
-﻿namespace GroupAnagrams
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+
+namespace ORION.Core.Strings
 {
     public class GroupAnagramsClass
     {

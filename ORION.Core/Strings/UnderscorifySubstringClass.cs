@@ -1,4 +1,7 @@
-﻿namespace UnderscorifySubstring
+﻿using System;
+using System.Collections.Generic;
+
+namespace ORION.Core.Strings
 {
     public class UnderscorifySubstringClass
     {

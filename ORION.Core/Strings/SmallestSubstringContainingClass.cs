@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace SmallestSubstringContaining
+namespace ORION.Core.Strings
 {
     public class SmallestSubstringContainingClass
     {

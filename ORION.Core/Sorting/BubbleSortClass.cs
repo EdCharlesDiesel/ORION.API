@@ -1,4 +1,4 @@
-﻿namespace BubbleSort
+﻿namespace ORION.Core.Sorting
 {
     public class BubbleSortClass
     {

@@ -1,6 +1,6 @@
 ﻿
 
-namespace HeapSort
+namespace ORION.Core.Sorting
 {
     public class HeapSortClass
     {

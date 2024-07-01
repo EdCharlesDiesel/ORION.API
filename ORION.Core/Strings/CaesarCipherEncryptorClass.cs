@@ -1,4 +1,4 @@
-﻿namespace CaesarCipherEncryptor
+﻿namespace ORION.Core.Strings
 {
     /// <summary>
     /// Given a non empty string of lowercase letters and non-negative

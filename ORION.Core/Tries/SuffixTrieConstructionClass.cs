@@ -1,4 +1,6 @@
-﻿namespace SuffixTrieConstruction
+﻿using System.Collections.Generic;
+
+namespace ORION.Core.Tries
 {
     public class SuffixTrieConstructionClass
     {

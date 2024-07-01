@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
-namespace BalancedBrackets
-{
+namespace ORION.Core.Stacks
+{ 
     public class BalancedBracketsClass
     {
         // O(n) time | O(n) space

@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.Text;
 
-namespace PatternMatcher
+namespace ORION.Core.Strings
 {
     public class PatternMatcherClass
     {

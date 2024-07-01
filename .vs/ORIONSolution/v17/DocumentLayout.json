@@ -3,48 +3,24 @@
   "WorkspaceRootPath": "C:\\x\\ORION.API\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{08015DD1-EA88-4206-9291-ED52EFFEF78D}|ORION.Core\\ORION.Core.csproj|c:\\x\\orion.api\\orion.core\\linkedlist\\shiftlinkedlistclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{08015DD1-EA88-4206-9291-ED52EFFEF78D}|ORION.Core\\ORION.Core.csproj|solutionrelative:orion.core\\linkedlist\\shiftlinkedlistclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{08015DD1-EA88-4206-9291-ED52EFFEF78D}|ORION.Core\\ORION.Core.csproj|c:\\x\\orion.api\\orion.core\\sorting\\selectionsortclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{08015DD1-EA88-4206-9291-ED52EFFEF78D}|ORION.Core\\ORION.Core.csproj|solutionrelative:orion.core\\sorting\\selectionsortclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{08015DD1-EA88-4206-9291-ED52EFFEF78D}|ORION.Core\\ORION.Core.csproj|c:\\x\\orion.api\\orion.core\\linkedlist\\reverselinkedlistclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{08015DD1-EA88-4206-9291-ED52EFFEF78D}|ORION.Core\\ORION.Core.csproj|solutionrelative:orion.core\\linkedlist\\reverselinkedlistclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{08015DD1-EA88-4206-9291-ED52EFFEF78D}|ORION.Core\\ORION.Core.csproj|c:\\x\\orion.api\\orion.core\\sorting\\quicksortclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{08015DD1-EA88-4206-9291-ED52EFFEF78D}|ORION.Core\\ORION.Core.csproj|solutionrelative:orion.core\\sorting\\quicksortclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{08015DD1-EA88-4206-9291-ED52EFFEF78D}|ORION.Core\\ORION.Core.csproj|c:\\x\\orion.api\\orion.core\\linkedlist\\removenthnodefromendclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{08015DD1-EA88-4206-9291-ED52EFFEF78D}|ORION.Core\\ORION.Core.csproj|solutionrelative:orion.core\\linkedlist\\removenthnodefromendclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{08015DD1-EA88-4206-9291-ED52EFFEF78D}|ORION.Core\\ORION.Core.csproj|c:\\x\\orion.api\\orion.core\\sorting\\mergesortclass2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{08015DD1-EA88-4206-9291-ED52EFFEF78D}|ORION.Core\\ORION.Core.csproj|solutionrelative:orion.core\\sorting\\mergesortclass2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{08015DD1-EA88-4206-9291-ED52EFFEF78D}|ORION.Core\\ORION.Core.csproj|c:\\x\\orion.api\\orion.core\\linkedlist\\removeduplicatesfromlinkedlistclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{08015DD1-EA88-4206-9291-ED52EFFEF78D}|ORION.Core\\ORION.Core.csproj|solutionrelative:orion.core\\linkedlist\\removeduplicatesfromlinkedlistclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{08015DD1-EA88-4206-9291-ED52EFFEF78D}|ORION.Core\\ORION.Core.csproj|c:\\x\\orion.api\\orion.core\\stacks\\minmaxstackconstructionclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{08015DD1-EA88-4206-9291-ED52EFFEF78D}|ORION.Core\\ORION.Core.csproj|solutionrelative:orion.core\\stacks\\minmaxstackconstructionclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{08015DD1-EA88-4206-9291-ED52EFFEF78D}|ORION.Core\\ORION.Core.csproj|c:\\x\\orion.api\\orion.core\\linkedlist\\minnumberofjumpsclass1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{08015DD1-EA88-4206-9291-ED52EFFEF78D}|ORION.Core\\ORION.Core.csproj|solutionrelative:orion.core\\linkedlist\\minnumberofjumpsclass1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{08015DD1-EA88-4206-9291-ED52EFFEF78D}|ORION.Core\\ORION.Core.csproj|c:\\x\\orion.api\\orion.core\\linkedlist\\minnumberofjumpsclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{08015DD1-EA88-4206-9291-ED52EFFEF78D}|ORION.Core\\ORION.Core.csproj|solutionrelative:orion.core\\linkedlist\\minnumberofjumpsclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{08015DD1-EA88-4206-9291-ED52EFFEF78D}|ORION.Core\\ORION.Core.csproj|c:\\x\\orion.api\\orion.core\\linkedlist\\middlenodeclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{08015DD1-EA88-4206-9291-ED52EFFEF78D}|ORION.Core\\ORION.Core.csproj|solutionrelative:orion.core\\linkedlist\\middlenodeclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{08015DD1-EA88-4206-9291-ED52EFFEF78D}|ORION.Core\\ORION.Core.csproj|c:\\x\\orion.api\\orion.core\\linkedlist\\mergelinkedlistsclass2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{08015DD1-EA88-4206-9291-ED52EFFEF78D}|ORION.Core\\ORION.Core.csproj|solutionrelative:orion.core\\linkedlist\\mergelinkedlistsclass2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{08015DD1-EA88-4206-9291-ED52EFFEF78D}|ORION.Core\\ORION.Core.csproj|c:\\x\\orion.api\\orion.core\\linkedlist\\mergelinkedlistsclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{08015DD1-EA88-4206-9291-ED52EFFEF78D}|ORION.Core\\ORION.Core.csproj|solutionrelative:orion.core\\linkedlist\\mergelinkedlistsclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{08015DD1-EA88-4206-9291-ED52EFFEF78D}|ORION.Core\\ORION.Core.csproj|c:\\x\\orion.api\\orion.core\\linkedlist\\findloopclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{08015DD1-EA88-4206-9291-ED52EFFEF78D}|ORION.Core\\ORION.Core.csproj|solutionrelative:orion.core\\linkedlist\\findloopclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{08015DD1-EA88-4206-9291-ED52EFFEF78D}|ORION.Core\\ORION.Core.csproj|c:\\x\\orion.api\\orion.core\\linkedlist\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{08015DD1-EA88-4206-9291-ED52EFFEF78D}|ORION.Core\\ORION.Core.csproj|solutionrelative:orion.core\\linkedlist\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{08015DD1-EA88-4206-9291-ED52EFFEF78D}|ORION.Core\\ORION.Core.csproj|c:\\x\\orion.api\\orion.core\\stacks\\shortenpathclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{08015DD1-EA88-4206-9291-ED52EFFEF78D}|ORION.Core\\ORION.Core.csproj|solutionrelative:orion.core\\stacks\\shortenpathclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -75,144 +51,66 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "ShiftLinkedListClass.cs",
-              "DocumentMoniker": "C:\\x\\ORION.API\\ORION.Core\\LinkedList\\ShiftLinkedListClass.cs",
-              "RelativeDocumentMoniker": "ORION.Core\\LinkedList\\ShiftLinkedListClass.cs",
-              "ToolTip": "C:\\x\\ORION.API\\ORION.Core\\LinkedList\\ShiftLinkedListClass.cs",
-              "RelativeToolTip": "ORION.Core\\LinkedList\\ShiftLinkedListClass.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAAB8AAAAwAAAA",
+              "Title": "SelectionSortClass.cs",
+              "DocumentMoniker": "C:\\x\\ORION.API\\ORION.Core\\Sorting\\SelectionSortClass.cs",
+              "RelativeDocumentMoniker": "ORION.Core\\Sorting\\SelectionSortClass.cs",
+              "ToolTip": "C:\\x\\ORION.API\\ORION.Core\\Sorting\\SelectionSortClass.cs",
+              "RelativeToolTip": "ORION.Core\\Sorting\\SelectionSortClass.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAcAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-01T11:54:03.838Z",
+              "WhenOpened": "2024-07-01T12:04:07.522Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "ReverseLinkedListClass.cs",
-              "DocumentMoniker": "C:\\x\\ORION.API\\ORION.Core\\LinkedList\\ReverseLinkedListClass.cs",
-              "RelativeDocumentMoniker": "ORION.Core\\LinkedList\\ReverseLinkedListClass.cs",
-              "ToolTip": "C:\\x\\ORION.API\\ORION.Core\\LinkedList\\ReverseLinkedListClass.cs",
-              "RelativeToolTip": "ORION.Core\\LinkedList\\ReverseLinkedListClass.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAfAAAA",
+              "Title": "QuickSortClass.cs",
+              "DocumentMoniker": "C:\\x\\ORION.API\\ORION.Core\\Sorting\\QuickSortClass.cs",
+              "RelativeDocumentMoniker": "ORION.Core\\Sorting\\QuickSortClass.cs",
+              "ToolTip": "C:\\x\\ORION.API\\ORION.Core\\Sorting\\QuickSortClass.cs",
+              "RelativeToolTip": "ORION.Core\\Sorting\\QuickSortClass.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAcAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-01T11:54:00.685Z",
+              "WhenOpened": "2024-07-01T12:04:04.124Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "RemoveNthNodeFromEndClass.cs",
-              "DocumentMoniker": "C:\\x\\ORION.API\\ORION.Core\\LinkedList\\RemoveNthNodeFromEndClass.cs",
-              "RelativeDocumentMoniker": "ORION.Core\\LinkedList\\RemoveNthNodeFromEndClass.cs",
-              "ToolTip": "C:\\x\\ORION.API\\ORION.Core\\LinkedList\\RemoveNthNodeFromEndClass.cs",
-              "RelativeToolTip": "ORION.Core\\LinkedList\\RemoveNthNodeFromEndClass.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAfAAAA",
+              "Title": "MergeSortClass2.cs",
+              "DocumentMoniker": "C:\\x\\ORION.API\\ORION.Core\\Sorting\\MergeSortClass2.cs",
+              "RelativeDocumentMoniker": "ORION.Core\\Sorting\\MergeSortClass2.cs",
+              "ToolTip": "C:\\x\\ORION.API\\ORION.Core\\Sorting\\MergeSortClass2.cs",
+              "RelativeToolTip": "ORION.Core\\Sorting\\MergeSortClass2.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAcAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-01T11:53:56.675Z",
+              "WhenOpened": "2024-07-01T12:03:59.538Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "RemoveDuplicatesFromLinkedListClass.cs",
-              "DocumentMoniker": "C:\\x\\ORION.API\\ORION.Core\\LinkedList\\RemoveDuplicatesFromLinkedListClass.cs",
-              "RelativeDocumentMoniker": "ORION.Core\\LinkedList\\RemoveDuplicatesFromLinkedListClass.cs",
-              "ToolTip": "C:\\x\\ORION.API\\ORION.Core\\LinkedList\\RemoveDuplicatesFromLinkedListClass.cs",
-              "RelativeToolTip": "ORION.Core\\LinkedList\\RemoveDuplicatesFromLinkedListClass.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAfAAAA",
+              "Title": "MinMaxStackConstructionClass.cs",
+              "DocumentMoniker": "C:\\x\\ORION.API\\ORION.Core\\Stacks\\MinMaxStackConstructionClass.cs",
+              "RelativeDocumentMoniker": "ORION.Core\\Stacks\\MinMaxStackConstructionClass.cs",
+              "ToolTip": "C:\\x\\ORION.API\\ORION.Core\\Stacks\\MinMaxStackConstructionClass.cs",
+              "RelativeToolTip": "ORION.Core\\Stacks\\MinMaxStackConstructionClass.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAgwCEAAAAmAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-01T11:53:53.285Z",
+              "WhenOpened": "2024-07-01T12:02:29.138Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "MinNumberOfJumpsClass1.cs",
-              "DocumentMoniker": "C:\\x\\ORION.API\\ORION.Core\\LinkedList\\MinNumberOfJumpsClass1.cs",
-              "RelativeDocumentMoniker": "ORION.Core\\LinkedList\\MinNumberOfJumpsClass1.cs",
-              "ToolTip": "C:\\x\\ORION.API\\ORION.Core\\LinkedList\\MinNumberOfJumpsClass1.cs",
-              "RelativeToolTip": "ORION.Core\\LinkedList\\MinNumberOfJumpsClass1.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAfAAAA",
+              "Title": "ShortenPathClass.cs",
+              "DocumentMoniker": "C:\\x\\ORION.API\\ORION.Core\\Stacks\\ShortenPathClass.cs",
+              "RelativeDocumentMoniker": "ORION.Core\\Stacks\\ShortenPathClass.cs",
+              "ToolTip": "C:\\x\\ORION.API\\ORION.Core\\Stacks\\ShortenPathClass.cs",
+              "RelativeToolTip": "ORION.Core\\Stacks\\ShortenPathClass.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAKAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-01T11:53:48.118Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "MinNumberOfJumpsClass.cs",
-              "DocumentMoniker": "C:\\x\\ORION.API\\ORION.Core\\LinkedList\\MinNumberOfJumpsClass.cs",
-              "RelativeDocumentMoniker": "ORION.Core\\LinkedList\\MinNumberOfJumpsClass.cs",
-              "ToolTip": "C:\\x\\ORION.API\\ORION.Core\\LinkedList\\MinNumberOfJumpsClass.cs",
-              "RelativeToolTip": "ORION.Core\\LinkedList\\MinNumberOfJumpsClass.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAfAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-01T11:53:40.301Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "MiddleNodeClass.cs",
-              "DocumentMoniker": "C:\\x\\ORION.API\\ORION.Core\\LinkedList\\MiddleNodeClass.cs",
-              "RelativeDocumentMoniker": "ORION.Core\\LinkedList\\MiddleNodeClass.cs",
-              "ToolTip": "C:\\x\\ORION.API\\ORION.Core\\LinkedList\\MiddleNodeClass.cs",
-              "RelativeToolTip": "ORION.Core\\LinkedList\\MiddleNodeClass.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAfAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-01T11:53:36.85Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "MergeLinkedListsClass2.cs",
-              "DocumentMoniker": "C:\\x\\ORION.API\\ORION.Core\\LinkedList\\MergeLinkedListsClass2.cs",
-              "RelativeDocumentMoniker": "ORION.Core\\LinkedList\\MergeLinkedListsClass2.cs",
-              "ToolTip": "C:\\x\\ORION.API\\ORION.Core\\LinkedList\\MergeLinkedListsClass2.cs",
-              "RelativeToolTip": "ORION.Core\\LinkedList\\MergeLinkedListsClass2.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAfAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-01T11:53:32.277Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "MergeLinkedListsClass.cs",
-              "DocumentMoniker": "C:\\x\\ORION.API\\ORION.Core\\LinkedList\\MergeLinkedListsClass.cs",
-              "RelativeDocumentMoniker": "ORION.Core\\LinkedList\\MergeLinkedListsClass.cs",
-              "ToolTip": "C:\\x\\ORION.API\\ORION.Core\\LinkedList\\MergeLinkedListsClass.cs",
-              "RelativeToolTip": "ORION.Core\\LinkedList\\MergeLinkedListsClass.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAfAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-01T11:53:28.765Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "FindLoopClass.cs",
-              "DocumentMoniker": "C:\\x\\ORION.API\\ORION.Core\\LinkedList\\FindLoopClass.cs",
-              "RelativeDocumentMoniker": "ORION.Core\\LinkedList\\FindLoopClass.cs",
-              "ToolTip": "C:\\x\\ORION.API\\ORION.Core\\LinkedList\\FindLoopClass.cs",
-              "RelativeToolTip": "ORION.Core\\LinkedList\\FindLoopClass.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAfAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-01T11:53:23.647Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Class1.cs",
-              "DocumentMoniker": "C:\\x\\ORION.API\\ORION.Core\\LinkedList\\Class1.cs",
-              "RelativeDocumentMoniker": "ORION.Core\\LinkedList\\Class1.cs",
-              "ToolTip": "C:\\x\\ORION.API\\ORION.Core\\LinkedList\\Class1.cs",
-              "RelativeToolTip": "ORION.Core\\LinkedList\\Class1.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAKAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-01T11:52:55.79Z",
+              "WhenOpened": "2024-07-01T12:02:03.041Z",
               "EditorCaption": ""
             }
           ]

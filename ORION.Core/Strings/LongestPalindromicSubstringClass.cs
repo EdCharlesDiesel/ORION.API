@@ -1,4 +1,4 @@
-﻿namespace LongestPalindromicSubstring
+﻿namespace ORION.Core.Strings
 {
     public class LongestPalindromicSubstringClass
     {

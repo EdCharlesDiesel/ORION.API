@@ -1,4 +1,4 @@
-﻿namespace PalindromeCheck
+﻿namespace ORION.Core.Strings
 {
     /// <summary>
     /// 

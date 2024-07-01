@@ -1,4 +1,6 @@
-﻿namespace MergeSort
+﻿using System.Linq;
+
+namespace ORION.Core.Sorting
 {
     public class MergeSortClass
     {

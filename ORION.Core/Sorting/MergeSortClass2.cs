@@ -1,4 +1,4 @@
-﻿namespace MergeSort
+﻿namespace ORION.Core.Sorting
 {
     internal class MergeSortClass2
     {

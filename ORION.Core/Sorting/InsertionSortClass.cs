@@ -1,4 +1,4 @@
-﻿namespace InsertionSort
+﻿namespace ORION.Core.Sorting
 {
     public class InsertionSortClass
     {

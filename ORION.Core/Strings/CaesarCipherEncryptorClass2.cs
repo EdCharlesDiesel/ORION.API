@@ -1,4 +1,4 @@
-﻿namespace CaesarCipherEncryptor
+﻿namespace ORION.Core.Strings
 {
     public class CaesarCipherEncryptorClass2
     {

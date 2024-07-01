@@ -1,6 +1,7 @@
-﻿using System.Text;
+﻿using System.Collections.Generic;
+using System.Text;
 
-namespace ValidIPAddresses
+namespace ORION.Core.Strings
 {
     /// <summary>
     /// You're given a string of length 12 or smaller, containing

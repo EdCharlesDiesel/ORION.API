@@ -1,5 +1,8 @@
 ﻿
-namespace LongestSubstringWithoutDuplication
+using System;
+using System.Collections.Generic;
+
+namespace ORION.Core.Strings
 {
     public static class LongestSubstringWithoutDuplicationClass
     {

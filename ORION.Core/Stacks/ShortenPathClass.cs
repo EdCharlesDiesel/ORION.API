@@ -1,4 +1,7 @@
-﻿namespace ShortenPath
+﻿using System;
+using System.Collections.Generic;
+
+namespace ORION.Core.Stacks
 {
     public class ShortenPathClass
     {

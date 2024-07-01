@@ -1,4 +1,4 @@
-﻿namespace SelectionSort
+﻿namespace ORION.Core.Sorting
 {
     public class SelectionSortClass
     {

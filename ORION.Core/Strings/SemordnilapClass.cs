@@ -1,5 +1,8 @@
 ﻿
-namespace Semordnilap
+using System;
+using System.Collections.Generic;
+
+namespace ORION.Core.Strings
 {
     public class SemordnilapClass
     {

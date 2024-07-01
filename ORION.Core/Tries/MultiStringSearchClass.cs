@@ -1,4 +1,6 @@
-﻿namespace MultiStringSearch
+﻿using System.Collections.Generic;
+
+namespace ORION.Core.Tries
 {
     public static class MultiStringSearchClass
     {

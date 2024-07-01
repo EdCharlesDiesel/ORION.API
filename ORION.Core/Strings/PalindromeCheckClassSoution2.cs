@@ -1,6 +1,6 @@
 ﻿using System.Text;
 
-namespace PalindromeCheck
+namespace ORION.Core.Strings
 {
     public class PalindromeCheckClassSoution2
     {

@@ -1,5 +1,5 @@
 ﻿
-namespace QuickSort
+namespace ORION.Core.Sorting
 {
     public class QuickSortClass
     {

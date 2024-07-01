@@ -1,4 +1,6 @@
-﻿namespace FirstNonRepeatingCharacter
+﻿using System.Collections.Generic;
+
+namespace ORION.Core.Strings
 {
     public class FirstNonRepeatingCharacterClass
     {
