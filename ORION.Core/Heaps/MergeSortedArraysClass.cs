@@ -1,4 +1,7 @@
-﻿namespace MergeSortedArrays
+﻿using System.Collections.Generic;
+using System.Linq;
+
+namespace ORION.Core.Heaps
 {
     public class MergeSortedArraysClass
     {

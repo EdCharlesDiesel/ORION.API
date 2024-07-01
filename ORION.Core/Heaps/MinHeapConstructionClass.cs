@@ -1,4 +1,6 @@
-﻿namespace MinHeapConstruction
+﻿using System.Collections.Generic;
+
+namespace ORION.Core.Heaps
 {
     public class MinHeapConstructionClass
     {

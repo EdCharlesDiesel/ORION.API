@@ -4,10 +4,12 @@
 //using System.Text;
 //using System.Threading.Tasks;
 
-//namespace MergeSortedArrays
-//{
-//    internal class MergeSortedArraysClass2
-//    {
+namespace ORION.Core.Heaps
+{
+    internal class MergeSortedArraysClass2
+    {
+    }
+}
 //        // O(nlog(k) + k) time | O(n + k) space - where where n is the total
 //        // number of array elements and k is the number of arrays
 //        public static List<int> MergeSortedArrays(List<List<int>> arrays)

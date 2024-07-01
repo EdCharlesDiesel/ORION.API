@@ -3,24 +3,20 @@
   "WorkspaceRootPath": "C:\\x\\ORION.API\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{08015DD1-EA88-4206-9291-ED52EFFEF78D}|ORION.Core\\ORION.Core.csproj|c:\\x\\orion.api\\orion.core\\greedyalgorithmns\\validstartingcityclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{08015DD1-EA88-4206-9291-ED52EFFEF78D}|ORION.Core\\ORION.Core.csproj|solutionrelative:orion.core\\greedyalgorithmns\\validstartingcityclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{08015DD1-EA88-4206-9291-ED52EFFEF78D}|ORION.Core\\ORION.Core.csproj|c:\\x\\orion.api\\orion.core\\heaps\\minheapconstructionclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{08015DD1-EA88-4206-9291-ED52EFFEF78D}|ORION.Core\\ORION.Core.csproj|solutionrelative:orion.core\\heaps\\minheapconstructionclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{08015DD1-EA88-4206-9291-ED52EFFEF78D}|ORION.Core\\ORION.Core.csproj|c:\\x\\orion.api\\orion.core\\greedyalgorithmns\\taskassignmentclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{08015DD1-EA88-4206-9291-ED52EFFEF78D}|ORION.Core\\ORION.Core.csproj|solutionrelative:orion.core\\greedyalgorithmns\\taskassignmentclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{08015DD1-EA88-4206-9291-ED52EFFEF78D}|ORION.Core\\ORION.Core.csproj|c:\\x\\orion.api\\orion.core\\heaps\\mergesortedarraysclass2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{08015DD1-EA88-4206-9291-ED52EFFEF78D}|ORION.Core\\ORION.Core.csproj|solutionrelative:orion.core\\heaps\\mergesortedarraysclass2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{08015DD1-EA88-4206-9291-ED52EFFEF78D}|ORION.Core\\ORION.Core.csproj|c:\\x\\orion.api\\orion.core\\greedyalgorithmns\\tandembicycleclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{08015DD1-EA88-4206-9291-ED52EFFEF78D}|ORION.Core\\ORION.Core.csproj|solutionrelative:orion.core\\greedyalgorithmns\\tandembicycleclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{08015DD1-EA88-4206-9291-ED52EFFEF78D}|ORION.Core\\ORION.Core.csproj|c:\\x\\orion.api\\orion.core\\heaps\\mergesortedarraysclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{08015DD1-EA88-4206-9291-ED52EFFEF78D}|ORION.Core\\ORION.Core.csproj|solutionrelative:orion.core\\heaps\\mergesortedarraysclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{08015DD1-EA88-4206-9291-ED52EFFEF78D}|ORION.Core\\ORION.Core.csproj|c:\\x\\orion.api\\orion.core\\greedyalgorithmns\\optimalfreelancingclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{08015DD1-EA88-4206-9291-ED52EFFEF78D}|ORION.Core\\ORION.Core.csproj|solutionrelative:orion.core\\greedyalgorithmns\\optimalfreelancingclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{08015DD1-EA88-4206-9291-ED52EFFEF78D}|ORION.Core\\ORION.Core.csproj|c:\\x\\orion.api\\orion.core\\greedyalgorithmns\\minimumwaitingtimeclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{08015DD1-EA88-4206-9291-ED52EFFEF78D}|ORION.Core\\ORION.Core.csproj|solutionrelative:orion.core\\greedyalgorithmns\\minimumwaitingtimeclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{08015DD1-EA88-4206-9291-ED52EFFEF78D}|ORION.Core\\ORION.Core.csproj|c:\\x\\orion.api\\orion.core\\heaps\\continuousmedianclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{08015DD1-EA88-4206-9291-ED52EFFEF78D}|ORION.Core\\ORION.Core.csproj|solutionrelative:orion.core\\heaps\\continuousmedianclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -51,66 +47,53 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "ValidStartingCityClass.cs",
-              "DocumentMoniker": "C:\\x\\ORION.API\\ORION.Core\\GreedyAlgorithmns\\ValidStartingCityClass.cs",
-              "RelativeDocumentMoniker": "ORION.Core\\GreedyAlgorithmns\\ValidStartingCityClass.cs",
-              "ToolTip": "C:\\x\\ORION.API\\ORION.Core\\GreedyAlgorithmns\\ValidStartingCityClass.cs",
-              "RelativeToolTip": "ORION.Core\\GreedyAlgorithmns\\ValidStartingCityClass.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAmAAAA",
+              "Title": "MinHeapConstructionClass.cs",
+              "DocumentMoniker": "C:\\x\\ORION.API\\ORION.Core\\Heaps\\MinHeapConstructionClass.cs",
+              "RelativeDocumentMoniker": "ORION.Core\\Heaps\\MinHeapConstructionClass.cs",
+              "ToolTip": "C:\\x\\ORION.API\\ORION.Core\\Heaps\\MinHeapConstructionClass.cs",
+              "RelativeToolTip": "ORION.Core\\Heaps\\MinHeapConstructionClass.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAA5wAYAAAARAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-01T11:50:35.147Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "TaskAssignmentClass.cs",
-              "DocumentMoniker": "C:\\x\\ORION.API\\ORION.Core\\GreedyAlgorithmns\\TaskAssignmentClass.cs",
-              "RelativeDocumentMoniker": "ORION.Core\\GreedyAlgorithmns\\TaskAssignmentClass.cs",
-              "ToolTip": "C:\\x\\ORION.API\\ORION.Core\\GreedyAlgorithmns\\TaskAssignmentClass.cs",
-              "RelativeToolTip": "ORION.Core\\GreedyAlgorithmns\\TaskAssignmentClass.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAmAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-01T11:50:28.124Z",
+              "WhenOpened": "2024-07-01T11:52:22.9Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "TandemBicycleClass.cs",
-              "DocumentMoniker": "C:\\x\\ORION.API\\ORION.Core\\GreedyAlgorithmns\\TandemBicycleClass.cs",
-              "RelativeDocumentMoniker": "ORION.Core\\GreedyAlgorithmns\\TandemBicycleClass.cs",
-              "ToolTip": "C:\\x\\ORION.API\\ORION.Core\\GreedyAlgorithmns\\TandemBicycleClass.cs",
-              "RelativeToolTip": "ORION.Core\\GreedyAlgorithmns\\TandemBicycleClass.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAKAAAA",
+              "Title": "MergeSortedArraysClass.cs",
+              "DocumentMoniker": "C:\\x\\ORION.API\\ORION.Core\\Heaps\\MergeSortedArraysClass.cs",
+              "RelativeDocumentMoniker": "ORION.Core\\Heaps\\MergeSortedArraysClass.cs",
+              "ToolTip": "C:\\x\\ORION.API\\ORION.Core\\Heaps\\MergeSortedArraysClass.cs",
+              "RelativeToolTip": "ORION.Core\\Heaps\\MergeSortedArraysClass.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAArAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-01T11:50:12.464Z",
+              "WhenOpened": "2024-07-01T11:52:03.252Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "OptimalFreelancingClass.cs",
-              "DocumentMoniker": "C:\\x\\ORION.API\\ORION.Core\\GreedyAlgorithmns\\OptimalFreelancingClass.cs",
-              "RelativeDocumentMoniker": "ORION.Core\\GreedyAlgorithmns\\OptimalFreelancingClass.cs",
-              "ToolTip": "C:\\x\\ORION.API\\ORION.Core\\GreedyAlgorithmns\\OptimalFreelancingClass.cs",
-              "RelativeToolTip": "ORION.Core\\GreedyAlgorithmns\\OptimalFreelancingClass.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAAAOAAAA",
+              "Title": "ContinuousMedianClass.cs",
+              "DocumentMoniker": "C:\\x\\ORION.API\\ORION.Core\\Heaps\\ContinuousMedianClass.cs",
+              "RelativeDocumentMoniker": "ORION.Core\\Heaps\\ContinuousMedianClass.cs",
+              "ToolTip": "C:\\x\\ORION.API\\ORION.Core\\Heaps\\ContinuousMedianClass.cs",
+              "RelativeToolTip": "ORION.Core\\Heaps\\ContinuousMedianClass.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAARAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-01T11:49:55.236Z",
+              "WhenOpened": "2024-07-01T11:51:53.264Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "MinimumWaitingTimeClass.cs",
-              "DocumentMoniker": "C:\\x\\ORION.API\\ORION.Core\\GreedyAlgorithmns\\MinimumWaitingTimeClass.cs",
-              "RelativeDocumentMoniker": "ORION.Core\\GreedyAlgorithmns\\MinimumWaitingTimeClass.cs",
-              "ToolTip": "C:\\x\\ORION.API\\ORION.Core\\GreedyAlgorithmns\\MinimumWaitingTimeClass.cs",
-              "RelativeToolTip": "ORION.Core\\GreedyAlgorithmns\\MinimumWaitingTimeClass.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAOAAAA",
+              "DocumentIndex": 1,
+              "Title": "MergeSortedArraysClass2.cs",
+              "DocumentMoniker": "C:\\x\\ORION.API\\ORION.Core\\Heaps\\MergeSortedArraysClass2.cs",
+              "RelativeDocumentMoniker": "ORION.Core\\Heaps\\MergeSortedArraysClass2.cs",
+              "ToolTip": "C:\\x\\ORION.API\\ORION.Core\\Heaps\\MergeSortedArraysClass2.cs",
+              "RelativeToolTip": "ORION.Core\\Heaps\\MergeSortedArraysClass2.cs",
+              "ViewState": "AQIAAIAAAAAAAAAAAAAQwAsAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-01T11:49:46.031Z",
+              "WhenOpened": "2024-07-01T11:51:25.197Z",
               "EditorCaption": ""
             }
           ]

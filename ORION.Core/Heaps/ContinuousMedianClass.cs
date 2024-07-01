@@ -1,6 +1,7 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 
-namespace ContinuousMedian
+namespace ORION.Core.Heaps
 {
     public class ContinuousMedianClass
     {
