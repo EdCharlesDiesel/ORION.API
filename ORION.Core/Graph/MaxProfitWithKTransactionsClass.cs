@@ -1,4 +1,6 @@
-﻿namespace MaxProfitWithKTransactions
+﻿using System;
+
+namespace ORION.Core.Graphs
 {
     public class MaxProfitWithKTransactionsClass
     {

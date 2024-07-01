@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace BoggleBoard
+namespace ORION.Core.Graphs
 {
     public class BoggleBoardClass
     {

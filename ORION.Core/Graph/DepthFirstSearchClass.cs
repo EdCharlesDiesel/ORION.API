@@ -1,6 +1,7 @@
 ﻿using System;
+using System.Collections.Generic;
 
-namespace DepthFirstSearch
+namespace ORION.Core.Graphs
 {
     public class DepthFirstSearchClass
     {

@@ -1,8 +1,8 @@
 ﻿using System.Collections.Generic;
 using System.Drawing;
 
-namespace RectangleMania
-{
+namespace ORION.Core.Graphs
+{ 
     public class RectangleManiaClass
     {
         static string UP = "up";

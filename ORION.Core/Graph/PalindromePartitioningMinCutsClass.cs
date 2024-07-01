@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace PalindromePartitioningMinCuts
+namespace ORION.Core.Graphs
 {
     public class PalindromePartitioningMinCutsClass
     {

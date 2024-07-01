@@ -1,4 +1,7 @@
-﻿namespace LongestIncreasingSubsequence
+﻿using System;
+using System.Collections.Generic;
+
+namespace ORION.Core.Graphs
 {
     public class LongestIncreasingSubsequenceClass
     {

@@ -1,4 +1,6 @@
-﻿namespace RiverSizes
+﻿using System.Collections.Generic;
+
+namespace ORION.Core.Graphs
 {
     public class RiverSizesClass
     {

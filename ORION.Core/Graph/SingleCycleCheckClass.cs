@@ -1,4 +1,4 @@
-﻿namespace SingleCycleCheck
+﻿namespace ORION.Core.Graphs
 {
     public class SingleCycleCheckClass
     {

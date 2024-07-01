@@ -1,4 +1,4 @@
-﻿namespace YoungestCommonAncestor
+﻿namespace ORION.Core.Graphs
 {
     public class YoungestCommonAncestorClass
     {

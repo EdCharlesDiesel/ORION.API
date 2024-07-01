@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace RectangleMania
+namespace ORION.Core.Graphs
 {
     internal class RectangleManiaClass2
     {
