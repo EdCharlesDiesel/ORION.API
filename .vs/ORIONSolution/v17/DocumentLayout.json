@@ -1,7 +1,20 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\x\\ORION.API\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{08015DD1-EA88-4206-9291-ED52EFFEF78D}|ORION.Core\\ORION.Core.csproj|c:\\x\\orion.api\\orion.core\\13_tries\\multistringsearchclass2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{08015DD1-EA88-4206-9291-ED52EFFEF78D}|ORION.Core\\ORION.Core.csproj|solutionrelative:orion.core\\13_tries\\multistringsearchclass2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{08015DD1-EA88-4206-9291-ED52EFFEF78D}|ORION.Core\\ORION.Core.csproj|c:\\x\\orion.api\\orion.core\\13_tries\\multistringsearchclass3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{08015DD1-EA88-4206-9291-ED52EFFEF78D}|ORION.Core\\ORION.Core.csproj|solutionrelative:orion.core\\13_tries\\multistringsearchclass3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{08015DD1-EA88-4206-9291-ED52EFFEF78D}|ORION.Core\\ORION.Core.csproj|c:\\x\\orion.api\\orion.core\\07_linkedlist\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{08015DD1-EA88-4206-9291-ED52EFFEF78D}|ORION.Core\\ORION.Core.csproj|solutionrelative:orion.core\\07_linkedlist\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -26,6 +39,45 @@
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MultiStringSearchClass3.cs",
+              "DocumentMoniker": "C:\\x\\ORION.API\\ORION.Core\\13_Tries\\MultiStringSearchClass3.cs",
+              "RelativeDocumentMoniker": "ORION.Core\\13_Tries\\MultiStringSearchClass3.cs",
+              "ToolTip": "C:\\x\\ORION.API\\ORION.Core\\13_Tries\\MultiStringSearchClass3.cs",
+              "RelativeToolTip": "ORION.Core\\13_Tries\\MultiStringSearchClass3.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-01T11:02:58.955Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MultiStringSearchClass2.cs",
+              "DocumentMoniker": "C:\\x\\ORION.API\\ORION.Core\\13_Tries\\MultiStringSearchClass2.cs",
+              "RelativeDocumentMoniker": "ORION.Core\\13_Tries\\MultiStringSearchClass2.cs",
+              "ToolTip": "C:\\x\\ORION.API\\ORION.Core\\13_Tries\\MultiStringSearchClass2.cs",
+              "RelativeToolTip": "ORION.Core\\13_Tries\\MultiStringSearchClass2.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-01T11:02:29.587Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "C:\\x\\ORION.API\\ORION.Core\\07_LinkedList\\Class1.cs",
+              "RelativeDocumentMoniker": "ORION.Core\\07_LinkedList\\Class1.cs",
+              "ToolTip": "C:\\x\\ORION.API\\ORION.Core\\07_LinkedList\\Class1.cs",
+              "RelativeToolTip": "ORION.Core\\07_LinkedList\\Class1.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-01T10:55:12.282Z",
+              "EditorCaption": ""
             }
           ]
         }

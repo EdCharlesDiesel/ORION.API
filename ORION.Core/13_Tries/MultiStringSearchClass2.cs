@@ -5,10 +5,12 @@
 //using System.Text;
 //using System.Threading.Tasks;
 
-//namespace MultiStringSearch
-//{
-//    internal class MultiStringSearchClass2
-//    {
+namespace ORION.Core.Tries
+{
+    internal class MultiStringSearchClass2
+    {
+    }
+}
 //        // O(b^2 + ns) time | O(b^2 + n) space
 //        public static List<bool> MultistringSearch(string bigstring, string[] smallstrings)
 //        {

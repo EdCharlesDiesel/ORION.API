@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace MultiStringSearch
+namespace ORION.Core.Tries
 {
     internal class MultiStringSearchClass3
     {
