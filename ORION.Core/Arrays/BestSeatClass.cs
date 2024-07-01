@@ -1,4 +1,4 @@
-﻿namespace ORION.Core
+﻿namespace ORION.Core.Arrays
 {
     /// <summary>
     /// You walk inti a theatre you're about to see a show in. The usher within the theatre walks

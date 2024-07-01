@@ -1,4 +1,4 @@
-﻿namespace ORION.Core
+﻿namespace ORION.Core.Arrays
 {
     /// <summary>
     /// Write a function that takes in a sorted array of distinct

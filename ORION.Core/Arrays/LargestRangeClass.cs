@@ -1,4 +1,6 @@
-﻿namespace ORION.Core
+﻿using System.Collections.Generic;
+
+namespace ORION.Core.Arrays
 {
     /// <summary>
     /// 

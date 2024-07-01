@@ -1,7 +1,7 @@
 ﻿
 using System;
 
-namespace ORION.Core
+namespace ORION.Core.Arrays
 {
     /// <summary>
     /// Given an array between 1 and n, inclusive, where n is 

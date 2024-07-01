@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace NonConstructibleChange
+namespace ORION.Core.Arrays
 {
     /// <summary>
     /// Given an array of positive integers representing the values of coins in your possession,

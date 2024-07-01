@@ -1,4 +1,6 @@
-﻿namespace MissingNumbers
+﻿using System.Collections.Generic;
+
+namespace ORION.Core.Arrays
 {
     public class MissingNumbersClass
     {

@@ -1,4 +1,7 @@
-﻿namespace MinRewards
+﻿using System;
+using System.Linq;
+
+namespace ORION.Core.Arrays
 {
     public class MinRewardsClass
     {

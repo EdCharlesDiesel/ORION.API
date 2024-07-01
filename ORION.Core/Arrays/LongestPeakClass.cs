@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace ORION.Core
+namespace ORION.Core.Arrays
 {
     public class LongestPeakClass
     {

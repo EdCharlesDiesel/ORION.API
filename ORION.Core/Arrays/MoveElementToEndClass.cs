@@ -1,4 +1,6 @@
-﻿namespace MoveElementToEnd
+﻿using System.Collections.Generic;
+
+namespace ORION.Core.Arrays
 {
     /// <summary>
     /// You're given an array of integers ann integer. Write afunction that moves all instance  of

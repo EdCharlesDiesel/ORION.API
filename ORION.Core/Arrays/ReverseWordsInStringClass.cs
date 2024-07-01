@@ -1,4 +1,7 @@
-﻿namespace ReverseWordsInString
+﻿using System;
+using System.Collections.Generic;
+
+namespace ORION.Core.Arrays
 {
     public class ReverseWordsInStringClass
     {

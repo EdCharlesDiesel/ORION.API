@@ -3,16 +3,36 @@
   "WorkspaceRootPath": "C:\\x\\ORION.API\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{08015DD1-EA88-4206-9291-ED52EFFEF78D}|ORION.Core\\ORION.Core.csproj|c:\\x\\orion.api\\orion.core\\13_tries\\multistringsearchclass2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{08015DD1-EA88-4206-9291-ED52EFFEF78D}|ORION.Core\\ORION.Core.csproj|solutionrelative:orion.core\\13_tries\\multistringsearchclass2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{08015DD1-EA88-4206-9291-ED52EFFEF78D}|ORION.Core\\ORION.Core.csproj|c:\\x\\orion.api\\orion.core\\arrays\\reversewordsinstringclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{08015DD1-EA88-4206-9291-ED52EFFEF78D}|ORION.Core\\ORION.Core.csproj|solutionrelative:orion.core\\arrays\\reversewordsinstringclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{08015DD1-EA88-4206-9291-ED52EFFEF78D}|ORION.Core\\ORION.Core.csproj|c:\\x\\orion.api\\orion.core\\13_tries\\multistringsearchclass3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{08015DD1-EA88-4206-9291-ED52EFFEF78D}|ORION.Core\\ORION.Core.csproj|solutionrelative:orion.core\\13_tries\\multistringsearchclass3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{08015DD1-EA88-4206-9291-ED52EFFEF78D}|ORION.Core\\ORION.Core.csproj|c:\\x\\orion.api\\orion.core\\arrays\\nonconstructiblechangeclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{08015DD1-EA88-4206-9291-ED52EFFEF78D}|ORION.Core\\ORION.Core.csproj|solutionrelative:orion.core\\arrays\\nonconstructiblechangeclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{08015DD1-EA88-4206-9291-ED52EFFEF78D}|ORION.Core\\ORION.Core.csproj|c:\\x\\orion.api\\orion.core\\07_linkedlist\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{08015DD1-EA88-4206-9291-ED52EFFEF78D}|ORION.Core\\ORION.Core.csproj|solutionrelative:orion.core\\07_linkedlist\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{08015DD1-EA88-4206-9291-ED52EFFEF78D}|ORION.Core\\ORION.Core.csproj|c:\\x\\orion.api\\orion.core\\arrays\\moveelementtoendclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{08015DD1-EA88-4206-9291-ED52EFFEF78D}|ORION.Core\\ORION.Core.csproj|solutionrelative:orion.core\\arrays\\moveelementtoendclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{08015DD1-EA88-4206-9291-ED52EFFEF78D}|ORION.Core\\ORION.Core.csproj|c:\\x\\orion.api\\orion.core\\arrays\\monotonicarrayclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{08015DD1-EA88-4206-9291-ED52EFFEF78D}|ORION.Core\\ORION.Core.csproj|solutionrelative:orion.core\\arrays\\monotonicarrayclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{08015DD1-EA88-4206-9291-ED52EFFEF78D}|ORION.Core\\ORION.Core.csproj|c:\\x\\orion.api\\orion.core\\arrays\\missingnumbersclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{08015DD1-EA88-4206-9291-ED52EFFEF78D}|ORION.Core\\ORION.Core.csproj|solutionrelative:orion.core\\arrays\\missingnumbersclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{08015DD1-EA88-4206-9291-ED52EFFEF78D}|ORION.Core\\ORION.Core.csproj|c:\\x\\orion.api\\orion.core\\arrays\\minrewardsclass3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{08015DD1-EA88-4206-9291-ED52EFFEF78D}|ORION.Core\\ORION.Core.csproj|solutionrelative:orion.core\\arrays\\minrewardsclass3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{08015DD1-EA88-4206-9291-ED52EFFEF78D}|ORION.Core\\ORION.Core.csproj|c:\\x\\orion.api\\orion.core\\arrays\\minrewardsclass2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{08015DD1-EA88-4206-9291-ED52EFFEF78D}|ORION.Core\\ORION.Core.csproj|solutionrelative:orion.core\\arrays\\minrewardsclass2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{08015DD1-EA88-4206-9291-ED52EFFEF78D}|ORION.Core\\ORION.Core.csproj|c:\\x\\orion.api\\orion.core\\arrays\\minrewardsclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{08015DD1-EA88-4206-9291-ED52EFFEF78D}|ORION.Core\\ORION.Core.csproj|solutionrelative:orion.core\\arrays\\minrewardsclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,7 +42,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -42,41 +62,106 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "MultiStringSearchClass3.cs",
-              "DocumentMoniker": "C:\\x\\ORION.API\\ORION.Core\\13_Tries\\MultiStringSearchClass3.cs",
-              "RelativeDocumentMoniker": "ORION.Core\\13_Tries\\MultiStringSearchClass3.cs",
-              "ToolTip": "C:\\x\\ORION.API\\ORION.Core\\13_Tries\\MultiStringSearchClass3.cs",
-              "RelativeToolTip": "ORION.Core\\13_Tries\\MultiStringSearchClass3.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAaAAAA",
+              "DocumentIndex": 0,
+              "Title": "ReverseWordsInStringClass.cs",
+              "DocumentMoniker": "C:\\x\\ORION.API\\ORION.Core\\Arrays\\ReverseWordsInStringClass.cs",
+              "RelativeDocumentMoniker": "ORION.Core\\Arrays\\ReverseWordsInStringClass.cs",
+              "ToolTip": "C:\\x\\ORION.API\\ORION.Core\\Arrays\\ReverseWordsInStringClass.cs",
+              "RelativeToolTip": "ORION.Core\\Arrays\\ReverseWordsInStringClass.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB4AAAAUAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-01T11:02:58.955Z",
+              "WhenOpened": "2024-07-01T11:17:10.235Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "MultiStringSearchClass2.cs",
-              "DocumentMoniker": "C:\\x\\ORION.API\\ORION.Core\\13_Tries\\MultiStringSearchClass2.cs",
-              "RelativeDocumentMoniker": "ORION.Core\\13_Tries\\MultiStringSearchClass2.cs",
-              "ToolTip": "C:\\x\\ORION.API\\ORION.Core\\13_Tries\\MultiStringSearchClass2.cs",
-              "RelativeToolTip": "ORION.Core\\13_Tries\\MultiStringSearchClass2.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAaAAAA",
+              "DocumentIndex": 1,
+              "Title": "NonConstructibleChangeClass.cs",
+              "DocumentMoniker": "C:\\x\\ORION.API\\ORION.Core\\Arrays\\NonConstructibleChangeClass.cs",
+              "RelativeDocumentMoniker": "ORION.Core\\Arrays\\NonConstructibleChangeClass.cs",
+              "ToolTip": "C:\\x\\ORION.API\\ORION.Core\\Arrays\\NonConstructibleChangeClass.cs",
+              "RelativeToolTip": "ORION.Core\\Arrays\\NonConstructibleChangeClass.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAbAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-01T11:02:29.587Z",
+              "WhenOpened": "2024-07-01T11:17:04.62Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Class1.cs",
-              "DocumentMoniker": "C:\\x\\ORION.API\\ORION.Core\\07_LinkedList\\Class1.cs",
-              "RelativeDocumentMoniker": "ORION.Core\\07_LinkedList\\Class1.cs",
-              "ToolTip": "C:\\x\\ORION.API\\ORION.Core\\07_LinkedList\\Class1.cs",
-              "RelativeToolTip": "ORION.Core\\07_LinkedList\\Class1.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAUAAAA",
+              "Title": "MoveElementToEndClass.cs",
+              "DocumentMoniker": "C:\\x\\ORION.API\\ORION.Core\\Arrays\\MoveElementToEndClass.cs",
+              "RelativeDocumentMoniker": "ORION.Core\\Arrays\\MoveElementToEndClass.cs",
+              "ToolTip": "C:\\x\\ORION.API\\ORION.Core\\Arrays\\MoveElementToEndClass.cs",
+              "RelativeToolTip": "ORION.Core\\Arrays\\MoveElementToEndClass.cs",
+              "ViewState": "AQIAABYAAAAAAAAAAAAgwA0AAAAZAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-01T10:55:12.282Z",
+              "WhenOpened": "2024-07-01T11:16:55.737Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MonotonicArrayClass.cs",
+              "DocumentMoniker": "C:\\x\\ORION.API\\ORION.Core\\Arrays\\MonotonicArrayClass.cs",
+              "RelativeDocumentMoniker": "ORION.Core\\Arrays\\MonotonicArrayClass.cs",
+              "ToolTip": "C:\\x\\ORION.API\\ORION.Core\\Arrays\\MonotonicArrayClass.cs",
+              "RelativeToolTip": "ORION.Core\\Arrays\\MonotonicArrayClass.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-01T11:16:50.61Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MissingNumbersClass.cs",
+              "DocumentMoniker": "C:\\x\\ORION.API\\ORION.Core\\Arrays\\MissingNumbersClass.cs",
+              "RelativeDocumentMoniker": "ORION.Core\\Arrays\\MissingNumbersClass.cs",
+              "ToolTip": "C:\\x\\ORION.API\\ORION.Core\\Arrays\\MissingNumbersClass.cs",
+              "RelativeToolTip": "ORION.Core\\Arrays\\MissingNumbersClass.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-01T11:16:47.747Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MinRewardsClass3.cs",
+              "DocumentMoniker": "C:\\x\\ORION.API\\ORION.Core\\Arrays\\MinRewardsClass3.cs",
+              "RelativeDocumentMoniker": "ORION.Core\\Arrays\\MinRewardsClass3.cs",
+              "ToolTip": "C:\\x\\ORION.API\\ORION.Core\\Arrays\\MinRewardsClass3.cs",
+              "RelativeToolTip": "ORION.Core\\Arrays\\MinRewardsClass3.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-01T11:16:39.083Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "MinRewardsClass2.cs",
+              "DocumentMoniker": "C:\\x\\ORION.API\\ORION.Core\\Arrays\\MinRewardsClass2.cs",
+              "RelativeDocumentMoniker": "ORION.Core\\Arrays\\MinRewardsClass2.cs",
+              "ToolTip": "C:\\x\\ORION.API\\ORION.Core\\Arrays\\MinRewardsClass2.cs",
+              "RelativeToolTip": "ORION.Core\\Arrays\\MinRewardsClass2.cs",
+              "ViewState": "AQIAACkAAAAAAAAAAAAwwAMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-01T11:16:26.282Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "MinRewardsClass.cs",
+              "DocumentMoniker": "C:\\x\\ORION.API\\ORION.Core\\Arrays\\MinRewardsClass.cs",
+              "RelativeDocumentMoniker": "ORION.Core\\Arrays\\MinRewardsClass.cs",
+              "ToolTip": "C:\\x\\ORION.API\\ORION.Core\\Arrays\\MinRewardsClass.cs",
+              "RelativeToolTip": "ORION.Core\\Arrays\\MinRewardsClass.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAQwB0AAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-01T11:16:11.302Z",
               "EditorCaption": ""
             }
           ]

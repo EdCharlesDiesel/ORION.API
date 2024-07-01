@@ -1,4 +1,4 @@
-﻿namespace MedianOfTwoSortedArrays
+﻿namespace ORION.Core.Arrays
 {
     /// <summary>
     /// You're given two sorted arrays of integers arrayOne and

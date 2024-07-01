@@ -1,4 +1,4 @@
-﻿namespace MonotonicArray
+﻿namespace ORION.Core.Arrays
 {
 
     /// <summary>
