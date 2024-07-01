@@ -11,10 +11,8 @@ C:\x\ORION.API\ORION.HumanResources.Test\obj\Debug\net6.0\ORION.HumanResources.T
 C:\x\ORION.API\ORION.HumanResources.Test\obj\Debug\net6.0\ORION.HumanResources.Test.AssemblyInfo.cs
 C:\x\ORION.API\ORION.HumanResources.Test\obj\Debug\net6.0\ORION.HumanResources.Test.csproj.CoreCompileInputs.cache
 C:\x\ORION.API\ORION.HumanResources.Test\obj\Debug\net6.0\ORION.HumanResources.Test.sourcelink.json
-C:\x\ORION.API\ORION.HumanResources.Test\bin\Debug\net6.0\CoverletSourceRootsMapping
 C:\x\ORION.API\ORION.HumanResources.Test\bin\Debug\net6.0\testhost.exe
 C:\x\ORION.API\ORION.HumanResources.Test\bin\Debug\net6.0\testhost.dll
-C:\x\ORION.API\ORION.HumanResources.Test\bin\Debug\net6.0\xunit.runner.visualstudio.dotnetcore.testadapter.dll
 C:\x\ORION.API\ORION.HumanResources.Test\bin\Debug\net6.0\xunit.runner.reporters.netcoreapp10.dll
 C:\x\ORION.API\ORION.HumanResources.Test\bin\Debug\net6.0\xunit.runner.utility.netcoreapp10.dll
 C:\x\ORION.API\ORION.HumanResources.Test\bin\Debug\net6.0\ORION.HumanResources.deps.json
@@ -48,7 +46,6 @@ C:\x\ORION.API\ORION.HumanResources.Test\bin\Debug\net6.0\Microsoft.TestPlatform
 C:\x\ORION.API\ORION.HumanResources.Test\bin\Debug\net6.0\Microsoft.VisualStudio.TestPlatform.Common.dll
 C:\x\ORION.API\ORION.HumanResources.Test\bin\Debug\net6.0\Moq.dll
 C:\x\ORION.API\ORION.HumanResources.Test\bin\Debug\net6.0\Newtonsoft.Json.dll
-C:\x\ORION.API\ORION.HumanResources.Test\bin\Debug\net6.0\NuGet.Frameworks.dll
 C:\x\ORION.API\ORION.HumanResources.Test\bin\Debug\net6.0\SQLitePCLRaw.batteries_v2.dll
 C:\x\ORION.API\ORION.HumanResources.Test\bin\Debug\net6.0\SQLitePCLRaw.core.dll
 C:\x\ORION.API\ORION.HumanResources.Test\bin\Debug\net6.0\SQLitePCLRaw.provider.e_sqlite3.dll
@@ -147,3 +144,6 @@ C:\x\ORION.API\ORION.HumanResources.Test\obj\Debug\net6.0\refint\ORION.HumanReso
 C:\x\ORION.API\ORION.HumanResources.Test\obj\Debug\net6.0\ORION.HumanResources.Test.pdb
 C:\x\ORION.API\ORION.HumanResources.Test\obj\Debug\net6.0\ORION.HumanResources.Test.genruntimeconfig.cache
 C:\x\ORION.API\ORION.HumanResources.Test\obj\Debug\net6.0\ref\ORION.HumanResources.Test.dll
+C:\x\ORION.API\ORION.HumanResources.Test\bin\Debug\net6.0\.msCoverageSourceRootsMapping_ORION.HumanResources.Test
+C:\x\ORION.API\ORION.HumanResources.Test\bin\Debug\net6.0\CoverletSourceRootsMapping_ORION.HumanResources.Test
+C:\x\ORION.API\ORION.HumanResources.Test\bin\Debug\net6.0\xunit.runner.visualstudio.testadapter.dll

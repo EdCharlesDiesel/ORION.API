@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "3qdgcuZ9WhM=",
+  "dgSpecHash": "uGM10kAUUKo=",
   "success": true,
   "projectFilePath": "C:\\x\\ORION.API\\ORION.HumanResources\\ORION.HumanResources.csproj",
   "expectedPackageFiles": [
@@ -43,11 +43,7 @@
     "C:\\Users\\user\\.nuget\\packages\\system.memory\\4.5.4\\system.memory.4.5.4.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\system.text.encodings.web\\6.0.0\\system.text.encodings.web.6.0.0.nupkg.sha512",
-    "C:\\Users\\user\\.nuget\\packages\\system.text.json\\6.0.0\\system.text.json.6.0.0.nupkg.sha512",
-    "C:\\Users\\user\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.31\\microsoft.windowsdesktop.app.ref.6.0.31.nupkg.sha512",
-    "C:\\Users\\user\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.31\\microsoft.netcore.app.ref.6.0.31.nupkg.sha512",
-    "C:\\Users\\user\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.31\\microsoft.aspnetcore.app.ref.6.0.31.nupkg.sha512",
-    "C:\\Users\\user\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.31\\microsoft.netcore.app.host.win-x64.6.0.31.nupkg.sha512"
+    "C:\\Users\\user\\.nuget\\packages\\system.text.json\\6.0.0\\system.text.json.6.0.0.nupkg.sha512"
   ],
   "logs": []
 }

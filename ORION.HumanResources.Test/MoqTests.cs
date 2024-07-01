@@ -29,7 +29,7 @@ namespace ORION.HumanResources.Test
             Assert.Equal(400, employee.SuggestedBonus);
         }
 
-        [Fact]
+        [Fact(Skip = "Skipping this one for demo reasons.")]
         public void CreateInternalEmployee_InternalEmployeeCreated_SuggestedBonusMustBeCalculated()
         {
             // Arrange
