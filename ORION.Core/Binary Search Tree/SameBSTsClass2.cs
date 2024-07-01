@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SameBSTs
+namespace ORION.Core.BinarySearchTree
 {
     internal class SameBSTsClass2
     {

@@ -1,4 +1,6 @@
-﻿namespace BTSTaversal
+﻿using System.Collections.Generic;
+
+namespace ORION.Core.BinarySearchTree
 {
     public class BTSTaversalClass
     {

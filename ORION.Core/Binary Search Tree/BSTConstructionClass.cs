@@ -1,4 +1,4 @@
-﻿namespace BSTConstruction
+﻿namespace ORION.Core.BinarySearchTree
 {
     public class BSTConstructionClass
     {

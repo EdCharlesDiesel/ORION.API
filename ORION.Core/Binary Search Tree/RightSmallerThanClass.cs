@@ -1,8 +1,8 @@
 ﻿using System.Collections.Generic;
 
-namespace RightSmallerThan
+namespace ORION.Core.BinarySearchTree 
 {
-    public class Class1
+    public class RightSmallerThanClass
     {
         // O(n^2) time | O(n) space - where n is the length of the array
         public static List<int> RightSmallerThan(List<int> array)

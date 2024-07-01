@@ -1,4 +1,6 @@
-﻿namespace FindClosestValueInBst
+﻿using System;
+
+namespace ORION.Core.BinarySearchTree
 {
   /// <summary>
   /// Write a function that takes in a Binary Tree(BTS) and a target integer value and returns

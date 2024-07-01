@@ -1,4 +1,6 @@
-﻿namespace ValidateBST
+﻿using System;
+
+namespace ORION.Core.BinarySearchTree
 {
     public class ValidateBSTClass
     {

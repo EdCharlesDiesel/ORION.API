@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace MinHeightBST
+namespace ORION.Core.BinarySearchTree
 {
     public class MinHeightBSTClass
     {

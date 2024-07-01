@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace SameBSTs
+namespace ORION.Core.BinarySearchTree
 {
     public class SameBSTsClass
     {
