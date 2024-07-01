@@ -1,4 +1,4 @@
-﻿namespace RemoveNthNodeFromEnd
+﻿namespace ORION.Core.LinkedList
 {
     public class RemoveNthNodeFromEndClass
     {

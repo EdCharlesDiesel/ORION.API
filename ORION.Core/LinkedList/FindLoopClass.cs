@@ -1,4 +1,4 @@
-﻿namespace FindLoop
+﻿namespace ORION.Core.LinkedList
 {
     public class FindLoopClass
     {

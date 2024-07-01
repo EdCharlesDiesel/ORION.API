@@ -1,4 +1,4 @@
-﻿namespace RemoveDuplicatesFromLinkedList
+﻿namespace ORION.Core.LinkedList
 {
     /// <summary>
     /// 

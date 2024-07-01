@@ -1,6 +1,6 @@
 ﻿using System.Collections;
 
-namespace MiddleNode
+namespace ORION.Core.LinkedList
 {
     public class MiddleNodeClass
     {

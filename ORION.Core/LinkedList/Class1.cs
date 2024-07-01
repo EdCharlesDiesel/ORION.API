@@ -1,4 +1,4 @@
-﻿namespace ORION.Core
+﻿namespace ORION.Core.LinkedList
 {
     public class Class1
     { }

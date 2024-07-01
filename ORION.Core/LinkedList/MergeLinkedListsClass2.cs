@@ -1,4 +1,4 @@
-﻿namespace MergeLinkedLists
+﻿namespace ORION.Core.LinkedList
 {
     internal class MergeLinkedListsClass2
     {

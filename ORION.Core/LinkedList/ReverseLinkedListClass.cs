@@ -1,4 +1,4 @@
-﻿namespace ReverseLinkedList
+﻿namespace ORION.Core.LinkedList
 {
     public class ReverseLinkedListClass
     {

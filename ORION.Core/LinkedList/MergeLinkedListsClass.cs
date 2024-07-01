@@ -1,5 +1,5 @@
 ﻿
-namespace MergeLinkedLists
+namespace ORION.Core.LinkedList
 {
     public class LinkedListClass
     {
