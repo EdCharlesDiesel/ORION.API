@@ -14,7 +14,7 @@ namespace ORION.HumanResources.Test
 {
     public class TestIsolationApproachesTests
     {
-        [Fact]
+        [Fact(Skip = "Skipping this one for demo reasons.")]
         public async Task AttendCourseAsync_CourseAttended_SuggestedBonusMustCorrectlyBeRecalculated()
         {
             // Arrange

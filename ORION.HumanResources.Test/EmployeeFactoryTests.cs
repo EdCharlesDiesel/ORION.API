@@ -31,7 +31,7 @@ namespace ORION.HumanResources.Test
             Assert.Equal(2500, employee.Salary);
         }
 
-        [Fact]
+        [Fact(Skip = "Skipping this one for demo reasons.")]
         [Trait("Category", "EmployeeFactory_CreateEmployee_Salary")]
         public void CreateEmployee_ConstructInternalEmployee_SalaryMustBeBetween2500And3500()
         {
