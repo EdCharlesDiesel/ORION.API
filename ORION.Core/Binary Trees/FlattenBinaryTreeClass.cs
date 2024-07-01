@@ -1,5 +1,5 @@
 ﻿using System.Collections.Generic;
-namespace FlattenBinaryTree
+namespace ORION.Core.BinaryTrees
 {
     public class FlattenBinaryTreeClass
     {

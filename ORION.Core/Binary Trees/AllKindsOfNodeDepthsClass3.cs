@@ -1,4 +1,4 @@
-﻿namespace AllKindsOfNodeDepths
+﻿namespace ORION.Core.BinaryTrees
 {
     public class AllKindsOfNodeDepthsClass3
     {

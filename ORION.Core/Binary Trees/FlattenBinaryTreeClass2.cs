@@ -1,4 +1,4 @@
-﻿namespace FlattenBinaryTree
+﻿namespace ORION.Core.BinaryTrees
 {
     internal class FlattenBinaryTreeClass2
     {

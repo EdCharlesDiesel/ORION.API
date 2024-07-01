@@ -1,4 +1,6 @@
-﻿namespace NodeDepths
+﻿using ORION.Core.BinaryTrees;
+
+namespace ORION.Core.BinaryTrees
 {
     public class NodeDepthsClass_Solution2
     {

@@ -1,4 +1,4 @@
-﻿namespace RightSiblingTree
+﻿namespace ORION.Core.BinaryTrees
 {
     public class RightSiblingTreeClass
     {

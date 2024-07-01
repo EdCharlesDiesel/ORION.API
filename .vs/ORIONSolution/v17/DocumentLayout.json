@@ -3,40 +3,20 @@
   "WorkspaceRootPath": "C:\\x\\ORION.API\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{08015DD1-EA88-4206-9291-ED52EFFEF78D}|ORION.Core\\ORION.Core.csproj|c:\\x\\orion.api\\orion.core\\binary search tree\\validatebstclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{08015DD1-EA88-4206-9291-ED52EFFEF78D}|ORION.Core\\ORION.Core.csproj|solutionrelative:orion.core\\binary search tree\\validatebstclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{08015DD1-EA88-4206-9291-ED52EFFEF78D}|ORION.Core\\ORION.Core.csproj|c:\\x\\orion.api\\orion.core\\binary trees\\rightsiblingtreeclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{08015DD1-EA88-4206-9291-ED52EFFEF78D}|ORION.Core\\ORION.Core.csproj|solutionrelative:orion.core\\binary trees\\rightsiblingtreeclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{08015DD1-EA88-4206-9291-ED52EFFEF78D}|ORION.Core\\ORION.Core.csproj|c:\\x\\orion.api\\orion.core\\binary search tree\\samebstsclass2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{08015DD1-EA88-4206-9291-ED52EFFEF78D}|ORION.Core\\ORION.Core.csproj|solutionrelative:orion.core\\binary search tree\\samebstsclass2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{08015DD1-EA88-4206-9291-ED52EFFEF78D}|ORION.Core\\ORION.Core.csproj|c:\\x\\orion.api\\orion.core\\binary trees\\nodedepthsclass_solution2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{08015DD1-EA88-4206-9291-ED52EFFEF78D}|ORION.Core\\ORION.Core.csproj|solutionrelative:orion.core\\binary trees\\nodedepthsclass_solution2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{08015DD1-EA88-4206-9291-ED52EFFEF78D}|ORION.Core\\ORION.Core.csproj|c:\\x\\orion.api\\orion.core\\binary search tree\\samebstsclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{08015DD1-EA88-4206-9291-ED52EFFEF78D}|ORION.Core\\ORION.Core.csproj|solutionrelative:orion.core\\binary search tree\\samebstsclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{08015DD1-EA88-4206-9291-ED52EFFEF78D}|ORION.Core\\ORION.Core.csproj|c:\\x\\orion.api\\orion.core\\binary trees\\nodedepthsclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{08015DD1-EA88-4206-9291-ED52EFFEF78D}|ORION.Core\\ORION.Core.csproj|solutionrelative:orion.core\\binary trees\\nodedepthsclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{08015DD1-EA88-4206-9291-ED52EFFEF78D}|ORION.Core\\ORION.Core.csproj|c:\\x\\orion.api\\orion.core\\binary search tree\\rightsmallerthanclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{08015DD1-EA88-4206-9291-ED52EFFEF78D}|ORION.Core\\ORION.Core.csproj|solutionrelative:orion.core\\binary search tree\\rightsmallerthanclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{08015DD1-EA88-4206-9291-ED52EFFEF78D}|ORION.Core\\ORION.Core.csproj|c:\\x\\orion.api\\orion.core\\binary search tree\\minheightbstclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{08015DD1-EA88-4206-9291-ED52EFFEF78D}|ORION.Core\\ORION.Core.csproj|solutionrelative:orion.core\\binary search tree\\minheightbstclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{08015DD1-EA88-4206-9291-ED52EFFEF78D}|ORION.Core\\ORION.Core.csproj|c:\\x\\orion.api\\orion.core\\binary search tree\\findclosestvalueinbstclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{08015DD1-EA88-4206-9291-ED52EFFEF78D}|ORION.Core\\ORION.Core.csproj|solutionrelative:orion.core\\binary search tree\\findclosestvalueinbstclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{08015DD1-EA88-4206-9291-ED52EFFEF78D}|ORION.Core\\ORION.Core.csproj|c:\\x\\orion.api\\orion.core\\binary search tree\\btstaversalclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{08015DD1-EA88-4206-9291-ED52EFFEF78D}|ORION.Core\\ORION.Core.csproj|solutionrelative:orion.core\\binary search tree\\btstaversalclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{08015DD1-EA88-4206-9291-ED52EFFEF78D}|ORION.Core\\ORION.Core.csproj|c:\\x\\orion.api\\orion.core\\binary search tree\\bstconstructionclass2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{08015DD1-EA88-4206-9291-ED52EFFEF78D}|ORION.Core\\ORION.Core.csproj|solutionrelative:orion.core\\binary search tree\\bstconstructionclass2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{08015DD1-EA88-4206-9291-ED52EFFEF78D}|ORION.Core\\ORION.Core.csproj|c:\\x\\orion.api\\orion.core\\binary search tree\\bstconstructionclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{08015DD1-EA88-4206-9291-ED52EFFEF78D}|ORION.Core\\ORION.Core.csproj|solutionrelative:orion.core\\binary search tree\\bstconstructionclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{08015DD1-EA88-4206-9291-ED52EFFEF78D}|ORION.Core\\ORION.Core.csproj|c:\\x\\orion.api\\orion.core\\binary trees\\maxpathsumclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{08015DD1-EA88-4206-9291-ED52EFFEF78D}|ORION.Core\\ORION.Core.csproj|solutionrelative:orion.core\\binary trees\\maxpathsumclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -67,118 +47,53 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "ValidateBSTClass.cs",
-              "DocumentMoniker": "C:\\x\\ORION.API\\ORION.Core\\Binary Search Tree\\ValidateBSTClass.cs",
-              "RelativeDocumentMoniker": "ORION.Core\\Binary Search Tree\\ValidateBSTClass.cs",
-              "ToolTip": "C:\\x\\ORION.API\\ORION.Core\\Binary Search Tree\\ValidateBSTClass.cs",
-              "RelativeToolTip": "ORION.Core\\Binary Search Tree\\ValidateBSTClass.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAoAAAA",
+              "Title": "RightSiblingTreeClass.cs",
+              "DocumentMoniker": "C:\\x\\ORION.API\\ORION.Core\\Binary Trees\\RightSiblingTreeClass.cs",
+              "RelativeDocumentMoniker": "ORION.Core\\Binary Trees\\RightSiblingTreeClass.cs",
+              "ToolTip": "C:\\x\\ORION.API\\ORION.Core\\Binary Trees\\RightSiblingTreeClass.cs",
+              "RelativeToolTip": "ORION.Core\\Binary Trees\\RightSiblingTreeClass.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAgAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-01T11:32:19.795Z",
+              "WhenOpened": "2024-07-01T11:38:42.646Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "SameBSTsClass2.cs",
-              "DocumentMoniker": "C:\\x\\ORION.API\\ORION.Core\\Binary Search Tree\\SameBSTsClass2.cs",
-              "RelativeDocumentMoniker": "ORION.Core\\Binary Search Tree\\SameBSTsClass2.cs",
-              "ToolTip": "C:\\x\\ORION.API\\ORION.Core\\Binary Search Tree\\SameBSTsClass2.cs",
-              "RelativeToolTip": "ORION.Core\\Binary Search Tree\\SameBSTsClass2.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAlAAAA",
+              "Title": "NodeDepthsClass_Solution2.cs",
+              "DocumentMoniker": "C:\\x\\ORION.API\\ORION.Core\\Binary Trees\\NodeDepthsClass_Solution2.cs",
+              "RelativeDocumentMoniker": "ORION.Core\\Binary Trees\\NodeDepthsClass_Solution2.cs",
+              "ToolTip": "C:\\x\\ORION.API\\ORION.Core\\Binary Trees\\NodeDepthsClass_Solution2.cs",
+              "RelativeToolTip": "ORION.Core\\Binary Trees\\NodeDepthsClass_Solution2.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-01T11:32:11.141Z",
+              "WhenOpened": "2024-07-01T11:38:08.711Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "SameBSTsClass.cs",
-              "DocumentMoniker": "C:\\x\\ORION.API\\ORION.Core\\Binary Search Tree\\SameBSTsClass.cs",
-              "RelativeDocumentMoniker": "ORION.Core\\Binary Search Tree\\SameBSTsClass.cs",
-              "ToolTip": "C:\\x\\ORION.API\\ORION.Core\\Binary Search Tree\\SameBSTsClass.cs",
-              "RelativeToolTip": "ORION.Core\\Binary Search Tree\\SameBSTsClass.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAlAAAA",
+              "Title": "NodeDepthsClass.cs",
+              "DocumentMoniker": "C:\\x\\ORION.API\\ORION.Core\\Binary Trees\\NodeDepthsClass.cs",
+              "RelativeDocumentMoniker": "ORION.Core\\Binary Trees\\NodeDepthsClass.cs",
+              "ToolTip": "C:\\x\\ORION.API\\ORION.Core\\Binary Trees\\NodeDepthsClass.cs",
+              "RelativeToolTip": "ORION.Core\\Binary Trees\\NodeDepthsClass.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABUAAAAbAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-01T11:32:06.916Z",
+              "WhenOpened": "2024-07-01T11:38:06.767Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "RightSmallerThanClass.cs",
-              "DocumentMoniker": "C:\\x\\ORION.API\\ORION.Core\\Binary Search Tree\\RightSmallerThanClass.cs",
-              "RelativeDocumentMoniker": "ORION.Core\\Binary Search Tree\\RightSmallerThanClass.cs",
-              "ToolTip": "C:\\x\\ORION.API\\ORION.Core\\Binary Search Tree\\RightSmallerThanClass.cs",
-              "RelativeToolTip": "ORION.Core\\Binary Search Tree\\RightSmallerThanClass.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Title": "MaxPathSumClass.cs",
+              "DocumentMoniker": "C:\\x\\ORION.API\\ORION.Core\\Binary Trees\\MaxPathSumClass.cs",
+              "RelativeDocumentMoniker": "ORION.Core\\Binary Trees\\MaxPathSumClass.cs",
+              "ToolTip": "C:\\x\\ORION.API\\ORION.Core\\Binary Trees\\MaxPathSumClass.cs",
+              "RelativeToolTip": "ORION.Core\\Binary Trees\\MaxPathSumClass.cs",
+              "ViewState": "AQIAAC0AAAAAAAAAAAAIwBsAAAAnAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-01T11:32:04.068Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "MinHeightBSTClass.cs",
-              "DocumentMoniker": "C:\\x\\ORION.API\\ORION.Core\\Binary Search Tree\\MinHeightBSTClass.cs",
-              "RelativeDocumentMoniker": "ORION.Core\\Binary Search Tree\\MinHeightBSTClass.cs",
-              "ToolTip": "C:\\x\\ORION.API\\ORION.Core\\Binary Search Tree\\MinHeightBSTClass.cs",
-              "RelativeToolTip": "ORION.Core\\Binary Search Tree\\MinHeightBSTClass.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAlAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-01T11:31:50.52Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "FindClosestValueInBstClass.cs",
-              "DocumentMoniker": "C:\\x\\ORION.API\\ORION.Core\\Binary Search Tree\\FindClosestValueInBstClass.cs",
-              "RelativeDocumentMoniker": "ORION.Core\\Binary Search Tree\\FindClosestValueInBstClass.cs",
-              "ToolTip": "C:\\x\\ORION.API\\ORION.Core\\Binary Search Tree\\FindClosestValueInBstClass.cs",
-              "RelativeToolTip": "ORION.Core\\Binary Search Tree\\FindClosestValueInBstClass.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAA6AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-01T11:31:32.236Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "BTSTaversalClass.cs",
-              "DocumentMoniker": "C:\\x\\ORION.API\\ORION.Core\\Binary Search Tree\\BTSTaversalClass.cs",
-              "RelativeDocumentMoniker": "ORION.Core\\Binary Search Tree\\BTSTaversalClass.cs",
-              "ToolTip": "C:\\x\\ORION.API\\ORION.Core\\Binary Search Tree\\BTSTaversalClass.cs",
-              "RelativeToolTip": "ORION.Core\\Binary Search Tree\\BTSTaversalClass.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-01T11:31:28.46Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "BSTConstructionClass2.cs",
-              "DocumentMoniker": "C:\\x\\ORION.API\\ORION.Core\\Binary Search Tree\\BSTConstructionClass2.cs",
-              "RelativeDocumentMoniker": "ORION.Core\\Binary Search Tree\\BSTConstructionClass2.cs",
-              "ToolTip": "C:\\x\\ORION.API\\ORION.Core\\Binary Search Tree\\BSTConstructionClass2.cs",
-              "RelativeToolTip": "ORION.Core\\Binary Search Tree\\BSTConstructionClass2.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-01T11:31:25.227Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "BSTConstructionClass.cs",
-              "DocumentMoniker": "C:\\x\\ORION.API\\ORION.Core\\Binary Search Tree\\BSTConstructionClass.cs",
-              "RelativeDocumentMoniker": "ORION.Core\\Binary Search Tree\\BSTConstructionClass.cs",
-              "ToolTip": "C:\\x\\ORION.API\\ORION.Core\\Binary Search Tree\\BSTConstructionClass.cs",
-              "RelativeToolTip": "ORION.Core\\Binary Search Tree\\BSTConstructionClass.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-01T11:31:22.292Z",
+              "WhenOpened": "2024-07-01T11:37:59.115Z",
               "EditorCaption": ""
             }
           ]

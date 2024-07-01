@@ -1,5 +1,5 @@
 ﻿using System.Collections.Generic;
-namespace InvertBinaryTree
+namespace ORION.Core.BinaryTrees
 {
     public class InvertBinaryTreeClass
     {

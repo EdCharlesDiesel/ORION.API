@@ -1,4 +1,6 @@
-﻿namespace IterativeIn_orderTraversal
+﻿using System;
+
+namespace ORION.Core.BinaryTrees
 {
     public static class IterativeInorderTraversalClass
     {

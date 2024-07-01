@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace BranchSums
+namespace ORION.Core.BinaryTrees
 {
     public class BranchSumsClass
     {

@@ -1,4 +1,7 @@
-﻿namespace MaxPathSum
+﻿using System;
+using System.Collections.Generic;
+
+namespace ORION.Core.BinaryTrees
 {
     public class MaxPathSumClass
     {

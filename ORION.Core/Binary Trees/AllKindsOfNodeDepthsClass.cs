@@ -1,5 +1,7 @@
 ﻿
-namespace AllKindsOfNodeDepths
+using System.Collections.Generic;
+
+namespace ORION.Core.BinaryTrees
 {
     public class AllKindsOfNodeDepthsClass
     {
