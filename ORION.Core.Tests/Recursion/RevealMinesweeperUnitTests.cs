@@ -1,10 +1,11 @@
-using NUnit.Framework;
+
+using ORION.Core.Recursion;
 
 namespace RevealMinesweeper.Tests
 {
     public class RevealMinesweeperUnitTests
     {
-        [Test]
+        [Fact]
         public void Test1()
         {
             string[][] board = new string[][] {

@@ -1,3 +1,5 @@
+using ORION.Core.Arrays;
+
 namespace MissingNumbers.Tests
 {
     public class UnitTest1

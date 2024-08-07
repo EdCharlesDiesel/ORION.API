@@ -1,3 +1,5 @@
+using ORION.Core.Strings;
+
 namespace CommonCharacters.Tests
 {
     public class UnitTest1

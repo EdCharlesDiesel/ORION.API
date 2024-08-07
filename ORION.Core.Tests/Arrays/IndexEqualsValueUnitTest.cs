@@ -1,3 +1,5 @@
+using ORION.Core.Arrays;
+
 namespace IndexEqualsValue.Tests
 {
     public class UnitTest1

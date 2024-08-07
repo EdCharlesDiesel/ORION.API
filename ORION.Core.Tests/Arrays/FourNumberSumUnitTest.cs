@@ -1,3 +1,5 @@
+using ORION.Core.Arrays;
+
 namespace FourNumberSum.Tests
 {
     public class UnitTest1

@@ -1,3 +1,5 @@
+using ORION.Core.DynamicProgramming;
+
 namespace MaxSumIncreasingSubsequence.Tests
 {
     public class UnitTest1

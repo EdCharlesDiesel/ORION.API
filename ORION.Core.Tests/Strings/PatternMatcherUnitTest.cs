@@ -1,3 +1,5 @@
+using ORION.Core.Strings;
+
 namespace PatternMatcher.Tests
 {
     public class UnitTest1

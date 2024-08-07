@@ -1,3 +1,5 @@
+using ORION.Core.Strings;
+
 namespace LongestSubstringWithoutDuplication.Tests
 {
     public class UnitTest1

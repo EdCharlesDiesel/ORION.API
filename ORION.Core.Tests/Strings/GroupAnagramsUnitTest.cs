@@ -1,3 +1,5 @@
+using ORION.Core.Strings;
+
 namespace GroupAnagrams.Tests
 {
     public class UnitTest1

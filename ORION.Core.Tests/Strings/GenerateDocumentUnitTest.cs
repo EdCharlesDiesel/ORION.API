@@ -1,3 +1,5 @@
+using ORION.Core.Strings;
+
 namespace GenerateDocument.Tests
 {
     public class UnitTest1

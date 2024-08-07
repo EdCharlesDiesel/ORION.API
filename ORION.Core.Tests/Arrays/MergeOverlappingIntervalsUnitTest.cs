@@ -1,3 +1,5 @@
+using ORION.Core.Arrays;
+
 namespace MergeOverlappingIntervals.Tests
 {
     public class UnitTest1

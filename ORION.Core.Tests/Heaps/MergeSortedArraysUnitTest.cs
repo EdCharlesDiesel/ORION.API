@@ -1,6 +1,8 @@
+using ORION.Core.Heaps;
+
 namespace ORION.Core.Tests.Heaps
 {
-    public class UnitTest1
+    public class MergeSortedArraysUnitTest
     {
         [Fact]
         public void Test1()

@@ -1,3 +1,5 @@
+using ORION.Core.DynamicProgramming;
+
 namespace WaterArea.Tests
 {
     public class UnitTest1

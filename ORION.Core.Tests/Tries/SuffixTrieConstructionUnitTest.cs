@@ -1,3 +1,5 @@
+using ORION.Core.Tries;
+
 namespace SuffixTrieConstruction.Tests
 {
     public class UnitTest1

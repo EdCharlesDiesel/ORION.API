@@ -1,3 +1,5 @@
+using ORION.Core.Strings;
+
 namespace PalindromeCheck.Tests
 {
     public class UnitTest1

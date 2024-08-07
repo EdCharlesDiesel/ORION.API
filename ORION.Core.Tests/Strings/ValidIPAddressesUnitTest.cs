@@ -1,3 +1,5 @@
+using ORION.Core.Strings;
+
 namespace ValidIPAddresses.Tests
 {
     public class UnitTest1

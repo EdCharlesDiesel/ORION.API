@@ -1,3 +1,5 @@
+using ORION.Core.Strings;
+
 namespace UnderscorifySubstring.Tests
 {
     public class UnitTest1

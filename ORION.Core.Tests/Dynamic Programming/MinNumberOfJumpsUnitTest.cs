@@ -1,3 +1,5 @@
+using ORION.Core.LinkedList;
+
 namespace MinNumberOfJumps.Tests
 {
     public class UnitTest1

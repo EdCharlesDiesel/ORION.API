@@ -1,3 +1,5 @@
+using ORION.Core.Arrays;
+
 namespace ZeroSumSubarray.Tests
 {
     public class UnitTest1

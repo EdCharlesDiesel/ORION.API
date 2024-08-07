@@ -1,10 +1,12 @@
-using NUnit.Framework;
+
+
+using ORION.Core.Recursion;
 
 namespace NonAttackingQueens.Tests
 {
     public class NonAttackingQueensUnitTest
     {
-        [Test]
+        [Fact]
         public void TestCaseSolution1()
         {
             var input = 4;
@@ -12,7 +14,7 @@ namespace NonAttackingQueens.Tests
             var actual_ = new NonAttackingQueensClass();
            var actual = actual_.NonAttachingQueens(input);
                 
-            Assert.IsTrue(expected == actual);
+            Assert.True(expected == actual);
         }
     }
 }

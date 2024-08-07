@@ -1,3 +1,5 @@
+using ORION.Core.Graphs;
+
 namespace PalindromePartitioningMinCuts.Tests
 {
     public class UnitTest1

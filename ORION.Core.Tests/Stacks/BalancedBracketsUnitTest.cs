@@ -1,3 +1,5 @@
+using ORION.Core.Stacks;
+
 namespace BalancedBrackets.Tests
 {
     public class UnitTest1

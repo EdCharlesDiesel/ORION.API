@@ -1,4 +1,5 @@
 using Microsoft.VisualStudio.TestPlatform.TestHost;
+using ORION.Core.Arrays;
 
 namespace LongestSubarrayWithSum.Tests
 {

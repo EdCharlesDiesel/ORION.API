@@ -1,3 +1,5 @@
+using ORION.Core.FamousAlgorithms;
+
 namespace ORION.Core.Tests
 {
     public class TopologicalSortUnitTest

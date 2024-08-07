@@ -1,3 +1,5 @@
+using ORION.Core.Strings;
+
 namespace RunLengthEncoding.Tests
 {
     public class UnitTest1

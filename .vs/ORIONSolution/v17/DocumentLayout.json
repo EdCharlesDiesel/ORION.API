@@ -3,12 +3,8 @@
   "WorkspaceRootPath": "C:\\x\\ORION.API\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0C9186B3-E7E1-4DDA-842F-112F74E5EF3B}|ORION.Core.Tests\\ORION.Core.Tests.csproj|c:\\x\\orion.api\\orion.core.tests\\arrays\\apartmenthunting.tests\\apartmenthuntingunittest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0C9186B3-E7E1-4DDA-842F-112F74E5EF3B}|ORION.Core.Tests\\ORION.Core.Tests.csproj|solutionrelative:orion.core.tests\\arrays\\apartmenthunting.tests\\apartmenthuntingunittest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0C9186B3-E7E1-4DDA-842F-112F74E5EF3B}|ORION.Core.Tests\\ORION.Core.Tests.csproj|c:\\x\\orion.api\\orion.core.tests\\heaps\\mergesortedarraysunittest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0C9186B3-E7E1-4DDA-842F-112F74E5EF3B}|ORION.Core.Tests\\ORION.Core.Tests.csproj|solutionrelative:orion.core.tests\\heaps\\mergesortedarraysunittest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0C9186B3-E7E1-4DDA-842F-112F74E5EF3B}|ORION.Core.Tests\\ORION.Core.Tests.csproj|c:\\x\\orion.api\\orion.core.tests\\arrays\\apartmenthuntingunittest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C9186B3-E7E1-4DDA-842F-112F74E5EF3B}|ORION.Core.Tests\\ORION.Core.Tests.csproj|solutionrelative:orion.core.tests\\arrays\\apartmenthuntingunittest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -36,26 +32,13 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "ApartmentHuntingUnitTest.cs",
-              "DocumentMoniker": "C:\\x\\ORION.API\\ORION.Core.Tests\\Arrays\\ApartmentHunting.Tests\\ApartmentHuntingUnitTest.cs",
-              "RelativeDocumentMoniker": "ORION.Core.Tests\\Arrays\\ApartmentHunting.Tests\\ApartmentHuntingUnitTest.cs",
-              "ToolTip": "C:\\x\\ORION.API\\ORION.Core.Tests\\Arrays\\ApartmentHunting.Tests\\ApartmentHuntingUnitTest.cs",
-              "RelativeToolTip": "ORION.Core.Tests\\Arrays\\ApartmentHunting.Tests\\ApartmentHuntingUnitTest.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAARAAAA",
+              "DocumentMoniker": "C:\\x\\ORION.API\\ORION.Core.Tests\\Arrays\\ApartmentHuntingUnitTest.cs",
+              "RelativeDocumentMoniker": "ORION.Core.Tests\\Arrays\\ApartmentHuntingUnitTest.cs",
+              "ToolTip": "C:\\x\\ORION.API\\ORION.Core.Tests\\Arrays\\ApartmentHuntingUnitTest.cs",
+              "RelativeToolTip": "ORION.Core.Tests\\Arrays\\ApartmentHuntingUnitTest.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-07T11:43:55.694Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "MergeSortedArraysUnitTest.cs",
-              "DocumentMoniker": "C:\\x\\ORION.API\\ORION.Core.Tests\\Heaps\\MergeSortedArraysUnitTest.cs",
-              "RelativeDocumentMoniker": "ORION.Core.Tests\\Heaps\\MergeSortedArraysUnitTest.cs",
-              "ToolTip": "C:\\x\\ORION.API\\ORION.Core.Tests\\Heaps\\MergeSortedArraysUnitTest.cs",
-              "RelativeToolTip": "ORION.Core.Tests\\Heaps\\MergeSortedArraysUnitTest.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-01T16:38:21.324Z",
+              "WhenOpened": "2024-08-07T16:36:44.406Z",
               "EditorCaption": ""
             }
           ]

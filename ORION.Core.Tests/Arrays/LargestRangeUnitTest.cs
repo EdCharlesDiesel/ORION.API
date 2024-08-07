@@ -1,3 +1,5 @@
+using ORION.Core.Arrays;
+
 namespace LargestRange.Tests
 {
     public class UnitTest1

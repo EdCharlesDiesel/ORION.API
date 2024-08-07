@@ -1,3 +1,5 @@
+using ORION.Core.Strings;
+
 namespace CaesarCipherEncryptor.Tests
 {
     public class UnitTest1

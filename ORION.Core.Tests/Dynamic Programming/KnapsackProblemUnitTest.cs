@@ -1,3 +1,5 @@
+using ORION.Core.DynamicProgramming;
+
 namespace KnapsackProblem.Tests
 {
     public class UnitTest1

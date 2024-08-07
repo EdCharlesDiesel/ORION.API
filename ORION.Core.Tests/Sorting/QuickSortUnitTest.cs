@@ -1,3 +1,5 @@
+using ORION.Core.Sorting;
+
 namespace QuickSort.Tests
 {
     public class UnitTest1

@@ -1,3 +1,5 @@
+using ORION.Core.Sorting;
+
 namespace BubbleSort.Tests
 {
     public class UnitTest1

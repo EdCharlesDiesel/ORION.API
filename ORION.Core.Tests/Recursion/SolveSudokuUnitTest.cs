@@ -1,11 +1,8 @@
-using NUnit.Framework;
-using System.Collections.Generic;
-
 namespace SolveSudoku.Tests
 {
     public class SolveSudokuUnitTest
     {
-        [Ignore("Ignore a fixture")]
+        
         public void Test1()
         {
             //   int[][] inputValues =

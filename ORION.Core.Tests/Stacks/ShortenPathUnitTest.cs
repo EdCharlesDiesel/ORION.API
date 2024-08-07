@@ -1,3 +1,5 @@
+using ORION.Core.Stacks;
+
 namespace ShortenPath.Tests
 {
     public class UnitTest1

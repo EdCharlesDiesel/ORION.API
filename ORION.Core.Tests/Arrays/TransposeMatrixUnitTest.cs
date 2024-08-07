@@ -1,11 +1,13 @@
-using NUnit.Framework;
+
+
+using ORION.Core.Arrays;
 
 namespace TransposeMatrix.Tests
 {
     public class Tests
     {
 
-        [Test]
+        [Fact]
         public void Test1()
         {
             int[,] input = new int[3, 3] {

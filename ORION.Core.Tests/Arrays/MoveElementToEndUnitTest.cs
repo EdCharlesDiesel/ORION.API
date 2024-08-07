@@ -1,12 +1,11 @@
-using NUnit.Framework;
-using System.Collections.Generic;
-using System.Linq;
+
+using ORION.Core.Arrays;
 
 namespace MoveElementToEnd.Tests
 {
     public class Tests
     {
-         [Test]
+         [Fact]
         public void Test1()
         {
             List<int> array = new List<int>(){
@@ -27,8 +26,8 @@ namespace MoveElementToEnd.Tests
             List<int> outputStart = output.GetRange(0, 3);
             outputStart.Sort();
             List<int> outputEnd = output.GetRange(3, output.Count - 3);
-            Assert.IsTrue(outputStart.SequenceEqual(expectedStart));
-            Assert.IsTrue(outputEnd.SequenceEqual(expectedEnd));
+            Assert.True(outputStart.SequenceEqual(expectedStart));
+            Assert.True(outputEnd.SequenceEqual(expectedEnd));
         }
     }
 }

@@ -1,3 +1,5 @@
+using ORION.Core.Arrays;
+
 namespace ApartmentHunting.Tests
 {
     public class ApartmentHuntingUnitTest

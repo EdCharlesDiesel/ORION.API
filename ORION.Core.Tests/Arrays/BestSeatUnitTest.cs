@@ -1,3 +1,5 @@
+using ORION.Core.Arrays;
+
 namespace BestSeat.Tests
 {
     public class UnitTest1

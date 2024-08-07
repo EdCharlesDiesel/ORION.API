@@ -1,3 +1,5 @@
+using ORION.Core.Searching;
+
 namespace ShiftedBinarySearch.Tests
 {
     public class UnitTest1

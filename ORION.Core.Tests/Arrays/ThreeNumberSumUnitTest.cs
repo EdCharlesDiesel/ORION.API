@@ -1,3 +1,5 @@
+using ORION.Core.Arrays;
+
 namespace ThreeNumberSum.Tests;
 
 public class UnitTest1

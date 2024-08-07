@@ -1,4 +1,5 @@
 using Microsoft.VisualStudio.TestPlatform.TestHost;
+using ORION.Core.Strings;
 
 namespace FirstNonRepeatingCharacter.Tests
 {

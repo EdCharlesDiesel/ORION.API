@@ -1,3 +1,5 @@
+using ORION.Core.DynamicProgramming;
+
 namespace NumberOfWaysToMakeChange.Tests
 {
     public class UnitTest1

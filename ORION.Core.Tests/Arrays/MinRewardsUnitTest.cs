@@ -1,3 +1,5 @@
+using ORION.Core.Arrays;
+
 namespace MinRewards.Tests
 {
     public class UnitTest1

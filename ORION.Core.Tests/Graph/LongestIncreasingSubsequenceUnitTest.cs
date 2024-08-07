@@ -1,3 +1,5 @@
+using ORION.Core.Graphs;
+
 namespace LongestIncreasingSubsequence.Tests
 {
     public class UnitTest1

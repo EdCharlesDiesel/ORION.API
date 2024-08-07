@@ -1,3 +1,4 @@
+using ORION.Core.Arrays;
 using Xunit;
 
 namespace FirstDuplicateValue.Tests

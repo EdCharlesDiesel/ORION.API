@@ -1,4 +1,5 @@
-using NUnit.Framework;
+
+using ORION.Core.Arrays;
 using System.Collections.Generic;
 using System.Linq;
 
@@ -6,7 +7,7 @@ namespace SpiralTraverse.Tests
 {
     public class SpiralTraverseUnitTest
     {
-        [Test]
+        [Fact]
         public void Test1()
         {
             int[,] input = {
@@ -21,7 +22,7 @@ namespace SpiralTraverse.Tests
             };
 
             var actual = SpiralTraverseClass.SpiralTraverse(input);
-            Assert.IsTrue(expected.SequenceEqual(actual));
+            Assert.True(expected.SequenceEqual(actual));
         }
     }
 }

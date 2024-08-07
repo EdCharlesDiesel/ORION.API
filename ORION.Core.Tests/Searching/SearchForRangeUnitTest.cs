@@ -1,3 +1,5 @@
+using ORION.Core.Searching;
+
 namespace SearchForRange.Tests
 {
     public class UnitTest1

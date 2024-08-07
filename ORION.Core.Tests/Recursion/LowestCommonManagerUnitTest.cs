@@ -1,8 +1,8 @@
 
 
-using LowestCommonManager;
-using NUnit.Framework;
-using System.Collections.Generic;
+
+using ORION.Core.Recursion;
+
 
 namespace LowestCommonManagerTests
 {
@@ -19,7 +19,7 @@ namespace LowestCommonManagerTests
             return orgCharts;
         }
 
-        [Test]
+        [Fact]
         public void TestCase1()
         {
             var orgCharts = getOrgCharts();

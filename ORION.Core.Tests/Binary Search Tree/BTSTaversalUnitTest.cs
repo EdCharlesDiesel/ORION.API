@@ -1,3 +1,5 @@
+using ORION.Core.BinarySearchTree;
+
 namespace BTSTaversal.Tests
 {
     public class UnitTest1

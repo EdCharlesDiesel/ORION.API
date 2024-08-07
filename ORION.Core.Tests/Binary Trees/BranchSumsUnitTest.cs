@@ -1,3 +1,5 @@
+using ORION.Core.BinaryTrees;
+
 namespace BranchSums.Tests
 {
     public class UnitTest1

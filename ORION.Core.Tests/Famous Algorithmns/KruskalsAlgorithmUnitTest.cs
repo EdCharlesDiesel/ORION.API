@@ -1,6 +1,8 @@
+using ORION.Core.FamousAlgorithms;
+
 namespace ORION.Core.Tests
 {
-    public class UnitTest1
+    public class KruskalsAlgorithmClassUnitTest
     {
         [Fact]
         public void Test1()

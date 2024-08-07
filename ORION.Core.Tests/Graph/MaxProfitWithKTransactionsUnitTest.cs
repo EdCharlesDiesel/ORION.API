@@ -1,3 +1,5 @@
+using ORION.Core.Graphs;
+
 namespace MaxProfitWithKTransactions.Tests
 {
     public class UnitTest1

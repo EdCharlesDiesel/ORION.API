@@ -1,3 +1,5 @@
+using ORION.Core.Searching;
+
 namespace Quickselect.Tests
 {
     public class UnitTest1

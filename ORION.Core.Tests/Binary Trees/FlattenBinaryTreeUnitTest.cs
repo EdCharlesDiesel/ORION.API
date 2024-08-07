@@ -1,3 +1,5 @@
+using ORION.Core.BinaryTrees;
+
 namespace FlattenBinaryTree.Tests
 {
     public class UnitTest1

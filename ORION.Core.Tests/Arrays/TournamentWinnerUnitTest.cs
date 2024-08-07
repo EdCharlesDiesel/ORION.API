@@ -1,11 +1,12 @@
-using NUnit.Framework;
-using System.Collections.Generic;
+
+using ORION.Core.Arrays;
+
 
 namespace TournamentWinner.Tests
 {
     public class Tests
     {
-        [Test]
+        [Fact]
         public void Test1()
         {
             List<List<string>> competitions = new List<List<string>>();
@@ -28,7 +29,7 @@ namespace TournamentWinner.Tests
         };
             string expected = "Python";
             var actual = new TournamentWinnerClass().TournamentWinner(competitions, results);
-            Assert.IsTrue(expected == actual);
+            Assert.True(expected == actual);
         }
     }
 }

@@ -1,3 +1,5 @@
+using ORION.Core.Sorting;
+
 namespace HeapSort.Tests
 {
     public class UnitTest1

@@ -1,3 +1,5 @@
+using ORION.Core.Graphs;
+
 namespace SingleCycleCheck.Tests
 {
     public class UnitTest1

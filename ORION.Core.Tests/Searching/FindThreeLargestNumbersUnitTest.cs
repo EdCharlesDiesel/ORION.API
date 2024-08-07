@@ -1,3 +1,5 @@
+using ORION.Core.Searching;
+
 namespace FindThreeLargestNumbers.Tests
 {
     public class UnitTest1

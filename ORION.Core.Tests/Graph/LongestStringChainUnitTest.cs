@@ -1,3 +1,5 @@
+using ORION.Core.Graphs;
+
 namespace LongestStringChain.Tests
 {
     public class UnitTest1

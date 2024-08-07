@@ -1,3 +1,5 @@
+using ORION.Core.Strings;
+
 namespace SmallestSubstringContaining.Tests
 {
     public class UnitTest1

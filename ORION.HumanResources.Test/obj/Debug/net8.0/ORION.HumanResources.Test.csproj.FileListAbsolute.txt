@@ -18,6 +18,8 @@ C:\x\ORION.API\ORION.HumanResources.Test\bin\Debug\net8.0\ORION.HumanResources.T
 C:\x\ORION.API\ORION.HumanResources.Test\bin\Debug\net8.0\AutoMapper.dll
 C:\x\ORION.API\ORION.HumanResources.Test\bin\Debug\net8.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
 C:\x\ORION.API\ORION.HumanResources.Test\bin\Debug\net8.0\Castle.Core.dll
+C:\x\ORION.API\ORION.HumanResources.Test\bin\Debug\net8.0\System.Net.Http.Formatting.dll
+C:\x\ORION.API\ORION.HumanResources.Test\bin\Debug\net8.0\System.Web.Http.dll
 C:\x\ORION.API\ORION.HumanResources.Test\bin\Debug\net8.0\Microsoft.VisualStudio.CodeCoverage.Shim.dll
 C:\x\ORION.API\ORION.HumanResources.Test\bin\Debug\net8.0\Microsoft.Data.Sqlite.dll
 C:\x\ORION.API\ORION.HumanResources.Test\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
@@ -35,6 +37,7 @@ C:\x\ORION.API\ORION.HumanResources.Test\bin\Debug\net8.0\Microsoft.TestPlatform
 C:\x\ORION.API\ORION.HumanResources.Test\bin\Debug\net8.0\Microsoft.VisualStudio.TestPlatform.Common.dll
 C:\x\ORION.API\ORION.HumanResources.Test\bin\Debug\net8.0\Moq.dll
 C:\x\ORION.API\ORION.HumanResources.Test\bin\Debug\net8.0\Newtonsoft.Json.dll
+C:\x\ORION.API\ORION.HumanResources.Test\bin\Debug\net8.0\Newtonsoft.Json.Bson.dll
 C:\x\ORION.API\ORION.HumanResources.Test\bin\Debug\net8.0\SQLitePCLRaw.batteries_v2.dll
 C:\x\ORION.API\ORION.HumanResources.Test\bin\Debug\net8.0\SQLitePCLRaw.core.dll
 C:\x\ORION.API\ORION.HumanResources.Test\bin\Debug\net8.0\SQLitePCLRaw.provider.e_sqlite3.dll

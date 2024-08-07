@@ -1,3 +1,5 @@
+using ORION.Core.Arrays;
+
 namespace KnightConnection.Tests
 {
     public class UnitTest1

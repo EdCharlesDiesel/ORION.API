@@ -1,3 +1,4 @@
+using ORION.Core.FamousAlgorithms;
 using Xunit;
 
 namespace ORION.Core.Tests

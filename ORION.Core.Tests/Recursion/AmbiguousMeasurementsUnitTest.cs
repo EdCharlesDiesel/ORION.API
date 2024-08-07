@@ -1,10 +1,12 @@
-using NUnit.Framework;
+
+
+using ORION.Core.Recursion;
 
 namespace AmbiguousMeasurements.Tests
 {
     public class AmbiguousMeasurementsUnitTest
     {
-        [Test]
+        [Fact]
         public void Test1()
         {
             int[][] cups = new int[][] {

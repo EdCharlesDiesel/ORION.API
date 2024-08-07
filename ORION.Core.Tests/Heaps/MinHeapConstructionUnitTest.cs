@@ -1,6 +1,6 @@
 namespace ORION.Core.Tests.Heaps
 {
-    public class UnitTest1
+    public class MinHeapUnitTest
     {
         [Fact]
         public void Test1()
