@@ -1,8 +1,8 @@
-﻿using EmployeeManagement.Business;
-using EmployeeManagement.Controllers;
-using EmployeeManagement.DataAccess.Entities;
-using EmployeeManagement.Models;
-using EmployeeManagement.Services.Test;
+﻿using ORION.HumanResources.Business;
+using ORION.HumanResources.Controllers;
+using ORION.HumanResources.DataAccess.Entities;
+using ORION.HumanResources.Models;
+using ORION.HumanResources.Services.Test;
 using Microsoft.AspNetCore.Mvc;
 using Moq;
 using Moq.Protected;
@@ -10,7 +10,7 @@ using System.Text;
 using System.Text.Json;
 using Xunit;
 
-namespace EmployeeManagement.Test
+namespace ORION.HumanResources.Test
 {
     public class PromotionsControllerTests
     {

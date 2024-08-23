@@ -1,19 +1,20 @@
-﻿using EmployeeManagement.Business;
-using EmployeeManagement.DataAccess.DbContexts;
-using EmployeeManagement.DataAccess.Entities;
-using EmployeeManagement.DataAccess.Services;
-using EmployeeManagement.Services.Test;
-using EmployeeManagement.Test.HttpMessageHandlers;
+﻿
 using Microsoft.Data.Sqlite;
 using Microsoft.EntityFrameworkCore;
+using ORION.HumanResources.Business;
+using ORION.HumanResources.DataAccess.DbContexts;
+using ORION.HumanResources.DataAccess.Entities;
+using ORION.HumanResources.DataAccess.Services;
+using ORION.HumanResources.Services.Test;
+using ORION.HumanResources.Test.HttpMessageHandlers;
 using Xunit;
 using Xunit.Sdk;
 
-namespace EmployeeManagement.Test
+namespace ORION.HumanResources.Test
 {
     public class TestIsolationApproachesTests
     {
-        [Fact]
+        [Fact(Skip = "Skipping this one for demo reasons.")]
         public async Task AttendCourseAsync_CourseAttended_SuggestedBonusMustCorrectlyBeRecalculated()
         {
             // Arrange

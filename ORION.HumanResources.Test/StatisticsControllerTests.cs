@@ -1,13 +1,13 @@
 ﻿using AutoMapper;
-using EmployeeManagement.Controllers;
-using EmployeeManagement.Models;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Http.Features;
 using Microsoft.AspNetCore.Mvc;
 using Moq;
+using ORION.HumanResources.Controllers;
+using ORION.HumanResources.Models;
 using Xunit;
 
-namespace EmployeeManagement.Test
+namespace ORION.HumanResources.Test
 {
     public class StatisticsControllerTests
     {

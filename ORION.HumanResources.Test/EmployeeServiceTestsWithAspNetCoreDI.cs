@@ -1,7 +1,7 @@
-﻿using EmployeeManagement.Test.Fixtures;
+﻿using ORION.HumanResources.Test.Fixtures;
 using Xunit;
 
-namespace EmployeeManagement.Test
+namespace ORION.HumanResources.Test
 {
     public class EmployeeServiceTestsWithAspNetCoreDI
         : IClassFixture<EmployeeServiceWithAspNetCoreDIFixture>

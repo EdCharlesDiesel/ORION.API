@@ -15,3 +15,10 @@ C:\x\ORION.API\ORION.Core\obj\Debug\net6.0\ORION.Core.AssemblyInfoInputs.cache
 C:\x\ORION.API\ORION.Core\obj\Debug\net6.0\ORION.Core.AssemblyInfo.cs
 C:\x\ORION.API\ORION.Core\obj\Debug\net6.0\ORION.Core.csproj.CoreCompileInputs.cache
 C:\x\ORION.API\ORION.Core\obj\Debug\net6.0\ORION.Core.sourcelink.json
+C:\x\ORION.API\ORION.Core\bin\Debug\net6.0\ORION.Core.deps.json
+C:\x\ORION.API\ORION.Core\bin\Debug\net6.0\ORION.Core.dll
+C:\x\ORION.API\ORION.Core\bin\Debug\net6.0\ORION.Core.pdb
+C:\x\ORION.API\ORION.Core\obj\Debug\net6.0\ORION.Core.dll
+C:\x\ORION.API\ORION.Core\obj\Debug\net6.0\refint\ORION.Core.dll
+C:\x\ORION.API\ORION.Core\obj\Debug\net6.0\ORION.Core.pdb
+C:\x\ORION.API\ORION.Core\obj\Debug\net6.0\ref\ORION.Core.dll

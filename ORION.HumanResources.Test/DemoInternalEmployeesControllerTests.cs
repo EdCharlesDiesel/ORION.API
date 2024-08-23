@@ -2,10 +2,13 @@
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Moq;
+using ORION.HumanResources.Business;
+using ORION.HumanResources.Controllers;
+using ORION.HumanResources.Models;
 using System.Security.Claims;
 using Xunit;
 
-namespace EmployeeManagement.Test
+namespace ORION.HumanResources.Test
 {
     public class DemoInternalEmployeesControllerTests
     {

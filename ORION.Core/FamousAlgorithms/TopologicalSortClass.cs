@@ -1,4 +1,6 @@
-﻿namespace ORION.Core.FamousAlgorithms
+﻿using System.Collections.Generic;
+
+namespace ORION.Core.FamousAlgorithms
 {
     public class TopologicalSortClass
     {

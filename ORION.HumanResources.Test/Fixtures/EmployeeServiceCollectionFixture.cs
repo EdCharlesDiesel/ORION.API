@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Xunit;
 
-namespace HumanResources.Test.Fixtures
+namespace ORION.HumanResources.Test.Fixtures
 {
     [CollectionDefinition("EmployeeServiceCollection")]
     public class EmployeeServiceCollectionFixture 

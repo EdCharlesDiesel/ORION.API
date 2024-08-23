@@ -1,4 +1,6 @@
-﻿namespace ORION.Core.FamousAlgorithms
+﻿using System;
+
+namespace ORION.Core.FamousAlgorithms
 {
     public class KadanesAlgorithmClass
     {

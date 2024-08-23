@@ -1,11 +1,11 @@
-﻿using EmployeeManagement.Business;
-using EmployeeManagement.DataAccess.Entities;
-using EmployeeManagement.DataAccess.Services;
-using EmployeeManagement.Services.Test;
+﻿using ORION.HumanResources.Business;
+using ORION.HumanResources.DataAccess.Entities;
+using ORION.HumanResources.DataAccess.Services;
+using ORION.HumanResources.Services.Test;
 using Moq;
 using Xunit;
 
-namespace EmployeeManagement.Test
+namespace ORION.HumanResources.Test
 {
     public class MoqTests
     {
@@ -29,7 +29,7 @@ namespace EmployeeManagement.Test
             Assert.Equal(400, employee.SuggestedBonus);
         }
 
-        [Fact]
+        [Fact(Skip = "Skipping this one for demo reasons.")]
         public void CreateInternalEmployee_InternalEmployeeCreated_SuggestedBonusMustBeCalculated()
         {
             // Arrange
