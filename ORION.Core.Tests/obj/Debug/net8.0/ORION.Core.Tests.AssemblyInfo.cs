@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ORION.Core.Tests")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+cb1f95ac13dd2418517ab44908226a214c252b0c")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+93932a0e62187b79782605ec597882527fda77d6")]
 [assembly: System.Reflection.AssemblyProductAttribute("ORION.Core.Tests")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ORION.Core.Tests")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
