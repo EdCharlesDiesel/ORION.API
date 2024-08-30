@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="d68e3756-9faf-4301-b7bd-119b88b5c1ea" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../.vs/ORIONSolution/DesignTimeBuild/.dtbcache.v2" beforeDir="false" afterPath="$PROJECT_DIR$/../.vs/ORIONSolution/DesignTimeBuild/.dtbcache.v2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.vs/ORIONSolution/v17/.futdcache.v2" beforeDir="false" afterPath="$PROJECT_DIR$/../.vs/ORIONSolution/v17/.futdcache.v2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.vs/ORIONSolution/v17/.suo" beforeDir="false" afterPath="$PROJECT_DIR$/../.vs/ORIONSolution/v17/.suo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.vs/ORIONSolution/v17/DocumentLayout.json" beforeDir="false" afterPath="$PROJECT_DIR$/../.vs/ORIONSolution/v17/DocumentLayout.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.vs/ORIONSolution/v17/TestStore/0/001.testlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.vs/ORIONSolution/v17/TestStore/0/testlog.manifest" beforeDir="false" afterPath="$PROJECT_DIR$/../.vs/ORIONSolution/v17/TestStore/0/testlog.manifest" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.vs/ORIONSolution/v17/fileList.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../.vs/ORIONSolution/v17/fileList.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.vs/ProjectEvaluation/orionsolution.metadata.v8.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../.vs/ProjectEvaluation/orionsolution.metadata.v8.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.vs/ProjectEvaluation/orionsolution.projects.v8.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../.vs/ProjectEvaluation/orionsolution.projects.v8.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.vs/ProjectEvaluation/orionsolution.strings.v8.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../.vs/ProjectEvaluation/orionsolution.strings.v8.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORION.HumanResources.Test/obj/Debug/net8.0/ORION.HumanResources.Test.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../ORION.HumanResources.Test/obj/Debug/net8.0/ORION.HumanResources.Test.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORION.HumanResources.Test/obj/Debug/net8.0/ORION.HumanResources.Test.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../ORION.HumanResources.Test/obj/Debug/net8.0/ORION.HumanResources.Test.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net8.0/ORION.HumanResources.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net8.0/ORION.HumanResources.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net8.0/ORION.HumanResources.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net8.0/ORION.HumanResources.AssemblyInfoInputs.cache" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ProjectId" id="2kyUR7Xa0GejuybflQyJUP6cPLm" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <created>1724255304438</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1724255304438</updated>
+      <workItem from="1724255308010" duration="22000" />
+      <workItem from="1724977995026" duration="7000" />
+    </task>
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+</project>
