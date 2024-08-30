@@ -3,16 +3,8 @@
   "WorkspaceRootPath": "C:\\x\\ORION.API\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{08015DD1-EA88-4206-9291-ED52EFFEF78D}|ORION.Core\\ORION.Core.csproj|c:\\x\\orion.api\\orion.core\\arrays\\printmatrixclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{08015DD1-EA88-4206-9291-ED52EFFEF78D}|ORION.Core\\ORION.Core.csproj|solutionrelative:orion.core\\arrays\\printmatrixclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0C9186B3-E7E1-4DDA-842F-112F74E5EF3B}|ORION.Core.Tests\\ORION.Core.Tests.csproj|c:\\x\\orion.api\\orion.core.tests\\arrays\\printmatrixclasstests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0C9186B3-E7E1-4DDA-842F-112F74E5EF3B}|ORION.Core.Tests\\ORION.Core.Tests.csproj|solutionrelative:orion.core.tests\\arrays\\printmatrixclasstests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6E038C2E-4E61-43F7-9E95-6504D505E7CC}|ConsoleAppForTesting\\ConsoleAppForTesting.csproj|c:\\x\\orion.api\\consoleappfortesting\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6E038C2E-4E61-43F7-9E95-6504D505E7CC}|ConsoleAppForTesting\\ConsoleAppForTesting.csproj|solutionrelative:consoleappfortesting\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{65984E78-1B8F-422A-A46C-2C33F656E738}|ORION.HumanResources\\ORION.HumanResources.csproj|c:\\x\\orion.api\\orion.humanresources\\dataaccess\\dbcontexts\\humanresourcesdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{65984E78-1B8F-422A-A46C-2C33F656E738}|ORION.HumanResources\\ORION.HumanResources.csproj|solutionrelative:orion.humanresources\\dataaccess\\dbcontexts\\humanresourcesdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,7 +14,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -42,41 +34,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "PrintMatrixClassTests.cs",
-              "DocumentMoniker": "C:\\x\\ORION.API\\ORION.Core.Tests\\Arrays\\PrintMatrixClassTests.cs",
-              "RelativeDocumentMoniker": "ORION.Core.Tests\\Arrays\\PrintMatrixClassTests.cs",
-              "ToolTip": "C:\\x\\ORION.API\\ORION.Core.Tests\\Arrays\\PrintMatrixClassTests.cs",
-              "RelativeToolTip": "ORION.Core.Tests\\Arrays\\PrintMatrixClassTests.cs",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAgwCEAAAAjAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-23T12:42:07.656Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "PrintMatrixClass.cs",
-              "DocumentMoniker": "C:\\x\\ORION.API\\ORION.Core\\Arrays\\PrintMatrixClass.cs",
-              "RelativeDocumentMoniker": "ORION.Core\\Arrays\\PrintMatrixClass.cs",
-              "ToolTip": "C:\\x\\ORION.API\\ORION.Core\\Arrays\\PrintMatrixClass.cs",
-              "RelativeToolTip": "ORION.Core\\Arrays\\PrintMatrixClass.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAFQAAAAAAAAA",
+              "Title": "HumanResourcesDbContext.cs",
+              "DocumentMoniker": "C:\\x\\ORION.API\\ORION.HumanResources\\DataAccess\\DbContexts\\HumanResourcesDbContext.cs",
+              "RelativeDocumentMoniker": "ORION.HumanResources\\DataAccess\\DbContexts\\HumanResourcesDbContext.cs",
+              "ToolTip": "C:\\x\\ORION.API\\ORION.HumanResources\\DataAccess\\DbContexts\\HumanResourcesDbContext.cs",
+              "RelativeToolTip": "ORION.HumanResources\\DataAccess\\DbContexts\\HumanResourcesDbContext.cs",
+              "ViewState": "AQIAACgAAAAAAAAAAAAAADIAAAAUAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-23T12:10:43.218Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\x\\ORION.API\\ConsoleAppForTesting\\Program.cs",
-              "RelativeDocumentMoniker": "ConsoleAppForTesting\\Program.cs",
-              "ToolTip": "C:\\x\\ORION.API\\ConsoleAppForTesting\\Program.cs",
-              "RelativeToolTip": "ConsoleAppForTesting\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAABDAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-23T12:08:35.255Z",
+              "WhenOpened": "2024-08-30T16:21:51.363Z",
               "EditorCaption": ""
             }
           ]

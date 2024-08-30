@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ORION.DataAccess")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+46554538d69f24066ceacc4ef2251522cdc90138")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6ee788f5da1b394cc4800960213934f9f9ea7386")]
 [assembly: System.Reflection.AssemblyProductAttribute("ORION.DataAccess")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ORION.DataAccess")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
