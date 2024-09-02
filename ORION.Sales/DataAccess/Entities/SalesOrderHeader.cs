@@ -10,10 +10,10 @@ namespace ORION.Sales.DataAccess.Entities;
 /// General sales order information.
 /// </summary>
 [Table("SalesOrderHeader", Schema = "Sales")]
-[Index("SalesOrderNumber", Name = "AK_SalesOrderHeader_SalesOrderNumber", IsUnique = true)]
-[Index("Rowguid", Name = "AK_SalesOrderHeader_rowguid", IsUnique = true)]
-[Index("CustomerId", Name = "IX_SalesOrderHeader_CustomerID")]
-[Index("SalesPersonId", Name = "IX_SalesOrderHeader_SalesPersonID")]
+//[Index("SalesOrderNumber", Name = "AK_SalesOrderHeader_SalesOrderNumber", IsUnique = true)]
+//[Index("Rowguid", Name = "AK_SalesOrderHeader_rowguid", IsUnique = true)]
+//[Index("CustomerId", Name = "IX_SalesOrderHeader_CustomerID")]
+//[Index("SalesPersonId", Name = "IX_SalesOrderHeader_SalesPersonID")]
 public partial class SalesOrderHeader
 {
     /// <summary>

@@ -12,7 +12,7 @@ namespace ORION.Sales.DataAccess.Entities;
 /// Sale discounts lookup table.
 /// </summary>
 [Table("SpecialOffer", Schema = "Sales")]
-[Index("Rowguid", Name = "AK_SpecialOffer_rowguid", IsUnique = true)]
+//[Index("Rowguid", Name = "AK_SpecialOffer_rowguid", IsUnique = true)]
 public partial class SpecialOffer
 {
     /// <summary>

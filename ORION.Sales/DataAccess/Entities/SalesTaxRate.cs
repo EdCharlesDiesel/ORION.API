@@ -11,8 +11,8 @@ namespace ORION.Sales.DataAccess.Entities;
 /// Tax rate lookup table.
 /// </summary>
 [Table("SalesTaxRate", Schema = "Sales")]
-[Index("StateProvinceId", "TaxType", Name = "AK_SalesTaxRate_StateProvinceID_TaxType", IsUnique = true)]
-[Index("Rowguid", Name = "AK_SalesTaxRate_rowguid", IsUnique = true)]
+//[Index("StateProvinceId", "TaxType", Name = "AK_SalesTaxRate_StateProvinceID_TaxType", IsUnique = true)]
+//[Index("Rowguid", Name = "AK_SalesTaxRate_rowguid", IsUnique = true)]
 public partial class SalesTaxRate
 {
     /// <summary>

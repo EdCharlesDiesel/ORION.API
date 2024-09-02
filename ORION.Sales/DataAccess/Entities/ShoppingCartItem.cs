@@ -12,7 +12,7 @@ namespace ORION.Sales.DataAccess.Entities;
 /// Contains online customer orders until the order is submitted or cancelled.
 /// </summary>
 [Table("ShoppingCartItem", Schema = "Sales")]
-[Index("ShoppingCartId", "ProductId", Name = "IX_ShoppingCartItem_ShoppingCartID_ProductID")]
+//[Index("ShoppingCartId", "ProductId", Name = "IX_ShoppingCartItem_ShoppingCartID_ProductID")]
 public partial class ShoppingCartItem
 {
     /// <summary>

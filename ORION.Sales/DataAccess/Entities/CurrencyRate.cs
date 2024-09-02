@@ -10,7 +10,7 @@ namespace ORION.Sales.DataAccess.Entities;
 /// Currency exchange rates.
 /// </summary>
 [Table("CurrencyRate", Schema = "Sales")]
-[Index("CurrencyRateDate", "FromCurrencyCode", "ToCurrencyCode", Name = "AK_CurrencyRate_CurrencyRateDate_FromCurrencyCode_ToCurrencyCode", IsUnique = true)]
+//[Index("CurrencyRateDate", "FromCurrencyCode", "ToCurrencyCode", Name = "AK_CurrencyRate_CurrencyRateDate_FromCurrencyCode_ToCurrencyCode", IsUnique = true)]
 public partial class CurrencyRate
 {
     /// <summary>

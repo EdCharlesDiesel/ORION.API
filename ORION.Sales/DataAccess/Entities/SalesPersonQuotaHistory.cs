@@ -11,7 +11,7 @@ namespace ORION.Sales.DataAccess.Entities;
 /// </summary>
 [PrimaryKey("BusinessEntityId", "QuotaDate")]
 [Table("SalesPersonQuotaHistory", Schema = "Sales")]
-[Index("Rowguid", Name = "AK_SalesPersonQuotaHistory_rowguid", IsUnique = true)]
+//[Index("Rowguid", Name = "AK_SalesPersonQuotaHistory_rowguid", IsUnique = true)]
 public partial class SalesPersonQuotaHistory
 {
     /// <summary>

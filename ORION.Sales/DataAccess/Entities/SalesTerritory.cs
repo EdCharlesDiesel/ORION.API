@@ -11,8 +11,8 @@ namespace ORION.Sales.DataAccess.Entities;
 /// Sales territory lookup table.
 /// </summary>
 [Table("SalesTerritory", Schema = "Sales")]
-[Index("Name", Name = "AK_SalesTerritory_Name", IsUnique = true)]
-[Index("Rowguid", Name = "AK_SalesTerritory_rowguid", IsUnique = true)]
+//[Index("Name", Name = "AK_SalesTerritory_Name", IsUnique = true)]
+//[Index("Rowguid", Name = "AK_SalesTerritory_rowguid", IsUnique = true)]
 public partial class SalesTerritory
 {
     /// <summary>

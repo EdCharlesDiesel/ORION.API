@@ -12,9 +12,9 @@ namespace ORION.Sales.DataAccess.Entities;
 /// Customers (resellers) of Adventure Works products.
 /// </summary>
 [Table("Store", Schema = "Sales")]
-[Index("Rowguid", Name = "AK_Store_rowguid", IsUnique = true)]
-[Index("SalesPersonId", Name = "IX_Store_SalesPersonID")]
-[Index("Demographics", Name = "PXML_Store_Demographics")]
+//[Index("Rowguid", Name = "AK_Store_rowguid", IsUnique = true)]
+//[Index("SalesPersonId", Name = "IX_Store_SalesPersonID")]
+//[Index("Demographics", Name = "PXML_Store_Demographics")]
 public partial class Store
 {
     /// <summary>
@@ -40,8 +40,8 @@ public partial class Store
     /// <summary>
     /// Demographic informationg about the store such as the number of employees, annual sales and store type.
     /// </summary>
-    [Column(TypeName = "xml")]
-    public string Demographics { get; set; }
+    //[Column(TypeName = "xml")]
+    //public string Demographics { get; set; }
 
     /// <summary>
     /// ROWGUIDCOL number uniquely identifying the record. Used to support a merge replication sample.

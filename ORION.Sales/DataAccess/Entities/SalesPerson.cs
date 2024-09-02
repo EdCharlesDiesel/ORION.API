@@ -10,7 +10,7 @@ namespace ORION.Sales.DataAccess.Entities;
 /// Sales representative current information.
 /// </summary>
 [Table("SalesPerson", Schema = "Sales")]
-[Index("Rowguid", Name = "AK_SalesPerson_rowguid", IsUnique = true)]
+//[Index("Rowguid", Name = "AK_SalesPerson_rowguid", IsUnique = true)]
 public partial class SalesPerson
 {
     /// <summary>

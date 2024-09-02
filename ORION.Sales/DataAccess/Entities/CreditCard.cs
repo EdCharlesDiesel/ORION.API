@@ -12,7 +12,7 @@ namespace  ORION.Sales.DataAccess.Entities;
 /// Customer credit card information.
 /// </summary>
 [Table("CreditCard", Schema = "Sales")]
-[Index("CardNumber", Name = "AK_CreditCard_CardNumber", IsUnique = true)]
+//[Index("CardNumber", Name = "AK_CreditCard_CardNumber", IsUnique = true)]
 public partial class CreditCard
 {
     /// <summary>

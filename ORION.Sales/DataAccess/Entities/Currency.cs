@@ -10,7 +10,7 @@ namespace ORION.Sales.DataAccess.Entities;
 /// Lookup table containing standard ISO currencies.
 /// </summary>
 [Table("Currency", Schema = "Sales")]
-[Index("Name", Name = "AK_Currency_Name", IsUnique = true)]
+//[Index("Name", Name = "AK_Currency_Name", IsUnique = true)]
 public partial class Currency
 {
     /// <summary>

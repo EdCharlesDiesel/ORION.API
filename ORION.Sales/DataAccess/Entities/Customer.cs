@@ -9,9 +9,9 @@ namespace ORION.Sales.DataAccess.Entities;
 /// Current customer information. Also see the Person and Store tables.
 /// </summary>
 [Table("Customer", Schema = "Sales")]
-[Index("AccountNumber", Name = "AK_Customer_AccountNumber", IsUnique = true)]
-[Index("Rowguid", Name = "AK_Customer_rowguid", IsUnique = true)]
-[Index("TerritoryId", Name = "IX_Customer_TerritoryID")]
+//[Index("AccountNumber", Name = "AK_Customer_AccountNumber", IsUnique = true)]
+//[Index("Rowguid", Name = "AK_Customer_rowguid", IsUnique = true)]
+//[Index("TerritoryId", Name = "IX_Customer_TerritoryID")]
 public partial class Customer
 {
     /// <summary>

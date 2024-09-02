@@ -11,8 +11,8 @@ namespace ORION.Sales.DataAccess.Entities;
 /// </summary>
 [PrimaryKey("SalesOrderId", "SalesOrderDetailId")]
 [Table("SalesOrderDetail", Schema = "Sales")]
-[Index("Rowguid", Name = "AK_SalesOrderDetail_rowguid", IsUnique = true)]
-[Index("ProductId", Name = "IX_SalesOrderDetail_ProductID")]
+//[Index("Rowguid", Name = "AK_SalesOrderDetail_rowguid", IsUnique = true)]
+//[Index("ProductId", Name = "IX_SalesOrderDetail_ProductID")]
 public partial class SalesOrderDetail
 {
     /// <summary>
