@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ORION.Admin")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a36866b76147a2b381053026ea3dbd90ee84994a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+be312ef30d7a4c45cc5e5b80320f37a70adb1c08")]
 [assembly: System.Reflection.AssemblyProductAttribute("ORION.Admin")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ORION.Admin")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
