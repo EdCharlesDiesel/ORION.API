@@ -1,4 +1,4 @@
-using ORION.HumanResources;
+using ORION.Sales;
 
 var builder = WebApplication.CreateBuilder(args);
 

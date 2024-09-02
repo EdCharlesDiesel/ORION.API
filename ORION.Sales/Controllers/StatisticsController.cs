@@ -1,31 +1,28 @@
 ﻿using AutoMapper;
-using ORION.HumanResources.ActionFilters;
-using ORION.HumanResources.Models;
 using Microsoft.AspNetCore.Http.Features;
 using Microsoft.AspNetCore.Mvc;
-using System.Diagnostics.Metrics;
 using System.Web.Http;
 
-namespace ORION.HumanResources.Controllers
+namespace ORION.Sales.Controllers
 {
- //   [Route("api/statistics")]
+    //   [Route("api/statistics")]
     [ApiController]
     public class StatisticsController : ControllerBase
     {
-        private readonly IMapper _mapper;
-        public StatisticsController(IMapper mapper)
-        {
-            _mapper = mapper;
-        }
+       // private readonly IMapper _mapper;
+       // public StatisticsController(IMapper mapper)
+       // {
+       //     _mapper = mapper;
+       // }
 
-       // [HttpGet]
-        [CheckShowStatisticsHeader]
-        public ActionResult<StatisticsDto> GetStatistics()
-        {
-            var httpConnectionFeature = HttpContext.Features
-                .Get<IHttpConnectionFeature>();
-            return Ok(_mapper.Map<StatisticsDto>(httpConnectionFeature));
-        }
+       //// [HttpGet]
+       // [CheckShowStatisticsHeader]
+       // public ActionResult<StatisticsDto> GetStatistics()
+       // {
+       //     var httpConnectionFeature = HttpContext.Features
+       //         .Get<IHttpConnectionFeature>();
+       //     return Ok(_mapper.Map<StatisticsDto>(httpConnectionFeature));
+       // }
 
        // [HttpGet(Name="Name")]
         //public async ActionResult<IHttpActionResult> GetTradeByCountry()

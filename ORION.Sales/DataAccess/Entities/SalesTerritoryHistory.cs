@@ -6,7 +6,7 @@ using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 using Microsoft.EntityFrameworkCore;
 
-namespace ORION.DataAccess.Models;
+namespace ORION.Sales.DataAccess.Entities;
 
 /// <summary>
 /// Sales representative transfers to other sales territories.

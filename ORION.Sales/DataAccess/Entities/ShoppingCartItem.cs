@@ -6,7 +6,7 @@ using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 using Microsoft.EntityFrameworkCore;
 
-namespace ORION.DataAccess.Models;
+namespace ORION.Sales.DataAccess.Entities;
 
 /// <summary>
 /// Contains online customer orders until the order is submitted or cancelled.
@@ -53,7 +53,7 @@ public partial class ShoppingCartItem
     [Column(TypeName = "datetime")]
     public DateTime ModifiedDate { get; set; }
 
-    [ForeignKey("ProductId")]
-    [InverseProperty("ShoppingCartItems")]
-    public virtual Product Product { get; set; }
+    //[ForeignKey("ProductId")]
+    //[InverseProperty("ShoppingCartItems")]
+    //public virtual Product Product { get; set; }
 }

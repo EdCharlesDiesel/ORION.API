@@ -1,13 +1,12 @@
 ﻿using AutoMapper;
-using Microsoft.AspNetCore.Http.Features;
 
-namespace ORION.HumanResources.MapperProfiles
+namespace ORION.Sales.MapperProfiles
 {
     public class StatisticsProfile : Profile
     {
-        public StatisticsProfile()
-        {
-            CreateMap<IHttpConnectionFeature, Models.StatisticsDto>();
-        }
+        //public StatisticsProfile()
+        //{
+        //    CreateMap<IHttpConnectionFeature, Models.StatisticsDto>();
+        //}
     }
 }

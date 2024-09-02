@@ -6,7 +6,7 @@ using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 using Microsoft.EntityFrameworkCore;
 
-namespace ORION.DataAccess.Models;
+namespace ORION.Sales.DataAccess.Entities;
 
 /// <summary>
 /// Customers (resellers) of Adventure Works products.
@@ -55,9 +55,9 @@ public partial class Store
     [Column(TypeName = "datetime")]
     public DateTime ModifiedDate { get; set; }
 
-    [ForeignKey("BusinessEntityId")]
-    [InverseProperty("Store")]
-    public virtual BusinessEntity BusinessEntity { get; set; }
+    //[ForeignKey("BusinessEntityId")]
+    //[InverseProperty("Store")]
+    //public virtual BusinessEntity BusinessEntity { get; set; }
 
     [InverseProperty("Store")]
     public virtual ICollection<Customer> Customers { get; set; } = new List<Customer>();

@@ -6,7 +6,7 @@ using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 using Microsoft.EntityFrameworkCore;
 
-namespace ORION.DataAccess.Models;
+namespace ORION.Sales.DataAccess.Entities;
 
 /// <summary>
 /// Cross-reference table mapping people to their credit card information in the CreditCard table. 
@@ -35,9 +35,9 @@ public partial class PersonCreditCard
     [Column(TypeName = "datetime")]
     public DateTime ModifiedDate { get; set; }
 
-    [ForeignKey("BusinessEntityId")]
-    [InverseProperty("PersonCreditCards")]
-    public virtual Person BusinessEntity { get; set; }
+    //[ForeignKey("BusinessEntityId")]
+    //[InverseProperty("PersonCreditCards")]
+    //public virtual Person BusinessEntity { get; set; }
 
     [ForeignKey("CreditCardId")]
     [InverseProperty("PersonCreditCards")]

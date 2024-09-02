@@ -1,13 +1,12 @@
 ﻿using AutoMapper;
-using ORION.HumanResources.DataAccess.Entities;
 
-namespace ORION.HumanResources.MapperProfiles
+namespace ORION.Sales.MapperProfiles
 {
     public class EmployeeProfile : Profile
     {
-        public EmployeeProfile()
-        { 
-            CreateMap<InternalEmployee, Models.InternalEmployeeDto>(); 
-        }
+        //public EmployeeProfile()
+        //{ 
+        //    CreateMap<InternalEmployee, Models.InternalEmployeeDto>(); 
+        //}
     }
 }

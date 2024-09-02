@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Filters;
 
-namespace ORION.HumanResources.ActionFilters
+namespace ORION.Sales.ActionFilters
 {
     public class CheckShowStatisticsHeader : ActionFilterAttribute
     { 
