@@ -1,0 +1,8 @@
+C:\x\ORION.API\ORION.Purchasing\obj\Debug\net8.0\ORION.Purchasing.csproj.AssemblyReference.cache
+C:\x\ORION.API\ORION.Purchasing\obj\Debug\net8.0\ORION.Purchasing.GeneratedMSBuildEditorConfig.editorconfig
+C:\x\ORION.API\ORION.Purchasing\obj\Debug\net8.0\ORION.Purchasing.AssemblyInfoInputs.cache
+C:\x\ORION.API\ORION.Purchasing\obj\Debug\net8.0\ORION.Purchasing.AssemblyInfo.cs
+C:\x\ORION.API\ORION.Purchasing\obj\Debug\net8.0\ORION.Purchasing.csproj.CoreCompileInputs.cache
+C:\x\ORION.API\ORION.Purchasing\obj\Debug\net8.0\ORION.Purchasing.MvcApplicationPartsAssemblyInfo.cs
+C:\x\ORION.API\ORION.Purchasing\obj\Debug\net8.0\ORION.Purchasing.MvcApplicationPartsAssemblyInfo.cache
+C:\x\ORION.API\ORION.Purchasing\obj\Debug\net8.0\ORION.Purchasing.sourcelink.json

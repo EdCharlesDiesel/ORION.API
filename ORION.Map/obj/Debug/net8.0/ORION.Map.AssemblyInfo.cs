@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ORION.Map")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+be312ef30d7a4c45cc5e5b80320f37a70adb1c08")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+727fbbcc2b5f5256614e10904af91adc0e979916")]
 [assembly: System.Reflection.AssemblyProductAttribute("ORION.Map")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ORION.Map")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

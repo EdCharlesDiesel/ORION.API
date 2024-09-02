@@ -1,0 +1,6 @@
+C:\x\ORION.API\ORION.Map\obj\Debug\net8.0\ORION.Map.csproj.AssemblyReference.cache
+C:\x\ORION.API\ORION.Map\obj\Debug\net8.0\ORION.Map.GeneratedMSBuildEditorConfig.editorconfig
+C:\x\ORION.API\ORION.Map\obj\Debug\net8.0\ORION.Map.AssemblyInfoInputs.cache
+C:\x\ORION.API\ORION.Map\obj\Debug\net8.0\ORION.Map.AssemblyInfo.cs
+C:\x\ORION.API\ORION.Map\obj\Debug\net8.0\ORION.Map.csproj.CoreCompileInputs.cache
+C:\x\ORION.API\ORION.Map\obj\Debug\net8.0\ORION.Map.sourcelink.json
