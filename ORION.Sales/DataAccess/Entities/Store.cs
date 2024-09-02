@@ -59,10 +59,10 @@ public partial class Store
     //[InverseProperty("Store")]
     //public virtual BusinessEntity BusinessEntity { get; set; }
 
-    [InverseProperty("Store")]
-    public virtual ICollection<Customer> Customers { get; set; } = new List<Customer>();
+    //[InverseProperty("Store")]
+    //public virtual ICollection<Customer> Customers { get; set; } = new List<Customer>();
 
-    [ForeignKey("SalesPersonId")]
-    [InverseProperty("Stores")]
-    public virtual SalesPerson SalesPerson { get; set; }
+    //[ForeignKey("SalesPersonId")]
+    //[InverseProperty("Stores")]
+    //public virtual SalesPerson SalesPerson { get; set; }
 }

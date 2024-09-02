@@ -38,6 +38,6 @@ public partial class SalesReason
     [Column(TypeName = "datetime")]
     public DateTime ModifiedDate { get; set; }
 
-    [InverseProperty("SalesReason")]
-    public virtual ICollection<SalesOrderHeaderSalesReason> SalesOrderHeaderSalesReasons { get; set; } = new List<SalesOrderHeaderSalesReason>();
+    //[InverseProperty("SalesReason")]
+    //public virtual ICollection<SalesOrderHeaderSalesReason> SalesOrderHeaderSalesReasons { get; set; } = new List<SalesOrderHeaderSalesReason>();
 }

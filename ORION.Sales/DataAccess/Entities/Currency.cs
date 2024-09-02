@@ -36,9 +36,9 @@ public partial class Currency
     //[InverseProperty("CurrencyCodeNavigation")]
     //public virtual ICollection<CountryRegionCurrency> CountryRegionCurrencies { get; set; } = new List<CountryRegionCurrency>();
 
-    [InverseProperty("FromCurrencyCodeNavigation")]
-    public virtual ICollection<CurrencyRate> CurrencyRateFromCurrencyCodeNavigations { get; set; } = new List<CurrencyRate>();
+    //[InverseProperty("FromCurrencyCodeNavigation")]
+    //public virtual ICollection<CurrencyRate> CurrencyRateFromCurrencyCodeNavigations { get; set; } = new List<CurrencyRate>();
 
-    [InverseProperty("ToCurrencyCodeNavigation")]
-    public virtual ICollection<CurrencyRate> CurrencyRateToCurrencyCodeNavigations { get; set; } = new List<CurrencyRate>();
+    //[InverseProperty("ToCurrencyCodeNavigation")]
+    //public virtual ICollection<CurrencyRate> CurrencyRateToCurrencyCodeNavigations { get; set; } = new List<CurrencyRate>();
 }

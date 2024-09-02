@@ -63,14 +63,14 @@ public partial class Customer
     //[InverseProperty("Customers")]
     //public virtual Person Person { get; set; }
 
-    [InverseProperty("Customer")]
-    public virtual ICollection<SalesOrderHeader> SalesOrderHeaders { get; set; } = new List<SalesOrderHeader>();
+    //[InverseProperty("Customer")]
+    //public virtual ICollection<SalesOrderHeader> SalesOrderHeaders { get; set; } = new List<SalesOrderHeader>();
 
-    [ForeignKey("StoreId")]
-    [InverseProperty("Customers")]
-    public virtual Store Store { get; set; }
+    //[ForeignKey("StoreId")]
+    //[InverseProperty("Customers")]
+    //public virtual Store Store { get; set; }
 
-    [ForeignKey("TerritoryId")]
-    [InverseProperty("Customers")]
-    public virtual SalesTerritory Territory { get; set; }
+    //[ForeignKey("TerritoryId")]
+    //[InverseProperty("Customers")]
+    //public virtual SalesTerritory Territory { get; set; }
 }

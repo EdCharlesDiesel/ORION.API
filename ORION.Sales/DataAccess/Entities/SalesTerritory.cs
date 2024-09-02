@@ -83,17 +83,17 @@ public partial class SalesTerritory
     //[InverseProperty("SalesTerritories")]
     //public virtual CountryRegion CountryRegionCodeNavigation { get; set; }
 
-    [InverseProperty("Territory")]
-    public virtual ICollection<Customer> Customers { get; set; } = new List<Customer>();
+    //[InverseProperty("Territory")]
+    //public virtual ICollection<Customer> Customers { get; set; } = new List<Customer>();
 
-    [InverseProperty("Territory")]
-    public virtual ICollection<SalesOrderHeader> SalesOrderHeaders { get; set; } = new List<SalesOrderHeader>();
+    //[InverseProperty("Territory")]
+    //public virtual ICollection<SalesOrderHeader> SalesOrderHeaders { get; set; } = new List<SalesOrderHeader>();
 
-    [InverseProperty("Territory")]
-    public virtual ICollection<SalesPerson> SalesPeople { get; set; } = new List<SalesPerson>();
+    //[InverseProperty("Territory")]
+    //public virtual ICollection<SalesPerson> SalesPeople { get; set; } = new List<SalesPerson>();
 
-    [InverseProperty("Territory")]
-    public virtual ICollection<SalesTerritoryHistory> SalesTerritoryHistories { get; set; } = new List<SalesTerritoryHistory>();
+    //[InverseProperty("Territory")]
+    //public virtual ICollection<SalesTerritoryHistory> SalesTerritoryHistories { get; set; } = new List<SalesTerritoryHistory>();
 
     //[InverseProperty("Territory")]
     //public virtual ICollection<StateProvince> StateProvinces { get; set; } = new List<StateProvince>();

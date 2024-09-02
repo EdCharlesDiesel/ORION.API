@@ -11,7 +11,7 @@ namespace ORION.Sales.DataAccess.Entities;
 /// <summary>
 /// Cross-reference table mapping people to their credit card information in the CreditCard table. 
 /// </summary>
-//[PrimaryKey("BusinessEntityId", "CreditCardId")]
+[PrimaryKey("BusinessEntityId", "CreditCardId")]
 [Table("PersonCreditCard", Schema = "Sales")]
 public partial class PersonCreditCard
 {
@@ -39,7 +39,7 @@ public partial class PersonCreditCard
     //[InverseProperty("PersonCreditCards")]
     //public virtual Person BusinessEntity { get; set; }
 
-    [ForeignKey("CreditCardId")]
-    [InverseProperty("PersonCreditCards")]
-    public virtual CreditCard CreditCard { get; set; }
+    //[ForeignKey("CreditCardId")]
+    //[InverseProperty("PersonCreditCards")]
+    //public virtual CreditCard CreditCard { get; set; }
 }

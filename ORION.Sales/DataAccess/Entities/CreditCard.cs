@@ -52,9 +52,9 @@ public partial class CreditCard
     [Column(TypeName = "datetime")]
     public DateTime ModifiedDate { get; set; }
 
-    [InverseProperty("CreditCard")]
-    public virtual ICollection<PersonCreditCard> PersonCreditCards { get; set; } = new List<PersonCreditCard>();
+    //[InverseProperty("CreditCard")]
+    //public virtual ICollection<PersonCreditCard> PersonCreditCards { get; set; } = new List<PersonCreditCard>();
 
-    [InverseProperty("CreditCard")]
-    public virtual ICollection<SalesOrderHeader> SalesOrderHeaders { get; set; } = new List<SalesOrderHeader>();
+    //[InverseProperty("CreditCard")]
+    //public virtual ICollection<SalesOrderHeader> SalesOrderHeaders { get; set; } = new List<SalesOrderHeader>();
 }

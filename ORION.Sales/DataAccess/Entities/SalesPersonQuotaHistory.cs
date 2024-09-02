@@ -9,7 +9,7 @@ namespace ORION.Sales.DataAccess.Entities;
 /// <summary>
 /// Sales performance tracking.
 /// </summary>
-//[PrimaryKey("BusinessEntityId", "QuotaDate")]
+[PrimaryKey("BusinessEntityId", "QuotaDate")]
 [Table("SalesPersonQuotaHistory", Schema = "Sales")]
 [Index("Rowguid", Name = "AK_SalesPersonQuotaHistory_rowguid", IsUnique = true)]
 public partial class SalesPersonQuotaHistory
@@ -46,7 +46,7 @@ public partial class SalesPersonQuotaHistory
     [Column(TypeName = "datetime")]
     public DateTime ModifiedDate { get; set; }
 
-    [ForeignKey("BusinessEntityId")]
-    [InverseProperty("SalesPersonQuotaHistories")]
-    public virtual SalesPerson BusinessEntity { get; set; }
+    //[ForeignKey("BusinessEntityId")]
+    //[InverseProperty("SalesPersonQuotaHistories")]
+    //public virtual SalesPerson BusinessEntity { get; set; }
 }

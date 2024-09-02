@@ -58,14 +58,14 @@ public partial class CurrencyRate
     [Column(TypeName = "datetime")]
     public DateTime ModifiedDate { get; set; }
 
-    [ForeignKey("FromCurrencyCode")]
-    [InverseProperty("CurrencyRateFromCurrencyCodeNavigations")]
-    public virtual Currency FromCurrencyCodeNavigation { get; set; }
+    //[ForeignKey("FromCurrencyCode")]
+    //[InverseProperty("CurrencyRateFromCurrencyCodeNavigations")]
+    //public virtual Currency FromCurrencyCodeNavigation { get; set; }
 
-    [InverseProperty("CurrencyRate")]
-    public virtual ICollection<SalesOrderHeader> SalesOrderHeaders { get; set; } = new List<SalesOrderHeader>();
+    //[InverseProperty("CurrencyRate")]
+    //public virtual ICollection<SalesOrderHeader> SalesOrderHeaders { get; set; } = new List<SalesOrderHeader>();
 
-    [ForeignKey("ToCurrencyCode")]
-    [InverseProperty("CurrencyRateToCurrencyCodeNavigations")]
-    public virtual Currency ToCurrencyCodeNavigation { get; set; }
+    //[ForeignKey("ToCurrencyCode")]
+    //[InverseProperty("CurrencyRateToCurrencyCodeNavigations")]
+    //public virtual Currency ToCurrencyCodeNavigation { get; set; }
 }

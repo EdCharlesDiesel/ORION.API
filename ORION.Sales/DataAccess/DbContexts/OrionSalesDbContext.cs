@@ -1,6 +1,7 @@
 ﻿
 using Microsoft.EntityFrameworkCore;
 using ORION.Sales.DataAccess.Entities;
+using System.Reflection;
 
 namespace ORION.Sales.DataAccess.DbContexts
 {
@@ -29,6 +30,11 @@ namespace ORION.Sales.DataAccess.DbContexts
          : base(options)
         {
         }
+
+        //protected override void OnModelCreating(ModelBuilder modelBuilder)
+        //{
+        //    modelBuilder.ApplyConfigurationsFromAssembly(Assembly.GetExecutingAssembly());
+        //}
 
         //protected override void OnModelCreating(ModelBuilder modelBuilder)
         //{

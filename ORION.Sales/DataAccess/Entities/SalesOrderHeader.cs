@@ -176,27 +176,27 @@ public partial class SalesOrderHeader
     //[InverseProperty("SalesOrderHeaderBillToAddresses")]
     //public virtual Address BillToAddress { get; set; }
 
-    [ForeignKey("CreditCardId")]
-    [InverseProperty("SalesOrderHeaders")]
-    public virtual CreditCard CreditCard { get; set; }
+    //[ForeignKey("CreditCardId")]
+    //[InverseProperty("SalesOrderHeaders")]
+    //public virtual CreditCard CreditCard { get; set; }
 
-    [ForeignKey("CurrencyRateId")]
-    [InverseProperty("SalesOrderHeaders")]
-    public virtual CurrencyRate CurrencyRate { get; set; }
+    //[ForeignKey("CurrencyRateId")]
+    //[InverseProperty("SalesOrderHeaders")]
+    //public virtual CurrencyRate CurrencyRate { get; set; }
 
-    [ForeignKey("CustomerId")]
-    [InverseProperty("SalesOrderHeaders")]
-    public virtual Customer Customer { get; set; }
+    //[ForeignKey("CustomerId")]
+    //[InverseProperty("SalesOrderHeaders")]
+    //public virtual Customer Customer { get; set; }
 
-    [InverseProperty("SalesOrder")]
-    public virtual ICollection<SalesOrderDetail> SalesOrderDetails { get; set; } = new List<SalesOrderDetail>();
+    //[InverseProperty("SalesOrder")]
+    //public virtual ICollection<SalesOrderDetail> SalesOrderDetails { get; set; } = new List<SalesOrderDetail>();
 
-    [InverseProperty("SalesOrder")]
-    public virtual ICollection<SalesOrderHeaderSalesReason> SalesOrderHeaderSalesReasons { get; set; } = new List<SalesOrderHeaderSalesReason>();
+    //[InverseProperty("SalesOrder")]
+    //public virtual ICollection<SalesOrderHeaderSalesReason> SalesOrderHeaderSalesReasons { get; set; } = new List<SalesOrderHeaderSalesReason>();
 
-    [ForeignKey("SalesPersonId")]
-    [InverseProperty("SalesOrderHeaders")]
-    public virtual SalesPerson SalesPerson { get; set; }
+    //[ForeignKey("SalesPersonId")]
+    //[InverseProperty("SalesOrderHeaders")]
+    //public virtual SalesPerson SalesPerson { get; set; }
 
     //[ForeignKey("ShipMethodId")]
     //[InverseProperty("SalesOrderHeaders")]
@@ -206,7 +206,7 @@ public partial class SalesOrderHeader
     //[InverseProperty("SalesOrderHeaderShipToAddresses")]
     //public virtual Address ShipToAddress { get; set; }
 
-    [ForeignKey("TerritoryId")]
-    [InverseProperty("SalesOrderHeaders")]
-    public virtual SalesTerritory Territory { get; set; }
+    //[ForeignKey("TerritoryId")]
+    //[InverseProperty("SalesOrderHeaders")]
+    //public virtual SalesTerritory Territory { get; set; }
 }

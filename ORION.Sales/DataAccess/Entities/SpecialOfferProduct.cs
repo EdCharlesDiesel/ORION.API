@@ -11,7 +11,7 @@ namespace ORION.Sales.DataAccess.Entities;
 /// <summary>
 /// Cross-reference table mapping products to special offer discounts.
 /// </summary>
-//[PrimaryKey("SpecialOfferId", "ProductId")]
+[PrimaryKey("SpecialOfferId", "ProductId")]
 [Table("SpecialOfferProduct", Schema = "Sales")]
 [Index("Rowguid", Name = "AK_SpecialOfferProduct_rowguid", IsUnique = true)]
 [Index("ProductId", Name = "IX_SpecialOfferProduct_ProductID")]
@@ -47,10 +47,10 @@ public partial class SpecialOfferProduct
     //[InverseProperty("SpecialOfferProducts")]
     //public virtual Product Product { get; set; }
 
-    [InverseProperty("SpecialOfferProduct")]
-    public virtual ICollection<SalesOrderDetail> SalesOrderDetails { get; set; } = new List<SalesOrderDetail>();
+    //[InverseProperty("SpecialOfferProduct")]
+    //public virtual ICollection<SalesOrderDetail> SalesOrderDetails { get; set; } = new List<SalesOrderDetail>();
 
-    [ForeignKey("SpecialOfferId")]
-    [InverseProperty("SpecialOfferProducts")]
-    public virtual SpecialOffer SpecialOffer { get; set; }
+    //[ForeignKey("SpecialOfferId")]
+    //[InverseProperty("SpecialOfferProducts")]
+    //public virtual SpecialOffer SpecialOffer { get; set; }
 }

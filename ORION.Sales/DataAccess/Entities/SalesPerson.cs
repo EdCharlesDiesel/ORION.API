@@ -72,19 +72,19 @@ public partial class SalesPerson
     //[InverseProperty("SalesPerson")]
     //public virtual Employee BusinessEntity { get; set; }
 
-    [InverseProperty("SalesPerson")]
-    public virtual ICollection<SalesOrderHeader> SalesOrderHeaders { get; set; } = new List<SalesOrderHeader>();
+    //[InverseProperty("SalesPerson")]
+    //public virtual ICollection<SalesOrderHeader> SalesOrderHeaders { get; set; } = new List<SalesOrderHeader>();
 
-    [InverseProperty("BusinessEntity")]
-    public virtual ICollection<SalesPersonQuotaHistory> SalesPersonQuotaHistories { get; set; } = new List<SalesPersonQuotaHistory>();
+    //[InverseProperty("BusinessEntity")]
+    //public virtual ICollection<SalesPersonQuotaHistory> SalesPersonQuotaHistories { get; set; } = new List<SalesPersonQuotaHistory>();
 
-    [InverseProperty("BusinessEntity")]
-    public virtual ICollection<SalesTerritoryHistory> SalesTerritoryHistories { get; set; } = new List<SalesTerritoryHistory>();
+    //[InverseProperty("BusinessEntity")]
+    //public virtual ICollection<SalesTerritoryHistory> SalesTerritoryHistories { get; set; } = new List<SalesTerritoryHistory>();
 
-    [InverseProperty("SalesPerson")]
-    public virtual ICollection<Store> Stores { get; set; } = new List<Store>();
+    //[InverseProperty("SalesPerson")]
+    //public virtual ICollection<Store> Stores { get; set; } = new List<Store>();
 
-    [ForeignKey("TerritoryId")]
-    [InverseProperty("SalesPeople")]
-    public virtual SalesTerritory Territory { get; set; }
+    //[ForeignKey("TerritoryId")]
+    //[InverseProperty("SalesPeople")]
+    //public virtual SalesTerritory Territory { get; set; }
 }

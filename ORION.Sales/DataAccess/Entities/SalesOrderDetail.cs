@@ -9,7 +9,7 @@ namespace ORION.Sales.DataAccess.Entities;
 /// <summary>
 /// Individual products associated with a specific sales order. See SalesOrderHeader.
 /// </summary>
-//PrimaryKey("SalesOrderId", "SalesOrderDetailId")]
+[PrimaryKey("SalesOrderId", "SalesOrderDetailId")]
 [Table("SalesOrderDetail", Schema = "Sales")]
 [Index("Rowguid", Name = "AK_SalesOrderDetail_rowguid", IsUnique = true)]
 [Index("ProductId", Name = "IX_SalesOrderDetail_ProductID")]
@@ -82,11 +82,11 @@ public partial class SalesOrderDetail
     [Column(TypeName = "datetime")]
     public DateTime ModifiedDate { get; set; }
 
-    [ForeignKey("SalesOrderId")]
-    [InverseProperty("SalesOrderDetails")]
-    public virtual SalesOrderHeader SalesOrder { get; set; }
+    //[ForeignKey("SalesOrderId")]
+    //[InverseProperty("SalesOrderDetails")]
+    //public virtual SalesOrderHeader SalesOrder { get; set; }
 
-    [ForeignKey("SpecialOfferId, ProductId")]
-    [InverseProperty("SalesOrderDetails")]
-    public virtual SpecialOfferProduct SpecialOfferProduct { get; set; }
+    //[ForeignKey("SpecialOfferId, ProductId")]
+    //[InverseProperty("SalesOrderDetails")]
+    //public virtual SpecialOfferProduct SpecialOfferProduct { get; set; }
 }

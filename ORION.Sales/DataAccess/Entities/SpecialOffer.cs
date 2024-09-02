@@ -83,6 +83,6 @@ public partial class SpecialOffer
     [Column(TypeName = "datetime")]
     public DateTime ModifiedDate { get; set; }
 
-    [InverseProperty("SpecialOffer")]
-    public virtual ICollection<SpecialOfferProduct> SpecialOfferProducts { get; set; } = new List<SpecialOfferProduct>();
+    //[InverseProperty("SpecialOffer")]
+    //public virtual ICollection<SpecialOfferProduct> SpecialOfferProducts { get; set; } = new List<SpecialOfferProduct>();
 }

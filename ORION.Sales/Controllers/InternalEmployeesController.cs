@@ -1,7 +1,4 @@
-﻿using AutoMapper;
-using ORION.HumanResources.Business;
-using ORION.HumanResources.Models; 
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
 
 namespace ORION.HumanResources.Controllers
 {

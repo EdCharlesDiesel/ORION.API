@@ -11,7 +11,7 @@ namespace ORION.Sales.DataAccess.Entities;
 /// <summary>
 /// Sales representative transfers to other sales territories.
 /// </summary>
-//[PrimaryKey("BusinessEntityId", "StartDate", "TerritoryId")]
+[PrimaryKey("BusinessEntityId", "StartDate", "TerritoryId")]
 [Table("SalesTerritoryHistory", Schema = "Sales")]
 [Index("Rowguid", Name = "AK_SalesTerritoryHistory_rowguid", IsUnique = true)]
 public partial class SalesTerritoryHistory
@@ -55,11 +55,11 @@ public partial class SalesTerritoryHistory
     [Column(TypeName = "datetime")]
     public DateTime ModifiedDate { get; set; }
 
-    [ForeignKey("BusinessEntityId")]
-    [InverseProperty("SalesTerritoryHistories")]
-    public virtual SalesPerson BusinessEntity { get; set; }
+    //[ForeignKey("BusinessEntityId")]
+    //[InverseProperty("SalesTerritoryHistories")]
+    //public virtual SalesPerson BusinessEntity { get; set; }
 
-    [ForeignKey("TerritoryId")]
-    [InverseProperty("SalesTerritoryHistories")]
-    public virtual SalesTerritory Territory { get; set; }
+    //[ForeignKey("TerritoryId")]
+    //[InverseProperty("SalesTerritoryHistories")]
+    //public virtual SalesTerritory Territory { get; set; }
 }
