@@ -18,4 +18,8 @@
 		</PackageReference>
 	</ItemGroup>
 
+	<ItemGroup>
+	  <ProjectReference Include="..\ORION.Person\ORION.Person.csproj" />
+	</ItemGroup>
+
 </Project>

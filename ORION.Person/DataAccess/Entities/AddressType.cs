@@ -6,7 +6,7 @@ using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 using Microsoft.EntityFrameworkCore;
 
-namespace ORION.DataAccess.Models;
+namespace ORION.Person.DataAccess.Entities;
 
 /// <summary>
 /// Types of addresses stored in the Address table. 

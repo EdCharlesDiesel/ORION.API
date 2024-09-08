@@ -3,8 +3,24 @@
   "WorkspaceRootPath": "C:\\x\\ORION.API\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D82902E4-C571-40B0-B4F2-AE995FB02AF3}|ORION.Sales\\ORION.Sales.csproj|c:\\x\\orion.api\\orion.sales\\dataaccess\\dbcontexts\\orionsalesdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D82902E4-C571-40B0-B4F2-AE995FB02AF3}|ORION.Sales\\ORION.Sales.csproj|solutionrelative:orion.sales\\dataaccess\\dbcontexts\\orionsalesdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0FD6DA26-DC0E-43B6-85F5-C0F51CBB0DBE}|ORION.Person\\ORION.Person.csproj|c:\\x\\orion.api\\orion.person\\dataaccess\\entities\\emailaddress.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0FD6DA26-DC0E-43B6-85F5-C0F51CBB0DBE}|ORION.Person\\ORION.Person.csproj|solutionrelative:orion.person\\dataaccess\\entities\\emailaddress.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FD6DA26-DC0E-43B6-85F5-C0F51CBB0DBE}|ORION.Person\\ORION.Person.csproj|c:\\x\\orion.api\\orion.person\\dataaccess\\entities\\countryregion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0FD6DA26-DC0E-43B6-85F5-C0F51CBB0DBE}|ORION.Person\\ORION.Person.csproj|solutionrelative:orion.person\\dataaccess\\entities\\countryregion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D82902E4-C571-40B0-B4F2-AE995FB02AF3}|ORION.Sales\\ORION.Sales.csproj|c:\\x\\orion.api\\orion.sales\\dataaccess\\entities\\personcreditcard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D82902E4-C571-40B0-B4F2-AE995FB02AF3}|ORION.Sales\\ORION.Sales.csproj|solutionrelative:orion.sales\\dataaccess\\entities\\personcreditcard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FD6DA26-DC0E-43B6-85F5-C0F51CBB0DBE}|ORION.Person\\ORION.Person.csproj|c:\\x\\orion.api\\orion.person\\dataaccess\\entities\\businessentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0FD6DA26-DC0E-43B6-85F5-C0F51CBB0DBE}|ORION.Person\\ORION.Person.csproj|solutionrelative:orion.person\\dataaccess\\entities\\businessentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FD6DA26-DC0E-43B6-85F5-C0F51CBB0DBE}|ORION.Person\\ORION.Person.csproj|c:\\x\\orion.api\\orion.person\\dataaccess\\entities\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0FD6DA26-DC0E-43B6-85F5-C0F51CBB0DBE}|ORION.Person\\ORION.Person.csproj|solutionrelative:orion.person\\dataaccess\\entities\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -35,14 +51,66 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "OrionSalesDbContext.cs",
-              "DocumentMoniker": "C:\\x\\ORION.API\\ORION.Sales\\DataAccess\\DbContexts\\OrionSalesDbContext.cs",
-              "RelativeDocumentMoniker": "ORION.Sales\\DataAccess\\DbContexts\\OrionSalesDbContext.cs",
-              "ToolTip": "C:\\x\\ORION.API\\ORION.Sales\\DataAccess\\DbContexts\\OrionSalesDbContext.cs",
-              "RelativeToolTip": "ORION.Sales\\DataAccess\\DbContexts\\OrionSalesDbContext.cs",
-              "ViewState": "AQIAABQAAAAAAAAAAADwvxkAAAA5AAAA",
+              "Title": "EmailAddress.cs",
+              "DocumentMoniker": "C:\\x\\ORION.API\\ORION.Person\\DataAccess\\Entities\\EmailAddress.cs",
+              "RelativeDocumentMoniker": "ORION.Person\\DataAccess\\Entities\\EmailAddress.cs",
+              "ToolTip": "C:\\x\\ORION.API\\ORION.Person\\DataAccess\\Entities\\EmailAddress.cs",
+              "RelativeToolTip": "ORION.Person\\DataAccess\\Entities\\EmailAddress.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-02T17:34:32.849Z",
+              "WhenOpened": "2024-09-08T16:03:41.239Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CountryRegion.cs",
+              "DocumentMoniker": "C:\\x\\ORION.API\\ORION.Person\\DataAccess\\Entities\\CountryRegion.cs",
+              "RelativeDocumentMoniker": "ORION.Person\\DataAccess\\Entities\\CountryRegion.cs",
+              "ToolTip": "C:\\x\\ORION.API\\ORION.Person\\DataAccess\\Entities\\CountryRegion.cs",
+              "RelativeToolTip": "ORION.Person\\DataAccess\\Entities\\CountryRegion.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-08T16:03:31.077Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PersonCreditCard.cs",
+              "DocumentMoniker": "C:\\x\\ORION.API\\ORION.Sales\\DataAccess\\Entities\\PersonCreditCard.cs",
+              "RelativeDocumentMoniker": "ORION.Sales\\DataAccess\\Entities\\PersonCreditCard.cs",
+              "ToolTip": "C:\\x\\ORION.API\\ORION.Sales\\DataAccess\\Entities\\PersonCreditCard.cs",
+              "RelativeToolTip": "ORION.Sales\\DataAccess\\Entities\\PersonCreditCard.cs",
+              "ViewState": "AQIAABYAAAAAAAAAAAAgwCEAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-08T15:59:27.565Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "BusinessEntity.cs",
+              "DocumentMoniker": "C:\\x\\ORION.API\\ORION.Person\\DataAccess\\Entities\\BusinessEntity.cs",
+              "RelativeDocumentMoniker": "ORION.Person\\DataAccess\\Entities\\BusinessEntity.cs",
+              "ToolTip": "C:\\x\\ORION.API\\ORION.Person\\DataAccess\\Entities\\BusinessEntity.cs",
+              "RelativeToolTip": "ORION.Person\\DataAccess\\Entities\\BusinessEntity.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-08T15:58:46.755Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Person.cs",
+              "DocumentMoniker": "C:\\x\\ORION.API\\ORION.Person\\DataAccess\\Entities\\Person.cs",
+              "RelativeDocumentMoniker": "ORION.Person\\DataAccess\\Entities\\Person.cs",
+              "ToolTip": "C:\\x\\ORION.API\\ORION.Person\\DataAccess\\Entities\\Person.cs",
+              "RelativeToolTip": "ORION.Person\\DataAccess\\Entities\\Person.cs",
+              "ViewState": "AQIAAFYAAAAAAAAAAAAkwGUAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-08T15:54:53.944Z",
               "EditorCaption": ""
             }
           ]
