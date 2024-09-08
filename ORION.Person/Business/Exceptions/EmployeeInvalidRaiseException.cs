@@ -1,4 +1,4 @@
-﻿namespace ORION.HumanResources.Business.Exceptions
+﻿namespace ORION.Person.Business.Exceptions
 {
     public class EmployeeInvalidRaiseException : Exception
     {

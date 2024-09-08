@@ -1,7 +1,4 @@
 ﻿
-
-using ORION.HumanResources.DataAccess.Entities;
-
 namespace ORION.HumanResources.Business
 {
     /// <summary>

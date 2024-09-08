@@ -1,9 +1,4 @@
-﻿using Microsoft.EntityFrameworkCore;
-using ORION.HumanResources.Business;
-using ORION.HumanResources.DataAccess.DbContexts;
-using ORION.HumanResources.DataAccess.Services;
-
-namespace ORION.HumanResources
+﻿namespace ORION.HumanResources
 {
     public static class ServiceRegistrationExtensions
     {

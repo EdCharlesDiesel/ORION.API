@@ -1,4 +1,5 @@
 using ORION.Sales;
+using ORION.Sales.Middleware;
 
 var builder = WebApplication.CreateBuilder(args);
 

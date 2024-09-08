@@ -1,21 +1,15 @@
-﻿using DDD.DomainLayer;
-using Microsoft.EntityFrameworkCore;
-using System;
-using System.Collections.Generic;
+﻿using Microsoft.EntityFrameworkCore;
 
-namespace ORION.DataAccess.SqlServer
+namespace ORION.Person.SqlServer
 {
     public abstract class SqlEntityFrameworkRepositoryBase<TEntity, TDbContext> :
         IDisposable where TEntity : class
         where TDbContext : DbContext
     {
-        public SqlEntityFrameworkRepositoryBase(
+        protected SqlEntityFrameworkRepositoryBase(
             TDbContext context)
         {
-            if (context == null)
-                throw new ArgumentNullException("context", "context is null.");
-
-            _Context = context;
+            _Context = context ?? throw new ArgumentNullException(nameof(context), "context is null.");
         }
 
         public void Dispose()
@@ -33,7 +27,7 @@ namespace ORION.DataAccess.SqlServer
             }
         }
 
-        protected void VerifyItemIsAddedOrAttachedToDbSet(DbSet<TEntity> dbset, TEntity item)
+        protected void VerifyItemIsAddedOrAttachedToDbSet(DbSet<TEntity> dbset, TEntity? item)
         {
             if (item == null)
             {

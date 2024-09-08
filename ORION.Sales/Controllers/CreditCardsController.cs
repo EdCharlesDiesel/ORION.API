@@ -11,12 +11,12 @@ namespace ORION.Sales.Controllers
         private readonly ICreditCardService _CreditCardService;
         private readonly IMapper _mapper;        
 
-        public CreditCardsController(ICreditCardService CreditCardService,
-            IMapper mapper)
-        {
-            _CreditCardService = CreditCardService;
-            _mapper = mapper;
-        }   
+        //public CreditCardsController(ICreditCardService CreditCardService,
+        //    IMapper mapper)
+        //{
+        //    _CreditCardService = CreditCardService;
+        //    _mapper = mapper;
+        //}   
 
         [HttpPost]
         public async Task<ActionResult<InternalCreditCardDto>> CreateInternalCreditCard(
@@ -145,5 +145,11 @@ namespace ORION.Sales.Controllers
                 return BadRequest("CreditCard not eligible for promotion.");
             }
         }
+    }
+
+    internal interface ICreditCardService
+    {
+        Task AddInternalCreditCardAsync(object internalCreditCard);
+        Task CreateInternalCreditCardAsync(object firstName, object lastName);
     }
 }

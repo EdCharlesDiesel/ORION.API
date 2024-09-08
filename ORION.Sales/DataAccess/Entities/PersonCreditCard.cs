@@ -9,7 +9,7 @@ namespace ORION.Sales.DataAccess.Entities;
 /// </summary>
 //[PrimaryKey("BusinessEntityId", "CreditCardId")]
 [Table("PersonCreditCard", Schema = "Sales")]
-public partial class PersonCreditCard
+public abstract partial class PersonCreditCard
 {
     /// <summary>
     /// Business entity identification number. Foreign key to Person.BusinessEntityID.
@@ -33,7 +33,7 @@ public partial class PersonCreditCard
 
     [ForeignKey("BusinessEntityId")]
     [InverseProperty("PersonCreditCards")]
-    public virtual Person BusinessEntity { get; set; }
+    public virtual Person.DataAccess.Entities.Person BusinessEntity { get; set; }
 
     [ForeignKey("CreditCardId")]
     [InverseProperty("PersonCreditCards")]

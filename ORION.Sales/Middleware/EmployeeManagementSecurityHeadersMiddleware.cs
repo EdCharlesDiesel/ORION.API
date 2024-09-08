@@ -1,10 +1,10 @@
 ﻿namespace ORION.Sales.Middleware
 {
-    public class EmployeeManagementSecurityHeadersMiddleware
+    public class PersonCreditCarManagementSecurityHeadersMiddleware
     {
         private readonly RequestDelegate _next;
 
-        public EmployeeManagementSecurityHeadersMiddleware(RequestDelegate next)
+        public PersonCreditCarManagementSecurityHeadersMiddleware(RequestDelegate next)
         {
             _next = next;
         }

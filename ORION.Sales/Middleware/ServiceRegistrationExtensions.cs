@@ -5,9 +5,9 @@
         public static IServiceCollection RegisterBusinessServices(
             this IServiceCollection services)
         {
-            //services.AddScoped<IEmployeeService, EmployeeService>();
-            //services.AddScoped<IPromotionService, PromotionService>();
-            //services.AddScoped<EmployeeFactory>();
+            services.AddScoped<IEmployeeService, EmployeeService>();
+            services.AddScoped<IPromotionService, PromotionService>();
+            services.AddScoped<EmployeeFactory>();
             return services;
         }
 
@@ -15,8 +15,8 @@
             this IServiceCollection services, IConfiguration configuration)
         {
             // add the DbContext
-            //services.AddDbContext<OrionSalesDbContext>(options =>
-            //    options.UseSqlite(configuration.GetConnectionString("EmployeeManagementDB")));
+            services.AddDbContext<CreaDbContext>(options =>
+                options.UseSQ(configuration.GetConnectionString("EmployeeManagementDB")));
 
             // register the repository
             //services.AddScoped<IEmployeeManagementRepository, EmployeeManagementRepository>();

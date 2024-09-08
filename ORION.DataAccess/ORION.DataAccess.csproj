@@ -25,4 +25,22 @@
     <ProjectReference Include="..\ORION.Domain\ORION.Domain.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Compile Remove="Contexts\**" />
+    <Compile Remove="Extensions\**" />
+    <Compile Remove="Interfaces\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Remove="Contexts\**" />
+    <EmbeddedResource Remove="Extensions\**" />
+    <EmbeddedResource Remove="Interfaces\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="Contexts\**" />
+    <None Remove="Extensions\**" />
+    <None Remove="Interfaces\**" />
+  </ItemGroup>
+
 </Project>
