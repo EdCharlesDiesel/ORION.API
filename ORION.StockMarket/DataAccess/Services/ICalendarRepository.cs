@@ -1,4 +1,6 @@
-﻿using ORION.StockMarket.DataAccess.Entities;
+﻿using Microsoft.EntityFrameworkCore.ChangeTracking;
+using ORION.StockMarket.DataAccess.Entities;
+using ORION.StockMarket.DataAccess.Models;
 
 namespace ORION.StockMarket.DataAccess.Services
 {
@@ -8,7 +10,7 @@ namespace ORION.StockMarket.DataAccess.Services
 
         Task<Calendar?> GetCalendarAsync(int calendarId);
 
-        Task<Calendar> AddCalendarAsync(Calendar calendar);
+        EntityEntry<Calendar> AddCalendar(Calendar calendar);
 
         Task SaveChangesAsync();
     }

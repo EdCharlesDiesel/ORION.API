@@ -1,6 +1,8 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.ChangeTracking;
 using ORION.StockMarket.DataAccess.DbContexts;
 using ORION.StockMarket.DataAccess.Entities;
+using ORION.StockMarket.DataAccess.Models;
 
 namespace ORION.StockMarket.DataAccess.Services
 {
@@ -23,9 +25,9 @@ namespace ORION.StockMarket.DataAccess.Services
             return await _context.Calendars.FirstOrDefaultAsync(e => e.CalendarId == calendarId);
         }
 
-        public async Task<Calendar> AddCalendarAsync(Calendar calendar)
+        public EntityEntry<Calendar> AddCalendar(Calendar calendar)
         {
-            throw new NotImplementedException();
+          return  _context.Calendars.Add(calendar);
         }
 
         public async Task SaveChangesAsync()

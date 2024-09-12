@@ -1,9 +1,8 @@
-using System.Collections;
 using AutoMapper;
 using Microsoft.AspNetCore.Mvc;
+using ORION.StockMarket.DataAccess.Entities;
 using ORION.StockMarket.DataAccess.Models;
 using ORION.StockMarket.DataAccess.Services;
-using System.Collections.Generic;
 
 namespace ORION.StockMarket.Controllers
 {
@@ -14,17 +13,24 @@ namespace ORION.StockMarket.Controllers
         private readonly ILogger<CalendarController> _logger;
         private readonly ICalendarRepository _calendarRepository;
         private readonly IMapper _mapper;
-        public CalendarController(ILogger<CalendarController> logger, 
+        public CalendarController(ILogger<CalendarController> logger,
             ICalendarRepository calendarRepository,
                 IMapper mapper)
         {
-            _logger = logger ?? throw new ArgumentNullException(nameof(logger)); 
-            _calendarRepository = calendarRepository ?? throw new ArgumentNullException(nameof(calendarRepository)); 
+            _logger = logger ?? throw new ArgumentNullException(nameof(logger));
+            _calendarRepository = calendarRepository ?? throw new ArgumentNullException(nameof(calendarRepository));
             _mapper = mapper ?? throw new ArgumentNullException(nameof(mapper));
         }
-        
-        [HttpGet( Name = "GetEconomicCalenders")]
-        
+
+        [HttpOptions()]
+        public IActionResult GetEconomicCalendarOptions()
+        {
+            Response.Headers.Add("Allow", "GET,HEAD,POST,OPTIONS");
+            return Ok();
+        }
+
+        [HttpGet(Name = "GetEconomicCalenders")]
+
         public async Task<ActionResult<IEnumerable<EconomicCalendarDto>>> GetEconomicCalenders()
         {
             var economicCalendars = await _calendarRepository.GetCalendarsAsync();
@@ -33,21 +39,22 @@ namespace ORION.StockMarket.Controllers
         }
 
 
-        //[HttpPost]
-        //public async Task<ActionResult<EconomicCalendarDto>> PostCalendar(EconomicCalendarForCreationDto calendarForCreation)
-        //{
-        //    // create an internal employee entity with default values filled out
-        //    // and the values inputted via the POST request
-        //    var calendar = await _calendarRepository.AddCalendarAsync(calendarForCreation);
-                    
+        [HttpPost(Name = "CreateCourseForCalendar")]
+        public async Task<ActionResult<EconomicCalendarDto>> CreateCourseForCalendar(EconomicCalendarForCreationDto calendar)
+        {
+            var calendarToSave = _mapper.Map<Calendar>(calendar);
 
-        //    // persist it
-        //    await _calendarRepository.AddCalendarAsync(calendar);
+            _calendarRepository.AddCalendar(calendarToSave);
+            await _calendarRepository.SaveChangesAsync();
 
-        //    // return created employee after mapping to a DTO
-        //    return CreatedAtAction("GetEconomicCalenders",
-        //        _mapper.Map<EconomicCalendarForCreationDto>(calendar),
-        //        new { CalendarId = calendar.CalendarId });
-        //}
+            var calendarToReturn = _mapper.Map<EconomicCalendarDto>(calendarToSave);
+            // return created employee after mapping to a DTO
+            return CreatedAtAction("GetEconomicCalenders",
+                new
+                {
+                    CalendarId = calendarToReturn.CalendarId },
+                calendarToReturn);
+
+        }
     }
 }
