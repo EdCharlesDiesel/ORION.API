@@ -28,9 +28,9 @@ namespace ORION.HumanResources.Test
 
             var employeeServiceMock = new Mock<IEmployeeService>();
             employeeServiceMock
-                .Setup(m => m.FetchInternalEmployeeAsync(It.IsAny<Guid>()))
+                .Setup(m => m.FetchCalendarAsync(It.IsAny<Guid>()))
                 .ReturnsAsync(
-                    new InternalEmployee(
+                    new Calendar(
                         "Anna", "Johnson", 3, 3400, true, currentJobLevel)
                     {
                         Id = expectedEmployeeId,

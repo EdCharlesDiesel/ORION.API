@@ -4,6 +4,6 @@ namespace ORION.HumanResources.Business
 {
     public interface IPromotionService
     {
-        Task<bool> PromoteInternalEmployeeAsync(InternalEmployee employee);
+        Task<bool> PromoteCalendarAsync(Calendar employee);
     }
 }

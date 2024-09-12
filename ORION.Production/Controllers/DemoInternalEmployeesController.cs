@@ -6,13 +6,13 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace ORION.HumanResources.Controllers
 {
-    [Route("api/demointernalemployees")]
-    public class DemoInternalEmployeesController : ControllerBase
+    [Route("api/demoCalendars")]
+    public class DemoCalendarsController : ControllerBase
     {
         private readonly IEmployeeService _employeeService;
         private readonly IMapper _mapper;
 
-        public DemoInternalEmployeesController(IEmployeeService employeeService,
+        public DemoCalendarsController(IEmployeeService employeeService,
             IMapper mapper)
         {
             _employeeService = employeeService;
@@ -20,8 +20,8 @@ namespace ORION.HumanResources.Controllers
         }
 
         [HttpPost]
-        public async Task<ActionResult<InternalEmployeeDto>> CreateInternalEmployee(
-            InternalEmployeeForCreationDto internalEmployeeForCreation)
+        public async Task<ActionResult<CalendarDto>> CreateCalendar(
+            CalendarForCreationDto CalendarForCreation)
         {
             if (!ModelState.IsValid)
             {
@@ -30,32 +30,32 @@ namespace ORION.HumanResources.Controllers
 
             // create an internal employee entity with default values filled out
             // and the values inputted via the POST request
-            var internalEmployee =
-                    await _employeeService.CreateInternalEmployeeAsync(
-                        internalEmployeeForCreation.FirstName, internalEmployeeForCreation.LastName);
+            var Calendar =
+                    await _employeeService.CreateCalendarAsync(
+                        CalendarForCreation.FirstName, CalendarForCreation.LastName);
 
             // persist it
-            await _employeeService.AddInternalEmployeeAsync(internalEmployee);
+            await _employeeService.AddCalendarAsync(Calendar);
 
             // return created employee after mapping to a DTO
-            return CreatedAtAction("GetInternalEmployee",
-                _mapper.Map<InternalEmployeeDto>(internalEmployee),
-                new { employeeId = internalEmployee.Id });
+            return CreatedAtAction("GetCalendar",
+                _mapper.Map<CalendarDto>(Calendar),
+                new { employeeId = Calendar.Id });
         }
 
 
         [HttpGet]
         [Authorize]
-        public IActionResult GetProtectedInternalEmployees()
+        public IActionResult GetProtectedCalendars()
         {
             // depending on the role, redirect to another action
             if (User.IsInRole("Admin"))
             {
                 return RedirectToAction(
-                    "GetInternalEmployees", "ProtectedInternalEmployees");
+                    "GetCalendars", "ProtectedCalendars");
             }
 
-            return RedirectToAction("GetInternalEmployees", "InternalEmployees");
+            return RedirectToAction("GetCalendars", "Calendars");
         }
 
     }

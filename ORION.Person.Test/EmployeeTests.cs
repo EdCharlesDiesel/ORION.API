@@ -14,7 +14,7 @@ namespace ORION.HumanResources.Test
         public void EmployeeFullNamePropertyGetter_InputFirstNameAndLastName_FullNameIsConcatenation()
         {
             // Arrange
-            var employee = new InternalEmployee("Kevin", "Dockx", 0, 2500, false, 1);
+            var employee = new Calendar("Kevin", "Dockx", 0, 2500, false, 1);
 
             // Act
             employee.FirstName = "Lucia";
@@ -28,7 +28,7 @@ namespace ORION.HumanResources.Test
         public void EmployeeFullNamePropertyGetter_InputFirstNameAndLastName_FullNameStartsWithFirstName()
         {
             // Arrange
-            var employee = new InternalEmployee("Kevin", "Dockx", 0, 2500, false, 1);
+            var employee = new Calendar("Kevin", "Dockx", 0, 2500, false, 1);
 
             // Act
             employee.FirstName = "Lucia";
@@ -42,7 +42,7 @@ namespace ORION.HumanResources.Test
         public void EmployeeFullNamePropertyGetter_InputFirstNameAndLastName_FullNameEndsWithFirstName()
         {
             // Arrange
-            var employee = new InternalEmployee("Kevin", "Dockx", 0, 2500, false, 1);
+            var employee = new Calendar("Kevin", "Dockx", 0, 2500, false, 1);
 
             // Act
             employee.FirstName = "Lucia";
@@ -56,7 +56,7 @@ namespace ORION.HumanResources.Test
         public void EmployeeFullNamePropertyGetter_InputFirstNameAndLastName_FullNameContainsPartOfConcatenation()
         {
             // Arrange
-            var employee = new InternalEmployee("Kevin", "Dockx", 0, 2500, false, 1);
+            var employee = new Calendar("Kevin", "Dockx", 0, 2500, false, 1);
 
             // Act
             employee.FirstName = "Lucia";
@@ -70,7 +70,7 @@ namespace ORION.HumanResources.Test
         public void EmployeeFullNamePropertyGetter_InputFirstNameAndLastName_FullNameSoundsLikeConcatenation()
         {
             // Arrange
-            var employee = new InternalEmployee("Kevin", "Dockx", 0, 2500, false, 1);
+            var employee = new Calendar("Kevin", "Dockx", 0, 2500, false, 1);
 
             // Act
             employee.FirstName = "Lucia";

@@ -10,8 +10,8 @@ namespace ORION.HumanResources.DataAccess.Entities
         public Guid Id { get; set; }
         public bool IsNew { get; set; } = true;
         public string Title { get; set; }         
-        public List<InternalEmployee> EmployeesThatAttended { get; set; } 
-            = new List<InternalEmployee>();
+        public List<Calendar> EmployeesThatAttended { get; set; } 
+            = new List<Calendar>();
 
         public Course(string title)
         {

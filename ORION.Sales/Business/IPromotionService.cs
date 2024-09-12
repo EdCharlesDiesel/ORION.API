@@ -4,6 +4,6 @@
 //{
 //    public interface IPromotionService
 //    {
-//        Task<bool> PromoteInternalEmployeeAsync(InternalEmployee employee);
+//        Task<bool> PromoteCalendarAsync(Calendar employee);
 //    }
 //}

@@ -66,22 +66,22 @@ namespace ORION.Sales.DataAccess.DbContexts
         //              }
         //          );
 
-        //    modelBuilder.Entity<InternalEmployee>()
+        //    modelBuilder.Entity<Calendar>()
         //        .HasData(
-        //            new InternalEmployee("Megan", "Jones", 2, 3000, false, 2)
+        //            new Calendar("Megan", "Jones", 2, 3000, false, 2)
         //            {
         //                Id = Guid.Parse("72f2f5fe-e50c-4966-8420-d50258aefdcb") 
         //            },
-        //            new InternalEmployee("Jaimy", "Johnson", 3, 3400, true, 1)
+        //            new Calendar("Jaimy", "Johnson", 3, 3400, true, 1)
         //            {
         //                Id = Guid.Parse("f484ad8f-78fd-46d1-9f87-bbb1e676e37f") 
         //            });
 
         //    modelBuilder
-        //        .Entity<InternalEmployee>()
+        //        .Entity<Calendar>()
         //        .HasMany(p => p.AttendedCourses)
         //        .WithMany(p => p.EmployeesThatAttended)
-        //        .UsingEntity(j => j.ToTable("CourseInternalEmployee").HasData(new[]
+        //        .UsingEntity(j => j.ToTable("CourseCalendar").HasData(new[]
         //            {
         //                new { AttendedCoursesId = Guid.Parse("37e03ca7-c730-4351-834c-b66f280cdb01"),
         //                    EmployeesThatAttendedId = Guid.Parse("72f2f5fe-e50c-4966-8420-d50258aefdcb") },

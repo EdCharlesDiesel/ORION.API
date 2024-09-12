@@ -4,11 +4,11 @@ namespace ORION.HumanResources.DataAccess.Services
 {
     public interface IEmployeeManagementRepository
     {
-        Task<IEnumerable<InternalEmployee>> GetInternalEmployeesAsync();
+        Task<IEnumerable<Calendar>> GetCalendarsAsync();
 
-        InternalEmployee? GetInternalEmployee(Guid employeeId);
+        Calendar? GetCalendar(Guid employeeId);
 
-        Task<InternalEmployee?> GetInternalEmployeeAsync(Guid employeeId);
+        Task<Calendar?> GetCalendarAsync(Guid employeeId);
 
         Task<Course?> GetCourseAsync(Guid courseId);
 
@@ -18,7 +18,7 @@ namespace ORION.HumanResources.DataAccess.Services
 
         Task<List<Course>> GetCoursesAsync(params Guid[] courseIds);
 
-        void AddInternalEmployee(InternalEmployee internalEmployee);
+        void AddCalendar(Calendar Calendar);
 
         Task SaveChangesAsync();
     }

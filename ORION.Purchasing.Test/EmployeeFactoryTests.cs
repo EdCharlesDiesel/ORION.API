@@ -22,10 +22,10 @@ namespace ORION.HumanResources.Test
 
         [Fact(Skip = "Skipping this one for demo reasons.")]
         [Trait("Category", "EmployeeFactory_CreateEmployee_Salary")]
-        public void CreateEmployee_ConstructInternalEmployee_SalaryMustBe2500()
+        public void CreateEmployee_ConstructCalendar_SalaryMustBe2500()
         {
             
-            var employee = (InternalEmployee)_employeeFactory
+            var employee = (Calendar)_employeeFactory
                 .CreateEmployee("Kevin", "Dockx");
 
             Assert.Equal(2500, employee.Salary);
@@ -33,12 +33,12 @@ namespace ORION.HumanResources.Test
 
         [Fact(Skip = "Skipping this one for demo reasons.")]
         [Trait("Category", "EmployeeFactory_CreateEmployee_Salary")]
-        public void CreateEmployee_ConstructInternalEmployee_SalaryMustBeBetween2500And3500()
+        public void CreateEmployee_ConstructCalendar_SalaryMustBeBetween2500And3500()
         {
             // Arrange 
 
             // Act
-            var employee = (InternalEmployee)_employeeFactory
+            var employee = (Calendar)_employeeFactory
                 .CreateEmployee("Kevin", "Dockx");
 
             // Assert
@@ -48,12 +48,12 @@ namespace ORION.HumanResources.Test
 
         [Fact]
         [Trait("Category", "EmployeeFactory_CreateEmployee_Salary")]
-        public void CreateEmployee_ConstructInternalEmployee_SalaryMustBeBetween2500And3500_Alternative()
+        public void CreateEmployee_ConstructCalendar_SalaryMustBeBetween2500And3500_Alternative()
         {
             // Arrange 
 
             // Act
-            var employee = (InternalEmployee)_employeeFactory
+            var employee = (Calendar)_employeeFactory
                 .CreateEmployee("Kevin", "Dockx");
 
             // Assert
@@ -63,12 +63,12 @@ namespace ORION.HumanResources.Test
 
         [Fact]
         [Trait("Category", "EmployeeFactory_CreateEmployee_Salary")]
-        public void CreateEmployee_ConstructInternalEmployee_SalaryMustBeBetween2500And3500_AlternativeWithInRange()
+        public void CreateEmployee_ConstructCalendar_SalaryMustBeBetween2500And3500_AlternativeWithInRange()
         {
             // Arrange 
 
             // Act
-            var employee = (InternalEmployee)_employeeFactory
+            var employee = (Calendar)_employeeFactory
                 .CreateEmployee("Kevin", "Dockx");
 
             // Assert
@@ -77,12 +77,12 @@ namespace ORION.HumanResources.Test
 
         [Fact]
         [Trait("Category", "EmployeeFactory_CreateEmployee_Salary")]
-        public void CreateEmployee_ConstructInternalEmployee_SalaryMustBe2500_PrecisionExample()
+        public void CreateEmployee_ConstructCalendar_SalaryMustBe2500_PrecisionExample()
         {
             // Arrange 
 
             // Act
-            var employee = (InternalEmployee)_employeeFactory
+            var employee = (Calendar)_employeeFactory
                 .CreateEmployee("Kevin", "Dockx");
             employee.Salary = 2500.123m;
 

@@ -8,14 +8,14 @@ using Xunit;
 
 namespace ORION.HumanResources.Test
 {
-    public class InternalEmployeeControllerTests
+    public class CalendarControllerTests
     {
-        private readonly InternalEmployeesController _internalEmployeesController;
-        private readonly InternalEmployee _firstEmployee;
+        private readonly CalendarsController _CalendarsController;
+        private readonly Calendar _firstEmployee;
 
-        public InternalEmployeeControllerTests()
+        public CalendarControllerTests()
         {
-            _firstEmployee = new InternalEmployee(
+            _firstEmployee = new Calendar(
                 "Megan", "Jones", 2, 3000, false, 2)
             {
                 Id = Guid.Parse("bfdd0acd-d314-48d5-a7ad-0e94dfdd9155"),
@@ -24,88 +24,88 @@ namespace ORION.HumanResources.Test
 
             var employeeServiceMock = new Mock<IEmployeeService>();
             employeeServiceMock
-                .Setup(m => m.FetchInternalEmployeesAsync())
-                .ReturnsAsync(new List<InternalEmployee>() {
+                .Setup(m => m.FetchCalendarsAsync())
+                .ReturnsAsync(new List<Calendar>() {
                     _firstEmployee,
-                    new InternalEmployee("Jaimy", "Johnson", 3, 3400, true, 1),
-                    new InternalEmployee("Anne", "Adams", 3, 4000, false, 3)
+                    new Calendar("Jaimy", "Johnson", 3, 3400, true, 1),
+                    new Calendar("Anne", "Adams", 3, 4000, false, 3)
                 });
 
             //var mapperMock = new Mock<IMapper>();
             //mapperMock.Setup(m =>
-            //     m.Map<InternalEmployee, Models.InternalEmployeeDto>
-            //     (It.IsAny<InternalEmployee>()))
-            //     .Returns(new Models.InternalEmployeeDto());
+            //     m.Map<Calendar, Models.CalendarDto>
+            //     (It.IsAny<Calendar>()))
+            //     .Returns(new Models.CalendarDto());
             var mapperConfiguration = new MapperConfiguration(
                 cfg => cfg.AddProfile<MapperProfiles.EmployeeProfile>());
             var mapper = new Mapper(mapperConfiguration);
 
-            _internalEmployeesController = new InternalEmployeesController(
+            _CalendarsController = new CalendarsController(
                  employeeServiceMock.Object, mapper);
         }
 
         [Fact]
-        public async Task GetInternalEmployees_GetAction_MustReturnOkObjectResult()
+        public async Task GetCalendars_GetAction_MustReturnOkObjectResult()
         {
             // Arrange
            
             // Act
-            var result = await _internalEmployeesController.GetInternalEmployees();
+            var result = await _CalendarsController.GetCalendars();
 
             // Assert
             var actionResult = Assert
-             .IsType<ActionResult<IEnumerable<Models.InternalEmployeeDto>>>(result);
+             .IsType<ActionResult<IEnumerable<Models.CalendarDto>>>(result);
             Assert.IsType<OkObjectResult>(actionResult.Result);
 
         }
 
 
         [Fact]
-        public async Task GetInternalEmployees_GetAction_MustReturnIEnumerableOfInternalEmployeeDtoAsModelType()
+        public async Task GetCalendars_GetAction_MustReturnIEnumerableOfCalendarDtoAsModelType()
         {
             // Arrange
 
             // Act 
-            var result = await _internalEmployeesController.GetInternalEmployees();
+            var result = await _CalendarsController.GetCalendars();
 
             // Assert
             var actionResult = Assert
-                .IsType<ActionResult<IEnumerable<Models.InternalEmployeeDto>>>(result);
+                .IsType<ActionResult<IEnumerable<Models.CalendarDto>>>(result);
 
-            Assert.IsAssignableFrom<IEnumerable<Models.InternalEmployeeDto>>(
+            Assert.IsAssignableFrom<IEnumerable<Models.CalendarDto>>(
                 ((OkObjectResult)actionResult.Result).Value);
         }
 
         [Fact]
-        public async Task GetInternalEmployees_GetAction_MustReturnNumberOfInputtedInternalEmployees()
+        public async Task GetCalendars_GetAction_MustReturnNumberOfInputtedCalendars()
         {
             // Arrange
 
             // Act
-            var result = await _internalEmployeesController.GetInternalEmployees();
+            var result = await _CalendarsController.GetCalendars();
 
             // Assert
             var actionResult = Assert
-                .IsType<ActionResult<IEnumerable<Models.InternalEmployeeDto>>>(result);
+                .IsType<ActionResult<IEnumerable<Models.CalendarDto>>>(result);
 
             Assert.Equal(3,
-             ((IEnumerable<Models.InternalEmployeeDto>)
+             ((IEnumerable<Models.CalendarDto>)
              ((OkObjectResult)actionResult.Result).Value).Count());
         }
 
         [Fact]
-        public async Task GetInternalEmployees_GetAction_ReturnsOkObjectResultWithCorrectAmountOfInternalEmployees()
+        public async Task GetCalendars_GetAction_ReturnsOkObjectResultWithCorrectAmountOfCalendars()
         {
             // Arrange
 
             // Act
-            var result = await _internalEmployeesController.GetInternalEmployees();
+            var result = await _CalendarsController.GetCalendars();
 
             // Assert
             var actionResult = Assert
-                .IsType<ActionResult<IEnumerable<Models.InternalEmployeeDto>>>(result);
+                .IsType<ActionResult<IEnumerable<Models.CalendarDto>>>(result);
             var okObjectResult = Assert.IsType<OkObjectResult>(actionResult.Result);
-            var dtos = Assert.IsAssignableFrom<IEnumerable<Models.InternalEmployeeDto>>
+            var dtos = Assert.IsAssignableFrom<IEnumerable<Models.CalendarDto>>
                 (okObjectResult.Value);
             Assert.Equal(3,dtos.Count());
             var firstEmployee = dtos.First();

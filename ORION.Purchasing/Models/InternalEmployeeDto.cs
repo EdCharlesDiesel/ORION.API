@@ -1,6 +1,6 @@
 ﻿namespace ORION.HumanResources.Models
 {
-    public class InternalEmployeeDto
+    public class CalendarDto
     {
         public Guid Id { get; set; }
 

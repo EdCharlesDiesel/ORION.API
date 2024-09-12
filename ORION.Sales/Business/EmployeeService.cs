@@ -26,7 +26,7 @@
 //            _employeeFactory = employeeFactory;
 //        }
 
-//        public async Task AttendCourseAsync(InternalEmployee employee,
+//        public async Task AttendCourseAsync(Calendar employee,
 //            Course attendedCourse)
 //        {
 //            var alreadyAttendedCourse = employee.AttendedCourses
@@ -49,7 +49,7 @@
 //                * employee.AttendedCourses.Count * 100;
 //        }
 
-//        public async Task GiveMinimumRaiseAsync(InternalEmployee employee)
+//        public async Task GiveMinimumRaiseAsync(Calendar employee)
 //        {
 //            employee.Salary += 100;
 //            employee.MinimumRaiseGiven = true;
@@ -58,7 +58,7 @@
 //            await _repository.SaveChangesAsync();
 //        }
 
-//        public async Task GiveRaiseAsync(InternalEmployee employee, int raise)
+//        public async Task GiveRaiseAsync(Calendar employee, int raise)
 //        {
 //            // raise must be at least 100
 //            if (raise < 100)
@@ -89,9 +89,9 @@
 //            }
 //        }
 
-//        public async Task<InternalEmployee?> FetchInternalEmployeeAsync(Guid employeeId)
+//        public async Task<Calendar?> FetchCalendarAsync(Guid employeeId)
 //        {
-//            var employee = await _repository.GetInternalEmployeeAsync(employeeId);
+//            var employee = await _repository.GetCalendarAsync(employeeId);
 
 //            if (employee != null)
 //            {
@@ -101,9 +101,9 @@
 //            return employee;
 //        }
 
-//        public async Task<IEnumerable<InternalEmployee>> FetchInternalEmployeesAsync()
+//        public async Task<IEnumerable<Calendar>> FetchCalendarsAsync()
 //        {
-//            var employees = await _repository.GetInternalEmployeesAsync();
+//            var employees = await _repository.GetCalendarsAsync();
 
 //            foreach (var employee in employees)
 //            {
@@ -114,9 +114,9 @@
 //            return employees;
 //        }
 
-//        public InternalEmployee? FetchInternalEmployee(Guid employeeId)
+//        public Calendar? FetchCalendar(Guid employeeId)
 //        {
-//            var employee = _repository.GetInternalEmployee(employeeId);
+//            var employee = _repository.GetCalendar(employeeId);
 
 //            if (employee != null)
 //            {
@@ -126,11 +126,11 @@
 //            return employee;
 //        }
 
-//        public InternalEmployee CreateInternalEmployee(
+//        public Calendar CreateCalendar(
 //            string firstName, string lastName)
 //        {
 //            // use the factory to create the object 
-//            var employee = (InternalEmployee)_employeeFactory
+//            var employee = (Calendar)_employeeFactory
 //                .CreateEmployee(firstName, lastName);
 
 //            // apply business logic 
@@ -152,11 +152,11 @@
 //            return employee;
 //        }
 
-//        public async Task<InternalEmployee> CreateInternalEmployeeAsync(
+//        public async Task<Calendar> CreateCalendarAsync(
 //           string firstName, string lastName)
 //        {
 //            // use the factory to create the object 
-//            var employee = (InternalEmployee)_employeeFactory.CreateEmployee(
+//            var employee = (Calendar)_employeeFactory.CreateEmployee(
 //                firstName, lastName);
 
 //            // apply business logic 
@@ -190,9 +190,9 @@
 //            return employee;
 //        }
 
-//        public async Task AddInternalEmployeeAsync(InternalEmployee internalEmployee)
+//        public async Task AddCalendarAsync(Calendar Calendar)
 //        {
-//            _repository.AddInternalEmployee(internalEmployee);
+//            _repository.AddCalendar(Calendar);
 //            await _repository.SaveChangesAsync();
 //        }
 
@@ -210,7 +210,7 @@
 //            EmployeeIsAbsent?.Invoke(this, eventArgs);
 //        }
 
-//        private int CalculateSuggestedBonus(InternalEmployee employee)
+//        private int CalculateSuggestedBonus(Calendar employee)
 //        {
 //            if (employee.YearsInService == 0)
 //            {

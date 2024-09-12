@@ -6,7 +6,7 @@ namespace ORION.Sales.MapperProfiles
     {
         //public EmployeeProfile()
         //{ 
-        //    CreateMap<InternalEmployee, Models.InternalEmployeeDto>(); 
+        //    CreateMap<Calendar, Models.CalendarDto>(); 
         //}
     }
 }

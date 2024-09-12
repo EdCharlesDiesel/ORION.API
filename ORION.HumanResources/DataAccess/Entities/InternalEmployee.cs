@@ -3,7 +3,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace ORION.HumanResources.DataAccess.Entities
 {
-    public class InternalEmployee : Employee
+    public class Calendar : Employee
     { 
         [Required]
         public int YearsInService { get; set; }
@@ -22,7 +22,7 @@ namespace ORION.HumanResources.DataAccess.Entities
         [Required]
         public int JobLevel { get; set; }
 
-        public InternalEmployee(
+        public Calendar(
             string firstName,
             string lastName,
             int yearsInService,

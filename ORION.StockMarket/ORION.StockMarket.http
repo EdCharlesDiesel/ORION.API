@@ -1,0 +1,6 @@
+@ORION.StockMarket_HostAddress = http://localhost:5101
+
+GET {{ORION.StockMarket_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

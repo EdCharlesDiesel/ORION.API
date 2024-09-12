@@ -6,7 +6,7 @@ namespace ORION.HumanResources.Services.Test
 {
     public class EmployeeManagementTestDataRepository : IEmployeeManagementRepository
     {
-        private List<InternalEmployee> _internalEmployees;
+        private List<Calendar> _Calendars;
         private List<ExternalEmployee> _externalEmployees;
         private List<Course> _courses;
 
@@ -51,15 +51,15 @@ namespace ORION.HumanResources.Services.Test
                 }
             };
 
-            _internalEmployees = new()
+            _Calendars = new()
             {
-                new InternalEmployee("Megan", "Jones", 2, 3000, false, 2)
+                new Calendar("Megan", "Jones", 2, 3000, false, 2)
                 {
                     Id = Guid.Parse("72f2f5fe-e50c-4966-8420-d50258aefdcb"),
                     AttendedCourses = new List<Course> {
                             obligatoryCourse1, obligatoryCourse2 }
                 },
-                new InternalEmployee("Jaimy", "Johnson", 3, 3400, true, 1)
+                new Calendar("Jaimy", "Johnson", 3, 3400, true, 1)
                 {
                     Id = Guid.Parse("f484ad8f-78fd-46d1-9f87-bbb1e676e37f"),
                     AttendedCourses = new List<Course> {
@@ -76,7 +76,7 @@ namespace ORION.HumanResources.Services.Test
             };
         }
 
-        public void AddInternalEmployee(InternalEmployee internalEmployee)
+        public void AddCalendar(Calendar Calendar)
         {
             // empty on purpose
         }
@@ -110,19 +110,19 @@ namespace ORION.HumanResources.Services.Test
             return Task.FromResult(GetCourses(courseIds));
         }
 
-        public InternalEmployee? GetInternalEmployee(Guid employeeId)
+        public Calendar? GetCalendar(Guid employeeId)
         {
-            return _internalEmployees.FirstOrDefault(e => e.Id == employeeId);
+            return _Calendars.FirstOrDefault(e => e.Id == employeeId);
         }
 
-        public Task<InternalEmployee?> GetInternalEmployeeAsync(Guid employeeId)
+        public Task<Calendar?> GetCalendarAsync(Guid employeeId)
         {
-            return Task.FromResult(GetInternalEmployee(employeeId));
+            return Task.FromResult(GetCalendar(employeeId));
         }
 
-        public Task<IEnumerable<InternalEmployee>> GetInternalEmployeesAsync()
+        public Task<IEnumerable<Calendar>> GetCalendarsAsync()
         {
-            return Task.FromResult(_internalEmployees.AsEnumerable());
+            return Task.FromResult(_Calendars.AsEnumerable());
         }
 
         public Task SaveChangesAsync()

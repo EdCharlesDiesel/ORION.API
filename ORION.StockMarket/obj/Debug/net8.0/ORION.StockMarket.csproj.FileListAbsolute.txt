@@ -1,0 +1,8 @@
+C:\x\ORION.API\ORION.StockMarket\obj\Debug\net8.0\ORION.StockMarket.csproj.AssemblyReference.cache
+C:\x\ORION.API\ORION.StockMarket\obj\Debug\net8.0\ORION.StockMarket.GeneratedMSBuildEditorConfig.editorconfig
+C:\x\ORION.API\ORION.StockMarket\obj\Debug\net8.0\ORION.StockMarket.AssemblyInfoInputs.cache
+C:\x\ORION.API\ORION.StockMarket\obj\Debug\net8.0\ORION.StockMarket.AssemblyInfo.cs
+C:\x\ORION.API\ORION.StockMarket\obj\Debug\net8.0\ORION.StockMarket.csproj.CoreCompileInputs.cache
+C:\x\ORION.API\ORION.StockMarket\obj\Debug\net8.0\ORION.StockMarket.MvcApplicationPartsAssemblyInfo.cs
+C:\x\ORION.API\ORION.StockMarket\obj\Debug\net8.0\ORION.StockMarket.MvcApplicationPartsAssemblyInfo.cache
+C:\x\ORION.API\ORION.StockMarket\obj\Debug\net8.0\ORION.StockMarket.sourcelink.json

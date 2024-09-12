@@ -10,7 +10,7 @@ namespace ORION.HumanResources.Test
     public class MoqTests
     {
         [Fact]
-        public void FetchInternalEmployee_EmployeeFetched_SuggestedBonusMustBeCalculated()
+        public void FetchCalendar_EmployeeFetched_SuggestedBonusMustBeCalculated()
         {
             // Arrange
             var employeeManagementTestDataRepository =
@@ -22,7 +22,7 @@ namespace ORION.HumanResources.Test
                 employeeFactoryMock.Object);
 
             // Act 
-            var employee = employeeService.FetchInternalEmployee(
+            var employee = employeeService.FetchCalendar(
                 Guid.Parse("72f2f5fe-e50c-4966-8420-d50258aefdcb"));
 
             // Assert  
@@ -30,7 +30,7 @@ namespace ORION.HumanResources.Test
         }
 
         [Fact(Skip = "Skipping this one for demo reasons.")]
-        public void CreateInternalEmployee_InternalEmployeeCreated_SuggestedBonusMustBeCalculated()
+        public void CreateCalendar_CalendarCreated_SuggestedBonusMustBeCalculated()
         {
             // Arrange
             var employeeManagementTestDataRepository =
@@ -42,7 +42,7 @@ namespace ORION.HumanResources.Test
                     It.IsAny<string>(),
                     null,
                     false))
-                .Returns(new InternalEmployee("Kevin", "Dockx", 5, 2500, false, 1));
+                .Returns(new Calendar("Kevin", "Dockx", 5, 2500, false, 1));
 
             employeeFactoryMock.Setup(m =>
              m.CreateEmployee(
@@ -50,7 +50,7 @@ namespace ORION.HumanResources.Test
                  It.IsAny<string>(),
                  null,
                  false))
-             .Returns(new InternalEmployee("Sandy", "Dockx", 0, 3000, false, 1));
+             .Returns(new Calendar("Sandy", "Dockx", 0, 3000, false, 1));
 
             employeeFactoryMock.Setup(m =>
              m.CreateEmployee(
@@ -58,7 +58,7 @@ namespace ORION.HumanResources.Test
                  It.IsAny<string>(),
                  null,
                  false))
-             .Returns(new InternalEmployee("SomeoneWithAna", "Dockx", 0, 3000, false, 1));
+             .Returns(new Calendar("SomeoneWithAna", "Dockx", 0, 3000, false, 1));
 
             var employeeService = new EmployeeService(
                 employeeManagementTestDataRepository,
@@ -69,7 +69,7 @@ namespace ORION.HumanResources.Test
             decimal suggestedBonus = 1000;
             decimal suggestedBonus_ = 5000;
             // Act 
-            var employee = employeeService.CreateInternalEmployee("Sandy", "Dockx");
+            var employee = employeeService.CreateCalendar("Sandy", "Dockx");
 
             // Assert  
             Assert.Equal(suggestedBonus, employee.SuggestedBonus);
@@ -77,7 +77,7 @@ namespace ORION.HumanResources.Test
         }
 
         [Fact]
-        public void FetchInternalEmployee_EmployeeFetched_SuggestedBonusMustBeCalculated_MoqInterface()
+        public void FetchCalendar_EmployeeFetched_SuggestedBonusMustBeCalculated_MoqInterface()
         {
             // Arrange
             //var employeeManagementTestDataRepository =
@@ -86,8 +86,8 @@ namespace ORION.HumanResources.Test
                new Mock<IEmployeeManagementRepository>();
 
             employeeManagementTestDataRepositoryMock
-             .Setup(m => m.GetInternalEmployee(It.IsAny<Guid>()))
-             .Returns(new InternalEmployee("Tony", "Hall", 2, 2500, false, 2)
+             .Setup(m => m.GetCalendar(It.IsAny<Guid>()))
+             .Returns(new Calendar("Tony", "Hall", 2, 2500, false, 2)
              {
                  AttendedCourses = new List<Course>() {
                         new Course("A course"), new Course("Another course") }
@@ -99,7 +99,7 @@ namespace ORION.HumanResources.Test
                 employeeFactoryMock.Object);
 
             // Act 
-            var employee = employeeService.FetchInternalEmployee(
+            var employee = employeeService.FetchCalendar(
                 Guid.Empty);
 
             // Assert  
@@ -107,15 +107,15 @@ namespace ORION.HumanResources.Test
         }
 
         [Fact]
-        public async Task FetchInternalEmployee_EmployeeFetched_SuggestedBonusMustBeCalculated_MoqInterface_Async()
+        public async Task FetchCalendar_EmployeeFetched_SuggestedBonusMustBeCalculated_MoqInterface_Async()
         {
             // Arrange
             var employeeManagementTestDataRepositoryMock =
               new Mock<IEmployeeManagementRepository>();
 
             employeeManagementTestDataRepositoryMock
-                .Setup(m => m.GetInternalEmployeeAsync(It.IsAny<Guid>()))
-                .ReturnsAsync(new InternalEmployee("Tony", "Hall", 2, 2500, false, 2)
+                .Setup(m => m.GetCalendarAsync(It.IsAny<Guid>()))
+                .ReturnsAsync(new Calendar("Tony", "Hall", 2, 2500, false, 2)
                 {
                     AttendedCourses = new List<Course>() {
                         new Course("A course"), new Course("Another course") }
@@ -127,7 +127,7 @@ namespace ORION.HumanResources.Test
                 employeeFactoryMock.Object);
 
             // Act 
-            var employee = await employeeService.FetchInternalEmployeeAsync(Guid.Empty);
+            var employee = await employeeService.FetchCalendarAsync(Guid.Empty);
 
             // Assert  
             Assert.Equal(400, employee.SuggestedBonus);

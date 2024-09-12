@@ -39,6 +39,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ORION.Sales", "ORION.Sales\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ORION.Sales.Test", "ORION.Sales.Test\ORION.Sales.Test.csproj", "{AF620A48-E6C7-46B5-8FCC-F74A9E4E8D54}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ORION.StockMarket", "ORION.StockMarket\ORION.StockMarket.csproj", "{F198AF44-4CD5-4849-AD4C-94982B67D6C2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -265,6 +267,18 @@ Global
 		{AF620A48-E6C7-46B5-8FCC-F74A9E4E8D54}.Release|x64.Build.0 = Release|Any CPU
 		{AF620A48-E6C7-46B5-8FCC-F74A9E4E8D54}.Release|x86.ActiveCfg = Release|Any CPU
 		{AF620A48-E6C7-46B5-8FCC-F74A9E4E8D54}.Release|x86.Build.0 = Release|Any CPU
+		{F198AF44-4CD5-4849-AD4C-94982B67D6C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F198AF44-4CD5-4849-AD4C-94982B67D6C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F198AF44-4CD5-4849-AD4C-94982B67D6C2}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{F198AF44-4CD5-4849-AD4C-94982B67D6C2}.Debug|x64.Build.0 = Debug|Any CPU
+		{F198AF44-4CD5-4849-AD4C-94982B67D6C2}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{F198AF44-4CD5-4849-AD4C-94982B67D6C2}.Debug|x86.Build.0 = Debug|Any CPU
+		{F198AF44-4CD5-4849-AD4C-94982B67D6C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F198AF44-4CD5-4849-AD4C-94982B67D6C2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F198AF44-4CD5-4849-AD4C-94982B67D6C2}.Release|x64.ActiveCfg = Release|Any CPU
+		{F198AF44-4CD5-4849-AD4C-94982B67D6C2}.Release|x64.Build.0 = Release|Any CPU
+		{F198AF44-4CD5-4849-AD4C-94982B67D6C2}.Release|x86.ActiveCfg = Release|Any CPU
+		{F198AF44-4CD5-4849-AD4C-94982B67D6C2}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

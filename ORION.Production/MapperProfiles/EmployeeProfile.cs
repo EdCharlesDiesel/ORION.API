@@ -7,7 +7,7 @@ namespace ORION.HumanResources.MapperProfiles
     {
         public EmployeeProfile()
         { 
-            CreateMap<InternalEmployee, Models.InternalEmployeeDto>(); 
+            CreateMap<Calendar, Models.CalendarDto>(); 
         }
     }
 }

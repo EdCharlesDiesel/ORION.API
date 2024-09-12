@@ -23,7 +23,7 @@ namespace ORION.HumanResources.Test
 
 
         [Fact]
-        public void CreateInternalEmployee_InternalEmployeeCreated_MustHaveAttendedFirstObligatoryCourse_WithObject()
+        public void CreateCalendar_CalendarCreated_MustHaveAttendedFirstObligatoryCourse_WithObject()
         {
             // Arrange          
             var obligatoryCourse = _employeeServiceFixture
@@ -31,49 +31,49 @@ namespace ORION.HumanResources.Test
                 .GetCourse(Guid.Parse("37e03ca7-c730-4351-834c-b66f280cdb01"));
 
             // Act
-            var internalEmployee = _employeeServiceFixture
+            var Calendar = _employeeServiceFixture
                 .EmployeeService
-                .CreateInternalEmployee("Brooklyn", "Cannon");
+                .CreateCalendar("Brooklyn", "Cannon");
 
             _testOutputHelper.WriteLine($"Employee after Act: " +
-                $"{internalEmployee.FirstName} {internalEmployee.LastName}");
-            internalEmployee.AttendedCourses
+                $"{Calendar.FirstName} {Calendar.LastName}");
+            Calendar.AttendedCourses
                 .ForEach(c => _testOutputHelper.WriteLine($"Attended course: {c.Id} {c.Title}"));
 
             // Assert
-            Assert.Contains(obligatoryCourse, internalEmployee.AttendedCourses);
+            Assert.Contains(obligatoryCourse, Calendar.AttendedCourses);
         }
 
         [Fact]
-        public void CreateInternalEmployee_InternalEmployeeCreated_MustHaveAttendedFirstObligatoryCourse_WithPredicate()
+        public void CreateCalendar_CalendarCreated_MustHaveAttendedFirstObligatoryCourse_WithPredicate()
         {
             // Arrange            
 
             // Act
-            var internalEmployee = _employeeServiceFixture.EmployeeService
-                .CreateInternalEmployee("Brooklyn", "Cannon");
+            var Calendar = _employeeServiceFixture.EmployeeService
+                .CreateCalendar("Brooklyn", "Cannon");
 
             // Assert
-            Assert.Contains(internalEmployee.AttendedCourses,
+            Assert.Contains(Calendar.AttendedCourses,
                 course => course.Id == Guid.Parse("37e03ca7-c730-4351-834c-b66f280cdb01"));
         }
 
         [Fact]
-        public void CreateInternalEmployee_InternalEmployeeCreated_MustHaveAttendedSecondObligatoryCourse_WithPredicate()
+        public void CreateCalendar_CalendarCreated_MustHaveAttendedSecondObligatoryCourse_WithPredicate()
         {
             // Arrange 
 
             // Act
-            var internalEmployee = _employeeServiceFixture.EmployeeService
-                .CreateInternalEmployee("Brooklyn", "Cannon");
+            var Calendar = _employeeServiceFixture.EmployeeService
+                .CreateCalendar("Brooklyn", "Cannon");
 
             // Assert
-            Assert.Contains(internalEmployee.AttendedCourses,
+            Assert.Contains(Calendar.AttendedCourses,
                 course => course.Id == Guid.Parse("1fd115cf-f44c-4982-86bc-a8fe2e4ff83e"));
         }
 
         [Fact]
-        public void CreateInternalEmployee_InternalEmployeeCreated_AttendedCoursesMustMatchObligatoryCourses()
+        public void CreateCalendar_CalendarCreated_AttendedCoursesMustMatchObligatoryCourses()
         {
             // Arrange 
             var obligatoryCourses = _employeeServiceFixture
@@ -83,33 +83,33 @@ namespace ORION.HumanResources.Test
                     Guid.Parse("1fd115cf-f44c-4982-86bc-a8fe2e4ff83e"));
 
             // Act
-            var internalEmployee = _employeeServiceFixture.EmployeeService
-                .CreateInternalEmployee("Brooklyn", "Cannon");
+            var Calendar = _employeeServiceFixture.EmployeeService
+                .CreateCalendar("Brooklyn", "Cannon");
 
             // Assert
-            Assert.Equal(obligatoryCourses, internalEmployee.AttendedCourses);
+            Assert.Equal(obligatoryCourses, Calendar.AttendedCourses);
         }
 
         [Fact]
-        public void CreateInternalEmployee_InternalEmployeeCreated_AttendedCoursesMustNotBeNew()
+        public void CreateCalendar_CalendarCreated_AttendedCoursesMustNotBeNew()
         {
             // Arrange 
 
             // Act
-            var internalEmployee = _employeeServiceFixture.EmployeeService
-                .CreateInternalEmployee("Brooklyn", "Cannon");
+            var Calendar = _employeeServiceFixture.EmployeeService
+                .CreateCalendar("Brooklyn", "Cannon");
 
             // Assert
-            //foreach (var course in internalEmployee.AttendedCourses)
+            //foreach (var course in Calendar.AttendedCourses)
             //{
             //    Assert.False(course.IsNew);
             //}
-            Assert.All(internalEmployee.AttendedCourses,
+            Assert.All(Calendar.AttendedCourses,
                 course => Assert.False(course.IsNew));
         }
 
         [Fact]
-        public async Task CreateInternalEmployee_InternalEmployeeCreated_AttendedCoursesMustMatchObligatoryCourses_Async()
+        public async Task CreateCalendar_CalendarCreated_AttendedCoursesMustMatchObligatoryCourses_Async()
         {
             // Arrange
           
@@ -120,25 +120,25 @@ namespace ORION.HumanResources.Test
                     Guid.Parse("1fd115cf-f44c-4982-86bc-a8fe2e4ff83e"));
 
             // Act
-            var internalEmployee = await _employeeServiceFixture.EmployeeService
-                .CreateInternalEmployeeAsync("Brooklyn", "Cannon");
+            var Calendar = await _employeeServiceFixture.EmployeeService
+                .CreateCalendarAsync("Brooklyn", "Cannon");
 
             // Assert
-            Assert.Equal(obligatoryCourses, internalEmployee.AttendedCourses);
+            Assert.Equal(obligatoryCourses, Calendar.AttendedCourses);
         }
 
         [Fact]
         public async Task GiveRaise_RaiseBelowMinimumGiven_EmployeeInvalidRaiseExceptionMustBeThrown()
         {
             // Arrange  
-            var internalEmployee = new InternalEmployee(
+            var Calendar = new Calendar(
                 "Brooklyn", "Cannon", 5, 3000, false, 1);
 
             // Act & Assert
             await Assert.ThrowsAsync<EmployeeInvalidRaiseException>(
                 async () => 
                 await _employeeServiceFixture.EmployeeService
-                    .GiveRaiseAsync(internalEmployee, 50)
+                    .GiveRaiseAsync(Calendar, 50)
                 );
 
         }
@@ -150,13 +150,13 @@ namespace ORION.HumanResources.Test
         //    var employeeService = new EmployeeService(
         //        new EmployeeManagementTestDataRepository(),
         //        new EmployeeFactory());
-        //    var internalEmployee = new InternalEmployee(
+        //    var Calendar = new Calendar(
         //        "Brooklyn", "Cannon", 5, 3000, false, 1);
 
         //    // Act & Assert
         //    Assert.ThrowsAsync<EmployeeInvalidRaiseException>(
         //        async () =>
-        //        await employeeService.GiveRaiseAsync(internalEmployee, 50)
+        //        await employeeService.GiveRaiseAsync(Calendar, 50)
         //        );
 
         //}
@@ -166,7 +166,7 @@ namespace ORION.HumanResources.Test
         public void NotifyOfAbsence_EmployeeIsAbsent_OnEmployeeIsAbsentMustBeTriggered()
         {
             // Arrange 
-            var internalEmployee = new InternalEmployee(
+            var Calendar = new Calendar(
                 "Brooklyn", "Cannon", 5, 3000, false, 1);
 
             // Act & Assert
@@ -176,7 +176,7 @@ namespace ORION.HumanResources.Test
                handler => _employeeServiceFixture.EmployeeService
                     .EmployeeIsAbsent -= handler,
                () => _employeeServiceFixture.EmployeeService
-                    .NotifyOfAbsence(internalEmployee));
+                    .NotifyOfAbsence(Calendar));
         }
     }
 }

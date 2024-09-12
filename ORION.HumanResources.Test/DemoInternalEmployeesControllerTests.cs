@@ -10,41 +10,41 @@ using Xunit;
 
 namespace ORION.HumanResources.Test
 {
-    public class DemoInternalEmployeesControllerTests
+    public class DemoCalendarsControllerTests
     {
         [Fact]
-        public async Task CreateInternalEmployee_InvalidInput_MustReturnBadRequest()
+        public async Task CreateCalendar_InvalidInput_MustReturnBadRequest()
         { 
             // Arrange
             var employeeServiceMock = new Mock<IEmployeeService>();
             var mapperMock = new Mock<IMapper>();
-            var demoInternalEmployeesController = new DemoInternalEmployeesController(
+            var demoCalendarsController = new DemoCalendarsController(
                 employeeServiceMock.Object, mapperMock.Object);
 
-            var internalEmployeeForCreationDto = new InternalEmployeeForCreationDto();
+            var CalendarForCreationDto = new CalendarForCreationDto();
 
-            demoInternalEmployeesController.ModelState
+            demoCalendarsController.ModelState
                 .AddModelError("FirstName", "Required");
 
             // Act 
-            var result = await demoInternalEmployeesController
-                .CreateInternalEmployee(internalEmployeeForCreationDto);
+            var result = await demoCalendarsController
+                .CreateCalendar(CalendarForCreationDto);
 
             // Assert
             var actionResult = Assert
-                .IsType<ActionResult<Models.InternalEmployeeDto>>(result);
+                .IsType<ActionResult<Models.CalendarDto>>(result);
             var badRequestResult = Assert.IsType<BadRequestObjectResult>(actionResult.Result);
             Assert.IsType<SerializableError>(badRequestResult.Value);
         }
 
         [Fact]
-        public void GetProtectedInternalEmployees_GetActionForUserInAdminRole_MustRedirectToGetInternalEmployeesOnProtectedInternalEmployees()
+        public void GetProtectedCalendars_GetActionForUserInAdminRole_MustRedirectToGetCalendarsOnProtectedCalendars()
         {
             // Arrange
             var employeeServiceMock = new Mock<IEmployeeService>();
             var mapperMock = new Mock<IMapper>();
-            var demoInternalEmployeesController = 
-                new DemoInternalEmployeesController(
+            var demoCalendarsController = 
+                new DemoCalendarsController(
                     employeeServiceMock.Object, mapperMock.Object);
            
             var userClaims = new List<Claim>()
@@ -60,32 +60,32 @@ namespace ORION.HumanResources.Test
                 User = claimsPrincipal
             };
 
-            demoInternalEmployeesController.ControllerContext = 
+            demoCalendarsController.ControllerContext = 
                 new ControllerContext()
                 {
                     HttpContext = httpContext
                 };
 
             // Act
-            var result = demoInternalEmployeesController.GetProtectedInternalEmployees();
+            var result = demoCalendarsController.GetProtectedCalendars();
 
             // Assert 
             var actionResult = Assert.IsAssignableFrom<IActionResult>(result);
             var redirectoToActionResult = Assert.IsType<RedirectToActionResult>(result);
-            Assert.Equal("GetInternalEmployees",
+            Assert.Equal("GetCalendars",
                 redirectoToActionResult.ActionName);
-            Assert.Equal("ProtectedInternalEmployees",
+            Assert.Equal("ProtectedCalendars",
                 redirectoToActionResult.ControllerName);
         }
 
         [Fact]
-        public void GetProtectedInternalEmployees_GetActionForUserInAdminRole_MustRedirectToGetInternalEmployeesOnProtectedInternalEmployees_WithMoq()
+        public void GetProtectedCalendars_GetActionForUserInAdminRole_MustRedirectToGetCalendarsOnProtectedCalendars_WithMoq()
         {
             // Arrange
             var employeeServiceMock = new Mock<IEmployeeService>();
             var mapperMock = new Mock<IMapper>();
-            var demoInternalEmployeesController =
-                new DemoInternalEmployeesController(
+            var demoCalendarsController =
+                new DemoCalendarsController(
                     employeeServiceMock.Object, mapperMock.Object);
 
             var mockPrincipal = new Mock<ClaimsPrincipal>();
@@ -96,21 +96,21 @@ namespace ORION.HumanResources.Test
             httpContextMock.Setup(c => c.User)
                 .Returns(mockPrincipal.Object); 
 
-            demoInternalEmployeesController.ControllerContext =
+            demoCalendarsController.ControllerContext =
                 new ControllerContext()
                 {
                     HttpContext = httpContextMock.Object
                 };
 
             // Act
-            var result = demoInternalEmployeesController.GetProtectedInternalEmployees();
+            var result = demoCalendarsController.GetProtectedCalendars();
 
             // Assert 
             var actionResult = Assert.IsAssignableFrom<IActionResult>(result);
             var redirectoToActionResult = Assert.IsType<RedirectToActionResult>(result);
-            Assert.Equal("GetInternalEmployees",
+            Assert.Equal("GetCalendars",
                 redirectoToActionResult.ActionName);
-            Assert.Equal("ProtectedInternalEmployees",
+            Assert.Equal("ProtectedCalendars",
                 redirectoToActionResult.ControllerName);
         }
     }

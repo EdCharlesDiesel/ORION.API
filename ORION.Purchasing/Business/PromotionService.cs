@@ -23,10 +23,10 @@ namespace ORION.HumanResources.Business
         /// </summary>
         /// <param name="employee"></param>
         /// <returns></returns>
-        public async Task<bool> PromoteInternalEmployeeAsync(
-            InternalEmployee employee)
+        public async Task<bool> PromoteCalendarAsync(
+            Calendar employee)
         {
-            if (await CheckIfInternalEmployeeIsEligibleForPromotion(employee.Id))
+            if (await CheckIfCalendarIsEligibleForPromotion(employee.Id))
             {
                 employee.JobLevel++;
                 await _employeeManagementRepository.SaveChangesAsync();
@@ -40,7 +40,7 @@ namespace ORION.HumanResources.Business
         /// the top level managers can manage) to check whether
         /// an internal employee is eligible for promotion
         /// </summary> 
-        private async Task<bool> CheckIfInternalEmployeeIsEligibleForPromotion(
+        private async Task<bool> CheckIfCalendarIsEligibleForPromotion(
             Guid employeeId)
         {
             // call into API

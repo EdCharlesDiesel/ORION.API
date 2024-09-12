@@ -43,7 +43,7 @@ namespace ORION.HumanResources.Business
             }
 
             // create a new employee with default values 
-            return new InternalEmployee(firstName, lastName, 0, 2500, false, 1);
+            return new Calendar(firstName, lastName, 0, 2500, false, 1);
         }
     }
 }

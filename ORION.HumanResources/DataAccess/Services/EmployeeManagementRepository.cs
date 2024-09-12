@@ -13,23 +13,23 @@ namespace ORION.HumanResources.DataAccess.Services
             _context = context ?? throw new ArgumentNullException(nameof(context));
         }
 
-        public async Task<IEnumerable<InternalEmployee>> GetInternalEmployeesAsync()
+        public async Task<IEnumerable<Calendar>> GetCalendarsAsync()
         {
-            return await _context.InternalEmployees
+            return await _context.Calendars
                 .Include(e => e.AttendedCourses)
                 .ToListAsync(); 
         }
 
-        public async Task<InternalEmployee?> GetInternalEmployeeAsync(Guid employeeId)
+        public async Task<Calendar?> GetCalendarAsync(Guid employeeId)
         {
-            return await _context.InternalEmployees
+            return await _context.Calendars
                 .Include(e => e.AttendedCourses)
                 .FirstOrDefaultAsync(e => e.Id == employeeId);
         }
 
-        public InternalEmployee? GetInternalEmployee(Guid employeeId)
+        public Calendar? GetCalendar(Guid employeeId)
         {
-            return _context.InternalEmployees
+            return _context.Calendars
                 .Include(e => e.AttendedCourses)
                 .FirstOrDefault(e => e.Id == employeeId);
         }
@@ -72,9 +72,9 @@ namespace ORION.HumanResources.DataAccess.Services
             return coursesToReturn;
         }
 
-        public void AddInternalEmployee(InternalEmployee internalEmployee)
+        public void AddCalendar(Calendar Calendar)
         {
-            _context.InternalEmployees.Add(internalEmployee);
+            _context.Calendars.Add(Calendar);
         }
 
         public async Task SaveChangesAsync()

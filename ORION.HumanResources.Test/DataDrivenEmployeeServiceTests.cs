@@ -19,17 +19,17 @@ namespace ORION.HumanResources.Test
         [Theory]
         [InlineData("1fd115cf-f44c-4982-86bc-a8fe2e4ff83e")]
         [InlineData("37e03ca7-c730-4351-834c-b66f280cdb01")]
-        public void CreateInternalEmployee_InternalEmployeeCreated_MustHaveAttendedSecondObligatoryCourse(
+        public void CreateCalendar_CalendarCreated_MustHaveAttendedSecondObligatoryCourse(
             Guid courseId)
         {
             // Arrange 
 
             // Act
-            var internalEmployee = _employeeServiceFixture.EmployeeService
-                .CreateInternalEmployee("Brooklyn", "Cannon");
+            var Calendar = _employeeServiceFixture.EmployeeService
+                .CreateCalendar("Brooklyn", "Cannon");
 
             // Assert
-            Assert.Contains(internalEmployee.AttendedCourses,
+            Assert.Contains(Calendar.AttendedCourses,
                 course => course.Id == courseId);
         }
 
@@ -37,15 +37,15 @@ namespace ORION.HumanResources.Test
         public async Task GiveRaise_MinimumRaiseGiven_EmployeeMinimumRaiseGivenMustBeTrue()
         {
             // Arrange  
-            var internalEmployee = new InternalEmployee(
+            var Calendar = new Calendar(
                 "Brooklyn", "Cannon", 5, 3000, false, 1);
 
             // Act
             await _employeeServiceFixture
-                .EmployeeService.GiveRaiseAsync(internalEmployee, 100);
+                .EmployeeService.GiveRaiseAsync(Calendar, 100);
 
             // Assert
-            Assert.True(internalEmployee.MinimumRaiseGiven);
+            Assert.True(Calendar.MinimumRaiseGiven);
         }
 
 
@@ -53,15 +53,15 @@ namespace ORION.HumanResources.Test
         public async Task GiveRaise_MoreThanMinimumRaiseGiven_EmployeeMinimumRaiseGivenMustBeFalse()
         {
             // Arrange  
-            var internalEmployee = new InternalEmployee(
+            var Calendar = new Calendar(
                 "Brooklyn", "Cannon", 5, 3000, false, 1);
 
             // Act 
             await _employeeServiceFixture.EmployeeService
-                .GiveRaiseAsync(internalEmployee, 200);
+                .GiveRaiseAsync(Calendar, 200);
 
             // Assert
-            Assert.False(internalEmployee.MinimumRaiseGiven);
+            Assert.False(Calendar.MinimumRaiseGiven);
         }
 
         public static IEnumerable<object[]> ExampleTestDataForGiveRaise_WithProperty
@@ -114,16 +114,16 @@ namespace ORION.HumanResources.Test
             int raiseGiven, bool expectedValueForMinimumRaiseGiven)
         {
             // Arrange  
-            var internalEmployee = new InternalEmployee(
+            var Calendar = new Calendar(
                 "Brooklyn", "Cannon", 5, 3000, false, 1);
 
             // Act
             await _employeeServiceFixture.EmployeeService.GiveRaiseAsync(
-                internalEmployee, raiseGiven);
+                Calendar, raiseGiven);
 
             // Assert
             Assert.Equal(expectedValueForMinimumRaiseGiven, 
-                internalEmployee.MinimumRaiseGiven);
+                Calendar.MinimumRaiseGiven);
         }
 
     }

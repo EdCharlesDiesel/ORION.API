@@ -22,19 +22,19 @@ namespace ORION.HumanResources.Controllers
         [HttpPost]
         public async Task<IActionResult> CreatePromotion(PromotionForCreationDto promotionForCreation)
         { 
-            var internalEmployeeToPromote = await _employeeService
-                .FetchInternalEmployeeAsync(promotionForCreation.EmployeeId);
+            var CalendarToPromote = await _employeeService
+                .FetchCalendarAsync(promotionForCreation.EmployeeId);
 
-            if (internalEmployeeToPromote == null)
+            if (CalendarToPromote == null)
             {
                 return BadRequest();
             } 
 
-            if (await _promotionService.PromoteInternalEmployeeAsync(internalEmployeeToPromote))
+            if (await _promotionService.PromoteCalendarAsync(CalendarToPromote))
             {
                 return Ok(new PromotionResultDto() 
-                            { EmployeeId = internalEmployeeToPromote.Id, 
-                             JobLevel = internalEmployeeToPromote.JobLevel });
+                            { EmployeeId = CalendarToPromote.Id, 
+                             JobLevel = CalendarToPromote.JobLevel });
             }
             else
             {

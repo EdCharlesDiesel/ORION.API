@@ -16,7 +16,7 @@ namespace ORION.HumanResources.Test
         }
 
         [Fact]
-        public void CreateInternalEmployee_InternalEmployeeCreated_MustHaveAttendedFirstObligatoryCourse_WithObject()
+        public void CreateCalendar_CalendarCreated_MustHaveAttendedFirstObligatoryCourse_WithObject()
         {
             // Arrange
 
@@ -25,11 +25,11 @@ namespace ORION.HumanResources.Test
                 .GetCourse(Guid.Parse("37e03ca7-c730-4351-834c-b66f280cdb01"));
 
             // Act
-            var internalEmployee = _employeeServiceFixture
-                .EmployeeService.CreateInternalEmployee("Brooklyn", "Cannon");
+            var Calendar = _employeeServiceFixture
+                .EmployeeService.CreateCalendar("Brooklyn", "Cannon");
 
             // Assert
-            Assert.Contains(obligatoryCourse, internalEmployee.AttendedCourses);
+            Assert.Contains(obligatoryCourse, Calendar.AttendedCourses);
         }
     }
 }

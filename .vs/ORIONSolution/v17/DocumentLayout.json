@@ -1,7 +1,12 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\x\\ORION.API\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F198AF44-4CD5-4849-AD4C-94982B67D6C2}|ORION.StockMarket\\ORION.StockMarket.csproj|c:\\x\\orion.api\\orion.stockmarket\\controllers\\calendarcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F198AF44-4CD5-4849-AD4C-94982B67D6C2}|ORION.StockMarket\\ORION.StockMarket.csproj|solutionrelative:orion.stockmarket\\controllers\\calendarcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,7 +14,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -26,6 +31,19 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CalendarController.cs",
+              "DocumentMoniker": "C:\\x\\ORION.API\\ORION.StockMarket\\Controllers\\CalendarController.cs",
+              "RelativeDocumentMoniker": "ORION.StockMarket\\Controllers\\CalendarController.cs",
+              "ToolTip": "C:\\x\\ORION.API\\ORION.StockMarket\\Controllers\\CalendarController.cs",
+              "RelativeToolTip": "ORION.StockMarket\\Controllers\\CalendarController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-12T13:26:02.37Z",
+              "EditorCaption": ""
             }
           ]
         }
