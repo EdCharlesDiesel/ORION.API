@@ -39,8 +39,8 @@ namespace ORION.StockMarket.Controllers
         }
 
 
-        [HttpPost(Name = "CreateCourseForCalendar")]
-        public async Task<ActionResult<EconomicCalendarDto>> CreateCourseForCalendar(EconomicCalendarForCreationDto calendar)
+        [HttpPost(Name = "CreateCalendar")]
+        public async Task<ActionResult<EconomicCalendarDto>> CreateCalendar(EconomicCalendarForCreationDto calendar)
         {
             var calendarToSave = _mapper.Map<Calendar>(calendar);
 
@@ -48,7 +48,6 @@ namespace ORION.StockMarket.Controllers
             await _calendarRepository.SaveChangesAsync();
 
             var calendarToReturn = _mapper.Map<EconomicCalendarDto>(calendarToSave);
-            // return created employee after mapping to a DTO
             return CreatedAtAction("GetEconomicCalenders",
                 new
                 {
