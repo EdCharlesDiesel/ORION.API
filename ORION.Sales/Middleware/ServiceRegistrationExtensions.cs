@@ -1,4 +1,6 @@
-﻿namespace ORION.Sales.Middleware
+﻿using ORION.Sales.DataAccess.DbContexts;
+
+namespace ORION.Sales.Middleware
 {
     public static class ServiceRegistrationExtensions
     {
@@ -6,8 +8,8 @@
             this IServiceCollection services)
         {
             services.AddScoped<IEmployeeService, EmployeeService>();
-            services.AddScoped<IPromotionService, PromotionService>();
-            services.AddScoped<EmployeeFactory>();
+            //services.AddScoped<IPromotionService, PromotionService>();
+            //services.AddScoped<EmployeeFactory>();
             return services;
         }
 
@@ -15,7 +17,7 @@
             this IServiceCollection services, IConfiguration configuration)
         {
             // add the DbContext
-            services.AddDbContext<CreaDbContext>(options =>
+            services.AddDbContext<OrionSalesDbContext>(options =>
                 options.UseSQ(configuration.GetConnectionString("EmployeeManagementDB")));
 
             // register the repository
