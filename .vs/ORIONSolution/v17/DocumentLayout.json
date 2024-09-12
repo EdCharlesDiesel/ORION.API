@@ -3,8 +3,8 @@
   "WorkspaceRootPath": "C:\\x\\ORION.API\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F198AF44-4CD5-4849-AD4C-94982B67D6C2}|ORION.StockMarket\\ORION.StockMarket.csproj|c:\\x\\orion.api\\orion.stockmarket\\controllers\\calendarcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F198AF44-4CD5-4849-AD4C-94982B67D6C2}|ORION.StockMarket\\ORION.StockMarket.csproj|solutionrelative:orion.stockmarket\\controllers\\calendarcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F198AF44-4CD5-4849-AD4C-94982B67D6C2}|ORION.StockMarket\\ORION.StockMarket.csproj|c:\\x\\orion.api\\orion.stockmarket\\orion.stockmarket.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{F198AF44-4CD5-4849-AD4C-94982B67D6C2}|ORION.StockMarket\\ORION.StockMarket.csproj|solutionrelative:orion.stockmarket\\orion.stockmarket.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
     }
   ],
   "DocumentGroupContainers": [
@@ -35,14 +35,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "CalendarController.cs",
-              "DocumentMoniker": "C:\\x\\ORION.API\\ORION.StockMarket\\Controllers\\CalendarController.cs",
-              "RelativeDocumentMoniker": "ORION.StockMarket\\Controllers\\CalendarController.cs",
-              "ToolTip": "C:\\x\\ORION.API\\ORION.StockMarket\\Controllers\\CalendarController.cs",
-              "RelativeToolTip": "ORION.StockMarket\\Controllers\\CalendarController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAANAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-12T13:26:02.37Z",
+              "Title": "ORION.StockMarket.http",
+              "DocumentMoniker": "C:\\x\\ORION.API\\ORION.StockMarket\\ORION.StockMarket.http",
+              "RelativeDocumentMoniker": "ORION.StockMarket\\ORION.StockMarket.http",
+              "ToolTip": "C:\\x\\ORION.API\\ORION.StockMarket\\ORION.StockMarket.http",
+              "RelativeToolTip": "ORION.StockMarket\\ORION.StockMarket.http",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2024-09-12T14:00:25.344Z",
               "EditorCaption": ""
             }
           ]

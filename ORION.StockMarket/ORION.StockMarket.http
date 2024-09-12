@@ -1,6 +1,6 @@
-@ORION.StockMarket_HostAddress = http://localhost:5101
+@ORION.StockMarket_HostAddress = http://localhost:8080
 
-GET {{ORION.StockMarket_HostAddress}}/weatherforecast/
+GET {{ORION.StockMarket_HostAddress}}/calendar/
 Accept: application/json
 
 ###

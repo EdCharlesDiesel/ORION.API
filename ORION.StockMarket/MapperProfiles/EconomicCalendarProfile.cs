@@ -9,6 +9,8 @@ namespace ORION.StockMarket.MapperProfiles
         public EconomicCalendarProfile()
         {
             CreateMap<Calendar, EconomicCalendarDto>();
+            CreateMap<EconomicCalendarForCreationDto, Calendar>();
+
         }
     }
 }
