@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ORION.StockMarket")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b947073eb25226f27bde67a7065f5605d8679186")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+16915c329ccd85a067115668ed842ae0375ea6bf")]
 [assembly: System.Reflection.AssemblyProductAttribute("ORION.StockMarket")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ORION.StockMarket")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

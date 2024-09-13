@@ -12,6 +12,8 @@ namespace ORION.StockMarket.DataAccess.Services
 
         EntityEntry<Calendar> AddCalendar(Calendar calendar);
 
+        Task AddCalendarsAsync(IEnumerable<Calendar> calendars);
+
         Task SaveChangesAsync();
     }
 }
