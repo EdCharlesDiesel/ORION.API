@@ -3,20 +3,24 @@
   "WorkspaceRootPath": "C:\\x\\ORION.API\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{F198AF44-4CD5-4849-AD4C-94982B67D6C2}|ORION.StockMarket\\ORION.StockMarket.csproj|c:\\x\\orion.api\\orion.stockmarket\\dataaccess\\entities\\calendar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F198AF44-4CD5-4849-AD4C-94982B67D6C2}|ORION.StockMarket\\ORION.StockMarket.csproj|solutionrelative:orion.stockmarket\\dataaccess\\entities\\calendar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{F198AF44-4CD5-4849-AD4C-94982B67D6C2}|ORION.StockMarket\\ORION.StockMarket.csproj|c:\\x\\orion.api\\orion.stockmarket\\controllers\\calendarcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F198AF44-4CD5-4849-AD4C-94982B67D6C2}|ORION.StockMarket\\ORION.StockMarket.csproj|solutionrelative:orion.stockmarket\\controllers\\calendarcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6E038C2E-4E61-43F7-9E95-6504D505E7CC}|ConsoleAppForTesting\\ConsoleAppForTesting.csproj|c:\\x\\orion.api\\consoleappfortesting\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6E038C2E-4E61-43F7-9E95-6504D505E7CC}|ConsoleAppForTesting\\ConsoleAppForTesting.csproj|solutionrelative:consoleappfortesting\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F198AF44-4CD5-4849-AD4C-94982B67D6C2}|ORION.StockMarket\\ORION.StockMarket.csproj|c:\\x\\orion.api\\orion.stockmarket\\dataaccess\\services\\icalendarrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F198AF44-4CD5-4849-AD4C-94982B67D6C2}|ORION.StockMarket\\ORION.StockMarket.csproj|solutionrelative:orion.stockmarket\\dataaccess\\services\\icalendarrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F198AF44-4CD5-4849-AD4C-94982B67D6C2}|ORION.StockMarket\\ORION.StockMarket.csproj|c:\\x\\orion.api\\orion.stockmarket\\dataaccess\\services\\calendarrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F198AF44-4CD5-4849-AD4C-94982B67D6C2}|ORION.StockMarket\\ORION.StockMarket.csproj|solutionrelative:orion.stockmarket\\dataaccess\\services\\calendarrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F198AF44-4CD5-4849-AD4C-94982B67D6C2}|ORION.StockMarket\\ORION.StockMarket.csproj|c:\\x\\orion.api\\orion.stockmarket\\dataaccess\\services\\icalendarrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F198AF44-4CD5-4849-AD4C-94982B67D6C2}|ORION.StockMarket\\ORION.StockMarket.csproj|solutionrelative:orion.stockmarket\\dataaccess\\services\\icalendarrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F198AF44-4CD5-4849-AD4C-94982B67D6C2}|ORION.StockMarket\\ORION.StockMarket.csproj|c:\\x\\orion.api\\orion.stockmarket\\dataaccess\\entities\\economiccalendar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F198AF44-4CD5-4849-AD4C-94982B67D6C2}|ORION.StockMarket\\ORION.StockMarket.csproj|solutionrelative:orion.stockmarket\\dataaccess\\entities\\economiccalendar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -46,54 +50,67 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\x\\ORION.API\\ConsoleAppForTesting\\Program.cs",
-              "RelativeDocumentMoniker": "ConsoleAppForTesting\\Program.cs",
-              "ToolTip": "C:\\x\\ORION.API\\ConsoleAppForTesting\\Program.cs",
-              "RelativeToolTip": "ConsoleAppForTesting\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAABUAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-13T15:12:54.498Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "CalendarController.cs",
-              "DocumentMoniker": "C:\\x\\ORION.API\\ORION.StockMarket\\Controllers\\CalendarController.cs",
-              "RelativeDocumentMoniker": "ORION.StockMarket\\Controllers\\CalendarController.cs",
-              "ToolTip": "C:\\x\\ORION.API\\ORION.StockMarket\\Controllers\\CalendarController.cs",
-              "RelativeToolTip": "ORION.StockMarket\\Controllers\\CalendarController.cs",
-              "ViewState": "AQIAADQAAAAAAAAAAAAgwDoAAAAAAAAA",
+              "Title": "Calendar.cs",
+              "DocumentMoniker": "C:\\x\\ORION.API\\ORION.StockMarket\\DataAccess\\Entities\\Calendar.cs",
+              "RelativeDocumentMoniker": "ORION.StockMarket\\DataAccess\\Entities\\Calendar.cs",
+              "ToolTip": "C:\\x\\ORION.API\\ORION.StockMarket\\DataAccess\\Entities\\Calendar.cs",
+              "RelativeToolTip": "ORION.StockMarket\\DataAccess\\Entities\\Calendar.cs",
+              "ViewState": "AQIAABgAAAAAAAAAAAAowAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-12T14:25:29.583Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "CalendarRepository.cs",
-              "DocumentMoniker": "C:\\x\\ORION.API\\ORION.StockMarket\\DataAccess\\Services\\CalendarRepository.cs",
-              "RelativeDocumentMoniker": "ORION.StockMarket\\DataAccess\\Services\\CalendarRepository.cs",
-              "ToolTip": "C:\\x\\ORION.API\\ORION.StockMarket\\DataAccess\\Services\\CalendarRepository.cs",
-              "RelativeToolTip": "ORION.StockMarket\\DataAccess\\Services\\CalendarRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB4AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-12T14:17:42.909Z",
+              "WhenOpened": "2024-09-16T10:53:14.658Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "CalendarRepository.cs",
+              "DocumentMoniker": "C:\\x\\ORION.API\\ORION.StockMarket\\DataAccess\\Services\\CalendarRepository.cs",
+              "RelativeDocumentMoniker": "ORION.StockMarket\\DataAccess\\Services\\CalendarRepository.cs",
+              "ToolTip": "C:\\x\\ORION.API\\ORION.StockMarket\\DataAccess\\Services\\CalendarRepository.cs",
+              "RelativeToolTip": "ORION.StockMarket\\DataAccess\\Services\\CalendarRepository.cs",
+              "ViewState": "AQIAABEAAAAAAAAAAAAmwB8AAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-16T10:47:46.663Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "ICalendarRepository.cs",
               "DocumentMoniker": "C:\\x\\ORION.API\\ORION.StockMarket\\DataAccess\\Services\\ICalendarRepository.cs",
               "RelativeDocumentMoniker": "ORION.StockMarket\\DataAccess\\Services\\ICalendarRepository.cs",
               "ToolTip": "C:\\x\\ORION.API\\ORION.StockMarket\\DataAccess\\Services\\ICalendarRepository.cs",
               "RelativeToolTip": "ORION.StockMarket\\DataAccess\\Services\\ICalendarRepository.cs",
-              "ViewState": "AQIAAAIAAAAAAAAAAAAUwA4AAAANAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAArAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-12T14:22:04.418Z",
+              "WhenOpened": "2024-09-16T10:46:26.392Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CalendarController.cs",
+              "DocumentMoniker": "C:\\x\\ORION.API\\ORION.StockMarket\\Controllers\\CalendarController.cs",
+              "RelativeDocumentMoniker": "ORION.StockMarket\\Controllers\\CalendarController.cs",
+              "ToolTip": "C:\\x\\ORION.API\\ORION.StockMarket\\Controllers\\CalendarController.cs",
+              "RelativeToolTip": "ORION.StockMarket\\Controllers\\CalendarController.cs",
+              "ViewState": "AQIAAFgAAAAAAAAAAAAqwGMAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-16T10:46:01.868Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "EconomicCalendar.cs",
+              "DocumentMoniker": "C:\\x\\ORION.API\\ORION.StockMarket\\DataAccess\\Entities\\EconomicCalendar.cs",
+              "RelativeDocumentMoniker": "ORION.StockMarket\\DataAccess\\Entities\\EconomicCalendar.cs",
+              "ToolTip": "C:\\x\\ORION.API\\ORION.StockMarket\\DataAccess\\Entities\\EconomicCalendar.cs",
+              "RelativeToolTip": "ORION.StockMarket\\DataAccess\\Entities\\EconomicCalendar.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAFMAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-16T10:44:10.553Z",
               "EditorCaption": ""
             }
           ]

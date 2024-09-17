@@ -1,12 +1,12 @@
+using System.Globalization;
 using AutoMapper;
+using CsvHelper;
+using CsvHelper.Configuration;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
-using Newtonsoft.Json;
 using ORION.StockMarket.DataAccess.Entities;
 using ORION.StockMarket.DataAccess.Models;
 using ORION.StockMarket.DataAccess.Services;
-using System.Net.Http;
-using System.Xml.Serialization;
+using Calendar = ORION.StockMarket.DataAccess.Entities.Calendar;
 
 namespace ORION.StockMarket.Controllers
 {
@@ -17,18 +17,19 @@ namespace ORION.StockMarket.Controllers
         private readonly ILogger<CalendarController> _logger;
         private readonly ICalendarRepository _calendarRepository;
         private readonly IMapper _mapper;
-        private static HttpClient _httpClient;
+   //     private static HttpClient _httpClient;
         public CalendarController(ILogger<CalendarController> logger,
             ICalendarRepository calendarRepository,
-                IMapper mapper, HttpClient __httpClient)
+            IMapper mapper
+            )
         {
             _logger = logger ?? throw new ArgumentNullException(nameof(logger));
             _calendarRepository = calendarRepository ?? throw new ArgumentNullException(nameof(calendarRepository));
             _mapper = mapper ?? throw new ArgumentNullException(nameof(mapper));
 
             //_httpClient.BaseAddress = new Uri("http://localhost:57863");
-            _httpClient.Timeout = new TimeSpan(0, 0, 30);
-            _httpClient.DefaultRequestHeaders.Clear();
+     //       _httpClient.Timeout = new TimeSpan(0, 0, 30);
+       //     _httpClient.DefaultRequestHeaders.Clear();
         }
    
 
@@ -79,6 +80,30 @@ namespace ORION.StockMarket.Controllers
             await _calendarRepository.AddCalendarsAsync(calendars);
             await _calendarRepository.SaveChangesAsync();
             return Ok("Calendars added successfully");
+        }
+
+        [HttpPost("upload")]
+        public async Task<IActionResult> UploadCsv(IFormFile file)
+        {
+            if (file == null || file.Length == 0)
+            {
+                return BadRequest("No file uploaded.");
+            }
+
+            using var stream = new StreamReader(file.OpenReadStream());
+            using var csvReader = new CsvReader(stream, new CsvConfiguration(CultureInfo.InvariantCulture)
+            {
+                HeaderValidated = null,
+                MissingFieldFound = null
+            });
+
+            var records = csvReader.GetRecords<Calendar>().ToList();
+
+            //_calendarRepository.People.AddRange(records);
+            await _calendarRepository.AddCalendarsAsync(records);   
+            await _calendarRepository.SaveChangesAsync();
+
+            return Ok("CSV data saved successfully!");
         }
 
         //[HttpPost]
