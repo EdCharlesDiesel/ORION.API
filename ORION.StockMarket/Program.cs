@@ -23,11 +23,11 @@ namespace ORION.StockMarket
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();
 
-            builder.Services.AddDbContext<OrionCalendarDbContext>(
+            builder.Services.AddDbContext<OrionSalesPersonDbContext>(
                 dbContextOptions => dbContextOptions.UseSqlServer(
                     builder.Configuration["ConnectionStrings:Orion_StockMarket_ConnectionString"]));
 
-            builder.Services.AddScoped<ICalendarRepository, CalendarRepository>();
+            builder.Services.AddScoped<ISalesPersonRepository, SalesPersonRepository>();
 
             builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
 

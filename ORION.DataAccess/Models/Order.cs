@@ -1,17 +1,17 @@
-using DDD.DomainLayer;
 using ORION.Domain.Aggregates;
 using ORION.Domain.DTOs;
 using ORION.Domain.Enums;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
+using ORION.Domain.Tools;
 
 namespace ORION.DataAccess.Models
 {
 
     public class Order: Entity<int>, IOrder
     {
-        public void FullUpdate(IOrderFullEditDTO o)
+        public void FullUpdate(IOrderFullEditDto o)
         {
             if (IsTransient())
             {

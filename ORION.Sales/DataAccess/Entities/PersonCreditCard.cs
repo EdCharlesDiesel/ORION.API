@@ -1,6 +1,5 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
-using ORION.Person.DataAccess.Entities;
 
 namespace ORION.Sales.DataAccess.Entities;
 
@@ -31,11 +30,11 @@ public abstract partial class PersonCreditCard
     [Column(TypeName = "datetime")]
     public DateTime ModifiedDate { get; set; }
 
-    [ForeignKey("BusinessEntityId")]
-    [InverseProperty("PersonCreditCards")]
-    public virtual Person.DataAccess.Entities.Person BusinessEntity { get; set; }
+    //[ForeignKey("BusinessEntityId")]
+    //[InverseProperty("PersonCreditCards")]
+    //public virtual Person.DataAccess.Entities.Person BusinessEntity { get; set; }
 
-    [ForeignKey("CreditCardId")]
-    [InverseProperty("PersonCreditCards")]
-    public virtual CreditCard CreditCard { get; set; }
+    //[ForeignKey("CreditCardId")]
+    //[InverseProperty("PersonCreditCards")]
+    //public virtual CreditCard CreditCard { get; set; }
 }

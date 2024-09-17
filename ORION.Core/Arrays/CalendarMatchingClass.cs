@@ -1,53 +1,53 @@
 ﻿namespace ORION.Core.Arrays
 {
-    public class CalendarMatchingClass
+    public class SalesPersonMatchingClass
     {
-        // O(c1 + c2) time | O(c1 + c2) space - where c1 and c2 are the respective numbers of meetings in calendar1 and calendar2
-        //public static List<StringMeeting> CalendarMatchingClass(
-        //List<StringMeeting> calendar1,
+        // O(c1 + c2) time | O(c1 + c2) space - where c1 and c2 are the respective numbers of meetings in SalesPerson1 and SalesPerson2
+        //public static List<StringMeeting> SalesPersonMatchingClass(
+        //List<StringMeeting> SalesPerson1,
         //StringMeeting dailyBounds1,
-        //List<StringMeeting> calendar2,
+        //List<StringMeeting> SalesPerson2,
         //StringMeeting dailyBounds2,
         //int meetingDuration
         //)
         //{
-        //    List<Meeting> updatedCalendar1 = updateCalendar(calendar1, dailyBounds1);
-        //    List<Meeting> updatedCalendar2 = updateCalendar(calendar2, dailyBounds2);
-        //    List<Meeting> mergedCalendar = mergeCalendars(updatedCalendar1, updatedCalendar2);
-        //    List<Meeting> flattenedCalendar = flattenCalendar(mergedCalendar);
-        //    return getMatchingAvailabilities(flattenedCalendar, meetingDuration);
+        //    List<Meeting> updatedSalesPerson1 = updateSalesPerson(SalesPerson1, dailyBounds1);
+        //    List<Meeting> updatedSalesPerson2 = updateSalesPerson(SalesPerson2, dailyBounds2);
+        //    List<Meeting> mergedSalesPerson = mergeSalesPersons(updatedSalesPerson1, updatedSalesPerson2);
+        //    List<Meeting> flattenedSalesPerson = flattenSalesPerson(mergedSalesPerson);
+        //    return getMatchingAvailabilities(flattenedSalesPerson, meetingDuration);
         //}
-        //public static List<Meeting> updateCalendar(
-        //List<StringMeeting> calendar,
+        //public static List<Meeting> updateSalesPerson(
+        //List<StringMeeting> SalesPerson,
         //StringMeeting dailyBounds
         //)
         //{
-        //    List<StringMeeting> updatedCalendar = new List<StringMeeting>();
-        //    updatedCalendar.Add(new StringMeeting("0:00", dailyBounds.start));
-        //    updatedCalendar.AddRange(calendar);
-        //    updatedCalendar.Add(new StringMeeting(dailyBounds.end, "23:59"));
-        //    List<Meeting> calendarInMinutes = new List<Meeting>();
-        //    for (int i = 0; i < updatedCalendar.Count; i++)
+        //    List<StringMeeting> updatedSalesPerson = new List<StringMeeting>();
+        //    updatedSalesPerson.Add(new StringMeeting("0:00", dailyBounds.start));
+        //    updatedSalesPerson.AddRange(SalesPerson);
+        //    updatedSalesPerson.Add(new StringMeeting(dailyBounds.end, "23:59"));
+        //    List<Meeting> SalesPersonInMinutes = new List<Meeting>();
+        //    for (int i = 0; i < updatedSalesPerson.Count; i++)
         //    {
-        //        calendarInMinutes.Add(new Meeting(
-        //        timeToMinutes(updatedCalendar[i].start),
-        //        timeToMinutes(updatedCalendar[i].end)
+        //        SalesPersonInMinutes.Add(new Meeting(
+        //        timeToMinutes(updatedSalesPerson[i].start),
+        //        timeToMinutes(updatedSalesPerson[i].end)
         //        ));
         //    }
-        //    return calendarInMinutes;
+        //    return SalesPersonInMinutes;
         //}
-        //public static List<Meeting> mergeCalendars(
-        //List<Meeting> calendar1,
-        //List<Meeting> calendar2
+        //public static List<Meeting> mergeSalesPersons(
+        //List<Meeting> SalesPerson1,
+        //List<Meeting> SalesPerson2
         //)
         //{
         //    List<Meeting> merged = new List<Meeting>();
         //    int i = 0;
         //    int j = 0;
-        //    while (i < calendar1.Count && j < calendar2.Count)
+        //    while (i < SalesPerson1.Count && j < SalesPerson2.Count)
         //    {
-        //        Meeting meeting1 = calendar1[i];
-        //        Meeting meeting2 = calendar2[j];
+        //        Meeting meeting1 = SalesPerson1[i];
+        //        Meeting meeting2 = SalesPerson2[j];
         //        if (meeting1.start < meeting2.start)
         //        {
         //            merged.Add(meeting1);
@@ -59,17 +59,17 @@
         //            j++;
         //        }
         //    }
-        //    while (i < calendar1.Count) merged.Add(calendar1[i++]);
-        //    while (j < calendar2.Count) merged.Add(calendar2[j++]);
+        //    while (i < SalesPerson1.Count) merged.Add(SalesPerson1[i++]);
+        //    while (j < SalesPerson2.Count) merged.Add(SalesPerson2[j++]);
         //    return merged;
         //}
-        //public static List<Meeting> flattenCalendar(List<Meeting> calendar)
+        //public static List<Meeting> flattenSalesPerson(List<Meeting> SalesPerson)
         //{
         //    List<Meeting> flattened = new List<Meeting>();
-        //    flattened.Add(calendar[0]);
-        //    for (int i = 1; i < calendar.Count; i++)
+        //    flattened.Add(SalesPerson[0]);
+        //    for (int i = 1; i < SalesPerson.Count; i++)
         //    {
-        //        Meeting currentMeeting = calendar[i];
+        //        Meeting currentMeeting = SalesPerson[i];
         //        Meeting previousMeeting = flattened[flattened.Count - 1];
         //        if (previousMeeting.end >= currentMeeting.start)
         //        {
@@ -87,15 +87,15 @@
         //    return flattened;
         //}
         //public static List<StringMeeting> getMatchingAvailabilities(
-        //List<Meeting> calendar,
+        //List<Meeting> SalesPerson,
         //int meetingDuration
         //)
         //{
         //    List<Meeting> matchingAvailabilities = new List<Meeting>();
-        //    for (int i = 1; i < calendar.Count; i++)
+        //    for (int i = 1; i < SalesPerson.Count; i++)
         //    {
-        //        int start = calendar[i - 1].end;
-        //        int end = calendar[i].start;
+        //        int start = SalesPerson[i - 1].end;
+        //        int end = SalesPerson[i].start;
         //        int availabilityDuration = end - start;
         //        if (availabilityDuration >= meetingDuration)
         //        {

@@ -1,11 +1,11 @@
-﻿using DDD.DomainLayer;
-using ORION.Domain.DTOs;
+﻿using ORION.Domain.DTOs;
+using ORION.Domain.Tools;
 
 namespace ORION.Domain.Aggregates
 {
     public interface IRelationship: IEntity<int>, IBaseEntity
     {
-        void FullUpdate(IRelationshipFullEditDTO o);
+        void FullUpdate(IRelationshipFullEditDto o);
 
         int FromPersonId { get;}     
 

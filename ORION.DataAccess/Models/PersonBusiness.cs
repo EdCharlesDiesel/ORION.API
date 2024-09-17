@@ -1,7 +1,8 @@
 using System;
 using System.Collections.Generic;
-using DDD.DomainLayer;
 using ORION.Domain.Enums;
+using ORION.Domain.Tools;
+
 //FIXME this as well I need to understand what is happening here.
 namespace ORION.DataAccess.Models
 {
@@ -29,7 +30,7 @@ namespace ORION.DataAccess.Models
         }
 
     //    public int PersonId { get; set; }
-        public Person Person { get; set; }
+        //public Person Person { get; set; }
         public string BusinessType { get; set; }
         public string BusinessValue { get; set; }
         public DateTime StartDate { get; set; }

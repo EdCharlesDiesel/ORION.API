@@ -514,7 +514,7 @@
 .fa-plane:before {
   content: "\f072";
 }
-.fa-calendar:before {
+.fa-SalesPerson:before {
   content: "\f073";
 }
 .fa-random:before {
@@ -1037,7 +1037,7 @@
 .fa-shield:before {
   content: "\f132";
 }
-.fa-calendar-o:before {
+.fa-SalesPerson-o:before {
   content: "\f133";
 }
 .fa-fire-extinguisher:before {
@@ -1981,16 +1981,16 @@
 .fa-amazon:before {
   content: "\f270";
 }
-.fa-calendar-plus-o:before {
+.fa-SalesPerson-plus-o:before {
   content: "\f271";
 }
-.fa-calendar-minus-o:before {
+.fa-SalesPerson-minus-o:before {
   content: "\f272";
 }
-.fa-calendar-times-o:before {
+.fa-SalesPerson-times-o:before {
   content: "\f273";
 }
-.fa-calendar-check-o:before {
+.fa-SalesPerson-check-o:before {
   content: "\f274";
 }
 .fa-industry:before {

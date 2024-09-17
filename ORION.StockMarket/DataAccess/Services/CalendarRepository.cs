@@ -5,33 +5,33 @@ using ORION.StockMarket.DataAccess.Entities;
 
 namespace ORION.StockMarket.DataAccess.Services
 {
-    public class CalendarRepository: ICalendarRepository
+    public class SalesPersonRepository: ISalesPersonRepository
     {
-        private readonly OrionCalendarDbContext _context;
+        private readonly OrionSalesPersonDbContext _context;
 
-        public CalendarRepository(OrionCalendarDbContext context)
+        public SalesPersonRepository(OrionSalesPersonDbContext context)
         {
             _context = context ?? throw new ArgumentNullException(nameof(context));
         }
 
-        public async Task<IEnumerable<Calendar>> GetCalendarsAsync()
+        public async Task<IEnumerable<SalesPerson>> GetSalesPersonsAsync()
         {
-            return await _context.Calendars.ToListAsync(); 
+            return await _context.SalesPersons.ToListAsync(); 
         }
 
-        public async Task<Calendar?> GetCalendarAsync(int calendarId)
+        public async Task<SalesPerson?> GetSalesPersonAsync(int SalesPersonId)
         {
-            return await _context.Calendars.FirstOrDefaultAsync(e => e.CalendarId == calendarId);
+            return await _context.SalesPersons.FirstOrDefaultAsync(e => e.SalesPersonId == SalesPersonId);
         }
 
-        public EntityEntry<Calendar> AddCalendar(Calendar calendar)
+        public EntityEntry<SalesPerson> AddSalesPerson(SalesPerson SalesPerson)
         {
-          return  _context.Calendars.Add(calendar);
+          return  _context.SalesPersons.Add(SalesPerson);
         }   
 
-        public async Task AddCalendarsAsync(IEnumerable<Calendar> calendars)
+        public async Task AddSalesPersonsAsync(IEnumerable<SalesPerson> SalesPersons)
         { 
-            await _context.Calendars.AddRangeAsync(calendars);
+            await _context.SalesPersons.AddRangeAsync(SalesPersons);
         }
 
         public async Task SaveChangesAsync()

@@ -1,16 +1,16 @@
 using System;
 using System.ComponentModel.DataAnnotations;
 using Newtonsoft.Json;
-using DDD.DomainLayer;
 using ORION.Domain.Aggregates;
 using ORION.Domain.Enums;
 using ORION.Domain.DTOs;
+using ORION.Domain.Tools;
 
 namespace ORION.DataAccess.Models
 {
     public class Term: Entity<int>, ITerm
     {
-        public void FullUpdate(ITermFullEditDTO o)
+        public void FullUpdate(ITermFullEditDto o)
         {
             if (IsTransient())
             {

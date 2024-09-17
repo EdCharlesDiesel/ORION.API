@@ -21,10 +21,6 @@
     </PackageReference>
   </ItemGroup>
 
-  <ItemGroup>    
-    <ProjectReference Include="..\ORION.HumanResources\ORION.HumanResources.csproj" />
-  </ItemGroup>
-
   <ItemGroup>
     <None Update="TestData\EmployeeServiceTestData.csv">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>

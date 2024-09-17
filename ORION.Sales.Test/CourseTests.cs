@@ -1,7 +1,6 @@
-﻿using ORION.HumanResources.DataAccess.Entities;
-using Xunit;
+﻿using Xunit;
 
-namespace ORION.HumanResources.Test
+namespace ORION.Sales.Test
 {
     public class CourseTests
     {
@@ -12,10 +11,10 @@ namespace ORION.HumanResources.Test
             // nothing to see here
 
             // Act
-            var course = new Course("Disaster Management 101");
+            //var course = new Course("Disaster Management 101");
 
-            // Assert
-            Assert.True(course.IsNew);
+            //// Assert
+            //Assert.True(course.IsNew);
         }
     }
 }

@@ -80,7 +80,7 @@
 .ion-ios-business:before,
 .ion-ios-cafe:before,
 .ion-ios-calculator:before,
-.ion-ios-calendar:before,
+.ion-ios-SalesPerson:before,
 .ion-ios-call:before,
 .ion-ios-camera:before,
 .ion-ios-car:before,
@@ -459,7 +459,7 @@
 .ion-md-business:before,
 .ion-md-cafe:before,
 .ion-md-calculator:before,
-.ion-md-calendar:before,
+.ion-md-SalesPerson:before,
 .ion-md-call:before,
 .ion-md-camera:before,
 .ion-md-car:before,
@@ -972,7 +972,7 @@
   content: "\f3f2";
 }
 
-.ion-ios-calendar:before {
+.ion-ios-SalesPerson:before {
   content: "\f3f4";
 }
 
@@ -2488,7 +2488,7 @@
   content: "\f2aa";
 }
 
-.ion-md-calendar:before {
+.ion-md-SalesPerson:before {
   content: "\f2ab";
 }
 

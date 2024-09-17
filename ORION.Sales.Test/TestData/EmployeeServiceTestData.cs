@@ -1,6 +1,6 @@
 ﻿using System.Collections;
 
-namespace EmployeeManagement.Test.TestData
+namespace ORION.Sales.Test.TestData
 {
     public class EmployeeServiceTestData : IEnumerable<object[]>
     {

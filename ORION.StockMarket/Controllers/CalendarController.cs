@@ -6,25 +6,25 @@ using Microsoft.AspNetCore.Mvc;
 using ORION.StockMarket.DataAccess.Entities;
 using ORION.StockMarket.DataAccess.Models;
 using ORION.StockMarket.DataAccess.Services;
-using Calendar = ORION.StockMarket.DataAccess.Entities.Calendar;
+using SalesPerson = ORION.StockMarket.DataAccess.Entities.SalesPerson;
 
 namespace ORION.StockMarket.Controllers
 {
     [ApiController]
     [Route("[controller]")]
-    public class CalendarController : ControllerBase
+    public class SalesPersonController : ControllerBase
     {
-        private readonly ILogger<CalendarController> _logger;
-        private readonly ICalendarRepository _calendarRepository;
+        private readonly ILogger<SalesPersonController> _logger;
+        private readonly ISalesPersonRepository _SalesPersonRepository;
         private readonly IMapper _mapper;
    //     private static HttpClient _httpClient;
-        public CalendarController(ILogger<CalendarController> logger,
-            ICalendarRepository calendarRepository,
+        public SalesPersonController(ILogger<SalesPersonController> logger,
+            ISalesPersonRepository SalesPersonRepository,
             IMapper mapper
             )
         {
             _logger = logger ?? throw new ArgumentNullException(nameof(logger));
-            _calendarRepository = calendarRepository ?? throw new ArgumentNullException(nameof(calendarRepository));
+            _SalesPersonRepository = SalesPersonRepository ?? throw new ArgumentNullException(nameof(SalesPersonRepository));
             _mapper = mapper ?? throw new ArgumentNullException(nameof(mapper));
 
             //_httpClient.BaseAddress = new Uri("http://localhost:57863");
@@ -34,7 +34,7 @@ namespace ORION.StockMarket.Controllers
    
 
         [HttpOptions()]
-        public IActionResult GetEconomicCalendarOptions()
+        public IActionResult GetEconomicSalesPersonOptions()
         {
             Response.Headers.Add("Allow", "GET,HEAD,POST,OPTIONS");
             return Ok();
@@ -42,44 +42,44 @@ namespace ORION.StockMarket.Controllers
 
         [HttpGet(Name = "GetEconomicCalenders")]
 
-        public async Task<ActionResult<IEnumerable<EconomicCalendarDto>>> GetEconomicCalenders()
+        public async Task<ActionResult<IEnumerable<EconomicSalesPersonDto>>> GetEconomicCalenders()
         {
-            var economicCalendars = await _calendarRepository.GetCalendarsAsync();
+            var economicSalesPersons = await _SalesPersonRepository.GetSalesPersonsAsync();
 
-            return Ok(_mapper.Map<IEnumerable<EconomicCalendarDto>>(economicCalendars));
+            return Ok(_mapper.Map<IEnumerable<EconomicSalesPersonDto>>(economicSalesPersons));
         }
 
 
-        //[HttpPost(Name = "CreateCalendar")]
-        //public async Task<ActionResult<EconomicCalendarDto>> CreateCalendar(EconomicCalendarForCreationDto calendar)
+        //[HttpPost(Name = "CreateSalesPerson")]
+        //public async Task<ActionResult<EconomicSalesPersonDto>> CreateSalesPerson(EconomicSalesPersonForCreationDto SalesPerson)
         //{
-        //    var calendarToSave = _mapper.Map<Calendar>(calendar);
+        //    var SalesPersonToSave = _mapper.Map<SalesPerson>(SalesPerson);
 
-        //    _calendarRepository.AddCalendar(calendarToSave);
-        //    await _calendarRepository.SaveChangesAsync();
+        //    _SalesPersonRepository.AddSalesPerson(SalesPersonToSave);
+        //    await _SalesPersonRepository.SaveChangesAsync();
 
-        //    var calendarToReturn = _mapper.Map<EconomicCalendarDto>(calendarToSave);
+        //    var SalesPersonToReturn = _mapper.Map<EconomicSalesPersonDto>(SalesPersonToSave);
         //    return CreatedAtAction("GetEconomicCalenders",
         //        new
         //        {
-        //            CalendarId = calendarToReturn.CalendarId
+        //            SalesPersonId = SalesPersonToReturn.SalesPersonId
         //        },
-        //        calendarToReturn);
+        //        SalesPersonToReturn);
 
         //}
 
-        [HttpPost(Name = "CreateCalendars")]
-        public async Task<ActionResult<IEnumerable<EconomicCalendarDto>>> CreateCalendars([FromBody] List<Calendar> calendars)
+        [HttpPost(Name = "CreateSalesPersons")]
+        public async Task<ActionResult<IEnumerable<EconomicSalesPersonDto>>> CreateSalesPersons([FromBody] List<SalesPerson> SalesPersons)
         {
-            if (calendars == null || !calendars.Any())
+            if (SalesPersons == null || !SalesPersons.Any())
             {
-                return BadRequest("List of calendars cannot be empty.");
+                return BadRequest("List of SalesPersons cannot be empty.");
             }
 
 
-            await _calendarRepository.AddCalendarsAsync(calendars);
-            await _calendarRepository.SaveChangesAsync();
-            return Ok("Calendars added successfully");
+            await _SalesPersonRepository.AddSalesPersonsAsync(SalesPersons);
+            await _SalesPersonRepository.SaveChangesAsync();
+            return Ok("SalesPersons added successfully");
         }
 
         [HttpPost("upload")]
@@ -97,33 +97,33 @@ namespace ORION.StockMarket.Controllers
                 MissingFieldFound = null
             });
 
-            var records = csvReader.GetRecords<Calendar>().ToList();
+            var records = csvReader.GetRecords<SalesPerson>().ToList();
 
-            //_calendarRepository.People.AddRange(records);
-            await _calendarRepository.AddCalendarsAsync(records);   
-            await _calendarRepository.SaveChangesAsync();
+            //_SalesPersonRepository.People.AddRange(records);
+            await _SalesPersonRepository.AddSalesPersonsAsync(records);   
+            await _SalesPersonRepository.SaveChangesAsync();
 
             return Ok("CSV data saved successfully!");
         }
 
         //[HttpPost]
-        //public async Task<ActionResult<Calendar>> GetEcomomicCalendarFromAPI()
+        //public async Task<ActionResult<SalesPerson>> GetEcomomicSalesPersonFromAPI()
         //{
-        //    var response = await _httpClient.GetAsync("https://api.tradingeconomics.com/calendar?c=e9f95eed6aa6465:blsksmd6c5y89rx");
+        //    var response = await _httpClient.GetAsync("https://api.tradingeconomics.com/SalesPerson?c=e9f95eed6aa6465:blsksmd6c5y89rx");
         //    response.EnsureSuccessStatusCode();
         //    var content = await response.Content.ReadAsStringAsync();
-        //    List<Calendar> calendars =
+        //    List<SalesPerson> SalesPersons =
         //        //if (response.Content.Headers.ContentType.MediaType == "application/json")
         //        //{
-        //        JsonConvert.DeserializeObject<List<Calendar>>(content);
+        //        JsonConvert.DeserializeObject<List<SalesPerson>>(content);
         //    //}
         //    //else if (response.Content.Headers.ContentType.MediaType == "application/xml")
         //    //{
-        //    var serializer = new XmlSerializer(typeof(List<Calendar>));
-        //        calendars = (List<Calendar>)serializer.Deserialize(new StringReader(content));
+        //    var serializer = new XmlSerializer(typeof(List<SalesPerson>));
+        //        SalesPersons = (List<SalesPerson>)serializer.Deserialize(new StringReader(content));
         //    //}
 
-        //    return Ok(calendars);
+        //    return Ok(SalesPersons);
         //}
 
 

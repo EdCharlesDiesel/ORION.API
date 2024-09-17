@@ -1,6 +1,6 @@
 ﻿using System.Threading.Tasks;
 
-namespace DDD.DomainLayer
+namespace ORION.Domain.Tools
 {
     public interface IUnitOfWork
     {

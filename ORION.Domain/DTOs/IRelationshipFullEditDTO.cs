@@ -1,6 +1,6 @@
 namespace ORION.Domain.DTOs
 {
-    public interface IRelationshipFullEditDTO
+    public interface IRelationshipFullEditDto
     {
 
 

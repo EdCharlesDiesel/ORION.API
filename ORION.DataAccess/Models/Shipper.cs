@@ -1,16 +1,16 @@
-using DDD.DomainLayer;
 using ORION.Domain.Aggregates;
 using ORION.Domain.DTOs;
 using ORION.Domain.Enums;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
+using ORION.Domain.Tools;
 
 namespace ORION.DataAccess.Models
 {
     public class Shipper: Entity<int>, IShipper
     {        
-        public void FullUpdate(IShipperFullEditDTO o)
+        public void FullUpdate(IShipperFullEditDto o)
         {
             if (IsTransient())
             {

@@ -1,12 +1,12 @@
 using System;
-using DDD.DomainLayer;
 using ORION.Domain.DTOs;
+using ORION.Domain.Tools;
 
 namespace ORION.Domain.Aggregates
 {
     public interface ITerm: IEntity<int>, IBaseEntity
     {
-        void FullUpdate(ITermFullEditDTO o);   
+        void FullUpdate(ITermFullEditDto o);   
      
         bool IsDeleted { get;}
 
