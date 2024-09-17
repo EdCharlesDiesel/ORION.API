@@ -1,6 +1,4 @@
 ﻿
-using DDD.DomainLayer;
-
 namespace ORION.Domain.Tools
 {
     public interface IRepository

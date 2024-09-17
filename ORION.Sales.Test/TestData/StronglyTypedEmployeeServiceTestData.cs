@@ -1,6 +1,6 @@
 ﻿using Xunit;
 
-namespace EmployeeManagement.Test.TestData
+namespace ORION.Sales.Test.TestData
 {
     public class StronglyTypedEmployeeServiceTestData : TheoryData<int, bool>
     {

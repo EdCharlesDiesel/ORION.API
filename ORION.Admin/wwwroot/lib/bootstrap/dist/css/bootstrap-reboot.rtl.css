@@ -309,7 +309,7 @@ select:disabled {
   opacity: 1;
 }
 
-[list]::-webkit-calendar-picker-indicator {
+[list]::-webkit-SalesPerson-picker-indicator {
   display: none;
 }
 

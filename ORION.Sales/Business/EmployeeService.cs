@@ -26,7 +26,7 @@
 //            _employeeFactory = employeeFactory;
 //        }
 
-//        public async Task AttendCourseAsync(Calendar employee,
+//        public async Task AttendCourseAsync(SalesPerson employee,
 //            Course attendedCourse)
 //        {
 //            var alreadyAttendedCourse = employee.AttendedCourses
@@ -49,7 +49,7 @@
 //                * employee.AttendedCourses.Count * 100;
 //        }
 
-//        public async Task GiveMinimumRaiseAsync(Calendar employee)
+//        public async Task GiveMinimumRaiseAsync(SalesPerson employee)
 //        {
 //            employee.Salary += 100;
 //            employee.MinimumRaiseGiven = true;
@@ -58,7 +58,7 @@
 //            await _repository.SaveChangesAsync();
 //        }
 
-//        public async Task GiveRaiseAsync(Calendar employee, int raise)
+//        public async Task GiveRaiseAsync(SalesPerson employee, int raise)
 //        {
 //            // raise must be at least 100
 //            if (raise < 100)
@@ -89,9 +89,9 @@
 //            }
 //        }
 
-//        public async Task<Calendar?> FetchCalendarAsync(Guid employeeId)
+//        public async Task<SalesPerson?> FetchSalesPersonAsync(Guid employeeId)
 //        {
-//            var employee = await _repository.GetCalendarAsync(employeeId);
+//            var employee = await _repository.GetSalesPersonAsync(employeeId);
 
 //            if (employee != null)
 //            {
@@ -101,9 +101,9 @@
 //            return employee;
 //        }
 
-//        public async Task<IEnumerable<Calendar>> FetchCalendarsAsync()
+//        public async Task<IEnumerable<SalesPerson>> FetchSalesPersonsAsync()
 //        {
-//            var employees = await _repository.GetCalendarsAsync();
+//            var employees = await _repository.GetSalesPersonsAsync();
 
 //            foreach (var employee in employees)
 //            {
@@ -114,9 +114,9 @@
 //            return employees;
 //        }
 
-//        public Calendar? FetchCalendar(Guid employeeId)
+//        public SalesPerson? FetchSalesPerson(Guid employeeId)
 //        {
-//            var employee = _repository.GetCalendar(employeeId);
+//            var employee = _repository.GetSalesPerson(employeeId);
 
 //            if (employee != null)
 //            {
@@ -126,11 +126,11 @@
 //            return employee;
 //        }
 
-//        public Calendar CreateCalendar(
+//        public SalesPerson CreateSalesPerson(
 //            string firstName, string lastName)
 //        {
 //            // use the factory to create the object 
-//            var employee = (Calendar)_employeeFactory
+//            var employee = (SalesPerson)_employeeFactory
 //                .CreateEmployee(firstName, lastName);
 
 //            // apply business logic 
@@ -152,11 +152,11 @@
 //            return employee;
 //        }
 
-//        public async Task<Calendar> CreateCalendarAsync(
+//        public async Task<SalesPerson> CreateSalesPersonAsync(
 //           string firstName, string lastName)
 //        {
 //            // use the factory to create the object 
-//            var employee = (Calendar)_employeeFactory.CreateEmployee(
+//            var employee = (SalesPerson)_employeeFactory.CreateEmployee(
 //                firstName, lastName);
 
 //            // apply business logic 
@@ -190,9 +190,9 @@
 //            return employee;
 //        }
 
-//        public async Task AddCalendarAsync(Calendar Calendar)
+//        public async Task AddSalesPersonAsync(SalesPerson SalesPerson)
 //        {
-//            _repository.AddCalendar(Calendar);
+//            _repository.AddSalesPerson(SalesPerson);
 //            await _repository.SaveChangesAsync();
 //        }
 
@@ -210,7 +210,7 @@
 //            EmployeeIsAbsent?.Invoke(this, eventArgs);
 //        }
 
-//        private int CalculateSuggestedBonus(Calendar employee)
+//        private int CalculateSuggestedBonus(SalesPerson employee)
 //        {
 //            if (employee.YearsInService == 0)
 //            {

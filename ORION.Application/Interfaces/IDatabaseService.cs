@@ -1,3 +1,5 @@
+using ORION.Sales.DataAccess.Entities;
+
 namespace ORION.Application.Interfaces
 {
     public interface IDatabaseService

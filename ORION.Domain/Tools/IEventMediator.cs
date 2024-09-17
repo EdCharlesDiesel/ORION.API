@@ -1,8 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.Threading.Tasks;
-using ORION.Domain.Tools;
 
-namespace DDD.DomainLayer
+namespace ORION.Domain.Tools
 {
     public interface IEventMediator
     {

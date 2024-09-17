@@ -7,7 +7,6 @@
         public static readonly string BirthCity = "Birth City";
 
         public static readonly string BirthProvince = "Birth Province";
-        
 
         public static readonly string BusinessDate = "Business Date";
 

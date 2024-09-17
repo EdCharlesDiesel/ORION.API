@@ -1,4 +1,5 @@
 ﻿using ORION.Application.Interfaces;
+using ORION.Sales.DataAccess.Entities;
 
 namespace ORION.Application.Customers.Queries.GetCustomerList
 {

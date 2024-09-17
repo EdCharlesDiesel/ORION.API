@@ -2,7 +2,7 @@
 
 namespace ORION.Domain.DTOs
 {
-    public interface IEmployeeFullEditDTO
+    public interface IEmployeeFullEditDto
     {
         int Id { get; set; }
 

@@ -2,7 +2,7 @@ using System;
 
 namespace ORION.Domain.DTOs
 {
-    public interface ITermFullEditDTO
+    public interface ITermFullEditDto
     {
         int Id { get; set; }    
      

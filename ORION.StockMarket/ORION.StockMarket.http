@@ -1,6 +1,6 @@
 @ORION.StockMarket_HostAddress = http://localhost:8080
 
-GET {{ORION.StockMarket_HostAddress}}/calendar/
+GET {{ORION.StockMarket_HostAddress}}/SalesPerson/
 Accept: application/json
 
 ###

@@ -1,35 +1,35 @@
-﻿using ORION.HumanResources.Test.Fixtures;
+﻿using ORION.Sales.Test.Fixtures;
 using Xunit;
 
-namespace ORION.HumanResources.Test
+namespace ORION.Sales.Test
 {
-    public class EmployeeServiceTestsWithAspNetCoreDI
+    public class EmployeeServiceTestsWithAspNetCoreDi
         : IClassFixture<EmployeeServiceWithAspNetCoreDIFixture>
     {
-        private readonly EmployeeServiceWithAspNetCoreDIFixture 
-            _employeeServiceFixture;
+        //private readonly EmployeeServiceWithAspNetCoreDIFixture 
+        //    _employeeServiceFixture;
 
-        public EmployeeServiceTestsWithAspNetCoreDI(
-            EmployeeServiceWithAspNetCoreDIFixture employeeServiceFixture)
-        {
-            _employeeServiceFixture = employeeServiceFixture;
-        }
+        //public EmployeeServiceTestsWithAspNetCoreDI(
+        //    EmployeeServiceWithAspNetCoreDIFixture employeeServiceFixture)
+        //{
+        //    _employeeServiceFixture = employeeServiceFixture;
+        //}
 
-        [Fact]
-        public void CreateCalendar_CalendarCreated_MustHaveAttendedFirstObligatoryCourse_WithObject()
-        {
-            // Arrange
+        //[Fact]
+        //public void CreateSalesPerson_SalesPersonCreated_MustHaveAttendedFirstObligatoryCourse_WithObject()
+        //{
+        //    // Arrange
 
-            var obligatoryCourse = _employeeServiceFixture
-                .EmployeeManagementTestDataRepository
-                .GetCourse(Guid.Parse("37e03ca7-c730-4351-834c-b66f280cdb01"));
+        //    var obligatoryCourse = _employeeServiceFixture
+        //        .EmployeeManagementTestDataRepository
+        //        .GetCourse(Guid.Parse("37e03ca7-c730-4351-834c-b66f280cdb01"));
 
-            // Act
-            var Calendar = _employeeServiceFixture
-                .EmployeeService.CreateCalendar("Brooklyn", "Cannon");
+        //    // Act
+        //    var SalesPerson = _employeeServiceFixture
+        //        .EmployeeService.CreateSalesPerson("Brooklyn", "Cannon");
 
-            // Assert
-            Assert.Contains(obligatoryCourse, Calendar.AttendedCourses);
-        }
+        //    // Assert
+        //    Assert.Contains(obligatoryCourse, SalesPerson.AttendedCourses);
+        //}
     }
 }

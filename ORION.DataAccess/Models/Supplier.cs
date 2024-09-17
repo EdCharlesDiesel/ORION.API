@@ -1,4 +1,3 @@
-using DDD.DomainLayer;
 using ORION.Domain.Aggregates;
 using ORION.Domain.Enums;
 using System;
@@ -10,10 +9,10 @@ namespace ORION.DataAccess.Models
 {
     public class Supplier: Entity<int>, ISupplier
     {
-        public Supplier()
-        {
-            this.Products = new List<Product>();
-        }
+        //public Supplier()
+        //{
+        //    this.Products = new List<Product>();
+        //}
 
         [MaxLength(40)]
         [Required(ErrorMessage = "Company Name is required")]
@@ -48,7 +47,7 @@ namespace ORION.DataAccess.Models
 
         public string HomePage { get; set; }
 
-        public IEnumerable<Product> Products { get; set; }
+        //public IEnumerable<Product> Products { get; set; }
 
         private DateTime _createDate = DateTime.Now;
         

@@ -1,5 +1,5 @@
-using DDD.DomainLayer;
 using ORION.Domain.Aggregates;
+using ORION.Domain.Tools;
 
 namespace ORION.DataAccess.Models
 {

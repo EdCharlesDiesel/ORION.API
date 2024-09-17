@@ -1,5 +1,4 @@
-﻿using DDD.DomainLayer;
-using ORION.Domain.Aggregates;
+﻿using ORION.Domain.Aggregates;
 using System;
 using System.Collections.Generic;
 using System.Text;

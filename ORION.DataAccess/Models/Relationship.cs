@@ -1,7 +1,6 @@
 using System;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
-using DDD.DomainLayer;
 using ORION.Domain.Aggregates;
 using ORION.Domain.DTOs;
 using ORION.Domain.Enums;
@@ -11,30 +10,31 @@ namespace ORION.DataAccess.Models
 {
     public class Relationship : Entity<int>, IRelationship
     {
-        public void FullUpdate(IRelationshipFullEditDTO o)
+        public void FullUpdate(IRelationshipFullEditDto o)
         {
-            if (IsTransient())
-            {
-                Id = o.Id;
-                FromPersonId = o.FromPersonId;
-                ToPersonId = o.FromPersonId;
-            }
+            //if (IsTransient())
+            //{
+            //    Id = o.Id;
+            //    FromPersonId = o.FromPersonId;
+            //    ToPersonId = o.FromPersonId;
+            //}
 
-            RelationshipType = o.RelationshipType;
+            //RelationshipType = o.RelationshipType;
 
         }
         public int FromPersonId { get; set; }
+        public int ToPersonId { get; }
 
 
-        [ForeignKey("FromPersonId")]
-        [NotMapped]
-        public virtual Person FromPerson { get; set; }
+        //[ForeignKey("FromPersonId")]
+        //[NotMapped]
+        //public virtual Person FromPerson { get; set; }
 
-        public int ToPersonId { get; set; }
+        //public int ToPersonId { get; set; }
 
-        [ForeignKey("ToPersonId")]
-        [NotMapped]
-        public virtual Person ToPerson { get; set; }
+        //[ForeignKey("ToPersonId")]
+        //[NotMapped]
+        //public virtual Person ToPerson { get; set; }
         
 
         [ConcurrencyCheck]

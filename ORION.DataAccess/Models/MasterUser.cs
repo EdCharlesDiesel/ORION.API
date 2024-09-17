@@ -2,7 +2,6 @@ using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
-using DDD.DomainLayer;
 using Microsoft.AspNetCore.Identity;
 using ORION.Domain.Aggregates;
 using ORION.Domain.Enums;

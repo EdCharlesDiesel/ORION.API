@@ -1,8 +1,8 @@
 ﻿namespace ORION.StockMarket.DataAccess.Models
 {
-    public class EconomicCalendarDto
+    public class EconomicSalesPersonDto
     {
-        public int CalendarId { get; set; }
+        public int SalesPersonId { get; set; }
 
         public DateTime Date { get; set; }
 

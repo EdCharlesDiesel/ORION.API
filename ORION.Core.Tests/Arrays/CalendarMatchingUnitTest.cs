@@ -1,4 +1,4 @@
-namespace CalendarMatching.Tests
+namespace SalesPersonMatching.Tests
 {
     public class UnitTest1
     {

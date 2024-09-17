@@ -11,7 +11,7 @@ using ORION.Domain.IRepositories;
 using ORION.Domain.Utility;
 using ORION.DataAccess.Interfaces;
 using ORION.DataAccess.Services;
-using DDD.DomainLayer;
+using Microsoft.Identity.Client;
 using ORION.DataAccess.SqlServer;
 using ORION.Admin.Controllers;
 using ORION.Admin.Security;

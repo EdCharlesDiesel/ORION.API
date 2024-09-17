@@ -1,6 +1,5 @@
 using System;
 using System.Collections.Generic;
-using DDD.DomainLayer;
 using ORION.Domain.Aggregates;
 using ORION.Domain.Enums;
 using ORION.Domain.Tools;

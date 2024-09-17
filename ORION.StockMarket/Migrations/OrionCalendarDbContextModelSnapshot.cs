@@ -10,8 +10,8 @@ using ORION.StockMarket.DataAccess.DbContexts;
 
 namespace ORION.StockMarket.Migrations
 {
-    [DbContext(typeof(OrionCalendarDbContext))]
-    partial class OrionCalendarDbContextModelSnapshot : ModelSnapshot
+    [DbContext(typeof(OrionSalesPersonDbContext))]
+    partial class OrionSalesPersonDbContextModelSnapshot : ModelSnapshot
     {
         protected override void BuildModel(ModelBuilder modelBuilder)
         {
@@ -22,14 +22,14 @@ namespace ORION.StockMarket.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
 
-            modelBuilder.Entity("ORION.StockMarket.DataAccess.Entities.Calendar", b =>
+            modelBuilder.Entity("ORION.StockMarket.DataAccess.Entities.SalesPerson", b =>
                 {
-                    b.Property<int>("CalendarId")
+                    b.Property<int>("SalesPersonId")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int")
-                        .HasColumnName("CalendarId");
+                        .HasColumnName("SalesPersonId");
 
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("CalendarId"));
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("SalesPersonId"));
 
                     b.Property<string>("Actual")
                         .IsRequired()
@@ -141,9 +141,9 @@ namespace ORION.StockMarket.Migrations
                         .HasColumnType("nvarchar(max)")
                         .HasColumnName("Unit");
 
-                    b.HasKey("CalendarId");
+                    b.HasKey("SalesPersonId");
 
-                    b.ToTable("Calendar", "StockMarket");
+                    b.ToTable("SalesPerson", "StockMarket");
                 });
 #pragma warning restore 612, 618
         }

@@ -1,4 +1,5 @@
 using System;
+using ORION.Domain.Tools;
 
 namespace ORION.Domain.Aggregates
 {

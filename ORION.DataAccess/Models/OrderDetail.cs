@@ -1,4 +1,3 @@
-using DDD.DomainLayer;
 using ORION.Domain.Aggregates;
 using ORION.Domain.Enums;
 using System;
@@ -13,7 +12,7 @@ namespace ORION.DataAccess.Models
     {
 
        
-        public void FullUpdate(IOrderDetailFullEditDTO o)
+        public void FullUpdate(IOrderDetailFullEditDto o)
         {
             if (IsTransient())
             {
@@ -43,7 +42,7 @@ namespace ORION.DataAccess.Models
         public Order Order { get; set; }
         
 
-        public Product Product { get; set; }
+        //public Product Product { get; set; }
 
         [ConcurrencyCheck]
         public long EntityVersion{ get; set; }

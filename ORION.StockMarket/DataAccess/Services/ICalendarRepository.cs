@@ -4,15 +4,15 @@ using ORION.StockMarket.DataAccess.Models;
 
 namespace ORION.StockMarket.DataAccess.Services
 {
-    public interface ICalendarRepository
+    public interface ISalesPersonRepository
     {
-        Task<IEnumerable<Calendar>> GetCalendarsAsync();
+        Task<IEnumerable<SalesPerson>> GetSalesPersonsAsync();
 
-        Task<Calendar?> GetCalendarAsync(int calendarId);
+        Task<SalesPerson?> GetSalesPersonAsync(int SalesPersonId);
 
-        EntityEntry<Calendar> AddCalendar(Calendar calendar);
+        EntityEntry<SalesPerson> AddSalesPerson(SalesPerson SalesPerson);
 
-        Task AddCalendarsAsync(IEnumerable<Calendar> calendars);
+        Task AddSalesPersonsAsync(IEnumerable<SalesPerson> SalesPersons);
 
         Task SaveChangesAsync();
     }

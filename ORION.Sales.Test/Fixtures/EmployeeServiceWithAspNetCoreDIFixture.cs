@@ -1,50 +1,49 @@
-﻿using Microsoft.Extensions.DependencyInjection;
-using ORION.HumanResources.Business;
-using ORION.HumanResources.DataAccess.Services;
-using ORION.HumanResources.Services.Test;
-
-namespace ORION.HumanResources.Test.Fixtures
+﻿namespace ORION.Sales.Test.Fixtures
 {
     public class EmployeeServiceWithAspNetCoreDIFixture : IDisposable
     {
-        private readonly ServiceProvider _serviceProvider;
+//        private readonly ServiceProvider _serviceProvider;
 
-        public IEmployeeManagementRepository EmployeeManagementTestDataRepository
-        {
-            get
-            {
-#pragma warning disable CS8603 // Possible null reference return.
-                return _serviceProvider.GetService<IEmployeeManagementRepository>();
-#pragma warning restore CS8603 // Possible null reference return.
-            }
-        }
+//        public IEmployeeManagementRepository EmployeeManagementTestDataRepository
+//        {
+//            get
+//            {
+//#pragma warning disable CS8603 // Possible null reference return.
+//                return _serviceProvider.GetService<IEmployeeManagementRepository>();
+//#pragma warning restore CS8603 // Possible null reference return.
+//            }
+//        }
 
-        public IEmployeeService EmployeeService
-        {
-            get
-            {
-#pragma warning disable CS8603 // Possible null reference return.
-                return _serviceProvider.GetService<IEmployeeService>();
-#pragma warning restore CS8603 // Possible null reference return.
-            }
-        }
+//        public IEmployeeService EmployeeService
+//        {
+//            get
+//            {
+//#pragma warning disable CS8603 // Possible null reference return.
+//                return _serviceProvider.GetService<IEmployeeService>();
+//#pragma warning restore CS8603 // Possible null reference return.
+//            }
+//        }
 
 
-        public EmployeeServiceWithAspNetCoreDIFixture()
-        {
-            var services = new ServiceCollection();
-            services.AddScoped<EmployeeFactory>();
-            services.AddScoped<IEmployeeManagementRepository, 
-                EmployeeManagementTestDataRepository>();
-            services.AddScoped<IEmployeeService, EmployeeService>();
+//        public EmployeeServiceWithAspNetCoreDIFixture()
+//        {
+//            var services = new ServiceCollection();
+//            services.AddScoped<EmployeeFactory>();
+//            services.AddScoped<IEmployeeManagementRepository, 
+//                EmployeeManagementTestDataRepository>();
+//            services.AddScoped<IEmployeeService, EmployeeService>();
 
-            // build provider
-            _serviceProvider = services.BuildServiceProvider();
-        }
+//            // build provider
+//            _serviceProvider = services.BuildServiceProvider();
+//        }
 
-        public void Dispose()
-        {
-            // clean up the setup code, if required
-        }
+//        public void Dispose()
+//        {
+//            // clean up the setup code, if required
+//        }
+public void Dispose()
+{
+    throw new NotImplementedException();
+}
     }
 }

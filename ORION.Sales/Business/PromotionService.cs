@@ -23,10 +23,10 @@
 //        /// </summary>
 //        /// <param name="employee"></param>
 //        /// <returns></returns>
-//        public async Task<bool> PromoteCalendarAsync(
-//            Calendar employee)
+//        public async Task<bool> PromoteSalesPersonAsync(
+//            SalesPerson employee)
 //        {
-//            if (await CheckIfCalendarIsEligibleForPromotion(employee.Id))
+//            if (await CheckIfSalesPersonIsEligibleForPromotion(employee.Id))
 //            {
 //                employee.JobLevel++;
 //                await _employeeManagementRepository.SaveChangesAsync();
@@ -40,7 +40,7 @@
 //        /// the top level managers can manage) to check whether
 //        /// an internal employee is eligible for promotion
 //        /// </summary> 
-//        private async Task<bool> CheckIfCalendarIsEligibleForPromotion(
+//        private async Task<bool> CheckIfSalesPersonIsEligibleForPromotion(
 //            Guid employeeId)
 //        {
 //            // call into API

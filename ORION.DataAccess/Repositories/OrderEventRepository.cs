@@ -1,14 +1,7 @@
-﻿using DDD.DomainLayer;
-using ORION.Domain.Aggregates;
+﻿using ORION.Domain.Aggregates;
 using ORION.Domain.IRepositories;
 using System;
-using System.Collections.Generic;
-using System.Text;
 using System.Threading.Tasks;
-using System.Linq;
-using Microsoft.EntityFrameworkCore;
-using ORION.DataAccess.Models;
-using ORION.DataAccess.Contexts;
 using ORION.Domain.Tools;
 
 

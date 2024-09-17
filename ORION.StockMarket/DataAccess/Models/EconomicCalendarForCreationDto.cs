@@ -1,6 +1,6 @@
 namespace ORION.StockMarket.DataAccess.Models;
 
-public class EconomicCalendarForCreationDto
+public class EconomicSalesPersonForCreationDto
 {
     public DateTime Date { get; set; }
 

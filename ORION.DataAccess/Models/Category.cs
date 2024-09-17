@@ -1,5 +1,4 @@
-﻿using DDD.DomainLayer;
-using ORION.Domain.Enums;
+﻿using ORION.Domain.Enums;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
@@ -10,10 +9,10 @@ namespace ORION.DataAccess.Models
 {
     public class Category: Entity<int>, ICategory
     {
-        public Category()
-        {
-          this.Products = new List<Product>();
-        }       
+        //public Category()
+        //{
+        //  this.Products = new List<Product>();
+        //}       
 
         public void FullUpdate(ICategory o)
         {
@@ -34,7 +33,7 @@ namespace ORION.DataAccess.Models
 
         public byte[] Picture { get; set; }
 
-        public virtual List<Product> Products { get; set; }  
+        //public virtual List<Product> Products { get; set; }  
         
         private DateTime _createDate = DateTime.Now;
 

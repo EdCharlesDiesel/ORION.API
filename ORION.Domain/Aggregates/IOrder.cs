@@ -1,6 +1,6 @@
 using System;
-using DDD.DomainLayer;
 using ORION.Domain.DTOs;
+using ORION.Domain.Tools;
 
 namespace ORION.Domain.Aggregates
 {

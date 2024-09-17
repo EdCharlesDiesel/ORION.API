@@ -1,6 +1,6 @@
 namespace ORION.Domain.DTOs
 {
-    public interface IShipperFullEditDTO
+    public interface IShipperFullEditDto
     {
         int Id { get; set; }         
 

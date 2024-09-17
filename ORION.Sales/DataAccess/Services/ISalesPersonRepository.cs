@@ -1,24 +1,18 @@
 ﻿
 
+using ORION.Sales.DataAccess.Entities;
+
 namespace ORION.Sales.DataAccess.Services
 {
     public interface ISalesPersonRepository
     {
-        Task<IEnumerable<Calendar>> GetCalendarsAsync();
+        Task<IEnumerable<SalesPerson>> GetSalesPersonsAsync();
 
-        Calendar? GetCalendar(Guid employeeId);
+        SalesPerson? GetSalesPerson(Guid employeeId);
 
-        Task<Calendar?> GetCalendarAsync(Guid employeeId);
+        Task<SalesPerson?> GetSalesPersonAsync(Guid employeeId);
 
-        Task<Course?> GetCourseAsync(Guid courseId);
-
-        Course? GetCourse(Guid courseId);
-
-        List<Course> GetCourses(params Guid[] courseIds);
-
-        Task<List<Course>> GetCoursesAsync(params Guid[] courseIds);
-
-        void AddCalendar(Calendar Calendar);
+        void AddSalesPerson(SalesPerson SalesPerson);
 
         Task SaveChangesAsync();
     }

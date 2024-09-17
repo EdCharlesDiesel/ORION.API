@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace ORION.Admin.Models.Employees
 {
-    public class EmployeeFullEditViewModel: IEmployeeFullEditDTO
+    public class EmployeeFullEditViewModel: IEmployeeFullEditDto
     {
         public EmployeeFullEditViewModel() { }
         public EmployeeFullEditViewModel(IEmployee o)

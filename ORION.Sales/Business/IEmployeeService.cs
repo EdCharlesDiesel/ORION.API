@@ -6,19 +6,19 @@
 //    public interface IEmployeeService
 //    {
 //        event EventHandler<EmployeeIsAbsentEventArgs>? EmployeeIsAbsent;
-//        Task AddCalendarAsync(Calendar Calendar);
-//        Task AttendCourseAsync(Calendar employee, Course attendedCourse);
+//        Task AddSalesPersonAsync(SalesPerson SalesPerson);
+//        Task AttendCourseAsync(SalesPerson employee, Course attendedCourse);
 //        ExternalEmployee CreateExternalEmployee(string firstName, 
 //            string lastName, string company);
-//        Calendar CreateCalendar(string firstName, 
+//        SalesPerson CreateSalesPerson(string firstName, 
 //            string lastName);
-//        Task<Calendar> CreateCalendarAsync(string firstName, 
+//        Task<SalesPerson> CreateSalesPersonAsync(string firstName, 
 //            string lastName);
-//        Calendar? FetchCalendar(Guid employeeId);
-//        Task<Calendar?> FetchCalendarAsync(Guid employeeId);
-//        Task<IEnumerable<Calendar>> FetchCalendarsAsync();
-//        Task GiveMinimumRaiseAsync(Calendar employee);
-//        Task GiveRaiseAsync(Calendar employee, int raise);
+//        SalesPerson? FetchSalesPerson(Guid employeeId);
+//        Task<SalesPerson?> FetchSalesPersonAsync(Guid employeeId);
+//        Task<IEnumerable<SalesPerson>> FetchSalesPersonsAsync();
+//        Task GiveMinimumRaiseAsync(SalesPerson employee);
+//        Task GiveRaiseAsync(SalesPerson employee, int raise);
 //        void NotifyOfAbsence(Employee employee);
 //    }
 //}

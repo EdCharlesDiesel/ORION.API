@@ -3,11 +3,11 @@ using ORION.StockMarket.DataAccess.Entities;
 
 namespace ORION.StockMarket.DataAccess.DbContexts
 {
-    public class OrionCalendarDbContext : DbContext
+    public class OrionSalesPersonDbContext : DbContext
     {
-        public DbSet<Calendar> Calendars { get; set; } = null!;
+        public DbSet<SalesPerson> SalesPersons { get; set; } = null!;
 
-        public OrionCalendarDbContext(DbContextOptions<OrionCalendarDbContext> options)
+        public OrionSalesPersonDbContext(DbContextOptions<OrionSalesPersonDbContext> options)
          : base(options)
         {
         }

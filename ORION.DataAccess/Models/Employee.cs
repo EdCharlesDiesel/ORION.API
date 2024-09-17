@@ -108,22 +108,22 @@ public partial class Employee
     [Column(TypeName = "datetime")]
     public DateTime ModifiedDate { get; set; }
 
-    [ForeignKey("BusinessEntityId")]
-    [InverseProperty("Employee")]
-    public virtual Person BusinessEntity { get; set; }
+    //[ForeignKey("BusinessEntityId")]
+    //[InverseProperty("Employee")]
+    //public virtual Person BusinessEntity { get; set; }
 
-    [InverseProperty("BusinessEntity")]
-    public virtual ICollection<EmployeeDepartmentHistory> EmployeeDepartmentHistories { get; set; } = new List<EmployeeDepartmentHistory>();
+    //[InverseProperty("BusinessEntity")]
+    //public virtual ICollection<EmployeeDepartmentHistory> EmployeeDepartmentHistories { get; set; } = new List<EmployeeDepartmentHistory>();
 
-    [InverseProperty("BusinessEntity")]
-    public virtual ICollection<EmployeePayHistory> EmployeePayHistories { get; set; } = new List<EmployeePayHistory>();
+    //[InverseProperty("BusinessEntity")]
+    //public virtual ICollection<EmployeePayHistory> EmployeePayHistories { get; set; } = new List<EmployeePayHistory>();
 
-    [InverseProperty("BusinessEntity")]
-    public virtual ICollection<JobCandidate> JobCandidates { get; set; } = new List<JobCandidate>();
+    //[InverseProperty("BusinessEntity")]
+    //public virtual ICollection<JobCandidate> JobCandidates { get; set; } = new List<JobCandidate>();
 
-    [InverseProperty("Employee")]
-    public virtual ICollection<PurchaseOrderHeader> PurchaseOrderHeaders { get; set; } = new List<PurchaseOrderHeader>();
+    //[InverseProperty("Employee")]
+    //public virtual ICollection<PurchaseOrderHeader> PurchaseOrderHeaders { get; set; } = new List<PurchaseOrderHeader>();
 
-    [InverseProperty("BusinessEntity")]
-    public virtual SalesPerson SalesPerson { get; set; }
+    //[InverseProperty("BusinessEntity")]
+    //public virtual SalesPerson SalesPerson { get; set; }
 }
