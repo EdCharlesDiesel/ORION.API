@@ -1,8 +1,6 @@
 ﻿using System.Linq.Expressions;
 using ORION.Application.Interfaces;
 using ORION.Application.Sales.Commands.CreateSale.Factory;
-using ORION.DataAccess.Models;
-using ORION.HumanResources.DataAccess.Entities;
 using ORION.Sales.DataAccess.Entities;
 
 namespace ORION.Application.Sales.Commands.CreateSale

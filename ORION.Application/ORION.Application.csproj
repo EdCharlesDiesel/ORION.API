@@ -7,7 +7,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\ORION.HumanResources\ORION.HumanResources.csproj" />
     <ProjectReference Include="..\ORION.Sales\ORION.Sales.csproj" />
   </ItemGroup>
 
