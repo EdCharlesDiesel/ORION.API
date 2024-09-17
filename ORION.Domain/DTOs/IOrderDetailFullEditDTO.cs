@@ -1,6 +1,6 @@
 using System;
 
-namespace ORION.DataAccess.Models
+namespace ORION.Domain.DTOs
 {
     public interface IOrderDetailFullEditDTO
     {

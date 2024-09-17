@@ -8,6 +8,7 @@ using ORION.DataAccess.Models;
 using ORION.Domain.Events;
 using ORION.DataAccess.Contexts;
 using System;
+using ORION.Domain.Tools;
 
 namespace ORION.DataAccess.Repositories
 {

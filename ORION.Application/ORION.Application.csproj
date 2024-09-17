@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ORION.HumanResources\ORION.HumanResources.csproj" />
+    <ProjectReference Include="..\ORION.Sales\ORION.Sales.csproj" />
+  </ItemGroup>
+
+</Project>

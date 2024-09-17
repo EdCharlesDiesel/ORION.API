@@ -3,7 +3,7 @@ using System;
 namespace ORION.Domain.DTOs
 {
     //FIXME Employee ID please fix.
-    public interface IOrderFullEditDTO
+    public interface IOrderFullEditDto
     {
 
         int Id { get; set; } 

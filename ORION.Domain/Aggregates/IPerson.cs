@@ -8,7 +8,7 @@ namespace ORION.Domain.Aggregates
 {
     public interface IPerson: IEntity<int>, IBaseEntity
     {
-        void FullUpdate(IPersonFullEditDTO o);
+        void FullUpdate(IPersonFullEditDto o);
 
         string FirstName { get; set; }
 

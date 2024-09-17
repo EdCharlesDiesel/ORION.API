@@ -1,10 +1,11 @@
 ﻿
 
+using System.Globalization;
 using ORION.Sales.DataAccess.DbContexts;
 
 namespace ORION.Sales.DataAccess.Services
 {
-    public class EmployeeManagementRepository: IEmployeeManagementRepository
+    public class EmployeeManagementRepository: ISalesPersonRepository
     {
         private readonly OrionSalesDbContext _context;
 
@@ -15,33 +16,39 @@ namespace ORION.Sales.DataAccess.Services
 
         public async Task<IEnumerable<Calendar>> GetCalendarsAsync()
         {
-            return await _context.Calendars
-                .Include(e => e.AttendedCourses)
-                .ToListAsync(); 
+            //return await _context.Calendars
+            //    .Include(e => e.AttendedCourses)
+            //    .ToListAsync(); 
+            throw new NotImplementedException();
         }
 
         public async Task<Calendar?> GetCalendarAsync(Guid employeeId)
         {
-            return await _context.Calendars
-                .Include(e => e.AttendedCourses)
-                .FirstOrDefaultAsync(e => e.Id == employeeId);
+            throw new NotImplementedException();
+            //return await _context.Calendars
+            //    .Include(e => e.AttendedCourses)
+            //    .FirstOrDefaultAsync(e => e.Id == employeeId);
+
         }
 
         public Calendar? GetCalendar(Guid employeeId)
         {
-            return _context.Calendars
-                .Include(e => e.AttendedCourses)
-                .FirstOrDefault(e => e.Id == employeeId);
+            throw new NotImplementedException();
+            //return _context.Calendars
+            //    .Include(e => e.AttendedCourses)
+            //    .FirstOrDefault(e => e.Id == employeeId);
         }
 
         public async Task<Course?> GetCourseAsync(Guid courseId)
         {
-            return await _context.Courses.FirstOrDefaultAsync(e => e.Id == courseId);
+            throw new NotImplementedException();
+            //return await _context.Courses.FirstOrDefaultAsync(e => e.Id == courseId);
         }
 
         public Course? GetCourse(Guid courseId)
         {
-            return _context.Courses.FirstOrDefault(e => e.Id == courseId);
+            throw new NotImplementedException();
+            //return _context.Courses.FirstOrDefault(e => e.Id == courseId);
         }
 
         public List<Course> GetCourses(params Guid[] courseIds)

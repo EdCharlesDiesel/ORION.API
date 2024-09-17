@@ -5,10 +5,10 @@ namespace ORION.Admin.Commands
 {
     public class UpdateOrderCommand: ICommand
     {
-        public UpdateOrderCommand(IOrderFullEditDTO updates)
+        public UpdateOrderCommand(IOrderFullEditDto updates)
         {
             Updates = updates;
         }
-        public IOrderFullEditDTO Updates { get; private set; }
+        public IOrderFullEditDto Updates { get; private set; }
     }
 }

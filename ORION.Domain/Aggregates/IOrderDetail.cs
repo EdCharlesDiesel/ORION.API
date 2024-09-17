@@ -1,6 +1,7 @@
 using System;
 using DDD.DomainLayer;
 using ORION.DataAccess.Models;
+using ORION.Domain.DTOs;
 
 namespace ORION.Domain.Aggregates
 {

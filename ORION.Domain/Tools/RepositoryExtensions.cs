@@ -2,7 +2,7 @@
 using System.Reflection;
 using Microsoft.Extensions.DependencyInjection;
 
-namespace DDD.DomainLayer
+namespace ORION.Domain.Tools
 {
     public static class RepositoryExtensions
     {
@@ -14,10 +14,10 @@ namespace DDD.DomainLayer
                 && typeof(IRepository).IsAssignableFrom(x));
             foreach (var repository in repositories)
             {
-                var repositoryInterface = repository.GetInterfaces()
-                    .Where(i => !i.IsGenericType && typeof(IRepository) != i 
-                            && typeof(IRepository).IsAssignableFrom(i))
-                    .SingleOrDefault();
+                var repositoryInterface = repository
+                    .GetInterfaces()
+                    .SingleOrDefault(i => !i.IsGenericType && typeof(IRepository) != i 
+                                                           && typeof(IRepository).IsAssignableFrom(i));
                 if (repositoryInterface != null)
                 {
                     service.AddScoped(repositoryInterface, repository);

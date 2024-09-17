@@ -4,6 +4,8 @@ using ORION.Domain.Enums;
 using System;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
+using ORION.Domain.DTOs;
+using ORION.Domain.Tools;
 
 namespace ORION.DataAccess.Models
 {

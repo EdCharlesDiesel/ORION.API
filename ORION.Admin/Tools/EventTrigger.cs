@@ -1,6 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.Threading.Tasks;
 using DDD.DomainLayer;
+using ORION.Domain.Tools;
 
 namespace DDD.ApplicationLayer
 {

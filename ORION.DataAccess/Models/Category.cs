@@ -4,6 +4,7 @@ using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using ORION.Domain.Aggregates;
+using ORION.Domain.Tools;
 
 namespace ORION.DataAccess.Models
 {

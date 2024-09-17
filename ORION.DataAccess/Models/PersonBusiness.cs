@@ -2,6 +2,8 @@ using System;
 using System.Collections.Generic;
 using DDD.DomainLayer;
 using ORION.Domain.Enums;
+using ORION.Domain.Tools;
+
 //FIXME this as well I need to understand what is happening here.
 namespace ORION.DataAccess.Models
 {

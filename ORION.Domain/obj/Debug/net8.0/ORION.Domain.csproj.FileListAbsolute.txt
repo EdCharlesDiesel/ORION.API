@@ -1,13 +1,6 @@
-C:\x\ORION.API\ORION.Domain\bin\Debug\net8.0\ORION.Domain.deps.json
-C:\x\ORION.API\ORION.Domain\bin\Debug\net8.0\ORION.Domain.dll
-C:\x\ORION.API\ORION.Domain\bin\Debug\net8.0\ORION.Domain.pdb
 C:\x\ORION.API\ORION.Domain\obj\Debug\net8.0\ORION.Domain.csproj.AssemblyReference.cache
 C:\x\ORION.API\ORION.Domain\obj\Debug\net8.0\ORION.Domain.GeneratedMSBuildEditorConfig.editorconfig
 C:\x\ORION.API\ORION.Domain\obj\Debug\net8.0\ORION.Domain.AssemblyInfoInputs.cache
 C:\x\ORION.API\ORION.Domain\obj\Debug\net8.0\ORION.Domain.AssemblyInfo.cs
 C:\x\ORION.API\ORION.Domain\obj\Debug\net8.0\ORION.Domain.csproj.CoreCompileInputs.cache
 C:\x\ORION.API\ORION.Domain\obj\Debug\net8.0\ORION.Domain.sourcelink.json
-C:\x\ORION.API\ORION.Domain\obj\Debug\net8.0\ORION.Domain.dll
-C:\x\ORION.API\ORION.Domain\obj\Debug\net8.0\refint\ORION.Domain.dll
-C:\x\ORION.API\ORION.Domain\obj\Debug\net8.0\ORION.Domain.pdb
-C:\x\ORION.API\ORION.Domain\obj\Debug\net8.0\ref\ORION.Domain.dll

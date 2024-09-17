@@ -1,13 +1,15 @@
 using System;
 using DDD.DomainLayer;
 using ORION.Domain.Aggregates;
+using ORION.Domain.DTOs;
 using ORION.Domain.Enums;
+using ORION.Domain.Tools;
 
 namespace ORION.DataAccess.Models
 {
     public class CustomerCustomerDemo : Entity<int>, ICustomerCustomerDemo
     {
-        public void FullUpdate(ICustomerCustomerDemoFullEditDTO o)
+        public void FullUpdate(ICustomerCustomerDemoFullEditDto o)
         {
             if (IsTransient())
             {

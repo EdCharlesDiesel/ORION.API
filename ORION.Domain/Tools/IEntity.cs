@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using ORION.Domain.Tools;
 
 namespace DDD.DomainLayer
 {

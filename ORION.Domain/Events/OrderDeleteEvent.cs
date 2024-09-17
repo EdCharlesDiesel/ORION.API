@@ -1,4 +1,5 @@
 using DDD.DomainLayer;
+using ORION.Domain.Tools;
 
 namespace ORION.Domain.Events
 {

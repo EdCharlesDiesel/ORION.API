@@ -10,7 +10,8 @@ namespace ORION.DataAccess.Strategy
     {
         public int GetDaysInOffice(IEnumerable<Term> terms)
         {
-            if (terms == null || terms.Count() == 0)
+            var enumerable = terms as Term[] ?? terms.ToArray();
+            if (terms == null || !enumerable.Any())
             {
                 return 0;
             }
@@ -18,7 +19,7 @@ namespace ORION.DataAccess.Strategy
             {
                 int totalDays = 0;
 
-                foreach (var term in terms)
+                foreach (var term in enumerable)
                 {
                     var diff = term.EndOfTerm - term.StartOfTerm;
 

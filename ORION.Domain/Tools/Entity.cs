@@ -1,8 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations.Schema;
+using DDD.DomainLayer;
 
-namespace DDD.DomainLayer
+namespace ORION.Domain.Tools
 {
     public abstract class Entity<K>: IEntity<K>
         where K: IEquatable<K>

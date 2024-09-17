@@ -1,5 +1,4 @@
 using System;
-using DDD.DomainLayer;
 
 namespace ORION.Domain.Aggregates
 {

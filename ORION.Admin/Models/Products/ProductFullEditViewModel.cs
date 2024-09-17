@@ -4,7 +4,7 @@ using System.ComponentModel.DataAnnotations;
 
 namespace ORION.Admin.Models.Products
 {
-    public class ProductFullEditViewModel: IProductFullEditDTO
+    public class ProductFullEditViewModel: IProductFullEditDto
     {
         public ProductFullEditViewModel()
         {

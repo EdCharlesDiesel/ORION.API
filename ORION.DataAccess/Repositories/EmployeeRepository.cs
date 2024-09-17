@@ -9,6 +9,7 @@ using ORION.Domain.Events;
 using ORION.DataAccess.Contexts;
 using ORION.Admin.Handlers;
 using System;
+using ORION.Domain.Tools;
 
 namespace ORION.DataAccess.Repositories
 {

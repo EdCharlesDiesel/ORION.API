@@ -6,6 +6,7 @@ using DDD.DomainLayer;
 using Microsoft.AspNetCore.Identity;
 using ORION.Domain.Aggregates;
 using ORION.Domain.Enums;
+using ORION.Domain.Tools;
 
 namespace ORION.DataAccess.Models
 {
