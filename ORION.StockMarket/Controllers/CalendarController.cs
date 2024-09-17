@@ -17,7 +17,6 @@ namespace ORION.StockMarket.Controllers
         private readonly ILogger<SalesPersonController> _logger;
         private readonly ISalesPersonRepository _SalesPersonRepository;
         private readonly IMapper _mapper;
-   //     private static HttpClient _httpClient;
         public SalesPersonController(ILogger<SalesPersonController> logger,
             ISalesPersonRepository SalesPersonRepository,
             IMapper mapper
@@ -26,10 +25,6 @@ namespace ORION.StockMarket.Controllers
             _logger = logger ?? throw new ArgumentNullException(nameof(logger));
             _SalesPersonRepository = SalesPersonRepository ?? throw new ArgumentNullException(nameof(SalesPersonRepository));
             _mapper = mapper ?? throw new ArgumentNullException(nameof(mapper));
-
-            //_httpClient.BaseAddress = new Uri("http://localhost:57863");
-     //       _httpClient.Timeout = new TimeSpan(0, 0, 30);
-       //     _httpClient.DefaultRequestHeaders.Clear();
         }
    
 

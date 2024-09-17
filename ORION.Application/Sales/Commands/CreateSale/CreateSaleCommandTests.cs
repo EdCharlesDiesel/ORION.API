@@ -5,7 +5,7 @@ using ORION.Sales.DataAccess.Entities;
 
 namespace ORION.Application.Sales.Commands.CreateSale
 {
-    [TestFixture]
+    [Fact()]
     public class CreateSaleCommandTests
     {
         private CreateSaleCommand _command;
@@ -72,7 +72,7 @@ namespace ORION.Application.Sales.Commands.CreateSale
             _command = _mocker.Create<CreateSaleCommand>();
         }
 
-        [Test]
+        [Fact()]
         public void TestExecuteShouldAddSaleToTheDatabase()
         {
             _command.Execute(_model);
@@ -82,7 +82,7 @@ namespace ORION.Application.Sales.Commands.CreateSale
                     Times.Once);
         }
 
-        [Test]
+        [Fact()]
         public void TestExecuteShouldSaveChangesToDatabase()
         {
             _command.Execute(_model);
@@ -92,7 +92,7 @@ namespace ORION.Application.Sales.Commands.CreateSale
                     Times.Once);
         }
 
-        [Test]
+        [Fact()]
         public void TestExecuteShouldNotifyInventoryThatSaleOccurred()
         {
             _command.Execute(_model);

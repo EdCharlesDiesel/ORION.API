@@ -1,4 +1,5 @@
 ﻿using AutoMapper;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace ORION.Sales.Controllers
@@ -6,6 +7,7 @@ namespace ORION.Sales.Controllers
 
     [Route("api/sales/creditcard")]
     [ApiController]
+    [Authorize]
     public class CreditCardsController : ControllerBase
     {
         //private readonly ICreditCardService _CreditCardService;
