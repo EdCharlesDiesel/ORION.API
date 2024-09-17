@@ -1,7 +1,56 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\x\\ORION.API\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E80002E7-F228-4B53-99F3-ABB28407A8EB}|ORION.StockMarketTests\\ORION.StockMarketTests.csproj|c:\\x\\orion.api\\orion.stockmarkettests\\controllers\\salespersoncontrollertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E80002E7-F228-4B53-99F3-ABB28407A8EB}|ORION.StockMarketTests\\ORION.StockMarketTests.csproj|solutionrelative:orion.stockmarkettests\\controllers\\salespersoncontrollertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A99C649-759E-4150-9255-319D7BFD8990}|ORION.Application\\ORION.Application.csproj|c:\\x\\orion.api\\orion.application\\sales\\commands\\createsale\\createsalecommandtests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7A99C649-759E-4150-9255-319D7BFD8990}|ORION.Application\\ORION.Application.csproj|solutionrelative:orion.application\\sales\\commands\\createsale\\createsalecommandtests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F198AF44-4CD5-4849-AD4C-94982B67D6C2}|ORION.StockMarket\\ORION.StockMarket.csproj|c:\\x\\orion.api\\orion.stockmarket\\controllers\\calendarcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F198AF44-4CD5-4849-AD4C-94982B67D6C2}|ORION.StockMarket\\ORION.StockMarket.csproj|solutionrelative:orion.stockmarket\\controllers\\calendarcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D82902E4-C571-40B0-B4F2-AE995FB02AF3}|ORION.Sales\\ORION.Sales.csproj|c:\\x\\orion.api\\orion.sales\\middleware\\serviceregistrationextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D82902E4-C571-40B0-B4F2-AE995FB02AF3}|ORION.Sales\\ORION.Sales.csproj|solutionrelative:orion.sales\\middleware\\serviceregistrationextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D82902E4-C571-40B0-B4F2-AE995FB02AF3}|ORION.Sales\\ORION.Sales.csproj|c:\\x\\orion.api\\orion.sales\\middleware\\salespersonsecurityheadersmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D82902E4-C571-40B0-B4F2-AE995FB02AF3}|ORION.Sales\\ORION.Sales.csproj|solutionrelative:orion.sales\\middleware\\salespersonsecurityheadersmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D82902E4-C571-40B0-B4F2-AE995FB02AF3}|ORION.Sales\\ORION.Sales.csproj|c:\\x\\orion.api\\orion.sales\\business\\iemployeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D82902E4-C571-40B0-B4F2-AE995FB02AF3}|ORION.Sales\\ORION.Sales.csproj|solutionrelative:orion.sales\\business\\iemployeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D82902E4-C571-40B0-B4F2-AE995FB02AF3}|ORION.Sales\\ORION.Sales.csproj|c:\\x\\orion.api\\orion.sales\\business\\employeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D82902E4-C571-40B0-B4F2-AE995FB02AF3}|ORION.Sales\\ORION.Sales.csproj|solutionrelative:orion.sales\\business\\employeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D82902E4-C571-40B0-B4F2-AE995FB02AF3}|ORION.Sales\\ORION.Sales.csproj|c:\\x\\orion.api\\orion.sales\\actionfilters\\checkshowstatisticsheader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D82902E4-C571-40B0-B4F2-AE995FB02AF3}|ORION.Sales\\ORION.Sales.csproj|solutionrelative:orion.sales\\actionfilters\\checkshowstatisticsheader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D82902E4-C571-40B0-B4F2-AE995FB02AF3}|ORION.Sales\\ORION.Sales.csproj|c:\\x\\orion.api\\orion.sales\\controllers\\creditcardscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D82902E4-C571-40B0-B4F2-AE995FB02AF3}|ORION.Sales\\ORION.Sales.csproj|solutionrelative:orion.sales\\controllers\\creditcardscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D82902E4-C571-40B0-B4F2-AE995FB02AF3}|ORION.Sales\\ORION.Sales.csproj|c:\\x\\orion.api\\orion.sales\\controllers\\salespersonscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D82902E4-C571-40B0-B4F2-AE995FB02AF3}|ORION.Sales\\ORION.Sales.csproj|solutionrelative:orion.sales\\controllers\\salespersonscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D82902E4-C571-40B0-B4F2-AE995FB02AF3}|ORION.Sales\\ORION.Sales.csproj|c:\\x\\orion.api\\orion.sales\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D82902E4-C571-40B0-B4F2-AE995FB02AF3}|ORION.Sales\\ORION.Sales.csproj|solutionrelative:orion.sales\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D82902E4-C571-40B0-B4F2-AE995FB02AF3}|ORION.Sales\\ORION.Sales.csproj|c:\\x\\orion.api\\orion.sales\\dataaccess\\models\\loginrequestmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D82902E4-C571-40B0-B4F2-AE995FB02AF3}|ORION.Sales\\ORION.Sales.csproj|solutionrelative:orion.sales\\dataaccess\\models\\loginrequestmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,7 +58,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -26,6 +75,162 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "SalesPersonControllerTests.cs",
+              "DocumentMoniker": "C:\\x\\ORION.API\\ORION.StockMarketTests\\Controllers\\SalesPersonControllerTests.cs",
+              "RelativeDocumentMoniker": "ORION.StockMarketTests\\Controllers\\SalesPersonControllerTests.cs",
+              "ToolTip": "C:\\x\\ORION.API\\ORION.StockMarketTests\\Controllers\\SalesPersonControllerTests.cs",
+              "RelativeToolTip": "ORION.StockMarketTests\\Controllers\\SalesPersonControllerTests.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-17T14:57:31.912Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CalendarController.cs",
+              "DocumentMoniker": "C:\\x\\ORION.API\\ORION.StockMarket\\Controllers\\CalendarController.cs",
+              "RelativeDocumentMoniker": "ORION.StockMarket\\Controllers\\CalendarController.cs",
+              "ToolTip": "C:\\x\\ORION.API\\ORION.StockMarket\\Controllers\\CalendarController.cs",
+              "RelativeToolTip": "ORION.StockMarket\\Controllers\\CalendarController.cs",
+              "ViewState": "AQIAABEAAAAAAAAAAAAQwB8AAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-17T14:55:34.12Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CreateSaleCommandTests.cs",
+              "DocumentMoniker": "C:\\x\\ORION.API\\ORION.Application\\Sales\\Commands\\CreateSale\\CreateSaleCommandTests.cs",
+              "RelativeDocumentMoniker": "ORION.Application\\Sales\\Commands\\CreateSale\\CreateSaleCommandTests.cs",
+              "ToolTip": "C:\\x\\ORION.API\\ORION.Application\\Sales\\Commands\\CreateSale\\CreateSaleCommandTests.cs",
+              "RelativeToolTip": "ORION.Application\\Sales\\Commands\\CreateSale\\CreateSaleCommandTests.cs",
+              "ViewState": "AQIAAEsAAAAAAAAAAAA5wF4AAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-17T14:54:14.607Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IEmployeeService.cs",
+              "DocumentMoniker": "C:\\x\\ORION.API\\ORION.Sales\\Business\\IEmployeeService.cs",
+              "RelativeDocumentMoniker": "ORION.Sales\\Business\\IEmployeeService.cs",
+              "ToolTip": "C:\\x\\ORION.API\\ORION.Sales\\Business\\IEmployeeService.cs",
+              "RelativeToolTip": "ORION.Sales\\Business\\IEmployeeService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-17T14:52:39.511Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "EmployeeService.cs",
+              "DocumentMoniker": "C:\\x\\ORION.API\\ORION.Sales\\Business\\EmployeeService.cs",
+              "RelativeDocumentMoniker": "ORION.Sales\\Business\\EmployeeService.cs",
+              "ToolTip": "C:\\x\\ORION.API\\ORION.Sales\\Business\\EmployeeService.cs",
+              "RelativeToolTip": "ORION.Sales\\Business\\EmployeeService.cs",
+              "ViewState": "AQIAADMAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-17T14:52:31.573Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "SalesPersonSecurityHeadersMiddleware.cs",
+              "DocumentMoniker": "C:\\x\\ORION.API\\ORION.Sales\\Middleware\\SalesPersonSecurityHeadersMiddleware.cs",
+              "RelativeDocumentMoniker": "ORION.Sales\\Middleware\\SalesPersonSecurityHeadersMiddleware.cs",
+              "ToolTip": "C:\\x\\ORION.API\\ORION.Sales\\Middleware\\SalesPersonSecurityHeadersMiddleware.cs",
+              "RelativeToolTip": "ORION.Sales\\Middleware\\SalesPersonSecurityHeadersMiddleware.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-17T14:52:13.774Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ServiceRegistrationExtensions.cs",
+              "DocumentMoniker": "C:\\x\\ORION.API\\ORION.Sales\\Middleware\\ServiceRegistrationExtensions.cs",
+              "RelativeDocumentMoniker": "ORION.Sales\\Middleware\\ServiceRegistrationExtensions.cs",
+              "ToolTip": "C:\\x\\ORION.API\\ORION.Sales\\Middleware\\ServiceRegistrationExtensions.cs",
+              "RelativeToolTip": "ORION.Sales\\Middleware\\ServiceRegistrationExtensions.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-17T14:52:15.255Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CheckShowStatisticsHeader.cs",
+              "DocumentMoniker": "C:\\x\\ORION.API\\ORION.Sales\\ActionFilters\\CheckShowStatisticsHeader.cs",
+              "RelativeDocumentMoniker": "ORION.Sales\\ActionFilters\\CheckShowStatisticsHeader.cs",
+              "ToolTip": "C:\\x\\ORION.API\\ORION.Sales\\ActionFilters\\CheckShowStatisticsHeader.cs",
+              "RelativeToolTip": "ORION.Sales\\ActionFilters\\CheckShowStatisticsHeader.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-17T14:52:24.755Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "SalesPersonsController.cs",
+              "DocumentMoniker": "C:\\x\\ORION.API\\ORION.Sales\\Controllers\\SalesPersonsController.cs",
+              "RelativeDocumentMoniker": "ORION.Sales\\Controllers\\SalesPersonsController.cs",
+              "ToolTip": "C:\\x\\ORION.API\\ORION.Sales\\Controllers\\SalesPersonsController.cs",
+              "RelativeToolTip": "ORION.Sales\\Controllers\\SalesPersonsController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-17T14:51:38.99Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "CreditCardsController.cs",
+              "DocumentMoniker": "C:\\x\\ORION.API\\ORION.Sales\\Controllers\\CreditCardsController.cs",
+              "RelativeDocumentMoniker": "ORION.Sales\\Controllers\\CreditCardsController.cs",
+              "ToolTip": "C:\\x\\ORION.API\\ORION.Sales\\Controllers\\CreditCardsController.cs",
+              "RelativeToolTip": "ORION.Sales\\Controllers\\CreditCardsController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-17T14:48:45.256Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "LoginController.cs",
+              "DocumentMoniker": "C:\\x\\ORION.API\\ORION.Sales\\Controllers\\LoginController.cs",
+              "RelativeDocumentMoniker": "ORION.Sales\\Controllers\\LoginController.cs",
+              "ToolTip": "C:\\x\\ORION.API\\ORION.Sales\\Controllers\\LoginController.cs",
+              "RelativeToolTip": "ORION.Sales\\Controllers\\LoginController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-17T14:48:01.258Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "LoginRequestModel.cs",
+              "DocumentMoniker": "C:\\x\\ORION.API\\ORION.Sales\\DataAccess\\Models\\LoginRequestModel.cs",
+              "RelativeDocumentMoniker": "ORION.Sales\\DataAccess\\Models\\LoginRequestModel.cs",
+              "ToolTip": "C:\\x\\ORION.API\\ORION.Sales\\DataAccess\\Models\\LoginRequestModel.cs",
+              "RelativeToolTip": "ORION.Sales\\DataAccess\\Models\\LoginRequestModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-17T14:46:43.592Z",
+              "EditorCaption": ""
             }
           ]
         }
