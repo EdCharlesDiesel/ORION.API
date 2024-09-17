@@ -1,5 +1,5 @@
-C:\x\ORION.API\ORION.Sales\bin\Debug\net8.0\appsettings.json
 C:\x\ORION.API\ORION.Sales\bin\Debug\net8.0\appsettings.Development.json
+C:\x\ORION.API\ORION.Sales\bin\Debug\net8.0\appsettings.json
 C:\x\ORION.API\ORION.Sales\bin\Debug\net8.0\ORION.Sales.exe
 C:\x\ORION.API\ORION.Sales\bin\Debug\net8.0\ORION.Sales.deps.json
 C:\x\ORION.API\ORION.Sales\bin\Debug\net8.0\ORION.Sales.runtimeconfig.json
@@ -12,6 +12,7 @@ C:\x\ORION.API\ORION.Sales\bin\Debug\net8.0\Azure.Identity.dll
 C:\x\ORION.API\ORION.Sales\bin\Debug\net8.0\Humanizer.dll
 C:\x\ORION.API\ORION.Sales\bin\Debug\net8.0\System.Net.Http.Formatting.dll
 C:\x\ORION.API\ORION.Sales\bin\Debug\net8.0\System.Web.Http.dll
+C:\x\ORION.API\ORION.Sales\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
 C:\x\ORION.API\ORION.Sales\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
 C:\x\ORION.API\ORION.Sales\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
 C:\x\ORION.API\ORION.Sales\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
@@ -77,4 +78,3 @@ C:\x\ORION.API\ORION.Sales\obj\Debug\net8.0\refint\ORION.Sales.dll
 C:\x\ORION.API\ORION.Sales\obj\Debug\net8.0\ORION.Sales.pdb
 C:\x\ORION.API\ORION.Sales\obj\Debug\net8.0\ORION.Sales.genruntimeconfig.cache
 C:\x\ORION.API\ORION.Sales\obj\Debug\net8.0\ref\ORION.Sales.dll
-C:\x\ORION.API\ORION.Sales\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
