@@ -8,7 +8,7 @@ namespace ORION.Sales.DataAccess.Entities;
 /// <summary>
 /// Sales representative current information.
 /// </summary>
-public partial class CreditCard
+public partial class SalesPerson
 {
     /// <summary>
     /// Primary key for CreditCard records. Foreign key to Employee.BusinessEntityID

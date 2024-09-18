@@ -3,7 +3,6 @@ using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using ORION.Sales.DataAccess.Models;
 using ORION.Sales.DataAccess.Services;
-using ORION.Sales.MapperProfiles;
 
 namespace ORION.Sales.Controllers
 {
@@ -12,79 +11,36 @@ namespace ORION.Sales.Controllers
     [ApiController]
     public class CreditCardsController : ControllerBase
     {
-        private readonly ICreditCardService _creditCardService;
+        private readonly ICreditCardRepository _creditCardService;
         private readonly IMapper _mapper;
 
 
-        public CreditCardsController(ICreditCardService creditCardService,
+        public CreditCardsController(ICreditCardRepository creditCardService,
             IMapper mapper)
         {
             _creditCardService = creditCardService;
             _mapper = mapper;
         }
 
-        [HttpPost]
-        public async Task<ActionResult<CreditCardDto>> CreateCreditCard(
-                                                                                        CreditCardForCreationDto
-                                                                                    CreditCardForCreation, ICreditCardService CreditCardService)
+        [HttpGet(Name = "GetListOfCreditCards")]
+        public async Task<ActionResult<IEnumerable<CreditCardDto>>> GetListOfCreditCards()
         {
-            if (!ModelState.IsValid)
-            {
-                return BadRequest(ModelState);
-            }
+            var creditCards = await _creditCardService.GetListOfCreditCardsAsync();
 
-            // create an internal CreditCard entity with default values filled out
-            // and the values inputted via the POST request
-            var CreditCard =
-                    await CreditCardService.CreateCreditCardAsync(
-                        CreditCardForCreation.FirstName, CreditCardForCreation.LastName);
+            var creditCardDtos = _mapper.Map<IEnumerable<CreditCardDto>>(creditCards);
 
-            // persist it
-            await CreditCardService.AddCreditCardAsync(CreditCard);
-
-            // return created CreditCard after mapping to a DTO
-            return CreatedAtAction("GetCreditCard",
-                _mapper.Map<CreditCardDto>(CreditCard),
-                new { CreditCardId = CreditCard.Id });
-        }
-
-
-        [HttpGet]
-        //[Authorize]
-        public IActionResult GetProtectedCreditCards()
-        {
-            // depending on the role, redirect to another action
-            if (User.IsInRole("Admin"))
-            {
-                return RedirectToAction(
-                    "GetCreditCards", "ProtectedCreditCards");
-            }
-
-            return RedirectToAction("GetCreditCards", "CreditCards");
-        }
-
-
-        [HttpGet]
-        public async Task<ActionResult<IEnumerable<CreditCardDto>>> GetCreditCards()
-        {
-            var CreditCards = await _CreditCardService.FetchCreditCardsAsync();
-
-            var CreditCardDtos =
-                _mapper.Map<IEnumerable<CreditCardDto>>(CreditCards);
-
-            return Ok(CreditCardDtos);
+            return Ok(creditCardDtos);
         }
 
         [HttpGet("{CreditCardId}", Name = "GetCreditCard")]
-        public async Task<ActionResult<CreditCardDto>> GetCreditCard(
-            Guid? CreditCardId)
+        public async Task<ActionResult<CreditCardDto>> GetCreditCard(Guid creditCardId)
         {
-            if (!CreditCardId.HasValue)
+            if (creditCardId == new Guid())
             {
                 return NotFound();
             }
 
-            var CreditCard = await _CreditCardService.FetchCreditCardAsync(value: CreditCardId.Value);
+            var CreditCard = await _creditCardService.GetCreditCardAsync(creditCardId);
             if (CreditCard == null)
             {
                 return NotFound();
@@ -93,50 +49,25 @@ namespace ORION.Sales.Controllers
             return Ok(_mapper.Map<CreditCardDto>(CreditCard));
         }
 
+        //[HttpPost]
+        //public async Task<ActionResult<CreditCardDto>> CreateCreditCard(CreditCardForCreationDto creditCardForCreation)
+        //{
+        //    if (!ModelState.IsValid)
+        //    {
+        //        return BadRequest(ModelState);
+        //    }
 
-        [HttpPost]
-        public async Task<ActionResult<CreditCardDto>> CreateCreditCard(
-            CreditCardForCreationDto CreditCardForCreation)
-        {
-            // create an internal CreditCard entity with default values filled out
-            // and the values inputted via the POST request
-            var CreditCard =
-                    await _CreditCardService.CreateCreditCardAsync(
-                        CreditCardForCreation.FirstName, CreditCardForCreation.LastName);
+        //    // create an internal CreditCard entity with default values filled out
+        //    // and the values inputted via the POST request
+        //    var creditCard = await _mapper.Map<CreditCardDto>(creditCardForCreation);
 
-            // persist it
-            await _CreditCardService.AddCreditCardAsync(CreditCard);
+        //    // persist it
+        //    await _creditCardService.AddCreditCardAsync(creditCard);
 
-            // return created CreditCard after mapping to a DTO
-            return CreatedAtAction("GetCreditCard",
-                _mapper.Map<CreditCardDto>(CreditCard),
-                new { CreditCardId = CreditCard.Id });
-        }
-
-
-        [HttpPost]
-        public async Task<IActionResult> CreatePromotion(PromotionForCreationDto promotionForCreation)
-        {
-            var CreditCardToPromote = await _CreditCardService
-                .FetchCreditCardAsync(promotionForCreation.CreditCardId);
-
-            if (CreditCardToPromote == null)
-            {
-                return BadRequest();
-            }
-
-            if (await _promotionService.PromoteCreditCardAsync(CreditCardToPromote))
-            {
-                return Ok(new PromotionResultDto()
-                {
-                    CreditCardId = CreditCardToPromote.Id,
-                    JobLevel = CreditCardToPromote.JobLevel
-                });
-            }
-            else
-            {
-                return BadRequest("CreditCard not eligible for promotion.");
-            }
-        }
+        //    // return created CreditCard after mapping to a DTO
+        //    return CreatedAtAction("GetCreditCard",
+        //        _mapper.Map<CreditCardDto>(creditCard),
+        //        new { CreditCardId = CreditCard.CreditCardId });
+        //}
     }
 }

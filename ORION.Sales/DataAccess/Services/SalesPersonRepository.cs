@@ -99,7 +99,22 @@ namespace ORION.Sales.DataAccess.Services
             throw new NotImplementedException();
         }
 
+        public Task AddCreditCardAsync(CreditCard creditCard)
+        {
+            throw new NotImplementedException();
+        }
+
+        public Task CreateCreditCardAsync(CreditCard creditCard)
+        {
+            throw new NotImplementedException();
+        }
+
         public Task<CreditCard?> GetCreditCardAsync(Guid employeeId)
+        {
+            throw new NotImplementedException();
+        }
+
+        public Task<IEnumerable<CreditCard>> GetListOfCreditCardsAsync()
         {
             throw new NotImplementedException();
         }

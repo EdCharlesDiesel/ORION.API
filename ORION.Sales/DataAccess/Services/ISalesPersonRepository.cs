@@ -4,16 +4,17 @@ using ORION.Sales.DataAccess.Entities;
 
 namespace ORION.Sales.DataAccess.Services
 {
-    public interface ICreditCardRepository
+    public interface ISalesPersonRepository
     {
-        Task<IEnumerable<CreditCard>> GetCreditCardsAsync();
+        Task<IEnumerable<SalesPerson>> GetSalesPersonsAsync();
 
-        CreditCard? GetCreditCard(Guid employeeId);
+        SalesPerson? GetSalesPerson(Guid employeeId);
 
-        Task<CreditCard?> GetCreditCardAsync(Guid employeeId);
+        Task<SalesPerson?> GetSalesPersonAsync(Guid employeeId);
 
-        void AddCreditCard(CreditCard CreditCard);
+        void AddSalesPerson(SalesPerson CreditCard);
 
         Task SaveChangesAsync();
+        Task<object> GetListOfSalesPersonsAsync();
     }
 }

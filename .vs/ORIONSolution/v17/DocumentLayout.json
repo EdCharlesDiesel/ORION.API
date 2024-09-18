@@ -3,28 +3,12 @@
   "WorkspaceRootPath": "C:\\x\\ORION.API\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D82902E4-C571-40B0-B4F2-AE995FB02AF3}|ORION.Sales\\ORION.Sales.csproj|c:\\x\\orion.api\\orion.sales\\dataaccess\\models\\creditcarddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D82902E4-C571-40B0-B4F2-AE995FB02AF3}|ORION.Sales\\ORION.Sales.csproj|solutionrelative:orion.sales\\dataaccess\\models\\creditcarddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D82902E4-C571-40B0-B4F2-AE995FB02AF3}|ORION.Sales\\ORION.Sales.csproj|c:\\x\\orion.api\\orion.sales\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D82902E4-C571-40B0-B4F2-AE995FB02AF3}|ORION.Sales\\ORION.Sales.csproj|solutionrelative:orion.sales\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D82902E4-C571-40B0-B4F2-AE995FB02AF3}|ORION.Sales\\ORION.Sales.csproj|c:\\x\\orion.api\\orion.sales\\dataaccess\\entities\\creditcard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D82902E4-C571-40B0-B4F2-AE995FB02AF3}|ORION.Sales\\ORION.Sales.csproj|solutionrelative:orion.sales\\dataaccess\\entities\\creditcard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D82902E4-C571-40B0-B4F2-AE995FB02AF3}|ORION.Sales\\ORION.Sales.csproj|c:\\x\\orion.api\\orion.sales\\controllers\\creditcardscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D82902E4-C571-40B0-B4F2-AE995FB02AF3}|ORION.Sales\\ORION.Sales.csproj|solutionrelative:orion.sales\\controllers\\creditcardscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D82902E4-C571-40B0-B4F2-AE995FB02AF3}|ORION.Sales\\ORION.Sales.csproj|c:\\x\\orion.api\\orion.sales\\dataaccess\\services\\icreditcardservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D82902E4-C571-40B0-B4F2-AE995FB02AF3}|ORION.Sales\\ORION.Sales.csproj|solutionrelative:orion.sales\\dataaccess\\services\\icreditcardservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D82902E4-C571-40B0-B4F2-AE995FB02AF3}|ORION.Sales\\ORION.Sales.csproj|c:\\x\\orion.api\\orion.sales\\mapperprofiles\\salespersonprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D82902E4-C571-40B0-B4F2-AE995FB02AF3}|ORION.Sales\\ORION.Sales.csproj|solutionrelative:orion.sales\\mapperprofiles\\salespersonprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D82902E4-C571-40B0-B4F2-AE995FB02AF3}|ORION.Sales\\ORION.Sales.csproj|c:\\x\\orion.api\\orion.sales\\controllers\\salespersonscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D82902E4-C571-40B0-B4F2-AE995FB02AF3}|ORION.Sales\\ORION.Sales.csproj|solutionrelative:orion.sales\\controllers\\salespersonscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D82902E4-C571-40B0-B4F2-AE995FB02AF3}|ORION.Sales\\ORION.Sales.csproj|c:\\x\\orion.api\\orion.sales\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D82902E4-C571-40B0-B4F2-AE995FB02AF3}|ORION.Sales\\ORION.Sales.csproj|solutionrelative:orion.sales\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -55,79 +39,27 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "CreditCard.cs",
-              "DocumentMoniker": "C:\\x\\ORION.API\\ORION.Sales\\DataAccess\\Entities\\CreditCard.cs",
-              "RelativeDocumentMoniker": "ORION.Sales\\DataAccess\\Entities\\CreditCard.cs",
-              "ToolTip": "C:\\x\\ORION.API\\ORION.Sales\\DataAccess\\Entities\\CreditCard.cs",
-              "RelativeToolTip": "ORION.Sales\\DataAccess\\Entities\\CreditCard.cs",
-              "ViewState": "AQIAABsAAAAAAAAAAAAowC8AAAAuAAAA",
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\x\\ORION.API\\ORION.Sales\\Program.cs",
+              "RelativeDocumentMoniker": "ORION.Sales\\Program.cs",
+              "ToolTip": "C:\\x\\ORION.API\\ORION.Sales\\Program.cs",
+              "RelativeToolTip": "ORION.Sales\\Program.cs",
+              "ViewState": "AQIAADAAAAAAAAAAAAAowEEAAAAXAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-18T10:06:55.391Z",
+              "WhenOpened": "2024-09-18T11:50:34.571Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "CreditCardDto.cs",
-              "DocumentMoniker": "C:\\x\\ORION.API\\ORION.Sales\\DataAccess\\Models\\CreditCardDto.cs",
-              "RelativeDocumentMoniker": "ORION.Sales\\DataAccess\\Models\\CreditCardDto.cs",
-              "ToolTip": "C:\\x\\ORION.API\\ORION.Sales\\DataAccess\\Models\\CreditCardDto.cs",
-              "RelativeToolTip": "ORION.Sales\\DataAccess\\Models\\CreditCardDto.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Title": "LoginController.cs",
+              "DocumentMoniker": "C:\\x\\ORION.API\\ORION.Sales\\Controllers\\LoginController.cs",
+              "RelativeDocumentMoniker": "ORION.Sales\\Controllers\\LoginController.cs",
+              "ToolTip": "C:\\x\\ORION.API\\ORION.Sales\\Controllers\\LoginController.cs",
+              "RelativeToolTip": "ORION.Sales\\Controllers\\LoginController.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAABUAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-18T10:06:48.638Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ICreditCardService.cs",
-              "DocumentMoniker": "C:\\x\\ORION.API\\ORION.Sales\\DataAccess\\Services\\ICreditCardService.cs",
-              "RelativeDocumentMoniker": "ORION.Sales\\DataAccess\\Services\\ICreditCardService.cs",
-              "ToolTip": "C:\\x\\ORION.API\\ORION.Sales\\DataAccess\\Services\\ICreditCardService.cs",
-              "RelativeToolTip": "ORION.Sales\\DataAccess\\Services\\ICreditCardService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-18T10:06:02.156Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "SalesPersonProfile.cs",
-              "DocumentMoniker": "C:\\x\\ORION.API\\ORION.Sales\\MapperProfiles\\SalesPersonProfile.cs",
-              "RelativeDocumentMoniker": "ORION.Sales\\MapperProfiles\\SalesPersonProfile.cs",
-              "ToolTip": "C:\\x\\ORION.API\\ORION.Sales\\MapperProfiles\\SalesPersonProfile.cs",
-              "RelativeToolTip": "ORION.Sales\\MapperProfiles\\SalesPersonProfile.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-18T10:02:26.764Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "CreditCardsController.cs",
-              "DocumentMoniker": "C:\\x\\ORION.API\\ORION.Sales\\Controllers\\CreditCardsController.cs",
-              "RelativeDocumentMoniker": "ORION.Sales\\Controllers\\CreditCardsController.cs",
-              "ToolTip": "C:\\x\\ORION.API\\ORION.Sales\\Controllers\\CreditCardsController.cs",
-              "RelativeToolTip": "ORION.Sales\\Controllers\\CreditCardsController.cs",
-              "ViewState": "AQIAAA4AAAAAAAAAAAAQwBoAAABIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-18T09:59:58.461Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "SalesPersonsController.cs",
-              "DocumentMoniker": "C:\\x\\ORION.API\\ORION.Sales\\Controllers\\SalesPersonsController.cs",
-              "RelativeDocumentMoniker": "ORION.Sales\\Controllers\\SalesPersonsController.cs",
-              "ToolTip": "C:\\x\\ORION.API\\ORION.Sales\\Controllers\\SalesPersonsController.cs",
-              "RelativeToolTip": "ORION.Sales\\Controllers\\SalesPersonsController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAIkAAAAEAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-18T09:57:58.033Z",
+              "WhenOpened": "2024-09-18T10:44:02.543Z",
               "EditorCaption": ""
             }
           ]
