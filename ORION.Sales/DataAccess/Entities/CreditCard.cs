@@ -15,7 +15,7 @@ public partial class CreditCard
     /// </summary>
     [Key]
     [Column("CreditCardID")]
-    public int CreditCardId { get; set; }
+    public static int CreditCardId { get; set; }
 
     /// <summary>
     /// Credit card name.

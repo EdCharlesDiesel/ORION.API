@@ -23,10 +23,10 @@
 //        /// </summary>
 //        /// <param name="employee"></param>
 //        /// <returns></returns>
-//        public async Task<bool> PromoteSalesPersonAsync(
-//            SalesPerson employee)
+//        public async Task<bool> PromoteCreditCardAsync(
+//            CreditCard employee)
 //        {
-//            if (await CheckIfSalesPersonIsEligibleForPromotion(employee.Id))
+//            if (await CheckIfCreditCardIsEligibleForPromotion(employee.Id))
 //            {
 //                employee.JobLevel++;
 //                await _employeeManagementRepository.SaveChangesAsync();
@@ -40,7 +40,7 @@
 //        /// the top level managers can manage) to check whether
 //        /// an internal employee is eligible for promotion
 //        /// </summary> 
-//        private async Task<bool> CheckIfSalesPersonIsEligibleForPromotion(
+//        private async Task<bool> CheckIfCreditCardIsEligibleForPromotion(
 //            Guid employeeId)
 //        {
 //            // call into API

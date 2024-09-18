@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\x\\ORION.API\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E80002E7-F228-4B53-99F3-ABB28407A8EB}|ORION.StockMarketTests\\ORION.StockMarketTests.csproj|c:\\x\\orion.api\\orion.stockmarkettests\\controllers\\salespersoncontrollertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E80002E7-F228-4B53-99F3-ABB28407A8EB}|ORION.StockMarketTests\\ORION.StockMarketTests.csproj|solutionrelative:orion.stockmarkettests\\controllers\\salespersoncontrollertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D82902E4-C571-40B0-B4F2-AE995FB02AF3}|ORION.Sales\\ORION.Sales.csproj|c:\\x\\orion.api\\orion.sales\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D82902E4-C571-40B0-B4F2-AE995FB02AF3}|ORION.Sales\\ORION.Sales.csproj|solutionrelative:orion.sales\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AF620A48-E6C7-46B5-8FCC-F74A9E4E8D54}|ORION.Sales.Test\\ORION.Sales.Test.csproj|c:\\x\\orion.api\\orion.sales.test\\employeemanagementsecurityheadersmiddlewaretests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AF620A48-E6C7-46B5-8FCC-F74A9E4E8D54}|ORION.Sales.Test\\ORION.Sales.Test.csproj|solutionrelative:orion.sales.test\\employeemanagementsecurityheadersmiddlewaretests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D82902E4-C571-40B0-B4F2-AE995FB02AF3}|ORION.Sales\\ORION.Sales.csproj|c:\\x\\orion.api\\orion.sales\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D82902E4-C571-40B0-B4F2-AE995FB02AF3}|ORION.Sales\\ORION.Sales.csproj|solutionrelative:orion.sales\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,7 +18,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -38,28 +38,28 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "SalesPersonControllerTests.cs",
-              "DocumentMoniker": "C:\\x\\ORION.API\\ORION.StockMarketTests\\Controllers\\SalesPersonControllerTests.cs",
-              "RelativeDocumentMoniker": "ORION.StockMarketTests\\Controllers\\SalesPersonControllerTests.cs",
-              "ToolTip": "C:\\x\\ORION.API\\ORION.StockMarketTests\\Controllers\\SalesPersonControllerTests.cs",
-              "RelativeToolTip": "ORION.StockMarketTests\\Controllers\\SalesPersonControllerTests.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAMAAAA",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\x\\ORION.API\\ORION.Sales\\Program.cs",
+              "RelativeDocumentMoniker": "ORION.Sales\\Program.cs",
+              "ToolTip": "C:\\x\\ORION.API\\ORION.Sales\\Program.cs",
+              "RelativeToolTip": "ORION.Sales\\Program.cs",
+              "ViewState": "AQIAADAAAAAAAAAAAAAowEEAAAAXAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-17T15:14:38.799Z",
+              "WhenOpened": "2024-09-18T11:50:34.571Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "EmployeeManagementSecurityHeadersMiddlewareTests.cs",
-              "DocumentMoniker": "C:\\x\\ORION.API\\ORION.Sales.Test\\EmployeeManagementSecurityHeadersMiddlewareTests.cs",
-              "RelativeDocumentMoniker": "ORION.Sales.Test\\EmployeeManagementSecurityHeadersMiddlewareTests.cs",
-              "ToolTip": "C:\\x\\ORION.API\\ORION.Sales.Test\\EmployeeManagementSecurityHeadersMiddlewareTests.cs",
-              "RelativeToolTip": "ORION.Sales.Test\\EmployeeManagementSecurityHeadersMiddlewareTests.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "DocumentIndex": 0,
+              "Title": "LoginController.cs",
+              "DocumentMoniker": "C:\\x\\ORION.API\\ORION.Sales\\Controllers\\LoginController.cs",
+              "RelativeDocumentMoniker": "ORION.Sales\\Controllers\\LoginController.cs",
+              "ToolTip": "C:\\x\\ORION.API\\ORION.Sales\\Controllers\\LoginController.cs",
+              "RelativeToolTip": "ORION.Sales\\Controllers\\LoginController.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAABUAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-17T15:13:47.381Z",
+              "WhenOpened": "2024-09-18T10:44:02.543Z",
               "EditorCaption": ""
             }
           ]

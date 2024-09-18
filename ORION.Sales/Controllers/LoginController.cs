@@ -19,6 +19,7 @@ namespace ORION.Sales.Controllers
         }
 
         [HttpPost]
+
         public IActionResult Post([FromBody] LoginRequest loginRequest)
         {
             //your logic for login process
@@ -27,7 +28,8 @@ namespace ORION.Sales.Controllers
             var securityKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_config["Jwt:Key"]));
             var credentials = new SigningCredentials(securityKey, SecurityAlgorithms.HmacSha256);
 
-            var Sectoken = new JwtSecurityToken(_config["Jwt:Issuer"],
+            var Sectoken = new JwtSecurityToken(
+                _config["Jwt:Issuer"],
                 _config["Jwt:Issuer"],
                 null,
                 expires: DateTime.Now.AddMinutes(120),

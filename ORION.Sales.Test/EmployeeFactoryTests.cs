@@ -20,10 +20,10 @@ namespace ORION.Sales.Test
 
         //[Fact(Skip = "Skipping this one for demo reasons.")]
         //[Trait("Category", "EmployeeFactory_CreateEmployee_Salary")]
-        //public void CreateEmployee_ConstructSalesPerson_SalaryMustBe2500()
+        //public void CreateEmployee_ConstructCreditCard_SalaryMustBe2500()
         //{
             
-        //    var employee = (SalesPerson)_employeeFactory
+        //    var employee = (CreditCard)_employeeFactory
         //        .CreateEmployee("Kevin", "Dockx");
 
         //    Assert.Equal(2500, employee.Salary);
@@ -31,12 +31,12 @@ namespace ORION.Sales.Test
 
         //[Fact(Skip = "Skipping this one for demo reasons.")]
         //[Trait("Category", "EmployeeFactory_CreateEmployee_Salary")]
-        //public void CreateEmployee_ConstructSalesPerson_SalaryMustBeBetween2500And3500()
+        //public void CreateEmployee_ConstructCreditCard_SalaryMustBeBetween2500And3500()
         //{
         //    // Arrange 
 
         //    // Act
-        //    var employee = (SalesPerson)_employeeFactory
+        //    var employee = (CreditCard)_employeeFactory
         //        .CreateEmployee("Kevin", "Dockx");
 
         //    // Assert
@@ -46,12 +46,12 @@ namespace ORION.Sales.Test
 
         //[Fact]
         //[Trait("Category", "EmployeeFactory_CreateEmployee_Salary")]
-        //public void CreateEmployee_ConstructSalesPerson_SalaryMustBeBetween2500And3500_Alternative()
+        //public void CreateEmployee_ConstructCreditCard_SalaryMustBeBetween2500And3500_Alternative()
         //{
         //    // Arrange 
 
         //    // Act
-        //    var employee = (SalesPerson)_employeeFactory
+        //    var employee = (CreditCard)_employeeFactory
         //        .CreateEmployee("Kevin", "Dockx");
 
         //    // Assert
@@ -61,12 +61,12 @@ namespace ORION.Sales.Test
 
         //[Fact]
         //[Trait("Category", "EmployeeFactory_CreateEmployee_Salary")]
-        //public void CreateEmployee_ConstructSalesPerson_SalaryMustBeBetween2500And3500_AlternativeWithInRange()
+        //public void CreateEmployee_ConstructCreditCard_SalaryMustBeBetween2500And3500_AlternativeWithInRange()
         //{
         //    // Arrange 
 
         //    // Act
-        //    var employee = (SalesPerson)_employeeFactory
+        //    var employee = (CreditCard)_employeeFactory
         //        .CreateEmployee("Kevin", "Dockx");
 
         //    // Assert
@@ -75,12 +75,12 @@ namespace ORION.Sales.Test
 
         //[Fact]
         //[Trait("Category", "EmployeeFactory_CreateEmployee_Salary")]
-        //public void CreateEmployee_ConstructSalesPerson_SalaryMustBe2500_PrecisionExample()
+        //public void CreateEmployee_ConstructCreditCard_SalaryMustBe2500_PrecisionExample()
         //{
         //    // Arrange 
 
         //    // Act
-        //    var employee = (SalesPerson)_employeeFactory
+        //    var employee = (CreditCard)_employeeFactory
         //        .CreateEmployee("Kevin", "Dockx");
         //    employee.Salary = 2500.123m;
 

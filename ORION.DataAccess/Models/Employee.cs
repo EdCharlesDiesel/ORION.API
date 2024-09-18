@@ -125,5 +125,5 @@ public partial class Employee
     //public virtual ICollection<PurchaseOrderHeader> PurchaseOrderHeaders { get; set; } = new List<PurchaseOrderHeader>();
 
     //[InverseProperty("BusinessEntity")]
-    //public virtual SalesPerson SalesPerson { get; set; }
+    //public virtual CreditCard CreditCard { get; set; }
 }

@@ -1,17 +1,16 @@
 ﻿using AutoMapper;
 using ORION.Sales.DataAccess.Entities;
+using ORION.Sales.DataAccess.Models;
 
 namespace ORION.Sales.MapperProfiles
 {
-    public class SalesPersonProfile : Profile
+    public class CreditCardProfile : Profile
     {
-        public SalesPersonProfile()
+        public CreditCardProfile()
         {
-            CreateMap<SalesPerson, SalesPersonDto>();
+            CreateMap<CreditCard, CreditCardDto>();
         }
     }
 
-    public class SalesPersonDto
-    {
-    }
+
 }

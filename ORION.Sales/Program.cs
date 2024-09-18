@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.IdentityModel.Tokens;
 using ORION.Sales.Middleware;
 
+const string myAllowSpecificOrigins = "_myAllowSpecificOrigins";
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
@@ -26,6 +27,16 @@ builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
         };
     });
 //Jwt configuration ends here
+builder.Services.AddCors(options =>
+    {
+        options.AddPolicy(name: myAllowSpecificOrigins,
+            policy =>
+            {
+                policy.WithOrigins("http://localhost:4200",
+                    "https://localhost:4200");
+            });
+    });
+
 
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
@@ -35,7 +46,7 @@ builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
- 
+
 // add HttpClient support
 builder.Services.AddHttpClient("TopLevelManagementAPIClient");
 
@@ -44,7 +55,7 @@ builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
 
 // add other services
 builder.Services.RegisterBusinessServices();
-builder.Services.RegisterDataServices(builder.Configuration); 
+builder.Services.RegisterDataServices(builder.Configuration);
 
 var app = builder.Build();
 
@@ -55,6 +66,7 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 
+app.UseCors(myAllowSpecificOrigins);
 app.UseAuthorization();
 
 app.MapControllers();

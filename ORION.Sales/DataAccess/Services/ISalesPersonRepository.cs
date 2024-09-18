@@ -12,8 +12,9 @@ namespace ORION.Sales.DataAccess.Services
 
         Task<SalesPerson?> GetSalesPersonAsync(Guid employeeId);
 
-        void AddSalesPerson(SalesPerson SalesPerson);
+        void AddSalesPerson(SalesPerson CreditCard);
 
         Task SaveChangesAsync();
+        Task<object> GetListOfSalesPersonsAsync();
     }
 }

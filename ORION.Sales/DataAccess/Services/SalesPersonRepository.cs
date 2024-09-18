@@ -6,36 +6,36 @@ using ORION.Sales.DataAccess.Entities;
 
 namespace ORION.Sales.DataAccess.Services
 {
-    public class SalesPersonRepository: ISalesPersonRepository
+    public class CreditCardRepository: ICreditCardRepository
     {
         //private readonly OrionSalesDbContext _context;
 
-        //public SalesPersonRepository(OrionSalesDbContext context)
+        //public CreditCardRepository(OrionSalesDbContext context)
         //{
         //    _context = context ?? throw new ArgumentNullException(nameof(context));
         //}
 
-        //public async Task<IEnumerable<SalesPerson>> GetSalesPersonsAsync()
+        //public async Task<IEnumerable<CreditCard>> GetCreditCardsAsync()
         //{
-        //    //return await _context.SalesPersons
+        //    //return await _context.CreditCards
         //    //    .Include(e => e.AttendedCourses)
         //    //    .ToListAsync(); 
         //    throw new NotImplementedException();
         //}
 
-        //public async Task<SalesPerson?> GetSalesPersonAsync(Guid employeeId)
+        //public async Task<CreditCard?> GetCreditCardAsync(Guid employeeId)
         //{
         //    throw new NotImplementedException();
-        //    //return await _context.SalesPersons
+        //    //return await _context.CreditCards
         //    //    .Include(e => e.AttendedCourses)
         //    //    .FirstOrDefaultAsync(e => e.Id == employeeId);
 
         //}
 
-        //public SalesPerson? GetSalesPerson(Guid employeeId)
+        //public CreditCard? GetCreditCard(Guid employeeId)
         //{
         //    throw new NotImplementedException();
-        //    //return _context.SalesPersons
+        //    //return _context.CreditCards
         //    //    .Include(e => e.AttendedCourses)
         //    //    .FirstOrDefault(e => e.Id == employeeId);
         //}
@@ -80,26 +80,41 @@ namespace ORION.Sales.DataAccess.Services
         //    return coursesToReturn;
         //}
 
-        //public void AddSalesPerson(SalesPerson SalesPerson)
+        //public void AddCreditCard(CreditCard CreditCard)
         //{
-        //    _context.SalesPersons.Add(SalesPerson);
+        //    _context.CreditCards.Add(CreditCard);
         //}
 
         //public async Task SaveChangesAsync()
         //{
         //    await _context.SaveChangesAsync();
         //}        
-        public Task<IEnumerable<SalesPerson>> GetSalesPersonsAsync()
+        public Task<IEnumerable<CreditCard>> GetCreditCardsAsync()
         {
             throw new NotImplementedException();
         }
 
-        public SalesPerson? GetSalesPerson(Guid employeeId)
+        public CreditCard? GetCreditCard(Guid employeeId)
         {
             throw new NotImplementedException();
         }
 
-        public Task<SalesPerson?> GetSalesPersonAsync(Guid employeeId)
+        public Task AddCreditCardAsync(CreditCard creditCard)
+        {
+            throw new NotImplementedException();
+        }
+
+        public Task CreateCreditCardAsync(CreditCard creditCard)
+        {
+            throw new NotImplementedException();
+        }
+
+        public Task<CreditCard?> GetCreditCardAsync(Guid employeeId)
+        {
+            throw new NotImplementedException();
+        }
+
+        public Task<IEnumerable<CreditCard>> GetListOfCreditCardsAsync()
         {
             throw new NotImplementedException();
         }
@@ -129,7 +144,7 @@ namespace ORION.Sales.DataAccess.Services
             throw new NotImplementedException();
         }
 
-        public void AddSalesPerson(SalesPerson SalesPerson)
+        public void AddCreditCard(CreditCard CreditCard)
         {
             throw new NotImplementedException();
         }

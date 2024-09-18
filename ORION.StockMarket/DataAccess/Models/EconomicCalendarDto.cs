@@ -1,8 +1,8 @@
 ﻿namespace ORION.StockMarket.DataAccess.Models
 {
-    public class EconomicSalesPersonDto
+    public class EconomicCreditCardDto
     {
-        public int SalesPersonId { get; set; }
+        public int CreditCardId { get; set; }
 
         public DateTime Date { get; set; }
 

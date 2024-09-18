@@ -9,7 +9,7 @@ namespace ORION.Sales.Middleware
         public static IServiceCollection RegisterBusinessServices(
             this IServiceCollection services)
         {
-            services.AddScoped<ISalesPersonRepository, SalesPersonRepository>();
+            services.AddScoped<ICreditCardRepository, CreditCardRepository>();
             //services.AddScoped<IPromotionService, PromotionService>();
          //   services.AddScoped<EmployeeFactory>();
             return services;

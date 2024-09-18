@@ -4,17 +4,17 @@ using System.ComponentModel.DataAnnotations.Schema;
 namespace  ORION.StockMarket.DataAccess.Entities;
 
 /// <summary>
-/// SalesPerson entity.
+/// CreditCard entity.
 /// </summary>
-[Table("SalesPerson", Schema = "StockMarket")]
-public  class SalesPerson
+[Table("CreditCard", Schema = "StockMarket")]
+public  class CreditCard
 {
     /// <summary>
-    /// Primary key for SalesPerson.
+    /// Primary key for CreditCard.
     /// </summary>
     [Key]
-    [Column("SalesPersonId")]
-    public int SalesPersonId { get; set; }
+    [Column("CreditCardId")]
+    public int CreditCardId { get; set; }
 
     /// <summary>
     /// Credit card name.

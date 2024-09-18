@@ -10,12 +10,12 @@ namespace ORION.Sales.DataAccess.Entities;
 /// Sales performance tracking.
 /// </summary>
 //[PrimaryKey("BusinessEntityId", "QuotaDate")]
-[Table("SalesPersonQuotaHistory", Schema = "Sales")]
-[Index("Rowguid", Name = "AK_SalesPersonQuotaHistory_rowguid", IsUnique = true)]
-public partial class SalesPersonQuotaHistory
+[Table("CreditCardQuotaHistory", Schema = "Sales")]
+[Index("Rowguid", Name = "AK_CreditCardQuotaHistory_rowguid", IsUnique = true)]
+public partial class CreditCardQuotaHistory
 {
     /// <summary>
-    /// Sales person identification number. Foreign key to SalesPerson.BusinessEntityID.
+    /// Sales person identification number. Foreign key to CreditCard.BusinessEntityID.
     /// </summary>
     [Key]
     [Column("BusinessEntityID")]
@@ -47,6 +47,6 @@ public partial class SalesPersonQuotaHistory
     public DateTime ModifiedDate { get; set; }
 
     [ForeignKey("BusinessEntityId")]
-    [InverseProperty("SalesPersonQuotaHistories")]
-    public virtual SalesPerson BusinessEntity { get; set; }
+    [InverseProperty("CreditCardQuotaHistories")]
+    public virtual CreditCard BusinessEntity { get; set; }
 }

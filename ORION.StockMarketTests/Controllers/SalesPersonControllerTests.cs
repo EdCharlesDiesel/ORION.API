@@ -2,10 +2,10 @@
 
 namespace ORION.StockMarketTests.Controllers
 {
-    public class SalesPersonControllerTests
+    public class CreditCardControllerTests
     {
        // [Fact()]
-        public void GetEconomicSalesPersonOptionsTest()
+        public void GetEconomicCreditCardOptionsTest()
         {
           //  Xunit.Assert.Fail("This test needs an implementation");
         }

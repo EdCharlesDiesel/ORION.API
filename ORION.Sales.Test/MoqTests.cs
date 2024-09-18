@@ -3,7 +3,7 @@
     public class MoqTests
     {
         //[Fact]
-        //public void FetchSalesPerson_EmployeeFetched_SuggestedBonusMustBeCalculated()
+        //public void FetchCreditCard_EmployeeFetched_SuggestedBonusMustBeCalculated()
         //{
         //    // Arrange
         //    var employeeManagementTestDataRepository =
@@ -15,7 +15,7 @@
         //        employeeFactoryMock.Object);
 
         //    // Act 
-        //    var employee = employeeService.FetchSalesPerson(
+        //    var employee = employeeService.FetchCreditCard(
         //        Guid.Parse("72f2f5fe-e50c-4966-8420-d50258aefdcb"));
 
         //    // Assert  
@@ -23,7 +23,7 @@
         //}
 
         //[Fact(Skip = "Skipping this one for demo reasons.")]
-        //public void CreateSalesPerson_SalesPersonCreated_SuggestedBonusMustBeCalculated()
+        //public void CreateCreditCard_CreditCardCreated_SuggestedBonusMustBeCalculated()
         //{
         //    // Arrange
         //    var employeeManagementTestDataRepository =
@@ -35,7 +35,7 @@
         //            It.IsAny<string>(),
         //            null,
         //            false))
-        //        .Returns(new SalesPerson("Kevin", "Dockx", 5, 2500, false, 1));
+        //        .Returns(new CreditCard("Kevin", "Dockx", 5, 2500, false, 1));
 
         //    employeeFactoryMock.Setup(m =>
         //     m.CreateEmployee(
@@ -43,7 +43,7 @@
         //         It.IsAny<string>(),
         //         null,
         //         false))
-        //     .Returns(new SalesPerson("Sandy", "Dockx", 0, 3000, false, 1));
+        //     .Returns(new CreditCard("Sandy", "Dockx", 0, 3000, false, 1));
 
         //    employeeFactoryMock.Setup(m =>
         //     m.CreateEmployee(
@@ -51,7 +51,7 @@
         //         It.IsAny<string>(),
         //         null,
         //         false))
-        //     .Returns(new SalesPerson("SomeoneWithAna", "Dockx", 0, 3000, false, 1));
+        //     .Returns(new CreditCard("SomeoneWithAna", "Dockx", 0, 3000, false, 1));
 
         //    var employeeService = new EmployeeService(
         //        employeeManagementTestDataRepository,
@@ -62,7 +62,7 @@
         //    decimal suggestedBonus = 1000;
         //    decimal suggestedBonus_ = 5000;
         //    // Act 
-        //    var employee = employeeService.CreateSalesPerson("Sandy", "Dockx");
+        //    var employee = employeeService.CreateCreditCard("Sandy", "Dockx");
 
         //    // Assert  
         //    Assert.Equal(suggestedBonus, employee.SuggestedBonus);
@@ -70,7 +70,7 @@
         //}
 
         //[Fact]
-        //public void FetchSalesPerson_EmployeeFetched_SuggestedBonusMustBeCalculated_MoqInterface()
+        //public void FetchCreditCard_EmployeeFetched_SuggestedBonusMustBeCalculated_MoqInterface()
         //{
         //    // Arrange
         //    //var employeeManagementTestDataRepository =
@@ -79,8 +79,8 @@
         //       new Mock<IEmployeeManagementRepository>();
 
         //    employeeManagementTestDataRepositoryMock
-        //     .Setup(m => m.GetSalesPerson(It.IsAny<Guid>()))
-        //     .Returns(new SalesPerson("Tony", "Hall", 2, 2500, false, 2)
+        //     .Setup(m => m.GetCreditCard(It.IsAny<Guid>()))
+        //     .Returns(new CreditCard("Tony", "Hall", 2, 2500, false, 2)
         //     {
         //         AttendedCourses = new List<Course>() {
         //                new Course("A course"), new Course("Another course") }
@@ -92,7 +92,7 @@
         //        employeeFactoryMock.Object);
 
         //    // Act 
-        //    var employee = employeeService.FetchSalesPerson(
+        //    var employee = employeeService.FetchCreditCard(
         //        Guid.Empty);
 
         //    // Assert  
@@ -100,15 +100,15 @@
         //}
 
         //[Fact]
-        //public async Task FetchSalesPerson_EmployeeFetched_SuggestedBonusMustBeCalculated_MoqInterface_Async()
+        //public async Task FetchCreditCard_EmployeeFetched_SuggestedBonusMustBeCalculated_MoqInterface_Async()
         //{
         //    // Arrange
         //    var employeeManagementTestDataRepositoryMock =
         //      new Mock<IEmployeeManagementRepository>();
 
         //    employeeManagementTestDataRepositoryMock
-        //        .Setup(m => m.GetSalesPersonAsync(It.IsAny<Guid>()))
-        //        .ReturnsAsync(new SalesPerson("Tony", "Hall", 2, 2500, false, 2)
+        //        .Setup(m => m.GetCreditCardAsync(It.IsAny<Guid>()))
+        //        .ReturnsAsync(new CreditCard("Tony", "Hall", 2, 2500, false, 2)
         //        {
         //            AttendedCourses = new List<Course>() {
         //                new Course("A course"), new Course("Another course") }
@@ -120,7 +120,7 @@
         //        employeeFactoryMock.Object);
 
         //    // Act 
-        //    var employee = await employeeService.FetchSalesPersonAsync(Guid.Empty);
+        //    var employee = await employeeService.FetchCreditCardAsync(Guid.Empty);
 
         //    // Assert  
         //    Assert.Equal(400, employee.SuggestedBonus);

@@ -90,7 +90,7 @@ public partial class SalesTerritory
     public virtual ICollection<SalesOrderHeader> SalesOrderHeaders { get; set; } = new List<SalesOrderHeader>();
 
     [InverseProperty("Territory")]
-    public virtual ICollection<SalesPerson> SalesPeople { get; set; } = new List<SalesPerson>();
+    public virtual ICollection<CreditCard> SalesPeople { get; set; } = new List<CreditCard>();
 
     [InverseProperty("Territory")]
     public virtual ICollection<SalesTerritoryHistory> SalesTerritoryHistories { get; set; } = new List<SalesTerritoryHistory>();

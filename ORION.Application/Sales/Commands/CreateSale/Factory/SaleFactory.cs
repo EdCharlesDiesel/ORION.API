@@ -5,9 +5,9 @@ namespace ORION.Application.Sales.Commands.CreateSale.Factory
 {
     public class SaleFactory : ISaleFactory
     {
-        public SalesPerson Create(DateTime date, Customer customer, Employee employee, Product product, int quantity)
+        public CreditCard Create(DateTime date, Customer customer, Employee employee, Product product, int quantity)
         {
-            var sale = new SalesPerson();
+            var sale = new CreditCard();
 
             //sale.Date = date;
 

@@ -16,9 +16,9 @@
 
         //    var employeeServiceMock = new Mock<IEmployeeService>();
         //    employeeServiceMock
-        //        .Setup(m => m.FetchSalesPersonAsync(It.IsAny<Guid>()))
+        //        .Setup(m => m.FetchCreditCardAsync(It.IsAny<Guid>()))
         //        .ReturnsAsync(
-        //            new SalesPerson(
+        //            new CreditCard(
         //                "Anna", "Johnson", 3, 3400, true, currentJobLevel)
         //            {
         //                Id = expectedEmployeeId,

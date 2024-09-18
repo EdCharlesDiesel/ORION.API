@@ -17,7 +17,7 @@ namespace ORION.Sales.Test
 
 
         //[Fact]
-        //public void CreateSalesPerson_SalesPersonCreated_MustHaveAttendedFirstObligatoryCourse_WithObject()
+        //public void CreateCreditCard_CreditCardCreated_MustHaveAttendedFirstObligatoryCourse_WithObject()
         //{
         //    // Arrange          
         //    var obligatoryCourse = _employeeServiceFixture
@@ -25,49 +25,49 @@ namespace ORION.Sales.Test
         //        .GetCourse(Guid.Parse("37e03ca7-c730-4351-834c-b66f280cdb01"));
 
         //    // Act
-        //    var SalesPerson = _employeeServiceFixture
+        //    var CreditCard = _employeeServiceFixture
         //        .EmployeeService
-        //        .CreateSalesPerson("Brooklyn", "Cannon");
+        //        .CreateCreditCard("Brooklyn", "Cannon");
 
         //    _testOutputHelper.WriteLine($"Employee after Act: " +
-        //        $"{SalesPerson.FirstName} {SalesPerson.LastName}");
-        //    SalesPerson.AttendedCourses
+        //        $"{CreditCard.FirstName} {CreditCard.LastName}");
+        //    CreditCard.AttendedCourses
         //        .ForEach(c => _testOutputHelper.WriteLine($"Attended course: {c.Id} {c.Title}"));
 
         //    // Assert
-        //    Assert.Contains(obligatoryCourse, SalesPerson.AttendedCourses);
+        //    Assert.Contains(obligatoryCourse, CreditCard.AttendedCourses);
         //}
 
         //[Fact]
-        //public void CreateSalesPerson_SalesPersonCreated_MustHaveAttendedFirstObligatoryCourse_WithPredicate()
+        //public void CreateCreditCard_CreditCardCreated_MustHaveAttendedFirstObligatoryCourse_WithPredicate()
         //{
         //    // Arrange            
 
         //    // Act
-        //    var SalesPerson = _employeeServiceFixture.EmployeeService
-        //        .CreateSalesPerson("Brooklyn", "Cannon");
+        //    var CreditCard = _employeeServiceFixture.EmployeeService
+        //        .CreateCreditCard("Brooklyn", "Cannon");
 
         //    // Assert
-        //    Assert.Contains(SalesPerson.AttendedCourses,
+        //    Assert.Contains(CreditCard.AttendedCourses,
         //        course => course.Id == Guid.Parse("37e03ca7-c730-4351-834c-b66f280cdb01"));
         //}
 
         //[Fact]
-        //public void CreateSalesPerson_SalesPersonCreated_MustHaveAttendedSecondObligatoryCourse_WithPredicate()
+        //public void CreateCreditCard_CreditCardCreated_MustHaveAttendedSecondObligatoryCourse_WithPredicate()
         //{
         //    // Arrange 
 
         //    // Act
-        //    var SalesPerson = _employeeServiceFixture.EmployeeService
-        //        .CreateSalesPerson("Brooklyn", "Cannon");
+        //    var CreditCard = _employeeServiceFixture.EmployeeService
+        //        .CreateCreditCard("Brooklyn", "Cannon");
 
         //    // Assert
-        //    Assert.Contains(SalesPerson.AttendedCourses,
+        //    Assert.Contains(CreditCard.AttendedCourses,
         //        course => course.Id == Guid.Parse("1fd115cf-f44c-4982-86bc-a8fe2e4ff83e"));
         //}
 
         //[Fact]
-        //public void CreateSalesPerson_SalesPersonCreated_AttendedCoursesMustMatchObligatoryCourses()
+        //public void CreateCreditCard_CreditCardCreated_AttendedCoursesMustMatchObligatoryCourses()
         //{
         //    // Arrange 
         //    var obligatoryCourses = _employeeServiceFixture
@@ -77,33 +77,33 @@ namespace ORION.Sales.Test
         //            Guid.Parse("1fd115cf-f44c-4982-86bc-a8fe2e4ff83e"));
 
         //    // Act
-        //    var SalesPerson = _employeeServiceFixture.EmployeeService
-        //        .CreateSalesPerson("Brooklyn", "Cannon");
+        //    var CreditCard = _employeeServiceFixture.EmployeeService
+        //        .CreateCreditCard("Brooklyn", "Cannon");
 
         //    // Assert
-        //    Assert.Equal(obligatoryCourses, SalesPerson.AttendedCourses);
+        //    Assert.Equal(obligatoryCourses, CreditCard.AttendedCourses);
         //}
 
         //[Fact]
-        //public void CreateSalesPerson_SalesPersonCreated_AttendedCoursesMustNotBeNew()
+        //public void CreateCreditCard_CreditCardCreated_AttendedCoursesMustNotBeNew()
         //{
         //    // Arrange 
 
         //    // Act
-        //    var SalesPerson = _employeeServiceFixture.EmployeeService
-        //        .CreateSalesPerson("Brooklyn", "Cannon");
+        //    var CreditCard = _employeeServiceFixture.EmployeeService
+        //        .CreateCreditCard("Brooklyn", "Cannon");
 
         //    // Assert
-        //    //foreach (var course in SalesPerson.AttendedCourses)
+        //    //foreach (var course in CreditCard.AttendedCourses)
         //    //{
         //    //    Assert.False(course.IsNew);
         //    //}
-        //    Assert.All(SalesPerson.AttendedCourses,
+        //    Assert.All(CreditCard.AttendedCourses,
         //        course => Assert.False(course.IsNew));
         //}
 
         //[Fact]
-        //public async Task CreateSalesPerson_SalesPersonCreated_AttendedCoursesMustMatchObligatoryCourses_Async()
+        //public async Task CreateCreditCard_CreditCardCreated_AttendedCoursesMustMatchObligatoryCourses_Async()
         //{
         //    // Arrange
           
@@ -114,25 +114,25 @@ namespace ORION.Sales.Test
         //            Guid.Parse("1fd115cf-f44c-4982-86bc-a8fe2e4ff83e"));
 
         //    // Act
-        //    var SalesPerson = await _employeeServiceFixture.EmployeeService
-        //        .CreateSalesPersonAsync("Brooklyn", "Cannon");
+        //    var CreditCard = await _employeeServiceFixture.EmployeeService
+        //        .CreateCreditCardAsync("Brooklyn", "Cannon");
 
         //    // Assert
-        //    Assert.Equal(obligatoryCourses, SalesPerson.AttendedCourses);
+        //    Assert.Equal(obligatoryCourses, CreditCard.AttendedCourses);
         //}
 
         //[Fact]
         //public async Task GiveRaise_RaiseBelowMinimumGiven_EmployeeInvalidRaiseExceptionMustBeThrown()
         //{
         //    // Arrange  
-        //    var SalesPerson = new SalesPerson(
+        //    var CreditCard = new CreditCard(
         //        "Brooklyn", "Cannon", 5, 3000, false, 1);
 
         //    // Act & Assert
         //    await Assert.ThrowsAsync<EmployeeInvalidRaiseException>(
         //        async () => 
         //        await _employeeServiceFixture.EmployeeService
-        //            .GiveRaiseAsync(SalesPerson, 50)
+        //            .GiveRaiseAsync(CreditCard, 50)
         //        );
 
         //}
@@ -144,13 +144,13 @@ namespace ORION.Sales.Test
         //    var employeeService = new EmployeeService(
         //        new EmployeeManagementTestDataRepository(),
         //        new EmployeeFactory());
-        //    var SalesPerson = new SalesPerson(
+        //    var CreditCard = new CreditCard(
         //        "Brooklyn", "Cannon", 5, 3000, false, 1);
 
         //    // Act & Assert
         //    Assert.ThrowsAsync<EmployeeInvalidRaiseException>(
         //        async () =>
-        //        await employeeService.GiveRaiseAsync(SalesPerson, 50)
+        //        await employeeService.GiveRaiseAsync(CreditCard, 50)
         //        );
 
         //}
@@ -160,7 +160,7 @@ namespace ORION.Sales.Test
         //public void NotifyOfAbsence_EmployeeIsAbsent_OnEmployeeIsAbsentMustBeTriggered()
         //{
         //    // Arrange 
-        //    var SalesPerson = new SalesPerson(
+        //    var CreditCard = new CreditCard(
         //        "Brooklyn", "Cannon", 5, 3000, false, 1);
 
         //    // Act & Assert
@@ -170,7 +170,7 @@ namespace ORION.Sales.Test
         //       handler => _employeeServiceFixture.EmployeeService
         //            .EmployeeIsAbsent -= handler,
         //       () => _employeeServiceFixture.EmployeeService
-        //            .NotifyOfAbsence(SalesPerson));
+        //            .NotifyOfAbsence(CreditCard));
         //}
     }
 }

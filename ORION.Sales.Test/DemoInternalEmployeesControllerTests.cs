@@ -1,40 +1,40 @@
 ﻿namespace ORION.Sales.Test
 {
-    public class DemoSalesPersonsControllerTests
+    public class DemoCreditCardsControllerTests
     {
         //[Fact]
-        //public async Task CreateSalesPerson_InvalidInput_MustReturnBadRequest()
+        //public async Task CreateCreditCard_InvalidInput_MustReturnBadRequest()
         //{ 
         //    // Arrange
         //    var employeeServiceMock = new Mock<IEmployeeService>();
         //    var mapperMock = new Mock<IMapper>();
-        //    var demoSalesPersonsController = new DemoSalesPersonsController(
+        //    var demoCreditCardsController = new DemoCreditCardsController(
         //        employeeServiceMock.Object, mapperMock.Object);
 
-        //    var SalesPersonForCreationDto = new SalesPersonForCreationDto();
+        //    var CreditCardForCreationDto = new CreditCardForCreationDto();
 
-        //    demoSalesPersonsController.ModelState
+        //    demoCreditCardsController.ModelState
         //        .AddModelError("FirstName", "Required");
 
         //    // Act 
-        //    var result = await demoSalesPersonsController
-        //        .CreateSalesPerson(SalesPersonForCreationDto);
+        //    var result = await demoCreditCardsController
+        //        .CreateCreditCard(CreditCardForCreationDto);
 
         //    // Assert
         //    var actionResult = Assert
-        //        .IsType<ActionResult<Models.SalesPersonDto>>(result);
+        //        .IsType<ActionResult<Models.CreditCardDto>>(result);
         //    var badRequestResult = Assert.IsType<BadRequestObjectResult>(actionResult.Result);
         //    Assert.IsType<SerializableError>(badRequestResult.Value);
         //}
 
         //[Fact]
-        //public void GetProtectedSalesPersons_GetActionForUserInAdminRole_MustRedirectToGetSalesPersonsOnProtectedSalesPersons()
+        //public void GetProtectedCreditCards_GetActionForUserInAdminRole_MustRedirectToGetCreditCardsOnProtectedCreditCards()
         //{
         //    // Arrange
         //    var employeeServiceMock = new Mock<IEmployeeService>();
         //    var mapperMock = new Mock<IMapper>();
-        //    var demoSalesPersonsController = 
-        //        new DemoSalesPersonsController(
+        //    var demoCreditCardsController = 
+        //        new DemoCreditCardsController(
         //            employeeServiceMock.Object, mapperMock.Object);
            
         //    var userClaims = new List<Claim>()
@@ -50,32 +50,32 @@
         //        User = claimsPrincipal
         //    };
 
-        //    demoSalesPersonsController.ControllerContext = 
+        //    demoCreditCardsController.ControllerContext = 
         //        new ControllerContext()
         //        {
         //            HttpContext = httpContext
         //        };
 
         //    // Act
-        //    var result = demoSalesPersonsController.GetProtectedSalesPersons();
+        //    var result = demoCreditCardsController.GetProtectedCreditCards();
 
         //    // Assert 
         //    var actionResult = Assert.IsAssignableFrom<IActionResult>(result);
         //    var redirectoToActionResult = Assert.IsType<RedirectToActionResult>(result);
-        //    Assert.Equal("GetSalesPersons",
+        //    Assert.Equal("GetCreditCards",
         //        redirectoToActionResult.ActionName);
-        //    Assert.Equal("ProtectedSalesPersons",
+        //    Assert.Equal("ProtectedCreditCards",
         //        redirectoToActionResult.ControllerName);
         //}
 
         //[Fact]
-        //public void GetProtectedSalesPersons_GetActionForUserInAdminRole_MustRedirectToGetSalesPersonsOnProtectedSalesPersons_WithMoq()
+        //public void GetProtectedCreditCards_GetActionForUserInAdminRole_MustRedirectToGetCreditCardsOnProtectedCreditCards_WithMoq()
         //{
         //    // Arrange
         //    var employeeServiceMock = new Mock<IEmployeeService>();
         //    var mapperMock = new Mock<IMapper>();
-        //    var demoSalesPersonsController =
-        //        new DemoSalesPersonsController(
+        //    var demoCreditCardsController =
+        //        new DemoCreditCardsController(
         //            employeeServiceMock.Object, mapperMock.Object);
 
         //    var mockPrincipal = new Mock<ClaimsPrincipal>();
@@ -86,21 +86,21 @@
         //    httpContextMock.Setup(c => c.User)
         //        .Returns(mockPrincipal.Object); 
 
-        //    demoSalesPersonsController.ControllerContext =
+        //    demoCreditCardsController.ControllerContext =
         //        new ControllerContext()
         //        {
         //            HttpContext = httpContextMock.Object
         //        };
 
         //    // Act
-        //    var result = demoSalesPersonsController.GetProtectedSalesPersons();
+        //    var result = demoCreditCardsController.GetProtectedCreditCards();
 
         //    // Assert 
         //    var actionResult = Assert.IsAssignableFrom<IActionResult>(result);
         //    var redirectoToActionResult = Assert.IsType<RedirectToActionResult>(result);
-        //    Assert.Equal("GetSalesPersons",
+        //    Assert.Equal("GetCreditCards",
         //        redirectoToActionResult.ActionName);
-        //    Assert.Equal("ProtectedSalesPersons",
+        //    Assert.Equal("ProtectedCreditCards",
         //        redirectoToActionResult.ControllerName);
         //}
     }
