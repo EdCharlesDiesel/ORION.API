@@ -25,10 +25,10 @@ public partial class Store
     public string Name { get; set; }
 
     /// <summary>
-    /// ID of the sales person assigned to the customer. Foreign key to SalesPerson.BusinessEntityID.
+    /// ID of the sales person assigned to the customer. Foreign key to CreditCard.BusinessEntityID.
     /// </summary>
-    [Column("SalesPersonID")]
-    public int? SalesPersonId { get; set; }
+    [Column("CreditCardID")]
+    public int? CreditCardId { get; set; }
 
     /// <summary>
     /// Demographic informationg about the store such as the number of employees, annual sales and store type.
@@ -55,7 +55,7 @@ public partial class Store
     //[InverseProperty("Store")]
     //public virtual ICollection<Customer> Customers { get; set; } = new List<Customer>();
 
-    //[ForeignKey("SalesPersonId")]
+    //[ForeignKey("CreditCardId")]
     //[InverseProperty("Stores")]
-    //public virtual SalesPerson SalesPerson { get; set; }
+    //public virtual CreditCard CreditCard { get; set; }
 }

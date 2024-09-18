@@ -1,140 +1,139 @@
 ﻿using AutoMapper;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+using ORION.Sales.MapperProfiles;
 
 namespace ORION.Sales.Controllers
 {
 
     [Route("api/sales/salespersons")]
-    [ApiController]
-    [Authorize]
     public class SalesPersonsController : ControllerBase
     {
-        //private readonly ICreditCardService _CreditCardService;
-        //private readonly IMapper _mapper;
+        private readonly ISalesPersonService _SalesPersonService;
+        private readonly IMapper _mapper;
 
 
-        //public SalesPersonsController(ICreditCardService CreditCardService,
-        //    IMapper mapper)
-        //{
-        //    _CreditCardService = CreditCardService;
-        //    _mapper = mapper;
-        //}
+        public SalesPersonsController(ISalesPersonService SalesPersonService,
+            IMapper mapper)
+        {
+            _SalesPersonService = SalesPersonService;
+            _mapper = mapper;
+        }
 
-        //[HttpPost]
-        //public async Task<ActionResult<InternalCreditCardDto>> CreateInternalCreditCard(
-        //                                                                                InternalCreditCardForCreationDto 
-        //                                                                            internalCreditCardForCreation, ICreditCardService CreditCardService)
-        //{
-        //    if (!ModelState.IsValid)
-        //    {
-        //        return BadRequest(ModelState);
-        //    }
+        [HttpPost]
+        public async Task<ActionResult<SalesPersonDto>> CreateSalesPerson(SalesPersonForCreationDto
+                                                                                    SalesPersonForCreation, ISalesPersonService SalesPersonService)
+        {
+            if (!ModelState.IsValid)
+            {
+                return BadRequest(ModelState);
+            }
 
-        //    // create an internal CreditCard entity with default values filled out
-        //    // and the values inputted via the POST request
-        //    var internalCreditCard =
-        //            await CreditCardService.CreateInternalCreditCardAsync(
-        //                internalCreditCardForCreation.FirstName, internalCreditCardForCreation.LastName);
+            // create an internal SalesPerson entity with default values filled out
+            // and the values inputted via the POST request
+            var SalesPerson =
+                    await SalesPersonService.CreateSalesPersonAsync(
+                        SalesPersonForCreation.FirstName, SalesPersonForCreation.LastName);
 
-        //    // persist it
-        //    await CreditCardService.AddInternalCreditCardAsync(internalCreditCard);
+            // persist it
+            await SalesPersonService.AddSalesPersonAsync(SalesPerson);
 
-        //    // return created CreditCard after mapping to a DTO
-        //    return CreatedAtAction("GetInternalCreditCard",
-        //        _mapper.Map<InternalCreditCardDto>(internalCreditCard),
-        //        new { CreditCardId = internalCreditCard.Id });
-        //}
-
-
-        //[HttpGet]
-        ////[Authorize]
-        //public IActionResult GetProtectedInternalCreditCards()
-        //{
-        //    // depending on the role, redirect to another action
-        //    if (User.IsInRole("Admin"))
-        //    {
-        //        return RedirectToAction(
-        //            "GetInternalCreditCards", "ProtectedInternalCreditCards");
-        //    }
-
-        //    return RedirectToAction("GetInternalCreditCards", "InternalCreditCards");
-        //}
-        
-
-        //[HttpGet]
-        //public async Task<ActionResult<IEnumerable<InternalCreditCardDto>>> GetInternalCreditCards()
-        //{
-        //    var internalCreditCards = await _CreditCardService.FetchInternalCreditCardsAsync();
-            
-        //    var internalCreditCardDtos =
-        //        _mapper.Map<IEnumerable<InternalCreditCardDto>>(internalCreditCards);
-
-        //    return Ok(internalCreditCardDtos);
-        //}
-
-        //[HttpGet("{CreditCardId}", Name = "GetInternalCreditCard")]
-        //public async Task<ActionResult<InternalCreditCardDto>> GetInternalCreditCard(
-        //    Guid? CreditCardId)
-        //{
-        //    if (!CreditCardId.HasValue)
-        //    {
-        //        return NotFound();
-        //    }
-
-        //    var internalCreditCard = await _CreditCardService.FetchInternalCreditCardAsync(value: CreditCardId.Value);
-        //    if (internalCreditCard == null)
-        //    {
-        //        return NotFound();
-        //    }
-
-        //    return Ok(_mapper.Map<InternalCreditCardDto>(internalCreditCard));
-        //}
+            // return created SalesPerson after mapping to a DTO
+            return CreatedAtAction("GetSalesPerson",
+                _mapper.Map<SalesPersonDto>(SalesPerson),
+                new { SalesPersonId = SalesPerson.Id });
+        }
 
 
-        //[HttpPost]
-        //public async Task<ActionResult<InternalCreditCardDto>> CreateInternalCreditCard(
-        //    InternalCreditCardForCreationDto internalCreditCardForCreation)
-        //{
-        //    // create an internal CreditCard entity with default values filled out
-        //    // and the values inputted via the POST request
-        //    var internalCreditCard =
-        //            await _CreditCardService.CreateInternalCreditCardAsync(
-        //                internalCreditCardForCreation.FirstName, internalCreditCardForCreation.LastName);
+        [HttpGet]
+        public IActionResult GetProtectedSalesPersons()
+        {
+            // depending on the role, redirect to another action
+            if (User.IsInRole("Admin"))
+            {
+                return RedirectToAction(
+                    "GetSalesPersons", "ProtectedSalesPersons");
+            }
 
-        //    // persist it
-        //    await _CreditCardService.AddInternalCreditCardAsync(internalCreditCard);
-
-        //    // return created CreditCard after mapping to a DTO
-        //    return CreatedAtAction("GetInternalCreditCard",
-        //        _mapper.Map<InternalCreditCardDto>(internalCreditCard),
-        //        new { CreditCardId = internalCreditCard.Id });
-        //}
+            return RedirectToAction("GetSalesPersons", "SalesPersons");
+        }
 
 
-        //[HttpPost]
-        //public async Task<IActionResult> CreatePromotion(PromotionForCreationDto promotionForCreation)
-        //{
-        //    var internalCreditCardToPromote = await _CreditCardService
-        //        .FetchInternalCreditCardAsync(promotionForCreation.CreditCardId);
+        [HttpGet]
+        public async Task<ActionResult<IEnumerable<SalesPersonDto>>> GetSalesPersons()
+        {
+            var SalesPersons = await _SalesPersonService.FetchSalesPersonsAsync();
 
-        //    if (internalCreditCardToPromote == null)
-        //    {
-        //        return BadRequest();
-        //    }
+            var SalesPersonDtos =
+                _mapper.Map<IEnumerable<SalesPersonDto>>(SalesPersons);
 
-        //    if (await _promotionService.PromoteInternalCreditCardAsync(internalCreditCardToPromote))
-        //    {
-        //        return Ok(new PromotionResultDto()
-        //        {
-        //            CreditCardId = internalCreditCardToPromote.Id,
-        //            JobLevel = internalCreditCardToPromote.JobLevel
-        //        });
-        //    }
-        //    else
-        //    {
-        //        return BadRequest("CreditCard not eligible for promotion.");
-        //    }
-        //}
+            return Ok(SalesPersonDtos);
+        }
+
+        [HttpGet("{SalesPersonId}", Name = "GetSalesPerson")]
+        public async Task<ActionResult<SalesPersonDto>> GetSalesPerson(
+            Guid? SalesPersonId)
+        {
+            if (!SalesPersonId.HasValue)
+            {
+                return NotFound();
+            }
+
+            var SalesPerson = await _SalesPersonService.FetchSalesPersonAsync(value: SalesPersonId.Value);
+            if (SalesPerson == null)
+            {
+                return NotFound();
+            }
+
+            return Ok(_mapper.Map<SalesPersonDto>(SalesPerson));
+        }
+
+
+        [HttpPost]
+        public async Task<ActionResult<SalesPersonDto>> CreateSalesPerson(
+            SalesPersonForCreationDto SalesPersonForCreation)
+        {
+            // create an internal SalesPerson entity with default values filled out
+            // and the values inputted via the POST request
+            var SalesPerson =
+                    await _SalesPersonService.CreateSalesPersonAsync(
+                        SalesPersonForCreation.FirstName, SalesPersonForCreation.LastName);
+
+            // persist it
+            await _SalesPersonService.AddSalesPersonAsync(SalesPerson);
+
+            // return created SalesPerson after mapping to a DTO
+            return CreatedAtAction("GetSalesPerson",
+                _mapper.Map<SalesPersonDto>(SalesPerson),
+                new { SalesPersonId = SalesPerson.Id });
+        }
+
+
+        [HttpPost]
+        public async Task<IActionResult> CreatePromotion(PromotionForCreationDto promotionForCreation)
+        {
+            var SalesPersonToPromote = await _SalesPersonService
+                .FetchSalesPersonAsync(promotionForCreation.SalesPersonId);
+
+            if (SalesPersonToPromote == null)
+            {
+                return BadRequest();
+            }
+
+            if (await _promotionService.PromoteSalesPersonAsync(SalesPersonToPromote))
+            {
+                return Ok(new PromotionResultDto()
+                {
+                    SalesPersonId = SalesPersonToPromote.Id,
+                    JobLevel = SalesPersonToPromote.JobLevel
+                });
+            }
+            else
+            {
+                return BadRequest("SalesPerson not eligible for promotion.");
+            }
+        }
     }
+
+    
 }

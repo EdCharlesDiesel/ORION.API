@@ -27,41 +27,41 @@
         //        .GetCourseAsync(Guid.Parse("844e14ce-c055-49e9-9610-855669c9859b"));
 
         //    // get existing employee - "Megan Jones"
-        //    var SalesPerson = await employeeManagementDataRepository
-        //        .GetSalesPersonAsync(Guid.Parse("72f2f5fe-e50c-4966-8420-d50258aefdcb"));
+        //    var CreditCard = await employeeManagementDataRepository
+        //        .GetCreditCardAsync(Guid.Parse("72f2f5fe-e50c-4966-8420-d50258aefdcb"));
 
-        //    if (courseToAttend == null || SalesPerson == null)
+        //    if (courseToAttend == null || CreditCard == null)
         //    {
         //        throw new XunitException("Arranging the test failed");
         //    }
 
         //    // expected suggested bonus after attending the course
-        //    var expectedSuggestedBonus = SalesPerson.YearsInService
-        //        * (SalesPerson.AttendedCourses.Count + 1) * 100;
+        //    var expectedSuggestedBonus = CreditCard.YearsInService
+        //        * (CreditCard.AttendedCourses.Count + 1) * 100;
 
         //    // Act
-        //    await employeeService.AttendCourseAsync(SalesPerson, courseToAttend);
+        //    await employeeService.AttendCourseAsync(CreditCard, courseToAttend);
 
         //    // Assert
-        //    Assert.Equal(expectedSuggestedBonus, SalesPerson.SuggestedBonus);
+        //    Assert.Equal(expectedSuggestedBonus, CreditCard.SuggestedBonus);
         //}
 
         //[Fact]
-        //public async Task PromoteSalesPersonAsync_IsEligible_JobLevelMustBeIncreased()
+        //public async Task PromoteCreditCardAsync_IsEligible_JobLevelMustBeIncreased()
         //{
         //    // Arrange
         //    var httpClient = new HttpClient(
         //        new TestablePromotionEligibilityHandler(true));
-        //    var SalesPerson = new SalesPerson(
+        //    var CreditCard = new CreditCard(
         //        "Brooklyn", "Cannon", 5, 3000, false, 1);
         //    var promotionService = new PromotionService(httpClient,
         //        new EmployeeManagementTestDataRepository());
 
         //    // Act
-        //    await promotionService.PromoteSalesPersonAsync(SalesPerson);
+        //    await promotionService.PromoteCreditCardAsync(CreditCard);
 
         //    // Assert
-        //    Assert.Equal(2, SalesPerson.JobLevel);
+        //    Assert.Equal(2, CreditCard.JobLevel);
         //}
 
     }

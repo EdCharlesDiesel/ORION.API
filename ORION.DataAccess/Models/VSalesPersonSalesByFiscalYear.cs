@@ -9,10 +9,10 @@ using Microsoft.EntityFrameworkCore;
 namespace ORION.DataAccess.Models;
 
 [Keyless]
-public partial class VSalesPersonSalesByFiscalYear
+public partial class VCreditCardSalesByFiscalYear
 {
-    [Column("SalesPersonID")]
-    public int? SalesPersonId { get; set; }
+    [Column("CreditCardID")]
+    public int? CreditCardId { get; set; }
 
     [StringLength(152)]
     public string FullName { get; set; }

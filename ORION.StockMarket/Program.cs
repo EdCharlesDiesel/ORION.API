@@ -23,11 +23,11 @@ namespace ORION.StockMarket
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();
 
-            builder.Services.AddDbContext<OrionSalesPersonDbContext>(
+            builder.Services.AddDbContext<OrionCreditCardDbContext>(
                 dbContextOptions => dbContextOptions.UseSqlServer(
                     builder.Configuration["ConnectionStrings:Orion_StockMarket_ConnectionString"]));
 
-            builder.Services.AddScoped<ISalesPersonRepository, SalesPersonRepository>();
+            builder.Services.AddScoped<ICreditCardRepository, CreditCardRepository>();
 
             builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
 

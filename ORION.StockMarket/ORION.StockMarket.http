@@ -1,6 +1,6 @@
 @ORION.StockMarket_HostAddress = http://localhost:8080
 
-GET {{ORION.StockMarket_HostAddress}}/SalesPerson/
+GET {{ORION.StockMarket_HostAddress}}/CreditCard/
 Accept: application/json
 
 ###

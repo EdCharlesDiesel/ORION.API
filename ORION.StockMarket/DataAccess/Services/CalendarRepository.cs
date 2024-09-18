@@ -5,33 +5,33 @@ using ORION.StockMarket.DataAccess.Entities;
 
 namespace ORION.StockMarket.DataAccess.Services
 {
-    public class SalesPersonRepository: ISalesPersonRepository
+    public class CreditCardRepository: ICreditCardRepository
     {
-        private readonly OrionSalesPersonDbContext _context;
+        private readonly OrionCreditCardDbContext _context;
 
-        public SalesPersonRepository(OrionSalesPersonDbContext context)
+        public CreditCardRepository(OrionCreditCardDbContext context)
         {
             _context = context ?? throw new ArgumentNullException(nameof(context));
         }
 
-        public async Task<IEnumerable<SalesPerson>> GetSalesPersonsAsync()
+        public async Task<IEnumerable<CreditCard>> GetCreditCardsAsync()
         {
-            return await _context.SalesPersons.ToListAsync(); 
+            return await _context.CreditCards.ToListAsync(); 
         }
 
-        public async Task<SalesPerson?> GetSalesPersonAsync(int SalesPersonId)
+        public async Task<CreditCard?> GetCreditCardAsync(int CreditCardId)
         {
-            return await _context.SalesPersons.FirstOrDefaultAsync(e => e.SalesPersonId == SalesPersonId);
+            return await _context.CreditCards.FirstOrDefaultAsync(e => e.CreditCardId == CreditCardId);
         }
 
-        public EntityEntry<SalesPerson> AddSalesPerson(SalesPerson SalesPerson)
+        public EntityEntry<CreditCard> AddCreditCard(CreditCard CreditCard)
         {
-          return  _context.SalesPersons.Add(SalesPerson);
+          return  _context.CreditCards.Add(CreditCard);
         }   
 
-        public async Task AddSalesPersonsAsync(IEnumerable<SalesPerson> SalesPersons)
+        public async Task AddCreditCardsAsync(IEnumerable<CreditCard> CreditCards)
         { 
-            await _context.SalesPersons.AddRangeAsync(SalesPersons);
+            await _context.CreditCards.AddRangeAsync(CreditCards);
         }
 
         public async Task SaveChangesAsync()

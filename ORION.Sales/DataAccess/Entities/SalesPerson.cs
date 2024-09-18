@@ -8,11 +8,10 @@ namespace ORION.Sales.DataAccess.Entities;
 /// <summary>
 /// Sales representative current information.
 /// </summary>
-[Table("SalesPerson", Schema = "Sales")]
-public partial class SalesPerson
+public partial class CreditCard
 {
     /// <summary>
-    /// Primary key for SalesPerson records. Foreign key to Employee.BusinessEntityID
+    /// Primary key for CreditCard records. Foreign key to Employee.BusinessEntityID
     /// </summary>
     [Key]
     [Column("BusinessEntityID")]
@@ -60,26 +59,21 @@ public partial class SalesPerson
     [Column("rowguid")]
     public Guid Rowguid { get; set; }
 
-    /// <summary>
-    /// Date and time the record was last updated.
-    /// </summary>
-    [Column(TypeName = "datetime")]
-    public DateTime ModifiedDate { get; set; }
 
     //[ForeignKey("BusinessEntityId")]
-    //[InverseProperty("SalesPerson")]
+    //[InverseProperty("CreditCard")]
     //public virtual Employee BusinessEntity { get; set; }
 
-    //[InverseProperty("SalesPerson")]
+    //[InverseProperty("CreditCard")]
     //public virtual ICollection<SalesOrderHeader> SalesOrderHeaders { get; set; } = new List<SalesOrderHeader>();
 
     //[InverseProperty("BusinessEntity")]
-    //public virtual ICollection<SalesPersonQuotaHistory> SalesPersonQuotaHistories { get; set; } = new List<SalesPersonQuotaHistory>();
+    //public virtual ICollection<CreditCardQuotaHistory> CreditCardQuotaHistories { get; set; } = new List<CreditCardQuotaHistory>();
 
     //[InverseProperty("BusinessEntity")]
     //public virtual ICollection<SalesTerritoryHistory> SalesTerritoryHistories { get; set; } = new List<SalesTerritoryHistory>();
 
-    //[InverseProperty("SalesPerson")]
+    //[InverseProperty("CreditCard")]
     //public virtual ICollection<Store> Stores { get; set; } = new List<Store>();
 
     //[ForeignKey("TerritoryId")]

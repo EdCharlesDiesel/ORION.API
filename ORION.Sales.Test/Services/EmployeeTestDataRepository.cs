@@ -2,7 +2,7 @@
 {
     public class EmployeeManagementTestDataRepository : IEmployeeManagementRepository
     {
-        //private List<SalesPerson> _SalesPersons;
+        //private List<CreditCard> _CreditCards;
         //private List<ExternalEmployee> _externalEmployees;
         //private List<Course> _courses;
 
@@ -47,15 +47,15 @@
         //        }
         //    };
 
-        //    _SalesPersons = new()
+        //    _CreditCards = new()
         //    {
-        //        new SalesPerson("Megan", "Jones", 2, 3000, false, 2)
+        //        new CreditCard("Megan", "Jones", 2, 3000, false, 2)
         //        {
         //            Id = Guid.Parse("72f2f5fe-e50c-4966-8420-d50258aefdcb"),
         //            AttendedCourses = new List<Course> {
         //                    obligatoryCourse1, obligatoryCourse2 }
         //        },
-        //        new SalesPerson("Jaimy", "Johnson", 3, 3400, true, 1)
+        //        new CreditCard("Jaimy", "Johnson", 3, 3400, true, 1)
         //        {
         //            Id = Guid.Parse("f484ad8f-78fd-46d1-9f87-bbb1e676e37f"),
         //            AttendedCourses = new List<Course> {
@@ -72,7 +72,7 @@
         //    };
         //}
 
-        //public void AddSalesPerson(SalesPerson SalesPerson)
+        //public void AddCreditCard(CreditCard CreditCard)
         //{
         //    // empty on purpose
         //}
@@ -106,19 +106,19 @@
         //    return Task.FromResult(GetCourses(courseIds));
         //}
 
-        //public SalesPerson? GetSalesPerson(Guid employeeId)
+        //public CreditCard? GetCreditCard(Guid employeeId)
         //{
-        //    return _SalesPersons.FirstOrDefault(e => e.Id == employeeId);
+        //    return _CreditCards.FirstOrDefault(e => e.Id == employeeId);
         //}
 
-        //public Task<SalesPerson?> GetSalesPersonAsync(Guid employeeId)
+        //public Task<CreditCard?> GetCreditCardAsync(Guid employeeId)
         //{
-        //    return Task.FromResult(GetSalesPerson(employeeId));
+        //    return Task.FromResult(GetCreditCard(employeeId));
         //}
 
-        //public Task<IEnumerable<SalesPerson>> GetSalesPersonsAsync()
+        //public Task<IEnumerable<CreditCard>> GetCreditCardsAsync()
         //{
-        //    return Task.FromResult(_SalesPersons.AsEnumerable());
+        //    return Task.FromResult(_CreditCards.AsEnumerable());
         //}
 
         //public Task SaveChangesAsync()

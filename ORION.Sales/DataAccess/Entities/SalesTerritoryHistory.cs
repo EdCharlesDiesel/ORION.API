@@ -17,7 +17,7 @@ namespace ORION.Sales.DataAccess.Entities;
 public partial class SalesTerritoryHistory
 {
     /// <summary>
-    /// Primary key. The sales rep.  Foreign key to SalesPerson.BusinessEntityID.
+    /// Primary key. The sales rep.  Foreign key to CreditCard.BusinessEntityID.
     /// </summary>
     [Key]
     [Column("BusinessEntityID")]
@@ -57,7 +57,7 @@ public partial class SalesTerritoryHistory
 
     [ForeignKey("BusinessEntityId")]
     [InverseProperty("SalesTerritoryHistories")]
-    public virtual SalesPerson BusinessEntity { get; set; }
+    public virtual CreditCard BusinessEntity { get; set; }
 
     [ForeignKey("TerritoryId")]
     [InverseProperty("SalesTerritoryHistories")]

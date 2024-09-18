@@ -11,7 +11,7 @@ using ORION.StockMarket.DataAccess.DbContexts;
 
 namespace ORION.StockMarket.Migrations
 {
-    [DbContext(typeof(OrionSalesPersonDbContext))]
+    [DbContext(typeof(OrionCreditCardDbContext))]
     [Migration("20240912152611_InitialMigration")]
     partial class InitialMigration
     {
@@ -25,14 +25,14 @@ namespace ORION.StockMarket.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
 
-            modelBuilder.Entity("ORION.StockMarket.DataAccess.Entities.SalesPerson", b =>
+            modelBuilder.Entity("ORION.StockMarket.DataAccess.Entities.CreditCard", b =>
                 {
-                    b.Property<int>("SalesPersonId")
+                    b.Property<int>("CreditCardId")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int")
-                        .HasColumnName("SalesPersonId");
+                        .HasColumnName("CreditCardId");
 
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("SalesPersonId"));
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("CreditCardId"));
 
                     b.Property<string>("Actual")
                         .IsRequired()
@@ -144,9 +144,9 @@ namespace ORION.StockMarket.Migrations
                         .HasColumnType("nvarchar(max)")
                         .HasColumnName("Unit");
 
-                    b.HasKey("SalesPersonId");
+                    b.HasKey("CreditCardId");
 
-                    b.ToTable("SalesPerson", "StockMarket");
+                    b.ToTable("CreditCard", "StockMarket");
                 });
 #pragma warning restore 612, 618
         }

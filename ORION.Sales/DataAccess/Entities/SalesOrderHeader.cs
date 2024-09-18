@@ -13,7 +13,7 @@ namespace ORION.Sales.DataAccess.Entities;
 [Index("SalesOrderNumber", Name = "AK_SalesOrderHeader_SalesOrderNumber", IsUnique = true)]
 [Index("Rowguid", Name = "AK_SalesOrderHeader_rowguid", IsUnique = true)]
 [Index("CustomerId", Name = "IX_SalesOrderHeader_CustomerID")]
-[Index("SalesPersonId", Name = "IX_SalesOrderHeader_SalesPersonID")]
+[Index("CreditCardId", Name = "IX_SalesOrderHeader_CreditCardID")]
 public partial class SalesOrderHeader
 {
     /// <summary>
@@ -82,10 +82,10 @@ public partial class SalesOrderHeader
     public int CustomerId { get; set; }
 
     /// <summary>
-    /// Sales person who created the sales order. Foreign key to SalesPerson.BusinessEntityID.
+    /// Sales person who created the sales order. Foreign key to CreditCard.BusinessEntityID.
     /// </summary>
-    [Column("SalesPersonID")]
-    public int? SalesPersonId { get; set; }
+    [Column("CreditCardID")]
+    public int? CreditCardId { get; set; }
 
     /// <summary>
     /// Territory in which the sale was made. Foreign key to SalesTerritory.SalesTerritoryID.
@@ -111,11 +111,11 @@ public partial class SalesOrderHeader
     [Column("ShipMethodID")]
     public int ShipMethodId { get; set; }
 
-    /// <summary>
-    /// Credit card identification number. Foreign key to CreditCard.CreditCardID.
-    /// </summary>
-    [Column("CreditCardID")]
-    public int? CreditCardId { get; set; }
+    ///// <summary>
+    ///// Credit card identification number. Foreign key to CreditCard.CreditCardID.
+    ///// </summary>
+    //[Column("CreditCardID")]
+    //public int? CreditCardId { get; set; }
 
     /// <summary>
     /// Approval code provided by the credit card company.
@@ -176,27 +176,27 @@ public partial class SalesOrderHeader
     //[InverseProperty("SalesOrderHeaderBillToAddresses")]
     //public virtual Address BillToAddress { get; set; }
 
-    [ForeignKey("CreditCardId")]
-    [InverseProperty("SalesOrderHeaders")]
-    public virtual CreditCard CreditCard { get; set; }
+    //[ForeignKey("CreditCardId")]
+    //[InverseProperty("SalesOrderHeaders")]
+    //public virtual CreditCard CreditCard { get; set; }
 
-    [ForeignKey("CurrencyRateId")]
-    [InverseProperty("SalesOrderHeaders")]
-    public virtual CurrencyRate CurrencyRate { get; set; }
+    //[ForeignKey("CurrencyRateId")]
+    //[InverseProperty("SalesOrderHeaders")]
+    //public virtual CurrencyRate CurrencyRate { get; set; }
 
-    [ForeignKey("CustomerId")]
-    [InverseProperty("SalesOrderHeaders")]
-    public virtual Customer Customer { get; set; }
+    //[ForeignKey("CustomerId")]
+    //[InverseProperty("SalesOrderHeaders")]
+    //public virtual Customer Customer { get; set; }
 
-    [InverseProperty("SalesOrder")]
-    public virtual ICollection<SalesOrderDetail> SalesOrderDetails { get; set; } = new List<SalesOrderDetail>();
+    //[InverseProperty("SalesOrder")]
+    //public virtual ICollection<SalesOrderDetail> SalesOrderDetails { get; set; } = new List<SalesOrderDetail>();
 
-    [InverseProperty("SalesOrder")]
-    public virtual ICollection<SalesOrderHeaderSalesReason> SalesOrderHeaderSalesReasons { get; set; } = new List<SalesOrderHeaderSalesReason>();
+    //[InverseProperty("SalesOrder")]
+    //public virtual ICollection<SalesOrderHeaderSalesReason> SalesOrderHeaderSalesReasons { get; set; } = new List<SalesOrderHeaderSalesReason>();
 
-    [ForeignKey("SalesPersonId")]
-    [InverseProperty("SalesOrderHeaders")]
-    public virtual SalesPerson SalesPerson { get; set; }
+    //[ForeignKey("CreditCardId")]
+    //[InverseProperty("SalesOrderHeaders")]
+    //public virtual CreditCard CreditCard { get; set; }
 
     //[ForeignKey("ShipMethodId")]
     //[InverseProperty("SalesOrderHeaders")]
@@ -206,7 +206,7 @@ public partial class SalesOrderHeader
     //[InverseProperty("SalesOrderHeaderShipToAddresses")]
     //public virtual Address ShipToAddress { get; set; }
 
-    [ForeignKey("TerritoryId")]
-    [InverseProperty("SalesOrderHeaders")]
-    public virtual SalesTerritory Territory { get; set; }
+    //[ForeignKey("TerritoryId")]
+    //[InverseProperty("SalesOrderHeaders")]
+    //public virtual SalesTerritory Territory { get; set; }
 }

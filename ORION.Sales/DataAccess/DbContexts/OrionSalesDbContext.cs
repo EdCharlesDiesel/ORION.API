@@ -14,8 +14,8 @@ namespace ORION.Sales.DataAccess.DbContexts
         public DbSet<SalesOrderDetail> SalesOrderDetails { get; set; } = null!;
         public DbSet<SalesOrderHeader> SalesOrderHeaders { get; set; } = null!;
         public DbSet<SalesOrderHeaderSalesReason> SalesOrderHeaderSalesReasons { get; set; } = null!;
-        public DbSet<SalesPerson> SalesPersons { get; set; } = null!;
-        public DbSet<SalesPersonQuotaHistory> SalesPersonQuotaHistorys { get; set; } = null!;
+        public DbSet<CreditCard> CreditCards { get; set; } = null!;
+        public DbSet<CreditCardQuotaHistory> CreditCardQuotaHistorys { get; set; } = null!;
         public DbSet<SalesReason> SalesReasons{ get; set; } = null!;
         public DbSet<SalesTaxRate> SalesTaxRates { get; set; } = null!;
         public DbSet<SalesTerritory> SalesTerritories { get; set; } = null!;
@@ -66,22 +66,22 @@ namespace ORION.Sales.DataAccess.DbContexts
         //              }
         //          );
 
-        //    modelBuilder.Entity<SalesPerson>()
+        //    modelBuilder.Entity<CreditCard>()
         //        .HasData(
-        //            new SalesPerson("Megan", "Jones", 2, 3000, false, 2)
+        //            new CreditCard("Megan", "Jones", 2, 3000, false, 2)
         //            {
         //                Id = Guid.Parse("72f2f5fe-e50c-4966-8420-d50258aefdcb") 
         //            },
-        //            new SalesPerson("Jaimy", "Johnson", 3, 3400, true, 1)
+        //            new CreditCard("Jaimy", "Johnson", 3, 3400, true, 1)
         //            {
         //                Id = Guid.Parse("f484ad8f-78fd-46d1-9f87-bbb1e676e37f") 
         //            });
 
         //    modelBuilder
-        //        .Entity<SalesPerson>()
+        //        .Entity<CreditCard>()
         //        .HasMany(p => p.AttendedCourses)
         //        .WithMany(p => p.EmployeesThatAttended)
-        //        .UsingEntity(j => j.ToTable("CourseSalesPerson").HasData(new[]
+        //        .UsingEntity(j => j.ToTable("CourseCreditCard").HasData(new[]
         //            {
         //                new { AttendedCoursesId = Guid.Parse("37e03ca7-c730-4351-834c-b66f280cdb01"),
         //                    EmployeesThatAttendedId = Guid.Parse("72f2f5fe-e50c-4966-8420-d50258aefdcb") },

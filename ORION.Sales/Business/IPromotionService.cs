@@ -4,6 +4,6 @@
 //{
 //    public interface IPromotionService
 //    {
-//        Task<bool> PromoteSalesPersonAsync(SalesPerson employee);
+//        Task<bool> PromoteCreditCardAsync(CreditCard employee);
 //    }
 //}

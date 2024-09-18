@@ -16,7 +16,7 @@ namespace ORION.Sales.Test
         //}
 
         //[Fact]
-        //public void CreateSalesPerson_SalesPersonCreated_MustHaveAttendedFirstObligatoryCourse_WithObject()
+        //public void CreateCreditCard_CreditCardCreated_MustHaveAttendedFirstObligatoryCourse_WithObject()
         //{
         //    // Arrange
 
@@ -25,11 +25,11 @@ namespace ORION.Sales.Test
         //        .GetCourse(Guid.Parse("37e03ca7-c730-4351-834c-b66f280cdb01"));
 
         //    // Act
-        //    var SalesPerson = _employeeServiceFixture
-        //        .EmployeeService.CreateSalesPerson("Brooklyn", "Cannon");
+        //    var CreditCard = _employeeServiceFixture
+        //        .EmployeeService.CreateCreditCard("Brooklyn", "Cannon");
 
         //    // Assert
-        //    Assert.Contains(obligatoryCourse, SalesPerson.AttendedCourses);
+        //    Assert.Contains(obligatoryCourse, CreditCard.AttendedCourses);
         //}
     }
 }

@@ -3,11 +3,11 @@ using ORION.StockMarket.DataAccess.Entities;
 
 namespace ORION.StockMarket.DataAccess.DbContexts
 {
-    public class OrionSalesPersonDbContext : DbContext
+    public class OrionCreditCardDbContext : DbContext
     {
-        public DbSet<SalesPerson> SalesPersons { get; set; } = null!;
+        public DbSet<CreditCard> CreditCards { get; set; } = null!;
 
-        public OrionSalesPersonDbContext(DbContextOptions<OrionSalesPersonDbContext> options)
+        public OrionCreditCardDbContext(DbContextOptions<OrionCreditCardDbContext> options)
          : base(options)
         {
         }

@@ -16,17 +16,17 @@ namespace ORION.Sales.Test
         //[Theory]
         //[InlineData("1fd115cf-f44c-4982-86bc-a8fe2e4ff83e")]
         //[InlineData("37e03ca7-c730-4351-834c-b66f280cdb01")]
-        //public void CreateSalesPerson_SalesPersonCreated_MustHaveAttendedSecondObligatoryCourse(
+        //public void CreateCreditCard_CreditCardCreated_MustHaveAttendedSecondObligatoryCourse(
         //    Guid courseId)
         //{
         //    // Arrange 
 
         //    // Act
-        //    var SalesPerson = _employeeServiceFixture.EmployeeService
-        //        .CreateSalesPerson("Brooklyn", "Cannon");
+        //    var CreditCard = _employeeServiceFixture.EmployeeService
+        //        .CreateCreditCard("Brooklyn", "Cannon");
 
         //    // Assert
-        //    Assert.Contains(SalesPerson.AttendedCourses,
+        //    Assert.Contains(CreditCard.AttendedCourses,
         //        course => course.Id == courseId);
         //}
 
@@ -34,15 +34,15 @@ namespace ORION.Sales.Test
         //public async Task GiveRaise_MinimumRaiseGiven_EmployeeMinimumRaiseGivenMustBeTrue()
         //{
         //    // Arrange  
-        //    var SalesPerson = new SalesPerson(
+        //    var CreditCard = new CreditCard(
         //        "Brooklyn", "Cannon", 5, 3000, false, 1);
 
         //    // Act
         //    await _employeeServiceFixture
-        //        .EmployeeService.GiveRaiseAsync(SalesPerson, 100);
+        //        .EmployeeService.GiveRaiseAsync(CreditCard, 100);
 
         //    // Assert
-        //    Assert.True(SalesPerson.MinimumRaiseGiven);
+        //    Assert.True(CreditCard.MinimumRaiseGiven);
         //}
 
 
@@ -50,15 +50,15 @@ namespace ORION.Sales.Test
         //public async Task GiveRaise_MoreThanMinimumRaiseGiven_EmployeeMinimumRaiseGivenMustBeFalse()
         //{
         //    // Arrange  
-        //    var SalesPerson = new SalesPerson(
+        //    var CreditCard = new CreditCard(
         //        "Brooklyn", "Cannon", 5, 3000, false, 1);
 
         //    // Act 
         //    await _employeeServiceFixture.EmployeeService
-        //        .GiveRaiseAsync(SalesPerson, 200);
+        //        .GiveRaiseAsync(CreditCard, 200);
 
         //    // Assert
-        //    Assert.False(SalesPerson.MinimumRaiseGiven);
+        //    Assert.False(CreditCard.MinimumRaiseGiven);
         //}
 
         //public static IEnumerable<object[]> ExampleTestDataForGiveRaise_WithProperty
@@ -111,16 +111,16 @@ namespace ORION.Sales.Test
         //    int raiseGiven, bool expectedValueForMinimumRaiseGiven)
         //{
         //    // Arrange  
-        //    var SalesPerson = new SalesPerson(
+        //    var CreditCard = new CreditCard(
         //        "Brooklyn", "Cannon", 5, 3000, false, 1);
 
         //    // Act
         //    await _employeeServiceFixture.EmployeeService.GiveRaiseAsync(
-        //        SalesPerson, raiseGiven);
+        //        CreditCard, raiseGiven);
 
         //    // Assert
         //    Assert.Equal(expectedValueForMinimumRaiseGiven, 
-        //        SalesPerson.MinimumRaiseGiven);
+        //        CreditCard.MinimumRaiseGiven);
         //}
 
     }
