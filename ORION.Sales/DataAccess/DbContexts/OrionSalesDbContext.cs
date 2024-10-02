@@ -1,6 +1,7 @@
 ﻿
 using Microsoft.EntityFrameworkCore;
 using ORION.Sales.DataAccess.Entities;
+using System.Collections.Generic;
 
 namespace ORION.Sales.DataAccess.DbContexts
 {
@@ -13,6 +14,7 @@ namespace ORION.Sales.DataAccess.DbContexts
         public DbSet<PersonCreditCard> PersonCreditCards { get; set; } = null!;
         public DbSet<SalesOrderDetail> SalesOrderDetails { get; set; } = null!;
         public DbSet<SalesOrderHeader> SalesOrderHeaders { get; set; } = null!;
+        public DbSet<SalesPerson> SalesPersons { get; set; } = null!;
         public DbSet<SalesOrderHeaderSalesReason> SalesOrderHeaderSalesReasons { get; set; } = null!;
         public DbSet<CreditCard> CreditCards { get; set; } = null!;
         public DbSet<CreditCardQuotaHistory> CreditCardQuotaHistorys { get; set; } = null!;

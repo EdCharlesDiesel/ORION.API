@@ -11,6 +11,4 @@ namespace ORION.Sales.MapperProfiles
             CreateMap<CreditCard, CreditCardDto>();
         }
     }
-
-
 }

@@ -1,5 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using ORION.Sales.DataAccess.DbContexts;
+using ORION.Sales.DataAccess.Repositories;
 using ORION.Sales.DataAccess.Services;
 
 namespace ORION.Sales.Middleware

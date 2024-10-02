@@ -1,20 +1,20 @@
-﻿
-
-using ORION.Sales.DataAccess.Entities;
+﻿using ORION.Sales.DataAccess.Entities;
 
 namespace ORION.Sales.DataAccess.Services
 {
     public interface ISalesPersonRepository
     {
-        Task<IEnumerable<SalesPerson>> GetSalesPersonsAsync();
+        void CreateSalesPerson(SalesPerson salesPerson);
 
-        SalesPerson? GetSalesPerson(Guid employeeId);
+        Task<IEnumerable<SalesPerson>> ReadSalesPersonsAsync();
 
-        Task<SalesPerson?> GetSalesPersonAsync(Guid employeeId);
+        Task<SalesPerson>? ReadSalesPersonAsync(Guid businessEntityId);
 
-        void AddSalesPerson(SalesPerson CreditCard);
+        Task<SalesPerson> UpdateSalesPersonAsync(Guid businessEntityId, SalesPerson salesPerson);
+
+        void DeleteSalesPerson(Guid businessEntityId);
 
         Task SaveChangesAsync();
-        Task<object> GetListOfSalesPersonsAsync();
+        
     }
 }
