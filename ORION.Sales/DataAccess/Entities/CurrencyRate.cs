@@ -10,7 +10,6 @@ namespace ORION.Sales.DataAccess.Entities;
 /// Currency exchange rates.
 /// </summary>
 [Table("CurrencyRate", Schema = "Sales")]
-[Index("CurrencyRateDate", "FromCurrencyCode", "ToCurrencyCode", Name = "AK_CurrencyRate_CurrencyRateDate_FromCurrencyCode_ToCurrencyCode", IsUnique = true)]
 public partial class CurrencyRate
 {
     /// <summary>
@@ -53,19 +52,25 @@ public partial class CurrencyRate
     public decimal EndOfDayRate { get; set; }
 
     /// <summary>
+    /// ROWGUIDCOL number uniquely identifying the record. Used to support a merge replication sample.
+    /// </summary>
+    [Column("rowguid")]
+    public Guid Rowguid { get; set; }
+
+    /// <summary>
     /// Date and time the record was last updated.
     /// </summary>
     [Column(TypeName = "datetime")]
     public DateTime ModifiedDate { get; set; }
 
-    [ForeignKey("FromCurrencyCode")]
-    [InverseProperty("CurrencyRateFromCurrencyCodeNavigations")]
-    public virtual Currency FromCurrencyCodeNavigation { get; set; }
+    //[ForeignKey("FromCurrencyCode")]
+    //[InverseProperty("CurrencyRateFromCurrencyCodeNavigations")]
+    //public virtual Currency FromCurrencyCodeNavigation { get; set; }
 
-    [InverseProperty("CurrencyRate")]
-    public virtual ICollection<SalesOrderHeader> SalesOrderHeaders { get; set; } = new List<SalesOrderHeader>();
+    //[InverseProperty("CurrencyRate")]
+    //public virtual ICollection<SalesOrderHeader> SalesOrderHeaders { get; set; } = new List<SalesOrderHeader>();
 
-    [ForeignKey("ToCurrencyCode")]
-    [InverseProperty("CurrencyRateToCurrencyCodeNavigations")]
-    public virtual Currency ToCurrencyCodeNavigation { get; set; }
+    //[ForeignKey("ToCurrencyCode")]
+    //[InverseProperty("CurrencyRateToCurrencyCodeNavigations")]
+    //public virtual Currency ToCurrencyCodeNavigation { get; set; }
 }

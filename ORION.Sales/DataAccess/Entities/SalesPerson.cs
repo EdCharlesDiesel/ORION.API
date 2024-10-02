@@ -59,6 +59,12 @@ public partial class SalesPerson
     [Column("rowguid")]
     public Guid Rowguid { get; set; }
 
+    /// <summary>
+    /// Date and time the record was last updated.
+    /// </summary>
+    [Column(TypeName = "datetime")]
+    public DateTime ModifiedDate { get; set; }
+
 
     //[ForeignKey("BusinessEntityId")]
     //[InverseProperty("CreditCard")]

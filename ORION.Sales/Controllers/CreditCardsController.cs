@@ -1,6 +1,7 @@
 ﻿using AutoMapper;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+using ORION.Sales.DataAccess.Entities;
 using ORION.Sales.DataAccess.Models;
 using ORION.Sales.DataAccess.Services;
 
@@ -13,24 +14,44 @@ namespace ORION.Sales.Controllers
     {
         private readonly ICreditCardRepository _creditCardService;
         private readonly IMapper _mapper;
-
-
-        public CreditCardsController(ICreditCardRepository creditCardService,
-            IMapper mapper)
+        public CreditCardsController(ICreditCardRepository creditCardService, IMapper mapper)
         {
-            _creditCardService = creditCardService;
-            _mapper = mapper;
+            _creditCardService = creditCardService ?? throw new ArgumentException(nameof(creditCardService));
+            _mapper = mapper ?? throw new ArgumentException(nameof(mapper));
         }
 
+        [HttpPost(Name = "CreateCreditCard")]
+        public async Task<ActionResult<CreditCardDto>> CreateCreditCard(CreditCardForCreationDto creditCardForCreation)
+        {
+            if (!ModelState.IsValid)
+            {
+                return BadRequest(ModelState);
+            }
+
+            // create an internal CreditCard entity with default values filled out
+            // and the values inputted via the POST request
+            var creditCard = await _mapper.Map<CreditCardDto>(creditCardForCreation);
+
+            // persist it
+            await _creditCardService.CreateCreditCardAsync(creditCard);
+
+            // return created CreditCard after mapping to a DTO
+            return CreatedAtAction("GetCreditCard",
+                _mapper.Map<CreditCardDto>(creditCard),
+                new { CreditCardId = CreditCard.CreditCardId });
+        }
+
+   
         [HttpGet(Name = "GetListOfCreditCards")]
         public async Task<ActionResult<IEnumerable<CreditCardDto>>> GetListOfCreditCards()
         {
-            var creditCards = await _creditCardService.GetListOfCreditCardsAsync();
+            var creditCards = await _creditCardService.ReadCreditCardsAsync();
 
             var creditCardDtos = _mapper.Map<IEnumerable<CreditCardDto>>(creditCards);
 
             return Ok(creditCardDtos);
         }
+
 
         [HttpGet("{CreditCardId}", Name = "GetCreditCard")]
         public async Task<ActionResult<CreditCardDto>> GetCreditCard(Guid creditCardId)
@@ -39,35 +60,11 @@ namespace ORION.Sales.Controllers
             {
                 return NotFound();
             }
+            var creditCard = await _creditCardService.ReadCreditCardAsync(creditCardId)!;
 
-            var CreditCard = await _creditCardService.GetCreditCardAsync(creditCardId);
-            if (CreditCard == null)
-            {
-                return NotFound();
-            }
-
-            return Ok(_mapper.Map<CreditCardDto>(CreditCard));
+            return Ok(_mapper.Map<CreditCardDto>(creditCard));
         }
 
-        //[HttpPost]
-        //public async Task<ActionResult<CreditCardDto>> CreateCreditCard(CreditCardForCreationDto creditCardForCreation)
-        //{
-        //    if (!ModelState.IsValid)
-        //    {
-        //        return BadRequest(ModelState);
-        //    }
-
-        //    // create an internal CreditCard entity with default values filled out
-        //    // and the values inputted via the POST request
-        //    var creditCard = await _mapper.Map<CreditCardDto>(creditCardForCreation);
-
-        //    // persist it
-        //    await _creditCardService.AddCreditCardAsync(creditCard);
-
-        //    // return created CreditCard after mapping to a DTO
-        //    return CreatedAtAction("GetCreditCard",
-        //        _mapper.Map<CreditCardDto>(creditCard),
-        //        new { CreditCardId = CreditCard.CreditCardId });
-        //}
+        public async Task<>
     }
 }

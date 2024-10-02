@@ -9,9 +9,6 @@ namespace ORION.Sales.DataAccess.Entities;
 /// Current customer information. Also see the Person and Store tables.
 /// </summary>
 [Table("Customer", Schema = "Sales")]
-[Index("AccountNumber", Name = "AK_Customer_AccountNumber", IsUnique = true)]
-[Index("Rowguid", Name = "AK_Customer_rowguid", IsUnique = true)]
-[Index("TerritoryId", Name = "IX_Customer_TerritoryID")]
 public partial class Customer
 {
     /// <summary>
@@ -63,14 +60,14 @@ public partial class Customer
     //[InverseProperty("Customers")]
     //public virtual Person Person { get; set; }
 
-    [InverseProperty("Customer")]
-    public virtual ICollection<SalesOrderHeader> SalesOrderHeaders { get; set; } = new List<SalesOrderHeader>();
+    //[InverseProperty("Customer")]
+    //public virtual ICollection<SalesOrderHeader> SalesOrderHeaders { get; set; } = new List<SalesOrderHeader>();
 
-    [ForeignKey("StoreId")]
-    [InverseProperty("Customers")]
-    public virtual Store Store { get; set; }
+    //[ForeignKey("StoreId")]
+    //[InverseProperty("Customers")]
+    //public virtual Store Store { get; set; }
 
-    [ForeignKey("TerritoryId")]
-    [InverseProperty("Customers")]
-    public virtual SalesTerritory Territory { get; set; }
+    //[ForeignKey("TerritoryId")]
+    //[InverseProperty("Customers")]
+    //public virtual SalesTerritory Territory { get; set; }
 }

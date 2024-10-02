@@ -25,6 +25,12 @@ public abstract partial class PersonCreditCard
     public int CreditCardId { get; set; }
 
     /// <summary>
+    /// ROWGUIDCOL number uniquely identifying the record. Used to support a merge replication sample.
+    /// </summary>
+    [Column("rowguid")]
+    public Guid Rowguid { get; set; }
+
+    /// <summary>
     /// Date and time the record was last updated.
     /// </summary>
     [Column(TypeName = "datetime")]

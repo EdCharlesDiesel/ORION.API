@@ -11,8 +11,8 @@ namespace ORION.Sales.Middleware
             this IServiceCollection services)
         {
             services.AddScoped<ICreditCardRepository, CreditCardRepository>();
-            //services.AddScoped<IPromotionService, PromotionService>();
-         //   services.AddScoped<EmployeeFactory>();
+            services.AddScoped<ISalesPersonRepository, SalesPersonRepository>();
+         
             return services;
         }
 
@@ -21,7 +21,7 @@ namespace ORION.Sales.Middleware
         {
             // add the DbContext
             services.AddDbContext<OrionSalesDbContext>(options =>
-                options.UseSqlServer(configuration.GetConnectionString("EmployeeManagementDB")));
+                options.UseSqlServer(configuration.GetConnectionString("Orion_Sales_ConnectionString")));
 
             // register the repository
             //services.AddScoped<IEmployeeManagementRepository, EmployeeManagementRepository>();

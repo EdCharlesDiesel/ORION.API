@@ -7,9 +7,10 @@ namespace ORION.Sales.DataAccess.Repositories
     public class CreditCardRepository(OrionSalesDbContext context) : ICreditCardRepository
     {
         private readonly OrionSalesDbContext _context = context ?? throw new ArgumentNullException(nameof(context));
-        public void CreateCreditCard(CreditCard creditCard)
+        
+        public async Task<CreditCard> CreateCreditCardAsync(CreditCard creditCard)
         {
-            _context.CreditCards.Add(creditCard);
+            return await _context.CreditCards.AddAsync(creditCard);
         }
 
         public async Task<IEnumerable<CreditCard>> ReadCreditCardsAsync()

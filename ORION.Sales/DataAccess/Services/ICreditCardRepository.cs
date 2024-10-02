@@ -4,7 +4,7 @@ namespace ORION.Sales.DataAccess.Services;
 
 public interface ICreditCardRepository
 {
-    void CreateCreditCard(CreditCard creditCard);
+    Task<CreditCard> CreateCreditCardAsync(CreditCard creditCard);
 
     Task<IEnumerable<CreditCard>> ReadCreditCardsAsync();
 
