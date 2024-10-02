@@ -1,6 +1,7 @@
 ﻿using ORION.Sales.DataAccess.DbContexts;
 using ORION.Sales.DataAccess.Entities;
 using ORION.Sales.DataAccess.Services;
+using Microsoft.EntityFrameworkCore;
 
 namespace ORION.Sales.DataAccess.Repositories
 {
@@ -54,9 +55,9 @@ namespace ORION.Sales.DataAccess.Repositories
             return readCreditCardAsync;
         }
 
-        public void DeleteCreditCard(Guid creditCardId)
+        public async Task<CreditCard> DeleteCreditCard(Guid creditCardId)
         {
-            _context.CreditCard.RemoveAsync(creditCardId);
+           await _context.CreditCard.RemoveAsync(creditCardId);
         }
 
         public async Task SaveChangesAsync()
