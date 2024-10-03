@@ -32,11 +32,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\x\\ORION.API\\ConsoleAppForTesting\\ConsoleAppForTesting.csproj",
+      "projectUniqueName": "C:\\z\\ORION.API\\ConsoleAppForTesting\\ConsoleAppForTesting.csproj",
       "projectName": "ConsoleAppForTesting",
-      "projectPath": "C:\\x\\ORION.API\\ConsoleAppForTesting\\ConsoleAppForTesting.csproj",
+      "projectPath": "C:\\z\\ORION.API\\ConsoleAppForTesting\\ConsoleAppForTesting.csproj",
       "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-      "outputPath": "C:\\x\\ORION.API\\ConsoleAppForTesting\\obj\\",
+      "outputPath": "C:\\z\\ORION.API\\ConsoleAppForTesting\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -54,8 +54,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\x\\ORION.API\\ORION.Core\\ORION.Core.csproj": {
-              "projectPath": "C:\\x\\ORION.API\\ORION.Core\\ORION.Core.csproj"
+            "C:\\z\\ORION.API\\ORION.Core\\ORION.Core.csproj": {
+              "projectPath": "C:\\z\\ORION.API\\ORION.Core\\ORION.Core.csproj"
             }
           }
         }

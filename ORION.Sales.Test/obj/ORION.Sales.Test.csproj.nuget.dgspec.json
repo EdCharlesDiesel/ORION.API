@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\x\\ORION.API\\ORION.Sales.Test\\ORION.Sales.Test.csproj": {}
+    "C:\\z\\ORION.API\\ORION.Sales.Test\\ORION.Sales.Test.csproj": {}
   },
   "projects": {
-    "C:\\x\\ORION.API\\ORION.Sales.Test\\ORION.Sales.Test.csproj": {
+    "C:\\z\\ORION.API\\ORION.Sales.Test\\ORION.Sales.Test.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\x\\ORION.API\\ORION.Sales.Test\\ORION.Sales.Test.csproj",
+        "projectUniqueName": "C:\\z\\ORION.API\\ORION.Sales.Test\\ORION.Sales.Test.csproj",
         "projectName": "ORION.Sales.Test",
-        "projectPath": "C:\\x\\ORION.API\\ORION.Sales.Test\\ORION.Sales.Test.csproj",
+        "projectPath": "C:\\z\\ORION.API\\ORION.Sales.Test\\ORION.Sales.Test.csproj",
         "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "C:\\x\\ORION.API\\ORION.Sales.Test\\obj\\",
+        "outputPath": "C:\\z\\ORION.API\\ORION.Sales.Test\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\x\\ORION.API\\ORION.Application\\ORION.Application.csproj": {}
+    "C:\\z\\ORION.API\\ORION.Application\\ORION.Application.csproj": {}
   },
   "projects": {
-    "C:\\x\\ORION.API\\ORION.Application\\ORION.Application.csproj": {
+    "C:\\z\\ORION.API\\ORION.Application\\ORION.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\x\\ORION.API\\ORION.Application\\ORION.Application.csproj",
+        "projectUniqueName": "C:\\z\\ORION.API\\ORION.Application\\ORION.Application.csproj",
         "projectName": "ORION.Application",
-        "projectPath": "C:\\x\\ORION.API\\ORION.Application\\ORION.Application.csproj",
+        "projectPath": "C:\\z\\ORION.API\\ORION.Application\\ORION.Application.csproj",
         "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "C:\\x\\ORION.API\\ORION.Application\\obj\\",
+        "outputPath": "C:\\z\\ORION.API\\ORION.Application\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -29,11 +29,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\x\\ORION.API\\ORION.DataAccess\\ORION.DataAccess.csproj": {
-                "projectPath": "C:\\x\\ORION.API\\ORION.DataAccess\\ORION.DataAccess.csproj"
+              "C:\\z\\ORION.API\\ORION.DataAccess\\ORION.DataAccess.csproj": {
+                "projectPath": "C:\\z\\ORION.API\\ORION.DataAccess\\ORION.DataAccess.csproj"
               },
-              "C:\\x\\ORION.API\\ORION.Sales\\ORION.Sales.csproj": {
-                "projectPath": "C:\\x\\ORION.API\\ORION.Sales\\ORION.Sales.csproj"
+              "C:\\z\\ORION.API\\ORION.Sales\\ORION.Sales.csproj": {
+                "projectPath": "C:\\z\\ORION.API\\ORION.Sales\\ORION.Sales.csproj"
               }
             }
           }
@@ -72,14 +72,14 @@
         }
       }
     },
-    "C:\\x\\ORION.API\\ORION.DataAccess\\ORION.DataAccess.csproj": {
+    "C:\\z\\ORION.API\\ORION.DataAccess\\ORION.DataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\x\\ORION.API\\ORION.DataAccess\\ORION.DataAccess.csproj",
+        "projectUniqueName": "C:\\z\\ORION.API\\ORION.DataAccess\\ORION.DataAccess.csproj",
         "projectName": "ORION.DataAccess",
-        "projectPath": "C:\\x\\ORION.API\\ORION.DataAccess\\ORION.DataAccess.csproj",
+        "projectPath": "C:\\z\\ORION.API\\ORION.DataAccess\\ORION.DataAccess.csproj",
         "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "C:\\x\\ORION.API\\ORION.DataAccess\\obj\\",
+        "outputPath": "C:\\z\\ORION.API\\ORION.DataAccess\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -97,8 +97,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\x\\ORION.API\\ORION.Domain\\ORION.Domain.csproj": {
-                "projectPath": "C:\\x\\ORION.API\\ORION.Domain\\ORION.Domain.csproj"
+              "C:\\z\\ORION.API\\ORION.Domain\\ORION.Domain.csproj": {
+                "projectPath": "C:\\z\\ORION.API\\ORION.Domain\\ORION.Domain.csproj"
               }
             }
           }
@@ -175,14 +175,14 @@
         }
       }
     },
-    "C:\\x\\ORION.API\\ORION.Domain\\ORION.Domain.csproj": {
+    "C:\\z\\ORION.API\\ORION.Domain\\ORION.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\x\\ORION.API\\ORION.Domain\\ORION.Domain.csproj",
+        "projectUniqueName": "C:\\z\\ORION.API\\ORION.Domain\\ORION.Domain.csproj",
         "projectName": "ORION.Domain",
-        "projectPath": "C:\\x\\ORION.API\\ORION.Domain\\ORION.Domain.csproj",
+        "projectPath": "C:\\z\\ORION.API\\ORION.Domain\\ORION.Domain.csproj",
         "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "C:\\x\\ORION.API\\ORION.Domain\\obj\\",
+        "outputPath": "C:\\z\\ORION.API\\ORION.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -250,14 +250,14 @@
         }
       }
     },
-    "C:\\x\\ORION.API\\ORION.Sales\\ORION.Sales.csproj": {
+    "C:\\z\\ORION.API\\ORION.Sales\\ORION.Sales.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\x\\ORION.API\\ORION.Sales\\ORION.Sales.csproj",
+        "projectUniqueName": "C:\\z\\ORION.API\\ORION.Sales\\ORION.Sales.csproj",
         "projectName": "ORION.Sales",
-        "projectPath": "C:\\x\\ORION.API\\ORION.Sales\\ORION.Sales.csproj",
+        "projectPath": "C:\\z\\ORION.API\\ORION.Sales\\ORION.Sales.csproj",
         "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "C:\\x\\ORION.API\\ORION.Sales\\obj\\",
+        "outputPath": "C:\\z\\ORION.API\\ORION.Sales\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -326,11 +326,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\x\\ORION.API\\ORION.Domain\\ORION.Domain.csproj",
+      "projectUniqueName": "C:\\z\\ORION.API\\ORION.Domain\\ORION.Domain.csproj",
       "projectName": "ORION.Domain",
-      "projectPath": "C:\\x\\ORION.API\\ORION.Domain\\ORION.Domain.csproj",
+      "projectPath": "C:\\z\\ORION.API\\ORION.Domain\\ORION.Domain.csproj",
       "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-      "outputPath": "C:\\x\\ORION.API\\ORION.Domain\\obj\\",
+      "outputPath": "C:\\z\\ORION.API\\ORION.Domain\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",

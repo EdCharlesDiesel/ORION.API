@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\x\\ORION.API\\ORION.Core\\ORION.Core.csproj",
+      "projectUniqueName": "C:\\z\\ORION.API\\ORION.Core\\ORION.Core.csproj",
       "projectName": "ORION.Core",
-      "projectPath": "C:\\x\\ORION.API\\ORION.Core\\ORION.Core.csproj",
+      "projectPath": "C:\\z\\ORION.API\\ORION.Core\\ORION.Core.csproj",
       "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-      "outputPath": "C:\\x\\ORION.API\\ORION.Core\\obj\\",
+      "outputPath": "C:\\z\\ORION.API\\ORION.Core\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
