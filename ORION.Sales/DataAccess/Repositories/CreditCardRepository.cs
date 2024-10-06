@@ -55,9 +55,9 @@ namespace ORION.Sales.DataAccess.Repositories
             return readCreditCardAsync;
         }
 
-        public async Task<CreditCard> DeleteCreditCard(Guid creditCardId)
+        public async Task<CreditCard> DeleteCreditCardAsync(Guid creditCardId)
         {
-           await _context.CreditCard.RemoveAsync(creditCardId);
+          return await _context.CreditCard.RemoveAsync(creditCardId);
         }
 
         public async Task SaveChangesAsync()

@@ -14,11 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ORION.Domain")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-<<<<<<< HEAD
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+861905a5b463bf1d71d7a39b873cbbd54d63b3d7")]
-=======
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2bcf4d699ad56d2d908252b9df509aa269408296")]
->>>>>>> development
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+15fa6aa31fb2474d796ca0184c9a4b3f4d56cbfa")]
 [assembly: System.Reflection.AssemblyProductAttribute("ORION.Domain")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ORION.Domain")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

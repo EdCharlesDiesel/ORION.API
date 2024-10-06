@@ -8,7 +8,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace ORION.DataAccess.Models;
 
-[Keyless]
+
 public partial class VVendorWithContact
 {
     [Column("BusinessEntityID")]

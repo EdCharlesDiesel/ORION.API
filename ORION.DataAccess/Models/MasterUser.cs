@@ -10,66 +10,66 @@ using ORION.Domain.Tools;
 namespace ORION.DataAccess.Models
 {
      // TODO: Investigate and add other fields which we will use wwhen we register, IMasterUser
-    public class MasterUser: IdentityUser<int>,IEntity<int>   
+    public class MasterUser  
     {   
-        public void FullUpdate(IMasterUser o)
-        {
-            if (IsTransient())
-            {
-                Id = o.Id;
-            }
-  
-            Province = o.Province;
-            Occupation = o.Occupation;
-            Picture = o.Picture;
-            IsBusinessOwner = o.IsBusinessOwner;   
-            EmailAddress = o.EmailAddress;          
-        }
-
-        public bool IsTransient()
-        {
-            return Object.Equals(Id, default(MasterUser));
-            
-        }
-        public override bool Equals(object obj)
-        {
-            return obj is MasterUser entity &&
-              Equals(entity); 
-        }
-
-        public bool Equals(MasterUser other)
-        {
-            if (other == null || 
-                other.IsTransient() || this.IsTransient())
-                return false;
-
-            return Object.Equals(Id, other.Id);
-        }
-
-         int? _requestedHashCode;
-        public override int GetHashCode()
-        {
-            if (!IsTransient())
-            {
-                if (!_requestedHashCode.HasValue)
-                    _requestedHashCode = HashCode.Combine(Id);
-                return _requestedHashCode.Value;
-            }
-            else
-                return base.GetHashCode();
-        }
-
-        [NotMapped]
-        public List<IEventNotification> DomainEvents { get; private set; }
-        public void AddDomainEvent(IEventNotification evt)
-        {
-            DomainEvents ??= new List<IEventNotification>();
-            DomainEvents.Add(evt);
-        }
-        public void RemoveDomainEvent(IEventNotification evt)
-        {
-            DomainEvents?.Remove(evt);
-        }
+        // public void FullUpdate(IMasterUser o)
+        // {
+        //     if (IsTransient())
+        //     {
+        //         Id = o.Id;
+        //     }
+        //
+        //     Province = o.Province;
+        //     Occupation = o.Occupation;
+        //     Picture = o.Picture;
+        //     IsBusinessOwner = o.IsBusinessOwner;   
+        //     EmailAddress = o.EmailAddress;          
+        // }
+        //
+        // public bool IsTransient()
+        // {
+        //     return Object.Equals(Id, default(MasterUser));
+        //     
+        // }
+        // public override bool Equals(object obj)
+        // {
+        //     return obj is MasterUser entity &&
+        //       Equals(entity); 
+        // }
+        //
+        // public bool Equals(MasterUser other)
+        // {
+        //     if (other == null || 
+        //         other.IsTransient() || this.IsTransient())
+        //         return false;
+        //
+        //     return Object.Equals(Id, other.Id);
+        // }
+        //
+        //  int? _requestedHashCode;
+        // public override int GetHashCode()
+        // {
+        //     if (!IsTransient())
+        //     {
+        //         if (!_requestedHashCode.HasValue)
+        //             _requestedHashCode = HashCode.Combine(Id);
+        //         return _requestedHashCode.Value;
+        //     }
+        //     else
+        //         return base.GetHashCode();
+        // }
+        //
+        // [NotMapped]
+        // public List<IEventNotification> DomainEvents { get; private set; }
+        // public void AddDomainEvent(IEventNotification evt)
+        // {
+        //     DomainEvents ??= new List<IEventNotification>();
+        //     DomainEvents.Add(evt);
+        // }
+        // public void RemoveDomainEvent(IEventNotification evt)
+        // {
+        //     DomainEvents?.Remove(evt);
+        // }
 
         [Required(ErrorMessage = "Email Address is required")]
         [EmailAddress]

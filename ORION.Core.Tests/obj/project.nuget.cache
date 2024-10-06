@@ -1,44 +1,43 @@
 {
   "version": 2,
-  "dgSpecHash": "YzDp8nfYX3w=",
+  "dgSpecHash": "DbmQM3/VI/A=",
   "success": false,
   "projectFilePath": "C:\\x\\ORION.API\\ORION.Core.Tests\\ORION.Core.Tests.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\user\\.nuget\\packages\\xunit\\2.9.2\\xunit.2.9.2.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\xunit.abstractions\\2.0.3\\xunit.abstractions.2.0.3.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\xunit.analyzers\\1.16.0\\xunit.analyzers.1.16.0.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\xunit.assert\\2.9.2\\xunit.assert.2.9.2.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\xunit.core\\2.9.2\\xunit.core.2.9.2.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\xunit.extensibility.core\\2.9.2\\xunit.extensibility.core.2.9.2.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\xunit.extensibility.execution\\2.9.2\\xunit.extensibility.execution.2.9.2.nupkg.sha512"
+  ],
   "logs": [
     {
       "code": "NU1100",
       "level": "Error",
-      "message": "Unable to resolve 'xunit.runner.visualstudio (>= 2.5.3)' for 'net8.0'. PackageSourceMapping is enabled, the following source(s) were not considered: C:\\Program Files\\dotnet\\library-packs, grapecity, nuget.org.",
-      "libraryId": "xunit.runner.visualstudio",
+      "message": "Unable to resolve 'Microsoft.NETCore.App.Ref (= 6.0.33)' for 'net6.0'. PackageSourceMapping is enabled, the following source(s) were not considered: C:\\Program Files\\dotnet\\library-packs, Microsoft Visual Studio Offline Packages, nuget.org.",
+      "libraryId": "Microsoft.NETCore.App.Ref",
       "targetGraphs": [
-        "net8.0"
+        "net6.0"
       ]
     },
     {
       "code": "NU1100",
       "level": "Error",
-      "message": "Unable to resolve 'Microsoft.NET.Test.Sdk (>= 17.8.0)' for 'net8.0'. PackageSourceMapping is enabled, the following source(s) were not considered: C:\\Program Files\\dotnet\\library-packs, grapecity, nuget.org.",
-      "libraryId": "Microsoft.NET.Test.Sdk",
+      "message": "Unable to resolve 'Microsoft.WindowsDesktop.App.Ref (= 6.0.33)' for 'net6.0'. PackageSourceMapping is enabled, the following source(s) were not considered: C:\\Program Files\\dotnet\\library-packs, Microsoft Visual Studio Offline Packages, nuget.org.",
+      "libraryId": "Microsoft.WindowsDesktop.App.Ref",
       "targetGraphs": [
-        "net8.0"
+        "net6.0"
       ]
     },
     {
       "code": "NU1100",
       "level": "Error",
-      "message": "Unable to resolve 'xunit (>= 2.5.3)' for 'net8.0'. PackageSourceMapping is enabled, the following source(s) were not considered: C:\\Program Files\\dotnet\\library-packs, grapecity, nuget.org.",
-      "libraryId": "xunit",
+      "message": "Unable to resolve 'Microsoft.AspNetCore.App.Ref (= 6.0.33)' for 'net6.0'. PackageSourceMapping is enabled, the following source(s) were not considered: C:\\Program Files\\dotnet\\library-packs, Microsoft Visual Studio Offline Packages, nuget.org.",
+      "libraryId": "Microsoft.AspNetCore.App.Ref",
       "targetGraphs": [
-        "net8.0"
-      ]
-    },
-    {
-      "code": "NU1100",
-      "level": "Error",
-      "message": "Unable to resolve 'coverlet.collector (>= 6.0.0)' for 'net8.0'. PackageSourceMapping is enabled, the following source(s) were not considered: C:\\Program Files\\dotnet\\library-packs, grapecity, nuget.org.",
-      "libraryId": "coverlet.collector",
-      "targetGraphs": [
-        "net8.0"
+        "net6.0"
       ]
     }
   ]

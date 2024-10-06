@@ -8,7 +8,7 @@ namespace ORION.Sales.DataAccess.Repositories
     {
         private readonly OrionSalesDbContext _context = context ?? throw new ArgumentNullException(nameof(context));
 
-        public async Task<SalesPerson> CreateSalesPerson(SalesPerson salesPerson)
+        public async Task<SalesPerson> CreateSalesPersonAsync(SalesPerson salesPerson)
         {
               return await _context.SalesPersons.AddAsync(salesPerson);
         }
@@ -54,7 +54,7 @@ namespace ORION.Sales.DataAccess.Repositories
             return readSalesPersonAsync;
         }
 
-        public async Task<SalesPerson> DeleteSalesPerson(Guid businessEntityId)
+        public async Task<SalesPerson> DeleteSalesPersonAsync(Guid businessEntityId)
         {
           return await _context.SalesPersons.RemoveAsync(businessEntityId);
         }

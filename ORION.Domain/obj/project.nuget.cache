@@ -1,35 +1,42 @@
 {
   "version": 2,
-  "dgSpecHash": "NfZsGDu9WPQ=",
+  "dgSpecHash": "m9dWVhqEcNU=",
   "success": false,
   "projectFilePath": "C:\\x\\ORION.API\\ORION.Domain\\ORION.Domain.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\user\\.nuget\\packages\\microsoft.aspnetcore.http.features\\5.0.17\\microsoft.aspnetcore.http.features.5.0.17.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\5.0.0\\microsoft.extensions.dependencyinjection.5.0.0.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\5.0.0\\microsoft.extensions.dependencyinjection.abstractions.5.0.0.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\microsoft.extensions.primitives\\5.0.1\\microsoft.extensions.primitives.5.0.1.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\system.componentmodel.annotations\\5.0.0\\system.componentmodel.annotations.5.0.0.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\system.io.pipelines\\5.0.2\\system.io.pipelines.5.0.2.nupkg.sha512"
+  ],
   "logs": [
     {
       "code": "NU1100",
       "level": "Error",
-      "message": "Unable to resolve 'Microsoft.AspNetCore.Http.Features (>= 2.2.0)' for 'net8.0'. PackageSourceMapping is enabled, the following source(s) were not considered: C:\\Program Files\\dotnet\\library-packs, grapecity, nuget.org.",
-      "libraryId": "Microsoft.AspNetCore.Http.Features",
+      "message": "Unable to resolve 'Microsoft.NETCore.App.Ref (= 6.0.33)' for 'net6.0'. PackageSourceMapping is enabled, the following source(s) were not considered: C:\\Program Files\\dotnet\\library-packs, Microsoft Visual Studio Offline Packages, nuget.org.",
+      "libraryId": "Microsoft.NETCore.App.Ref",
       "targetGraphs": [
-        "net8.0"
+        "net6.0"
       ]
     },
     {
       "code": "NU1100",
       "level": "Error",
-      "message": "Unable to resolve 'System.ComponentModel.Annotations (>= 5.0.0)' for 'net8.0'. PackageSourceMapping is enabled, the following source(s) were not considered: C:\\Program Files\\dotnet\\library-packs, grapecity, nuget.org.",
-      "libraryId": "System.ComponentModel.Annotations",
+      "message": "Unable to resolve 'Microsoft.WindowsDesktop.App.Ref (= 6.0.33)' for 'net6.0'. PackageSourceMapping is enabled, the following source(s) were not considered: C:\\Program Files\\dotnet\\library-packs, Microsoft Visual Studio Offline Packages, nuget.org.",
+      "libraryId": "Microsoft.WindowsDesktop.App.Ref",
       "targetGraphs": [
-        "net8.0"
+        "net6.0"
       ]
     },
     {
       "code": "NU1100",
       "level": "Error",
-      "message": "Unable to resolve 'Microsoft.Extensions.DependencyInjection (>= 5.0.0)' for 'net8.0'. PackageSourceMapping is enabled, the following source(s) were not considered: C:\\Program Files\\dotnet\\library-packs, grapecity, nuget.org.",
-      "libraryId": "Microsoft.Extensions.DependencyInjection",
+      "message": "Unable to resolve 'Microsoft.AspNetCore.App.Ref (= 6.0.33)' for 'net6.0'. PackageSourceMapping is enabled, the following source(s) were not considered: C:\\Program Files\\dotnet\\library-packs, Microsoft Visual Studio Offline Packages, nuget.org.",
+      "libraryId": "Microsoft.AspNetCore.App.Ref",
       "targetGraphs": [
-        "net8.0"
+        "net6.0"
       ]
     }
   ]

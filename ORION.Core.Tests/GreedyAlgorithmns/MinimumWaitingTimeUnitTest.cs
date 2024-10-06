@@ -1,4 +1,4 @@
-using Microsoft.VisualStudio.TestPlatform.TestHost;
+
 using ORION.Core.GreadyAlgorithmns;
 
 namespace MinimumWaitingTime.Tests

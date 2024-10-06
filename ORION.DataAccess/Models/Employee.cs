@@ -12,9 +12,7 @@ namespace  ORION.DataAccess.Models;
 /// Employee information such as salary, department, and title.
 /// </summary>
 [Table("Employee", Schema = "HumanResources")]
-[Index("LoginId", Name = "AK_Employee_LoginID", IsUnique = true)]
-[Index("NationalIdnumber", Name = "AK_Employee_NationalIDNumber", IsUnique = true)]
-[Index("Rowguid", Name = "AK_Employee_rowguid", IsUnique = true)]
+
 public partial class Employee
 {
     /// <summary>
