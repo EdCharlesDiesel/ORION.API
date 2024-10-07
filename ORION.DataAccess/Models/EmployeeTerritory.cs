@@ -1,8 +1,8 @@
-using DDD.DomainLayer;
 using ORION.Domain.Aggregates;
 using ORION.Domain.Enums;
 using System;
 using System.Collections.Generic;
+using ORION.Domain.Tools;
 
 namespace ORION.DataAccess.Models
 {

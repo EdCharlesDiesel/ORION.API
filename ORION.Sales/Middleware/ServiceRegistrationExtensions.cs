@@ -1,4 +1,6 @@
-﻿using ORION.Sales.DataAccess.DbContexts;
+﻿using Microsoft.EntityFrameworkCore;
+using ORION.Sales.DataAccess.DbContexts;
+using ORION.Sales.DataAccess.Services;
 
 namespace ORION.Sales.Middleware
 {
@@ -7,9 +9,9 @@ namespace ORION.Sales.Middleware
         public static IServiceCollection RegisterBusinessServices(
             this IServiceCollection services)
         {
-            services.AddScoped<IEmployeeService, EmployeeService>();
+            services.AddScoped<ICreditCardRepository, CreditCardRepository>();
             //services.AddScoped<IPromotionService, PromotionService>();
-            //services.AddScoped<EmployeeFactory>();
+         //   services.AddScoped<EmployeeFactory>();
             return services;
         }
 
@@ -18,7 +20,7 @@ namespace ORION.Sales.Middleware
         {
             // add the DbContext
             services.AddDbContext<OrionSalesDbContext>(options =>
-                options.UseSQ(configuration.GetConnectionString("EmployeeManagementDB")));
+                options.UseSqlServer(configuration.GetConnectionString("EmployeeManagementDB")));
 
             // register the repository
             //services.AddScoped<IEmployeeManagementRepository, EmployeeManagementRepository>();

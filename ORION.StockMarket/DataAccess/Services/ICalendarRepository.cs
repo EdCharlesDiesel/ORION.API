@@ -4,15 +4,15 @@ using ORION.StockMarket.DataAccess.Models;
 
 namespace ORION.StockMarket.DataAccess.Services
 {
-    public interface ICalendarRepository
+    public interface ICreditCardRepository
     {
-        Task<IEnumerable<Calendar>> GetCalendarsAsync();
+        Task<IEnumerable<CreditCard>> GetCreditCardsAsync();
 
-        Task<Calendar?> GetCalendarAsync(int calendarId);
+        Task<CreditCard?> GetCreditCardAsync(int CreditCardId);
 
-        EntityEntry<Calendar> AddCalendar(Calendar calendar);
+        EntityEntry<CreditCard> AddCreditCard(CreditCard CreditCard);
 
-        Task AddCalendarsAsync(IEnumerable<Calendar> calendars);
+        Task AddCreditCardsAsync(IEnumerable<CreditCard> CreditCards);
 
         Task SaveChangesAsync();
     }

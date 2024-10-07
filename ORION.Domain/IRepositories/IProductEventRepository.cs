@@ -1,9 +1,7 @@
-﻿using DDD.DomainLayer;
-using ORION.Domain.Aggregates;
-using System;
+﻿using ORION.Domain.Aggregates;
 using System.Collections.Generic;
-using System.Text;
 using System.Threading.Tasks;
+using ORION.Domain.Tools;
 
 namespace ORION.Domain.IRepositories
 {

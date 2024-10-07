@@ -6,7 +6,7 @@
         {
             using (var httpClient = new HttpClient())
             {
-                using (var request = new HttpRequestMessage(new HttpMethod("GET"), "https://api.tradingeconomics.com/calendar?c=e9f95eed6aa6465:blsksmd6c5y89rx"))
+                using (var request = new HttpRequestMessage(new HttpMethod("GET"), "https://api.tradingeconomics.com/CreditCard?c=e9f95eed6aa6465:blsksmd6c5y89rx"))
                 {
                     request.Headers.TryAddWithoutValidation("Upgrade-Insecure-Requests", "1");
                     var response = await httpClient.SendAsync(request);

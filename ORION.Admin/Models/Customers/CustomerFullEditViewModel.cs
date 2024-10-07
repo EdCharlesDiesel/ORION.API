@@ -5,7 +5,7 @@ using System.ComponentModel.DataAnnotations;
 //TODO Fix this
 namespace ORION.Admin.Models.Customers
 {
-    public class CustomerFullEditViewModel: ICustomerFullEditDTO
+    public class CustomerFullEditViewModel: ICustomerFullEditDto
     {
         public CustomerFullEditViewModel(ICustomer o)
         {

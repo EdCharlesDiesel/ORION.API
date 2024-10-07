@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\x\\ORION.API\\ORION.Core.Tests\\ORION.Core.Tests.csproj": {}
+    "C:\\z\\ORION.API\\ORION.Core.Tests\\ORION.Core.Tests.csproj": {}
   },
   "projects": {
-    "C:\\x\\ORION.API\\ORION.Core.Tests\\ORION.Core.Tests.csproj": {
+    "C:\\z\\ORION.API\\ORION.Core.Tests\\ORION.Core.Tests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\x\\ORION.API\\ORION.Core.Tests\\ORION.Core.Tests.csproj",
+        "projectUniqueName": "C:\\z\\ORION.API\\ORION.Core.Tests\\ORION.Core.Tests.csproj",
         "projectName": "ORION.Core.Tests",
-        "projectPath": "C:\\x\\ORION.API\\ORION.Core.Tests\\ORION.Core.Tests.csproj",
+        "projectPath": "C:\\z\\ORION.API\\ORION.Core.Tests\\ORION.Core.Tests.csproj",
         "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "C:\\x\\ORION.API\\ORION.Core.Tests\\obj\\",
+        "outputPath": "C:\\z\\ORION.API\\ORION.Core.Tests\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -29,8 +29,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\x\\ORION.API\\ORION.Core\\ORION.Core.csproj": {
-                "projectPath": "C:\\x\\ORION.API\\ORION.Core\\ORION.Core.csproj"
+              "C:\\z\\ORION.API\\ORION.Core\\ORION.Core.csproj": {
+                "projectPath": "C:\\z\\ORION.API\\ORION.Core\\ORION.Core.csproj"
               }
             }
           }
@@ -87,14 +87,14 @@
         }
       }
     },
-    "C:\\x\\ORION.API\\ORION.Core\\ORION.Core.csproj": {
+    "C:\\z\\ORION.API\\ORION.Core\\ORION.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\x\\ORION.API\\ORION.Core\\ORION.Core.csproj",
+        "projectUniqueName": "C:\\z\\ORION.API\\ORION.Core\\ORION.Core.csproj",
         "projectName": "ORION.Core",
-        "projectPath": "C:\\x\\ORION.API\\ORION.Core\\ORION.Core.csproj",
+        "projectPath": "C:\\z\\ORION.API\\ORION.Core\\ORION.Core.csproj",
         "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "C:\\x\\ORION.API\\ORION.Core\\obj\\",
+        "outputPath": "C:\\z\\ORION.API\\ORION.Core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",

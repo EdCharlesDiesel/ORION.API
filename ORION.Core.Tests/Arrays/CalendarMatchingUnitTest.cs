@@ -1,4 +1,4 @@
-namespace CalendarMatching.Tests
+namespace CreditCardMatching.Tests
 {
     public class UnitTest1
     {

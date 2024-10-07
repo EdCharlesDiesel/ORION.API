@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\x\\ORION.API\\ORION.StockMarket\\ORION.StockMarket.csproj": {}
+    "C:\\z\\ORION.API\\ORION.StockMarket\\ORION.StockMarket.csproj": {}
   },
   "projects": {
-    "C:\\x\\ORION.API\\ORION.StockMarket\\ORION.StockMarket.csproj": {
+    "C:\\z\\ORION.API\\ORION.StockMarket\\ORION.StockMarket.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\x\\ORION.API\\ORION.StockMarket\\ORION.StockMarket.csproj",
+        "projectUniqueName": "C:\\z\\ORION.API\\ORION.StockMarket\\ORION.StockMarket.csproj",
         "projectName": "ORION.StockMarket",
-        "projectPath": "C:\\x\\ORION.API\\ORION.StockMarket\\ORION.StockMarket.csproj",
+        "projectPath": "C:\\z\\ORION.API\\ORION.StockMarket\\ORION.StockMarket.csproj",
         "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "C:\\x\\ORION.API\\ORION.StockMarket\\obj\\",
+        "outputPath": "C:\\z\\ORION.API\\ORION.StockMarket\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",

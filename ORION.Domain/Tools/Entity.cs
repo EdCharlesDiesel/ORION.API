@@ -2,27 +2,27 @@
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations.Schema;
 
-namespace DDD.DomainLayer
+namespace ORION.Domain.Tools
 {
-    public abstract class Entity<K>: IEntity<K>
-        where K: IEquatable<K>
+    public abstract class Entity<TK>: IEntity<TK>
+        where TK: IEquatable<TK>
     {
         //FIXME I need to fix the Id I am using a hack to make sure all my test cases pass.
         
        // public virtual K Id { get; protected set; }
-        public virtual K Id { get;  set; }
+        public virtual TK Id { get;  set; }
         public bool IsTransient()
         {
-            return Object.Equals(Id, default(K));
+            return Object.Equals(Id, default(TK));
             
         }
         public override bool Equals(object obj)
         {
-            return obj is Entity<K> entity &&
+            return obj is Entity<TK> entity &&
               Equals(entity); 
         }
 
-        public bool Equals(IEntity<K> other)
+        public bool Equals(IEntity<TK> other)
         {
             if (other == null || 
                 other.IsTransient() || this.IsTransient())
@@ -43,14 +43,14 @@ namespace DDD.DomainLayer
             else
                 return base.GetHashCode();
         }
-        public static bool operator ==(Entity<K> left, Entity<K> right)
+        public static bool operator ==(Entity<TK> left, Entity<TK> right)
         {
             if (Object.Equals(left, null))
                 return (Object.Equals(right, null));
             else
                 return left.Equals(right);
         }
-        public static bool operator !=(Entity<K> left, Entity<K> right)
+        public static bool operator !=(Entity<TK> left, Entity<TK> right)
         {
             return !(left == right);
         }

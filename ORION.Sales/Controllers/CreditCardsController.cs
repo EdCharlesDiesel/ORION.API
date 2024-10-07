@@ -1,146 +1,73 @@
 ﻿using AutoMapper;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+using ORION.Sales.DataAccess.Models;
+using ORION.Sales.DataAccess.Services;
 
 namespace ORION.Sales.Controllers
 {
-
+    [Authorize]
     [Route("api/sales/creditcard")]
     [ApiController]
     public class CreditCardsController : ControllerBase
     {
-        private readonly ICreditCardService _CreditCardService;
+        private readonly ICreditCardRepository _creditCardService;
         private readonly IMapper _mapper;
 
 
-        public CreditCardsController(ICreditCardService CreditCardService,
+        public CreditCardsController(ICreditCardRepository creditCardService,
             IMapper mapper)
         {
-            _CreditCardService = CreditCardService;
+            _creditCardService = creditCardService;
             _mapper = mapper;
         }
 
-        [HttpPost]
-        public async Task<ActionResult<InternalCreditCardDto>> CreateInternalCreditCard(
-                                                                                        InternalCreditCardForCreationDto 
-                                                                                    internalCreditCardForCreation, ICreditCardService CreditCardService)
+        [HttpGet(Name = "GetListOfCreditCards")]
+        public async Task<ActionResult<IEnumerable<CreditCardDto>>> GetListOfCreditCards()
         {
-            if (!ModelState.IsValid)
-            {
-                return BadRequest(ModelState);
-            }
+            var creditCards = await _creditCardService.GetListOfCreditCardsAsync();
 
-            // create an internal CreditCard entity with default values filled out
-            // and the values inputted via the POST request
-            var internalCreditCard =
-                    await CreditCardService.CreateInternalCreditCardAsync(
-                        internalCreditCardForCreation.FirstName, internalCreditCardForCreation.LastName);
+            var creditCardDtos = _mapper.Map<IEnumerable<CreditCardDto>>(creditCards);
 
-            // persist it
-            await CreditCardService.AddInternalCreditCardAsync(internalCreditCard);
-
-            // return created CreditCard after mapping to a DTO
-            return CreatedAtAction("GetInternalCreditCard",
-                _mapper.Map<InternalCreditCardDto>(internalCreditCard),
-                new { CreditCardId = internalCreditCard.Id });
+            return Ok(creditCardDtos);
         }
 
-
-        [HttpGet]
-        //[Authorize]
-        public IActionResult GetProtectedInternalCreditCards()
+        [HttpGet("{CreditCardId}", Name = "GetCreditCard")]
+        public async Task<ActionResult<CreditCardDto>> GetCreditCard(Guid creditCardId)
         {
-            // depending on the role, redirect to another action
-            if (User.IsInRole("Admin"))
-            {
-                return RedirectToAction(
-                    "GetInternalCreditCards", "ProtectedInternalCreditCards");
-            }
-
-            return RedirectToAction("GetInternalCreditCards", "InternalCreditCards");
-        }
-        
-
-        [HttpGet]
-        public async Task<ActionResult<IEnumerable<InternalCreditCardDto>>> GetInternalCreditCards()
-        {
-            var internalCreditCards = await _CreditCardService.FetchInternalCreditCardsAsync();
-            
-            var internalCreditCardDtos =
-                _mapper.Map<IEnumerable<InternalCreditCardDto>>(internalCreditCards);
-
-            return Ok(internalCreditCardDtos);
-        }
-
-        [HttpGet("{CreditCardId}", Name = "GetInternalCreditCard")]
-        public async Task<ActionResult<InternalCreditCardDto>> GetInternalCreditCard(
-            Guid? CreditCardId)
-        {
-            if (!CreditCardId.HasValue)
+            if (creditCardId == new Guid())
             {
                 return NotFound();
             }
 
-            var internalCreditCard = await _CreditCardService.FetchInternalCreditCardAsync(value: CreditCardId.Value);
-            if (internalCreditCard == null)
+            var CreditCard = await _creditCardService.GetCreditCardAsync(creditCardId);
+            if (CreditCard == null)
             {
                 return NotFound();
             }
 
-            return Ok(_mapper.Map<InternalCreditCardDto>(internalCreditCard));
+            return Ok(_mapper.Map<CreditCardDto>(CreditCard));
         }
-
-
-        [HttpPost]
-        public async Task<ActionResult<InternalCreditCardDto>> CreateInternalCreditCard(
-            InternalCreditCardForCreationDto internalCreditCardForCreation)
-        {
-            // create an internal CreditCard entity with default values filled out
-            // and the values inputted via the POST request
-            var internalCreditCard =
-                    await _CreditCardService.CreateInternalCreditCardAsync(
-                        internalCreditCardForCreation.FirstName, internalCreditCardForCreation.LastName);
-
-            // persist it
-            await _CreditCardService.AddInternalCreditCardAsync(internalCreditCard);
-
-            // return created CreditCard after mapping to a DTO
-            return CreatedAtAction("GetInternalCreditCard",
-                _mapper.Map<InternalCreditCardDto>(internalCreditCard),
-                new { CreditCardId = internalCreditCard.Id });
-        }
-
 
         //[HttpPost]
-        //public async Task<IActionResult> CreatePromotion(PromotionForCreationDto promotionForCreation)
+        //public async Task<ActionResult<CreditCardDto>> CreateCreditCard(CreditCardForCreationDto creditCardForCreation)
         //{
-        //    var internalCreditCardToPromote = await _CreditCardService
-        //        .FetchInternalCreditCardAsync(promotionForCreation.CreditCardId);
-
-        //    if (internalCreditCardToPromote == null)
+        //    if (!ModelState.IsValid)
         //    {
-        //        return BadRequest();
+        //        return BadRequest(ModelState);
         //    }
 
-        //    if (await _promotionService.PromoteInternalCreditCardAsync(internalCreditCardToPromote))
-        //    {
-        //        return Ok(new PromotionResultDto()
-        //        {
-        //            CreditCardId = internalCreditCardToPromote.Id,
-        //            JobLevel = internalCreditCardToPromote.JobLevel
-        //        });
-        //    }
-        //    else
-        //    {
-        //        return BadRequest("CreditCard not eligible for promotion.");
-        //    }
+        //    // create an internal CreditCard entity with default values filled out
+        //    // and the values inputted via the POST request
+        //    var creditCard = await _mapper.Map<CreditCardDto>(creditCardForCreation);
+
+        //    // persist it
+        //    await _creditCardService.AddCreditCardAsync(creditCard);
+
+        //    // return created CreditCard after mapping to a DTO
+        //    return CreatedAtAction("GetCreditCard",
+        //        _mapper.Map<CreditCardDto>(creditCard),
+        //        new { CreditCardId = CreditCard.CreditCardId });
         //}
-    }
-
-    internal interface ICreditCardService
-    {
-        Task AddInternalCreditCardAsync(object internalCreditCard);
-        Task CreateInternalCreditCardAsync(object firstName, object lastName);
-        Task FetchInternalCreditCardAsync(Guid value);
-        Task<IEnumerable<object>> FetchInternalCreditCardsAsync();
     }
 }

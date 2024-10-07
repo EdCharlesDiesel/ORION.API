@@ -6,35 +6,30 @@ using Microsoft.AspNetCore.Mvc;
 using ORION.StockMarket.DataAccess.Entities;
 using ORION.StockMarket.DataAccess.Models;
 using ORION.StockMarket.DataAccess.Services;
-using Calendar = ORION.StockMarket.DataAccess.Entities.Calendar;
+using CreditCard = ORION.StockMarket.DataAccess.Entities.CreditCard;
 
 namespace ORION.StockMarket.Controllers
 {
     [ApiController]
     [Route("[controller]")]
-    public class CalendarController : ControllerBase
+    public class CreditCardController : ControllerBase
     {
-        private readonly ILogger<CalendarController> _logger;
-        private readonly ICalendarRepository _calendarRepository;
+        private readonly ILogger<CreditCardController> _logger;
+        private readonly ICreditCardRepository _CreditCardRepository;
         private readonly IMapper _mapper;
-   //     private static HttpClient _httpClient;
-        public CalendarController(ILogger<CalendarController> logger,
-            ICalendarRepository calendarRepository,
+        public CreditCardController(ILogger<CreditCardController> logger,
+            ICreditCardRepository CreditCardRepository,
             IMapper mapper
             )
         {
             _logger = logger ?? throw new ArgumentNullException(nameof(logger));
-            _calendarRepository = calendarRepository ?? throw new ArgumentNullException(nameof(calendarRepository));
+            _CreditCardRepository = CreditCardRepository ?? throw new ArgumentNullException(nameof(CreditCardRepository));
             _mapper = mapper ?? throw new ArgumentNullException(nameof(mapper));
-
-            //_httpClient.BaseAddress = new Uri("http://localhost:57863");
-     //       _httpClient.Timeout = new TimeSpan(0, 0, 30);
-       //     _httpClient.DefaultRequestHeaders.Clear();
         }
    
 
         [HttpOptions()]
-        public IActionResult GetEconomicCalendarOptions()
+        public IActionResult GetEconomicCreditCardOptions()
         {
             Response.Headers.Add("Allow", "GET,HEAD,POST,OPTIONS");
             return Ok();
@@ -42,44 +37,44 @@ namespace ORION.StockMarket.Controllers
 
         [HttpGet(Name = "GetEconomicCalenders")]
 
-        public async Task<ActionResult<IEnumerable<EconomicCalendarDto>>> GetEconomicCalenders()
+        public async Task<ActionResult<IEnumerable<EconomicCreditCardDto>>> GetEconomicCalenders()
         {
-            var economicCalendars = await _calendarRepository.GetCalendarsAsync();
+            var economicCreditCards = await _CreditCardRepository.GetCreditCardsAsync();
 
-            return Ok(_mapper.Map<IEnumerable<EconomicCalendarDto>>(economicCalendars));
+            return Ok(_mapper.Map<IEnumerable<EconomicCreditCardDto>>(economicCreditCards));
         }
 
 
-        //[HttpPost(Name = "CreateCalendar")]
-        //public async Task<ActionResult<EconomicCalendarDto>> CreateCalendar(EconomicCalendarForCreationDto calendar)
+        //[HttpPost(Name = "CreateCreditCard")]
+        //public async Task<ActionResult<EconomicCreditCardDto>> CreateCreditCard(EconomicCreditCardForCreationDto CreditCard)
         //{
-        //    var calendarToSave = _mapper.Map<Calendar>(calendar);
+        //    var CreditCardToSave = _mapper.Map<CreditCard>(CreditCard);
 
-        //    _calendarRepository.AddCalendar(calendarToSave);
-        //    await _calendarRepository.SaveChangesAsync();
+        //    _CreditCardRepository.AddCreditCard(CreditCardToSave);
+        //    await _CreditCardRepository.SaveChangesAsync();
 
-        //    var calendarToReturn = _mapper.Map<EconomicCalendarDto>(calendarToSave);
+        //    var CreditCardToReturn = _mapper.Map<EconomicCreditCardDto>(CreditCardToSave);
         //    return CreatedAtAction("GetEconomicCalenders",
         //        new
         //        {
-        //            CalendarId = calendarToReturn.CalendarId
+        //            CreditCardId = CreditCardToReturn.CreditCardId
         //        },
-        //        calendarToReturn);
+        //        CreditCardToReturn);
 
         //}
 
-        [HttpPost(Name = "CreateCalendars")]
-        public async Task<ActionResult<IEnumerable<EconomicCalendarDto>>> CreateCalendars([FromBody] List<Calendar> calendars)
+        [HttpPost(Name = "CreateCreditCards")]
+        public async Task<ActionResult<IEnumerable<EconomicCreditCardDto>>> CreateCreditCards([FromBody] List<CreditCard> CreditCards)
         {
-            if (calendars == null || !calendars.Any())
+            if (CreditCards == null || !CreditCards.Any())
             {
-                return BadRequest("List of calendars cannot be empty.");
+                return BadRequest("List of CreditCards cannot be empty.");
             }
 
 
-            await _calendarRepository.AddCalendarsAsync(calendars);
-            await _calendarRepository.SaveChangesAsync();
-            return Ok("Calendars added successfully");
+            await _CreditCardRepository.AddCreditCardsAsync(CreditCards);
+            await _CreditCardRepository.SaveChangesAsync();
+            return Ok("CreditCards added successfully");
         }
 
         [HttpPost("upload")]
@@ -97,33 +92,33 @@ namespace ORION.StockMarket.Controllers
                 MissingFieldFound = null
             });
 
-            var records = csvReader.GetRecords<Calendar>().ToList();
+            var records = csvReader.GetRecords<CreditCard>().ToList();
 
-            //_calendarRepository.People.AddRange(records);
-            await _calendarRepository.AddCalendarsAsync(records);   
-            await _calendarRepository.SaveChangesAsync();
+            //_CreditCardRepository.People.AddRange(records);
+            await _CreditCardRepository.AddCreditCardsAsync(records);   
+            await _CreditCardRepository.SaveChangesAsync();
 
             return Ok("CSV data saved successfully!");
         }
 
         //[HttpPost]
-        //public async Task<ActionResult<Calendar>> GetEcomomicCalendarFromAPI()
+        //public async Task<ActionResult<CreditCard>> GetEcomomicCreditCardFromAPI()
         //{
-        //    var response = await _httpClient.GetAsync("https://api.tradingeconomics.com/calendar?c=e9f95eed6aa6465:blsksmd6c5y89rx");
+        //    var response = await _httpClient.GetAsync("https://api.tradingeconomics.com/CreditCard?c=e9f95eed6aa6465:blsksmd6c5y89rx");
         //    response.EnsureSuccessStatusCode();
         //    var content = await response.Content.ReadAsStringAsync();
-        //    List<Calendar> calendars =
+        //    List<CreditCard> CreditCards =
         //        //if (response.Content.Headers.ContentType.MediaType == "application/json")
         //        //{
-        //        JsonConvert.DeserializeObject<List<Calendar>>(content);
+        //        JsonConvert.DeserializeObject<List<CreditCard>>(content);
         //    //}
         //    //else if (response.Content.Headers.ContentType.MediaType == "application/xml")
         //    //{
-        //    var serializer = new XmlSerializer(typeof(List<Calendar>));
-        //        calendars = (List<Calendar>)serializer.Deserialize(new StringReader(content));
+        //    var serializer = new XmlSerializer(typeof(List<CreditCard>));
+        //        CreditCards = (List<CreditCard>)serializer.Deserialize(new StringReader(content));
         //    //}
 
-        //    return Ok(calendars);
+        //    return Ok(CreditCards);
         //}
 
 

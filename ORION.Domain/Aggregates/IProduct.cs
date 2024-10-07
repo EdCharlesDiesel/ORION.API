@@ -1,14 +1,14 @@
-﻿using DDD.DomainLayer;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Text;
 using ORION.Domain.DTOs;
+using ORION.Domain.Tools;
 
 namespace ORION.Domain.Aggregates
 {
     public interface IProduct: IEntity<int>, IBaseEntity
     {
-        void FullUpdate(IProductFullEditDTO o);
+        void FullUpdate(IProductFullEditDto o);
 
         string ProductName { get;}
 

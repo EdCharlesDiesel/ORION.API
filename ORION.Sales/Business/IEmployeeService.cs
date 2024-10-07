@@ -6,19 +6,19 @@
 //    public interface IEmployeeService
 //    {
 //        event EventHandler<EmployeeIsAbsentEventArgs>? EmployeeIsAbsent;
-//        Task AddCalendarAsync(Calendar Calendar);
-//        Task AttendCourseAsync(Calendar employee, Course attendedCourse);
+//        Task AddCreditCardAsync(CreditCard CreditCard);
+//        Task AttendCourseAsync(CreditCard employee, Course attendedCourse);
 //        ExternalEmployee CreateExternalEmployee(string firstName, 
 //            string lastName, string company);
-//        Calendar CreateCalendar(string firstName, 
+//        CreditCard CreateCreditCard(string firstName, 
 //            string lastName);
-//        Task<Calendar> CreateCalendarAsync(string firstName, 
+//        Task<CreditCard> CreateCreditCardAsync(string firstName, 
 //            string lastName);
-//        Calendar? FetchCalendar(Guid employeeId);
-//        Task<Calendar?> FetchCalendarAsync(Guid employeeId);
-//        Task<IEnumerable<Calendar>> FetchCalendarsAsync();
-//        Task GiveMinimumRaiseAsync(Calendar employee);
-//        Task GiveRaiseAsync(Calendar employee, int raise);
+//        CreditCard? FetchCreditCard(Guid employeeId);
+//        Task<CreditCard?> FetchCreditCardAsync(Guid employeeId);
+//        Task<IEnumerable<CreditCard>> FetchCreditCardsAsync();
+//        Task GiveMinimumRaiseAsync(CreditCard employee);
+//        Task GiveRaiseAsync(CreditCard employee, int raise);
 //        void NotifyOfAbsence(Employee employee);
 //    }
 //}

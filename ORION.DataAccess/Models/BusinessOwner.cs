@@ -1,9 +1,9 @@
 using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
-using DDD.DomainLayer;
 using ORION.Domain.Aggregates;
 using ORION.Domain.Enums;
+using ORION.Domain.Tools;
 using ORION.Domain.Utility;
 
 namespace ORION.DataAccess.Models

@@ -1,13 +1,13 @@
 using System;
-using DDD.DomainLayer;
 using ORION.Domain.DTOs;
+using ORION.Domain.Tools;
 
 namespace ORION.Domain.Aggregates
 {
     //FIXME MAke sure you investigate EmployeeID
     public interface IOrder: IEntity<int>, IBaseEntity
     {
-        void FullUpdate(IOrderFullEditDTO o);
+        void FullUpdate(IOrderFullEditDto o);
 
         int CustomerId { get; set; }
 

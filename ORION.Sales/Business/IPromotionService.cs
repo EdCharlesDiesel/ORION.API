@@ -4,6 +4,6 @@
 //{
 //    public interface IPromotionService
 //    {
-//        Task<bool> PromoteCalendarAsync(Calendar employee);
+//        Task<bool> PromoteCreditCardAsync(CreditCard employee);
 //    }
 //}

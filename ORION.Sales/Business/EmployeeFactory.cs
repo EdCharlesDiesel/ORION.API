@@ -43,7 +43,7 @@
 //            }
 
 //            // create a new employee with default values 
-//            return new Calendar(firstName, lastName, 0, 2500, false, 1);
+//            return new CreditCard(firstName, lastName, 0, 2500, false, 1);
 //        }
 //    }
 //}

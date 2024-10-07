@@ -4,12 +4,12 @@ using ORION.StockMarket.DataAccess.Models;
 
 namespace ORION.StockMarket.MapperProfiles
 {
-    public class EconomicCalendarProfile : Profile
+    public class EconomicCreditCardProfile : Profile
     {
-        public EconomicCalendarProfile()
+        public EconomicCreditCardProfile()
         {
-            CreateMap<Calendar, EconomicCalendarDto>();
-            CreateMap<EconomicCalendarForCreationDto, Calendar>();
+            CreateMap<CreditCard, EconomicCreditCardDto>();
+            CreateMap<EconomicCreditCardForCreationDto, CreditCard>();
 
         }
     }

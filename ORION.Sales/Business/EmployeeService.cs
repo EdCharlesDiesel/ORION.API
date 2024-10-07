@@ -26,7 +26,7 @@
 //            _employeeFactory = employeeFactory;
 //        }
 
-//        public async Task AttendCourseAsync(Calendar employee,
+//        public async Task AttendCourseAsync(CreditCard employee,
 //            Course attendedCourse)
 //        {
 //            var alreadyAttendedCourse = employee.AttendedCourses
@@ -49,7 +49,7 @@
 //                * employee.AttendedCourses.Count * 100;
 //        }
 
-//        public async Task GiveMinimumRaiseAsync(Calendar employee)
+//        public async Task GiveMinimumRaiseAsync(CreditCard employee)
 //        {
 //            employee.Salary += 100;
 //            employee.MinimumRaiseGiven = true;
@@ -58,7 +58,7 @@
 //            await _repository.SaveChangesAsync();
 //        }
 
-//        public async Task GiveRaiseAsync(Calendar employee, int raise)
+//        public async Task GiveRaiseAsync(CreditCard employee, int raise)
 //        {
 //            // raise must be at least 100
 //            if (raise < 100)
@@ -89,9 +89,9 @@
 //            }
 //        }
 
-//        public async Task<Calendar?> FetchCalendarAsync(Guid employeeId)
+//        public async Task<CreditCard?> FetchCreditCardAsync(Guid employeeId)
 //        {
-//            var employee = await _repository.GetCalendarAsync(employeeId);
+//            var employee = await _repository.GetCreditCardAsync(employeeId);
 
 //            if (employee != null)
 //            {
@@ -101,9 +101,9 @@
 //            return employee;
 //        }
 
-//        public async Task<IEnumerable<Calendar>> FetchCalendarsAsync()
+//        public async Task<IEnumerable<CreditCard>> FetchCreditCardsAsync()
 //        {
-//            var employees = await _repository.GetCalendarsAsync();
+//            var employees = await _repository.GetCreditCardsAsync();
 
 //            foreach (var employee in employees)
 //            {
@@ -114,9 +114,9 @@
 //            return employees;
 //        }
 
-//        public Calendar? FetchCalendar(Guid employeeId)
+//        public CreditCard? FetchCreditCard(Guid employeeId)
 //        {
-//            var employee = _repository.GetCalendar(employeeId);
+//            var employee = _repository.GetCreditCard(employeeId);
 
 //            if (employee != null)
 //            {
@@ -126,11 +126,11 @@
 //            return employee;
 //        }
 
-//        public Calendar CreateCalendar(
+//        public CreditCard CreateCreditCard(
 //            string firstName, string lastName)
 //        {
 //            // use the factory to create the object 
-//            var employee = (Calendar)_employeeFactory
+//            var employee = (CreditCard)_employeeFactory
 //                .CreateEmployee(firstName, lastName);
 
 //            // apply business logic 
@@ -152,11 +152,11 @@
 //            return employee;
 //        }
 
-//        public async Task<Calendar> CreateCalendarAsync(
+//        public async Task<CreditCard> CreateCreditCardAsync(
 //           string firstName, string lastName)
 //        {
 //            // use the factory to create the object 
-//            var employee = (Calendar)_employeeFactory.CreateEmployee(
+//            var employee = (CreditCard)_employeeFactory.CreateEmployee(
 //                firstName, lastName);
 
 //            // apply business logic 
@@ -190,9 +190,9 @@
 //            return employee;
 //        }
 
-//        public async Task AddCalendarAsync(Calendar Calendar)
+//        public async Task AddCreditCardAsync(CreditCard CreditCard)
 //        {
-//            _repository.AddCalendar(Calendar);
+//            _repository.AddCreditCard(CreditCard);
 //            await _repository.SaveChangesAsync();
 //        }
 
@@ -210,7 +210,7 @@
 //            EmployeeIsAbsent?.Invoke(this, eventArgs);
 //        }
 
-//        private int CalculateSuggestedBonus(Calendar employee)
+//        private int CalculateSuggestedBonus(CreditCard employee)
 //        {
 //            if (employee.YearsInService == 0)
 //            {

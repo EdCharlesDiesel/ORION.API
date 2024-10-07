@@ -1,13 +1,13 @@
 using System.Collections.Generic;
-using DDD.DomainLayer;
 using ORION.Domain.DTOs;
+using ORION.Domain.Tools;
 
 namespace ORION.Domain.Aggregates
 {
     public interface IShipper: IEntity<int>, IBaseEntity
     {
 
-        void FullUpdate(IShipperFullEditDTO o);
+        void FullUpdate(IShipperFullEditDto o);
             
         string CompanyName { get; set; }
 

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\x\\ORION.API\\ORION.Application\\ORION.Application.csproj": {}
+    "C:\\z\\ORION.API\\ORION.Application\\ORION.Application.csproj": {}
   },
   "projects": {
-    "C:\\x\\ORION.API\\ORION.Application\\ORION.Application.csproj": {
+    "C:\\z\\ORION.API\\ORION.Application\\ORION.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\x\\ORION.API\\ORION.Application\\ORION.Application.csproj",
+        "projectUniqueName": "C:\\z\\ORION.API\\ORION.Application\\ORION.Application.csproj",
         "projectName": "ORION.Application",
-        "projectPath": "C:\\x\\ORION.API\\ORION.Application\\ORION.Application.csproj",
+        "projectPath": "C:\\z\\ORION.API\\ORION.Application\\ORION.Application.csproj",
         "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "C:\\x\\ORION.API\\ORION.Application\\obj\\",
+        "outputPath": "C:\\z\\ORION.API\\ORION.Application\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -29,11 +29,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\x\\ORION.API\\ORION.DataAccess\\ORION.DataAccess.csproj": {
-                "projectPath": "C:\\x\\ORION.API\\ORION.DataAccess\\ORION.DataAccess.csproj"
+              "C:\\z\\ORION.API\\ORION.DataAccess\\ORION.DataAccess.csproj": {
+                "projectPath": "C:\\z\\ORION.API\\ORION.DataAccess\\ORION.DataAccess.csproj"
               },
-              "C:\\x\\ORION.API\\ORION.Sales\\ORION.Sales.csproj": {
-                "projectPath": "C:\\x\\ORION.API\\ORION.Sales\\ORION.Sales.csproj"
+              "C:\\z\\ORION.API\\ORION.Sales\\ORION.Sales.csproj": {
+                "projectPath": "C:\\z\\ORION.API\\ORION.Sales\\ORION.Sales.csproj"
               }
             }
           }
@@ -72,14 +72,14 @@
         }
       }
     },
-    "C:\\x\\ORION.API\\ORION.DataAccess\\ORION.DataAccess.csproj": {
+    "C:\\z\\ORION.API\\ORION.DataAccess\\ORION.DataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\x\\ORION.API\\ORION.DataAccess\\ORION.DataAccess.csproj",
+        "projectUniqueName": "C:\\z\\ORION.API\\ORION.DataAccess\\ORION.DataAccess.csproj",
         "projectName": "ORION.DataAccess",
-        "projectPath": "C:\\x\\ORION.API\\ORION.DataAccess\\ORION.DataAccess.csproj",
+        "projectPath": "C:\\z\\ORION.API\\ORION.DataAccess\\ORION.DataAccess.csproj",
         "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "C:\\x\\ORION.API\\ORION.DataAccess\\obj\\",
+        "outputPath": "C:\\z\\ORION.API\\ORION.DataAccess\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -97,8 +97,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\x\\ORION.API\\ORION.Domain\\ORION.Domain.csproj": {
-                "projectPath": "C:\\x\\ORION.API\\ORION.Domain\\ORION.Domain.csproj"
+              "C:\\z\\ORION.API\\ORION.Domain\\ORION.Domain.csproj": {
+                "projectPath": "C:\\z\\ORION.API\\ORION.Domain\\ORION.Domain.csproj"
               }
             }
           }
@@ -175,14 +175,14 @@
         }
       }
     },
-    "C:\\x\\ORION.API\\ORION.Domain\\ORION.Domain.csproj": {
+    "C:\\z\\ORION.API\\ORION.Domain\\ORION.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\x\\ORION.API\\ORION.Domain\\ORION.Domain.csproj",
+        "projectUniqueName": "C:\\z\\ORION.API\\ORION.Domain\\ORION.Domain.csproj",
         "projectName": "ORION.Domain",
-        "projectPath": "C:\\x\\ORION.API\\ORION.Domain\\ORION.Domain.csproj",
+        "projectPath": "C:\\z\\ORION.API\\ORION.Domain\\ORION.Domain.csproj",
         "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "C:\\x\\ORION.API\\ORION.Domain\\obj\\",
+        "outputPath": "C:\\z\\ORION.API\\ORION.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -217,6 +217,10 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Http.Features": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
             "Microsoft.Extensions.DependencyInjection": {
               "target": "Package",
               "version": "[5.0.0, )"
@@ -246,14 +250,14 @@
         }
       }
     },
-    "C:\\x\\ORION.API\\ORION.Person\\ORION.Person.csproj": {
+    "C:\\z\\ORION.API\\ORION.Sales\\ORION.Sales.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\x\\ORION.API\\ORION.Person\\ORION.Person.csproj",
-        "projectName": "ORION.Person",
-        "projectPath": "C:\\x\\ORION.API\\ORION.Person\\ORION.Person.csproj",
+        "projectUniqueName": "C:\\z\\ORION.API\\ORION.Sales\\ORION.Sales.csproj",
+        "projectName": "ORION.Sales",
+        "projectPath": "C:\\z\\ORION.API\\ORION.Sales\\ORION.Sales.csproj",
         "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "C:\\x\\ORION.API\\ORION.Person\\obj\\",
+        "outputPath": "C:\\z\\ORION.API\\ORION.Sales\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -290,107 +294,15 @@
           "dependencies": {
             "AutoMapper.Extensions.Microsoft.DependencyInjection": {
               "target": "Package",
-              "version": "[11.0.0, )"
+              "version": "[12.0.0, )"
             },
             "Microsoft.AspNet.WebApi.Core": {
               "target": "Package",
               "version": "[5.3.0, )"
             },
-            "Microsoft.EntityFrameworkCore": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
               "target": "Package",
-              "version": "[6.0.2, )"
-            },
-            "Microsoft.EntityFrameworkCore.Sqlite": {
-              "target": "Package",
-              "version": "[6.0.2, )"
-            },
-            "Microsoft.EntityFrameworkCore.Tools": {
-              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[6.0.2, )"
-            },
-            "Swashbuckle.AspNetCore": {
-              "target": "Package",
-              "version": "[6.2.3, )"
-            }
-          },
-          "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48",
-            "net481"
-          ],
-          "assetTargetFallback": true,
-          "warn": true,
-          "frameworkReferences": {
-            "Microsoft.AspNetCore.App": {
-              "privateAssets": "none"
-            },
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302/PortableRuntimeIdentifierGraph.json"
-        }
-      }
-    },
-    "C:\\x\\ORION.API\\ORION.Sales\\ORION.Sales.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "C:\\x\\ORION.API\\ORION.Sales\\ORION.Sales.csproj",
-        "projectName": "ORION.Sales",
-        "projectPath": "C:\\x\\ORION.API\\ORION.Sales\\ORION.Sales.csproj",
-        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "C:\\x\\ORION.API\\ORION.Sales\\obj\\",
-        "projectStyle": "PackageReference",
-        "configFilePaths": [
-          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
-        ],
-        "originalTargetFrameworks": [
-          "net8.0"
-        ],
-        "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
-          "https://api.nuget.org/v3/index.json": {}
-        },
-        "frameworks": {
-          "net8.0": {
-            "targetAlias": "net8.0",
-            "projectReferences": {
-              "C:\\x\\ORION.API\\ORION.Person\\ORION.Person.csproj": {
-                "projectPath": "C:\\x\\ORION.API\\ORION.Person\\ORION.Person.csproj"
-              }
-            }
-          }
-        },
-        "warningProperties": {
-          "warnAsError": [
-            "NU1605"
-          ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
-        }
-      },
-      "frameworks": {
-        "net8.0": {
-          "targetAlias": "net8.0",
-          "dependencies": {
-            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
-              "target": "Package",
-              "version": "[11.0.0, )"
-            },
-            "Microsoft.AspNet.WebApi.Core": {
-              "target": "Package",
-              "version": "[5.3.0, )"
+              "version": "[8.0.8, )"
             },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
@@ -400,9 +312,9 @@
               "target": "Package",
               "version": "[8.0.8, )"
             },
-            "Microsoft.EntityFrameworkCore.Sqlite": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
-              "version": "[6.0.2, )"
+              "version": "[8.0.6, )"
             },
             "Microsoft.EntityFrameworkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
@@ -413,6 +325,10 @@
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.2.3, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[7.1.2, )"
             }
           },
           "imports": [

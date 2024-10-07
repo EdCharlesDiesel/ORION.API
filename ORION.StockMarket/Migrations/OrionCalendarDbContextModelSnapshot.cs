@@ -10,8 +10,8 @@ using ORION.StockMarket.DataAccess.DbContexts;
 
 namespace ORION.StockMarket.Migrations
 {
-    [DbContext(typeof(OrionCalendarDbContext))]
-    partial class OrionCalendarDbContextModelSnapshot : ModelSnapshot
+    [DbContext(typeof(OrionCreditCardDbContext))]
+    partial class OrionCreditCardDbContextModelSnapshot : ModelSnapshot
     {
         protected override void BuildModel(ModelBuilder modelBuilder)
         {
@@ -22,14 +22,14 @@ namespace ORION.StockMarket.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
 
-            modelBuilder.Entity("ORION.StockMarket.DataAccess.Entities.Calendar", b =>
+            modelBuilder.Entity("ORION.StockMarket.DataAccess.Entities.CreditCard", b =>
                 {
-                    b.Property<int>("CalendarId")
+                    b.Property<int>("CreditCardId")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int")
-                        .HasColumnName("CalendarId");
+                        .HasColumnName("CreditCardId");
 
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("CalendarId"));
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("CreditCardId"));
 
                     b.Property<string>("Actual")
                         .IsRequired()
@@ -141,9 +141,9 @@ namespace ORION.StockMarket.Migrations
                         .HasColumnType("nvarchar(max)")
                         .HasColumnName("Unit");
 
-                    b.HasKey("CalendarId");
+                    b.HasKey("CreditCardId");
 
-                    b.ToTable("Calendar", "StockMarket");
+                    b.ToTable("CreditCard", "StockMarket");
                 });
 #pragma warning restore 612, 618
         }

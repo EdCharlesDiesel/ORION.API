@@ -5,10 +5,10 @@ namespace ORION.Admin.Commands
 {
     public class CreateCustomerCommand: ICommand
     {
-        public CreateCustomerCommand(ICustomerFullEditDTO values)
+        public CreateCustomerCommand(ICustomerFullEditDto values)
         {
             Values = values;
         }
-        public ICustomerFullEditDTO Values { get; private set; }
+        public ICustomerFullEditDto Values { get; private set; }
     }
 }

@@ -5,33 +5,33 @@ using ORION.StockMarket.DataAccess.Entities;
 
 namespace ORION.StockMarket.DataAccess.Services
 {
-    public class CalendarRepository: ICalendarRepository
+    public class CreditCardRepository: ICreditCardRepository
     {
-        private readonly OrionCalendarDbContext _context;
+        private readonly OrionCreditCardDbContext _context;
 
-        public CalendarRepository(OrionCalendarDbContext context)
+        public CreditCardRepository(OrionCreditCardDbContext context)
         {
             _context = context ?? throw new ArgumentNullException(nameof(context));
         }
 
-        public async Task<IEnumerable<Calendar>> GetCalendarsAsync()
+        public async Task<IEnumerable<CreditCard>> GetCreditCardsAsync()
         {
-            return await _context.Calendars.ToListAsync(); 
+            return await _context.CreditCards.ToListAsync(); 
         }
 
-        public async Task<Calendar?> GetCalendarAsync(int calendarId)
+        public async Task<CreditCard?> GetCreditCardAsync(int CreditCardId)
         {
-            return await _context.Calendars.FirstOrDefaultAsync(e => e.CalendarId == calendarId);
+            return await _context.CreditCards.FirstOrDefaultAsync(e => e.CreditCardId == CreditCardId);
         }
 
-        public EntityEntry<Calendar> AddCalendar(Calendar calendar)
+        public EntityEntry<CreditCard> AddCreditCard(CreditCard CreditCard)
         {
-          return  _context.Calendars.Add(calendar);
+          return  _context.CreditCards.Add(CreditCard);
         }   
 
-        public async Task AddCalendarsAsync(IEnumerable<Calendar> calendars)
+        public async Task AddCreditCardsAsync(IEnumerable<CreditCard> CreditCards)
         { 
-            await _context.Calendars.AddRangeAsync(calendars);
+            await _context.CreditCards.AddRangeAsync(CreditCards);
         }
 
         public async Task SaveChangesAsync()

@@ -15,11 +15,11 @@ namespace ORION.StockMarket.Migrations
                 name: "StockMarket");
 
             migrationBuilder.CreateTable(
-                name: "Calendar",
+                name: "CreditCard",
                 schema: "StockMarket",
                 columns: table => new
                 {
-                    CalendarId = table.Column<int>(type: "int", nullable: false)
+                    CreditCardId = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
                     Date = table.Column<DateTime>(type: "datetime2", nullable: false),
                     Country = table.Column<string>(type: "nvarchar(100)", maxLength: 100, nullable: false),
@@ -44,7 +44,7 @@ namespace ORION.StockMarket.Migrations
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_Calendar", x => x.CalendarId);
+                    table.PrimaryKey("PK_CreditCard", x => x.CreditCardId);
                 });
         }
 
@@ -52,7 +52,7 @@ namespace ORION.StockMarket.Migrations
         protected override void Down(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.DropTable(
-                name: "Calendar",
+                name: "CreditCard",
                 schema: "StockMarket");
         }
     }

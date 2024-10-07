@@ -1,12 +1,12 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace DDD.DomainLayer
+namespace ORION.Domain.Tools
 {
-    public interface IEntity<K>
-        where K : IEquatable<K>
+    public interface IEntity<TK>
+        where TK : IEquatable<TK>
     {
-        K Id { get; }
+        TK Id { get; }
         bool IsTransient();
         List<IEventNotification> DomainEvents { get; }
         void AddDomainEvent(IEventNotification evt);

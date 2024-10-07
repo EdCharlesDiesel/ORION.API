@@ -1,8 +1,8 @@
 using System;
 
-namespace ORION.DataAccess.Models
+namespace ORION.Domain.DTOs
 {
-    public interface IOrderDetailFullEditDTO
+    public interface IOrderDetailFullEditDto
     {
         int Id { get; set; }
         

@@ -1,8 +1,0 @@
-C:\x\ORION.API\ORION.Sales.Test\bin\Debug\net8.0\.msCoverageSourceRootsMapping_ORION.Sales.Test
-C:\x\ORION.API\ORION.Sales.Test\bin\Debug\net8.0\CoverletSourceRootsMapping_ORION.Sales.Test
-C:\x\ORION.API\ORION.Sales.Test\obj\Debug\net8.0\ORION.Sales.Test.csproj.AssemblyReference.cache
-C:\x\ORION.API\ORION.Sales.Test\obj\Debug\net8.0\ORION.Sales.Test.GeneratedMSBuildEditorConfig.editorconfig
-C:\x\ORION.API\ORION.Sales.Test\obj\Debug\net8.0\ORION.Sales.Test.AssemblyInfoInputs.cache
-C:\x\ORION.API\ORION.Sales.Test\obj\Debug\net8.0\ORION.Sales.Test.AssemblyInfo.cs
-C:\x\ORION.API\ORION.Sales.Test\obj\Debug\net8.0\ORION.Sales.Test.csproj.CoreCompileInputs.cache
-C:\x\ORION.API\ORION.Sales.Test\obj\Debug\net8.0\ORION.Sales.Test.sourcelink.json

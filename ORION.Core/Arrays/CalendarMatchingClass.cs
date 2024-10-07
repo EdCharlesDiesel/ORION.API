@@ -1,53 +1,53 @@
 ﻿namespace ORION.Core.Arrays
 {
-    public class CalendarMatchingClass
+    public class CreditCardMatchingClass
     {
-        // O(c1 + c2) time | O(c1 + c2) space - where c1 and c2 are the respective numbers of meetings in calendar1 and calendar2
-        //public static List<StringMeeting> CalendarMatchingClass(
-        //List<StringMeeting> calendar1,
+        // O(c1 + c2) time | O(c1 + c2) space - where c1 and c2 are the respective numbers of meetings in CreditCard1 and CreditCard2
+        //public static List<StringMeeting> CreditCardMatchingClass(
+        //List<StringMeeting> CreditCard1,
         //StringMeeting dailyBounds1,
-        //List<StringMeeting> calendar2,
+        //List<StringMeeting> CreditCard2,
         //StringMeeting dailyBounds2,
         //int meetingDuration
         //)
         //{
-        //    List<Meeting> updatedCalendar1 = updateCalendar(calendar1, dailyBounds1);
-        //    List<Meeting> updatedCalendar2 = updateCalendar(calendar2, dailyBounds2);
-        //    List<Meeting> mergedCalendar = mergeCalendars(updatedCalendar1, updatedCalendar2);
-        //    List<Meeting> flattenedCalendar = flattenCalendar(mergedCalendar);
-        //    return getMatchingAvailabilities(flattenedCalendar, meetingDuration);
+        //    List<Meeting> updatedCreditCard1 = updateCreditCard(CreditCard1, dailyBounds1);
+        //    List<Meeting> updatedCreditCard2 = updateCreditCard(CreditCard2, dailyBounds2);
+        //    List<Meeting> mergedCreditCard = mergeCreditCards(updatedCreditCard1, updatedCreditCard2);
+        //    List<Meeting> flattenedCreditCard = flattenCreditCard(mergedCreditCard);
+        //    return getMatchingAvailabilities(flattenedCreditCard, meetingDuration);
         //}
-        //public static List<Meeting> updateCalendar(
-        //List<StringMeeting> calendar,
+        //public static List<Meeting> updateCreditCard(
+        //List<StringMeeting> CreditCard,
         //StringMeeting dailyBounds
         //)
         //{
-        //    List<StringMeeting> updatedCalendar = new List<StringMeeting>();
-        //    updatedCalendar.Add(new StringMeeting("0:00", dailyBounds.start));
-        //    updatedCalendar.AddRange(calendar);
-        //    updatedCalendar.Add(new StringMeeting(dailyBounds.end, "23:59"));
-        //    List<Meeting> calendarInMinutes = new List<Meeting>();
-        //    for (int i = 0; i < updatedCalendar.Count; i++)
+        //    List<StringMeeting> updatedCreditCard = new List<StringMeeting>();
+        //    updatedCreditCard.Add(new StringMeeting("0:00", dailyBounds.start));
+        //    updatedCreditCard.AddRange(CreditCard);
+        //    updatedCreditCard.Add(new StringMeeting(dailyBounds.end, "23:59"));
+        //    List<Meeting> CreditCardInMinutes = new List<Meeting>();
+        //    for (int i = 0; i < updatedCreditCard.Count; i++)
         //    {
-        //        calendarInMinutes.Add(new Meeting(
-        //        timeToMinutes(updatedCalendar[i].start),
-        //        timeToMinutes(updatedCalendar[i].end)
+        //        CreditCardInMinutes.Add(new Meeting(
+        //        timeToMinutes(updatedCreditCard[i].start),
+        //        timeToMinutes(updatedCreditCard[i].end)
         //        ));
         //    }
-        //    return calendarInMinutes;
+        //    return CreditCardInMinutes;
         //}
-        //public static List<Meeting> mergeCalendars(
-        //List<Meeting> calendar1,
-        //List<Meeting> calendar2
+        //public static List<Meeting> mergeCreditCards(
+        //List<Meeting> CreditCard1,
+        //List<Meeting> CreditCard2
         //)
         //{
         //    List<Meeting> merged = new List<Meeting>();
         //    int i = 0;
         //    int j = 0;
-        //    while (i < calendar1.Count && j < calendar2.Count)
+        //    while (i < CreditCard1.Count && j < CreditCard2.Count)
         //    {
-        //        Meeting meeting1 = calendar1[i];
-        //        Meeting meeting2 = calendar2[j];
+        //        Meeting meeting1 = CreditCard1[i];
+        //        Meeting meeting2 = CreditCard2[j];
         //        if (meeting1.start < meeting2.start)
         //        {
         //            merged.Add(meeting1);
@@ -59,17 +59,17 @@
         //            j++;
         //        }
         //    }
-        //    while (i < calendar1.Count) merged.Add(calendar1[i++]);
-        //    while (j < calendar2.Count) merged.Add(calendar2[j++]);
+        //    while (i < CreditCard1.Count) merged.Add(CreditCard1[i++]);
+        //    while (j < CreditCard2.Count) merged.Add(CreditCard2[j++]);
         //    return merged;
         //}
-        //public static List<Meeting> flattenCalendar(List<Meeting> calendar)
+        //public static List<Meeting> flattenCreditCard(List<Meeting> CreditCard)
         //{
         //    List<Meeting> flattened = new List<Meeting>();
-        //    flattened.Add(calendar[0]);
-        //    for (int i = 1; i < calendar.Count; i++)
+        //    flattened.Add(CreditCard[0]);
+        //    for (int i = 1; i < CreditCard.Count; i++)
         //    {
-        //        Meeting currentMeeting = calendar[i];
+        //        Meeting currentMeeting = CreditCard[i];
         //        Meeting previousMeeting = flattened[flattened.Count - 1];
         //        if (previousMeeting.end >= currentMeeting.start)
         //        {
@@ -87,15 +87,15 @@
         //    return flattened;
         //}
         //public static List<StringMeeting> getMatchingAvailabilities(
-        //List<Meeting> calendar,
+        //List<Meeting> CreditCard,
         //int meetingDuration
         //)
         //{
         //    List<Meeting> matchingAvailabilities = new List<Meeting>();
-        //    for (int i = 1; i < calendar.Count; i++)
+        //    for (int i = 1; i < CreditCard.Count; i++)
         //    {
-        //        int start = calendar[i - 1].end;
-        //        int end = calendar[i].start;
+        //        int start = CreditCard[i - 1].end;
+        //        int end = CreditCard[i].start;
         //        int availabilityDuration = end - start;
         //        if (availabilityDuration >= meetingDuration)
         //        {

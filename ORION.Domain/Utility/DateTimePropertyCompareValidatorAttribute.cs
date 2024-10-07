@@ -8,15 +8,15 @@ namespace ORION.Domain.Utility
     public class DateTimePropertyCompareValidatorAttribute
         : ValidationAttribute
     {
-        private DateTimeCompareTypeEnum _CompareType;
-        private string _OtherPropertyName;
+        private readonly DateTimeCompareTypeEnum _compareType;
+        private readonly string _otherPropertyName;
 
         public DateTimePropertyCompareValidatorAttribute(
             DateTimeCompareTypeEnum compareType,
             string otherPropertyName)
         {
-            _CompareType = compareType;
-            _OtherPropertyName = otherPropertyName;
+            _compareType = compareType;
+            _otherPropertyName = otherPropertyName;
         }
         protected override ValidationResult IsValid(
             object value,
@@ -52,7 +52,7 @@ namespace ORION.Domain.Utility
             object otherValue = null;
 
             PropertyInfo otherPropertyInfo =
-                validationContext.ObjectType.GetProperty(_OtherPropertyName);
+                validationContext.ObjectType.GetProperty(_otherPropertyName);
 
             if (otherPropertyInfo == null)
             {
@@ -83,7 +83,7 @@ namespace ORION.Domain.Utility
                 }
             }
 
-            if (_CompareType == DateTimeCompareTypeEnum.GreaterThan)
+            if (_compareType == DateTimeCompareTypeEnum.GreaterThan)
             {
                 if (valueAsDateTime == default(DateTime) ||
                     valueAsDateTime > otherValueAsDateTime)
@@ -96,7 +96,7 @@ namespace ORION.Domain.Utility
                         String.Format(
                             "{0} should be greater than {1}.",
                             validationContext.DisplayName,
-                            _OtherPropertyName));
+                            _otherPropertyName));
                 }
             }
             else
@@ -112,7 +112,7 @@ namespace ORION.Domain.Utility
                         String.Format(
                             "{0} should be less than {1}.",
                             validationContext.DisplayName,
-                            _OtherPropertyName));
+                            _otherPropertyName));
                 }
             }
         }

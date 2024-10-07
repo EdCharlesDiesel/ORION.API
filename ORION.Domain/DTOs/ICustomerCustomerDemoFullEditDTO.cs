@@ -1,6 +1,6 @@
-namespace ORION.DataAccess.Models
+namespace ORION.Domain.DTOs
 {
-    public interface ICustomerCustomerDemoFullEditDTO
+    public interface ICustomerCustomerDemoFullEditDto
     {
         int Id { get; set; }    
      
