@@ -1,0 +1,77 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\x\\ORION.API\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D82902E4-C571-40B0-B4F2-AE995FB02AF3}|ORION.Sales\\ORION.Sales.csproj|c:\\x\\orion.api\\orion.sales\\orion.sales.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{D82902E4-C571-40B0-B4F2-AE995FB02AF3}|ORION.Sales\\ORION.Sales.csproj|solutionrelative:orion.sales\\orion.sales.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C9186B3-E7E1-4DDA-842F-112F74E5EF3B}|ORION.Core.Tests\\ORION.Core.Tests.csproj|c:\\x\\orion.api\\orion.core.tests\\strings\\reversestringunittest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C9186B3-E7E1-4DDA-842F-112F74E5EF3B}|ORION.Core.Tests\\ORION.Core.Tests.csproj|solutionrelative:orion.core.tests\\strings\\reversestringunittest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0174dea2-fdbe-4ef1-8f99-c0beae78880f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ORION.Sales.csproj",
+              "DocumentMoniker": "C:\\x\\ORION.API\\ORION.Sales\\ORION.Sales.csproj",
+              "RelativeDocumentMoniker": "ORION.Sales\\ORION.Sales.csproj",
+              "ToolTip": "C:\\x\\ORION.API\\ORION.Sales\\ORION.Sales.csproj",
+              "RelativeToolTip": "ORION.Sales\\ORION.Sales.csproj",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAxwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-10-31T08:10:47.678Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ReverseStringUnitTest.cs",
+              "DocumentMoniker": "C:\\x\\ORION.API\\ORION.Core.Tests\\Strings\\ReverseStringUnitTest.cs",
+              "RelativeDocumentMoniker": "ORION.Core.Tests\\Strings\\ReverseStringUnitTest.cs",
+              "ToolTip": "C:\\x\\ORION.API\\ORION.Core.Tests\\Strings\\ReverseStringUnitTest.cs",
+              "RelativeToolTip": "ORION.Core.Tests\\Strings\\ReverseStringUnitTest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-28T07:48:15.6Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

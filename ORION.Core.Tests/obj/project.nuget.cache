@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "S/eOwMW+Afg=",
+  "dgSpecHash": "OV+8UPBtrh0=",
   "success": true,
-  "projectFilePath": "C:\\z\\ORION.API\\ORION.Core.Tests\\ORION.Core.Tests.csproj",
+  "projectFilePath": "C:\\x\\ORION.API\\ORION.Core.Tests\\ORION.Core.Tests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\user\\.nuget\\packages\\coverlet.collector\\6.0.0\\coverlet.collector.6.0.0.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\microsoft.codecoverage\\17.8.0\\microsoft.codecoverage.17.8.0.nupkg.sha512",

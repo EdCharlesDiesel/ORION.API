@@ -11,7 +11,6 @@ namespace ORION.DataAccess.Models;
 /// </summary>
 //[PrimaryKey("CountryRegionCode", "CurrencyCode")]
 [Table("CountryRegionCurrency", Schema = "Sales")]
-[Index("CurrencyCode", Name = "IX_CountryRegionCurrency_CurrencyCode")]
 public partial class CountryRegionCurrency
 {
     /// <summary>

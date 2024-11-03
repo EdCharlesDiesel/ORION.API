@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ORION.Application")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+37c708fd33a63b38b500c28731666b73aec77a21")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6649548598a38628ac6200638cf93b10d4061ff5")]
 [assembly: System.Reflection.AssemblyProductAttribute("ORION.Application")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ORION.Application")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

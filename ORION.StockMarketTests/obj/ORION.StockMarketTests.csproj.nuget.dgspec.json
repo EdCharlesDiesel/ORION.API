@@ -1,36 +1,40 @@
 {
   "format": 1,
   "restore": {
-    "C:\\z\\ORION.API\\ORION.StockMarketTests\\ORION.StockMarketTests.csproj": {}
+    "C:\\x\\ORION.API\\ORION.StockMarketTests\\ORION.StockMarketTests.csproj": {}
   },
   "projects": {
-    "C:\\z\\ORION.API\\ORION.StockMarketTests\\ORION.StockMarketTests.csproj": {
+    "C:\\x\\ORION.API\\ORION.StockMarketTests\\ORION.StockMarketTests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\z\\ORION.API\\ORION.StockMarketTests\\ORION.StockMarketTests.csproj",
+        "projectUniqueName": "C:\\x\\ORION.API\\ORION.StockMarketTests\\ORION.StockMarketTests.csproj",
         "projectName": "ORION.StockMarketTests",
-        "projectPath": "C:\\z\\ORION.API\\ORION.StockMarketTests\\ORION.StockMarketTests.csproj",
+        "projectPath": "C:\\x\\ORION.API\\ORION.StockMarketTests\\ORION.StockMarketTests.csproj",
         "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "C:\\z\\ORION.API\\ORION.StockMarketTests\\obj\\",
+        "outputPath": "C:\\x\\ORION.API\\ORION.StockMarketTests\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
           "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "C:\\Program Files\\dotnet\\library-packs": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {},
+          "https://contoso.com/packages/": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\z\\ORION.API\\ORION.StockMarket\\ORION.StockMarket.csproj": {
-                "projectPath": "C:\\z\\ORION.API\\ORION.StockMarket\\ORION.StockMarket.csproj"
+              "C:\\x\\ORION.API\\ORION.StockMarket\\ORION.StockMarket.csproj": {
+                "projectPath": "C:\\x\\ORION.API\\ORION.StockMarket\\ORION.StockMarket.csproj"
               }
             }
           }
@@ -91,30 +95,34 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.402/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\z\\ORION.API\\ORION.StockMarket\\ORION.StockMarket.csproj": {
+    "C:\\x\\ORION.API\\ORION.StockMarket\\ORION.StockMarket.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\z\\ORION.API\\ORION.StockMarket\\ORION.StockMarket.csproj",
+        "projectUniqueName": "C:\\x\\ORION.API\\ORION.StockMarket\\ORION.StockMarket.csproj",
         "projectName": "ORION.StockMarket",
-        "projectPath": "C:\\z\\ORION.API\\ORION.StockMarket\\ORION.StockMarket.csproj",
+        "projectPath": "C:\\x\\ORION.API\\ORION.StockMarket\\ORION.StockMarket.csproj",
         "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "C:\\z\\ORION.API\\ORION.StockMarket\\obj\\",
+        "outputPath": "C:\\x\\ORION.API\\ORION.StockMarket\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
           "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "C:\\Program Files\\dotnet\\library-packs": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {},
+          "https://contoso.com/packages/": {}
         },
         "frameworks": {
           "net8.0": {
@@ -191,7 +199,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.402/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

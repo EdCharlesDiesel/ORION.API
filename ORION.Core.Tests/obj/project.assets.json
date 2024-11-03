@@ -5524,35 +5524,40 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\user\\.nuget\\packages\\": {}
+    "C:\\Users\\user\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\z\\ORION.API\\ORION.Core.Tests\\ORION.Core.Tests.csproj",
+      "projectUniqueName": "C:\\x\\ORION.API\\ORION.Core.Tests\\ORION.Core.Tests.csproj",
       "projectName": "ORION.Core.Tests",
-      "projectPath": "C:\\z\\ORION.API\\ORION.Core.Tests\\ORION.Core.Tests.csproj",
+      "projectPath": "C:\\x\\ORION.API\\ORION.Core.Tests\\ORION.Core.Tests.csproj",
       "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-      "outputPath": "C:\\z\\ORION.API\\ORION.Core.Tests\\obj\\",
+      "outputPath": "C:\\x\\ORION.API\\ORION.Core.Tests\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
         "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "C:\\Program Files\\dotnet\\library-packs": {},
-        "https://api.nuget.org/v3/index.json": {}
+        "https://api.nuget.org/v3/index.json": {},
+        "https://contoso.com/packages/": {}
       },
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\z\\ORION.API\\ORION.Core\\ORION.Core.csproj": {
-              "projectPath": "C:\\z\\ORION.API\\ORION.Core\\ORION.Core.csproj"
+            "C:\\x\\ORION.API\\ORION.Core\\ORION.Core.csproj": {
+              "projectPath": "C:\\x\\ORION.API\\ORION.Core\\ORION.Core.csproj"
             }
           }
         }
@@ -5605,7 +5610,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.402/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
